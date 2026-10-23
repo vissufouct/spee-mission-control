@@ -1,0 +1,29 @@
+{
+  "id": "eaca1430-ff60-11ef-9d6f-25fcf8131a30",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Xerinda",
+    "id": "5b081d4d8859f57bdc7b8ddd-OZ3QzzBTQTigfrGZLBxxZ",
+    "email": "armenio.consultmoz@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-03-12T17:07:19.019Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:07:19.019Z",
+      "msg": "Nome : ISCIM/Xerinda\r\nE-mail : armenio.consultmoz@gmail.com\r\nDescrição do Problema : Recebo o pedido de convinte para a constituição da empresa, poréom a plataforma não da espaço para aceitar o convite, ou o convite não demostra os dados do convite."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

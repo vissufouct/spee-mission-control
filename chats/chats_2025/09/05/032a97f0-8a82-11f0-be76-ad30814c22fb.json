@@ -1,0 +1,29 @@
+{
+  "id": "032a97f0-8a82-11f0-be76-ad30814c22fb",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISG/Cuinica",
+    "id": "5b081d4d8859f57bdc7b8ddd-gNhe_GxABByZY8ueM979D",
+    "email": "cuinicacelia7@gmail.com"
+  },
+  "location": {
+    "countryCode": "US",
+    "city": "Chicago"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-09-05T18:27:09.985Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-05T18:27:09.985Z",
+      "msg": "Nome : ISG/Cuinica\r\nTelefone : 258843679263\r\nE-mail : cuinicacelia7@gmail.com\r\nDescrição do Problema : Boa noite, tudo bem? gostava de reportar sobre um problema que tenho no sistema, nao consigo acessar a listagem dos meus funcionarios"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

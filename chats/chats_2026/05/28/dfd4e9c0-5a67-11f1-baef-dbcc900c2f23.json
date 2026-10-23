@@ -1,0 +1,29 @@
+{
+  "id": "dfd4e9c0-5a67-11f1-baef-dbcc900c2f23",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "SHEM HST",
+    "id": "5b081d4d8859f57bdc7b8ddd-ddywZAAIUdpxJmdTEFBcR",
+    "email": "shemhst@spee.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-28T07:43:32.809Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-28T07:43:32.809Z",
+      "msg": "Name : SHEM HST\r\nEmail : Shemhst@spee.com\r\nPhone : +25882827170820\r\nDescrição do Problema : Bom dia\nNão consigo fazer contractos"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

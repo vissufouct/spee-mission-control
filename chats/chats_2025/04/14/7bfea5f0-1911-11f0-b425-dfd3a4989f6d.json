@@ -1,0 +1,29 @@
+{
+  "id": "7bfea5f0-1911-11f0-b425-dfd3a4989f6d",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Daúdo",
+    "id": "5b081d4d8859f57bdc7b8ddd-Vi5v8Vz8zfsnUMa2fzSE2",
+    "email": "primeshuttles2001@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-04-14T09:34:40.460Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-14T09:34:40.460Z",
+      "msg": "Nome : ISCIM/Daúdo\r\nE-mail : primeshuttles2001@gmail.com\r\nDescrição do Problema : Quero saber onde ficam as ong e governo?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

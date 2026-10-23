@@ -1,0 +1,147 @@
+{
+  "id": "19a6cf90-6c63-11f0-9497-3f5e0da2a4f2",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISDB/Guilherme",
+    "id": "5b081d4d8859f57bdc7b8ddd-oqOwUm3YJrQ_bL31depur",
+    "email": "augustoguilhermeag43@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 15,
+  "chatDuration": 484,
+  "rating": 0,
+  "createdOn": "2025-07-29T10:05:56.671Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-29T10:05:56.671Z",
+      "msg": "Nome : ISDB/Guilherme\r\nTelefone : 258873380026\r\nE-mail : augustoguilhermeag43@gmail.com\r\nDescrição do Problema : Havia criado uma empresa mas não encontro mais. Como faço para achar?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-29T10:06:30.069Z",
+      "msg": "Boa tarde"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-29T10:06:43.957Z",
+      "msg": "Nome da empresa: Nenele Agro Service"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-29T10:06:53.381Z",
+      "msg": "quando entra na conta do spee,  a empresa já não aparece?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-29T10:07:09.079Z",
+      "msg": "Não aparece"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-29T10:07:09.127Z",
+      "msg": "quando foi que criou a empresa?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-29T10:07:23.197Z",
+      "msg": "Já faz uma semana"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-29T10:07:54.224Z",
+      "msg": "Foi criada no dia 21.07.25"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-29T10:08:22.978Z",
+      "msg": "A empresa AgroVita?\nA quem pertence?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-29T10:09:03.236Z",
+      "msg": "É uma sociedade composta por 5 membros"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-29T10:09:47.185Z",
+      "msg": "Umas das minhas colegas não consegue receber o convite porque acabei associando-a na empresa que não encontro"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-29T10:10:37.484Z",
+      "msg": "Não estou a perceber"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-29T10:10:47.819Z",
+      "msg": "qual é o problema?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-29T10:11:32.216Z",
+      "msg": "É seguinte:"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-29T10:14:00.263Z",
+      "msg": "A empresa nenele agro Service  criei sozinho. Mas em coletivo criamos uma sociedade Agrovita. Mas um dos membros não recebeu o convite para se associar a esta empresa Agrovita porque está associada a a empresa nenele agro Service"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

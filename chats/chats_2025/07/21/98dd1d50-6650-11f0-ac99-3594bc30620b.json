@@ -1,0 +1,38 @@
+{
+  "id": "98dd1d50-6650-11f0-ac99-3594bc30620b",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A&F Escritório Criativo,Lda/4002858023",
+    "id": "5b081d4d8859f57bdc7b8ddd-jOFeIgfnKRHkSXBAupDXW",
+    "email": "anettedosanjosdonca@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 2,
+  "chatDuration": 182,
+  "rating": 0,
+  "createdOn": "2025-07-21T17:51:18.266Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-21T17:51:18.266Z",
+      "msg": "Nome : A&F Escritório Criativo,Lda/4002858023\r\nTelefone : 258848517837\r\nE-mail : anettedosanjosdonca@gmail.com\r\nDescrição do Problema : As nossas inquietações sao: não aparecem os clientes que cadastrados e nao reconhece os produtos cadastrados como stock o que me impede de fazer a compra de stock para venda"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-21T17:54:20.188Z",
+      "msg": "Boa noite \nNão percebi a dúvida"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

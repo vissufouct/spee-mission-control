@@ -1,0 +1,79 @@
+{
+  "id": "1aded2f0-3caf-11f1-a86e-1f9238bcd1ad",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/francisco",
+    "id": "5b081d4d8859f57bdc7b8ddd-DPHIkE7QXCUQSQ6BRkvXn",
+    "email": "muazitefrancisco23@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 7,
+  "chatDuration": 353,
+  "rating": 0,
+  "createdOn": "2026-04-20T11:57:28.437Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T11:57:28.437Z",
+      "msg": "Nome : ISCIM/francisco\r\nTelefone : 25851741250\r\nE-mail : muazitefrancisco23@gmail.com\r\nDescrição do Problema : ola tudo bem, nao consigo cadastrar me como faco peco ajuda"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T11:58:50.369Z",
+      "msg": "peco que ajude me a cadastrar me e nao so tem alguns itens que nao consigo imprimir por demostrar erro porexemplo a analise macroeconomia"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T11:59:21.122Z",
+      "msg": "Cadastra-se aonde? no sistema?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T11:59:34.675Z",
+      "msg": "sim"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T12:00:39.869Z",
+      "msg": "por exemplo no campo dados do empreendedor nao consigo adicionar outro empreendedor"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T12:02:39.134Z",
+      "msg": "Um momento por favor"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T12:03:21.253Z",
+      "msg": "esta bem"
+    }
+  ],
+  "domain": "planodenegocios.simulacao.co.mz"
+}

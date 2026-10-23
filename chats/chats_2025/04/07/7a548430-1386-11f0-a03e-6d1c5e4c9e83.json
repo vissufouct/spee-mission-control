@@ -1,0 +1,29 @@
+{
+  "id": "7a548430-1386-11f0-a03e-6d1c5e4c9e83",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Tassia Miguel",
+    "id": "5b081d4d8859f57bdc7b8ddd-_jGBOk4coTYOTUdTTa6Wx",
+    "email": "tassiamiguel05@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-04-07T08:07:43.847Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-07T08:07:43.847Z",
+      "msg": "Nome : Tassia Miguel\r\nE-mail : tassiamiguel05@gmail.com\r\nDescrição do Problema : Tenho duvidas sobre o email que devo colocar e a senha para fazer o contrato de telecomunicacao"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

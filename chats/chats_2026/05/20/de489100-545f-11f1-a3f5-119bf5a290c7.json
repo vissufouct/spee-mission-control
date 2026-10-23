@@ -1,0 +1,37 @@
+{
+  "id": "de489100-545f-11f1-a3f5-119bf5a290c7",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/Junior",
+    "id": "5b081d4d8859f57bdc7b8ddd-I69hh4spgHWntXmMuZ0v1",
+    "email": "jaykgamer479@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T15:25:37.203Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:25:37.203Z",
+      "msg": "Nome : A Politecnica - MPT/Junior\r\nTelefone : 258845486692\r\nE-mail : jaykgamer479@gmail.com\r\nDescrição do Problema : Jaygamer479@gmail.con"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:25:53.187Z",
+      "msg": "Jaygamer479@gmail.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

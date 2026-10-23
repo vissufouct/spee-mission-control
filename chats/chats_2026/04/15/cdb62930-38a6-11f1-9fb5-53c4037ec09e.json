@@ -1,0 +1,221 @@
+{
+  "id": "cdb62930-38a6-11f1-9fb5-53c4037ec09e",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Sigauque",
+    "id": "5b081d4d8859f57bdc7b8ddd-pnmMxLyxqFzEVyRicFwsS",
+    "email": "heliasigauque07@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 22,
+  "chatDuration": 5981,
+  "rating": 0,
+  "createdOn": "2026-04-15T09:36:05.602Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T09:36:05.602Z",
+      "msg": "Nome : ISCIM/Sigauque\r\nE-mail : heliasigauque07@gmail.com\r\nDescrição do Problema : nao esta a reconhecer os dados do emprendedor"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T09:36:29.341Z",
+      "msg": "https://planodenegocios.simulacao.co.mz/DadosEmpreendedor.aspx?pn=a85054ac-93ba-44e5-af86-2be767d64b6b&d=0#"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-15T09:37:22.419Z",
+      "msg": "Bom dia, pode descrever melhor o problema?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T09:38:46.422Z",
+      "msg": "quero adicionar os dados dos emprendedores do negocio no pano de negocio quando clico em adicionar ele aceita mas nao aparecem os dados dos emprendedor"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T09:40:52.976Z",
+      "msg": "depois de finalizar o processo de cadastro"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-15T09:42:43.172Z",
+      "msg": "preencheu todos os campos e cliclou em adicionar empreendedor?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T09:44:41.680Z",
+      "msg": "sim ele mostrou que foi feito com sucesso mas por baixo onde vem lista de emprendedores nao aparecem os nomes"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-15T09:45:11.470Z",
+      "msg": "um momento, estamos verificando"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T09:45:53.597Z",
+      "msg": "o que devo fazer"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-15T09:50:34.230Z",
+      "msg": "Peco para aguardar"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T09:54:47.403Z",
+      "msg": "esero pela tua resposta, para poder avancar"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T10:13:59.132Z",
+      "msg": "ainda nao tenho solucao"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-15T10:21:31.373Z",
+      "msg": "pode me mandar print da tela com os dados que preencheu?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-15T10:29:34.353Z",
+      "msg": "peco que mante o print da tela, nao em texto."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T10:41:11.620Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69df4f113ad4812025ee3640/v/63db1d6e6e5bce575a0845ae1b2be764373578b2/Doc1.docx",
+              "name": "Doc1.docx",
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "size": 433758,
+              "extension": "docx"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T10:46:39.612Z",
+      "msg": "a espera de uma resposta"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-15T10:51:20.283Z",
+      "msg": "peco para mandar em texto, o que preencheu no do papel a ser desempenhado na sociedade"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T10:53:46.506Z",
+      "msg": "Sócia-Gerente responsável pela gestão geral da empresa, definição de estratégias, coordenação das operações, supervisão das vendas e relacionamento com clientes e parceiros. Também será responsável pela tomada de decisões estratégicas e pelo crescimento sustentável do negócio."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T10:58:55.802Z",
+      "msg": "espero pela resposta"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-15T11:03:27.247Z",
+      "msg": "sim, peco que aguarde"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-15T11:14:26.792Z",
+      "msg": "volte a preencher e no campo de papel na sociedade, coloque so socio-gerente"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-15T11:15:46.856Z",
+      "msg": "nao coloque um texto muito longo, pode colocar : Sócia-Gerente responsável pela gestão geral da empresa,"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

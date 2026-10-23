@@ -1,0 +1,154 @@
+{
+  "id": "dbad25f0-2228-11f1-acf1-b74f0eaba778",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/Cumbi",
+    "id": "5b081d4d8859f57bdc7b8ddd-qUKLV9ZMmUjCmFd2WASzW",
+    "email": "shanilagermano10@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 14,
+  "chatDuration": 1612,
+  "rating": 0,
+  "createdOn": "2026-03-17T18:12:49.065Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-17T18:12:49.065Z",
+      "msg": "Nome : A Politecnica - MPT/Adulumbuke\r\nTelefone : 258870340503\r\nE-mail : shanilagermano10@gmail.com\r\nDescrição do Problema : registamos uma conta em nome de Emanuela Cumbi, quando tentamos aceder diz que os dados são inválidos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-17T18:13:59.428Z",
+      "msg": "Boa noite, tem um comta no spee?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-17T18:14:24.157Z",
+      "msg": "sim"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-17T18:16:36.878Z",
+      "msg": "quando que efectuou o registro?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-17T18:16:58.347Z",
+      "msg": "hoje"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-17T18:21:30.733Z",
+      "msg": "tem uma opcao no canto que diz recuperar a senha, so clicar nela e seguir os passos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-17T18:23:19.752Z",
+      "msg": "aqui",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/67bc6520a561be464e803d37/497c39c07af1c7b80ef4eee1531d580642858447/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 537814,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-17T18:30:27.923Z",
+      "msg": "como posso editar dados, quero editar meu email"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-17T18:35:36.975Z",
+      "msg": "nao me respondes porque"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-17T18:36:56.228Z",
+      "msg": "já passam mais de 5 minutos:sob:"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-17T18:37:56.659Z",
+      "msg": "Email da empresa ou Email que usa pra aceder o sistema?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-17T18:39:05.698Z",
+      "msg": "Se for o email que usa para aceder ao sistema não é possivel mudar!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-17T18:39:28.703Z",
+      "msg": "que uso para aceder a empresa"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-17T18:39:41.448Z",
+      "msg": "Não é possivel mudar"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

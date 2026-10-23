@@ -1,0 +1,29 @@
+{
+  "id": "09a2e4e0-5460-11f1-aa21-9f5027129f21",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Leonel Honwana",
+    "id": "5b081d4d8859f57bdc7b8ddd-ZPgy18Y9nTYLl16PUeJXi",
+    "email": "honwanaleonel@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T15:26:28.296Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:26:28.296Z",
+      "msg": "Nome : Leonel Honwana\r\nTelefone : 258845522995\r\nE-mail : honwanaleonel@gmail.com\r\nDescrição do Problema : honwanaleonel@gmail.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

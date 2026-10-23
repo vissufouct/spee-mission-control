@@ -1,0 +1,51 @@
+{
+  "id": "576c95b0-083c-11f1-8a10-7585fc998f35",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-1v_eU0sGibNXjTPz6e348",
+    "email": "acia.matavele@galp.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-02-12T17:59:52.767Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-02-12T17:59:52.767Z",
+      "msg": "Nome : UDM/Matavele\r\nTelefone : 25842183474\r\nE-mail : acia.matavele@galp.com\r\nDescrição do Problema : Nao consigo avancar com o prenchimento da guia"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-02-12T18:01:42.178Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/698e149c3ad4812025ca5805/v/3e2be425334a58c117121d43d4b5e2505cfd901c/image.png",
+              "name": "image.png",
+              "mimeType": "image/png",
+              "size": 92603,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

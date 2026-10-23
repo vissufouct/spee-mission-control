@@ -1,0 +1,29 @@
+{
+  "id": "e3fbcc80-5b2a-11f1-9db2-cd05965df2e7",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-51pZCNW4GioTL8jIEVCcs",
+    "email": "beatrizricardocuco01@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-29T08:52:29.930Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-29T08:52:29.930Z",
+      "msg": "Name : LogiTrans Mocambique,Lda\r\nEmail : beatrizricardocuco01@gmail.com\r\nPhone : +258868731652\r\nDescrição do Problema : Saudacoes, a nossa empresa manda os anexos mas depois de enviar ja nao aparecem"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

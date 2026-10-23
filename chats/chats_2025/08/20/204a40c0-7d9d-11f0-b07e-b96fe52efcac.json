@@ -1,0 +1,56 @@
+{
+  "id": "204a40c0-7d9d-11f0-b07e-b96fe52efcac",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "CA Lda SmartPhones",
+    "id": "5b081d4d8859f57bdc7b8ddd-rhMIsoFzpbgrPe2pJ8v0U",
+    "email": "aurelio.zibia@iscam.ac.mz"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 4,
+  "chatDuration": 815,
+  "rating": 0,
+  "createdOn": "2025-08-20T08:17:38.338Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-20T08:17:38.338Z",
+      "msg": "Nome : CA Lda SmartPhones\r\nTelefone : 258855349596\r\nE-mail : aurelio.zibia@iscam.ac.mz\r\nDescrição do Problema : Saudacoes, gostariamos de eliminar as facturas dos nossos clientes pois contem alguns erros.\nE estamos a enfretar alguns problemas, o meu socio quando entra no sistema apartir da conta dele, de todos os dados que ja registamos nao aparece nada para ele, apenas aparece para mim nesse caso quando acedo ao sistema da conta"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-20T08:30:47.461Z",
+      "msg": "Bom dia"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-20T08:31:04.077Z",
+      "msg": "pode mandar o emai do teu socio?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-20T08:31:12.978Z",
+      "msg": "Ele aceitou o pedido de sociedade?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

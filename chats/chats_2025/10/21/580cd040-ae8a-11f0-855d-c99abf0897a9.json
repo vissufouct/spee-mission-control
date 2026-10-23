@@ -1,0 +1,29 @@
+{
+  "id": "580cd040-ae8a-11f0-855d-c99abf0897a9",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "STESIL Lda Limpeza",
+    "id": "5b081d4d8859f57bdc7b8ddd-w6G_ZihQIObJYfQzrKkTC",
+    "email": "silviaantoniobacalhau@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Beira"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-10-21T15:03:45.996Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-21T15:03:45.996Z",
+      "msg": "Nome : STESIL Lda Limpeza\r\nTelefone : 258864095399\r\nE-mail : silviaantoniobacalhau@gmail.com\r\nDescrição do Problema : Boa tarde, minha conta de 212 Materias primas, auxiliares e materias nao aceita fazer lançamento. Peço assistencia."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

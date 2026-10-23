@@ -1,0 +1,62 @@
+{
+  "id": "66586aa0-1f84-11f0-915b-ad88b87c1e63",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "UNILURIO/Ndayshimiye",
+    "id": "5b081d4d8859f57bdc7b8ddd-gckg9fpeEQAEpHWWLWSEi",
+    "email": "pndayshimiye@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 5,
+  "chatDuration": 153,
+  "rating": 0,
+  "createdOn": "2025-04-22T14:20:46.554Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-22T14:20:46.554Z",
+      "msg": "egasliquisse7@gmail.com"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-22T14:21:04.141Z",
+      "msg": "lizariatavares8@gmail.com"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-22T14:21:17.358Z",
+      "msg": "Falta de dois"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-22T14:22:11.713Z",
+      "msg": "olinda.e.antique@gmail.com"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-22T14:23:19.624Z",
+      "msg": "ja esta"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

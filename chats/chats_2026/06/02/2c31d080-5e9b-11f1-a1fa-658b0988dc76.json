@@ -1,0 +1,29 @@
+{
+  "id": "2c31d080-5e9b-11f1-a1fa-658b0988dc76",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-h531h0u0poDcXUORt4rmu",
+    "email": "neltativane07@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-06-02T15:59:43.268Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-02T15:59:43.268Z",
+      "msg": "Name : Nelta\r\nEmail : neltativane07@gmail.com\r\nPhone : +258849579446\r\nDescrição do Problema : Nao consigo adicionar o logotipo da empresa"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

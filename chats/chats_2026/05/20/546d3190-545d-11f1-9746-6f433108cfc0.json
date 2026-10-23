@@ -1,0 +1,29 @@
+{
+  "id": "546d3190-545d-11f1-9746-6f433108cfc0",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Sheila Adriana De Jamal Malusso",
+    "id": "5b081d4d8859f57bdc7b8ddd-XgwZ9ecRjNwvKkqY3IEmv",
+    "email": "jamaladriana10@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T15:08:15.882Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:08:15.882Z",
+      "msg": "Nome : Sheila Adriana De Jamal Malusso\r\nTelefone : 258872804640\r\nE-mail : jamaladriana10@gmail.com\r\nDescrição do Problema : Boa tarde,\nEntrei na sala errada que é de contabilidade e economia enquanto deveria estar na sala de AGE&GFB"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

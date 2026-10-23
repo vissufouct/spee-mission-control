@@ -1,0 +1,29 @@
+{
+  "id": "621502c0-3026-11f0-a21e-7f560801ded6",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "JM Cars,Lda",
+    "id": "5b081d4d8859f57bdc7b8ddd-PNaeW5mRAmYVB4z4_e035",
+    "email": null
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-05-13T18:42:47.027Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-13T18:42:47.027Z",
+      "msg": "Nome : JM Cars,Lda\r\nDescrição do Problema : ola\nestou com dificuldades em efectuar lançamentos, o sistema dá a seguinte informação: ocorreu um erro, entre em contacto com o seu sistema"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

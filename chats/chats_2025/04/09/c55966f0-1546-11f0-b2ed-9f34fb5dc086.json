@@ -1,0 +1,81 @@
+{
+  "id": "c55966f0-1546-11f0-b2ed-9f34fb5dc086",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Castelo Sergio Muanza",
+    "id": "5b081d4d8859f57bdc7b8ddd-42rsBCpKDQT8SjxkU4E7o",
+    "email": "castelosergiomuanzacatelo@gmail.com"
+  },
+  "location": {
+    "countryCode": "AO",
+    "city": "Luanda"
+  },
+  "messageCount": 7,
+  "chatDuration": 252,
+  "rating": 0,
+  "createdOn": "2025-04-09T13:32:11.215Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-09T13:32:11.215Z",
+      "msg": "Nome : Castelo Sergio Muanza\r\nTelefone : 935937095\r\nE-mail : castelosergiomuanzacatelo@gmail.com\r\nDescrição do Problema : Candidatura"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-09T13:33:06.174Z",
+      "msg": "Boa tarde"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-09T13:33:13.932Z",
+      "msg": "percebi a questao"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-09T13:33:19.362Z",
+      "msg": "Boa tarde sim"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-09T13:33:42.522Z",
+      "msg": "Não percebi a questão"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-09T13:35:36.422Z",
+      "msg": "Pretendo emitir a minha candidatura no concurso público"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-09T13:36:23.222Z",
+      "msg": "entra para os concursos publicos"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

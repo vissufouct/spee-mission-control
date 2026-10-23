@@ -1,0 +1,29 @@
+{
+  "id": "ff45e9b0-08da-11f0-aa32-292c0bae8557",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Armussagy comunicacao,lda",
+    "id": "5b081d4d8859f57bdc7b8ddd-o0w2j3XiqGOvVbn75turv",
+    "email": "mussagymagid@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-03-24T18:11:05.325Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-24T18:11:05.325Z",
+      "msg": "Nome : Armussagy comunicacao,lda\r\nE-mail : mussagymagid@gmail.com\r\nDescrição do Problema : trocar a lingua do sistema\npara portugues"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

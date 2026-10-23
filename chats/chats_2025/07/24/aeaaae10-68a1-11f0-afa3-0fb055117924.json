@@ -1,0 +1,29 @@
+{
+  "id": "aeaaae10-68a1-11f0-afa3-0fb055117924",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISDB/Tamele",
+    "id": "5b081d4d8859f57bdc7b8ddd-ju44n8uQhVKgRg_YOFICb",
+    "email": "willertamele123@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-07-24T15:23:37.533Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-24T15:23:37.533Z",
+      "msg": "Nome : ISDB/Tamele\r\nE-mail : willertamele123@gmail.com\r\nDescrição do Problema : Saudações"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

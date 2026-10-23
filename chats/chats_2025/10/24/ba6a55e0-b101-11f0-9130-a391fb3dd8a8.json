@@ -1,0 +1,29 @@
+{
+  "id": "ba6a55e0-b101-11f0-9130-a391fb3dd8a8",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "UDM/Júnior",
+    "id": "5b081d4d8859f57bdc7b8ddd-ZUcPAmEBg5coU3HwbQUbe",
+    "email": "abdul.satar12@icloud.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-10-24T17:50:15.011Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-24T17:50:15.011Z",
+      "msg": "Nome : UDM/Júnior\r\nTelefone : 258842018791\r\nE-mail : abdul.satar12@icloud.com\r\nDescrição do Problema : Estou com problemas para aceder a conta por causa da palavra passe e não tenho acesso a empresa"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

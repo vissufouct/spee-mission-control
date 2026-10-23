@@ -1,0 +1,63 @@
+{
+  "id": "e3d86e40-9954-11f0-a592-f9920ffaf75b",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISPT/Mascarenha",
+    "id": "5b081d4d8859f57bdc7b8ddd-zNIDR8fIA5AuDvj1JRsjK",
+    "email": "celiajoaosousa14@gmail.com"
+  },
+  "location": {
+    "countryCode": "US",
+    "city": "Cleveland"
+  },
+  "messageCount": 5,
+  "chatDuration": 391,
+  "rating": 0,
+  "createdOn": "2025-09-24T14:46:18.929Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-24T14:46:18.929Z",
+      "msg": "Nome : STESIL Limpeza,Lda\r\nTelefone : 258842433289\r\nE-mail : stelainacio18@gmail.com\r\nDescrição do Problema : os activos registados desapareceram no sistema"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-24T14:47:39.533Z",
+      "msg": "Boa tarde\nQuais são os passos que segue para visualizar a lista?\nFoi verificado que não há nenhum problema com o módulo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-24T14:50:44.252Z",
+      "msg": "entrar no SGC gestao comercial, depois activos e por final registro e listagem"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-24T14:51:43.869Z",
+      "msg": "Entra para o catálogo de empresas, e tem a seguir o botão para lista de grossistas \nDepois de aberta a página, serão listados todos os activos"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-24T14:52:49.621Z",
+      "msg": "Esta certo"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

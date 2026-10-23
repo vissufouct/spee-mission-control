@@ -1,0 +1,93 @@
+{
+  "id": "79e4acb0-f2b4-11f0-b1de-2b34f69bce88",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Mundo SA Auto",
+    "id": "5b081d4d8859f57bdc7b8ddd-HdjxSvIeMFO4GuLZ7Q000",
+    "email": "mundoautosa711@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 7,
+  "chatDuration": 333,
+  "rating": 0,
+  "createdOn": "2026-01-16T08:29:38.225Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-01-16T08:29:38.225Z",
+      "msg": "Nome : Mundo SA Auto\r\nE-mail : mundoautosa711@gmail.com\r\nDescrição do Problema : Ao entrar na minha lista de movimentos, não consigo ver os movimentos que já efetuei na contabilidade"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-01-16T08:30:12.806Z",
+      "msg": "Não consigo ver a minha lista de movimentos",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/6969f53c3ad4812025b9eac9/v/939302f07f9db8b8a12b22dfc4e41c121c125086/658755E3-F8FD-478A-900A-B7AFC7A5881B.png",
+              "name": "658755E3-F8FD-478A-900A-B7AFC7A5881B.png",
+              "mimeType": "image/png",
+              "size": 601668,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-01-16T08:30:39.517Z",
+      "msg": "um momento por favor"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-01-16T08:31:43.161Z",
+      "msg": "Aguardando"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-01-16T08:33:01.030Z",
+      "msg": "Quanto tempo devo aguardar?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-01-16T08:33:42.827Z",
+      "msg": "Me responda"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-01-16T08:35:11.314Z",
+      "msg": "o seu problema esta sendo resolvido o mais rapido possivel. por favor aguarde"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

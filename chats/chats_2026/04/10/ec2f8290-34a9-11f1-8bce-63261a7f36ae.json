@@ -1,0 +1,29 @@
+{
+  "id": "ec2f8290-34a9-11f1-8bce-63261a7f36ae",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "[Docente]ISPM - ISPM_SEMESTRE Denyse 1_2026/Sebastião",
+    "id": "5b081d4d8859f57bdc7b8ddd-OxpdQ4mx4z76F9cbxlJ1R",
+    "email": "denysedette42@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-04-10T07:09:50.970Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-10T07:09:50.970Z",
+      "msg": "Nome : [Docente]ISPM - ISPM_SEMESTRE Denyse 1_2026/Sebastião\r\nTelefone : 258825562470\r\nE-mail : denysedette42@gmail.com\r\nDescrição do Problema : Saudacoes colegas!\nJa consegui ultrapassar o problema de inscricao, tive que abrir outra turma e os estudantes criaram novos emails.\n\nestamos agora a ter dificuldades de celebrar contratos com servicos publicos de telecomunicacoes, imobiliarias, et\n\nnao aparece a parte de contratos..so aparece inicio e sair"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

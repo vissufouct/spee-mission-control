@@ -1,0 +1,179 @@
+{
+  "id": "89c79770-3ccc-11f1-bba3-87f4c16e53d7",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "THEL,LDA",
+    "id": "5b081d4d8859f57bdc7b8ddd-n6FSJSSpsyyFqmH5k1wIi",
+    "email": "thairesmartins04@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 17,
+  "chatDuration": 2328,
+  "rating": 0,
+  "createdOn": "2026-04-20T15:34:00.214Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T15:34:00.214Z",
+      "msg": "Nome : THEL,LDA\r\nE-mail : thairesmartins04@gmail.com\r\nDescrição do Problema : boa tarde,tudo bem?\nquero adicionar o departamento responsavel dede ontem ele nao mi da opcao de escolher o departamento"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T15:34:51.237Z",
+      "msg": "Boa noite, qual a dificuldade que esta a ter?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T15:38:33.676Z",
+      "msg": "nao consigo adicionar o departamento responsavel",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69e6445c3ad48120257975d8/v/31d02c46ff5290189767543c204fe1ed95910565/image.png",
+              "name": "image.png",
+              "mimeType": "image/png",
+              "size": 154978,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T15:39:25.654Z",
+      "msg": "Tem outros departamento ou esse e o primeiro?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T15:39:50.978Z",
+      "msg": "este e o primeiro"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T15:40:42.109Z",
+      "msg": "Entao e so salvar, o departamento responsavel e quando tiver outros departamento"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T15:41:01.518Z",
+      "msg": "caso nao tenha, salve assim mesmo!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T15:42:22.383Z",
+      "msg": "tenho que adicionar o departyamento responsavel para poder salvar"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T15:42:53.639Z",
+      "msg": "para adicionar os outros departamentos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T15:45:49.013Z",
+      "msg": "Entao e so cria o Dep Responsavel pelo Deparmento de Marketing!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T15:46:27.412Z",
+      "msg": "nao tem, como consertar isso"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T15:47:02.546Z",
+      "msg": "tenho que avancar com o trabalho e sem esta parte nao tenho como avancar com o trabalho"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T15:50:27.313Z",
+      "msg": "Qual e o departamento responsavel pelo Dep de marketing?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T15:53:29.857Z",
+      "msg": "o departamento de marketing"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T15:55:02.261Z",
+      "msg": "Se o departamento e responsavel por ele mesmo deixe esse campo em branco!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T16:11:28.425Z",
+      "msg": "o docente exige que este campo seja premchido"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T16:12:47.882Z",
+      "msg": "Tente perguntar os outros colegas como fizeram ou pergunte o Dc oque um plano de negocio! e como se prenche!"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

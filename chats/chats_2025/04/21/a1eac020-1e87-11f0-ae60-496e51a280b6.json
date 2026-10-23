@@ -1,0 +1,137 @@
+{
+  "id": "a1eac020-1e87-11f0-ae60-496e51a280b6",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "UDM/Nate",
+    "id": "5b081d4d8859f57bdc7b8ddd-HrHHRjtKm5VxXKQTM3FXr",
+    "email": "natelaira@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 12,
+  "chatDuration": 5097,
+  "rating": 0,
+  "createdOn": "2025-04-21T08:29:38.826Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-21T08:29:38.826Z",
+      "msg": "Nome : UDM/Nate\r\nE-mail : natelaira@gmail.com\r\nDescrição do Problema : nao consigo aceder a Rh online"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-21T08:30:09.703Z",
+      "msg": "Bom dia"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-21T08:30:21.579Z",
+      "msg": "da algum erro?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-21T08:30:37.397Z",
+      "msg": "processsa e nao abre a pagina"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-21T08:31:36.572Z",
+      "msg": "Um momento"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-21T08:33:33.280Z",
+      "msg": "Agurdando"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-21T08:43:31.751Z",
+      "msg": "Fez contratos com imobiliária, electrividade etc?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-21T08:44:48.025Z",
+      "msg": "sim  esta feito"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-21T08:51:15.699Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/6805fcb1a3c8d40bf97ad01c/v/04d1415a47fde6ee623d042910412dc88d6390e8/image.png",
+              "name": "image.png",
+              "mimeType": "image/png",
+              "size": 23852,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-21T09:07:44.108Z",
+      "msg": "Esperando"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-21T09:21:22.942Z",
+      "msg": "certo, retorno assim que estiver resolvido"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-21T09:54:35.814Z",
+      "msg": "Ja esta resolvido"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

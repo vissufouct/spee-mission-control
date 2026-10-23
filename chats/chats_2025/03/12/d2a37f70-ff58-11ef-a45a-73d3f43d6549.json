@@ -1,0 +1,46 @@
+{
+  "id": "d2a37f70-ff58-11ef-a45a-73d3f43d6549",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Abdul",
+    "id": "5b081d4d8859f57bdc7b8ddd-sNODsE1oQssHsxfLQL0o9",
+    "email": "charmilaabdul92@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 853,
+  "rating": 0,
+  "createdOn": "2025-03-12T17:07:22.211Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:07:22.211Z",
+      "msg": "Nome : ISCIM/Abdul\r\nE-mail : charmilaabdul92@gmail.com\r\nDescrição do Problema : o socio nao consegue aceitar o convite"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:20:56.724Z",
+      "msg": "O que acontece quando ele tenta aceitar?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:21:35.180Z",
+      "msg": "Ja conseguimos, obrigado"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

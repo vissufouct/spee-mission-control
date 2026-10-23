@@ -1,0 +1,80 @@
+{
+  "id": "66bcf5b0-a503-11f0-b8e9-99d9e3843c7d",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "STESIL Lda Limpeza",
+    "id": "5b081d4d8859f57bdc7b8ddd-zNIDR8fIA5AuDvj1JRsjK",
+    "email": "celiajoaosousa14@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 7,
+  "chatDuration": 3036,
+  "rating": 0,
+  "createdOn": "2025-10-09T11:40:50.565Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-09T11:40:50.565Z",
+      "msg": "Nome : STESIL Lda Limpeza\r\nTelefone : 258\r\nE-mail : celiajoaosousa14@gmail.com\r\nDescrição do Problema : Boa tarde, a minha conta de deposito a ordem 1211 nao aceita selecao para lancamentos. peco assistencia tecnica."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-09T11:46:15.937Z",
+      "msg": "peco para responder"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-09T11:58:44.119Z",
+      "msg": "Boa tarde"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-09T12:00:07.632Z",
+      "msg": "Boa tarde, a minha conta de deposito a ordem 1211 nao aceita seleccao para lancamentos. peco assistencia tecnica."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-09T12:09:55.280Z",
+      "msg": "Um momento só"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-09T12:25:50.282Z",
+      "msg": "A conta 1211, não aceita pq é uma conta Pai\nSó pode adicionar subcontas"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-09T12:31:27.031Z",
+      "msg": "desculpa. quis dizer 121"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

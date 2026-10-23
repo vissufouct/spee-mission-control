@@ -1,0 +1,29 @@
+{
+  "id": "3c4e1d00-7460-11f0-8b09-b18465792874",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISPT/Bispo",
+    "id": "5b081d4d8859f57bdc7b8ddd-hLQgX7K64T2ZdVzPxg0dB",
+    "email": "marjubispobispo@gmail.com"
+  },
+  "location": {
+    "countryCode": "CA",
+    "city": "Toronto"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-08-08T14:57:47.542Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-08T14:57:47.542Z",
+      "msg": "Nome : ISPT/Bispo\r\nE-mail : marjubispobispo@gmail.com\r\nDescrição do Problema : Esta conta nao identifica o convite para ser socio"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

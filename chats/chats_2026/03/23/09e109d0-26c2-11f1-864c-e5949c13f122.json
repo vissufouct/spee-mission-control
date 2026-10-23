@@ -1,0 +1,54 @@
+{
+  "id": "09e109d0-26c2-11f1-864c-e5949c13f122",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "[Docente]A Politecnica - MPT - A Politécnica-Semestre 1_2026/Guirruta, Carlos",
+    "id": "5b081d4d8859f57bdc7b8ddd-rQeZ1eKQTuswyNFv1n0WM",
+    "email": "carlosguirruta@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 4,
+  "chatDuration": 169,
+  "rating": 0,
+  "createdOn": "2026-03-23T14:14:27.159Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T14:14:27.159Z",
+      "msg": "E-mail : carlosguirruta@gmail.com\r\nDescrição do Problema : Pedido do codigo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T14:15:34.945Z",
+      "msg": "Por favor peco o Código para ser atribuido aos estudantes"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "newton cossa"
+      },
+      "type": "msg",
+      "time": "2026-03-23T14:16:40.329Z",
+      "msg": "Boa tarde, \nO código é gerado pelo docente no  registo da turma."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T14:17:15.751Z",
+      "msg": "Muito obrigado"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

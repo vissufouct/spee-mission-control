@@ -1,0 +1,52 @@
+{
+  "id": "04f72e10-049d-11f0-89dc-2d4c9be750c1",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/4002807813",
+    "id": "5b081d4d8859f57bdc7b8ddd-ecyUkOxOzdwH4LbdWt6tH",
+    "email": "ammarahbibiseif@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 3288,
+  "rating": 0,
+  "createdOn": "2025-03-19T08:36:20.413Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:36:20.413Z",
+      "msg": "Nome : ISCIM/Seifodine\r\nE-mail : ammarahbibiseif@gmail.com\r\nDescrição do Problema : Nao consigo entrar na loja online de activos minimos, da erro"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:48:44.391Z",
+      "msg": "logo apos aceder a plataforma, entrar para este campo. e depois voltar a tentar aceceder aos activos minimos",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/5bcd6abcc9b6784093aed1247b28ab9351563013/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 68032,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

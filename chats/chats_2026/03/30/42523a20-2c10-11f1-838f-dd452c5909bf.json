@@ -1,0 +1,38 @@
+{
+  "id": "42523a20-2c10-11f1-838f-dd452c5909bf",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-iypxtaVKw5WlLyqILUAqa",
+    "email": "agiramachava@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 29,
+  "rating": 0,
+  "createdOn": "2026-03-30T09:18:52.159Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-30T09:18:52.159Z",
+      "msg": "Nome : /4002978419\r\nTelefone : 258849206127\r\nE-mail : agiramachava@gmail.com\r\nDescrição do Problema : Não conseguimos obter facturas de agua e telecomunicações ."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-03-30T09:19:20.947Z",
+      "msg": "Bom dia, por aora use esses link para extrair facturas de agua: https://spee.simulacao.co.mz/servicos/1/Aguas/index.html?hasEmpresa=1\ne esse para telecomicacoes: https://spee.simulacao.co.mz/servicos/1/Telecomunicacoes/index.html?hasEmpresa=1\nestamos resolvendo o problema."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

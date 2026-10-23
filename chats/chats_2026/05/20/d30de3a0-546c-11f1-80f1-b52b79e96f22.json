@@ -1,0 +1,29 @@
+{
+  "id": "d30de3a0-546c-11f1-80f1-b52b79e96f22",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Saquia waya",
+    "id": "5b081d4d8859f57bdc7b8ddd-YClBk_iekQKvVaam_PLXN",
+    "email": "saquiawaya@outlook.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T16:57:03.560Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T16:57:03.560Z",
+      "msg": "Nome : Saquia waya\r\nTelefone : 258870460820\r\nE-mail : saquiawaya@outlook.com\r\nDescrição do Problema : Saquiawaya@gmail.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

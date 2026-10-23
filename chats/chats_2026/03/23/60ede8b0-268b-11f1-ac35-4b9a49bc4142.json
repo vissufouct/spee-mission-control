@@ -1,0 +1,147 @@
+{
+  "id": "60ede8b0-268b-11f1-ac35-4b9a49bc4142",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ITIS/Mabote",
+    "id": "5b081d4d8859f57bdc7b8ddd-wOvnPIeuEyTmkCpkJz4Ug",
+    "email": "mabotekhan@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 15,
+  "chatDuration": 2553,
+  "rating": 0,
+  "createdOn": "2026-03-23T07:42:22.473Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T07:42:22.473Z",
+      "msg": "Nome : ITIS/Mabote\r\nTelefone : 258864461339\r\nE-mail : mabotekhan@gmail.com\r\nDescrição do Problema : Bom dia. A minha conta esta na turma que não é minha, e não aceita adicionar o meu sócio Marvin, ou pelo menos nao aparece na divisão de quotas, a minha turma é 298461.\nCaso já tenha respondido a essa mensagem por favor reenvie a resposta porque perdi conexão a internet"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-23T07:45:49.002Z",
+      "msg": "Bom dia, qual é o seu nome completo?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T07:46:05.027Z",
+      "msg": "Ananguno de Khan Luís Mabote"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-23T07:46:50.049Z",
+      "msg": "Não encontramos o seu registro na nessa turma!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T07:47:58.043Z",
+      "msg": "Porém eu já havia me resgitado, na turma 298461. Mas agora o sistema me colocou em turma diferente"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-23T07:49:12.535Z",
+      "msg": "O que pode fazer é ir registrar-se denovo usando o mesmo mas usando o codigo da turma certo, pelo que verificamos ainda não conclui o cadastro da empresa.\nAntes apareciam os seus colegas?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T07:50:27.571Z",
+      "msg": "Sim antes apareciam os meus colegas, e já estava a finalizar o cadastro da empresa e tenho como sócio o colega Marvin Dias, mas o meu nome já não aparece na turma"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-23T07:51:23.281Z",
+      "msg": "Um momento porfavor!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T08:00:37.489Z",
+      "msg": "Certo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-23T08:17:38.449Z",
+      "msg": "Boa dia, mais uma vez! Já estamos a ver qua ainda não se concluiu a constituicão da empresa, oque pode fazer é criar uma outra conta pode usar o mesmo email, mas dessa vez colaca o codigo da turma certo!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T08:19:55.707Z",
+      "msg": "o código da turma que coloquei é o correcto, e até no sábado do dia 21/03 tudo esta bom e estava na turma correta."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T08:21:20.791Z",
+      "msg": "Isso não vai me causar problemas futuros? Porque eu era o gerente da empresa no âmbito da criação da empresa e eu já havia adicionado o meu colega Marvin, neste momento acredito que o perfil dele se encontra vinculado a empresa Maputo Serviços Automotivos, como farei para o adicionar de novo a outra empresa? Com um novo perfil?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-23T08:23:34.528Z",
+      "msg": "Vamos alocarte a turma certa, isso pode levar um pouco de tempo, pedimos que aguarde! Pode deixar o seu contacto logo que finalizarmos iremos ligar-te!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T08:24:09.135Z",
+      "msg": "Ananguno de Khan Luís Mabote"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T08:24:55.790Z",
+      "msg": "Contacto: 848945184 (WhatsApp); 864461339(chamadas); Turma certa (298461)."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "290315d0-049d-11f0-8d2a-61587a98e5d9",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/4002807805",
+    "id": "5b081d4d8859f57bdc7b8ddd-WCv23nF8SKa1HXjJVTRTK",
+    "email": "amadjuma@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 471,
+  "rating": 1,
+  "createdOn": "2025-03-19T08:37:17.832Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:37:17.832Z",
+      "msg": "Nome : /\r\nE-mail : abdulazizeguilherme@gmail.com\r\nDescrição do Problema : nao consigo acessar os ativos minimos , nome da empresa EA Workspace Lda"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "rating",
+      "time": "2025-03-19T08:39:00.735Z",
+      "data": {
+        "rating": -1
+      }
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "rating",
+      "time": "2025-03-19T08:39:05.355Z",
+      "data": {
+        "rating": 1
+      }
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:45:08.890Z",
+      "msg": "Logo depois de efectuar logina na platarfoma, entrar para o campo destacado e voltar a aceder aos activos minimos",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/53fe21b4fe58d62b10bc2bde032407d9780d5e6f/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 68032,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

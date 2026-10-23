@@ -1,0 +1,106 @@
+{
+  "id": "e9942dd0-1f81-11f0-8662-1db8f70d7c4f",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "UNILURIO/Ndayshimiye",
+    "id": "5b081d4d8859f57bdc7b8ddd-gckg9fpeEQAEpHWWLWSEi",
+    "email": "pndayshimiye@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 10,
+  "chatDuration": 451,
+  "rating": 0,
+  "createdOn": "2025-04-22T13:59:38.194Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-22T13:59:38.194Z",
+      "msg": "Nome : UNILURIO/Ndayshimiye\r\nE-mail : pndayshimiye@gmail.com\r\nDescrição do Problema : Já tinha descrito o problema da ultima vez que entrei"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-22T14:00:29.655Z",
+      "msg": "ainda n consegue aceder a plataforma?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-22T14:01:53.376Z",
+      "msg": "Já consegui, estou a falar da outra questão dos sócios não conseguirem a  acessar a plataforma dos seus aplicativos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-22T14:02:19.739Z",
+      "msg": "pode explicar novamente?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-22T14:03:45.882Z",
+      "msg": "Os sócios da empresa não conseguem entrar na empresa das suas plataformas, eles sempre devem usar a minha conta para entrarem"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-22T14:04:24.014Z",
+      "msg": "eles aceitaram a sociedade?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-22T14:04:31.211Z",
+      "msg": "Sim"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-22T14:04:42.513Z",
+      "msg": "peco os nomes"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-22T14:06:23.213Z",
+      "msg": "Olinda Hernestina Atinquis, Lizaria Tavares, Egas Nunes, Edmundo Alaneque"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-22T14:07:08.929Z",
+      "msg": "Peço os emails"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

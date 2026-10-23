@@ -1,0 +1,29 @@
+{
+  "id": "3d5657f0-547d-11f1-9c07-b1bff368a44a",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Stélia Macuácua",
+    "id": "5b081d4d8859f57bdc7b8ddd-Yk_ZV4suYLUcpOhvpNB6w",
+    "email": "steliamacuacua52@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T18:57:29.870Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T18:57:29.870Z",
+      "msg": "Nome : Stélia Macuácua\r\nTelefone : 25872959456\r\nE-mail : steliamacuacua52@gmail.com\r\nDescrição do Problema : steliamacuacua52@gmail.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,130 @@
+{
+  "id": "8be11740-7c5e-11f0-a605-a3786a433f0f",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISPT/Bernardo",
+    "id": "5b081d4d8859f57bdc7b8ddd-LAaOK3Wd82bZlboq5MOPx",
+    "email": "armindobernardopedropedro@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Tete"
+  },
+  "messageCount": 13,
+  "chatDuration": 885,
+  "rating": 0,
+  "createdOn": "2025-08-18T18:25:48.045Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-18T18:25:48.045Z",
+      "msg": "Nome : ISPT/Bernardo\r\nTelefone : 258869697999\r\nE-mail : armindobernardopedropedro@gmail.com\r\nDescrição do Problema : boa noite,espero que esteja de boa saude,venho desta solicitar a vossa ajuda do problema que estou a enfrentar e que ainda nao teve seu desfecho,que e a dificuldade de abrir o.RH Online recursos Humanos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-18T18:26:25.592Z",
+      "msg": "Boa noite"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-18T18:27:05.181Z",
+      "msg": "Para aceder ao módulo de recursos humanos, os contactos com telecomunicações e outros, devem ter sido celebrados"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-18T18:32:37.319Z",
+      "msg": "ha necessidade de baixar o documento apos celebrado contrato.pois eu ja fiz os contractos e apenas falta baixar os documentos da celebbracao do contractos"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-18T18:33:14.934Z",
+      "msg": "?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-18T18:33:22.287Z",
+      "msg": "Não precisa"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-18T18:33:43.366Z",
+      "msg": "Mesmo depoia disso, o problema prevalece?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-18T18:34:23.317Z",
+      "msg": "ou seja sera que isso tem alguma implicacao"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-18T18:35:16.366Z",
+      "msg": "sim aparece uma pagina e branca apenas sem literalmente nada"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-18T18:35:35.719Z",
+      "msg": "em branca,sem nada"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-18T18:36:51.321Z",
+      "msg": "Agora, sai e volta a entrar para o sistema\nNa primeira tela, que aparece e pergunta se é realmente o teu perfil, tem um campo para aceder ao rh\nAceda por esse campo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-18T18:39:57.683Z",
+      "msg": "ainda aparece em branca"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-18T18:40:32.799Z",
+      "msg": "estou preocupado com isso,nao temos como avancar a nao ser recomecar"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

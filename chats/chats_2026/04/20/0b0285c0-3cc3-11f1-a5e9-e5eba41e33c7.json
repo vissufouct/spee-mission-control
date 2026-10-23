@@ -1,0 +1,29 @@
+{
+  "id": "0b0285c0-3cc3-11f1-a5e9-e5eba41e33c7",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Issac",
+    "id": "5b081d4d8859f57bdc7b8ddd-wGpeESAxg3tglCSouZRZi",
+    "email": "suheilaissac02@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-04-20T14:16:39.775Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T14:16:39.775Z",
+      "msg": "Nome : ISCIM/Issac\r\nTelefone : 258849490724\r\nE-mail : suheilaissac02@gmail.com\r\nDescrição do Problema : alguma solucao?"
+    }
+  ],
+  "domain": "planodenegocios.simulacao.co.mz"
+}

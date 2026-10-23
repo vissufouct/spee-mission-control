@@ -1,0 +1,29 @@
+{
+  "id": "f60a3450-5465-11f1-9aeb-03111e719781",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Naira Pamupamo",
+    "id": "5b081d4d8859f57bdc7b8ddd-k2af35Q5vNUsLZyxBFKw9",
+    "email": "nairapamupamo287@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T16:10:22.359Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T16:10:22.359Z",
+      "msg": "Nome : Naira Pamupamo\r\nTelefone : 258874251233\r\nE-mail : nairapamupamo287@gmail.com\r\nDescrição do Problema : nairapamupamo287@gmail.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

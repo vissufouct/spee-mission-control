@@ -1,0 +1,188 @@
+{
+  "id": "10926370-448e-11f1-9a60-c32698021328",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ADF LDA. SPAR",
+    "id": "5b081d4d8859f57bdc7b8ddd-MQu6XgUUqJINdPSpPVv3P",
+    "email": "kelvenfabiao5@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Beira"
+  },
+  "messageCount": 13,
+  "chatDuration": 1349,
+  "rating": 0,
+  "createdOn": "2026-04-30T12:27:10.713Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-30T12:27:10.713Z",
+      "msg": "Nome : ADF LDA. SPAR\r\nTelefone : 25875764321\r\nE-mail : kelvenfabiao5@gmail.com\r\nDescrição do Problema : 0 nosso Codigo de contas vem em ingles peco mudar para portugues"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-30T12:27:53.402Z",
+      "msg": "Boa tarde, qual codigo?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-30T12:29:44.397Z",
+      "msg": "O codigo de contas aparece dessa maneira. Entao peco que corrija de modo a aparecer como o pgc-nirf UTILIZADO EM mOCAMBIQUE",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69f347853ad481202552d4b8/v/303f17b60592971f338d12408ab818d9cfd78448/image.png",
+              "name": "image.png",
+              "mimeType": "image/png",
+              "size": 31395,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-30T12:34:53.283Z",
+      "msg": "Va alterar o regime do IVA!",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/67bc6520a561be464e803d37/aa9fc2754cb6af7604fb313afbec75a108d403f8/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 31268,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-30T12:36:12.579Z",
+      "msg": "Nao estou a perceber"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-30T12:37:32.083Z",
+      "msg": "Qual é regime de iva não esta certo, por isso estas com esses problemas, vai em editar e altere"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-30T12:42:36.612Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69f347853ad481202552d4b8/v/886ae3b6e1c42917ea9184162c982e55be1c66ae/image.png",
+              "name": "image.png",
+              "mimeType": "image/png",
+              "size": 19776,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-30T12:43:02.520Z",
+      "msg": "No Gestor Comercial"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-30T12:43:36.677Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/67bc6520a561be464e803d37/5fd40ad9c73f66a9800a4e720ba74151c10fea30/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 98672,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-30T12:47:21.835Z",
+      "msg": "o codigo de contasdcontinua em ingles"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-30T12:48:31.019Z",
+      "msg": "Não mudaste o regime!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-30T12:49:02.664Z",
+      "msg": "Como mudar o regime"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-30T12:49:39.941Z",
+      "msg": "Clica ai 1700.00%"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

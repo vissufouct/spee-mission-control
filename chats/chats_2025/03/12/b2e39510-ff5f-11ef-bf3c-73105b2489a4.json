@@ -1,0 +1,64 @@
+{
+  "id": "b2e39510-ff5f-11ef-bf3c-73105b2489a4",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/neves",
+    "id": "5b081d4d8859f57bdc7b8ddd-o0w2j3XiqGOvVbn75turv",
+    "email": "arseniaalice3@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 5,
+  "chatDuration": 3761,
+  "rating": 0,
+  "createdOn": "2025-03-12T17:14:55.231Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:14:55.231Z",
+      "msg": "Nome : ISCIM/neves\r\nE-mail : arseniaalice3@gmail.com\r\nDescrição do Problema : como colocar socio sem ter aceite o convite"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:19:40.527Z",
+      "msg": "Boa noite \nEle deve aceitar"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:22:20.929Z",
+      "msg": "a colega arseniaalice3@gmail.com, não consegue aceder asua pagina, pede alteração de password, como reposta não acita actualizar"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:24:00.820Z",
+      "msg": "O sistema mamda um email com a nova senha"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:29:53.741Z",
+      "msg": "c6b79b5 use esta nova senha"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

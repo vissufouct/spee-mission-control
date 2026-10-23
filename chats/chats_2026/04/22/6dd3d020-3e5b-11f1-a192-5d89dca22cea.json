@@ -1,0 +1,140 @@
+{
+  "id": "6dd3d020-3e5b-11f1-a192-5d89dca22cea",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "GC TECNOLOGIAS,LDA",
+    "id": "5b081d4d8859f57bdc7b8ddd-RPlmm6FIzUyjYBE5AYTqa",
+    "email": "kamyla699@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 11,
+  "chatDuration": 966,
+  "rating": 0,
+  "createdOn": "2026-04-22T15:04:40.193Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T15:04:40.193Z",
+      "msg": "Nome : GC TECNOLOGIAS,LDA\r\nE-mail : kamyla699@gmail.com\r\nDescrição do Problema : ola"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T15:05:23.246Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69e8e1973ad481202552e7fc/v/71d60c7028faad8cb84f62ccc356c33340ada922/Screenshot_2026-04-22_170423.png",
+              "name": "Screenshot 2026-04-22 170423.png",
+              "mimeType": "image/png",
+              "size": 147561,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T15:05:54.172Z",
+      "msg": "estou com este problena avermelhado"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-22T15:09:02.956Z",
+      "msg": "quando preencheu esse campo fez copy-past?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T15:09:25.453Z",
+      "msg": "não"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T15:12:13.644Z",
+      "msg": "Artigos projetados nao abre apajina",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69e8e1973ad481202552e7fc/v/8e9936bd9107d8052d586a972af54d305aaa5d06/image.png",
+              "name": "image.png",
+              "mimeType": "image/png",
+              "size": 91859,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-22T15:16:55.205Z",
+      "msg": "faca reload da pagina e volta a imprimir"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T15:18:59.269Z",
+      "msg": "certo. ja"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T15:19:17.011Z",
+      "msg": "obrigada."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T15:20:21.292Z",
+      "msg": "quanto  a pajina  de artigos projetados"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-22T15:20:46.449Z",
+      "msg": "em verificacao"
+    }
+  ],
+  "domain": "planodenegocios.simulacao.co.mz"
+}

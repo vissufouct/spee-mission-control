@@ -1,0 +1,29 @@
+{
+  "id": "c77ebe60-148a-11f0-8cd5-2f6639c452f8",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Staecy Elina Osvaldo Mandlate",
+    "id": "5b081d4d8859f57bdc7b8ddd-xARHfj4n6LQIH0qcAe77a",
+    "email": "staecymandlate@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-04-08T15:15:36.365Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-08T15:15:36.365Z",
+      "msg": "Nome : Staecy Elina Osvaldo Mandlate\r\nTelefone : 879249763\r\nE-mail : staecymandlate@gmail.com\r\nDescrição do Problema : Dificuldades em reparir o capital social e a quota"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

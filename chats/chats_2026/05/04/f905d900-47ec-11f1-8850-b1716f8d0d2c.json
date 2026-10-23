@@ -1,0 +1,29 @@
+{
+  "id": "f905d900-47ec-11f1-8850-b1716f8d0d2c",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Lury Telecommunications",
+    "id": "5b081d4d8859f57bdc7b8ddd-MB0XR9_6z2AIhMCh4WNQZ",
+    "email": "airtonaly2@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-04T20:13:45.448Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-04T20:13:45.448Z",
+      "msg": "Nome : Lury Telecommunications\r\nE-mail : airtonaly2@gmail.com\r\nDescrição do Problema : Ola mais uma vez, Ainda no plano financeiro, como gravar o investimento inicial, custos fixos e variaveis"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

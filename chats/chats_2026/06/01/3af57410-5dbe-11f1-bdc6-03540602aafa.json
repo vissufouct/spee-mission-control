@@ -1,0 +1,51 @@
+{
+  "id": "3af57410-5dbe-11f1-bdc6-03540602aafa",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Xerinda",
+    "id": "5b081d4d8859f57bdc7b8ddd-lpKS_oLMmkA0ZLJpBVfMe",
+    "email": "armenioxerinda@gmail.com"
+  },
+  "location": {
+    "countryCode": "ZA",
+    "city": "Johannesburg"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-06-01T14:42:04.579Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-01T14:42:04.579Z",
+      "msg": "Name : ISCIM/Xerinda\r\nEmail : armenioxerinda@gmail.com\r\nPhone : +258844847700\r\nDescrição do Problema : Boa tarde\nEstou a ter dificulfsde de adicionar a conta 411001 MS PRO Office, LDa para o lançamento, a mesma não mostra o sinal + na grelha de seleção das contas"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-01T14:43:49.773Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/6a1d89bf0eecebc220d989c7/v/c60c9ceb82a1d5133ee4fa867e1521552089bd5e/image.png",
+              "name": "image.png",
+              "mimeType": "image/png",
+              "size": 13320,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

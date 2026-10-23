@@ -1,0 +1,47 @@
+{
+  "id": "61ff2d00-222a-11f1-a301-d537b1caa0e6",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/Macuiana",
+    "id": "5b081d4d8859f57bdc7b8ddd-63rTXOyMLZdo7KbVMAre3",
+    "email": "anymacuiana@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 3,
+  "chatDuration": 117,
+  "rating": 0,
+  "createdOn": "2026-03-17T18:17:02.269Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-17T18:17:02.269Z",
+      "msg": "Nome : A Politecnica - MPT/Macuiana\r\nTelefone : 258869069184\r\nE-mail : anymacuiana@gmail.com\r\nDescrição do Problema : registei uma conta em meu nome, porem nao consigo aceder a mesma"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "MacGyver"
+      },
+      "type": "msg",
+      "time": "2026-03-17T18:18:37.853Z",
+      "msg": "Pode usar a opção para recuperar a senha"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "MacGyver"
+      },
+      "type": "msg",
+      "time": "2026-03-17T18:18:59.502Z",
+      "msg": "Ira receber uma nova senha por e-mail"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

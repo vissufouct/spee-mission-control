@@ -1,0 +1,103 @@
+{
+  "id": "e06a7ea0-4d64-11f1-8a7e-4ba392a140d2",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "THEL,LDA",
+    "id": "5b081d4d8859f57bdc7b8ddd-pnmMxLyxqFzEVyRicFwsS",
+    "email": "heliasigauque07@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 8,
+  "chatDuration": 327,
+  "rating": 0,
+  "createdOn": "2026-05-11T18:14:38.981Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-11T18:14:38.981Z",
+      "msg": "Nome : THEL,LDA\r\nE-mail : heliasigauque07@gmail.com\r\nDescrição do Problema : o sistema foi atualisadoe tenho algumas atividades atrazadas, no campo de catalogo da empresa por baixo tinham alguis servicos que tinhamos que comprar nos ativos minimos"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-11T18:15:38.835Z",
+      "msg": "com a atualisacao dosistema ja aparese outra coisa, o que devo fazer pra poder ter aquelasatividades"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-11T18:15:59.565Z",
+      "msg": "Em cima da \"area da actuacão\" tem a barra de pesquisa, pode pesquisar os servicos de deseja"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-11T18:18:24.834Z",
+      "msg": "nao aparese mais",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/6a021be40eecebc220d7c2a2/v/dc7c4bd16dffa31a681496c0fad46ac929a5660a/image.png",
+              "name": "image.png",
+              "mimeType": "image/png",
+              "size": 205102,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-11T18:18:51.865Z",
+      "msg": "Quais que não aparecem?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-11T18:19:29.822Z",
+      "msg": "aparte de adicionar os produtos na carinha, dos ativos minimos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-11T18:19:56.859Z",
+      "msg": "Tem que entrar na empresa primeiro"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-11T18:20:05.828Z",
+      "msg": "Depois pode adicionar"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

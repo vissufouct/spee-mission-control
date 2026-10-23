@@ -1,0 +1,46 @@
+{
+  "id": "31f614a0-4adb-11f1-a5eb-5bbf84d004b2",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-8QkPuSZ2zaTLog4BhU9yv",
+    "email": "vanechagone@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Beira"
+  },
+  "messageCount": 3,
+  "chatDuration": 1391,
+  "rating": 0,
+  "createdOn": "2026-05-08T12:52:48.060Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-08T12:52:48.060Z",
+      "msg": "Nome : VV Material de escritorio .Lda\r\nE-mail : vanechagone@gmail.com\r\nDescrição do Problema : Boa tarde, preciso de ajuda o meu plano de contas aparece em ingles como faço para aparecer em português"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-08T12:55:15.866Z",
+      "msg": "boa tarde,preciso de ajuda o meu plano de contas esta aparecer em inglês,queria saber como faço para aparecer em português"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-08T13:15:59.445Z",
+      "msg": "Boa tarde, um momento porfavor!"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "40ab7320-26da-11f1-ac00-41a626b9817a",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Luri Vembane",
+    "id": "5b081d4d8859f57bdc7b8ddd-uHsj5CBwaLxkLceM4fk10",
+    "email": "rabecakutane@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 772,
+  "rating": 0,
+  "createdOn": "2026-03-23T18:26:10.251Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:26:10.251Z",
+      "msg": "Nome : Luri Vembane\r\nTelefone : 258850720207\r\nE-mail : luryanaterciavembane@gmail.com\r\nDescrição do Problema : Nao aceita escolher"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:26:55.912Z",
+      "msg": "Poderia enviar o print da tela para melhor identificacão do problema!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:39:01.890Z",
+      "msg": "quero escolhero imobiliario para arrendar mas, nao aceita, o botao  escolher congela o que faco?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

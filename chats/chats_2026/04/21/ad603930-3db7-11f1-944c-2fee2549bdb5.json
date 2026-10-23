@@ -1,0 +1,29 @@
+{
+  "id": "ad603930-3db7-11f1-944c-2fee2549bdb5",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "MM Lda Consumiveis",
+    "id": "5b081d4d8859f57bdc7b8ddd-uzZ6odcxjBdzevRv_jN2N",
+    "email": "alberto.erik@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-04-21T19:46:15.641Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-21T19:46:15.641Z",
+      "msg": "Nome : ISCIM/Matavele\r\nTelefone : 258840606000\r\nE-mail : alberto.erik@gmail.com\r\nDescrição do Problema : boa noite, estou a ter dificuldades para gravar informacao na analise macroeconomica"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

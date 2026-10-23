@@ -1,0 +1,38 @@
+{
+  "id": "37325e30-6650-11f0-9b2b-2bea638df874",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/4002858034",
+    "id": "5b081d4d8859f57bdc7b8ddd-anVgtM48rMm8rlDDq8FM_",
+    "email": "mateuque.pacule@iscam.ac.mz"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 31,
+  "rating": 0,
+  "createdOn": "2025-07-21T18:16:18.625Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-21T18:16:18.625Z",
+      "msg": "Nome : /4002858034\r\nE-mail : mateuque.pacule@iscam.ac.mz\r\nDescrição do Problema : falha no sitema"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-21T18:16:49.605Z",
+      "msg": "Boa noite. Qual é o problema que enfrenta?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

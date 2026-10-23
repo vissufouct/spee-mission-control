@@ -1,0 +1,131 @@
+{
+  "id": "33adf610-89b5-11f0-a917-cf76d7a2f885",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Kelven Pascoal Maússe",
+    "id": "5b081d4d8859f57bdc7b8ddd-u0dd_ZwdSfJFWJIzG8cii",
+    "email": "kelvenpascualmausse1@gmail.com"
+  },
+  "location": {
+    "countryCode": "US",
+    "city": "Albuquerque"
+  },
+  "messageCount": 13,
+  "chatDuration": 619,
+  "rating": 0,
+  "createdOn": "2025-09-04T17:35:21.682Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-04T17:35:21.682Z",
+      "msg": "Nome : Kelven Pascoal Maússe\r\nTelefone : 25844585219\r\nE-mail : kelvenpascualmausse1@gmail.com\r\nDescrição do Problema : Registamos 25 trabalhadores ,e não constam na listagem de funcionarios, apenas consta no apa inicio que temos 25 mas não mostra os funcionarios"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-04T17:35:34.664Z",
+      "msg": "Boa noite"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-04T17:35:45.427Z",
+      "msg": "boa noite"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-04T17:36:06.992Z",
+      "msg": "Peço seu email"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-04T17:36:28.038Z",
+      "msg": "Kelvenpascualmausse1@gmail.com"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-04T17:36:35.189Z",
+      "msg": "Email pessoal"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-04T17:36:47.230Z",
+      "msg": "Emailpara acesso ao simulador"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-04T17:36:55.821Z",
+      "msg": "é esse mesmo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-04T17:43:03.406Z",
+      "msg": "Peço o nuit da tua empresa"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-04T17:43:37.061Z",
+      "msg": "4002888179"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-04T17:45:24.518Z",
+      "msg": "Obrigada"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-04T17:45:34.949Z",
+      "msg": "peço que aguarde um momento"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-04T17:45:40.907Z",
+      "msg": "esta certo"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

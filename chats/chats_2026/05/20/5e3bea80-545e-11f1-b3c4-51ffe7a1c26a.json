@@ -1,0 +1,29 @@
+{
+  "id": "5e3bea80-545e-11f1-b3c4-51ffe7a1c26a",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Célia Ricardo Lourino Maoco",
+    "id": "5b081d4d8859f57bdc7b8ddd-xx5KWCqx7ncyV_gDehCx_",
+    "email": "celiaricardomaoco@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T15:21:05.170Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:21:05.170Z",
+      "msg": "Nome : Célia Ricardo Lourino Maoco\r\nTelefone : 258829009373\r\nE-mail : celiaricardomaoco@gmail.com\r\nDescrição do Problema : Boa tarde Dr\nCélia Ricardo Lourino Maoco \nceliaricardomaoco@gmail.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

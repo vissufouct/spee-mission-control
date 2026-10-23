@@ -1,0 +1,29 @@
+{
+  "id": "2ef3a680-285f-11f1-ba6d-573fb2881211",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "AD combustível e lubrificantes Lda",
+    "id": "5b081d4d8859f57bdc7b8ddd-RPlmm6FIzUyjYBE5AYTqa",
+    "email": "horaciomachangame@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-03-25T15:50:27.815Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-25T15:50:27.815Z",
+      "msg": "Nome : AD combustível e lubrificantes Lda\r\nE-mail : horaciomachangame@gmail.com\r\nDescrição do Problema : nao consigo  ver os pdf da aula"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

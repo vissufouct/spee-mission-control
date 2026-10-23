@@ -1,0 +1,94 @@
+{
+  "id": "8c1177f0-a4e0-11f0-9365-65175b25ef09",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "DigitalX/4002807781",
+    "id": "5b081d4d8859f57bdc7b8ddd-8ywtywDj2Z1Udi0Fu9_EJ",
+    "email": "tomassantos779@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 7,
+  "chatDuration": 273,
+  "rating": 0,
+  "createdOn": "2025-10-09T07:30:00.352Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-09T07:30:00.352Z",
+      "msg": "Nome : DigitalX/4002807781\r\nTelefone : 258875016591\r\nE-mail : aduinaemilio@gmail.com\r\nDescrição do Problema : Não encontrou o produto desejado"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-09T07:30:18.753Z",
+      "msg": "Não encontrou o produto desejado"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-09T07:30:30.714Z",
+      "msg": "Bom dia"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-09T07:30:54.222Z",
+      "msg": "qual é o produto que deseja localizar?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-09T07:31:08.232Z",
+      "msg": "Não encontrou o produto desejado"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-09T07:32:00.501Z",
+      "msg": "e os artigos ja estão na projeção"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-09T07:34:33.600Z",
+      "msg": "Os peodutos estão a ser listados. como é que não encontra?",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/b9d9f4560859c42b43c8c72ad7d1b4f50081879b/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 134334,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

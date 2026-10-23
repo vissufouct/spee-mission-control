@@ -1,0 +1,37 @@
+{
+  "id": "2631f470-049d-11f0-8f42-19bd4e789c0e",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Mondlane",
+    "id": "5b081d4d8859f57bdc7b8ddd-UgrusQc7oNfvXFNfvuMp3",
+    "email": "charmilaabdul92@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-03-19T08:38:18.062Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:38:18.062Z",
+      "msg": "Nome : ISCIM/Mondlane\r\nE-mail : melindamondlane2@gmail.com\r\nDescrição do Problema : Nao consigo entrar nos activos minimos"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:40:00.637Z",
+      "msg": "Nao consigo entrar nos activos minimos"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

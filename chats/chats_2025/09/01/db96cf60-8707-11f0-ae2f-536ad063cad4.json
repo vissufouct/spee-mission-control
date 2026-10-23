@@ -1,0 +1,29 @@
+{
+  "id": "db96cf60-8707-11f0-ae2f-536ad063cad4",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-MdlJ8XaqlWhjw3OqbfRLP",
+    "email": "docente.masterclass@spee.co.mz"
+  },
+  "location": {
+    "countryCode": "US",
+    "city": "Chicago"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-09-01T08:00:32.109Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-01T08:00:32.109Z",
+      "msg": "Nome : [Docente]ISPG - Milton ISPG_Ciclo_2025/Angelo\r\nE-mail : sholaeliana@gmail.com\r\nDescrição do Problema : jhrgnfklfvmv,c"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

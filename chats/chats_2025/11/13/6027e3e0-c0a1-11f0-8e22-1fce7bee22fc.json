@@ -1,0 +1,29 @@
+{
+  "id": "6027e3e0-c0a1-11f0-8e22-1fce7bee22fc",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "V1762434529288537",
+    "id": "5b081d4d8859f57bdc7b8ddd-yNPAWAPigppI8XDrRzZyl",
+    "email": "sheltonclinton0@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-11-13T14:59:52.843Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-13T14:59:52.843Z",
+      "msg": "Até agora nada?"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

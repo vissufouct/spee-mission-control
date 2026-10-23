@@ -1,0 +1,47 @@
+{
+  "id": "755a5040-3cbb-11f1-9a61-91c7bda4d832",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Kelven Campos",
+    "id": "5b081d4d8859f57bdc7b8ddd-ElZEgUUDqlbVuH5purUaL",
+    "email": "kelven.ivandro@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 50,
+  "rating": 0,
+  "createdOn": "2026-04-20T13:58:59.890Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T13:58:59.890Z",
+      "msg": "Nome : Kelven Campos\r\nE-mail : kelven.ivandro@gmail.com\r\nDescrição do Problema : Eu ja preenchi o modelo de negócio do plano de negócio, apos o plano de comunicação cliquei em prosseguir e veio o plano financeiro, ja preenchi o plano financeiro o que faço para terminar e baixar ?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T13:59:44.904Z",
+      "msg": "Vai em imprimir"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T13:59:49.741Z",
+      "msg": "se ja terminou"
+    }
+  ],
+  "domain": "planodenegocios.simulacao.co.mz"
+}

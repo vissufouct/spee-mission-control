@@ -1,0 +1,37 @@
+{
+  "id": "827b1600-d132-11f0-a75e-afd7157efafa",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISG/Manjate",
+    "id": "5b081d4d8859f57bdc7b8ddd-OxJkXoeEHIdOkYUeoDII8",
+    "email": "emerson.r.manjate@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-12-04T17:12:20.260Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-12-04T17:12:20.260Z",
+      "msg": "Nome : ISG/Manjate\r\nTelefone : 258820935408\r\nE-mail : emerson.r.manjate@gmail.com\r\nDescrição do Problema : Boa noite. \nEstamos a enfrentar um problema com o nosso banco. Estamos a tentar efectuar pagamento de uma factura de cerca de 600.000,00 e informa que temos saldo insuficiente, sendo que temos mais de 2.000.000,00 na conta.\n\n\nOutro problema é com relação aos concursos públicos, estamos com dificuldade para adjudicar a factura. Não processa."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-12-04T18:19:49.140Z",
+      "msg": "Boa noite, aparentemente está resolvido"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

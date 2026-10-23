@@ -1,0 +1,56 @@
+{
+  "id": "895b5220-97ba-11f0-911d-0399804551b9",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "BE Lda Comércio e Serviços",
+    "id": "5b081d4d8859f57bdc7b8ddd-Ooe2UvEt786893wNzfe3t",
+    "email": "lourenco.tomocene@gmail.com"
+  },
+  "location": {
+    "countryCode": "US",
+    "city": "Chicago"
+  },
+  "messageCount": 4,
+  "chatDuration": 48,
+  "rating": 0,
+  "createdOn": "2025-09-22T13:57:37.341Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-22T13:57:37.341Z",
+      "msg": "Nome : BE Lda Comércio e Serviços\r\nE-mail : lourenco.tomocene@gmail.com\r\nDescrição do Problema : Ao emitir facturas, nao esta a aparecer o nome da minha empresa na factura. Como fazer para que nas minhas facturas apareca nome da minha empresa?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-22T13:58:04.329Z",
+      "msg": "Boa tarde"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-22T13:58:18.329Z",
+      "msg": "editar os dados no perfil da empresa"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-22T13:58:25.081Z",
+      "msg": "colocar o nome corrercto"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

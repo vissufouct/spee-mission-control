@@ -1,0 +1,94 @@
+{
+  "id": "6aa7ac10-c09c-11f0-9ec6-87d678dae559",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "V1762434529288537",
+    "id": "5b081d4d8859f57bdc7b8ddd-yNPAWAPigppI8XDrRzZyl",
+    "email": "sheltonclinton0@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 7,
+  "chatDuration": 201,
+  "rating": 0,
+  "createdOn": "2025-11-13T14:25:39.079Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-13T14:25:39.079Z",
+      "msg": "Telefone : 258258869570135\r\nE-mail : sheltonclinton0@gmail.com\r\nDescrição do Problema : Não consigo ver os meus movimentos que foram lançados"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-11-13T14:26:29.988Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/df8a01a4a93cc056043da322e4ff2a263418bddc/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 15648,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-13T14:27:08.090Z",
+      "msg": "Não consigo aceder"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-11-13T14:27:44.222Z",
+      "msg": "Qual é a dificuldade?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-13T14:28:10.521Z",
+      "msg": "Os movimentos dos meus lançamentos não aparecem"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-11-13T14:28:48.944Z",
+      "msg": "Mas chegou a fazer algum?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-13T14:28:59.968Z",
+      "msg": "Sim,muitos"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

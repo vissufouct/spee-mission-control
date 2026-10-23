@@ -1,0 +1,37 @@
+{
+  "id": "383039b0-34cd-11f0-9bcc-b5336c87afed",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "C&M OFFICE Lda CONFORT",
+    "id": "5b081d4d8859f57bdc7b8ddd-8xvj4FC8Im_idFBaEMeou",
+    "email": "lucrenciaaurelioguambe@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-05-19T17:14:14.008Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-19T17:14:14.008Z",
+      "msg": "Nome : C&M OFFICE Lda CONFORT\r\nE-mail : lucrenciaaurelioguambe@gmail.com\r\nDescrição do Problema : Boa noite ilustre, estamos com dificuldades na gravação dos lançamentos contabilísticos, há um problema com o sistema, obrigado."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-19T17:14:53.505Z",
+      "msg": ":sob::sob:"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "3c6713c0-546e-11f1-8fc3-c79896fa589e",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Naftal Jr. Massingue",
+    "id": "5b081d4d8859f57bdc7b8ddd-ShgqAJBHfoFQ9bTQNlArU",
+    "email": "naftalmassinguejr@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T17:09:19.234Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T17:09:19.234Z",
+      "msg": "Nome : A Politecnica - MPT/Jr.\r\nE-mail : naftalmassinguejr@gmail.com\r\nDescrição do Problema : naftalmassinguejr@gmail.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

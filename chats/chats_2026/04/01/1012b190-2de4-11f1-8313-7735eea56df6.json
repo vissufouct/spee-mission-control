@@ -1,0 +1,55 @@
+{
+  "id": "1012b190-2de4-11f1-8313-7735eea56df6",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Macie & Matlombe Lda/4003038518 Energies",
+    "id": "5b081d4d8859f57bdc7b8ddd-5_n0MZsCoXZUKwHtbtnMt",
+    "email": "idacilio.mathombe.im7@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 4,
+  "chatDuration": 4853,
+  "rating": 0,
+  "createdOn": "2026-04-01T16:08:39.506Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-01T16:08:39.506Z",
+      "msg": "Nome : Macie & Matlombe Lda/4003038518 Energies\r\nE-mail : idacilio.mathombe.im7@gmail.com\r\nDescrição do Problema : boa noite. nao consigo aceder ao diario do empreendedor"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-01T16:20:26.695Z",
+      "msg": "Boa noite estamos verificando o problema!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-01T16:45:22.421Z",
+      "msg": "ja esta, obrigado!"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-01T17:29:32.920Z",
+      "msg": "resolvido, pode actualizar a tela"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

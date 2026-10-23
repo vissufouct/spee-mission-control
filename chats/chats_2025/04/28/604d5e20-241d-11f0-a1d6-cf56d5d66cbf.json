@@ -1,0 +1,29 @@
+{
+  "id": "604d5e20-241d-11f0-a1d6-cf56d5d66cbf",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "UNILURIO/Rahman",
+    "id": "5b081d4d8859f57bdc7b8ddd-xVNXsD1LpvYqgmH3DXwsw",
+    "email": "mottamanue43@gmail.com"
+  },
+  "location": {
+    "countryCode": "NG",
+    "city": "Unknown"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-04-28T13:12:46.742Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-28T13:12:46.742Z",
+      "msg": "Nome : UNILURIO/Rahman\r\nTelefone : 877534837\r\nE-mail : bigirimanarahman@gmail.com\r\nDescrição do Problema : Saudações\nEstou a tentar preencher o custo fixo mas o sistema recusa dizendo que ''não foi projectado o preço para o presente produto ou serviço... custo fixo cadastrado com sucesso'' mas no final não aceita que eu termine a projecção de vendas"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

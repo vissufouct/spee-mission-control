@@ -1,0 +1,55 @@
+{
+  "id": "4f2c8f70-89bd-11f0-bc74-475f429d51ff",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Kelven Pascoal Maússe",
+    "id": "5b081d4d8859f57bdc7b8ddd-u0dd_ZwdSfJFWJIzG8cii",
+    "email": "kelvenpascualmausse1@gmail.com"
+  },
+  "location": {
+    "countryCode": "US",
+    "city": "Chicago"
+  },
+  "messageCount": 4,
+  "chatDuration": 130,
+  "rating": 0,
+  "createdOn": "2025-09-04T18:35:05.862Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-04T18:35:05.862Z",
+      "msg": "Nome : Kelven Pascoal Maússe\r\nTelefone : 258844585219\r\nE-mail : kelvenpascualmausse1@gmail.com\r\nDescrição do Problema : Ainda não foi resolvida ,a situação e aguardamos o feedback"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-04T18:35:49.553Z",
+      "msg": "Retorno assim quetiver actualizado. Uns 5min no máximo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-04T18:36:19.527Z",
+      "msg": "já está resolvido"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-04T18:37:15.459Z",
+      "msg": "Muito obrigado, já está resolvido"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

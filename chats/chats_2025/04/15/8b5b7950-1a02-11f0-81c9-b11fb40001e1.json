@@ -1,0 +1,55 @@
+{
+  "id": "8b5b7950-1a02-11f0-81c9-b11fb40001e1",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISPM/Joao",
+    "id": "5b081d4d8859f57bdc7b8ddd-f6VrwwNntsG5W47bB7iLl",
+    "email": "lucioaugustoepulaspee@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Tete"
+  },
+  "messageCount": 4,
+  "chatDuration": 404,
+  "rating": 0,
+  "createdOn": "2025-04-15T14:06:37.419Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-15T14:06:37.419Z",
+      "msg": "Nome : ISPM/Joao\r\nTelefone : 871367436\r\nE-mail : lucioaugustoepulaspee@gmail.com\r\nDescrição do Problema : Nao consigo fazer a projecao de precos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-15T14:07:26.888Z",
+      "msg": "Boa tarde"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-15T14:07:31.691Z",
+      "msg": "ual e a dificuldade"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-15T14:08:26.026Z",
+      "msg": "Quando tento clicar ai na projeção de preços, nao avança"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

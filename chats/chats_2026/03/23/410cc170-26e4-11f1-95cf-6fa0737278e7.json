@@ -1,0 +1,46 @@
+{
+  "id": "410cc170-26e4-11f1-95cf-6fa0737278e7",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-NrPLL0Ree1LKvv_GvGoyi",
+    "email": "thairesmartins04@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 267,
+  "rating": 0,
+  "createdOn": "2026-03-23T18:25:26.768Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:25:26.768Z",
+      "msg": "Nome : ISCIM/Martins\r\nE-mail : thairesmartins04@gmail.com\r\nDescrição do Problema : Depois de escolher a lista disponivel dos topos de imovel ,nao passa."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:28:27.649Z",
+      "msg": "Hi\\"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:29:53.968Z",
+      "msg": "Um momento por favor estamos verificando o problema"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

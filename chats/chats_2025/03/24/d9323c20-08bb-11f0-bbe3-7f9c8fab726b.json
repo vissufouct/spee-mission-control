@@ -1,0 +1,29 @@
+{
+  "id": "d9323c20-08bb-11f0-bbe3-7f9c8fab726b",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Marrengula",
+    "id": "5b081d4d8859f57bdc7b8ddd-PNaeW5mRAmYVB4z4_e035",
+    "email": null
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-03-24T15:15:00.549Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-24T15:15:00.549Z",
+      "msg": "Nome : JM Cars,Lda/4002807809\r\nDescrição do Problema : Olá. estou com dificuldades de salvar os custos fixos na projeção de preços"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

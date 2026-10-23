@@ -1,0 +1,172 @@
+{
+  "id": "627612c0-3e5a-11f1-be48-0dd2f47d062a",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "L&A Lda Soluções",
+    "id": "5b081d4d8859f57bdc7b8ddd-0mA00DLGU7HyqAqQt8BCF",
+    "email": "antonio.monjane@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 17,
+  "chatDuration": 792,
+  "rating": -1,
+  "createdOn": "2026-04-22T17:21:38.751Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:21:38.751Z",
+      "msg": "Nome : L&A Lda Soluções\r\nTelefone : 258845415753\r\nE-mail : antonio.monjane@gmail.com\r\nDescrição do Problema : boa noite.\nEstou a enfrentar um problema de nao visualizacao do plano de negocia no perfil da empresa"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:22:01.547Z",
+      "msg": "o meu par nao tem acesso"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:22:46.297Z",
+      "msg": "Não aparece na lista quando clica em comentarios?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "rating",
+      "time": "2026-04-22T17:24:04.278Z",
+      "data": {
+        "rating": -1
+      }
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:24:17.580Z",
+      "msg": "aparece"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:24:31.975Z",
+      "msg": "mas o ,eu socio nao tem acesso"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:29:40.800Z",
+      "msg": "Vc e o teu socio so tem um plano em conjunto?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:30:02.640Z",
+      "msg": "sim"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:30:14.889Z",
+      "msg": "mas nao tem acesso"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:30:20.009Z",
+      "msg": "aque se deve"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:30:30.270Z",
+      "msg": "e como podes ajudar"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:30:56.218Z",
+      "msg": "tens como verificar a nossa empresa?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:31:55.396Z",
+      "msg": "É o seguinte, o plano de negocio não se cria em conjunto, apenas quem criou é que pode visualizar, o plano é criado pela conta individual do estudante e não da empresa do estudante assim que só um criou so ele pode visualizar o outro não pode, mesmo sendo socios!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:32:00.085Z",
+      "msg": "os dados inseridos nao aceitam gravar."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:33:06.742Z",
+      "msg": "certo, mas se estamos a operar no perfil da empresa"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:34:31.358Z",
+      "msg": "Otra questao, muitas das informacoes nao estao a ser gravadas. Inserimos la dados, mas infelizmente volta tudo ao zero, como se nem o tivessemos feito."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:34:34.299Z",
+      "msg": "independentemente de operar no perfil da empresa!"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:34:50.985Z",
+      "msg": "Que tipo de informacão?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

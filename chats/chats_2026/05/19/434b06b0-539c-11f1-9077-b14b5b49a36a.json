@@ -1,0 +1,45 @@
+{
+  "id": "434b06b0-539c-11f1-9077-b14b5b49a36a",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-t8LfkPolNr9zeGNsEyWnI",
+    "email": "lorosamario3@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-19T16:06:57.470Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-19T16:06:57.470Z",
+      "msg": "Nome : rosa\r\nE-mail : lorosamario3@gmail.com\r\nDescrição do Problema : estou com problmas n"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-19T16:07:02.862Z",
+      "msg": "boa noite"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-19T16:07:47.020Z",
+      "msg": "sou rosa aluna de contabilidade e auditoria gostaria de saber como  posso saber se meu docente aceitou o meu finaciamento"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

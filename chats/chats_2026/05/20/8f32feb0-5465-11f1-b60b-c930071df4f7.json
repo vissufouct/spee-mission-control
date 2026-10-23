@@ -1,0 +1,29 @@
+{
+  "id": "8f32feb0-5465-11f1-b60b-c930071df4f7",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/Zualo",
+    "id": "5b081d4d8859f57bdc7b8ddd-leLplhuW9cM3Cr_xHuTW4",
+    "email": "igorzualo34@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T16:06:54.465Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T16:06:54.465Z",
+      "msg": "Nome : A Politecnica - MPT/Zualo\r\nTelefone : 258837860064\r\nE-mail : igorzualo34@gmail.com\r\nDescrição do Problema : Igorzualo34@gmail.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

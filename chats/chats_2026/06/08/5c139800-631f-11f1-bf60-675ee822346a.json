@@ -1,0 +1,113 @@
+{
+  "id": "5c139800-631f-11f1-bf60-675ee822346a",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "V&F, LDA – Equipamentos Informáticos & Serviços de Reparação",
+    "id": "5b081d4d8859f57bdc7b8ddd-RR9ZqEKC0wew8ePLNCF7f",
+    "email": "fabiaomassingue05@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 11,
+  "chatDuration": 1429,
+  "rating": 0,
+  "createdOn": "2026-06-08T10:03:55.920Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-08T10:03:55.920Z",
+      "msg": "Name : V&F, LDA – Equipamentos Informáticos & Serviços de Reparação\r\nEmail : fabiaomassingue05@gmail.com\r\nDescrição do Problema : estou a tentar registar a minha empresa no INSS mais nao aceita peco a vossa ajuda"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-08T10:07:03.854Z",
+      "msg": "Podes me ajudar?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-06-08T10:10:24.951Z",
+      "msg": "Bom dia, pode não fazer o registro não vai afectar em nada no processo de simulacão"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-08T10:11:11.135Z",
+      "msg": "mais o professor quer o documento do contrato como posso ter?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-06-08T10:14:02.186Z",
+      "msg": "Faça os outros contractos, o do inss pode deixar de lado, quem é o professor?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-08T10:16:50.334Z",
+      "msg": "Fernando"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-08T10:17:54.495Z",
+      "msg": "Essas fichas servem de avalicao sem esses fichas e contrato teremos menos pontos, mais outros colegas conseguiram"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-06-08T10:18:08.500Z",
+      "msg": "Nome completo do professor"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-08T10:19:06.401Z",
+      "msg": "Fernando Salomao"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-08T10:25:52.493Z",
+      "msg": "qual e a sugestao??"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-06-08T10:27:44.823Z",
+      "msg": "O contracto com o inss nao e obrigatorio fazer or melhor dizer nem devem fazer nem incluir no relatorio! vou ligar para o dc informar peco que diga aos outros colegas nao fazerem o contracto com o INSS nem usarem nada doque esta ai!"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

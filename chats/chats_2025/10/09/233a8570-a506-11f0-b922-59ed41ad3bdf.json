@@ -1,0 +1,114 @@
+{
+  "id": "233a8570-a506-11f0-b922-59ed41ad3bdf",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "EP Sobrilho,Lda.",
+    "id": "5b081d4d8859f57bdc7b8ddd-9lSP_F1fmIriC5NlEPh8c",
+    "email": "alcinoemilia@gmail.com"
+  },
+  "location": {
+    "countryCode": "US",
+    "city": "Cleveland"
+  },
+  "messageCount": 11,
+  "chatDuration": 5599,
+  "rating": 0,
+  "createdOn": "2025-10-09T12:09:12.597Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-09T12:09:12.597Z",
+      "msg": "Nome : EP Sobrilho,Lda.\r\nTelefone : 258\r\nE-mail : alcinoemilia@gmail.com\r\nDescrição do Problema : tenho dois SGC no mesma empresa coomo posso unir os dois pra ter unico sgc"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-09T12:09:39.599Z",
+      "msg": "Boa tarde. não tem como unir, pode somente usar uma das empresas"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-09T12:11:44.617Z",
+      "msg": "o meu SGC  esta dividido em dois,como posso inir"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-09T12:12:44.068Z",
+      "msg": "Não pode unir, pode somente usar uma delas.  peço que verifique o nuit das duas"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-09T12:12:55.135Z",
+      "msg": "e envie o nuit da empresa que pretende usar"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-09T12:13:26.504Z",
+      "msg": "o niut e o mesmo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-09T12:14:08.977Z",
+      "msg": "peço que envie"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-09T12:14:28.470Z",
+      "msg": "4002878142"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-09T12:26:03.541Z",
+      "msg": "Certo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-09T13:06:48.008Z",
+      "msg": "ao clicar no sgcomercial aparece duas opcoes uma com perfil e outra sem perfil mas todas com o mesmo nuit  porem com movimentos separados"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-09T13:42:31.305Z",
+      "msg": "o que devo fazer"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

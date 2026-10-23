@@ -1,0 +1,47 @@
+{
+  "id": "1b9e6100-c901-11f0-ba2f-71496c9c7832",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISPG/Júnior",
+    "id": "5b081d4d8859f57bdc7b8ddd-vY0giPs2F5aKbYxEel_HW",
+    "email": "suzanahmahavene111@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 2011,
+  "rating": 0,
+  "createdOn": "2025-11-24T07:01:05.596Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-24T07:01:05.596Z",
+      "msg": "Nome : ISPG/Júnior\r\nTelefone : 258842289822\r\nE-mail : jorgesitoe94@gmail.com\r\nDescrição do Problema : Bom dia, estou enfrentado dificuldades para acessar a página de gestão comercial."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-11-24T07:34:26.165Z",
+      "msg": "Bom dia"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-11-24T07:34:36.922Z",
+      "msg": "Estamos a verificar"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "725f5670-ae76-11f0-9590-653edd6cab5c",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Ussene",
+    "id": "5b081d4d8859f57bdc7b8ddd-Hywt03so_dEjMWOX22cL0",
+    "email": "yashfir31@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-10-21T14:46:19.879Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-21T14:46:19.879Z",
+      "msg": "Nome : ISCIM/Ussene\r\nE-mail : yashfir31@gmail.com\r\nDescrição do Problema : ao fazer um lancamento da um erro e diz para entrar em contacto com o \nmeu sistema"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

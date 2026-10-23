@@ -1,0 +1,64 @@
+{
+  "id": "3f36bc20-88e7-11f0-8b9c-7f455b295d3f",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Armussagy comunicacao,lda/4002807823",
+    "id": "5b081d4d8859f57bdc7b8ddd-o0w2j3XiqGOvVbn75turv",
+    "email": "elcidiarosamoises@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 5,
+  "chatDuration": 168,
+  "rating": 0,
+  "createdOn": "2025-09-03T17:44:56.021Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-03T17:44:56.021Z",
+      "msg": "Nome : Armussagy comunicacao,lda/4002807823\r\nE-mail : elcidiarosamoises@gmail.com\r\nDescrição do Problema : ola como adicionar produto avender"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-03T17:45:52.128Z",
+      "msg": "Boa noite"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-03T17:46:02.897Z",
+      "msg": "\"Projecção de preços \""
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-03T17:46:57.654Z",
+      "msg": "como adicionar  produto / serviço"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-03T17:47:43.731Z",
+      "msg": "Tem um campo na Projecção de preços para adicionar"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

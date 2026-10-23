@@ -1,0 +1,61 @@
+{
+  "id": "b1c8cb40-04ba-11f0-8d1a-7ba15d2929cd",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/4002807790",
+    "id": "5b081d4d8859f57bdc7b8ddd-1cDNifZe2_6y7wXVG_Ghn",
+    "email": "momedjumamotim@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 170,
+  "rating": 0,
+  "createdOn": "2025-03-19T12:08:21.535Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T12:08:21.535Z",
+      "msg": "Nome : Momade Juma Issufo\r\nE-mail : momedjumamotim@gmail.com\r\nDescrição do Problema : Sou estudante da turma da tarde de Cad4A e preciso ter acesso  loja de activos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-03-19T12:10:58.236Z",
+      "msg": "Boa tarde"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-03-19T12:11:11.316Z",
+      "msg": "logo apos aceder a plataforma, entrar para este campo. e depois voltar a tentar aceceder aos activos minimos",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "extension": "jpeg",
+              "size": 101550,
+              "name": "image.jpg",
+              "mimeType": "image/jpeg",
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/67bc6520a561be464e803d37/62ba477a1b231937966241b79a0cffbddb9940f8/image.jpg"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

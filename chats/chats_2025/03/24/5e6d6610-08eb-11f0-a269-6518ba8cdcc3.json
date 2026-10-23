@@ -1,0 +1,29 @@
+{
+  "id": "5e6d6610-08eb-11f0-a269-6518ba8cdcc3",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Charla zefa mawai",
+    "id": "5b081d4d8859f57bdc7b8ddd-SwKABStpFqEcHqDQleBcr",
+    "email": "charla.mawai05@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-03-24T20:08:58.571Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-24T20:08:58.571Z",
+      "msg": "Nome : Charla zefa mawai\r\nTelefone : 842510973\r\nE-mail : charla.mawai05@gmail.com\r\nDescrição do Problema : Quero entrar no plataforma"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

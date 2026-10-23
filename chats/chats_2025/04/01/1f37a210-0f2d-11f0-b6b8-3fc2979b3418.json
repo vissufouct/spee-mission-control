@@ -1,0 +1,111 @@
+{
+  "id": "1f37a210-0f2d-11f0-b6b8-3fc2979b3418",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-ixsCvxxobW0qDPfqMr5ZT",
+    "email": "jacquescirillo532@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 9,
+  "chatDuration": 655,
+  "rating": 0,
+  "createdOn": "2025-04-01T19:25:27.705Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:25:27.705Z",
+      "msg": "Nome : Cirillo Jacques\r\nTelefone : 864173895\r\nE-mail : jacquescirillo532@gmail.com\r\nDescrição do Problema : Boa noite, pedimos para a vossa atencao para os casos de contractos Lojas Online pois nao conseguimos aceder"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:27:02.727Z",
+      "msg": "Boa noite"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:27:14.162Z",
+      "msg": "ual e o problema que enfrenta?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:28:33.946Z",
+      "msg": "nao conseguimos fazer contratos com as lojas online"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:30:38.045Z",
+      "msg": "saia do sistema, e volte a entrar. Logo que esta janela abrir, entre para o campo destacado. Apos isso pode aceder ao grossista",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/35921a6ebfde02e0e56abf002386271da4c9372e/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 63598,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:31:20.209Z",
+      "msg": "obrigado"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:32:57.834Z",
+      "msg": "Pedimos para activar a Banca par poder pedir financiamneo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:33:32.105Z",
+      "msg": "so criar contrato"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:36:22.971Z",
+      "msg": "obrigado"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

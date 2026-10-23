@@ -1,0 +1,122 @@
+{
+  "id": "e1719f20-1e8c-11f0-a593-c1bce5ed7343",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "USTM/Cumbane",
+    "id": "5b081d4d8859f57bdc7b8ddd-AIZQIPvyK0WIPFVJuYno0",
+    "email": "rucodiesel@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 12,
+  "chatDuration": 1023,
+  "rating": 0,
+  "createdOn": "2025-04-21T09:08:54.879Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-21T09:08:54.879Z",
+      "msg": "Nome : USTM/Cumbane\r\nE-mail : rucodiesel@gmail.com\r\nDescrição do Problema : bom dia!\ngostava de editar o nome da empresa, esta bem dificil."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-21T09:09:12.901Z",
+      "msg": "Bom dia"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-21T09:09:20.868Z",
+      "msg": "qual ]e a dificuldade"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-21T09:09:47.134Z",
+      "msg": "editar o nome da empresa"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-21T09:10:02.406Z",
+      "msg": "de Rucodiesel para Rocudiesel"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-21T09:10:39.606Z",
+      "msg": "entrou para o campo editar  empresa?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-21T09:20:41.926Z",
+      "msg": "sim mas nao esta editar"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-21T09:21:07.364Z",
+      "msg": "certo. um momento"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-21T09:21:40.500Z",
+      "msg": "certo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-21T09:24:47.234Z",
+      "msg": "Alterado"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-21T09:25:45.799Z",
+      "msg": "ainda visualizo a alteracao"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-21T09:25:58.219Z",
+      "msg": "mas certo"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

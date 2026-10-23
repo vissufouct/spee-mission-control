@@ -1,0 +1,29 @@
+{
+  "id": "29a47530-099b-11f0-8374-89b9d5fd5fb0",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "RS Lda./4002807799 Mobiliário",
+    "id": "5b081d4d8859f57bdc7b8ddd-gptCTOd4p3ktTXvo0gumo",
+    "email": "soniachongue@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Pemba"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-03-25T17:13:21.772Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-25T17:13:21.772Z",
+      "msg": "Nome : RS Lda./4002807799 Mobiliário\r\nE-mail : saidymanueljunior@gmail.com\r\nDescrição do Problema : como posso alterar a localização"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

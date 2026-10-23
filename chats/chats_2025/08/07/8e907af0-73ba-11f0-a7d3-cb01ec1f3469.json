@@ -1,0 +1,38 @@
+{
+  "id": "8e907af0-73ba-11f0-a7d3-cb01ec1f3469",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISDB/Junior",
+    "id": "5b081d4d8859f57bdc7b8ddd-G4TmVowj05G2rsfIfsKhU",
+    "email": "juniorchiziane@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 2,
+  "chatDuration": 151,
+  "rating": 0,
+  "createdOn": "2025-08-07T18:19:37.212Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-07T18:19:37.212Z",
+      "msg": "Nome : ISDB/Junior\r\nE-mail : juniorchiziane@gmail.com\r\nDescrição do Problema : como ver os nomes dos socios"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-07T18:22:08.078Z",
+      "msg": "Boa noite, para ver os nomes dos socios navegue ate ao meu perfil, selecione perfil da empresa  e depois a aba sociedade."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

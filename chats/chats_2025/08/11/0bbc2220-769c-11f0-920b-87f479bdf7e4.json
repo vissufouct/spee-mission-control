@@ -1,0 +1,79 @@
+{
+  "id": "0bbc2220-769c-11f0-920b-87f479bdf7e4",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCAM/Bila",
+    "id": "5b081d4d8859f57bdc7b8ddd-XDN0rIZ96oIs3iE3l1zow",
+    "email": "elton.bila@iscam.ac.mz"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 5,
+  "chatDuration": 2327,
+  "rating": 0,
+  "createdOn": "2025-08-11T10:17:05.375Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-11T10:17:05.375Z",
+      "msg": "Nome : ISCAM/Bila\r\nTelefone : 258866869345\r\nE-mail : elton.bila@iscam.ac.mz\r\nDescrição do Problema : Como faco para ter ou saber o Email corporativo da minha Empresa"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Alexandre Viegas Mangujo Júnior"
+      },
+      "type": "msg",
+      "time": "2025-08-11T10:52:50.367Z",
+      "msg": "No painel principal , é só clicar em ver perfil da empresa , aí onde está azul",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/6889ef8171b6bf1aec925b8f/2fd3ac2b3ab30c6cb7d15ccbc70f8bd075a9ab2e/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 204097,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Alexandre Viegas Mangujo Júnior"
+      },
+      "type": "msg",
+      "time": "2025-08-11T10:54:04.904Z",
+      "msg": "No campo dados da empresa"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Alexandre Viegas Mangujo Júnior"
+      },
+      "type": "msg",
+      "time": "2025-08-11T10:54:39.622Z",
+      "msg": "Aparecerá todos os dados da empresa"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Alexandre Viegas Mangujo Júnior"
+      },
+      "type": "msg",
+      "time": "2025-08-11T10:55:52.233Z",
+      "msg": "Inclusive o email"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

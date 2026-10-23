@@ -1,0 +1,106 @@
+{
+  "id": "9e4d0420-3261-11f1-a9d1-011f1fdf33f5",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "TC INFORMATICAS LDA/4003038508",
+    "id": "5b081d4d8859f57bdc7b8ddd-mq1iqIw96iCZuilGsMmAA",
+    "email": "talbasine@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 10,
+  "chatDuration": 2154,
+  "rating": 0,
+  "createdOn": "2026-04-07T09:26:01.378Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-07T09:26:01.378Z",
+      "msg": "Nome : TC INFORMATICAS LDA/4003038508\r\nTelefone : 258847395370\r\nE-mail : talbasine@gmail.com\r\nDescrição do Problema : estou para criar plano de negocio, quando clico no salvar e continuar, ele nao abre outtra janela para continuar"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-07T09:32:16.093Z",
+      "msg": "Nome : TC INFORMATICAS LDA/4003038508\nTelefone : 258847395370\nE-mail : talbasine@gmail.com\nDescrição do Problema : estou para criar plano de negocio, quando clico no salvar e continuar, ele nao abre outtra janela para continuar"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-07T09:42:00.619Z",
+      "msg": "Bom dia, o problema acontece aonde? Modelo de negocios, plano de negocioss ou inquerito?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-07T09:44:14.276Z",
+      "msg": "no Modelo de plano de Negócio"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-07T09:55:39.533Z",
+      "msg": "Estamos a verificar"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-07T09:57:02.538Z",
+      "msg": "O problema esta em criar um novo modelo?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-07T09:57:38.915Z",
+      "msg": "sim"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-07T09:59:38.343Z",
+      "msg": "Quando clica em salvar no canto inferior squerdo tem uma mensagem de salvado com sucesso, não aparece?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-07T10:00:44.848Z",
+      "msg": "aparece sim, mas não dá mas seguimento"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-07T10:01:54.973Z",
+      "msg": "Aí so é pra cria o modelo de negocios ou canvas de negocios, peça o dc que te explique como usar o plaano de negocios"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "ef275710-f9be-11ef-bf80-f5cd33eccf0b",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "UNILURIO/Liquisse",
+    "id": "5b081d4d8859f57bdc7b8ddd-DXVow7QPrLh5suaRb061O",
+    "email": "liquisseedgar@icloud.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 4,
+  "chatDuration": 387,
+  "rating": 0,
+  "createdOn": "2025-03-05T12:46:56.539Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-05T12:46:56.539Z",
+      "msg": "Nome : UNILURIO/Liquisse\r\nE-mail : liquisseedgar@icloud.com\r\nDescrição do Problema : Nao consigo encontrar a opcao onde preencho o pitch?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-05T12:47:29.513Z",
+      "msg": "Boa tarde"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-05T12:47:40.799Z",
+      "msg": "Qual é o problema que enfrenta?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-05T12:48:21.178Z",
+      "msg": "onde entro para encontrar o pitch?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

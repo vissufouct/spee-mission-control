@@ -1,0 +1,29 @@
+{
+  "id": "0e6de720-26d1-11f1-bf8b-a9b7a0c53501",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-45n7aVxCwOU7ACQJiwg7_",
+    "email": "sigauqueesperanca513@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-03-23T18:34:06.989Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:34:06.989Z",
+      "msg": "Nome : /\r\nE-mail : sigauqueesperanca513@gmail.com\r\nDescrição do Problema : Nao consigo escolher imovel para arrendar"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

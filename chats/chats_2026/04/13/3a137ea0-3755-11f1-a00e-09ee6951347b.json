@@ -1,0 +1,38 @@
+{
+  "id": "3a137ea0-3755-11f1-a00e-09ee6951347b",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "TC INFORMATICAS LDA/4003038508",
+    "id": "5b081d4d8859f57bdc7b8ddd-mq1iqIw96iCZuilGsMmAA",
+    "email": "talbasine@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 136,
+  "rating": 0,
+  "createdOn": "2026-04-13T16:45:53.548Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-13T16:45:53.548Z",
+      "msg": "Nome : TC INFORMATICAS LDA\r\nE-mail : talbasine@gmail.com\r\nDescrição do Problema : nao consego aceder o edido de facuura"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-13T16:48:09.480Z",
+      "msg": "Boa noite, pode mandar o print da tela?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

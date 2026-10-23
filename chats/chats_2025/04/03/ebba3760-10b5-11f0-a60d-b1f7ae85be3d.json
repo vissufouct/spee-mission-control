@@ -1,0 +1,94 @@
+{
+  "id": "ebba3760-10b5-11f0-a60d-b1f7ae85be3d",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-AjqwcNxLDLdpXaPmhiSY4",
+    "email": "ivan@marnew.co.mz"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 7,
+  "chatDuration": 794,
+  "rating": 0,
+  "createdOn": "2025-04-03T18:05:06.026Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-03T18:05:06.026Z",
+      "msg": "Nome : UDM/Novela\r\nTelefone : 842959585\r\nE-mail : ivan@marnew.co.mz\r\nDescrição do Problema : saudações nao consigo aceder o campo de RH ONLINE"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-03T18:10:28.202Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/67eecd65a3c8d40bf94c0bed/v/ee31779455f48b697b32131aa272c6ad7108e974/image.png",
+              "name": "image.png",
+              "mimeType": "image/png",
+              "size": 34435,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-03T18:11:20.352Z",
+      "msg": "ele nao passa fica assim no branco"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "MacGyver"
+      },
+      "type": "msg",
+      "time": "2025-04-03T18:12:34.850Z",
+      "msg": "Fez todos contractos?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-03T18:13:08.772Z",
+      "msg": "sim"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "MacGyver"
+      },
+      "type": "msg",
+      "time": "2025-04-03T18:14:12.114Z",
+      "msg": "Verificando"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "MacGyver"
+      },
+      "type": "msg",
+      "time": "2025-04-03T18:18:20.067Z",
+      "msg": "Sua empresa não tem contracto das Telecomunicações"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,161 @@
+{
+  "id": "093c27c0-6184-11f0-a3df-f3b91f3eeb9a",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCAM/Bila",
+    "id": "5b081d4d8859f57bdc7b8ddd-XDN0rIZ96oIs3iE3l1zow",
+    "email": "elton.bila@iscam.ac.mz"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 13,
+  "chatDuration": 564,
+  "rating": 0,
+  "createdOn": "2025-07-15T14:05:18.055Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-15T14:05:18.055Z",
+      "msg": "Nome : ISCAM/Bila\r\nTelefone : 258840535698\r\nE-mail : elton.bila@iscam.ac.mz\r\nDescrição do Problema : Boa tarde,\n\nNao consigo enviar convite nao consigo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-15T14:05:37.656Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/68765ef0a3c8d40bf9bb9c35/v/8de50622c1cf90acdea299dfca9419696837b536/Screenshot_2025-07-15_155830.png",
+              "name": "Screenshot 2025-07-15 155830.png",
+              "mimeType": "image/png",
+              "size": 20211,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-15T14:06:09.164Z",
+      "msg": "Boa tarde\nNão precebi a questão"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-15T14:06:20.014Z",
+      "msg": "Precisa enviar convite para soziedade="
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-15T14:06:31.662Z",
+      "msg": "sociedade?*"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-15T14:07:28.377Z",
+      "msg": "Depois de localizar o email do outro socio nao consigo enviar (selecionar o email) para enviar o convite."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-15T14:08:17.170Z",
+      "msg": "quem criou a empresa, foi o teu colega, ou você?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-15T14:09:57.339Z",
+      "msg": "A minha colega  ?\n\nAcontece que para ela diz que a Empresa nao esta constituida, e esyou estou a tentar voltar a constituir pra concluir o processo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-15T14:12:02.747Z",
+      "msg": "Não\nJá está a associado a emprtesa. O que deve fazer, é continuar com a constituição, e adicionar a área de actuação e outros campos em falta na empresa"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-15T14:13:01.588Z",
+      "msg": "em que opcao eu clico"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-15T14:13:23.622Z",
+      "msg": "sai do sistema"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-15T14:13:27.779Z",
+      "msg": "e voltta a entra"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-15T14:14:42.257Z",
+      "msg": "Quando entrar, abrirá esta janela no sistema, e clica em  \"Continuar com Constituição\" para adicionar os dados em falta no registo da empresa",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/a26e10211a76cf8b26426eb609467532e990546e/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 94398,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

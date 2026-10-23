@@ -1,0 +1,51 @@
+{
+  "id": "4793a250-9a0f-11f0-b886-8d1be5ae291f",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-2BUeaHyeJIGGHFYAtEndu",
+    "email": "regina.chemane@iscam.ac.mz"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-09-25T13:20:09.786Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-25T13:20:09.786Z",
+      "msg": "Nome : ISCAM/Chemane\r\nTelefone : 258845721860\r\nE-mail : regina.chemane@iscam.ac.mz\r\nDescrição do Problema : Saudacoes, espero que esteja bem.\npeco ajuda para eliminar faturas"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-25T13:21:02.260Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/68d53c5e52890d7a220a612e/v/45421d4fb6e0e42645024600b6f9bf39dd72b77f/FT011.png",
+              "name": "FT011.png",
+              "mimeType": "image/png",
+              "size": 23214,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

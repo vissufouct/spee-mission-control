@@ -1,0 +1,29 @@
+{
+  "id": "2f912a30-5133-11f0-ab1b-f5da505cdc22",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISDB/Ambrique",
+    "id": "5b081d4d8859f57bdc7b8ddd-8kfPHGv6lvmUJcHAoh3sj",
+    "email": "ambriquelito@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-06-24T19:43:49.236Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-06-24T19:43:49.236Z",
+      "msg": "Nome : ISDB/Ambrique\r\nTelefone : 258868792505\r\nE-mail : ambriquelito@gmail.com\r\nDescrição do Problema : Lito"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

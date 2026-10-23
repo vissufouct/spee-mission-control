@@ -1,0 +1,295 @@
+{
+  "id": "2779dc50-38c0-11f1-8fe8-6141478aba36",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Sigauque",
+    "id": "5b081d4d8859f57bdc7b8ddd-pnmMxLyxqFzEVyRicFwsS",
+    "email": "heliasigauque07@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 26,
+  "chatDuration": 3239,
+  "rating": 0,
+  "createdOn": "2026-04-15T11:43:21.095Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T11:43:21.095Z",
+      "msg": "Nome : ISCIM/Sigauque\r\nE-mail : heliasigauque07@gmail.com\r\nDescrição do Problema : ainda estou a espera"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-15T11:44:16.217Z",
+      "msg": "pedi para que voltasse a preencher e diminuisse o conteudo do papel na sociedade, o texto esta muito longo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T11:47:14.400Z",
+      "msg": "fiz isso mas o problema mantem"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-15T11:48:30.991Z",
+      "msg": "Pode escrever aqui os dados, do empreendedor que deseja inserir"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T11:49:53.967Z",
+      "msg": "nome :Hélia Mário Sigauque"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T11:50:19.685Z",
+      "msg": "nome -helia mario sigauque"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T11:57:39.326Z",
+      "msg": "HELIA MARIO SIGAUQUE  ENDERECO-MUALAZE ,NUIT 125489603, TELEFONE-875715028, CIDADE DA MATOLA, BI-110100249853F, EMAIL-heliasigauque07, breve curiculo-Licenciada em Gestão de Empresas com conhecimentos em administração, marketing e gestão financeira. Possui experiência académica no desenvolvimento de planos de negócios, com foco no setor imobiliário. Demonstra competências em análise de mercado, negociação e atendimento ao cliente. Tem interesse no crescimento do mercado imobiliário em Moçambique e na criação de soluções inovadoras para compra, venda e arrendamento de imóveis. , papel a ser desempenhado na sociedade- socia gerente, responsavel pela gestao da empresa"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T12:06:30.028Z",
+      "msg": "THAIRES MARTINS, ENDERECO-MATOLA D, CIDADE-MATOLA, NUIT-1002593379, BI-110101695740A,TELEFONE-847168160, EMAIL-THAIRESMARTINS04, BREVE CURICULO-Thairis Martins possui formação na área de Contabilidade e Auditoria, com conhecimentos em gestão financeira, controlo de contas e análise de demonstrações financeiras. Ao longo da sua formação, desenvolveu competências em organização financeira, elaboração de relatórios e cumprimento de normas contabilísticas.\nApresenta habilidades em análise, rigor, responsabilidade e atenção aos detalhes, sendo responsável pela gestão financeira da empresa, controlo, de receitas e despesas, bem como apoio na tomada de decisões estratégicas, contribuindo para a sustentabilidade e crescimento do negócio.PAPEL A SER DESEMPENHADO NA SOCIEDADE-SOCIA GERENTE, RESPONSAVEL PELA CONTABILIDADE DA EMPRESA"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-15T12:06:48.206Z",
+      "msg": "tudo bem"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-15T12:10:50.739Z",
+      "msg": "Coloque os dados dessa forma aqui, tal como na imagem junto com os dois empreendedor:",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/67bc6520a561be464e803d37/3882ecb0f14ae0d3d1d49969049a951eebbb47b4/Screenshot_(155).png",
+              "name": "Screenshot (155).png",
+              "extension": "png",
+              "size": 136847,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T12:11:50.582Z",
+      "msg": "SIM SAO ESTES DADOS QUE QUERO ADICIONAR"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T12:12:07.720Z",
+      "msg": "E DA OUTRA SOCIA"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-15T12:12:33.914Z",
+      "msg": "sim pode adicionar, tente agora assim mesmo como na imgem"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T12:18:58.629Z",
+      "msg": "segui os passos da imagem mas mesmo asim nao apareceu",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69df79993ad481202533c0dc/v/60bf685d3db0b5509170f0f2a02febf81bbc79c0/Doc2.docx",
+              "name": "Doc2.docx",
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "size": 196171,
+              "extension": "docx"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T12:20:07.443Z",
+      "msg": "mas isso acontese por que"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-15T12:23:15.583Z",
+      "msg": "Mande o print da tela enquanto esta tudo preenchido mas nao salve, so preencha os campos e mande aqui o print da tela"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T12:27:09.820Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69df79993ad481202533c0dc/v/0aca0ca3a5be9db14afdc85d8ca61bf857c2e8b2/Doc3.docx",
+              "name": "Doc3.docx",
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "size": 235070,
+              "extension": "docx"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-15T12:28:31.889Z",
+      "msg": "no campo 'Papel a ser desempenhado na soceidade '?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-15T12:28:41.892Z",
+      "msg": "pode enviar o print tambem?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T12:30:41.255Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69df79993ad481202533c0dc/v/bd630c6ff1ed22a1eb6954d759411d1f4e3a6c6c/Doc4.docx",
+              "name": "Doc4.docx",
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "size": 217115,
+              "extension": "docx"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-15T12:32:49.130Z",
+      "msg": "Ai no campo de numero de BI tira essa ultima letra F e tente salvar"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T12:34:25.697Z",
+      "msg": "ainda da o mesmo erro"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-15T12:35:32.187Z",
+      "msg": "Tudo bem vou adicionar daqui para si"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T12:36:23.708Z",
+      "msg": "obrigado"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T12:36:43.999Z",
+      "msg": "aguardo pelo resultado"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T12:37:20.110Z",
+      "msg": "nao esqueca dosdados que sao 2 socios"
+    }
+  ],
+  "domain": "planodenegocios.simulacao.co.mz"
+}

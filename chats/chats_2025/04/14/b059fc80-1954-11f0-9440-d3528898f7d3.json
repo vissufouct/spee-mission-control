@@ -1,0 +1,64 @@
+{
+  "id": "b059fc80-1954-11f0-9440-d3528898f7d3",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Armussagy comunicacao,lda/4002807823",
+    "id": "5b081d4d8859f57bdc7b8ddd-o0w2j3XiqGOvVbn75turv",
+    "email": "mussagymagid@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 5,
+  "chatDuration": 171,
+  "rating": 0,
+  "createdOn": "2025-04-14T17:20:34.811Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-14T17:20:34.811Z",
+      "msg": "Nome : Armussagy comunicacao,lda/4002807823\r\nE-mail : mussagymagid@gmail.com\r\nDescrição do Problema : não consigo aceder aminha empresa"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-14T17:21:13.917Z",
+      "msg": "Boa noite"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-14T17:21:21.645Z",
+      "msg": "Peço que explique melhor o problema"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-14T17:22:24.750Z",
+      "msg": "quando entro no sistema ele pede para actualizar"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-14T17:23:26.022Z",
+      "msg": "Pode mostrar um print da tela?\nPede para actualizar o quê,"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "f0afc370-14a7-11f0-9e21-1953d29dd358",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/Mahumana",
+    "id": "5b081d4d8859f57bdc7b8ddd-D4DwxSyPjFO9VKKjXmsMN",
+    "email": "alessandroinssa2020@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-04-08T18:40:21.498Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-08T18:40:21.498Z",
+      "msg": "Nome : A Politecnica - MPT/Mahumana\r\nTelefone : 844676367\r\nE-mail : Chanilmatild@gmail.com\r\nDescrição do Problema : pedido de reajuste de percentagem da socia Nadyae PARA 50% E REMOCAO DE LURDES MADIJA DA EMPRESA."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "fa8ed6f0-b976-11f0-8dc8-c93e7a692d76",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "NS Lda Interiores",
+    "id": "5b081d4d8859f57bdc7b8ddd-2xkdgVCIFmERO80e1UAD3",
+    "email": "shakirasales20@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-11-04T12:44:15.070Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-04T12:44:15.070Z",
+      "msg": "Nome : NS Lda Interiores\r\nE-mail : shakirasales20@gmail.com\r\nDescrição do Problema : Boa tarde,\nEspero que esteja bem,\nPeço ajuda ! Não estou a conseguir emitir balancete em periodos especificos"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

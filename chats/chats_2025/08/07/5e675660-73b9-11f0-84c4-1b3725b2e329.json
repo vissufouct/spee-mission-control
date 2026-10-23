@@ -1,0 +1,55 @@
+{
+  "id": "5e675660-73b9-11f0-84c4-1b3725b2e329",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISDB/Junior",
+    "id": "5b081d4d8859f57bdc7b8ddd-G4TmVowj05G2rsfIfsKhU",
+    "email": "juniorchiziane@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 4,
+  "chatDuration": 217,
+  "rating": 0,
+  "createdOn": "2025-08-07T18:09:58.347Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-07T18:09:58.347Z",
+      "msg": "Nome : ISDB/Junior\r\nE-mail : juniorchiziane@gmail.com\r\nDescrição do Problema : como adicionar socio"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-07T18:10:22.648Z",
+      "msg": "Boa noite"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-07T18:11:58.788Z",
+      "msg": "?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-07T18:13:35.757Z",
+      "msg": "Para adicionar um socio tem que ir ao Meu perfil depois na aba sociedade"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "768f9420-617e-11f0-bd95-abfcd6af009b",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCAM/Mathe",
+    "id": "5b081d4d8859f57bdc7b8ddd-SCmhfmGi7b2hLxFtQHkfI",
+    "email": "vanessa.mathe@iscam.ac.mz"
+  },
+  "location": {
+    "countryCode": "US",
+    "city": "Albuquerque"
+  },
+  "messageCount": 2,
+  "chatDuration": 296,
+  "rating": 0,
+  "createdOn": "2025-07-15T13:29:04.660Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-15T13:29:04.660Z",
+      "msg": "Nome : /\r\nTelefone : 863908183\r\nE-mail : vanessa.mathe@iscam.ac.mz\r\nDescrição do Problema : Estou a tentar celebrar um contrato de telecomunicacoes, porem o sistema diz-me que o contrato ja foi celebrado. Como faco para ter acesso a esse contrato para seguir com os passos subsequentes"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-15T13:34:00.571Z",
+      "msg": "Peço que continue com a constituição da empresa, por favor\ne termine o processo",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/7c8a7e0dd2d07f553411f20fdc684a2e9c3dfdad/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 94398,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

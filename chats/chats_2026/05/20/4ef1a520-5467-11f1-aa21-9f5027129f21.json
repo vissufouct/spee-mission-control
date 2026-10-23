@@ -1,0 +1,37 @@
+{
+  "id": "4ef1a520-5467-11f1-aa21-9f5027129f21",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Clety da Joyce",
+    "id": "5b081d4d8859f57bdc7b8ddd-9RzsLqBQgWi1gDvxGGqaF",
+    "email": "cletydajoyceombe713@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T16:20:36.980Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T16:20:36.980Z",
+      "msg": "Nome : Clety da Joyce\r\nTelefone : 258844167495\r\nE-mail : cletydajoyceombe713@gmail.com\r\nDescrição do Problema : Não consigo ter acesso a turma"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T16:27:12.441Z",
+      "msg": "cletydajoyceombe713@gmail.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "37ee16a0-1f8f-11f0-b47f-411e485dd10d",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "UNILURIO/Ndayshimiye",
+    "id": "5b081d4d8859f57bdc7b8ddd-gckg9fpeEQAEpHWWLWSEi",
+    "email": "pndayshimiye@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-04-22T15:34:38.963Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-22T15:34:38.963Z",
+      "msg": "Nome : UNILURIO/Ndayshimiye\r\nE-mail : pndayshimiye@gmail.com\r\nDescrição do Problema : Como é que faço para criar uma outra empresa individual?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

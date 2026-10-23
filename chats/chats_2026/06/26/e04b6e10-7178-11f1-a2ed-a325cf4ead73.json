@@ -1,0 +1,29 @@
+{
+  "id": "e04b6e10-7178-11f1-a2ed-a325cf4ead73",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "S&F CONCULTORES E ASSOCIADOS,LDA",
+    "id": "5b081d4d8859f57bdc7b8ddd-lPB4vJCs16i5Lp6Eo98Bt",
+    "email": "fermino.chavane@iscam.ac.mz"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-06-26T16:23:58.663Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-26T16:23:58.663Z",
+      "msg": "Name : Ferrmino manuel chavane\r\nEmail : ferminochavane@gmail.com\r\nPhone : +2586173052\r\nDescrição do Problema : Saudacoes\nAqui S&F CCONSULTORES E ASSOCIADOS, LDA\nRepresentado pelos socios Fermino Chavane e Samuel Chicane, Titular do nuit: 4003078680, o que sucede e que ao abrir a parte de contabilidade e, na parte de criacao de conta, todo plano vem em ingles"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "d952ee00-049e-11f0-aab7-51a72c4b9ece",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/4002807811",
+    "id": "5b081d4d8859f57bdc7b8ddd-UgrusQc7oNfvXFNfvuMp3",
+    "email": "charmilaabdul92@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 221,
+  "rating": 0,
+  "createdOn": "2025-03-19T08:53:50.363Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:53:50.363Z",
+      "msg": "Nome : ISCIM/Mondlane\r\nE-mail : melindamondlane2@gmail.com\r\nDescrição do Problema : não consigo aceder a activos minimos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:54:46.877Z",
+      "msg": "logo apos aceder a plataforma, entrar para este campo. e depois voltar a tentar aceceder aos activos minimos",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/da8aa63332ffa7584b5c12a2b15ae4eb36d27c3a/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 68032,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:57:31.143Z",
+      "msg": "ja esta, obrigad"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

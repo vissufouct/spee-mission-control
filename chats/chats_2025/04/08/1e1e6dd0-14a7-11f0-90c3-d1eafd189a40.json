@@ -1,0 +1,53 @@
+{
+  "id": "1e1e6dd0-14a7-11f0-90c3-d1eafd189a40",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-ixsCvxxobW0qDPfqMr5ZT",
+    "email": "jacquescirillo532@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 4,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-04-08T18:41:30.290Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-08T18:41:30.290Z",
+      "msg": "Nome : Cirillo Jacques\r\nTelefone : 864173895\r\nE-mail : jacquescirillo532@gmail.com\r\nDescrição do Problema : Boa noite como esta .\nnao cosigo faxer  financiamento, quando entro da erro"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-08T18:53:57.935Z",
+      "msg": "como devemos proceder"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-08T19:00:39.743Z",
+      "msg": "boa noite colega, estamos a ficar prejudicados pois nao conseguimos fazer financiamento no  sistema bancario de Spee simulador"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-08T19:01:50.650Z",
+      "msg": "ja passa mais de duas semanas que pedimos financiamento e nao esta acontecer nada. por favor aguardamos pela vossa resposta"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

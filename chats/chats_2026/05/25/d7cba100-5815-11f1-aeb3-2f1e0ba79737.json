@@ -1,0 +1,38 @@
+{
+  "id": "d7cba100-5815-11f1-aeb3-2f1e0ba79737",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "UDM/Macia",
+    "id": "5b081d4d8859f57bdc7b8ddd-FajqWYeCkIsEYGWuHE3rZ",
+    "email": "ethanmenete@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 54,
+  "rating": 0,
+  "createdOn": "2026-05-25T09:08:46.208Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-25T09:08:46.208Z",
+      "msg": "Nome : UDM/Macia\r\nTelefone : 258847045894\r\nE-mail : macia.jasmim19@gmail.com\r\nDescrição do Problema : Bom dia, espero que esteja a gozar de boa saude. Temos um problema no sistema, os anexos enviados no email nao aparecem afixados, o email chega ao receptor sem o anexo do documento."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-25T09:09:39.973Z",
+      "msg": "bom dia, um momento Porfavor vamos verificar o problema"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

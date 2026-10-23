@@ -1,0 +1,38 @@
+{
+  "id": "0bf169f0-cbc2-11f0-9286-a1fb823ca4f3",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Victor Salomao Zitha Combomune",
+    "id": "5b081d4d8859f57bdc7b8ddd-D_jetU1kK68PT5hHaiMh1",
+    "email": "victorzita20@icloud.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 41,
+  "rating": 0,
+  "createdOn": "2025-11-27T19:11:53.722Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-27T19:11:53.722Z",
+      "msg": "Nome : Victor Salomao Zitha Combomune\r\nTelefone : 258870046991\r\nE-mail : victorzita20@icloud.com\r\nDescrição do Problema : Boa noite, ligamos a pouco tempo, falamos sobre o desaparecimento de funcionarios da nossa empresa"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-11-27T19:12:34.711Z",
+      "msg": "Boa noite. pode voltar a testar sua conta\ntermina sessão e volta a iniciar"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

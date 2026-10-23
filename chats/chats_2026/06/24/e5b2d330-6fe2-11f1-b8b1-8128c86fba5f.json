@@ -1,0 +1,29 @@
+{
+  "id": "e5b2d330-6fe2-11f1-b8b1-8128c86fba5f",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "YASH DRIVE LDA AUTO",
+    "id": "5b081d4d8859f57bdc7b8ddd-J6nSd29RPZJRLqEXOY_VS",
+    "email": "yandracaetanodias2@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-06-24T15:40:53.015Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-24T15:40:53.015Z",
+      "msg": "Gestao comercial-Gestacao de Stocks-Projeccao de preco"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

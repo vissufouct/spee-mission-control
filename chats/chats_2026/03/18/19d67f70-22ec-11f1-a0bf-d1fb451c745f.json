@@ -1,0 +1,122 @@
+{
+  "id": "19d67f70-22ec-11f1-a0bf-d1fb451c745f",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/Mabote",
+    "id": "5b081d4d8859f57bdc7b8ddd-wOvnPIeuEyTmkCpkJz4Ug",
+    "email": "mabotekhan@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 12,
+  "chatDuration": 849,
+  "rating": 0,
+  "createdOn": "2026-03-18T17:02:41.654Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-18T17:02:41.654Z",
+      "msg": "Nome : A Politecnica - MPT/Mabote\r\nTelefone : 258848945184\r\nE-mail : mabotekhan@gmail.com\r\nDescrição do Problema : Boa noite, eu faço login na minha conta mas abre a conta de outra empresa"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "MacGyver"
+      },
+      "type": "msg",
+      "time": "2026-03-18T17:03:13.182Z",
+      "msg": "boa noite"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "MacGyver"
+      },
+      "type": "msg",
+      "time": "2026-03-18T17:03:34.039Z",
+      "msg": "tudo indica que registou uma empresa e aceitou convite de outra empresa."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "MacGyver"
+      },
+      "type": "msg",
+      "time": "2026-03-18T17:03:56.294Z",
+      "msg": "A qual das 2 empresa pertence?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-18T17:04:30.382Z",
+      "msg": "Eu pertenço a Maputo Serviços Automotivos,  em que o dono é Ananguno de Khan Luís Mabote"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "MacGyver"
+      },
+      "type": "msg",
+      "time": "2026-03-18T17:07:59.381Z",
+      "msg": "e tambem registou a AM Fontes Segura, Lda>"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-18T17:08:40.026Z",
+      "msg": "Não, eu somente registei no meu computador, a Maputo Serviços automotivos."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-18T17:09:15.099Z",
+      "msg": "Porém, a outra colega da mesma turma registou em um outro computador a AM Fontes segura, Lda"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-18T17:09:20.456Z",
+      "msg": "O que posso fazer?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "MacGyver"
+      },
+      "type": "msg",
+      "time": "2026-03-18T17:14:25.114Z",
+      "msg": "ja removemos a outra empresa, sai e volta a fazer login"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-18T17:15:07.251Z",
+      "msg": "Certo, vou tentar agora."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-18T17:16:50.654Z",
+      "msg": "Muito obrigado pela ajuda:pray_tone3::pray_tone3::pray_tone3:"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

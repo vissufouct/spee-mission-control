@@ -1,0 +1,106 @@
+{
+  "id": "d5451f30-616a-11f0-9ee6-878a6d4232b4",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-SCmhfmGi7b2hLxFtQHkfI",
+    "email": "vanessa.mathe@iscam.ac.mz"
+  },
+  "location": {
+    "countryCode": "US",
+    "city": "Albuquerque"
+  },
+  "messageCount": 10,
+  "chatDuration": 467,
+  "rating": 0,
+  "createdOn": "2025-07-15T11:22:15.847Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-15T11:22:15.847Z",
+      "msg": "Nome : ISCAM/Mathe\r\nTelefone : 863908183\r\nE-mail : elton.bila@iscam.ac.mz\r\nDescrição do Problema : ESTAMOS A ENFRENTAR PROBLEMAS TECNICOS PARA SOLICITAR O FINANCIAMENTO."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-15T11:22:47.659Z",
+      "msg": "Boa tarde. A conta já tem constituição feita?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-15T11:23:20.987Z",
+      "msg": "Sim"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-15T11:23:44.943Z",
+      "msg": "Fez contratos com telecomunicações etc?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-15T11:24:43.707Z",
+      "msg": "Agua e Energia ja temos contratos feitos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-15T11:25:04.113Z",
+      "msg": "Telecomunicações?\nBanca?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-15T11:25:55.401Z",
+      "msg": "Telecomunicacoes nao. Banca sim"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-15T11:26:04.156Z",
+      "msg": "Faça o de telecomunicações"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-15T11:29:46.141Z",
+      "msg": "Estou a criar o contrato de comunicacoes, entro em contacto ja."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-15T11:30:02.849Z",
+      "msg": "Okay"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

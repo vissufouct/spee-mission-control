@@ -1,0 +1,29 @@
+{
+  "id": "e1ff7b20-5918-11f1-9b6d-45c8d2fb22cb",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-C4BbtgpVkwGoyehO9DaXS",
+    "email": "ivanildodarabianaa@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-26T15:41:36.825Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-26T15:41:36.825Z",
+      "msg": "Name : /\r\nEmail : jamilaaufi300@gmail.com\r\nPhone : +258848315658\r\nDescrição do Problema : Saudações ilustres.\nSolicitamos assistência, pois não conseguimos trabalhar na empresa AUFI, JAMILA.\nSó para ter uma ideia, não conseguimos editar o gestor documental, não conseguimos celebrar contratos com serviços públicos, com trabalhadores, cadastro de clientes e fornecedores, em suma tudo. \nSolicitamos urgentemente a vossa intervenção porque estamos parados.\n\nContacto:862519207/848315658"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

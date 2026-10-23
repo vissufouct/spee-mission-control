@@ -1,0 +1,29 @@
+{
+  "id": "307f6880-1bdb-11f1-a1c4-e19d8c65e546",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Limeme",
+    "id": "5b081d4d8859f57bdc7b8ddd-BHJ2h3XEbRLpwIH47JQb2",
+    "email": "atalialimeme16@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-03-09T17:16:34.284Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-09T17:16:34.284Z",
+      "msg": "Nome : ISCIM/Limeme\r\nTelefone : 258846882789\r\nE-mail : atalialimeme16@gmail.com\r\nDescrição do Problema : Como posso trocar o nome da empresa e area de actuacao"
+    }
+  ],
+  "domain": "planodenegocios.simulacao.co.mz"
+}

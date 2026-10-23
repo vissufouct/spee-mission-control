@@ -1,0 +1,29 @@
+{
+  "id": "12ee3780-30de-11f0-9139-5d40e5c5d1b4",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Ussene",
+    "id": "5b081d4d8859f57bdc7b8ddd-1R1qraU19HiPvR82Iscgy",
+    "email": "ucharifo77@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-05-14T16:19:03.427Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-14T16:19:03.427Z",
+      "msg": "Nome : ISCIM/Tamele\r\nE-mail : suelytamele@gmail.com\r\nDescrição do Problema : nao consigo mudar o nome da empresa"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

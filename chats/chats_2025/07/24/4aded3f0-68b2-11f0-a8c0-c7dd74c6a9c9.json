@@ -1,0 +1,71 @@
+{
+  "id": "4aded3f0-68b2-11f0-a8c0-c7dd74c6a9c9",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/4002858021",
+    "id": "5b081d4d8859f57bdc7b8ddd-GMLe9xcdPkazuStZ57sUD",
+    "email": "catia.malembe@iscam.ac.mz"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 6,
+  "chatDuration": 274,
+  "rating": 0,
+  "createdOn": "2025-07-24T17:35:24.577Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-24T17:35:24.577Z",
+      "msg": "Nome : /4002858021\r\nTelefone : 25845159765\r\nE-mail : catia.malembe@iscam.ac.mz\r\nDescrição do Problema : FORAM CADASTRADOS 5 PRODUTOS NO STOCK, POREM NO MO ONLINE COMERCE APARECEM APENAS 4 , COMO FACO PARA TRAER O QUINTO PRODUTO?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-24T17:36:06.388Z",
+      "msg": "Boa noite"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-24T17:36:55.112Z",
+      "msg": "Tem certeza que cadastrou 5?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-24T17:37:03.491Z",
+      "msg": "SIM"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-24T17:37:53.965Z",
+      "msg": "E OS MESMOS CONSTAM DA LISTA DO STOCK"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-24T17:39:58.360Z",
+      "msg": "Tem como ajudar?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

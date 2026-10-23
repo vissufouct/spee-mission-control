@@ -1,0 +1,29 @@
+{
+  "id": "e039b910-caeb-11f0-a084-4fa4ddc5c429",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-RLkfE591hKVFUrYVLlw3e",
+    "email": "victorzita20@icloud.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-11-26T17:55:34.211Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-26T17:55:34.211Z",
+      "msg": "Nome : Victor Salomao Zita Combomune\r\nTelefone : 258870046991\r\nE-mail : victorzita20@icloud.com\r\nDescrição do Problema : Boa noite Prezado/a.\nEstou com um problema, os funcionarios da minha empresa sumiram."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

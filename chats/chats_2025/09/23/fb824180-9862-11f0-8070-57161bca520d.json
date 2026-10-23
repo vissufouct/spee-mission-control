@@ -1,0 +1,55 @@
+{
+  "id": "fb824180-9862-11f0-8070-57161bca520d",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISPT/Mucauque",
+    "id": "5b081d4d8859f57bdc7b8ddd-DfWLFz3Zyh5kNBHiVTWZL",
+    "email": "camilodomingos@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 4,
+  "chatDuration": 284,
+  "rating": 0,
+  "createdOn": "2025-09-23T10:06:48.155Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-23T10:06:48.155Z",
+      "msg": "Nome : ISPT/Mucauque\r\nTelefone : 258865066671\r\nE-mail : erciliasamuel@gmail.com\r\nDescrição do Problema : obter mais esperiencia"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-09-23T10:08:06.344Z",
+      "msg": "Bom dia, Poderia fornecer mais detalhes do problema?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-23T10:11:05.114Z",
+      "msg": "de exemplo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-09-23T10:11:32.455Z",
+      "msg": "Qual problema o estudante esta a efrentar com o sistema?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

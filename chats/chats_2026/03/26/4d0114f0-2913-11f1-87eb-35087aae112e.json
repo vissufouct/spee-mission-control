@@ -1,0 +1,38 @@
+{
+  "id": "4d0114f0-2913-11f1-87eb-35087aae112e",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "[Docente]ITIS - Bootcamp PABSGA 2026/Sequeira, Gercia",
+    "id": "5b081d4d8859f57bdc7b8ddd-G9fkD2AnaHFa7U3YZjmsU",
+    "email": "leila.omar@itis.co.mz"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 277,
+  "rating": 0,
+  "createdOn": "2026-03-26T12:57:29.808Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-26T12:57:29.808Z",
+      "msg": "Nome : [Docente]ITIS - Bootcamp PABSGA 2026/Sequeira, Gercia\r\nE-mail : leila.omar@itis.co.mz\r\nDescrição do Problema : HJBKHB"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-03-26T13:02:06.954Z",
+      "msg": "KJNJ"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

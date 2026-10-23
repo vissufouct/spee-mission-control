@@ -1,0 +1,63 @@
+{
+  "id": "ae282390-0628-11f0-a107-e15b195dbf42",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISPM/António",
+    "id": "5b081d4d8859f57bdc7b8ddd-GcDp6MWmO1JD7JAqvfoh3",
+    "email": "clavamanuelmanuel@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 5,
+  "chatDuration": 182,
+  "rating": 0,
+  "createdOn": "2025-03-21T07:47:55.633Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-21T07:47:55.633Z",
+      "msg": "Nome : ISPM/António\r\nTelefone : 877582172\r\nE-mail : clavamanuelmanuel@gmail.com\r\nDescrição do Problema : Não consigo entrar"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-21T07:48:33.540Z",
+      "msg": "Não consigo terminar o cadastro"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-21T07:49:16.078Z",
+      "msg": "Bom dia"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-21T07:49:33.327Z",
+      "msg": "Qual é o problema que dá ao concluir cadastro?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-21T07:50:57.839Z",
+      "msg": "Sempre voltar ao início"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

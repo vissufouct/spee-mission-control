@@ -1,0 +1,46 @@
+{
+  "id": "01920c40-2c15-11f1-b51b-37ce8af300af",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-nE16qslJaTnouOynMC7LL",
+    "email": "mangumoloyde@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 181,
+  "rating": 0,
+  "createdOn": "2026-03-30T09:15:42.866Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-30T09:15:42.866Z",
+      "msg": "Nome : /\r\nTelefone : 258863075428\r\nE-mail : mangumoloyde@gmail.com\r\nDescrição do Problema : nao conseguimos extrair a factura de agua e telecomunicacoes ."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-30T09:17:57.515Z",
+      "msg": "Nome : /\nTelefone : 258863075428\nE-mail : mangumoloyde@gmail.com\nDescrição do Problema : nao conseguimos extrair a factura de agua e telecomunicacoes ."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-03-30T09:18:43.703Z",
+      "msg": "Bom dia, por aora use esses link para extrair facturas de agua: https://spee.simulacao.co.mz/servicos/1/Aguas/index.html?hasEmpresa=1\ne esse para telecomicacoes: https://spee.simulacao.co.mz/servicos/1/Telecomunicacoes/index.html?hasEmpresa=1\nestamos resolvendo o problema."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

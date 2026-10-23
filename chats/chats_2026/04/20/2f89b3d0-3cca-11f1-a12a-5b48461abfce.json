@@ -1,0 +1,64 @@
+{
+  "id": "2f89b3d0-3cca-11f1-a12a-5b48461abfce",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "MM Lda Consumiveis",
+    "id": "5b081d4d8859f57bdc7b8ddd-l88kR9q_m2yVTZfQs0PBX",
+    "email": "alberto.erik@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 5,
+  "chatDuration": 250,
+  "rating": 0,
+  "createdOn": "2026-04-20T15:37:47.444Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T15:37:47.444Z",
+      "msg": "Nome : MM Lda Consumiveis\r\nTelefone : 258876261457\r\nE-mail : alberto.erik@gmail.com\r\nDescrição do Problema : No plano de Marketing esta  dar erro, a informacao nao esta a ser exibida, preciso de resolucao"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T15:39:43.720Z",
+      "msg": "Qual informacao?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T15:41:24.113Z",
+      "msg": "A informacao que insiro em cada campo, ela nao aparece para ser impressa"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T15:41:52.347Z",
+      "msg": "Um moneto so"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T15:41:57.889Z",
+      "msg": "momento so!#"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

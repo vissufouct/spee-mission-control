@@ -1,0 +1,93 @@
+{
+  "id": "2559df20-2c62-11f1-af66-4b792168df64",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ARYOL MOTORS LDA/4003038504",
+    "id": "5b081d4d8859f57bdc7b8ddd-lpKS_oLMmkA0ZLJpBVfMe",
+    "email": "armenioxerinda@gmail.com"
+  },
+  "location": {
+    "countryCode": "ZA",
+    "city": "Johannesburg"
+  },
+  "messageCount": 7,
+  "chatDuration": 213,
+  "rating": 0,
+  "createdOn": "2026-03-30T18:00:30.696Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-30T18:00:30.696Z",
+      "msg": "Nome : ARYOL MOTORS LDA/4003038504\r\nTelefone : 258\r\nE-mail : armenioxerinda@gmail.com\r\nDescrição do Problema : https://spee.simulacao.co.mz/sgc/?rUrl=/speeRedirect.ashx?stage=1"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-30T18:01:54.914Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69cab9eb3ad4812025bea777/v/eef48d17c50b7da80e0b2ba4987baa95b4e7b704/image.png",
+              "name": "image.png",
+              "mimeType": "image/png",
+              "size": 81311,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-30T18:02:53.983Z",
+      "msg": "Boa noite"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-30T18:03:09.199Z",
+      "msg": "Peço assistencia com o erro indicado acima/"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "MacGyver"
+      },
+      "type": "msg",
+      "time": "2026-03-30T18:03:13.033Z",
+      "msg": "boa noite"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "MacGyver"
+      },
+      "type": "msg",
+      "time": "2026-03-30T18:03:19.203Z",
+      "msg": "verificando"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-30T18:04:03.332Z",
+      "msg": "Obrigado, ja consegui aceder."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

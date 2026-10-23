@@ -1,0 +1,29 @@
+{
+  "id": "3fb29370-7dd1-11f0-8203-df1e2583e094",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCAM/Nhamuchue",
+    "id": "5b081d4d8859f57bdc7b8ddd-q1OHUVbLaP2EeAuklSeYZ",
+    "email": "lnhamuchue@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-08-20T14:32:37.910Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-20T14:32:37.910Z",
+      "msg": "Nome : ISCAM/Nhamuchue\r\nE-mail : lnhamuchue@gmail.com\r\nDescrição do Problema : boa tarde ,doutores  \npor este meio venho relatar que a empresa LT Mobilias nao tira o proprio nome nas facturas. no entento os colegas da classe sugeriram a editar os dados da empresa ,onde apos editar o sistema relata como se duas empresas se tratasse com mesmos nuit , mas a empresa que mostra nome  nao tem os dados anteriores .\npedimos auxilio no assunto para a continuidade de actividades"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

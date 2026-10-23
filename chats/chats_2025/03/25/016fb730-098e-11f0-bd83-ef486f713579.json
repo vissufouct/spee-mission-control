@@ -1,0 +1,38 @@
+{
+  "id": "016fb730-098e-11f0-bd83-ef486f713579",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/Cuco",
+    "id": "5b081d4d8859f57bdc7b8ddd-7Adfr8iEnaFi3QJlvUtJu",
+    "email": "brunocassiuspimpao@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 51,
+  "rating": 0,
+  "createdOn": "2025-03-25T16:24:25.765Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-25T16:24:25.765Z",
+      "msg": "Nome : A Politecnica - MPT/Cuco\r\nE-mail : brunocassiuspimpao@gmail.com\r\nDescrição do Problema : como apagar dados de uma empresa."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-25T16:25:17.106Z",
+      "msg": "Boa noite.  Não tem como apagar"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

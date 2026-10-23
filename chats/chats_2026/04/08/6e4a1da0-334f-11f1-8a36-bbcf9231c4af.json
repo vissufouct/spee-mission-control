@@ -1,0 +1,29 @@
+{
+  "id": "6e4a1da0-334f-11f1-8a36-bbcf9231c4af",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Tomas",
+    "id": "5b081d4d8859f57bdc7b8ddd-W3LAC_Xw3c17sIfFSEbjT",
+    "email": "passuane90@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-04-08T13:39:46.046Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-08T13:39:46.046Z",
+      "msg": "Nome : ISCIM/Tomas\r\nTelefone : 258841048024\r\nE-mail : passuane90@gmail.com\r\nDescrição do Problema : Apos a criação do plano de negocio, não encontro nos comentário e encontro a opção para dar continuação. \n\nApos preencher nome da empresa, data da execução e descricao geral?"
+    }
+  ],
+  "domain": "planodenegocios.simulacao.co.mz"
+}

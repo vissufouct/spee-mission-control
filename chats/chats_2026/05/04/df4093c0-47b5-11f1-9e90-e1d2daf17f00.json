@@ -1,0 +1,89 @@
+{
+  "id": "df4093c0-47b5-11f1-9e90-e1d2daf17f00",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Monjane",
+    "id": "5b081d4d8859f57bdc7b8ddd-JmsUkzhTYmfVqkzT5AGv6",
+    "email": "antonio.monjane@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 8,
+  "chatDuration": 225,
+  "rating": 0,
+  "createdOn": "2026-05-04T13:13:58.569Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-04T13:13:58.569Z",
+      "msg": "Nome : ISCIM/Monjane\r\nTelefone : 258845415753\r\nE-mail : antonio.monjane@gmail.com\r\nDescrição do Problema : boa tarde.\nestou com problemas para imprimir o plano de negocio."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-04T13:14:30.359Z",
+      "msg": "Boa tarde, qual o problema que esta a engretar?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-04T13:14:40.287Z",
+      "msg": "Enfrentar#?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-04T13:14:59.776Z",
+      "msg": "para imprimir o plamnno de negocio."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-04T13:15:14.600Z",
+      "msg": "Qual a dificuldade?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-04T13:15:34.701Z",
+      "msg": "Server Error in '/' Application.\nParser Error\nDescription: An error occurred during the parsing of a resource required to service this request. Please review the following specific parse error details and modify your source file appropriately.\n\nParser Error Message: Could not load file or assembly 'Telerik.ReportViewer.WebForms, Version=13.2.19.1030, Culture=neutral, PublicKeyToken=a9d7983dfcc261be' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)\n\nSource Error:\n\n\nLine 1:  <%@ Page Title=\"\" Language=\"C#\" MasterPageFile=\"~/MasterPN.Master\" AutoEventWireup=\"true\" CodeBehind=\"ImprimirPN.aspx.cs\" Inherits=\"PlanoDeNegociosView.ImprimirPN\" %>\nLine 2:  \nLine 3:  <%@ Register Assembly=\"Telerik.ReportViewer.WebForms, Version=13.2.19.1030, Culture=neutral, PublicKeyToken=a9d7983dfcc261be\" Namespace=\"Telerik.ReportViewer.WebForms\" TagPrefix=\"telerik\" %>\nLine 4:  <asp:Content ID=\"Content1\" ContentPlaceHolderID=\"head\" runat=\"server\">\nLine 5:  </asp:Content>\n\nSource File: /ImprimirPN.aspx    Line: 3\n\nAssembly Load Trace: The following information can be helpful to determine why the assembly 'Telerik.ReportViewer.WebForms, Version=13.2.19.1030, Culture=neutral, PublicKeyToken=a9d7983dfcc261be' could not be loaded.\n\n\nWRN: Assembly binding logging is turned OFF.\nTo enable assembly bind failure logging, set the registry value [HKLM\\Software\\Microsoft\\Fusion!EnableLog] (DWORD) to 1.\nNote: There is some performance penalty associated with assembly bind failure logging.\nTo turn this feature off, remove the registry value [HKLM\\Software\\Microsoft\\Fusion!EnableLog]."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-04T13:15:49.239Z",
+      "msg": "informacao que da"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-05-04T13:17:43.309Z",
+      "msg": "um momento, estamos verificando"
+    }
+  ],
+  "domain": "planodenegocios.simulacao.co.mz"
+}

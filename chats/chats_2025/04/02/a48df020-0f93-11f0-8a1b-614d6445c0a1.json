@@ -1,0 +1,152 @@
+{
+  "id": "a48df020-0f93-11f0-8a1b-614d6445c0a1",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Combustivel Lubrificantes Lda H&D",
+    "id": "5b081d4d8859f57bdc7b8ddd-WCv23nF8SKa1HXjJVTRTK",
+    "email": "hamisseamade71@mail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 12,
+  "chatDuration": 4387,
+  "rating": 0,
+  "createdOn": "2025-04-02T07:46:48.460Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-02T07:46:48.460Z",
+      "msg": "Nome : EA Lda Workspace\r\nDescrição do Problema : ola, o meu logotipo nao aparece na minha factura"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-02T07:47:22.823Z",
+      "msg": "Bom dia"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-02T07:47:27.782Z",
+      "msg": "deve adicionar logotipo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-02T07:47:31.950Z",
+      "msg": "a partir do sgc"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-02T07:48:09.613Z",
+      "msg": "ja adicionei porem nao aparece"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-02T07:48:43.869Z",
+      "msg": "pode mandar um print?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-02T08:10:07.942Z",
+      "msg": "ai esta o print",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/67ece664a3c8d40bf9764554/v/2497541a9ea5ffcac80deb54c83913ba89699bb5/32f218fd-7d49-4c8f-886f-ff3b0decc16e.jpg",
+              "name": "32f218fd-7d49-4c8f-886f-ff3b0decc16e.jpg",
+              "mimeType": "image/jpeg",
+              "size": 62692,
+              "extension": "jpeg"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-02T08:10:56.418Z",
+      "msg": "peco seu email"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-02T08:11:57.068Z",
+      "msg": "Abdulazizeguilherme@gmail.com"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-02T08:14:47.991Z",
+      "msg": "pode me mandar o print da factura?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-02T08:26:06.678Z",
+      "msg": "ai esta a factura",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/67ece664a3c8d40bf9764554/v/c1ccaf5be24337827a0310b5574473792a812fe6/c99787ec-92ef-44b5-87d8-f0f19c311990.jpg",
+              "name": "c99787ec-92ef-44b5-87d8-f0f19c311990.jpg",
+              "mimeType": "image/jpeg",
+              "size": 40474,
+              "extension": "jpeg"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-02T08:27:07.797Z",
+      "msg": "certo. peco que aguarde um momento"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,97 @@
+{
+  "id": "0c293fe0-2039-11f0-9045-e19d6a466588",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Mondlane",
+    "id": "5b081d4d8859f57bdc7b8ddd-YLCAZewG6wGtSOyV3RPBP",
+    "email": "melindamondlane2@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 9,
+  "chatDuration": 793,
+  "rating": 0,
+  "createdOn": "2025-04-23T11:51:42.015Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-23T11:51:42.015Z",
+      "msg": "Nome : Melinda Mondlane\r\nTelefone : 844320592\r\nDescrição do Problema : Boa tarde!\nPeço pra vir acertar a hora no computador."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-23T11:53:21.158Z",
+      "msg": "??????"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-04-23T11:54:29.323Z",
+      "msg": "Boa tarde, qualquer seria o problema?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-23T11:55:12.398Z",
+      "msg": "Acertar a hora, data"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-04-23T11:56:49.607Z",
+      "msg": "A plataforma esta lhe mostrando datas erradas?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-23T11:58:06.414Z",
+      "msg": "Peço pra vir a sala por favor"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-04-23T12:00:23.571Z",
+      "msg": "Este campo é dedicado somente a problemas/duvidas com a plataforma Spee, caso tenha um problema com o computador o estudante deve procurar ajuda a alguem da sua instituicão"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-23T12:01:45.103Z",
+      "msg": "Agora estou a utilizar o telemóvel para acessar a plataforma"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-04-23T12:04:54.592Z",
+      "msg": "Poderia explicar exatamente quais a dificuldades que esta a ter?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

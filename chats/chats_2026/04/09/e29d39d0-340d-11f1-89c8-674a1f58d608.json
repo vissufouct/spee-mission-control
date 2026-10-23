@@ -1,0 +1,147 @@
+{
+  "id": "e29d39d0-340d-11f1-89c8-674a1f58d608",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "[Docente]ISPM - ISPM_SEMESTRE Denyse 1_2026/Sebastião",
+    "id": "5b081d4d8859f57bdc7b8ddd-OxpdQ4mx4z76F9cbxlJ1R",
+    "email": "denysedette42@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 15,
+  "chatDuration": 1062,
+  "rating": 0,
+  "createdOn": "2026-04-09T12:20:40.142Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T12:20:40.142Z",
+      "msg": "Nome : [Docente]ISPM - ISPM_SEMESTRE Denyse 1_2026/Sebastião\r\nTelefone : 258825562470\r\nE-mail : denysedette42@gmail.com\r\nDescrição do Problema : Saudacoes ITIS\nNao conseguimos visualizar todos os nossos estudantes na turma..todos se cadastraram, mas aparecem apenas 2. Peco por favor para verificarem o que esta acontecendo..A nossa aula e amanha"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T12:21:23.636Z",
+      "msg": "Peco também um contacto para assistência técnica,,obrigada"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-09T12:21:47.734Z",
+      "msg": "Boa tarde, quando que os estudantes efectuaram o cadastro?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T12:22:28.975Z",
+      "msg": "oi, acredito que pelo menos 30 estudantes"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-09T12:23:18.411Z",
+      "msg": "E já tem empresa constituida os estudantes.?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T12:23:46.271Z",
+      "msg": "Ainda nao. sera a aula de amanha"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-09T12:25:46.670Z",
+      "msg": "Pode me dizer o nome de pelo menos dois estudantes que não aparecem na turma?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T12:26:52.906Z",
+      "msg": "chelcia avelina monteiro"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T12:27:23.617Z",
+      "msg": "alexandre duarte luis cunat"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T12:28:06.170Z",
+      "msg": "domingos joao andicene"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-09T12:28:17.504Z",
+      "msg": "Um momento!"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-09T12:31:46.926Z",
+      "msg": "Peco que diga aos estudantes voltarem a fazer o registro no sistema, devem usar o mesmo codigo de turma!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T12:33:01.378Z",
+      "msg": "esta bem. vou pedir a um dos estudante agora para testarmos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-09T12:36:20.778Z",
+      "msg": "Diga a eles, ao se registrar outra vez, sera pedido que eles facam o login na conta apos o login eles já estaram na turma certa, se tiverem duvida entrem em contacto 863297694"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T12:38:21.842Z",
+      "msg": "esta certo.muito obrigada..depois darei feedback"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

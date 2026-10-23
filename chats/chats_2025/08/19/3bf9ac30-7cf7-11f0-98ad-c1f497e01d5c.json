@@ -1,0 +1,46 @@
+{
+  "id": "3bf9ac30-7cf7-11f0-98ad-c1f497e01d5c",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "[Docente]ISPT - Edson ISPT_Ciclo_2025/Cumbane",
+    "id": "5b081d4d8859f57bdc7b8ddd-AUF5NIF783zDr52I85BUG",
+    "email": "ecumbane96@live.com"
+  },
+  "location": {
+    "countryCode": "CA",
+    "city": "Toronto"
+  },
+  "messageCount": 3,
+  "chatDuration": 394,
+  "rating": 0,
+  "createdOn": "2025-08-19T14:22:45.949Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-19T14:22:45.949Z",
+      "msg": "Nome : ISPT/Mucauque\r\nE-mail : erciliasamuel@gmail.com\r\nDescrição do Problema : Boa tarde, sou docente de simulacao empresarial e gostava de saber como posso editar o nome de uma empresa criada"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-19T14:24:01.940Z",
+      "msg": "Bom tarde, nao possivel editar o nome de uma empresa depois de ser criada."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-19T14:29:20.295Z",
+      "msg": "esta bem, nesse caso quando se pretender mudar de actividade os estudantes podem criar uma nova empresa?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

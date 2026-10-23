@@ -1,0 +1,148 @@
+{
+  "id": "0fc380e0-5a6a-11f1-baef-dbcc900c2f23",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "SHEM HST",
+    "id": "5b081d4d8859f57bdc7b8ddd-ddywZAAIUdpxJmdTEFBcR",
+    "email": "shemhst@spee.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 15,
+  "chatDuration": 903,
+  "rating": 0,
+  "createdOn": "2026-05-28T07:52:03.910Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-28T07:52:03.910Z",
+      "msg": "Ainda à espera de resposta"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-28T07:53:33.548Z",
+      "msg": "Bom dia, qual o problema que esta a enfrentar?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-28T07:54:03.504Z",
+      "msg": "Não consigo abrir a página dos contratos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-28T07:56:23.857Z",
+      "msg": "Para fazer os contractos vai ate o catalogo de empresas selecione a entidade que deseja fazer o contracto!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-28T07:57:59.542Z",
+      "msg": "Quando seleciono a entidade não avança"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-28T07:58:36.128Z",
+      "msg": "peco o email de registro no sistema!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-28T08:00:16.583Z",
+      "msg": "Shemhst@spee.com"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-28T08:00:48.470Z",
+      "msg": "O email que usa para fazer login no sistema!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-28T08:01:26.604Z",
+      "msg": "emanuelacumbi13@gmail"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-28T08:02:44.778Z",
+      "msg": "Já mandei"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-28T08:02:57.849Z",
+      "msg": "quando que fez o regsitro no sistema?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-28T08:04:07.901Z",
+      "msg": "?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-28T08:04:46.176Z",
+      "msg": "Em Fevereiro"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-28T08:05:18.863Z",
+      "msg": ":point_up_2_tone3:"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-28T08:07:07.259Z",
+      "msg": "Nao temos registro de uma conta com esse email no sistema! Tem a certeza que e esse?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

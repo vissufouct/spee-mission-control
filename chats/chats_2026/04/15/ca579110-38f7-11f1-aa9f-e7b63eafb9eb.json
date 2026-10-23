@@ -1,0 +1,29 @@
+{
+  "id": "ca579110-38f7-11f1-aa9f-e7b63eafb9eb",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-RPlmm6FIzUyjYBE5AYTqa",
+    "email": "horaciomachangame@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-04-15T18:38:29.865Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T18:38:29.865Z",
+      "msg": "Nome : /\r\nE-mail : horaciomachangame@gmail.com\r\nDescrição do Problema : nao consigo abri  a pagina de Artigo projrtados"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "9b838d60-d66b-11f0-a07d-93c1dafaff4c",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISG/Luís",
+    "id": "5b081d4d8859f57bdc7b8ddd-ECoNPHX8eQ8lTYtc0mPSX",
+    "email": "faustina76@live.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 4,
+  "chatDuration": 2368,
+  "rating": 0,
+  "createdOn": "2025-12-11T08:34:34.449Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-12-11T08:34:34.449Z",
+      "msg": "Nome : ISG/Luís\r\nTelefone : 258847235482\r\nE-mail : faustina76@live.com\r\nDescrição do Problema : Bom dia . nao consigo aceder ao banco para a compra de caderno  de encargo.  como faco para aceder ao banco"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-12-11T09:12:43.723Z",
+      "msg": "Bom dia"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-12-11T09:12:52.715Z",
+      "msg": "A conta bancária não aparece?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-12-11T09:14:02.904Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/ffddf45942deab41a32e00059560ddd0d1deeb98/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 32488,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

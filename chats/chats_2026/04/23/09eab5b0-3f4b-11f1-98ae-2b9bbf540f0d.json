@@ -1,0 +1,29 @@
+{
+  "id": "09eab5b0-3f4b-11f1-98ae-2b9bbf540f0d",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "USTM/Queco",
+    "id": "5b081d4d8859f57bdc7b8ddd-dDJ_vY2cDIwXEX1yQK97L",
+    "email": "techmobiliarioqueco@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-04-23T19:47:12.414Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-23T19:47:12.414Z",
+      "msg": "Nome : USTM/Queco\r\nTelefone : 258876498050\r\nE-mail : techmobiliarioqueco@gmail.com\r\nDescrição do Problema : Não consegui sair da 2 etapa de reserva de nome"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

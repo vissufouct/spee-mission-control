@@ -1,0 +1,29 @@
+{
+  "id": "16bef800-60d5-11f0-beda-4f48cf8e2350",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCAM/Mathe",
+    "id": "5b081d4d8859f57bdc7b8ddd-SCmhfmGi7b2hLxFtQHkfI",
+    "email": "vanessa.mathe@iscam.ac.mz"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-07-14T17:08:11.709Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-14T17:08:11.709Z",
+      "msg": "Boa noite equipe de suporte,\n\nEstamos a  enfrentar problemas tecnicos para poder solicitar finnanciamento"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

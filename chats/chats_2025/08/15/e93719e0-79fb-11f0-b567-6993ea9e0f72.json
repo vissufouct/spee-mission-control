@@ -1,0 +1,83 @@
+{
+  "id": "e93719e0-79fb-11f0-b567-6993ea9e0f72",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISPT/Bernardo",
+    "id": "5b081d4d8859f57bdc7b8ddd-VnHmrhWOizIKNSh57sOBA",
+    "email": "armindobernardopedropedro@gmail.com"
+  },
+  "location": {
+    "countryCode": "CA",
+    "city": "Toronto"
+  },
+  "messageCount": 4,
+  "chatDuration": 541,
+  "rating": 0,
+  "createdOn": "2025-08-15T17:24:01.320Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-15T17:24:01.320Z",
+      "msg": "Nome : ISPT/Bernardo\r\nTelefone : 258869697999\r\nE-mail : armindobernardopedropedro@gmail.com\r\nDescrição do Problema : nao consigo entrar no RH online recursos Humanos,apenas aparece uma pagina em branca quando tento entrar"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-15T17:25:59.354Z",
+      "msg": "Boa noite. Nem entrando pela pagina inicial?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-15T17:28:19.182Z",
+      "msg": "Entramos a partir deste comando, mas nao aceita. Agora como faco para entrar pela pagina inicial?",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/689f6bfaa3c8d40bf9ed9786/v/5137ab078bf7d360a981e5d87cc19ce235f9c8e3/Screenshot_2025-08-15_102711.png",
+              "name": "Screenshot 2025-08-15 102711.png",
+              "mimeType": "image/png",
+              "size": 20408,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-15T17:33:02.481Z",
+      "msg": "Por aqui:",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/67bc6520a561be464e803d37/af02a7ebd9bae5da547a30b5961b92a277a773b2/Screenshot_20250815_192912_Gallery.jpg",
+              "name": "Screenshot_20250815_192912_Gallery.jpg",
+              "extension": "jpeg",
+              "size": 269436,
+              "mimeType": "image/jpeg"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

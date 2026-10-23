@@ -1,0 +1,29 @@
+{
+  "id": "77c89910-3099-11f0-8736-bbf99a57a7a8",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Ussene",
+    "id": "5b081d4d8859f57bdc7b8ddd-AmAZpt1N3iJUtmdIVcELn",
+    "email": "ucharifo77@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-05-14T08:02:55.061Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-14T08:02:55.061Z",
+      "msg": "Nome : ISCIM/Ussene\r\nE-mail : ucharifo77@gmail.com\r\nDescrição do Problema : Continuo a aguardar."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

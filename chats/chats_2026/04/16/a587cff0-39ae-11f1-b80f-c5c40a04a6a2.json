@@ -1,0 +1,46 @@
+{
+  "id": "a587cff0-39ae-11f1-b80f-c5c40a04a6a2",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ITIS/Zefanias",
+    "id": "5b081d4d8859f57bdc7b8ddd-1OXUDGMf4QTwd1hnw0J9X",
+    "email": "chelciaelinajorgerangane@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 158,
+  "rating": 0,
+  "createdOn": "2026-04-16T16:10:54.449Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T16:10:54.449Z",
+      "msg": "Nome : ITIS/Zefanias\r\nTelefone : 258871360145\r\nE-mail : chelciaelinajorgerangane@gmail.com\r\nDescrição do Problema : Eu não consigo achar o nome da minha sócia e ela também não consegue localizarbo meu nome"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T16:12:27.505Z",
+      "msg": "?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-16T16:13:32.806Z",
+      "msg": "Seguiste esses passos? Voltar a se registrar no sistema use esse codigo 298461, vai pedir para colocares o email depois fazer  login, ja estaras na turma certa!"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

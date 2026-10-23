@@ -1,0 +1,38 @@
+{
+  "id": "cc1546e0-04ba-11f0-9574-29ca6009cb47",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/4002807782",
+    "id": "5b081d4d8859f57bdc7b8ddd-JHEimNFn9RbaERTJaUwri",
+    "email": "dionisiomacovo@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 115,
+  "rating": 0,
+  "createdOn": "2025-03-19T12:09:28.638Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T12:09:28.638Z",
+      "msg": "Nome : ISCIM/Taimo\r\nE-mail : dionisiomacovo@gmail.com\r\nDescrição do Problema : sou estudante do turmo da tarde nao consigo acessar aos activos minimos na loja online"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-19T12:11:23.609Z",
+      "msg": "Depois de fazer login no sistema, a primeira janela mostrada, tem um campo denominado gestor comercial \nAceda ao campo, e por fim volte aos activos minimos"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

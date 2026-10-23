@@ -1,0 +1,29 @@
+{
+  "id": "b48bdb50-52b8-11f0-bcbd-6ba78aea452c",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Rosário Marcelo Marcelo",
+    "id": "5b081d4d8859f57bdc7b8ddd-k9HOXWVM7LIj7bTNkuhUw",
+    "email": "rosariomarcelomarcelo@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-06-26T18:11:51.301Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-06-26T18:11:51.301Z",
+      "msg": "Nome : Rosário Marcelo Marcelo\r\nTelefone : 25852879259\r\nE-mail : rosariomarcelomarcelo@gmail.com\r\nDescrição do Problema : Inscrição"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

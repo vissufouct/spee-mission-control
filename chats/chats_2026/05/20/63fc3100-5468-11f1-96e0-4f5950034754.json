@@ -1,0 +1,61 @@
+{
+  "id": "63fc3100-5468-11f1-96e0-4f5950034754",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/Massinga",
+    "id": "5b081d4d8859f57bdc7b8ddd-j8gneMrW_6xfUm2D79iWL",
+    "email": "kennethmassingaalfredo@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 5,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T16:25:47.694Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T16:25:47.694Z",
+      "msg": "Nome : A Politecnica - MPT/Massinga\r\nTelefone : 258875337324\r\nE-mail : kennethmassingaalfredo@gmail.com\r\nDescrição do Problema : kennethmassingaalfredo@gmail.com"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T16:27:37.015Z",
+      "msg": "Nome : A Politécnica"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T16:28:45.725Z",
+      "msg": "Nome: Camila Casimiro"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T16:29:24.839Z",
+      "msg": "Nome: A Politécnica"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T16:31:55.149Z",
+      "msg": "Nome : A Politecnica - MPT/ Camila Casimiro \nTelefone : 258875337324\nE-mail : camilacasimiro703@gmail.com\nDescrição do Problema : camilacasimiro703@gmail.com"
+    }
+  ],
+  "domain": "moodle.simulacao.co.mz"
+}

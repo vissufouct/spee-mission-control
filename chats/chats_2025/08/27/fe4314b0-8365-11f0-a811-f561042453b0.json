@@ -1,0 +1,29 @@
+{
+  "id": "fe4314b0-8365-11f0-a811-f561042453b0",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-nKrjhQQO9ufVJkzITtvId",
+    "email": "michelamassango463@gmail.com"
+  },
+  "location": {
+    "countryCode": "US",
+    "city": "Albuquerque"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-08-27T17:04:55.104Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-27T17:04:55.104Z",
+      "msg": "Nome : ISG/Gujamo\r\nTelefone : 258874049137\r\nE-mail : sgujamo@gmail.com\r\nDescrição do Problema : boa noite, nao esta ser possivel adicionar o custo fixo na projeção de preço"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

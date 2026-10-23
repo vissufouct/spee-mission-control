@@ -1,0 +1,37 @@
+{
+  "id": "bf38a720-a369-11f0-9446-e3533bb85abc",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Shelsea Goenha",
+    "id": "5b081d4d8859f57bdc7b8ddd-3a0nrTVRFrT6uWdjzj3fA",
+    "email": "goenhashelsea@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-10-07T12:39:13.408Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-07T12:39:13.408Z",
+      "msg": "Nome : Shelsea Goenha\r\nTelefone : 258861128388\r\nE-mail : goenhashelsea@gmail.com\r\nDescrição do Problema : Como fazer para imprimir os diarios"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-07T12:41:53.622Z",
+      "msg": "como faco para imprimir os diarios"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

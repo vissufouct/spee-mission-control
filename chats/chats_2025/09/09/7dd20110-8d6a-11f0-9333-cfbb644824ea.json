@@ -1,0 +1,81 @@
+{
+  "id": "7dd20110-8d6a-11f0-9333-cfbb644824ea",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "LUCHA MOBI LDA/4002807820",
+    "id": "5b081d4d8859f57bdc7b8ddd-7OyGNZuM5LocSD7A4QCQP",
+    "email": "charla.mawai05@gmail.com"
+  },
+  "location": {
+    "countryCode": "US",
+    "city": "Chicago"
+  },
+  "messageCount": 7,
+  "chatDuration": 388,
+  "rating": 0,
+  "createdOn": "2025-09-09T10:54:15.533Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-09T10:54:15.533Z",
+      "msg": "Nome : LUCHA MOBI LDA/4002807820\r\nTelefone : 842510973\r\nE-mail : charla.mawai05@gmail.com\r\nDescrição do Problema : peço ajuda não consigo emitir factura"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-09T10:55:32.129Z",
+      "msg": "peço ajuda não consigo emitir factura"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-09T10:55:40.105Z",
+      "msg": "Boa tarde"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-09T10:56:00.053Z",
+      "msg": "Qual é a dificuldade?\nDá algum erro?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-09T10:56:50.177Z",
+      "msg": "não aceitar emitir factura no mercado oniline"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-09T10:57:11.669Z",
+      "msg": "Certo. Um momento"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-09T11:00:43.551Z",
+      "msg": "Como é que faz apara emitir uma factura?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,136 @@
+{
+  "id": "b6832ef0-79fe-11f0-a672-7f4c93a64e65",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-VnHmrhWOizIKNSh57sOBA",
+    "email": "armindobernardopedropedro@gmail.com"
+  },
+  "location": {
+    "countryCode": "CA",
+    "city": "Toronto"
+  },
+  "messageCount": 12,
+  "chatDuration": 1039,
+  "rating": 0,
+  "createdOn": "2025-08-15T17:40:56.463Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-15T17:40:56.463Z",
+      "msg": "Nome : ISPT/Bernardo\r\nTelefone : 258869697999\r\nE-mail : armindobernardopedropedro@gmail.com\r\nDescrição do Problema : ainda nao consigo entrar apartir da pagina inicial"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-15T17:42:18.178Z",
+      "msg": "Peço o print da tela! Quando clica no RH apartir da pagina online"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-15T17:42:54.965Z",
+      "msg": "vou ja enviar"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-15T17:45:49.004Z",
+      "msg": "aparece apanas assim depois e nao tem nenhum campo.",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/689f70ada3c8d40bf991d438/v/284d4184ab97ab81592760fbeb3f6701494c2070/Screenshot_2025-08-15_104353.png",
+              "name": "Screenshot 2025-08-15 104353.png",
+              "mimeType": "image/png",
+              "size": 152945,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-15T17:47:11.904Z",
+      "msg": "É a primeira vez a enfrentar esse problema?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-15T17:47:28.022Z",
+      "msg": "sim"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-15T17:48:11.675Z",
+      "msg": "É a primeira vez a tentar aceder ao rh?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-15T17:49:46.000Z",
+      "msg": "sim"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-15T17:50:09.717Z",
+      "msg": "Um momento por favor"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-15T17:50:53.377Z",
+      "msg": "esta bem"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-15T17:55:43.434Z",
+      "msg": "Estamos a ver aqui o seu perfil, o estudante completou todos passos de cadastro da empresa?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-15T17:58:15.387Z",
+      "msg": "Sim completei,estava sendo acompanhado  por docentes"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

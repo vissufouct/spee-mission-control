@@ -1,0 +1,29 @@
+{
+  "id": "01bd7df0-8a83-11f0-8c8f-d56dfb1013e7",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISG/Cassamo",
+    "id": "5b081d4d8859f57bdc7b8ddd-OZ6h93W1PfVkCXshEK7U3",
+    "email": "estefaniacassamo1@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-09-05T18:06:53.530Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-05T18:06:53.530Z",
+      "msg": "Boa noite espero que esteja bem, estou com problemas com a lista de Funcionarios funcionarios, apos cadastrar um, sumiram todos."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

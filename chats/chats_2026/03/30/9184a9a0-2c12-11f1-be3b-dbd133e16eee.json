@@ -1,0 +1,29 @@
+{
+  "id": "9184a9a0-2c12-11f1-be3b-dbd133e16eee",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-564BN22a5o69KLWgycjBE",
+    "email": "quasseadavera@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-03-30T09:15:29.038Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-30T09:15:29.038Z",
+      "msg": "Nome : /\r\nTelefone : 258844338510\r\nE-mail : antoniosigauque22@gmail.com\r\nDescrição do Problema : Nao conseguimos extrair a fatura de agua"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

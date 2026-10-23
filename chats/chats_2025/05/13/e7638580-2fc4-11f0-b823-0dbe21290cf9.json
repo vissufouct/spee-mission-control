@@ -1,0 +1,55 @@
+{
+  "id": "e7638580-2fc4-11f0-b823-0dbe21290cf9",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "UNILURIO/Antique",
+    "id": "5b081d4d8859f57bdc7b8ddd-cB88B14c2wGO6aGEZr6J9",
+    "email": "olinda.e.antique@gmail.com"
+  },
+  "location": {
+    "countryCode": "NG",
+    "city": "Unknown"
+  },
+  "messageCount": 4,
+  "chatDuration": 2934,
+  "rating": 0,
+  "createdOn": "2025-05-13T07:07:33.074Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-13T07:07:33.074Z",
+      "msg": "Nome : UNILURIO/Antique\r\nE-mail : olinda.e.antique@gmail.com\r\nDescrição do Problema : nao consigo sumbmeter o plano de negocio da empresa"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-13T07:08:09.507Z",
+      "msg": "Bom dia\nQual é a dificuldade?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-13T07:16:38.482Z",
+      "msg": "QUndo priencho a primeira parte do plano de nogocios , ao prosseguir some"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-13T07:56:27.355Z",
+      "msg": "Pode me mostrar o printe da tela?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

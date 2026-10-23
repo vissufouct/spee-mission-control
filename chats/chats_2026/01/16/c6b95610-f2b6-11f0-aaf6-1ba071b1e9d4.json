@@ -1,0 +1,131 @@
+{
+  "id": "c6b95610-f2b6-11f0-aaf6-1ba071b1e9d4",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Mundo SA Auto",
+    "id": "5b081d4d8859f57bdc7b8ddd-HdjxSvIeMFO4GuLZ7Q000",
+    "email": "mundoautosa711@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 10,
+  "chatDuration": 547,
+  "rating": 0,
+  "createdOn": "2026-01-16T08:39:36.278Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-01-16T08:39:36.278Z",
+      "msg": "Nome : Mundo SA Auto\r\nE-mail : mundoautosa711@gmail.com\r\nDescrição do Problema : Oi\nTudo bem"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-01-16T08:40:25.113Z",
+      "msg": "Cadê a minha lista de movimentos?",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/6969f9183ad48120252dd01c/v/d050d919f2608dde64ba983bd06724bf7072a784/C4726FD1-11F3-40EC-A0CD-D1F08680F20B.png",
+              "name": "C4726FD1-11F3-40EC-A0CD-D1F08680F20B.png",
+              "mimeType": "image/png",
+              "size": 601668,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-01-16T08:40:57.994Z",
+      "msg": "Na tela de movumentos tente fazer um lancamento novo!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-01-16T08:41:10.053Z",
+      "msg": "Peço que traga de volta a minha lista de movimentos"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-01-16T08:41:38.751Z",
+      "msg": "Já tentei fazer um novo movimento mas não aparece na lista"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-01-16T08:43:09.864Z",
+      "msg": "Um momento!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-01-16T08:43:40.904Z",
+      "msg": "Peço que resolva o meu problema e traga de volta a minha lista de movimentos"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-01-16T08:45:39.288Z",
+      "msg": "Responda"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-01-16T08:47:12.063Z",
+      "msg": "Oi"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-01-16T08:48:42.940Z",
+      "msg": "Não consigo ter acesso a minha lista de movimentos",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/6969f9183ad48120252dd01c/v/af8f7bedcf1f68a74232db3e876ac4ed93f24389/6AE583BD-F1BA-40E4-A4B9-6DA00AC8D215.png",
+              "name": "6AE583BD-F1BA-40E4-A4B9-6DA00AC8D215.png",
+              "mimeType": "image/png",
+              "size": 601668,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

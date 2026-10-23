@@ -1,0 +1,52 @@
+{
+  "id": "75a7f210-049e-11f0-afbe-533ede7bf592",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Usta",
+    "id": "5b081d4d8859f57bdc7b8ddd-9_adRUFNFvnmkX1dlS6U8",
+    "email": "ammarahbibiseif@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 2,
+  "chatDuration": 94,
+  "rating": 0,
+  "createdOn": "2025-03-19T08:46:02.931Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:46:02.931Z",
+      "msg": "nao consigo aceder a loja online de activos mínimos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:47:37.381Z",
+      "msg": "Logo depois de fazer login a platarfoma, entrar para o campo destacado, e voltar a aceder aos activos minimos",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/1150561aa9be2cb206e458c8a4a85956076a353e/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 68032,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "684ab0d0-04c1-11f0-acbe-99d074638f6b",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Mahuai",
+    "id": "5b081d4d8859f57bdc7b8ddd-ceDhmuuiWGhLDKgIc3fR8",
+    "email": "maidamahuai54@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-03-19T12:59:50.072Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T12:59:50.072Z",
+      "msg": "Nome : ISCIM/Mahuai\r\nTelefone : 840707402\r\nE-mail : maidamahuai54@gmail.com\r\nDescrição do Problema : Esqueci minha senha"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

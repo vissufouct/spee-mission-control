@@ -1,0 +1,38 @@
+{
+  "id": "01df94d0-26d7-11f1-b602-ffefe4795b6a",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-DJsPp9UeDgokWKi75KbP2",
+    "email": "kamyla699@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 46,
+  "rating": 0,
+  "createdOn": "2026-03-23T18:23:44.495Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:23:44.495Z",
+      "msg": "Nome : ISCIM/CAMACHO\r\nTelefone : 258844779133\r\nE-mail : kamyla699@gmail.com\r\nDescrição do Problema : Tenho problemas ao escolher a minha loja, ele nao processa."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:24:30.111Z",
+      "msg": "Boa noite, pode descrever melhor o problema?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

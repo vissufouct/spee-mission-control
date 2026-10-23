@@ -1,0 +1,29 @@
+{
+  "id": "e2bc0150-1116-11f0-90bb-019939da2e6f",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Prime Office/4002807778",
+    "id": "5b081d4d8859f57bdc7b8ddd-q3aBFt12k7yjsJ6cm33iw",
+    "email": "yurensmithbulande@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-04-04T06:51:06.865Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-04T06:51:06.865Z",
+      "msg": "Nome : Prime Office/4002807778\r\nE-mail : yurensmithbulande@gmail.com\r\nDescrição do Problema : como adicionar stock"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

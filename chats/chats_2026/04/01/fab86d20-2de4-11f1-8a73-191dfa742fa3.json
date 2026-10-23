@@ -1,0 +1,88 @@
+{
+  "id": "fab86d20-2de4-11f1-8a73-191dfa742fa3",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "TC INFORMATICAS LDA/4003038508",
+    "id": "5b081d4d8859f57bdc7b8ddd-eV59sJhZrvpaD8xOzpFs0",
+    "email": "elziria@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 8,
+  "chatDuration": 1251,
+  "rating": 0,
+  "createdOn": "2026-04-01T16:09:31.989Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-01T16:09:31.989Z",
+      "msg": "Nome : TC INFORMATICAS LDA/4003038508\r\nE-mail : elziria@gmail.com\r\nDescrição do Problema : Diario do Empreendedor"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-01T16:13:43.118Z",
+      "msg": "Boa noite, poderia explicar melhor o problema?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-01T16:14:43.880Z",
+      "msg": "quero ver a lista de tarefas do diario empreendedor"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-01T16:18:42.875Z",
+      "msg": "O que diz quando tenta abrir a lista ?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-01T16:19:15.413Z",
+      "msg": "nao diz nada, nao abre"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-01T16:19:52.345Z",
+      "msg": "Esta certo, estamos verificando o problema!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-01T16:20:07.107Z",
+      "msg": "esta bem"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-01T16:30:23.279Z",
+      "msg": "a espera da resolucao do problema"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

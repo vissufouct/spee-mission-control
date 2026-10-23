@@ -1,0 +1,148 @@
+{
+  "id": "74a52280-6d61-11f0-8f32-9355d4877d3d",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/Dava",
+    "id": "5b081d4d8859f57bdc7b8ddd-63rTXOyMLZdo7KbVMAre3",
+    "email": "dbechardas@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 15,
+  "chatDuration": 648,
+  "rating": 0,
+  "createdOn": "2025-07-30T16:31:58.873Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-30T16:31:58.873Z",
+      "msg": "Nome : A Politecnica - MPT/Dava\r\nTelefone : 258853884842\r\nE-mail : hamanacalu2002@gmail.com\r\nDescrição do Problema : gostariamos de dividir as quotas em 50 porcento entre os gestores mas ja nao estamos a conseguir"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-30T16:32:19.014Z",
+      "msg": "Boa noite"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-30T16:32:36.204Z",
+      "msg": "Os dois estão na mesma empresa?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-30T16:32:41.531Z",
+      "msg": "sim"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-30T16:33:07.867Z",
+      "msg": "ja somos socios mas ele tem 100 porcento da empresa"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-30T16:33:11.705Z",
+      "msg": "Quais são os nomes,"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-30T16:33:13.562Z",
+      "msg": "?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-30T16:33:33.827Z",
+      "msg": "eckan dava e milena calu"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-30T16:34:29.686Z",
+      "msg": "certo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-30T16:34:32.306Z",
+      "msg": "um momento"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-30T16:35:01.569Z",
+      "msg": "a empresa e Maison Du Sorbet"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-30T16:41:44.331Z",
+      "msg": "ja esta?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-30T16:42:26.195Z",
+      "msg": "Um momento, retorno assi que stiver resolvido\nPode continuar com outras actividades"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-30T16:42:41.213Z",
+      "msg": "ta certo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-30T16:42:46.753Z",
+      "msg": "obrigada"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

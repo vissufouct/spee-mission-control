@@ -1,0 +1,168 @@
+{
+  "id": "7cfbbff0-1f7a-11f0-8560-f57b85191876",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "UNILURIO/Ndayshimiye",
+    "id": "5b081d4d8859f57bdc7b8ddd-gckg9fpeEQAEpHWWLWSEi",
+    "email": "pndayshimiye@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 16,
+  "chatDuration": 1348,
+  "rating": 0,
+  "createdOn": "2025-04-22T13:06:29.054Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-22T13:06:29.054Z",
+      "msg": "Nome : UNILURIO/Ndayshimiye\r\nE-mail : pndayshimiye@gmail.com\r\nDescrição do Problema : Não consigo  entrar na minha conta\nNão sei os porquês"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-04-22T13:07:19.381Z",
+      "msg": "Boa tarde, o acontece ao tentar entrar na plataforma?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-22T13:07:49.374Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/68079423a3c8d40bf9d015b3/v/2fd8705ff99ee2c1c5a3cdd625a2386de9540667/Screenshot_2025-04-22-09-56-19-097_com.android.chrome.jpg",
+              "name": "Screenshot_2025-04-22-09-56-19-097_com.android.chrome.jpg",
+              "mimeType": "image/jpeg",
+              "size": 645118,
+              "extension": "jpeg"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-22T13:08:24.087Z",
+      "msg": "A parece isso"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-22T13:09:05.769Z",
+      "msg": "Oque posso fazer??"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-04-22T13:09:15.954Z",
+      "msg": "Um momento"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-22T13:09:43.464Z",
+      "msg": "E também tenho uma outra questão"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-04-22T13:10:04.896Z",
+      "msg": "Pode fazer"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-22T13:12:41.383Z",
+      "msg": "Os outros sócios não estão a conseguir ter acesso a empresa nos seus usuários, e não estamos a conseguir preencher o modelo de negócios"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-22T13:13:41.045Z",
+      "msg": "Como é que podemos resolver essas situações??"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-04-22T13:14:05.712Z",
+      "msg": "No primeiro problema é a primeira vez que isso acontece?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-22T13:14:51.973Z",
+      "msg": "Sim é a primeira vez"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-04-22T13:25:26.067Z",
+      "msg": "Pode voltar a tentar aceder a plataforma"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-22T13:25:53.641Z",
+      "msg": "Certo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-22T13:28:22.158Z",
+      "msg": "Obrigada já consigo aceder a plataforma"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-22T13:28:56.769Z",
+      "msg": "E agora o segundo caso, como é que ficamos??"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

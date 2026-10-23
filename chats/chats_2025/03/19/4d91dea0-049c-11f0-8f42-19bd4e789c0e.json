@@ -1,0 +1,45 @@
+{
+  "id": "4d91dea0-049c-11f0-8f42-19bd4e789c0e",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/4002807806",
+    "id": "5b081d4d8859f57bdc7b8ddd-hjseq9J9HVnRNiEq1VzDw",
+    "email": "elziriaelija@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-03-19T08:38:37.697Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:38:37.697Z",
+      "msg": "Nome : ISCIM/Ussene\r\nTelefone : 845638614\r\nE-mail : yashfir31@gmail.com\r\nDescrição do Problema : nao estou a conseguir aceder loja online ativos minimos"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:43:13.836Z",
+      "msg": "bom dia"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:55:15.740Z",
+      "msg": "obrigado"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

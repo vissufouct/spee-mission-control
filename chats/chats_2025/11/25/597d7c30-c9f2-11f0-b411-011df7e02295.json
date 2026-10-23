@@ -1,0 +1,29 @@
+{
+  "id": "597d7c30-c9f2-11f0-b411-011df7e02295",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Moiane",
+    "id": "5b081d4d8859f57bdc7b8ddd-AaGnk7Ch1bNOk8k8PoVmi",
+    "email": "deysemoiane610@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-11-25T11:35:40.355Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-25T11:35:40.355Z",
+      "msg": "Nome : ISCIM/Moiane\r\nE-mail : deysemoiane610@gmail.com\r\nDescrição do Problema : Como sair da plataforma?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

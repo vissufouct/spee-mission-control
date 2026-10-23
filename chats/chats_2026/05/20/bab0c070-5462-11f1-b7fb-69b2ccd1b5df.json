@@ -1,0 +1,29 @@
+{
+  "id": "bab0c070-5462-11f1-b7fb-69b2ccd1b5df",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "OSVALDO CARLOS LUÍS CHIONGA",
+    "id": "5b081d4d8859f57bdc7b8ddd-1d4fzNQYWGrm0n0Dxk_QW",
+    "email": "osvaldochionga@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T15:46:53.307Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:46:53.307Z",
+      "msg": "Nome : OSVALDO CARLOS LUÍS CHIONGA\r\nTelefone : 258843740549\r\nE-mail : osvaldochionga@gmail.com\r\nDescrição do Problema : Osvaldochionga@gmail.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "c7379150-545f-11f1-9846-1dd1f17db4cb",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Shelton Alfredo Macuacua",
+    "id": "5b081d4d8859f57bdc7b8ddd-r2arCtpMoJjIUlGZTevFT",
+    "email": "sheltonalfredo245@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 37,
+  "rating": 0,
+  "createdOn": "2026-05-20T15:24:02.584Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:24:02.584Z",
+      "msg": "Nome : Shelton Alfredo Macuacua\r\nE-mail : sheltonalfredo245@gmail.com\r\nDescrição do Problema : Shelton Alfredo Macuacua"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:24:39.522Z",
+      "msg": "Boa tarde, qual a difculade que enfrenta?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "5c45ead0-dfc6-11f0-ae1a-b169dbc2bfe1",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISPG/Banze",
+    "id": "5b081d4d8859f57bdc7b8ddd-fORI2yRhjrBgZIAZ9BxMW",
+    "email": "edna.banze@spee.ac.mz"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-12-23T07:39:41.458Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-12-23T07:39:41.458Z",
+      "msg": "Nome : ISPG/Banze\r\nTelefone : 258863223838\r\nE-mail : ebanze116@gmail.com\r\nDescrição do Problema : Venho por este meio informar que o balancete apresenta uma diferença nos valores totais. Após a análise efetuada, acredito que se trate de um possível erro do sistema, uma vez que os valores não estão a ser corretamente somados.\n\nSolicito, por gentileza, a vossa verificação para confirmação e correção da situação.\n\nFico a aguardar o vosso feedback."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "8cc74e30-04e1-11f0-9439-8337a7e6b989",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/4002807819",
+    "id": "5b081d4d8859f57bdc7b8ddd-hjseq9J9HVnRNiEq1VzDw",
+    "email": "elziriaelija@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 182,
+  "rating": 0,
+  "createdOn": "2025-03-19T16:47:08.982Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T16:47:08.982Z",
+      "msg": "Nome : ISCIM/Mateus\r\nE-mail : elziriaelija@gmail.com\r\nDescrição do Problema : Boa noite        Peco suporte nao consigo aceder a loja de activos minimos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-03-19T16:48:39.937Z",
+      "msg": "Boa noite\nlogo apos aceder a plataforma, entrar para este campo. e depois voltar a tentar aceceder aos activos minimos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-03-19T16:50:11.364Z",
+      "msg": ".",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "extension": "jpeg",
+              "size": 101550,
+              "name": "image.jpg",
+              "mimeType": "image/jpeg",
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/67bc6520a561be464e803d37/db474784ba222f3d6da93c0fedde0d3676ec607d/image.jpg"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

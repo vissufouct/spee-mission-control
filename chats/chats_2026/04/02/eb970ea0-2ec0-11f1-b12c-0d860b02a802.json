@@ -1,0 +1,88 @@
+{
+  "id": "eb970ea0-2ec0-11f1-b12c-0d860b02a802",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "UDM/Nhantumbo",
+    "id": "5b081d4d8859f57bdc7b8ddd-7snk4vqbtAijTj_h7EWmc",
+    "email": "nhantumbootilia66@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 8,
+  "chatDuration": 3039,
+  "rating": 0,
+  "createdOn": "2026-04-02T18:30:03.300Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-02T18:30:03.300Z",
+      "msg": "Nome : /\r\nTelefone : 258846922833\r\nE-mail : nhantumbootilia66@gmail.com\r\nDescrição do Problema : Boa noite, estou a enfrentar dificuldades para aceder aos concursos públicos para a Empresa MozForma Design, Lda, UDM. Solicito assistência."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-02T18:52:46.562Z",
+      "msg": "Boa noite, tente sair do navegador e voltar a entrar e fazer o login"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-02T18:58:44.456Z",
+      "msg": "Segui as instruções dadas, mas quando clico em \"concursos públicos\" retira-me imediatamente e volta a mostrar a pagina onde devo colocar as credenciais."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-02T18:59:04.865Z",
+      "msg": "Um momento por favor! estamos verificando o problema"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-02T18:59:34.376Z",
+      "msg": "Obrigada. Aguardo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-02T19:01:04.053Z",
+      "msg": "peco uns 10 minutos  so"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-02T19:12:12.722Z",
+      "msg": "Tudo bem, aguardo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-02T19:20:41.821Z",
+      "msg": "Ja passaram os 10 minutos, alguma actualização?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

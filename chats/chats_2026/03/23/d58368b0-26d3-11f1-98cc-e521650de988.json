@@ -1,0 +1,29 @@
+{
+  "id": "d58368b0-26d3-11f1-98cc-e521650de988",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Tomas",
+    "id": "5b081d4d8859f57bdc7b8ddd-W3LAC_Xw3c17sIfFSEbjT",
+    "email": "passuane90@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-03-23T16:51:03.305Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T16:51:03.305Z",
+      "msg": "Nome : ISCIM/Tomas\r\nTelefone : 258841048024\r\nE-mail : passuane90@gmail.com\r\nDescrição do Problema : o status do convite do meu socio continua pendente mesmo apos ter aceite"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

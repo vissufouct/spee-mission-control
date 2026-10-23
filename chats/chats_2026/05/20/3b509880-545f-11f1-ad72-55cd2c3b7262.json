@@ -1,0 +1,29 @@
+{
+  "id": "3b509880-545f-11f1-ad72-55cd2c3b7262",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Raju Cassimo Vasco",
+    "id": "5b081d4d8859f57bdc7b8ddd-DS5DHBsERijgyTEBv3Rmi",
+    "email": "raxgta5@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T15:22:01.273Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:22:01.273Z",
+      "msg": "Nome : Raju Cassimo Vasco\r\nTelefone : 258850750371\r\nE-mail : raxgta5@gmail.com\r\nDescrição do Problema : Email: raxgta5@gmail.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

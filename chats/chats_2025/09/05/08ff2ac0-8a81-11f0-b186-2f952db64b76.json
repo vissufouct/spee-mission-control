@@ -1,0 +1,37 @@
+{
+  "id": "08ff2ac0-8a81-11f0-b186-2f952db64b76",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISG/Cassamo",
+    "id": "5b081d4d8859f57bdc7b8ddd-OZ6h93W1PfVkCXshEK7U3",
+    "email": "estefaniacassamo1@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-09-05T17:55:46.577Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-05T17:55:46.577Z",
+      "msg": "Nome : ISG/Cassamo\r\nE-mail : estefaniacassamo1@gmail.com\r\nDescrição do Problema : Boa noite, novamente desapareceram os meus funcionarios"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-05T17:59:04.009Z",
+      "msg": ":slight_smile:"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

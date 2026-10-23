@@ -1,0 +1,379 @@
+{
+  "id": "db72aa50-39a8-11f1-a368-616c48cc4383",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-cS52vNYd3lSktWKP80Afy",
+    "email": "lorosamario3@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 43,
+  "chatDuration": 2698,
+  "rating": 0,
+  "createdOn": "2026-04-16T15:29:44.386Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:29:44.386Z",
+      "msg": "minha turma eh 298461"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:30:36.608Z",
+      "msg": "Boa tarde, qual a dificuldade que esta a ter?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:31:12.137Z",
+      "msg": "n consigo adicinar socio"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:31:20.190Z",
+      "msg": "aparece pessoa de outras turmas"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:34:15.019Z",
+      "msg": "qual e o teu email?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:35:35.909Z",
+      "msg": "lorosamario3arobagmail.com"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:37:03.752Z",
+      "msg": "senha eh Lab0123@"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:38:15.923Z",
+      "msg": "tudo bem"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:38:43.041Z",
+      "msg": "qual e o codigo da sua turma?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:39:04.732Z",
+      "msg": "269885"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:39:27.045Z",
+      "msg": "ta certo um momento"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:41:00.772Z",
+      "msg": "universidade apolitectica"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:41:05.543Z",
+      "msg": "docebte bamu"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:41:12.255Z",
+      "msg": "docente bamu"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:41:37.661Z",
+      "msg": "raimundo bamu"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:42:14.830Z",
+      "msg": "qual e o nome dos seus colegas de turma, pelo menos 2"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:43:47.828Z",
+      "msg": "chelcia elina ,shelcia duarte  luisa josebalate"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:43:54.748Z",
+      "msg": "nica pedro"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:43:58.727Z",
+      "msg": "melo bata"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:44:18.667Z",
+      "msg": "matilde amaral"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:44:51.207Z",
+      "msg": "oneria ruth"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:45:17.914Z",
+      "msg": "lino wamusse"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:45:46.840Z",
+      "msg": "Volte a se registrar no sistema use esse codigo 298461, vai pedir para colocares o email depois fazer  login, ja estaras na turma certa!"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:46:30.036Z",
+      "msg": "diga o colega Chelciane fazer o mesmo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:53:26.020Z",
+      "msg": "Nome : A Politecnica - MPT/Armando\r\nTelefone : 258874428136\r\nE-mail : lorosamario3@gmail.com\r\nDescrição do Problema : boa tarede novamnte"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:53:49.517Z",
+      "msg": "eunja estou na minha turma a colega shelvia n consegue encotrar ninguem da turma"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T16:05:29.556Z",
+      "msg": "n encotro minha  socia"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-16T16:07:42.706Z",
+      "msg": "E os outros colegas aparacem na lista?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T16:07:56.274Z",
+      "msg": "chelciaelinajorgerangane"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T16:08:02.240Z",
+      "msg": "sim aparecem"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T16:08:03.851Z",
+      "msg": "tdos"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T16:08:07.409Z",
+      "msg": "menos ela"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-16T16:08:38.996Z",
+      "msg": "O problema esta com ela, ja lhe informei oque ela deve fazer"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T16:09:19.944Z",
+      "msg": "ela n esta conseguir"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-16T16:09:32.689Z",
+      "msg": "Ela fez oque lhe foi dito pra fazer?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T16:09:39.233Z",
+      "msg": "sim"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-16T16:09:59.889Z",
+      "msg": "Diga ela mandar mensagem aqui!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T16:10:04.527Z",
+      "msg": "para ela n aparece os olegas"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T16:11:20.603Z",
+      "msg": "sera pk eu ja  fiz reserva de nome da empresa"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T16:11:24.185Z",
+      "msg": "?/"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-16T16:11:27.379Z",
+      "msg": "nao e isso"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T16:12:44.107Z",
+      "msg": "assim  n poss avanvar"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-16T16:14:42.181Z",
+      "msg": "O problema esta com a sua colega, diga a ela seguir o passo que lhe informei"
+    }
+  ],
+  "domain": "planodenegocios.simulacao.co.mz"
+}

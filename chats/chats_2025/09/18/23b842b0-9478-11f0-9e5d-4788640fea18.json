@@ -1,0 +1,38 @@
+{
+  "id": "23b842b0-9478-11f0-9e5d-4788640fea18",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "NeymaFashion",
+    "id": "5b081d4d8859f57bdc7b8ddd-G9fkD2AnaHFa7U3YZjmsU",
+    "email": "neymamatilde@gmail.com"
+  },
+  "location": {
+    "countryCode": "US",
+    "city": "Albuquerque"
+  },
+  "messageCount": 2,
+  "chatDuration": 17,
+  "rating": 0,
+  "createdOn": "2025-09-18T10:17:34.226Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-18T10:17:34.226Z",
+      "msg": "Nome : ITIS/Matilde\r\nE-mail : neymamatilde@gmail.com\r\nDescrição do Problema : kjhkjk"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-09-18T10:17:50.786Z",
+      "msg": "asdasdas"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

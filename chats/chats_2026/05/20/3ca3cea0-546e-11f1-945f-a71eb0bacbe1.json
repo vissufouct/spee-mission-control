@@ -1,0 +1,29 @@
+{
+  "id": "3ca3cea0-546e-11f1-945f-a71eb0bacbe1",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "AD combustível e lubrificantes Lda",
+    "id": "5b081d4d8859f57bdc7b8ddd-DqTFYNvQDkWVRYd6uOUMD",
+    "email": "adelinorafael8@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T17:13:20.470Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T17:13:20.470Z",
+      "msg": "Nome : AD combustível e lubrificantes Lda\r\nTelefone : 258829196450\r\nE-mail : adelinorafael8@gmail.com\r\nDescrição do Problema : boa noite, quando criamos as contas algumas subcontas vem por cima das contas mae"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

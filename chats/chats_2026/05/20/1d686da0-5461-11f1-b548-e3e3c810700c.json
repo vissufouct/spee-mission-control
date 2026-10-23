@@ -1,0 +1,29 @@
+{
+  "id": "1d686da0-5461-11f1-b548-e3e3c810700c",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Zenalda Munguambe",
+    "id": "5b081d4d8859f57bdc7b8ddd-KG7ajCm4MvNxdU1oxHdPR",
+    "email": "zenaldamunguambe@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T15:35:52.705Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:35:52.705Z",
+      "msg": "Nome : Zenalda Munguambe\r\nTelefone : 258846228836\r\nE-mail : zenaldamunguambe@gmail.com\r\nDescrição do Problema : zenaldamunguambe@gmail.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

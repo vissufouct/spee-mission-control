@@ -1,0 +1,77 @@
+{
+  "id": "86401f00-76b6-11f0-8ea2-33fe3cab67b1",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCAM/Chemane",
+    "id": "5b081d4d8859f57bdc7b8ddd-2BUeaHyeJIGGHFYAtEndu",
+    "email": "regina.chemane@iscam.ac.mz"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 5,
+  "chatDuration": 504,
+  "rating": 0,
+  "createdOn": "2025-08-11T13:29:04.914Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-11T13:29:04.914Z",
+      "msg": "Nome : ISCAM/Chemane\r\nTelefone : 258845721860\r\nE-mail : regina.chemane@iscam.ac.mz\r\nDescrição do Problema : Boa tarde\nEspero que esteja bem\n\nFaturei uma empresa no sistema, mas por erro coloquei quantidades elevadas na factura, nao consigo eliminar para gerar uma outra factura com as quantidades corretas\npeco ajuda"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-11T13:31:11.302Z",
+      "msg": "Boa tarde,peco a print da tela de onde o erro esta acontecer!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-11T13:35:33.084Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/6899ef13a3c8d40bf941e8e7/v/a21d45549e66202246b763a7c516e27e2309012d/F001.PNG",
+              "name": "F001.PNG",
+              "mimeType": "image/png",
+              "size": 29365,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-11T13:36:07.788Z",
+      "msg": "Gostaria de eliminar a Factura da AJ Computers, Lda."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-11T13:37:28.755Z",
+      "msg": "um momento"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

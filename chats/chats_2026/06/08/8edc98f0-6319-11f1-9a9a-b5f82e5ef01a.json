@@ -1,0 +1,68 @@
+{
+  "id": "8edc98f0-6319-11f1-9a9a-b5f82e5ef01a",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Cuamba",
+    "id": "5b081d4d8859f57bdc7b8ddd-z287YO3p4Pyh7CYUwnLCD",
+    "email": "fabiaomassingue05@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 4,
+  "chatDuration": 728,
+  "rating": 0,
+  "createdOn": "2026-06-08T09:09:55.791Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-08T09:09:55.791Z",
+      "msg": "Name : ISCIM/Cuamba\r\nEmail : floidecf@gmail.com\r\nPhone : +2584810387\r\nDescrição do Problema : Bom dia estou tendo um problema no campo da registrar a empresa no INNS. o programa fica processando por horas e nao salva."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-08T09:10:06.715Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/6a2686740eecebc22052dca7/v/c1ac895774780a7106dd6df1b035e6d7e2701388/Screenshot_2026-06-08_092145.png",
+              "name": "Screenshot 2026-06-08 092145.png",
+              "mimeType": "image/png",
+              "size": 224833,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-06-08T09:21:17.639Z",
+      "msg": "Bom dia pode não fazer o contracto com inss não vai afectar a seu processo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-08T09:22:03.451Z",
+      "msg": "bom dia, certo."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

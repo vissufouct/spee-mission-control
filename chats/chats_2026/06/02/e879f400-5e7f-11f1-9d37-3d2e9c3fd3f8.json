@@ -1,0 +1,45 @@
+{
+  "id": "e879f400-5e7f-11f1-9d37-3d2e9c3fd3f8",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Vembane",
+    "id": "5b081d4d8859f57bdc7b8ddd-MB0XR9_6z2AIhMCh4WNQZ",
+    "email": "airtonaly2@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-06-02T13:06:08.900Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-02T13:06:08.900Z",
+      "msg": "Name : Luri Anatércia Sérgio Vembane\r\nEmail : luryanaterciavembane@gmail.com\r\nPhone : +258850720207\r\nDescrição do Problema : por que nao aceita apagar alguns itens repetidos\n?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-02T13:06:52.703Z",
+      "msg": "por que nao aceita apagar tesoureiro que esta muito repetido?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-02T13:08:03.157Z",
+      "msg": "por que nao aceita apagar os itens do rh necessario"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

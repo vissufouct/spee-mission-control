@@ -1,0 +1,47 @@
+{
+  "id": "ae6969d0-6bd7-11f0-9415-ddd8f58c3938",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISDB/Ambrique",
+    "id": "5b081d4d8859f57bdc7b8ddd-8kfPHGv6lvmUJcHAoh3sj",
+    "email": "ambriquelito@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 1,
+  "createdOn": "2025-07-28T17:30:01.531Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-28T17:30:01.531Z",
+      "msg": "Nome : ISDB/Ambrique\r\nTelefone : 258868792505\r\nE-mail : ambriquelito@gmail.com\r\nDescrição do Problema : PALGRE COMERCIAL LDA"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "rating",
+      "time": "2025-07-28T17:33:05.045Z",
+      "data": {
+        "rating": 1
+      }
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-28T17:34:56.163Z",
+      "msg": "Criação e comercialização de frangos de corte"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

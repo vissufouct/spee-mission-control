@@ -1,0 +1,153 @@
+{
+  "id": "c4f9f2f0-52d6-11f1-a894-c7f8d304b9b0",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Alage",
+    "id": "5b081d4d8859f57bdc7b8ddd-CoaahL3UvCUAAVSd0unol",
+    "email": "turciapimo12@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 14,
+  "chatDuration": 3482,
+  "rating": 0,
+  "createdOn": "2026-05-18T17:24:43.252Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-18T17:24:43.252Z",
+      "msg": "Nome : ISCIM/Alage\r\nE-mail : turciapimo12@gmail.com\r\nDescrição do Problema : boa noite o meu plano de contas aparece em ingles peco pra colocar em portugues para me facilitar"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-18T17:25:20.894Z",
+      "msg": "Boa noite, um momento porfavor!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-18T17:25:32.125Z",
+      "msg": "esta certo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-18T17:54:18.187Z",
+      "msg": "Boa noite ainda sem sucesso?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-18T18:09:47.182Z",
+      "msg": "A Sua empresa e a TC,Smart Oficee lda?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-18T18:11:40.520Z",
+      "msg": "Pode tentar aceder ao plano de contas!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-18T18:12:23.851Z",
+      "msg": "ck venda de mobiliario de escritorio"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-18T18:14:32.516Z",
+      "msg": "Nao essa?",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/67bc6520a561be464e803d37/3a48cd5709bc618b14633375282f61f7035b5e1b/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 19282,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-18T18:14:56.701Z",
+      "msg": "nao"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-18T18:15:58.643Z",
+      "msg": "Manda o seu email"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-18T18:16:31.997Z",
+      "msg": "katia.f.alage@gmail.com"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-18T18:20:57.082Z",
+      "msg": "pode voltar a tentar"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-18T18:21:30.586Z",
+      "msg": "ok"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-18T18:22:44.954Z",
+      "msg": "ja esta. obrigado"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

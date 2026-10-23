@@ -1,0 +1,37 @@
+{
+  "id": "f7765b90-5472-11f1-9aeb-03111e719781",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Vembane",
+    "id": "5b081d4d8859f57bdc7b8ddd-snkKBRgFztiRJbPXWPR32",
+    "email": "luryanaterciavembane@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T17:49:25.587Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T17:49:25.587Z",
+      "msg": "Nome : Lury Telecommunications\r\nTelefone : 258850720207\r\nE-mail : luryanaterciavembane@gmail.com\r\nDescrição do Problema : Quando faco a projeccao de vendas nao aparecem os bens projectados"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T17:50:21.972Z",
+      "msg": ": Quando faco a projeccao de vendas nao aparecem os kits  projectados"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

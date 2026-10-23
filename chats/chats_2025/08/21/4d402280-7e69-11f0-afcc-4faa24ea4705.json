@@ -1,0 +1,276 @@
+{
+  "id": "4d402280-7e69-11f0-afcc-4faa24ea4705",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Usta",
+    "id": "5b081d4d8859f57bdc7b8ddd-JHEimNFn9RbaERTJaUwri",
+    "email": "garfochimica34@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 30,
+  "chatDuration": 4835,
+  "rating": 0,
+  "createdOn": "2025-08-21T08:36:17.743Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-21T08:36:17.743Z",
+      "msg": "Nome : ISCIM/Magaia\r\nTelefone : 258845063123\r\nE-mail : cassimo3@icloud.com\r\nDescrição do Problema : nao consigo aceder ao sistema , o meu codigo esta dar invalido ,e nao estou a receber emaill"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-21T08:38:43.333Z",
+      "msg": "o nome esta errado , o certo ND Papelaria & Personalisados,LDa"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-21T08:41:26.097Z",
+      "msg": "peco uma resposta"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-21T09:13:07.439Z",
+      "msg": "peco um novo codigo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-21T09:13:51.950Z",
+      "msg": "Bom dia"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-21T09:14:02.450Z",
+      "msg": "Não percebi a questão"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-21T09:15:23.557Z",
+      "msg": "É código de quê?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-21T09:18:56.092Z",
+      "msg": "codigo do spee"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-21T09:19:33.148Z",
+      "msg": "diz que minhas credencias estao invalidas"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-21T09:27:09.021Z",
+      "msg": "tem um campo descrito \"esqueci senha\""
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-21T09:27:54.565Z",
+      "msg": "ja tentei mas nao consigo aceder"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-21T09:28:12.850Z",
+      "msg": "mandou um código para o email?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-21T09:28:22.882Z",
+      "msg": "nao recebo nada no email"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-21T09:28:37.571Z",
+      "msg": "peço seu email"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-21T09:29:00.527Z",
+      "msg": "email que usa para aceder o spee"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-21T09:29:34.234Z",
+      "msg": "cassimo3@icloud.com"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-21T09:31:03.850Z",
+      "msg": "É esse email que usa para aceder o spee?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-21T09:31:12.085Z",
+      "msg": "no registo não usou outro?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-21T09:31:12.214Z",
+      "msg": "sim"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-21T09:31:18.169Z",
+      "msg": "nao"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-21T09:33:01.331Z",
+      "msg": "okay"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-21T09:33:11.725Z",
+      "msg": "já tinha uma empresa?\nse sim, qual?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-21T09:33:24.292Z",
+      "msg": "sim"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-21T09:34:04.703Z",
+      "msg": "ND Papelaria & Personalizados, Lda"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-21T09:38:10.073Z",
+      "msg": "Pode voltar a tentar"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-21T09:38:31.353Z",
+      "msg": "o teu email é: cassimo3@icoud.com"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-21T09:38:48.831Z",
+      "msg": "sim e esse mesmo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-21T09:39:05.817Z",
+      "msg": "tem diferença com o primeiro que me enviou"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-21T09:40:17.220Z",
+      "msg": "peco nova senha no email que enviei"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-21T09:56:52.690Z",
+      "msg": "pode voltar a tentar com o email que me mandou"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

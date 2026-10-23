@@ -1,0 +1,37 @@
+{
+  "id": "f6029820-2ffa-11f0-b621-b10acc2e98a5",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-fhjXpesNXoYsITCCxo7NN",
+    "email": "neelamharman798@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-05-13T13:26:42.220Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-13T13:26:42.220Z",
+      "msg": "Nome : Xitsungo Transportes,Lda\r\nE-mail : neelamharman798@gmail.com\r\nDescrição do Problema : boa tarde.\nestou a criar o contrato com os nosso clientes, mas quando vejo na listagem, os contratos criados não aparecem"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-13T13:35:16.150Z",
+      "msg": "nao consigo registrat os custos fixos da empresa na projeccao de preços"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

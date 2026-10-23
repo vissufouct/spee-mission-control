@@ -1,0 +1,90 @@
+{
+  "id": "a52e7610-0fb8-11f0-8e71-510739f11071",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Prime Office/4002807778",
+    "id": "5b081d4d8859f57bdc7b8ddd-Vi5v8Vz8zfsnUMa2fzSE2",
+    "email": "primeshuttles2001@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 8,
+  "chatDuration": 728,
+  "rating": 0,
+  "createdOn": "2025-04-02T11:57:23.780Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-02T11:57:23.780Z",
+      "msg": "Nome : ISCIM/Daúdo\r\nE-mail : primeshuttles2001@gmail.com\r\nDescrição do Problema : nao consigo editar os dados da minha empresa"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-02T11:58:06.345Z",
+      "msg": "Boa tarde"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-02T11:58:26.578Z",
+      "msg": "O que acontece quando tenta editar?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-02T11:59:14.298Z",
+      "msg": "a minha empresa nao tem email e nao sei como criar um email para a empresa"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-02T12:00:15.297Z",
+      "msg": "Tem que ir ao catálogo de empresas\nE criar contrato com telecomunicações"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-02T12:00:15.569Z",
+      "msg": "Tem que ir ao catálogo de empresas\nE criar contrato com telecomunicações"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-02T12:00:15.573Z",
+      "msg": "Tem que ir ao catálogo de empresas\nE criar contrato com telecomunicações"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-02T12:09:31.488Z",
+      "msg": "ja fiz o contrato mas o email nao aparece nos dados da empresa"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

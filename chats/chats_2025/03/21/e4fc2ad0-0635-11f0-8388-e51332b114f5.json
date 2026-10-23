@@ -1,0 +1,45 @@
+{
+  "id": "e4fc2ad0-0635-11f0-8388-e51332b114f5",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISPM/Clava",
+    "id": "5b081d4d8859f57bdc7b8ddd-GcDp6MWmO1JD7JAqvfoh3",
+    "email": "clavamanuelmanuel@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 3,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-03-21T09:23:41.004Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-21T09:23:41.004Z",
+      "msg": "Nome : ISPM/António\r\nE-mail : clavamanuelmanuel@gmail.com\r\nDescrição do Problema : Não consigo entrar na minha conta"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-21T09:27:17.925Z",
+      "msg": "Como posso entrar na minha conta"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-21T09:27:27.487Z",
+      "msg": "Não consigo entrar"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

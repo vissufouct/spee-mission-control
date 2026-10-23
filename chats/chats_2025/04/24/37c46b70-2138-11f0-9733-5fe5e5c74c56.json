@@ -1,0 +1,29 @@
+{
+  "id": "37c46b70-2138-11f0-9733-5fe5e5c74c56",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "USTM/Abílio",
+    "id": "5b081d4d8859f57bdc7b8ddd-QBszdHqGYALILZ8e3H5E_",
+    "email": "mirkaabilio@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-04-24T18:30:45.703Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-24T18:30:45.703Z",
+      "msg": "Nome : USTM/Abílio\r\nE-mail : mirkaabilio@gmail.com\r\nDescrição do Problema : Como posso avançar para a quarta etapa na fase do cadastro da empresa, sendo que não acho nenhum opção “próxima” para poder confirmar os dados ?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

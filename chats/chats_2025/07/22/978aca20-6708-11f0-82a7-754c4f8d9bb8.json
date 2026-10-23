@@ -1,0 +1,29 @@
+{
+  "id": "978aca20-6708-11f0-82a7-754c4f8d9bb8",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "CA Lda/4002858010 SmartPhones",
+    "id": "5b081d4d8859f57bdc7b8ddd-E1p5FQcHDgb6lWYKe8GhT",
+    "email": "aurelio.zibia@iscam.ac.mz"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-07-22T14:38:45.263Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-22T14:38:45.263Z",
+      "msg": "Nome : CA Lda/4002858010 SmartPhones\r\nTelefone : 258860170335\r\nE-mail : cesar.mahumane@iscam.ac.mz\r\nDescrição do Problema : boa tarde.\na nossa empresa esta com um problema, registamos os clientes e os produtos mas ontem tudo sumiu sem termos apagado nada."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

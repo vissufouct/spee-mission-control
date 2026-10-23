@@ -1,0 +1,37 @@
+{
+  "id": "b76a5290-5463-11f1-b3f2-d996714a4b7f",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Helton Soares",
+    "id": "5b081d4d8859f57bdc7b8ddd-kEfU2V4JWpD2oNminU7L9",
+    "email": "heltonsoares024@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T15:52:49.119Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:52:49.119Z",
+      "msg": "Nome : Helton Soares\r\nTelefone : 258822446631\r\nE-mail : Heltonsoares024@gmail.com\r\nDescrição do Problema : Heltonsoares024@gmail.com\nEmpresa:Heldon beer"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:53:34.489Z",
+      "msg": "Helton Soares e Fernando Júnior"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

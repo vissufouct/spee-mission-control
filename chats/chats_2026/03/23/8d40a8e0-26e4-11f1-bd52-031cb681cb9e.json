@@ -1,0 +1,38 @@
+{
+  "id": "8d40a8e0-26e4-11f1-bd52-031cb681cb9e",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Fabiao Massingue",
+    "id": "5b081d4d8859f57bdc7b8ddd-ubCKL5aa2HLLb2NE5R7NU",
+    "email": "fabiaomassingue05@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 295,
+  "rating": 0,
+  "createdOn": "2026-03-23T18:29:57.884Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:29:57.884Z",
+      "msg": "Nome : Fabiao Massingue\r\nTelefone : 2582607997\r\nE-mail : fabiaomassingue05@gmail.com\r\nDescrição do Problema : estou para fazer um contrato de arredanmento mais n aceita escolher o preco o devo fazer ?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "MacGyver"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:34:53.220Z",
+      "msg": "Peço que aguarde,\nEstamos a verificar"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

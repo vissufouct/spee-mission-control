@@ -1,0 +1,96 @@
+{
+  "id": "74c99130-0f2c-11f0-8bbf-e5060e9ee755",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-YO04MkXx5bZ7tN7AUDFO5",
+    "email": "nunocome19@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 7,
+  "chatDuration": 746,
+  "rating": 0,
+  "createdOn": "2025-04-01T19:24:58.631Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:24:58.631Z",
+      "msg": "Nome : Nuno Augusto Herculano Come\r\nTelefone : 871166397\r\nE-mail : nunocome19@gmail.com\r\nDescrição do Problema : As lojas online nao abrem para a abertura de contrato."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:27:22.514Z",
+      "msg": "Boa noite"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:27:30.346Z",
+      "msg": "qual é o problema que dá?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:30:33.821Z",
+      "msg": "Server Error in '/' Application"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:30:56.366Z",
+      "msg": "saia do sistema, e volte a entrar. Logo que esta janela abrir, entre para o campo destacado. Apos isso pode aceder ao grossista",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/46594e7853ceb87d3f3aced85fc7c98e819ae665/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 63598,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:37:15.902Z",
+      "msg": "precisa se certificar de que tem contrato com telecomunicacoes, email, banca, imobiliaria, agua, energia, etc"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:37:24.787Z",
+      "msg": "so depois aceder ao grossista"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

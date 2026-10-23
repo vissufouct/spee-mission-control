@@ -1,0 +1,46 @@
+{
+  "id": "be11b160-2de4-11f1-8e5d-092451126dbd",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-CoaahL3UvCUAAVSd0unol",
+    "email": "sigauqueesperanca513@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 198,
+  "rating": 0,
+  "createdOn": "2026-04-01T16:11:27.742Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-01T16:11:27.742Z",
+      "msg": "Nome : CK vendas de mobiliário LDA/4003038511 de escritório\r\nE-mail : sigauqueesperanca513@gmail.com\r\nDescrição do Problema : boa noite, nao consigo entrar no diario do emprendedor"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-01T16:14:03.374Z",
+      "msg": "Boa noite, poderia explicar melhor o problema?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-01T16:14:45.974Z",
+      "msg": "nao consigo abrir a lista de tarefas"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

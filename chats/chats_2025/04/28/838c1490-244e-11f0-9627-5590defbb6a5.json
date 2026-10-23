@@ -1,0 +1,29 @@
+{
+  "id": "838c1490-244e-11f0-9627-5590defbb6a5",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "USTM/Miguel",
+    "id": "5b081d4d8859f57bdc7b8ddd-rcJtmuq10SnENtF9DeSFX",
+    "email": "yamcombustiveis@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-04-28T16:35:29.660Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-28T16:35:29.660Z",
+      "msg": "Nome : USTM/Miguel\r\nTelefone : 879152666\r\nE-mail : yamcombustiveis@gmail.com\r\nDescrição do Problema : Ainda não vejo dificuldades"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

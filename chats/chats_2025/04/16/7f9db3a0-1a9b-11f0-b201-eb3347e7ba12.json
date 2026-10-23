@@ -1,0 +1,56 @@
+{
+  "id": "7f9db3a0-1a9b-11f0-b201-eb3347e7ba12",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "MZ Combustiveis & Lubrificantes Lda",
+    "id": "5b081d4d8859f57bdc7b8ddd-cGP7VKVfKvefOVSN9eYju",
+    "email": "melindamondlane2@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 4,
+  "chatDuration": 922,
+  "rating": 0,
+  "createdOn": "2025-04-16T08:27:39.391Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-16T08:27:39.391Z",
+      "msg": "Nome : ISCIM/Mondlane\r\nE-mail : melindamondlane2@gmail.com\r\nDescrição do Problema : Bom dia! estou a ter problemas com o logotipo na impressao dos documentos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-16T08:27:54.940Z",
+      "msg": "Bom dia"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-16T08:28:07.826Z",
+      "msg": "o logotipo foi colocado no sgc?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-16T08:43:01.171Z",
+      "msg": "Quais são os documentos ?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

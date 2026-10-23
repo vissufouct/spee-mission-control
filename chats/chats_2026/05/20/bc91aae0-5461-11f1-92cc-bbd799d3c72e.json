@@ -1,0 +1,29 @@
+{
+  "id": "bc91aae0-5461-11f1-92cc-bbd799d3c72e",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Mauro Rosa",
+    "id": "5b081d4d8859f57bdc7b8ddd-GcKy1Sg6hw4toHZfnJpU6",
+    "email": "juniorrosa841@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T15:42:04.801Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:42:04.801Z",
+      "msg": "Nome : Mauro Rosa\r\nTelefone : 258842526924\r\nE-mail : juniorrosa841@gmail.com\r\nDescrição do Problema : Email"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

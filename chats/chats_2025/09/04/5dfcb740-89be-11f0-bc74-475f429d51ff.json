@@ -1,0 +1,89 @@
+{
+  "id": "5dfcb740-89be-11f0-bc74-475f429d51ff",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISG/Cassamo",
+    "id": "5b081d4d8859f57bdc7b8ddd-OZ6h93W1PfVkCXshEK7U3",
+    "email": "estefaniacassamo1@gmail.com"
+  },
+  "location": {
+    "countryCode": "US",
+    "city": "Chicago"
+  },
+  "messageCount": 8,
+  "chatDuration": 578,
+  "rating": 0,
+  "createdOn": "2025-09-04T18:45:53.314Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-04T18:45:53.314Z",
+      "msg": "Nome : ISG/Cassamo\r\nTelefone : 258842996993\r\nE-mail : estefaniacassamo1@gmail.com\r\nDescrição do Problema : Boa noite espero que esteja bem, estou com problemas com a lista de Funcionarios funcionarios, apos cadastrar um, sumiram todos."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-04T18:49:03.456Z",
+      "msg": "Boa noite"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-04T18:49:18.202Z",
+      "msg": "Cadastrou hoje?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-04T18:49:54.570Z",
+      "msg": "sim sim, cadastrei hoje e ja nao aparecem"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-04T18:50:08.105Z",
+      "msg": "peço seu email"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-04T18:53:49.162Z",
+      "msg": "estefaniacassamo1@gmail.com"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-04T18:55:09.505Z",
+      "msg": "obrigada"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-04T18:55:31.473Z",
+      "msg": "Disponha"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

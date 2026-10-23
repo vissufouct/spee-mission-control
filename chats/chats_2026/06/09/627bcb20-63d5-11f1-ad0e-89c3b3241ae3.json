@@ -1,0 +1,47 @@
+{
+  "id": "627bcb20-63d5-11f1-ad0e-89c3b3241ae3",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "S&F CONCULTORES E ASSOCIADOS,LDA",
+    "id": "5b081d4d8859f57bdc7b8ddd-C0nV4sGrmFzdTOXGoe_VV",
+    "email": "samuel.chicane@iscam.ac.mz"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 774,
+  "rating": 0,
+  "createdOn": "2026-06-09T07:57:46.679Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-09T07:57:46.679Z",
+      "msg": "Name : S&F CONCULTORES E ASSOCIADOS,LDA\r\nEmail : samuel.chicane@iscam.ac.mz\r\nPhone : +258875381803\r\nDescrição do Problema : Bom dia Dr. nao consingo incluir a fotografia np meu perfil,mesmo caregando ela nao reflete no perfil.\n\nPor outro lado, as faturas que gera o sitema nao consta la o logotipo pa empresa, mesmo estando no perfil da emptresa.\n\nPor ultimo, nao consiguimos adicionar os socios para repartirmos o capital social da empresa.\n\nObrigado pela atencao."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-06-09T08:06:47.898Z",
+      "msg": "Bom dia, um momento porfavor!"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-06-09T08:10:40.856Z",
+      "msg": "Qual a dificuldade que enfrenta ao adicionar logo tipo?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

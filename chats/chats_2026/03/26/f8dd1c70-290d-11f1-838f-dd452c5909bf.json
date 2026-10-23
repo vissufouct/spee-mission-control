@@ -1,0 +1,52 @@
+{
+  "id": "f8dd1c70-290d-11f1-838f-dd452c5909bf",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ITIS/Chiria",
+    "id": "5b081d4d8859f57bdc7b8ddd-5gjHEngE1P3hCs963_kF8",
+    "email": "edfrancisco045@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 115,
+  "rating": 0,
+  "createdOn": "2026-03-26T12:23:38.830Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-26T12:23:38.830Z",
+      "msg": "Nome : Edvaldo\r\nTelefone : 258847007896\r\nE-mail : edfrancisco045@gmail.com\r\nDescrição do Problema : no catalogo de empresas, nao aparece a parte de contratos para agua e telecomunicacoes"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-26T12:25:33.462Z",
+      "msg": "Va ate perfil da empresa e aceda ao catalogo da empresa por esse butao como esta na imagem! Mas so ira aparecer se tiver contratos feitos",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/67bc6520a561be464e803d37/86d8db7d78843f77a71b853259dbecacee3c1c31/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 96353,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

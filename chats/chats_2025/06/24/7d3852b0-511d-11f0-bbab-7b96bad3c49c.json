@@ -1,0 +1,38 @@
+{
+  "id": "7d3852b0-511d-11f0-bbab-7b96bad3c49c",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Felizardo Jorge",
+    "id": "5b081d4d8859f57bdc7b8ddd-Qe5WtnRvaHmsHYR5oSYt5",
+    "email": "zadojorge87@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 67,
+  "rating": 0,
+  "createdOn": "2025-06-24T17:09:02.429Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-06-24T17:09:02.429Z",
+      "msg": "Nome : Felizardo Jorge\r\nTelefone : 258840264778\r\nE-mail : zadojorge87@gmail.com\r\nDescrição do Problema : O mercado de trabalho reconhe as competencias praticas que esta a adiquirir no SPEE. RECOLHA o seu CERTIFICADO"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-06-24T17:10:09.808Z",
+      "msg": "Boa noite \nEm que posso ajudar?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

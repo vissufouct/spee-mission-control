@@ -1,0 +1,54 @@
+{
+  "id": "102ba110-835c-11f0-be66-5f8388414230",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A&M Cell Shop,Lda/4002858030",
+    "id": "5b081d4d8859f57bdc7b8ddd-pUqyffDHwyqgik9_fzkr0",
+    "email": "alicesambo@iscam.ac.mz"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 4,
+  "chatDuration": 492,
+  "rating": 0,
+  "createdOn": "2025-08-27T15:49:05.114Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-27T15:49:05.114Z",
+      "msg": "Nome : A&M Cell Shop,Lda\r\nTelefone : 258846314503\r\nE-mail : alicesambo@iscam.ac.mz\r\nDescrição do Problema : Boa tarde Caríssimos , como estao? A nossa empresa de Simulação empresarial denominada A&M, Cell Shop, Lda, perdeu a informação de facturas a clientes e do Fornecedor Mozline, \nJá tínhamos feito o lançamento de subscrição e realização de capital, mas também não aparece.\nNesse âmbito, solicitamos auxílio no sentido de recuperar a informação em causa."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-27T15:51:52.470Z",
+      "msg": "Boa tarde\nNão foi alterado nenhum dado no perfil da empresa?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-27T15:52:34.365Z",
+      "msg": "Nao"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-27T15:57:17.002Z",
+      "msg": "Sera que pode nos ajudar?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "66ec2610-50cf-11f0-8571-09d6ac2b0db5",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Lito Conssura Ambrique",
+    "id": "5b081d4d8859f57bdc7b8ddd-8kfPHGv6lvmUJcHAoh3sj",
+    "email": "ambriquelito@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 3,
+  "chatDuration": 54,
+  "rating": 0,
+  "createdOn": "2025-06-24T07:49:57.536Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-06-24T07:49:57.536Z",
+      "msg": "Nome : Lito Conssura Ambrique\r\nTelefone : 258868792505\r\nE-mail : ambriquelito@gmail.com\r\nDescrição do Problema : Lito"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-06-24T07:50:25.440Z",
+      "msg": "Bom dia"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-06-24T07:50:51.446Z",
+      "msg": "Qual é o problema que enfrenta?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

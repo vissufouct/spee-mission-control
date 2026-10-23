@@ -1,0 +1,38 @@
+{
+  "id": "f127ef50-2688-11f1-a1e3-3b0ea226d28f",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ITIS/Mabote",
+    "id": "5b081d4d8859f57bdc7b8ddd-wOvnPIeuEyTmkCpkJz4Ug",
+    "email": "mabotekhan@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 256,
+  "rating": 0,
+  "createdOn": "2026-03-23T07:25:03.824Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T07:25:03.824Z",
+      "msg": "Nome : ITIS/Mabote\r\nTelefone : 258864461339\r\nE-mail : mabotekhan@gmail.com\r\nDescrição do Problema : Bom dia, do nada, não foi mais possível adicionar o meu sócio Marvin a Minha empresa, ou pelo menos não aparece o nome dele na divisão de quotas, constatei que os nomes que aparecem não são os meus colegas, ou seja, os da minha turma, o código da minha turma é 298461"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-23T07:29:20.155Z",
+      "msg": "Bom dia, peça o docente a codigo da turma correcto!"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

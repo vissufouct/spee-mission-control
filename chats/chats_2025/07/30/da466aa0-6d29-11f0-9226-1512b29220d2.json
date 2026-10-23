@@ -1,0 +1,115 @@
+{
+  "id": "da466aa0-6d29-11f0-9226-1512b29220d2",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "V1753868381930582",
+    "id": "5b081d4d8859f57bdc7b8ddd-UXrBlBM_eUvimizyATOm6",
+    "email": null
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 11,
+  "chatDuration": 714,
+  "rating": 0,
+  "createdOn": "2025-07-30T09:54:15.989Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-30T09:54:15.989Z",
+      "msg": "Descrição do Problema : Cadastrar minha empresa."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-30T09:54:39.827Z",
+      "msg": "Bom dia"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-30T09:54:58.940Z",
+      "msg": "Tem dúvidas em como pode criar empresa?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-30T09:55:29.129Z",
+      "msg": "Claro que sim"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-30T09:55:47.267Z",
+      "msg": "Já criou conta na plataforma?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-30T09:56:01.592Z",
+      "msg": "Sim já"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-30T09:58:30.654Z",
+      "msg": "No perfil, tem um campo, descrito :\"registar empresa\""
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-30T09:58:35.923Z",
+      "msg": "Consegue localização?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-30T09:58:45.987Z",
+      "msg": "Localizar*?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-30T10:05:53.922Z",
+      "msg": "Infelizmente não consigo encontrar esta palavra."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-30T10:06:10.201Z",
+      "msg": "Onde encontrar a palavra?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

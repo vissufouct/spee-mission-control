@@ -1,0 +1,29 @@
+{
+  "id": "0f721940-9e30-11f0-ae89-eddd8b27f07a",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISG/Vasco",
+    "id": "5b081d4d8859f57bdc7b8ddd-Lomgjcg_qws61ix5sg1Qd",
+    "email": "joissewilson96@gmail.com"
+  },
+  "location": {
+    "countryCode": "US",
+    "city": "Chicago"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-09-30T19:04:41.390Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-30T19:04:41.390Z",
+      "msg": "Nome : ISG/Vasco\r\nTelefone : 258849042513\r\nE-mail : joissewilson96@gmail.com\r\nDescrição do Problema : Cadastrar Funcionarios Fora do Quadro"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

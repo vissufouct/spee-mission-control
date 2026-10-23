@@ -1,0 +1,86 @@
+{
+  "id": "405773d0-994d-11f0-ab8f-bff631b7babb",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "STESIL Limpeza,Lda",
+    "id": "5b081d4d8859f57bdc7b8ddd-zNIDR8fIA5AuDvj1JRsjK",
+    "email": "celiajoaosousa14@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 6,
+  "chatDuration": 661,
+  "rating": 0,
+  "createdOn": "2025-09-24T14:24:37.963Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-24T14:24:37.963Z",
+      "msg": "Nome : STESIL Limpeza,Lda\r\nTelefone : 258842433289\r\nE-mail : stelainacio18@gmail.com\r\nDescrição do Problema : Os  activos que haviamos registado desapareceram"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-24T14:25:06.408Z",
+      "msg": "Boa tarde"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-24T14:25:27.393Z",
+      "msg": "Quantos activos efectuou o registo?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-24T14:27:58.398Z",
+      "msg": "Os activos não são estes?",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/56911957267ee81378177faa7ea276290f6c5105/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 127262,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-24T14:29:55.101Z",
+      "msg": "14 activo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-24T14:35:39.229Z",
+      "msg": "sao 14 activos registagos"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

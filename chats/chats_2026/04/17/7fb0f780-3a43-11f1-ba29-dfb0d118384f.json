@@ -1,0 +1,29 @@
+{
+  "id": "7fb0f780-3a43-11f1-ba29-dfb0d118384f",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "USTM/Tembe",
+    "id": "5b081d4d8859f57bdc7b8ddd-uZhaHEpTbPwNk35lUf1gP",
+    "email": "ameliawilsonconsultores@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-04-17T10:01:59.540Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-17T10:01:59.540Z",
+      "msg": "Nome : USTM/Tembe\r\nTelefone : 258825168167\r\nE-mail : ameliawilsonconsultores@gmail.com\r\nDescrição do Problema : Certificado"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

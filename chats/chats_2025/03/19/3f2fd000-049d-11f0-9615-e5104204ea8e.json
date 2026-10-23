@@ -1,0 +1,78 @@
+{
+  "id": "3f2fd000-049d-11f0-9615-e5104204ea8e",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/4002807799",
+    "id": "5b081d4d8859f57bdc7b8ddd-gptCTOd4p3ktTXvo0gumo",
+    "email": "saidymanueljunior@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 5,
+  "chatDuration": 781,
+  "rating": 0,
+  "createdOn": "2025-03-19T08:37:18.836Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:37:18.836Z",
+      "msg": "Nome : ISCIM/Júnior\r\nE-mail : saidymanueljunior@gmail.com\r\nDescrição do Problema : Não consigo acender aos activos minimos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:39:09.180Z",
+      "msg": "Bom dia, o estudante criou um contrato com todas outras empresas como Imobiliaria, Telecomunicacoes, Electricidade...?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:39:25.375Z",
+      "msg": "sim"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:40:08.726Z",
+      "msg": "Oky, um momento."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:50:20.220Z",
+      "msg": "logo apos aceder a plataforma, entrar para este campo. e depois voltar a tentar aceceder aos activos minimos",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/00f812922307dd2f54f63b6fd20ecc8d088612cd/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 68032,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

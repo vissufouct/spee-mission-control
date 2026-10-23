@@ -1,0 +1,29 @@
+{
+  "id": "552182f0-f8ea-11ef-a7e4-93fe1cb84d3c",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "UNILURIO/Massoca",
+    "id": "5b081d4d8859f57bdc7b8ddd-lcnihrHYGA6cG9wEemQbW",
+    "email": "marionmassoca@gmail.com"
+  },
+  "location": {
+    "countryCode": "CA",
+    "city": "Toronto"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-03-04T12:11:16.676Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-04T12:11:16.676Z",
+      "msg": "Nome : UNILURIO/Massoca\r\nE-mail : marionmassoca@gmail.com\r\nDescrição do Problema : como localizar o plano de negocio   preenchido"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

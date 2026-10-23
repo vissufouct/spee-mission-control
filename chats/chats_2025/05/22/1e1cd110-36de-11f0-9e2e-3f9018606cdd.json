@@ -1,0 +1,29 @@
+{
+  "id": "1e1cd110-36de-11f0-9e2e-3f9018606cdd",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/Rossolo",
+    "id": "5b081d4d8859f57bdc7b8ddd-_jGBOk4coTYOTUdTTa6Wx",
+    "email": "tassiamiguel05@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-05-22T07:56:00.740Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-22T07:56:00.740Z",
+      "msg": "Nome : A Politecnica - MPT/Rossolo\r\nTelefone : 258879645020\r\nE-mail : tassiamiguel05@gmail.com\r\nDescrição do Problema : Ola,fiz a entrada de stock ,coloquei todos os meus produtos alimentares e de limpeza com as quantidades e preco unitario mas quando tento fazer a facturacao so aparecem dois produtos e com precos muito altos ,nao sao os precos que coloquei"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

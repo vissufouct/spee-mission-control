@@ -1,0 +1,29 @@
+{
+  "id": "616e94f0-a527-11f0-b076-19c5d3aaf18c",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Josearth Solution lda",
+    "id": "5b081d4d8859f57bdc7b8ddd-J1weJdlJo4v2XTf8mp6Ua",
+    "email": "arturtaimo00@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-10-09T16:16:50.710Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-09T16:16:50.710Z",
+      "msg": "Nome : /\r\nE-mail : arturtaimo00@gmail.com\r\nDescrição do Problema : nao consigo colocar logotipo da empresa no campo de por dados da empresa"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

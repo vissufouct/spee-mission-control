@@ -1,0 +1,95 @@
+{
+  "id": "615d0cb0-c09a-11f0-9045-373397950d5e",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "V1762434529288537",
+    "id": "5b081d4d8859f57bdc7b8ddd-yNPAWAPigppI8XDrRzZyl",
+    "email": "sheltonclinton0@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 7,
+  "chatDuration": 360,
+  "rating": 0,
+  "createdOn": "2025-11-13T14:12:21.146Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-13T14:12:21.146Z",
+      "msg": "Telefone : 258258869570135\r\nE-mail : sheltonclinton0@gmail.com\r\nDescrição do Problema : Não consigo verificar os movimentos que eu lancei"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-11-13T14:13:24.463Z",
+      "msg": "boa tarde"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-11-13T14:13:39.496Z",
+      "msg": "histórico de lançamentos feitos?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-13T14:13:47.307Z",
+      "msg": "Sim"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-11-13T14:16:06.722Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/62aeb2fdf7742dbb774bd827e8888526f4f13eb7/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 15648,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-13T14:17:39.076Z",
+      "msg": "Os movimentos não aparecem"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-11-13T14:18:20.905Z",
+      "msg": "um  momento"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

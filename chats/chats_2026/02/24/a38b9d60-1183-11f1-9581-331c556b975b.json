@@ -1,0 +1,29 @@
+{
+  "id": "a38b9d60-1183-11f1-9581-331c556b975b",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Emérson Luísa Rogério Manjate",
+    "id": "5b081d4d8859f57bdc7b8ddd-OxJkXoeEHIdOkYUeoDII8",
+    "email": "dortinapalmira@gmai.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-02-24T13:43:32.883Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-02-24T13:43:32.883Z",
+      "msg": "Nome : Emérson Luísa Rogério Manjate\r\nTelefone : 258820935408\r\nE-mail : emerson.r.manjate@gmail.com\r\nDescrição do Problema : Boa noite. Efectuamos um cálculo incorrecto à pagar e fizemos o pagamento via banco, gostariamos de solicitar a anulação dos três últimos pagamentos feitos no banco, com os seguites valores: 33.333,33; 33.333,33; e 33.333,34 respectivamente."
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

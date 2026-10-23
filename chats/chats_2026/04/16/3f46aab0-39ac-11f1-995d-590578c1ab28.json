@@ -1,0 +1,112 @@
+{
+  "id": "3f46aab0-39ac-11f1-995d-590578c1ab28",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ITIS/Zefanias",
+    "id": "5b081d4d8859f57bdc7b8ddd-1OXUDGMf4QTwd1hnw0J9X",
+    "email": "chelciaelinajorgerangane@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 11,
+  "chatDuration": 465,
+  "rating": 0,
+  "createdOn": "2026-04-16T15:53:09.823Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:53:09.823Z",
+      "msg": "Nome : ITIS/Zefanias\r\nTelefone : 258871360145\r\nE-mail : chelciaelinajorgerangane@gmail.com\r\nDescrição do Problema : Não consigo adionar o meu sócii"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:53:22.987Z",
+      "msg": "Sócio"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:54:02.292Z",
+      "msg": "Qual e a dificuldade?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:54:29.358Z",
+      "msg": "O nome da minha sócia não aparece"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:56:08.572Z",
+      "msg": "?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:58:32.918Z",
+      "msg": "O que eu faço? Não estou a ter soluções"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:59:20.231Z",
+      "msg": "qual o codigo de turma que usou para se inscrever?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:59:35.286Z",
+      "msg": "Minha turma  269885"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:59:49.600Z",
+      "msg": "Meu docente eh dr bamo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T16:00:21.097Z",
+      "msg": "Meus colegas luisa balate mercio goenha"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-16T16:00:54.646Z",
+      "msg": "Volte a se registrar no sistema use esse codigo 298461, vai pedir para colocares o email depois fazer  login, ja estaras na turma certa!"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

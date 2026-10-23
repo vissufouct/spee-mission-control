@@ -1,0 +1,30 @@
+{
+  "id": "bc31e8d0-4a07-11f1-b51b-2137ffbd2490",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "E&E OFFICE Lda CENTER",
+    "id": "5b081d4d8859f57bdc7b8ddd-6bD4FcNHBKb_sFhcled0I",
+    "email": "eunicejanett@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-07T11:29:09.947Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-07T11:29:09.947Z",
+      "msg": "Pode anular o lancamento"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

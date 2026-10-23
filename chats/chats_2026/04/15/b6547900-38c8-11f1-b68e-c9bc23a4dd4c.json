@@ -1,0 +1,38 @@
+{
+  "id": "b6547900-38c8-11f1-b68e-c9bc23a4dd4c",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Sigauque",
+    "id": "5b081d4d8859f57bdc7b8ddd-pnmMxLyxqFzEVyRicFwsS",
+    "email": "heliasigauque07@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 49,
+  "rating": 0,
+  "createdOn": "2026-04-15T12:44:16.799Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T12:44:16.799Z",
+      "msg": "ainda nao tem dados"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-15T12:45:06.023Z",
+      "msg": "volte a verificar"
+    }
+  ],
+  "domain": "planodenegocios.simulacao.co.mz"
+}

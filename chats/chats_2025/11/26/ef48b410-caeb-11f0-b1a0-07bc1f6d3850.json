@@ -1,0 +1,177 @@
+{
+  "id": "ef48b410-caeb-11f0-b1a0-07bc1f6d3850",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISG/Cassamo",
+    "id": "5b081d4d8859f57bdc7b8ddd-T1YRpF9GDyWi378Xrs6FB",
+    "email": "estefaniacassamo1@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 17,
+  "chatDuration": 3459,
+  "rating": 0,
+  "createdOn": "2025-11-26T17:24:35.216Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-26T17:24:35.216Z",
+      "msg": "Nome : /4002888182\r\nTelefone : 258842996993\r\nE-mail : estefaniacassamo1@gmail.com\r\nDescrição do Problema : Boa noite. Não consigo abrir RH Online Recursos Humanos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-11-26T17:26:38.732Z",
+      "msg": "Boa noite.  Dá algum erro?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-26T17:27:04.778Z",
+      "msg": "nao aparece nada, é como se tivesse que cadastrar ainda"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-11-26T17:27:40.289Z",
+      "msg": "Pode mandar print da tela?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-26T17:29:16.075Z",
+      "msg": "agora esta assim,",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/692736683ad4812025981c7f/v/1b5f6dd22e77457b605c0d1ac445c3f4347220b8/image.png",
+              "name": "image.png",
+              "mimeType": "image/png",
+              "size": 124925,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-26T17:29:26.941Z",
+      "msg": "eu ja havia cadastrado mais de 50 trabalhadores"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-26T17:29:35.049Z",
+      "msg": "e agora nao aparece nada"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-11-26T17:30:07.079Z",
+      "msg": "Certo. Peço um momento"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-11-26T17:30:17.255Z",
+      "msg": "Peço teu email"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-11-26T17:30:24.465Z",
+      "msg": "Nuit da empresa"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-26T17:30:39.269Z",
+      "msg": "estefaniacassamo1@gmail.com"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-26T17:30:48.117Z",
+      "msg": "4002888182"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-26T17:40:09.852Z",
+      "msg": "ainda aqui?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-26T17:49:57.301Z",
+      "msg": "Boa noiteee"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-11-26T17:50:39.145Z",
+      "msg": "Assim que for resolvido, eu retorno"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-26T17:52:10.685Z",
+      "msg": "esta certo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-26T18:22:14.647Z",
+      "msg": "Aguardo"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

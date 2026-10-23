@@ -1,0 +1,38 @@
+{
+  "id": "bafcf630-3e1d-11f1-b354-3917754c9391",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "MM Lda Consumiveis",
+    "id": "5b081d4d8859f57bdc7b8ddd-l88kR9q_m2yVTZfQs0PBX",
+    "email": "alberto.erik@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 1888,
+  "rating": 0,
+  "createdOn": "2026-04-22T07:52:10.724Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T07:52:10.724Z",
+      "msg": "Nome : MM Lda Consumiveis\r\nTelefone : 258876261457\r\nE-mail : alberto.erik@gmail.com\r\nDescrição do Problema : No marketing mix, esta a assumir a informacao de propaganda para processos, pessoas, evidencias fisicas, mesmo deposi de escrever sem copiar nao aceita alterar"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-22T08:23:38.267Z",
+      "msg": "Ainda em verificação do problema, voltaremos a sí assim que estiver resolvido."
+    }
+  ],
+  "domain": "planodenegocios.simulacao.co.mz"
+}

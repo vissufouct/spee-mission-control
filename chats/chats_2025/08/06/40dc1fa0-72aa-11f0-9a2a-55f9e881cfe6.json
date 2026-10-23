@@ -1,0 +1,249 @@
+{
+  "id": "40dc1fa0-72aa-11f0-9a2a-55f9e881cfe6",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCAM/Chemane",
+    "id": "5b081d4d8859f57bdc7b8ddd-2BUeaHyeJIGGHFYAtEndu",
+    "email": "regina.chemane@iscam.ac.mz"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 17,
+  "chatDuration": 2984,
+  "rating": 0,
+  "createdOn": "2025-08-06T10:30:16.480Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-06T10:30:16.480Z",
+      "msg": "Nome : ISCAM/Chemane\r\nTelefone : 258845721860\r\nE-mail : regina.chemane@iscam.ac.mz\r\nDescrição do Problema : Saudacoes\n\nespero que esteja bem\n\nquando tento efectuar o inventario na etapa em que tenho que realizar a busca dos artigo, os artigos nao aparecem\n\npeco ajuda para superar esse problema"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-06T10:31:15.705Z",
+      "msg": "Boa tarde pode enviar o print da tela se faz favor?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-06T10:35:00.995Z",
+      "msg": "sim sim"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-06T10:40:03.750Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/68932480a3c8d40bf98402d9/v/4721c46a8599929058d72cca96b03fda33e3ff1c/001.PNG",
+              "name": "001.PNG",
+              "mimeType": "image/png",
+              "size": 46247,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-06T10:41:09.987Z",
+      "msg": "obrigado, um momento"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-06T10:43:08.973Z",
+      "msg": "quando pesquisa pelo nome do artigo nao mostra na lista?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-06T10:43:34.341Z",
+      "msg": "nao aparece"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-06T10:47:08.697Z",
+      "msg": "clique em \"buscar artigo\" e adicione os artigos que seram listados"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-06T10:47:34.552Z",
+      "msg": "aqui",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/67bc6520a561be464e803d37/0a5dddd9caa809e5c37416e7d11464e23f5d8f12/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 4209,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-06T10:59:44.530Z",
+      "msg": "consegui visualizar mas so aparece 01 artigo sendo que tenho 05 artigos no total",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/68932480a3c8d40bf98402d9/v/d600cfcc0a40666ca7f22697c875a4493b9cbd29/002.PNG",
+              "name": "002.PNG",
+              "mimeType": "image/png",
+              "size": 26097,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-06T11:05:00.846Z",
+      "msg": "coloque o tipo de artigo em \"todos\", depois ira listar todos os seus artigos e pode fazer scroll para baixo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-06T11:05:28.976Z",
+      "msg": "essa e a lista dos produtos que tenho",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/68932480a3c8d40bf98402d9/v/8273171643826a4410255a1e4f028544fd5e7588/lista_de_produtos.PNG",
+              "name": "lista de produtos.PNG",
+              "mimeType": "image/png",
+              "size": 33691,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-06T11:07:36.771Z",
+      "msg": "sim, pode voltar no inventario e selecionar Tipo de artigo pra \"Todos\" e ira listar na tela todos os seus artigos:",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/67bc6520a561be464e803d37/4288260f1dd999d4f429696525c7813901262ecc/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 65945,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-06T11:16:22.304Z",
+      "msg": "obrigada agora consegui visualizar todos os artigos"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-06T11:17:44.104Z",
+      "msg": "Tenho preco de compra e preco de venda dos artigos, gostaria de saber qual deles devo colocar no campo de preco",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/68932480a3c8d40bf98402d9/v/f1ac4ad434c5d14f7ba0fdefb259fa1e00aec94e/003_preco.PNG",
+              "name": "003 preco.PNG",
+              "mimeType": "image/png",
+              "size": 29985,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-06T11:19:30.307Z",
+      "msg": "de venda"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-06T11:20:00.570Z",
+      "msg": "obrigada"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

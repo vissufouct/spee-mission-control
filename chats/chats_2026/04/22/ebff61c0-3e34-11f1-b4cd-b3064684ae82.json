@@ -1,0 +1,79 @@
+{
+  "id": "ebff61c0-3e34-11f1-b4cd-b3064684ae82",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "V1776845395945775",
+    "id": "5b081d4d8859f57bdc7b8ddd-iJpbmKo1GuqbPVoS6yFUs",
+    "email": null
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 7,
+  "chatDuration": 2357,
+  "rating": 0,
+  "createdOn": "2026-04-22T10:35:15.278Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T10:35:15.278Z",
+      "msg": "Telefone : 258844450058\r\nDescrição do Problema : Na analise socio cultura e legal nao cosigo visualizar a informacao que inseri a informacao da erro e nao e exibida na impressao"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T10:37:01.532Z",
+      "msg": "Boa tarde, podia explicar melhor o problema?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T10:39:18.679Z",
+      "msg": "Na analise macroeconomica, nao consigo visualisar os dados da analise legal e analise socio cultural, nao acita mostrar a informacao quando quero imprir o plano, ele apenas mostra uma informacao a vermelho"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T10:39:54.422Z",
+      "msg": "Estamos verificando, o problema pedimos que aguarde"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T10:40:26.523Z",
+      "msg": "Toda hora dizem isso e nunca resolvem"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T10:56:56.060Z",
+      "msg": "No plano de Marketing nao consigo visualizar os dados do marketing mix na propaganda, pessoas, processos, evidencias fisiscas"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T11:14:31.879Z",
+      "msg": "Nao consigo abriri os artigos projectados"
+    }
+  ],
+  "domain": "planodenegocios.simulacao.co.mz"
+}

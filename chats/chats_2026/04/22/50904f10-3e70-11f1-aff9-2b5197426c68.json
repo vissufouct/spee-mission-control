@@ -1,0 +1,59 @@
+{
+  "id": "50904f10-3e70-11f1-aff9-2b5197426c68",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Tomas",
+    "id": "5b081d4d8859f57bdc7b8ddd-W3LAC_Xw3c17sIfFSEbjT",
+    "email": "passuane90@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-04-22T17:31:31.635Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:31:31.635Z",
+      "msg": "Nome : /\r\nTelefone : 258841048024\r\nE-mail : passuane90@gmail.com\r\nDescrição do Problema : ."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:32:16.017Z",
+      "msg": "não conseguimos colocar o logotipo, problema recorrente na turma",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69e904a13ad4812025f0f2c5/v/09706810d572e0aa299c3f3a57b861bfab08e054/PONTUAL.png",
+              "name": "PONTUAL.png",
+              "mimeType": "image/png",
+              "size": 56056,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T18:04:06.402Z",
+      "msg": "boa noite"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "56a09380-6eb7-11f0-8a02-1dcb1f2f78f5",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "[Docente]ISPT - Semestre 1 - 2023/Brito, António José abú Bacar",
+    "id": "5b081d4d8859f57bdc7b8ddd-orTvRyaqTEI6AIHgoKnN5",
+    "email": "antoniojabbrito@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 4,
+  "chatDuration": 1041,
+  "rating": 0,
+  "createdOn": "2025-08-01T09:18:34.396Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-01T09:18:34.396Z",
+      "msg": "Nome : [Docente]ISPT - Semestre 1 - 2023/Brito, António José abú Bacar\r\nTelefone : 258868847428\r\nE-mail : antoniojabbrito@gmail.com\r\nDescrição do Problema : Bom dia, Ilustres Coordenadores do ITIS,\n\nAqui é o docente António Brito, do ISPT. Venho por este meio reportar uma dificuldade que estou a enfrentar no sistema: já não consigo criar novas turmas, pois o campo correspondente parece não estar mais disponível.\n\nGostaria de saber se há alguma orientação ou sugestão para resolver esta situação.\n\nAgradeço desde já pela atenção e colaboração."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-01T09:18:46.772Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/688c8477a3c8d40bf9f2aee6/v/d999ae5f448c156b1d698fe61218348473fe96f0/image.png",
+              "name": "image.png",
+              "mimeType": "image/png",
+              "size": 33445,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Alexandre Viegas Mangujo Júnior"
+      },
+      "type": "msg",
+      "time": "2025-08-01T09:21:59.357Z",
+      "msg": "Bom dia docente , desculpe-nos pela demora , peço que aguarde um momento , que iremos verificar o problema"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-01T09:35:55.162Z",
+      "msg": "Bom dia Alexandre Junior"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

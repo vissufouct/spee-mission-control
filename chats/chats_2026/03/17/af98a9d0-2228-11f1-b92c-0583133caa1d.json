@@ -1,0 +1,46 @@
+{
+  "id": "af98a9d0-2228-11f1-b92c-0583133caa1d",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/Mapatse",
+    "id": "5b081d4d8859f57bdc7b8ddd-FmqrZP41mlo97J3hRPf9_",
+    "email": "tamymapatse@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 3,
+  "chatDuration": 625,
+  "rating": 0,
+  "createdOn": "2026-03-17T18:11:32.691Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-17T18:11:32.691Z",
+      "msg": "Nome : A Politecnica - MPT/Mapatse\r\nTelefone : 258840382729\r\nE-mail : tamymapatse@gmail.com\r\nDescrição do Problema : nao conseguimos adicionar um socio e coloco quotas de 50 e 50 mas mesmo assim nao aceita"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-17T18:17:21.189Z",
+      "msg": "Boa  noite, qual o problema que esta a ter?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-17T18:21:57.374Z",
+      "msg": "boa noite, o problema ja foi resolvido"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

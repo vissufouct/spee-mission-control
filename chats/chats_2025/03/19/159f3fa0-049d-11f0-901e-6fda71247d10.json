@@ -1,0 +1,76 @@
+{
+  "id": "159f3fa0-049d-11f0-901e-6fda71247d10",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/4002807816",
+    "id": "5b081d4d8859f57bdc7b8ddd-1aYpfXrA3omgRBS9xUSSd",
+    "email": "muhammadaliador@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 5,
+  "chatDuration": 700,
+  "rating": 0,
+  "createdOn": "2025-03-19T08:37:22.422Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:37:22.422Z",
+      "msg": "Nome : ISCIM/Calumia\r\nE-mail : muhammadaliador@gmail.com\r\nDescrição do Problema : Bom dia, não consigo aceder a loja online-activos minimos"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:39:42.599Z",
+      "msg": "Bom dia, não consigo aceder a loja online-activos minimos"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:42:55.975Z",
+      "msg": "Peço uma resposta"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:45:57.910Z",
+      "msg": "Logo depois de fazer login a platarfoma, entrar para o campo destacado, e voltar a aceder aos activos minimos",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/d25bf7cb9e3c1f838cc5c3a8f021c827a2202824/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 68032,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:49:02.349Z",
+      "msg": "Obrigada, já resolvido"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

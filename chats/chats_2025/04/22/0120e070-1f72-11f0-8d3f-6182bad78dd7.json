@@ -1,0 +1,97 @@
+{
+  "id": "0120e070-1f72-11f0-8d3f-6182bad78dd7",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "THE FOUR IMPORT LDA/4002797950 SOLUTIONS",
+    "id": "5b081d4d8859f57bdc7b8ddd-Yy3JVBTrr0VJxNJ2YPsKf",
+    "email": "jonasseshaly@gmail.com"
+  },
+  "location": {
+    "countryCode": "BR",
+    "city": "Unknown"
+  },
+  "messageCount": 9,
+  "chatDuration": 1953,
+  "rating": 0,
+  "createdOn": "2025-04-22T12:18:02.954Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-22T12:18:02.954Z",
+      "msg": "Nome : A Politecnica - MPT/Jonasse\r\nTelefone : 842261436\r\nE-mail : jonasseshaly@gmail.com\r\nDescrição do Problema : nao consigo criar o email da minha empresa, o que faco?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Moana"
+      },
+      "type": "msg",
+      "time": "2025-04-22T12:23:48.123Z",
+      "msg": "Boa tarde"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Moana"
+      },
+      "type": "msg",
+      "time": "2025-04-22T12:24:03.758Z",
+      "msg": "Desse fazer contracto com atelecomunicações."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-22T12:30:47.174Z",
+      "msg": "Boa tarde. Vou analisar a proposta e depois dar a resposta"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-22T12:31:31.033Z",
+      "msg": "com que empresa?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-04-22T12:34:07.473Z",
+      "msg": "Deve criar um contrato com a empresa de telecommunicações!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-22T12:37:28.932Z",
+      "msg": "Qual empresa me sugere?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-04-22T12:44:24.104Z",
+      "msg": "Telecommunicacoes de moçambique"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-22T12:50:35.814Z",
+      "msg": "Obrigada"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

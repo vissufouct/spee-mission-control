@@ -1,0 +1,46 @@
+{
+  "id": "b9e23af0-5464-11f1-943e-1f0a1f187a42",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/Jr.",
+    "id": "5b081d4d8859f57bdc7b8ddd-hgjLgBHgLjdh0mP_fXlht",
+    "email": "jaysualehe@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 94,
+  "rating": 0,
+  "createdOn": "2026-05-20T16:05:07.936Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T16:05:07.936Z",
+      "msg": "Nome : A Politecnica - MPT/Jr.\r\nTelefone : 258842486586\r\nE-mail : jaysualehe@gmail.com\r\nDescrição do Problema : jaysualehe@gmail.com"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T16:05:35.760Z",
+      "msg": "Daniel Sualehe Jr"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-20T16:06:42.431Z",
+      "msg": "Pode dizer a turma parar de mandar mensagens, ja tenho contas suficientes"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

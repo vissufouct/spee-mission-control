@@ -1,0 +1,29 @@
+{
+  "id": "8b8aeaf0-26d6-11f1-b6ba-7396de4b396a",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "[Docente]ISCIM - Fernando ISCIM_2026/Salomao",
+    "id": "5b081d4d8859f57bdc7b8ddd-4TVGNdZOT3yvK7yl6ZqYO",
+    "email": "magaiacidalia@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-03-23T16:38:23.512Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T16:38:23.512Z",
+      "msg": "Nome : [Docente]ISCIM - Fernando ISCIM_2026/Salomao\r\nTelefone : 258840730522\r\nE-mail : biliate@gmail.com\r\nDescrição do Problema : Boa noite\n\nEstou no processo de constituicao de empresa e os convites aceites continuam pendente"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

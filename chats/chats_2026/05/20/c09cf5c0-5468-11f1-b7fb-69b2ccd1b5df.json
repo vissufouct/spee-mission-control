@@ -1,0 +1,29 @@
+{
+  "id": "c09cf5c0-5468-11f1-b7fb-69b2ccd1b5df",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/Guambe",
+    "id": "5b081d4d8859f57bdc7b8ddd-owPlHjciKPReYe7zAnVv2",
+    "email": "guambecheylaarao@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T16:27:53.112Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T16:27:53.112Z",
+      "msg": "Nome : A Politecnica - MPT/Guambe\r\nTelefone : 258856273499\r\nE-mail : guambecheylaarao@gmail.com\r\nDescrição do Problema : Aí está meu e-mail docente: guambecheylaarao@gmail.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

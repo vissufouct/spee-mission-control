@@ -1,0 +1,29 @@
+{
+  "id": "e2ffa910-5462-11f1-b057-ed48593f819c",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Calvin Estefane",
+    "id": "5b081d4d8859f57bdc7b8ddd-iDluzminEYtUIv4Eq2g6H",
+    "email": "calvin.est3@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T15:51:22.431Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:51:22.431Z",
+      "msg": "Nome : Calvin Estefane\r\nTelefone : 258864657083\r\nE-mail : calvin.est3@gmail.com\r\nDescrição do Problema : Envio do e-mail:\nCalvin Estefane \ncalvin.est3@gmail.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

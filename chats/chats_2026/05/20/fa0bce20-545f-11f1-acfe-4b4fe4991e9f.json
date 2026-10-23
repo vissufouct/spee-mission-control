@@ -1,0 +1,29 @@
+{
+  "id": "fa0bce20-545f-11f1-acfe-4b4fe4991e9f",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Tulio Ferreira",
+    "id": "5b081d4d8859f57bdc7b8ddd-URreBEnBwefgrgmlrN4VW",
+    "email": "gostpride291@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T15:25:10.625Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:25:10.625Z",
+      "msg": "Nome : Tulio Ferreira\r\nE-mail : gostpride291@gmail.com\r\nDescrição do Problema : gostpride291@gmail.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

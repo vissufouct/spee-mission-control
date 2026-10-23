@@ -1,0 +1,29 @@
+{
+  "id": "67253730-2d28-11f1-b992-f9b9ba0736b7",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Convidado/",
+    "id": "5b081d4d8859f57bdc7b8ddd-7gahPzeaS4FatZSOXqIR3",
+    "email": "ibraimoirchad57@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-03-31T18:02:45.935Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-31T18:02:45.935Z",
+      "msg": "Nome : irchad ibraimo\r\nTelefone : 258868994200\r\nE-mail : ibraimoirchad57@gmail.com\r\nDescrição do Problema : boa noite, nao consigo criar seguro para a minha empresa"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "64eb8ab0-93e4-11f0-a4b1-3db7e3eb9adf",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "C&C escritórios..Lda",
+    "id": "5b081d4d8859f57bdc7b8ddd-0PAsdNiz7SrxzHyujlaZH",
+    "email": "mariazandamela93@gmail.com"
+  },
+  "location": {
+    "countryCode": "LT",
+    "city": "Unknown"
+  },
+  "messageCount": 3,
+  "chatDuration": 355,
+  "rating": 0,
+  "createdOn": "2025-09-17T16:39:55.429Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-17T16:39:55.429Z",
+      "msg": "Nome : C&C Escritorios\r\nTelefone : 258\r\nE-mail : carmonacarlota36@gmail.com\r\nDescrição do Problema : Saudações , espero que esteja tudo bem. Gostaria de saber como preencher a projeção de preço"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-17T16:43:28.514Z",
+      "msg": "Boa noite\nPeça auxílio ao docente"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-17T16:45:50.122Z",
+      "msg": "e não tem como ver o histórico de como registei ANTERIORMENTE?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

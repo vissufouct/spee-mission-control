@@ -1,0 +1,55 @@
+{
+  "id": "02ea9f00-2de4-11f1-83f7-231ecd39c8ec",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "RS Office Supplies LDA/4003038502",
+    "id": "5b081d4d8859f57bdc7b8ddd-rzIimK_LpK1NvNIG4apw5",
+    "email": "suheilaissac02@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 4,
+  "chatDuration": 4775,
+  "rating": 0,
+  "createdOn": "2026-04-01T16:10:06.483Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-01T16:10:06.483Z",
+      "msg": "Nome : ISCIM/Issac\r\nTelefone : 258849490724\r\nE-mail : suheilaissac02@gmail.com\r\nDescrição do Problema : quando tentamos acessar a aba do diario do empreendedor, o sistema nao avanca, permenece como esta."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-01T16:20:04.979Z",
+      "msg": "Boa noite estamos verificando o problema!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-01T16:55:48.157Z",
+      "msg": "Error in File CrystalReportDocFiscal 9224_3320_{81114C44-04B8-4CFD-A4CA-C4C6D7F2574B}.rpt:\nError in formula  ImpostoPerc:\n'{Factura.valorImposto}*100'\nA number, or currency amount is required here.\nDetails: errorKind\nDescription: An unhandled exception occurred during the execution of the current web request. Please review the stack trace for more information about the error and where it originated in the code.\n\nException Details: System.Runtime.InteropServices.COMException: Error in File CrystalReportDocFiscal 9224_3320_{81114C44-04B8-4CFD-A4CA-C4C6D7F2574B}.rpt:\nError in formula  ImpostoPerc:\n'{Factura.valorImposto}*100'\nA number, or currency amount is required here.\nDetails: errorKind\nquando tento pedir uma proforma na aba comunicacao e informacao aparece esse erro acima"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-01T17:29:41.292Z",
+      "msg": "resolvido, pode actualizar a tela"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,115 @@
+{
+  "id": "e1ecba00-39a9-11f1-99c0-9baef1090c74",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ITIS/Zefanias",
+    "id": "5b081d4d8859f57bdc7b8ddd-1OXUDGMf4QTwd1hnw0J9X",
+    "email": "chelciaelinajorgerangane@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 11,
+  "chatDuration": 732,
+  "rating": 0,
+  "createdOn": "2026-04-16T15:36:55.802Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:36:55.802Z",
+      "msg": "Nome : ITIS/Zefanias\r\nTelefone : 258871360145\r\nE-mail : chelciaelinajorgerangane@gmail.com\r\nDescrição do Problema : Não consigo localizar a minha sócia para dar andamento ao trabalho"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:38:04.118Z",
+      "msg": "Boa tarde a peco o codigo de turma que usou para o registro"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:38:48.568Z",
+      "msg": "269885"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:39:34.444Z",
+      "msg": "ta certo um momento"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:40:41.754Z",
+      "msg": "qual e o nome da instiruicao?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:40:52.284Z",
+      "msg": "da sua instituicao?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:42:21.205Z",
+      "msg": "Universidade Politecnica"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:47:23.089Z",
+      "msg": "?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:47:48.888Z",
+      "msg": "Volte a se registrar no sistema use esse codigo 298461, vai pedir para colocares o email depois fazer  login, ja estaras na turma certa!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:48:25.052Z",
+      "msg": "E como é que faço?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:49:07.639Z",
+      "msg": "da mesma forma que criaste conta no sistema"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

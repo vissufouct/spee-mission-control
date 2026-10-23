@@ -1,0 +1,38 @@
+{
+  "id": "fb0765d0-f2af-11f0-a773-bb49dc782847",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Mundo SA Auto",
+    "id": "5b081d4d8859f57bdc7b8ddd-HdjxSvIeMFO4GuLZ7Q000",
+    "email": "mundoautosa711@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 251,
+  "rating": 0,
+  "createdOn": "2026-01-16T07:53:04.660Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-01-16T07:53:04.660Z",
+      "msg": "Nome : Mundo SA Auto\r\nE-mail : mundoautosa711@gmail.com\r\nDescrição do Problema : Não consigo ter acesso a minha lista de movimentos\nO quê faço?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-01-16T07:57:16.027Z",
+      "msg": "Bom dia, poderia explicar melhor o problema?"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

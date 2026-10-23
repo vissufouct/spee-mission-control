@@ -1,0 +1,29 @@
+{
+  "id": "808cd320-30d7-11f0-a319-7564ed57de3b",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Tesoura",
+    "id": "5b081d4d8859f57bdc7b8ddd-TxstXa3I1s_sAlTBa620U",
+    "email": "nasmaluis@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-05-14T15:28:19.602Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-14T15:28:19.602Z",
+      "msg": "Nome : EN&TECH.LDA\r\nTelefone : 873451827\r\nE-mail : nasmaluis@gmail.com\r\nDescrição do Problema : O sitema é lento e algumas funcionalidades não estão claras."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

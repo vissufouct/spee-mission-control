@@ -1,0 +1,46 @@
+{
+  "id": "9629d380-1517-11f0-b566-59ba4ee3fd82",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Abdul",
+    "id": "5b081d4d8859f57bdc7b8ddd-1aYpfXrA3omgRBS9xUSSd",
+    "email": "shakilmsa83@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 3,
+  "chatDuration": 300,
+  "rating": 0,
+  "createdOn": "2025-04-09T08:35:34.694Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-09T08:35:34.694Z",
+      "msg": "Nome : ISCIM/Abdul\r\nE-mail : shakilmsa83@gmail.com\r\nDescrição do Problema : na projeccao de preco, nao esta aceitar colocar custo fixo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-04-09T08:37:52.352Z",
+      "msg": "Bom dia, tente sair do spee e voltar a entrar siga os passos normais para projecao de precos, ao adcionar o novo custo prencha todos os campos e clique em salvar e feche a janela!!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-09T08:40:34.616Z",
+      "msg": "fiz isso, a situacao continua"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

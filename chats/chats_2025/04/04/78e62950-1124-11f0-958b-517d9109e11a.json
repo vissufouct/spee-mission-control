@@ -1,0 +1,63 @@
+{
+  "id": "78e62950-1124-11f0-958b-517d9109e11a",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/4002817895",
+    "id": "5b081d4d8859f57bdc7b8ddd-NthOtALaLICMcxR7QKu51",
+    "email": "coimbracleusia0@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 5,
+  "chatDuration": 268,
+  "rating": 0,
+  "createdOn": "2025-04-04T07:48:32.801Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-04T07:48:32.801Z",
+      "msg": "Nome : /4002817895\r\nE-mail : coimbracleusia0@gmail.com\r\nDescrição do Problema : Exmos Senhores \n \nALB EDITION SERVICEs, LDA é uma empresa especializada no ramo de Design Gráfico, \nMarketing digital, Videomaker e ornamentação. com trabalhos realizados na area. Estamos \npreparados para dar resposta, a cada passo na concretização de pequenos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-04-04T07:49:46.934Z",
+      "msg": "Bom dia! Qual é o problema que o estudante esta a enfrentar?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-04T07:50:50.577Z",
+      "msg": "como enviar email para outras empresas"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-04-04T07:52:31.296Z",
+      "msg": "No menu inicial, do lado esquerdo abaixo da \"banca\" tem ai o campo de Email so clicar e sera direcionado pra o email"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-04T07:53:00.847Z",
+      "msg": "obrigado"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

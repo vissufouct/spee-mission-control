@@ -1,0 +1,29 @@
+{
+  "id": "b7c06e80-26d4-11f1-a544-a91ce567a875",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Albazine",
+    "id": "5b081d4d8859f57bdc7b8ddd-mq1iqIw96iCZuilGsMmAA",
+    "email": "talbasine@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-03-23T18:24:04.185Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:24:04.185Z",
+      "msg": "Nome : ISCIM/Albazine\r\nE-mail : talbasine@gmail.com\r\nDescrição do Problema : nao aceita o proceeso de pagamento"
+    }
+  ],
+  "domain": "planodenegocios.simulacao.co.mz"
+}

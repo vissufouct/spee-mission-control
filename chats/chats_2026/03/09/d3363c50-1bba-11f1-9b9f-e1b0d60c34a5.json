@@ -1,0 +1,29 @@
+{
+  "id": "d3363c50-1bba-11f1-9b9f-e1b0d60c34a5",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Mutemba",
+    "id": "5b081d4d8859f57bdc7b8ddd-gxJNL5UE5JQjbX5Fq1euj",
+    "email": "laramutemba2017@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-03-09T13:21:57.800Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-09T13:21:57.800Z",
+      "msg": "Boa tarde."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

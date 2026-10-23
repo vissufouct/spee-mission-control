@@ -1,0 +1,29 @@
+{
+  "id": "ff9b1660-5465-11f1-96b1-5901b35d826c",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Romana Cumbane",
+    "id": "5b081d4d8859f57bdc7b8ddd-f6Ucs4GsROWneiJoRQw6n",
+    "email": "rajuamade5@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T16:10:37.511Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T16:10:37.511Z",
+      "msg": "Nome : Romana Cumbane\r\nTelefone : 258841184753\r\nE-mail : romanacumban3@gmail.com\r\nDescrição do Problema : romanacumban3@gmail.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

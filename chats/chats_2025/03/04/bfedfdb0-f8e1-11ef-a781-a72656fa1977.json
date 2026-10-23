@@ -1,0 +1,29 @@
+{
+  "id": "bfedfdb0-f8e1-11ef-a781-a72656fa1977",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-SIiFyjotSykOVjUFAf1pc",
+    "email": "wilmamartinho07@gmail.com"
+  },
+  "location": {
+    "countryCode": "CA",
+    "city": "Toronto"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-03-04T12:10:05.891Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-04T12:10:05.891Z",
+      "msg": "Nome : UNILURIO/Martinho\r\nE-mail : wilmamartinho07@gmail.com\r\nDescrição do Problema : como criar contratos"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

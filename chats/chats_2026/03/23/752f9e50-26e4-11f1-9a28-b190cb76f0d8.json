@@ -1,0 +1,29 @@
+{
+  "id": "752f9e50-26e4-11f1-9a28-b190cb76f0d8",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "chimica mario",
+    "id": "5b081d4d8859f57bdc7b8ddd-vlP7Exp057eVOTuWcOQzG",
+    "email": "mikechimica@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-03-23T18:41:35.087Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:41:35.087Z",
+      "msg": "Nome : chimica mario\r\nE-mail : mikechimica@gmail.com\r\nDescrição do Problema : quero escolher o imobiliario e nao aceita escolher, o botao para escolher congela, oque faco?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

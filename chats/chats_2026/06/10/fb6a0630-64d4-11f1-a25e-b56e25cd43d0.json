@@ -1,0 +1,37 @@
+{
+  "id": "fb6a0630-64d4-11f1-a25e-b56e25cd43d0",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Vembane",
+    "id": "5b081d4d8859f57bdc7b8ddd-MB0XR9_6z2AIhMCh4WNQZ",
+    "email": "mikechimica@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-06-10T14:14:45.423Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-10T14:14:45.423Z",
+      "msg": "Name : Lury Telecommunications\r\nEmail : airtonaly2@gmail.com\r\nDescrição do Problema : PROJECCAOP DE VENDAS"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-10T14:15:00.631Z",
+      "msg": "Qual foi o. desfecho"
+    }
+  ],
+  "domain": "planodenegocios.simulacao.co.mz"
+}

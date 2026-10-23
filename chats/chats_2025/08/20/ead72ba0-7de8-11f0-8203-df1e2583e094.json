@@ -1,0 +1,29 @@
+{
+  "id": "ead72ba0-7de8-11f0-8203-df1e2583e094",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISG/Simbine",
+    "id": "5b081d4d8859f57bdc7b8ddd-snRxvFWFKSMwvmegpxSca",
+    "email": "costasimbine89@gmail.com"
+  },
+  "location": {
+    "countryCode": "US",
+    "city": "Albuquerque"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-08-20T17:56:39.439Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-20T17:56:39.439Z",
+      "msg": "Nome : ISG/Simbine\r\nTelefone : 258846322718\r\nE-mail : costasimbine89@gmail.com\r\nDescrição do Problema : como tornar a empresa criada aqui no sistema em realidade"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

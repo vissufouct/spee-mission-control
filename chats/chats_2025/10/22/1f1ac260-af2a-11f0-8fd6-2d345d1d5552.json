@@ -1,0 +1,64 @@
+{
+  "id": "1f1ac260-af2a-11f0-8fd6-2d345d1d5552",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "EP Sobrilho,Lda.",
+    "id": "5b081d4d8859f57bdc7b8ddd-o9AhCyFVv_UhHpQzWAMGA",
+    "email": "alcinoemilia@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Beira"
+  },
+  "messageCount": 5,
+  "chatDuration": 173,
+  "rating": 0,
+  "createdOn": "2025-10-22T10:13:05.099Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-22T10:13:05.099Z",
+      "msg": "Nome : EP Sobrilho,Lda.\r\nTelefone : 258849596216\r\nE-mail : alcinoemilia@gmail.com\r\nDescrição do Problema : resolva o erro que ocorreu no meu sistma"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-22T10:13:38.571Z",
+      "msg": "Boa tarde"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-22T10:13:47.912Z",
+      "msg": "Qual é o erro?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-22T10:15:00.962Z",
+      "msg": "ao tentar salvar um lancamento nao foi possivel fazê-lo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-22T10:15:57.609Z",
+      "msg": "Pode mostra o print ?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

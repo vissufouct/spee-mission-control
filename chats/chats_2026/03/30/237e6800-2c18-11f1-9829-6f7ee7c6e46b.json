@@ -1,0 +1,55 @@
+{
+  "id": "237e6800-2c18-11f1-9829-6f7ee7c6e46b",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "UDM/Macia",
+    "id": "5b081d4d8859f57bdc7b8ddd-kFOX90L_KHEe8wb7iKzqb",
+    "email": "djmurroto123@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 4,
+  "chatDuration": 408,
+  "rating": 0,
+  "createdOn": "2026-03-30T09:12:08.458Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-30T09:12:08.458Z",
+      "msg": "Nome : TriNexus Consulting e RH, Lda\r\nTelefone : 258847045894\r\nE-mail : macia.jasmim19@gmail.com\r\nDescrição do Problema : nao conseguimos extrair as faturas de telecomunicacaoes e agua"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-03-30T09:15:14.207Z",
+      "msg": "Bom dia, por aora use esses link para extrair facturas de agua: https://spee.simulacao.co.mz/servicos/1/Aguas/index.html?hasEmpresa=1\ne esse para telecomicacoes: https://spee.simulacao.co.mz/servicos/1/Telecomunicacoes/index.html?hasEmpresa=1\nestamos resolvendo o problema."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-03-30T09:16:12.048Z",
+      "msg": "diga o mesmo para os outros estudantes"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-30T09:18:56.771Z",
+      "msg": "ok, obrigada"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "f0105650-4071-11f0-9315-4badd62a4a7c",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISPT/Joao",
+    "id": "5b081d4d8859f57bdc7b8ddd-LCVC22lbCPlStHuLVaCCH",
+    "email": "naomyjoaopepa@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-06-03T12:02:18.945Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-06-03T12:02:18.945Z",
+      "msg": "Nome : ISPT/Joao\r\nE-mail : naomyjoaopepa@gmail.com\r\nDescrição do Problema : esqueci minha senha"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

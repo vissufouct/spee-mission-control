@@ -1,0 +1,29 @@
+{
+  "id": "ed3a0220-aa9b-11f0-93bb-3dad98066ae4",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISG/Adriano",
+    "id": "5b081d4d8859f57bdc7b8ddd-WcFDATZcX9KlqhhCO9Jya",
+    "email": "adrianosinovia@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-10-16T14:57:44.898Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-16T14:57:44.898Z",
+      "msg": "Nome : ISG/Adriano\r\nE-mail : adrianosinovia@gmail.com\r\nDescrição do Problema : Boa tarde Nao consigo registar o activo quando faco o registro sai sem valor nem quantidades"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

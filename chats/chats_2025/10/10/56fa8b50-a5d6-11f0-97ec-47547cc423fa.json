@@ -1,0 +1,69 @@
+{
+  "id": "56fa8b50-a5d6-11f0-97ec-47547cc423fa",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "DigitalX/4002807781",
+    "id": "5b081d4d8859f57bdc7b8ddd-8ywtywDj2Z1Udi0Fu9_EJ",
+    "email": "tomassantos779@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 4,
+  "chatDuration": 234,
+  "rating": 0,
+  "createdOn": "2025-10-10T12:54:11.451Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-10T12:54:11.451Z",
+      "msg": "Nome : DigitalX\r\nTelefone : 258875016591\r\nE-mail : aduinaemilio@gmail.com\r\nDescrição do Problema : dar entrada no stock"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-10-10T12:55:08.446Z",
+      "msg": "Boa tarde, poderia descrever melhor o problema?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-10T12:56:04.092Z",
+      "msg": "preciso dar entada de mercadoria no armazem"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-10-10T12:58:05.928Z",
+      "msg": "SGC => Getsao de stock:",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/67bc6520a561be464e803d37/bbfb5569c5b50f8eb4c48004f793ac6e826e855a/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 38471,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

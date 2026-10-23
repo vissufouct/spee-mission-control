@@ -1,0 +1,47 @@
+{
+  "id": "a463d6c0-5815-11f1-bf36-cdb5c40d33a6",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-km3C30__SzpdLqm8ROdJB",
+    "email": "mangumoloyde@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 320,
+  "rating": 0,
+  "createdOn": "2026-05-25T09:10:38.940Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-25T09:10:38.940Z",
+      "msg": "Nome : /\r\nE-mail : mangumoloyde@gmail.com\r\nDescrição do Problema : Nao consigo mandar o comprovativo de factura para as empresas."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-25T09:11:08.958Z",
+      "msg": "bom dia, um momento Porfavor vamos verificar o problema"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-25T09:15:58.502Z",
+      "msg": "Bom dia, qual e o problema que esta a enfrentar?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

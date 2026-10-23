@@ -1,0 +1,109 @@
+{
+  "id": "60715f10-5f49-11f1-9d42-09ae2db3ccbd",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Luri Anatércia Sérgio Vembane",
+    "id": "5b081d4d8859f57bdc7b8ddd-MB0XR9_6z2AIhMCh4WNQZ",
+    "email": "airtonaly2@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 9,
+  "chatDuration": 540,
+  "rating": 0,
+  "createdOn": "2026-06-03T12:46:49.584Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-03T12:46:49.584Z",
+      "msg": "Name : Luri Anatércia Sérgio Vembane\r\nEmail : luryanaterciavembane@gmail.com\r\nPhone : +258850720207\r\nDescrição do Problema : projecao de vendas"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-03T12:47:17.529Z",
+      "msg": "nao confirma o cadastro do artigo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-03T12:48:18.169Z",
+      "msg": "como disse antes, escreve cadastro do ariogo.... e vem a opcao ok"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-06-03T12:49:17.770Z",
+      "msg": "Eu quero saber em que passo falha no primeiro ou no ultimo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-03T12:49:32.230Z",
+      "msg": "no ultimo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-03T12:50:23.008Z",
+      "msg": "para projectar e cadastrar o artigo para eu poder projectar os outros"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-03T12:53:39.885Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/6a2020b20eecebc22025ed94/v/2e92dc467a1114c4b928bb1007155f83fa0e3fd1/Screen_Shot_2026-06-03_at_14.53.12.png",
+              "name": "Screen Shot 2026-06-03 at 14.53.12.png",
+              "mimeType": "image/png",
+              "size": 265406,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-03T12:54:34.805Z",
+      "msg": "Para aqui e nao avança mais"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-06-03T12:55:49.905Z",
+      "msg": "aguarde, estamos verificando"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

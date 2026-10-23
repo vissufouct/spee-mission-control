@@ -1,0 +1,102 @@
+{
+  "id": "18debd30-37cd-11f1-afae-9312b0a3ae7d",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Xerinda",
+    "id": "5b081d4d8859f57bdc7b8ddd-wSoZ9H0sbIO6q09PssgkN",
+    "email": "armenioxerinda@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 8,
+  "chatDuration": 817,
+  "rating": 0,
+  "createdOn": "2026-04-14T06:46:16.497Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-14T06:46:16.497Z",
+      "msg": "Nome : ISCIM/Xerinda\r\nTelefone : 258825564311\r\nE-mail : armenioxerinda@gmail.com\r\nDescrição do Problema : Bom dia\nOntem comuniquei a dificuldade de aceder ao Plano de Negocio para fazer a reidição, assim que possivel peço a vossa atenção"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-14T06:46:49.427Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69dde1d13ad48120250e8f38/v/a69ced13343564bb09ecd4e79d9ab3bb346a46fd/image.png",
+              "name": "image.png",
+              "mimeType": "image/png",
+              "size": 40535,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-14T06:49:59.426Z",
+      "msg": "Bom dia, qual é a dificuldade que teve?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-14T06:52:13.152Z",
+      "msg": "Não aceita ver comentarios para poder reeditar"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-14T06:52:49.272Z",
+      "msg": "Foi possivel prrencher a primeira pagina até ao campo do empreededor, mas depois nao da mais acesso."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-14T06:53:34.819Z",
+      "msg": "Aguarde um instante, estamos verificando."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-14T06:53:44.651Z",
+      "msg": "Obrigado"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-14T06:59:53.180Z",
+      "msg": "Preencheu os dados do empreendedor?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

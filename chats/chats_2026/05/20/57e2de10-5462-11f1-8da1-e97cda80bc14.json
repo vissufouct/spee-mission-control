@@ -1,0 +1,29 @@
+{
+  "id": "57e2de10-5462-11f1-8da1-e97cda80bc14",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Yuran Pinho",
+    "id": "5b081d4d8859f57bdc7b8ddd-DQvNwtX6RAi61jhxEMhf5",
+    "email": "yuranpinho9@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T15:42:28.540Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:42:28.540Z",
+      "msg": "Nome : Yuran Pinho\r\nTelefone : 844902929\r\nE-mail : yuranpinho9@gmail.com\r\nDescrição do Problema : yuranpinho9@gmail.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

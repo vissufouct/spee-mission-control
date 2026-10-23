@@ -1,0 +1,72 @@
+{
+  "id": "1014ff10-2b68-11f0-8667-09f9d1f1272e",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/Harman",
+    "id": "5b081d4d8859f57bdc7b8ddd-fhjXpesNXoYsITCCxo7NN",
+    "email": "neelamharman798@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Beira"
+  },
+  "messageCount": 6,
+  "chatDuration": 307,
+  "rating": 0,
+  "createdOn": "2025-05-07T17:58:09.893Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-07T17:58:09.893Z",
+      "msg": "Nome : Xitsungo Transportes,Lda\r\nE-mail : neelamharman798@gmail.com\r\nDescrição do Problema : registrei os activos mas nao consigo por as  quantidades e custo de aquisicao, como fazer"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-07T17:58:55.111Z",
+      "msg": "Boa noite\nNão consegue? O que acontece?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-07T18:01:41.027Z",
+      "msg": "fiz um registro, nao sei como adicionar as quantidades do que foi registado, pode me explicar como fazer"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-07T18:02:18.067Z",
+      "msg": "No gestor comercial"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-07T18:02:33.085Z",
+      "msg": "Entrada de artigos"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-07T18:03:16.704Z",
+      "msg": "falo de registo de activos"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

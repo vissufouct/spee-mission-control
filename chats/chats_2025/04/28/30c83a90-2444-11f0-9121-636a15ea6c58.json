@@ -1,0 +1,29 @@
+{
+  "id": "30c83a90-2444-11f0-9121-636a15ea6c58",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Jorge Ricardo Mazive",
+    "id": "5b081d4d8859f57bdc7b8ddd-JbMJjvHo_KacVFH959afC",
+    "email": "jojoimobiliaria@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-04-28T15:22:24.956Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-28T15:22:24.956Z",
+      "msg": "Nome : Jorge Ricardo Mazive\r\nTelefone : 845157007\r\nE-mail : jojoimobiliaria@gmail.com\r\nDescrição do Problema : Saudações peço ajuda perdi acesso da minha conta \nEsquece a minha palavra passe e quando tento recuperar é sem sucesso"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

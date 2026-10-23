@@ -1,0 +1,29 @@
+{
+  "id": "792cb8c0-6656-11f0-978d-ef2f4a15ae05",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCAM/Muhate",
+    "id": "5b081d4d8859f57bdc7b8ddd-rhxwzHJlVwLCtZz3jqJEl",
+    "email": "derciomuhate@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-07-21T17:33:18.712Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-21T17:33:18.712Z",
+      "msg": "Nome : ISCAM/Muhate\r\nE-mail : derciomuhate@gmail.com\r\nDescrição do Problema : os clientes que havia cadastrado ja não aparecem"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

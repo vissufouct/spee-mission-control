@@ -1,0 +1,121 @@
+{
+  "id": "d6b7edd0-5385-11f1-9a91-ff929b4ad2bc",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-yl5zQScyqBYMLwxuud5I4",
+    "email": "horaciomachangame@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 12,
+  "chatDuration": 669,
+  "rating": 0,
+  "createdOn": "2026-05-19T13:53:20.971Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-19T13:53:20.971Z",
+      "msg": "Nome : /\r\nE-mail : horaciomachangame@gmail.com\r\nDescrição do Problema : Quero comcorer para ong como faco"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-19T13:53:48.597Z",
+      "msg": "Boa tarde, pergunte ao docente!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-19T13:54:21.941Z",
+      "msg": "nao esta"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-19T13:54:46.886Z",
+      "msg": "peco asua jauda"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-19T13:57:01.107Z",
+      "msg": "Quer aceder ao concursos publicos?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-19T13:58:03.867Z",
+      "msg": "ja acedi mas estao expirados , agora que fazer para ONG"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-19T14:01:31.956Z",
+      "msg": "Se expirou so pode informar ao dc para voltar abrir!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-19T14:03:02.943Z",
+      "msg": "ja informei"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-19T14:03:26.282Z",
+      "msg": "peco para ajudar co ONG"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-19T14:03:56.346Z",
+      "msg": "Para os outros estudantes aparecer como expirado tambem ou é so pra ti?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-19T14:04:13.206Z",
+      "msg": "para todos"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-19T14:04:29.869Z",
+      "msg": "peco ajuda com ONG"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

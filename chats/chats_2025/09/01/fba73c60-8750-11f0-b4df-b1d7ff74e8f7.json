@@ -1,0 +1,63 @@
+{
+  "id": "fba73c60-8750-11f0-b4df-b1d7ff74e8f7",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "EN&TECH.LDA",
+    "id": "5b081d4d8859f57bdc7b8ddd-TxstXa3I1s_sAlTBa620U",
+    "email": "nasmaluis@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 5,
+  "chatDuration": 281,
+  "rating": 0,
+  "createdOn": "2025-09-01T17:02:34.897Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-01T17:02:34.897Z",
+      "msg": "Nome : EN&TECH.LDA/4002807822\r\nTelefone : 258873451827\r\nE-mail : nasmaluis@gmail.com\r\nDescrição do Problema : falha na facturaçao"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-01T17:03:44.052Z",
+      "msg": "boa noite. estou a ter falha na facturaçao, emiti a proforma mas quando emito a factura do mesmo proforma os valores nao batem"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-01T17:04:39.547Z",
+      "msg": "a facturaçao o sistema nao puxa os valores totais de  empressora Epson e laptop lenovo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-01T17:07:02.239Z",
+      "msg": "pode por favor mandar o print?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-01T17:07:15.952Z",
+      "msg": "dos dois documentos"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

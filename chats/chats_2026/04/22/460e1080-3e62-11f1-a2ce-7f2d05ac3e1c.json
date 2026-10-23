@@ -1,0 +1,65 @@
+{
+  "id": "460e1080-3e62-11f1-a2ce-7f2d05ac3e1c",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Elite Motors Mz",
+    "id": "5b081d4d8859f57bdc7b8ddd-hgrwKTlAUoGrsHvNNRcvW",
+    "email": "luryanaterciavembane@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 4,
+  "chatDuration": 246,
+  "rating": 1,
+  "createdOn": "2026-04-22T16:40:58.697Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T16:40:58.697Z",
+      "msg": "Nome : ISCIM/Garfo\r\nTelefone : 258845556457\r\nE-mail : mikechimica@gmail.com\r\nDescrição do Problema : nao aceita colocar a foto de perfil na empresa"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T16:41:42.615Z",
+      "msg": "Boa noite, qual a dificuldade?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "rating",
+      "time": "2026-04-22T16:42:02.497Z",
+      "data": {
+        "rating": 1
+      }
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T16:42:07.682Z",
+      "msg": "Nome : ISCIM/Garfo\nTelefone : 258845556457\nE-mail : mikechimica@gmail.com\nDescrição do Problema : nao aceita colocar a foto de perfil na empresa"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T16:45:05.125Z",
+      "msg": "quando adiciona depois clica em salvar?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

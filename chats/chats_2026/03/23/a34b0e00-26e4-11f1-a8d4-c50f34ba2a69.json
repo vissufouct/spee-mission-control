@@ -1,0 +1,38 @@
+{
+  "id": "a34b0e00-26e4-11f1-a8d4-c50f34ba2a69",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Passuane Tomas",
+    "id": "5b081d4d8859f57bdc7b8ddd-W3LAC_Xw3c17sIfFSEbjT",
+    "email": "passuane90@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 84,
+  "rating": 0,
+  "createdOn": "2026-03-23T18:28:11.926Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:28:11.926Z",
+      "msg": "Nome : Passuane Tomas\r\nE-mail : passuane90@gmail.com\r\nDescrição do Problema : Todos imóveis selecionados não encontram-se disponíveis."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:29:36.080Z",
+      "msg": "Um momento por favor estamos verificando o problema"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

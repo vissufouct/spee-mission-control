@@ -1,0 +1,46 @@
+{
+  "id": "2aa5db70-6186-11f0-8ccc-0335401b0dfb",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCAM/Bila",
+    "id": "5b081d4d8859f57bdc7b8ddd-XDN0rIZ96oIs3iE3l1zow",
+    "email": "elton.bila@iscam.ac.mz"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 3,
+  "chatDuration": 139,
+  "rating": 0,
+  "createdOn": "2025-07-15T15:15:14.681Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-15T15:15:14.681Z",
+      "msg": "Qual e o prazo do emprestmo recomendavel"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-15T15:17:03.560Z",
+      "msg": "Qual e o prazo do emprestmo recomendavel no pedido de emprsetimo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-15T15:17:33.856Z",
+      "msg": "Pergunte ao docente"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "813bd510-835b-11f0-b47e-8541d71f7d21",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISPT/Bernardo",
+    "id": "5b081d4d8859f57bdc7b8ddd-LAaOK3Wd82bZlboq5MOPx",
+    "email": "armindobernardopedropedro@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 4,
+  "chatDuration": 173,
+  "rating": 0,
+  "createdOn": "2025-08-27T15:50:45.989Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-27T15:50:45.989Z",
+      "msg": "Nome : ISPT/Bernardo\r\nTelefone : 258869697999\r\nE-mail : armindobernardopedropedro@gmail.com\r\nDescrição do Problema : boa tarde.venho desta pedir ajuda para acessar os recursos humans online,pois vem uma pagina em branca quando entro."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-27T15:52:10.102Z",
+      "msg": "Boa tarde"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-27T15:52:21.412Z",
+      "msg": "Celebrou o contrato com telecomunicações e outras entidades?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-27T15:53:38.767Z",
+      "msg": "sim,ja fiz,quando tento novamente apresenta informacao de contrato celebrado."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

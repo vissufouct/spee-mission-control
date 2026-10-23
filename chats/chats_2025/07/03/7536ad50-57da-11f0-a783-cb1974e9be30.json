@@ -1,0 +1,37 @@
+{
+  "id": "7536ad50-57da-11f0-a783-cb1974e9be30",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISPM/Jasse",
+    "id": "5b081d4d8859f57bdc7b8ddd-onlahfutHeaboyYxBQqSB",
+    "email": "biggartes@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-07-03T06:58:36.150Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-03T06:58:36.150Z",
+      "msg": "Nome : ISPM/Jasse\r\nTelefone : 258864691403\r\nE-mail : biggartes@gmail.com\r\nDescrição do Problema : Peço guia de avaliação de relatório"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-03T07:01:01.757Z",
+      "msg": "Peço guia de avaliação de relatório"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "26711150-22e7-11f1-a3f0-27ada9ead937",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/Mabote",
+    "id": "5b081d4d8859f57bdc7b8ddd-wOvnPIeuEyTmkCpkJz4Ug",
+    "email": "mabotekhan@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-03-18T16:30:02.510Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-18T16:30:02.510Z",
+      "msg": "Nome : A Politecnica - MPT/Mabote\r\nTelefone : 258848945184\r\nE-mail : mabotekhan@gmail.com\r\nDescrição do Problema : Boa noite, eu faço login na minha conta mas abre a conta de outra empresa"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

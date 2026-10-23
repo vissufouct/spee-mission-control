@@ -1,0 +1,29 @@
+{
+  "id": "3729f2e0-0fa2-11f0-8973-9543d701a92f",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-1aYpfXrA3omgRBS9xUSSd",
+    "email": "muhammadaliador@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-04-02T09:43:45.711Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-02T09:43:45.711Z",
+      "msg": "Nome : CC Lda Infoplus\r\nE-mail : muhammadaliador@gmail.com\r\nDescrição do Problema : Peço para colocar logotipo nas facturas"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

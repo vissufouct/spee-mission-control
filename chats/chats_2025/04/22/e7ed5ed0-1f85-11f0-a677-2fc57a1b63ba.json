@@ -1,0 +1,54 @@
+{
+  "id": "e7ed5ed0-1f85-11f0-a677-2fc57a1b63ba",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "UNILURIO/Ndayshimiye",
+    "id": "5b081d4d8859f57bdc7b8ddd-gckg9fpeEQAEpHWWLWSEi",
+    "email": "pndayshimiye@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 4,
+  "chatDuration": 782,
+  "rating": 0,
+  "createdOn": "2025-04-22T14:29:44.497Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-22T14:29:44.497Z",
+      "msg": "Oi"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-22T14:29:56.798Z",
+      "msg": "o problema já foi resolvido??"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-22T14:30:02.949Z",
+      "msg": "ja sim"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-22T14:38:02.166Z",
+      "msg": "Obrigada"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

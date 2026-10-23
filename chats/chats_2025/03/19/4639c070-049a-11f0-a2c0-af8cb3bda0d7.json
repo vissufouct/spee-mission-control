@@ -1,0 +1,80 @@
+{
+  "id": "4639c070-049a-11f0-a2c0-af8cb3bda0d7",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-WCv23nF8SKa1HXjJVTRTK",
+    "email": "amadjuma@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 7,
+  "chatDuration": 393,
+  "rating": 0,
+  "createdOn": "2025-03-19T08:16:24.598Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:16:24.598Z",
+      "msg": "Nome : /\r\nDescrição do Problema : loja online dando erro"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:18:56.498Z",
+      "msg": "Bom dia"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:19:02.851Z",
+      "msg": "Criou empresa?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:19:13.631Z",
+      "msg": "Os contratos com telecomunicações e todas as entidades?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:20:37.899Z",
+      "msg": "sim criei"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:20:56.363Z",
+      "msg": "fiz todos contratos"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:22:57.122Z",
+      "msg": "o que posso fazer?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

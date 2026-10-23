@@ -1,0 +1,120 @@
+{
+  "id": "3da072a0-ab3f-11f0-8166-5986e13ac327",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "HA Lda TechLux",
+    "id": "5b081d4d8859f57bdc7b8ddd-BlNcv6si32SLs5UEcbuyg",
+    "email": "ivanmassinga@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 10,
+  "chatDuration": 413,
+  "rating": 0,
+  "createdOn": "2025-10-17T10:06:13.188Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-17T10:06:13.188Z",
+      "msg": "Nome : Amarah Bibi\r\nTelefone : 258869275854\r\nE-mail : ammarahbibiseif@gmail.com\r\nDescrição do Problema : ola.\nEu fiz o pagamento das facturas de janeiro a junho, via transferencia bancaria para a Imobiliária de Moçambique, Telecomunicações SPEE, Aguas SPEE e electricidade SPEE. Onde posso adquirir os recibos?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-17T10:06:58.521Z",
+      "msg": "No contrato. Tem o recibo logo ao lado"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-17T10:07:55.480Z",
+      "msg": "Nao aparece, so aparece a opção de pagar."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-17T10:08:34.395Z",
+      "msg": "Mas fez o pagamento a partir desse campo?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-17T10:09:05.980Z",
+      "msg": "Nao, Transferencia directamente do banco SPEE"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-17T10:09:16.128Z",
+      "msg": "Então pode ver nos extracto"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-17T10:09:30.164Z",
+      "msg": "O que terá, é o comprovativo de pagamento e não recibo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-17T10:09:58.461Z",
+      "msg": "nao tem como ter o recibo?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-17T10:12:10.415Z",
+      "msg": "Quando se paga pelo campo correcto, que é nas facturas a factura aparece paga",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/fee03800c3071e729af380a3aad80987ef1f5ed1/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 70093,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-17T10:13:06.239Z",
+      "msg": "percebi, achei que fosse possivel alterarem."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "e803b430-89b8-11f0-84ea-8d8f6c959a8b",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISG/Manjate",
+    "id": "5b081d4d8859f57bdc7b8ddd-OxJkXoeEHIdOkYUeoDII8",
+    "email": "emerson.r.manjate@gmail.com"
+  },
+  "location": {
+    "countryCode": "US",
+    "city": "Chicago"
+  },
+  "messageCount": 2,
+  "chatDuration": 32,
+  "rating": 0,
+  "createdOn": "2025-09-04T18:06:57.204Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-04T18:06:57.204Z",
+      "msg": "Nome : ISG/Manjate\r\nTelefone : 258820935408\r\nE-mail : emerson.r.manjate@gmail.com\r\nDescrição do Problema : Após cadastrar os funcionários, ao abrir a Listagem não apresenta a lista dos funcionários."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-04T18:07:28.729Z",
+      "msg": "Boanoite, peço só um momento"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "b4294020-5399-11f1-ae12-25a9ed5445e2",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-yl5zQScyqBYMLwxuud5I4",
+    "email": "horaciomachangame@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-19T15:46:34.325Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-19T15:46:34.325Z",
+      "msg": "Nome : /\r\nE-mail : horaciomachangame@gmail.com\r\nDescrição do Problema : peco ajuda,para ONG"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-19T15:47:51.734Z",
+      "msg": "para participar dos concursos da ONG"
+    }
+  ],
+  "domain": "planodenegocios.simulacao.co.mz"
+}

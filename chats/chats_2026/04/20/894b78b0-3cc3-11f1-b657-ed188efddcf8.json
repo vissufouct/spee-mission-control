@@ -1,0 +1,37 @@
+{
+  "id": "894b78b0-3cc3-11f1-b657-ed188efddcf8",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "AD combustível e lubrificantes Lda",
+    "id": "5b081d4d8859f57bdc7b8ddd-RPlmm6FIzUyjYBE5AYTqa",
+    "email": "horaciomachangame@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-04-20T14:35:53.045Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T14:35:53.045Z",
+      "msg": "Nome : AD combustível e lubrificantes Lda\r\nE-mail : horaciomachangame@gmail.com\r\nDescrição do Problema : não  consigo ver o nome dos empreededor"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T14:36:40.838Z",
+      "msg": "apagina dois  Artigos projetados nao abre"
+    }
+  ],
+  "domain": "planodenegocios.simulacao.co.mz"
+}

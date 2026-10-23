@@ -1,0 +1,81 @@
+{
+  "id": "9dc9e220-3e2d-11f1-9d37-f30c043b3e96",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Magaia",
+    "id": "5b081d4d8859f57bdc7b8ddd-asXWUvanzc7W3uunJpNGP",
+    "email": "magaiacidalia@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 7,
+  "chatDuration": 1059,
+  "rating": 0,
+  "createdOn": "2026-04-22T09:30:22.495Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T09:30:22.495Z",
+      "msg": "Nome : ISCIM/Magaia\r\nE-mail : magaiacidalia@gmail.com\r\nDescrição do Problema : Bom dia, continuo aguardado pela resposta, ainda nao consegui adicionar o empreendedor"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-22T09:37:47.895Z",
+      "msg": "Esta em verificacao, entraremos em contacto assim que for resolvido."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-22T09:38:23.570Z",
+      "msg": "pode colocar outro email? no campo de email"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T09:40:51.899Z",
+      "msg": "sim"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-22T09:46:54.790Z",
+      "msg": "ja preencheu?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T09:47:37.135Z",
+      "msg": "Ja, obrigada ja consigui adicionar"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-22T09:48:01.846Z",
+      "msg": "certo"
+    }
+  ],
+  "domain": "planodenegocios.simulacao.co.mz"
+}

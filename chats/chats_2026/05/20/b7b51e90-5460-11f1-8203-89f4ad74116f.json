@@ -1,0 +1,29 @@
+{
+  "id": "b7b51e90-5460-11f1-8203-89f4ad74116f",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Yuran Pinho",
+    "id": "5b081d4d8859f57bdc7b8ddd-DQvNwtX6RAi61jhxEMhf5",
+    "email": "yuranpinho9@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T15:31:07.312Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:31:07.312Z",
+      "msg": "Nome : Yuran Pinho"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

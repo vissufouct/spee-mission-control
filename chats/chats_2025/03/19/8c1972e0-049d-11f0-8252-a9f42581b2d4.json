@@ -1,0 +1,52 @@
+{
+  "id": "8c1972e0-049d-11f0-8252-a9f42581b2d4",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/JUNIOR",
+    "id": "5b081d4d8859f57bdc7b8ddd-N6fF1j_bZq9r715d3kIhD",
+    "email": "juniorbibie801@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 502,
+  "rating": 0,
+  "createdOn": "2025-03-19T08:41:23.770Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:41:23.770Z",
+      "msg": "Nome : ISCIM/JUNIOR\r\nE-mail : juniorbibie801@gmail.com\r\nDescrição do Problema : NÃO CONSIGO ACESSAR A LOJA  ONLINE ATIVOS MÍNIMOS"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:49:45.579Z",
+      "msg": "Logo depois de fazer login a platarfoma, entrar para o campo destacado, e voltar a aceder aos activos minimos",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/872df44ecc3c3d13cbb73ad1399b32828ce5a949/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 68032,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

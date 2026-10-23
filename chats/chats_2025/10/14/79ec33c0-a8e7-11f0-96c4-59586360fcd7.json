@@ -1,0 +1,99 @@
+{
+  "id": "79ec33c0-a8e7-11f0-96c4-59586360fcd7",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "STESIL Lda Limpeza",
+    "id": "5b081d4d8859f57bdc7b8ddd-w6G_ZihQIObJYfQzrKkTC",
+    "email": "silviaantoniobacalhau@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Beira"
+  },
+  "messageCount": 9,
+  "chatDuration": 249,
+  "rating": 0,
+  "createdOn": "2025-10-14T10:34:41.538Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-14T10:34:41.538Z",
+      "msg": "Nome : ISPT/Mascarenha\r\nE-mail : silviaantoniobacalhau@gmail.com\r\nDescrição do Problema : bom dia, no nosso sistema nao aceita adicionar logotipo da empresa. peco assistencia"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-14T10:35:06.347Z",
+      "msg": "Boa tarde"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-14T10:35:13.542Z",
+      "msg": "Qual é o problema?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-14T10:35:25.433Z",
+      "msg": "da um erro_"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-14T10:35:30.142Z",
+      "msg": "?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-14T10:36:10.126Z",
+      "msg": "o nosso sistema nao reconhece o logotipo da empresa"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-14T10:37:11.491Z",
+      "msg": "Como assim não reconhece?\nTentou adicionar o logotipo?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-14T10:38:13.042Z",
+      "msg": "sim e principalmente nas facturas nao aparecem o logotipo da empresa"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-14T10:38:50.563Z",
+      "msg": "No perfil da empresa, devem carregar o logotipo. Existe um campo específico para tal"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

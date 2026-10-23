@@ -1,0 +1,37 @@
+{
+  "id": "95449eb0-545d-11f1-9f56-2bd4a3b23383",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Yolanda Chemane",
+    "id": "5b081d4d8859f57bdc7b8ddd-0a9W9TwPNWItTaaKDFyEy",
+    "email": "ychemane.yc@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T15:08:12.452Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:08:12.452Z",
+      "msg": "Nome : Yolanda Chemane\r\nE-mail : ychemane.yc@gmail.com\r\nDescrição do Problema : ychemane@ymail.com"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:08:29.315Z",
+      "msg": "Boa tarde"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "2693ee50-8404-11f0-9b01-cbaf9b4d0795",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/4002888183",
+    "id": "5b081d4d8859f57bdc7b8ddd-mUI7eXuqcqqObfAhlokNb",
+    "email": "costasimbine89@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 1146,
+  "rating": 0,
+  "createdOn": "2025-08-28T11:48:45.038Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-28T11:48:45.038Z",
+      "msg": "Nome : Costa Simbine\r\nTelefone : 258846322718\r\nE-mail : costasimbine89@gmail.com\r\nDescrição do Problema : nao entendi devidamente o preçario, quero que me explique passo a passo e detalhes por detalhes de como fazer o preçario no sistema, de modo mais realista possivel e profissional"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-28T11:50:32.725Z",
+      "msg": "Boa tarde\nEssa questão pode mandar ao docente \nQuestões que não sejam sobre funcionalidades do sistema, não temos como responder"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-28T12:07:51.144Z",
+      "msg": "o que tem haver convosco"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "76d2b8e0-2de8-11f1-ab65-4b710865fd2c",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "TC INFORMATICAS LDA/4003038508",
+    "id": "5b081d4d8859f57bdc7b8ddd-eV59sJhZrvpaD8xOzpFs0",
+    "email": "elziria@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-04-01T17:29:20.957Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-01T17:29:20.957Z",
+      "msg": "resolvido, pode actualizar a tela"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

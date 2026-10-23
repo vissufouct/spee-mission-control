@@ -1,0 +1,46 @@
+{
+  "id": "da88daf0-3ce7-11f1-95c9-115ddd5c000b",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "V1776709297698953",
+    "id": "5b081d4d8859f57bdc7b8ddd-et1bbGcMfaUErKuJ6NvKK",
+    "email": "harunecamil@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 3,
+  "chatDuration": 110,
+  "rating": 0,
+  "createdOn": "2026-04-20T18:37:48.719Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T18:37:48.719Z",
+      "msg": "Telefone : 258878000100\r\nE-mail : harunecamil@gmail.com\r\nDescrição do Problema : nao consigo entrar nem criar conta"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T18:38:20.222Z",
+      "msg": "codigo da turma 298467"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-20T18:39:39.172Z",
+      "msg": "o que acontece quando tenta entrar na conta?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "8967fb10-3e68-11f1-b00b-2d634e2fdbb2",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "GC TECNOLOGIAS,LDA",
+    "id": "5b081d4d8859f57bdc7b8ddd-DJsPp9UeDgokWKi75KbP2",
+    "email": "kamyla699@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 6,
+  "chatDuration": 586,
+  "rating": 0,
+  "createdOn": "2026-04-22T17:01:37.955Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:01:37.955Z",
+      "msg": "Nome : GC TECNOLOGIAS,LDA\r\nTelefone : 25844779133\r\nE-mail : kamyla699@gmail.com\r\nDescrição do Problema : NAO CONSIGO ADICIONAR CUSTOS FIXOSA"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:02:07.137Z",
+      "msg": "Qual a dificuladede que esta a ter?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:02:24.569Z",
+      "msg": "ELE NAO ASSUME QUANDO EU CLICO EM SALVAR"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:04:57.363Z",
+      "msg": "colocou os valores certo? prencheu todos campos?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:05:12.746Z",
+      "msg": "SIM"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:11:24.414Z",
+      "msg": "estamos a verificar"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

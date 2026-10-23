@@ -1,0 +1,29 @@
+{
+  "id": "93a83180-60fa-11f1-ac56-19d760a9e9e9",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "JE Lda ENERGY",
+    "id": "5b081d4d8859f57bdc7b8ddd-fq0yjava_1dzbFbUP4XkG",
+    "email": "carruaneeugenio@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-06-05T16:22:32.698Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-05T16:22:32.698Z",
+      "msg": "Name : JE Lda ENERGY\r\nEmail : josendavatavadossantos@gmail.com\r\nPhone : +258863610980\r\nDescrição do Problema : Nao consigo fazer a compra dos activos minimos porque nao aparece a barra de pesquisa para tal"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

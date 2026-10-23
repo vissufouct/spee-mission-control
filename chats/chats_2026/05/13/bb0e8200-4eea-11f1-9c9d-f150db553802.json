@@ -1,0 +1,51 @@
+{
+  "id": "bb0e8200-4eea-11f1-9c9d-f150db553802",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "VF Telecomunicacoes lda",
+    "id": "5b081d4d8859f57bdc7b8ddd-z287YO3p4Pyh7CYUwnLCD",
+    "email": "fabiaomassingue05@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-13T16:55:23.399Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-13T16:55:23.399Z",
+      "msg": "Nome : VF Telecomunicacoes lda\r\nTelefone : 2584810387\r\nE-mail : Floidefc@gmail.com\r\nDescrição do Problema : Boa noite, como está? Peço uma ajuda para colocar o logotipo, eu falei com o suporte para poder ajudar, mas até então não tenho sucesso.\nAí tem o meu logotipo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-13T16:56:02.559Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/6a04a9f50eecebc220855b9d/v/a7091ec06470a3df4e5659e36d260b195ae8e501/1.jpg",
+              "name": "1.jpg",
+              "mimeType": "image/jpeg",
+              "size": 113658,
+              "extension": "jpg"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

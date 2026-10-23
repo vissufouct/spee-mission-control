@@ -1,0 +1,47 @@
+{
+  "id": "5a067720-222a-11f1-9757-d7387e1b7077",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-jE4QZdcR9GMZc_ACv1dtJ",
+    "email": "marvindias417@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 404,
+  "rating": 0,
+  "createdOn": "2026-03-17T18:12:37.673Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-17T18:12:37.673Z",
+      "msg": "Nome : A Politecnica - MPT/Mabote\r\nTelefone : 258864461339\r\nE-mail : mabotekhan@gmail.com\r\nDescrição do Problema : Login em outra conta, porem usando as minhas credenciais, \ndepois de tentar adicionar o parceiro recebo a mensagem de erro"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-17T18:18:04.516Z",
+      "msg": "um momento por favor"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-17T18:19:21.935Z",
+      "msg": "tem uma opcao, no canto que diz recuperar senha, clica nela"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

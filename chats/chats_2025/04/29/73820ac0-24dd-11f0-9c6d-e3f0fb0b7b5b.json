@@ -1,0 +1,37 @@
+{
+  "id": "73820ac0-24dd-11f0-9c6d-e3f0fb0b7b5b",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Mobiliário. Lda M&M",
+    "id": "5b081d4d8859f57bdc7b8ddd-fYxo7EiviF7CQpA6iLVX7",
+    "email": "mariazandamela93@gmail.com"
+  },
+  "location": {
+    "countryCode": "ZA",
+    "city": "Thohoyandou"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-04-29T09:44:37.026Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-29T09:44:37.026Z",
+      "msg": "Nome : Mobiliário. Lda /4002807789 M&M\r\nE-mail : mariazandamela93@gmail.com\r\nDescrição do Problema : Apos nao encontrar as facturas das ONGS no sistema, o que pode fazer?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-29T09:45:49.909Z",
+      "msg": "O que fazer para recuperar as facturas das ONGS no sistema"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,98 @@
+{
+  "id": "a0483550-2a5c-11f0-8a83-972351655a03",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Rosa Rosário malunguissa",
+    "id": "5b081d4d8859f57bdc7b8ddd-JxeStpBVBQ3_4fTYlzMsX",
+    "email": "rosamalunguissa5@icloud.com"
+  },
+  "location": {
+    "countryCode": "NG",
+    "city": "Unknown"
+  },
+  "messageCount": 9,
+  "chatDuration": 379,
+  "rating": 0,
+  "createdOn": "2025-05-06T09:33:39.729Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-06T09:33:39.729Z",
+      "msg": "Nome : Rosa Rosário malunguissa\r\nTelefone : 871949475\r\nE-mail : rosamalunguissa5@icloud.com\r\nDescrição do Problema : Quando tento colocar a passar passe diz que a palavra passe está errada, e quando peço uma nova palavra passe me enviar a mesma de antes, e quando tento entrar diz que a palavra está errada…"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-06T09:34:20.603Z",
+      "msg": "Bom dia"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-06T09:34:30.655Z",
+      "msg": "Peço que explique melhor o problema"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-06T09:34:50.974Z",
+      "msg": "tá com dificuldades em aceder a tua conta no sistema?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-06T09:35:28.584Z",
+      "msg": "Sim, tenho dificuldade em aceder minha conta no spee por causa da palavra passe"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-06T09:37:27.381Z",
+      "msg": "peço seu email"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-06T09:38:02.956Z",
+      "msg": "rosamalunguissa5@icloud.com"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-06T09:38:55.165Z",
+      "msg": "2bcf562  - use esta senha"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-06T09:39:58.618Z",
+      "msg": "É essa senha que me deram da última vez quando coloquei a senha estava incorreta"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

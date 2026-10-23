@@ -1,0 +1,71 @@
+{
+  "id": "5efdd1e0-049b-11f0-ba9b-27512d3ba9ee",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Manjate",
+    "id": "5b081d4d8859f57bdc7b8ddd-Fi9Lm2dNUCeonKCXQgrSK",
+    "email": "mirciamanjate3@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 6,
+  "chatDuration": 564,
+  "rating": 0,
+  "createdOn": "2025-03-19T08:36:35.389Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:36:35.389Z",
+      "msg": "Nome : ISCIM/Manjate\r\nE-mail : mirciamanjate3@gmail.com\r\nDescrição do Problema : nao consigo aceder a loja online de produtos minimos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:36:58.796Z",
+      "msg": "Bom dia"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:37:06.520Z",
+      "msg": "peço email de acesso"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:37:27.383Z",
+      "msg": "da empresa ou pessoal?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:38:17.038Z",
+      "msg": "mirciamanjate3@gmail.com"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:41:39.688Z",
+      "msg": "?????"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

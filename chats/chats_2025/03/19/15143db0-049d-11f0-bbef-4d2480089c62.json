@@ -1,0 +1,60 @@
+{
+  "id": "15143db0-049d-11f0-bbef-4d2480089c62",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/4002807809",
+    "id": "5b081d4d8859f57bdc7b8ddd-PNaeW5mRAmYVB4z4_e035",
+    "email": null
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 692,
+  "rating": 0,
+  "createdOn": "2025-03-19T08:39:04.306Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:39:04.306Z",
+      "msg": "Nome : ISCIM/Marrengula\r\nDescrição do Problema : Não consigo aceder a loja online- activos mínimos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:46:32.353Z",
+      "msg": "Logo depois de fazer login a platarfoma, entrar para o campo destacado, e voltar a aceder aos activos minimos",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/601259d0aef265740ffba13e783909b276f58379/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 68032,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:50:36.403Z",
+      "msg": ":kissing_heart:"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

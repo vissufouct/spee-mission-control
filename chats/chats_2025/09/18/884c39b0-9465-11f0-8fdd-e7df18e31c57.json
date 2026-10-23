@@ -1,0 +1,88 @@
+{
+  "id": "884c39b0-9465-11f0-8fdd-e7df18e31c57",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "DigitalX",
+    "id": "5b081d4d8859f57bdc7b8ddd-8ywtywDj2Z1Udi0Fu9_EJ",
+    "email": "samondinemubinaismael@gmail.com"
+  },
+  "location": {
+    "countryCode": "CA",
+    "city": "Vancouver"
+  },
+  "messageCount": 8,
+  "chatDuration": 435,
+  "rating": 0,
+  "createdOn": "2025-09-18T09:33:55.723Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-18T09:33:55.723Z",
+      "msg": "Nome : DigitalX\r\nTelefone : 258875016591\r\nE-mail : samondinemubinaismael@gmail.com\r\nDescrição do Problema : as faturas não saem com logo da empresa"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-09-18T09:35:11.110Z",
+      "msg": "Bom dia, as facturas do SGC nao saem com o logo da empresa."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-18T09:35:22.993Z",
+      "msg": "sim"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-18T09:35:57.083Z",
+      "msg": "eu quero que elas saem com a logo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-09-18T09:37:24.158Z",
+      "msg": "Para sairem com o mesmo logo tem que colocar o logo da empresa no SGC"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-18T09:38:34.185Z",
+      "msg": "coloca para me"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-18T09:39:19.704Z",
+      "msg": "pode ser"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-09-18T09:41:10.407Z",
+      "msg": "entre no SGC vai ate o perfil da empresa (no canto da tela) e adicione la o logo da empresa"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

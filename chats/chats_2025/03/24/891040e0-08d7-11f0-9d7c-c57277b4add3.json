@@ -1,0 +1,29 @@
+{
+  "id": "891040e0-08d7-11f0-9d7c-c57277b4add3",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-o0w2j3XiqGOvVbn75turv",
+    "email": "mussagymagid@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-03-24T17:56:28.859Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-24T17:56:28.859Z",
+      "msg": "Nome : /\r\nE-mail : mussagymagid@gmail.com\r\nDescrição do Problema : nao consigo aceder a minha empresa"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

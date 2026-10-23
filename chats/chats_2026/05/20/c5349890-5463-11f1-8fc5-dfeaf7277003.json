@@ -1,0 +1,29 @@
+{
+  "id": "c5349890-5463-11f1-8fc5-dfeaf7277003",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Sheila Futuro Chideco",
+    "id": "5b081d4d8859f57bdc7b8ddd-GuNj_qTgJfJ8QMBSxiCfy",
+    "email": "futurosheila@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T15:53:52.415Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:53:52.415Z",
+      "msg": "Nome : Sheila Futuro Chideco\r\nTelefone : 258840673340\r\nE-mail : futurosheila@gmail.com\r\nDescrição do Problema : futurosheila@gmail.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

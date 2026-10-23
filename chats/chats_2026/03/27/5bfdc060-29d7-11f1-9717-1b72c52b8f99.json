@@ -1,0 +1,29 @@
+{
+  "id": "5bfdc060-29d7-11f1-9717-1b72c52b8f99",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ITIS/Sequeira",
+    "id": "5b081d4d8859f57bdc7b8ddd-PzaxQypA1mgbgRsiML8ek",
+    "email": "gerciavsequeira@gmail.com"
+  },
+  "location": {
+    "countryCode": "PT",
+    "city": "Almada"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-03-27T12:52:10.082Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-27T12:52:10.082Z",
+      "msg": "Nome : ITIS/Sequeira\r\nE-mail : gerciavsequeira@gmail.com\r\nDescrição do Problema : DSFGEWGEW"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

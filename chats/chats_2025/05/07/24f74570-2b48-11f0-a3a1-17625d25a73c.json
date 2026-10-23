@@ -1,0 +1,63 @@
+{
+  "id": "24f74570-2b48-11f0-a3a1-17625d25a73c",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "UNILURIO/Massoca",
+    "id": "5b081d4d8859f57bdc7b8ddd-zjY8_mTDXBMeH65LemNE4",
+    "email": "marionmassoca@gmail.com"
+  },
+  "location": {
+    "countryCode": "NG",
+    "city": "Unknown"
+  },
+  "messageCount": 5,
+  "chatDuration": 131,
+  "rating": 0,
+  "createdOn": "2025-05-07T14:02:54.693Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-07T14:02:54.693Z",
+      "msg": "Nome : UNILURIO/Massoca\r\nTelefone : 874108194\r\nE-mail : marionmassoca@gmail.com\r\nDescrição do Problema : Boa tarde!espero  que estejam bem.\nLancei o valor do capital inicial errado,como faço para retificar?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-07T14:03:39.122Z",
+      "msg": "Boa tarde\nFala de capital social?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-07T14:03:57.696Z",
+      "msg": "Sim"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-07T14:04:36.767Z",
+      "msg": "Peça ao docente"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-07T14:05:06.106Z",
+      "msg": "Esta bem!"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

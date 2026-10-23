@@ -1,0 +1,29 @@
+{
+  "id": "bb16ded0-546e-11f1-9b7d-bfcfb739a4e8",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Wesley Matsimbe",
+    "id": "5b081d4d8859f57bdc7b8ddd-bTlUf8WVT_CTsHWyi_kL7",
+    "email": "wesleymatsiy54@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T17:13:39.551Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T17:13:39.551Z",
+      "msg": "Nome : Wesley Matsimbe\r\nTelefone : 258877990028\r\nE-mail : wesleymatsiy54@gmail.com\r\nDescrição do Problema : wesleymatsiy54@gmail.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

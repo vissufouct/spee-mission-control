@@ -1,0 +1,29 @@
+{
+  "id": "ab7dae20-b88f-11f0-80b3-9b6fd7dad4b5",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISDB/Ndima",
+    "id": "5b081d4d8859f57bdc7b8ddd-fVcOEnNNPeErUk4qDjDk9",
+    "email": "eltonluvas7@gmail.com"
+  },
+  "location": {
+    "countryCode": "UKN",
+    "city": "Unknown"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-11-03T09:26:36.935Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-03T09:26:36.935Z",
+      "msg": "Nome : ISDB/Ndima\r\nE-mail : eltonluvas7@gmail.com\r\nDescrição do Problema : Maior demanda do negocio"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

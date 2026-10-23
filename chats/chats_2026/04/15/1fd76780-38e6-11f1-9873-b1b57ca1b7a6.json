@@ -1,0 +1,37 @@
+{
+  "id": "1fd76780-38e6-11f1-9873-b1b57ca1b7a6",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "VF Telecomunicacoes lda",
+    "id": "5b081d4d8859f57bdc7b8ddd-aMy48cA4iHwntAuTbrsFE",
+    "email": "vanessainguane5@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-04-15T17:03:18.844Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T17:03:18.844Z",
+      "msg": "Nome : /\r\nE-mail : vanessainguane5@gmail.com\r\nDescrição do Problema : boa noite estou tendo dificuldades no processo de completar o perfil"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T17:04:48.416Z",
+      "msg": "No processo de Altercao do Iva o programa nao aceita"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

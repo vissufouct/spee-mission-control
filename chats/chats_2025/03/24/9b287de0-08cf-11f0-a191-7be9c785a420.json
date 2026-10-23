@@ -1,0 +1,29 @@
+{
+  "id": "9b287de0-08cf-11f0-a191-7be9c785a420",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "KM LDA TECH",
+    "id": "5b081d4d8859f57bdc7b8ddd-135SaOsvzSGfIG_X9po61",
+    "email": "sheldonkhoisan87@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-03-24T16:58:34.248Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-24T16:58:34.248Z",
+      "msg": "Nome : KM LDA TECH\r\nE-mail : sheldonkhoisan87@gmail.com\r\nDescrição do Problema : Boa noite\nestou com dificuldades para alterar o logotipo."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

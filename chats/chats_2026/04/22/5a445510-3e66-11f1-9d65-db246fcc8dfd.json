@@ -1,0 +1,139 @@
+{
+  "id": "5a445510-3e66-11f1-9d65-db246fcc8dfd",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "V&F, LDA – Equipamentos Informáticos & Serviços de Reparação",
+    "id": "5b081d4d8859f57bdc7b8ddd-bjUFxNrK1ydTAfTODQay0",
+    "email": "valterarlete23@gmail.com"
+  },
+  "location": {
+    "countryCode": "ZA",
+    "city": "Johannesburg"
+  },
+  "messageCount": 14,
+  "chatDuration": 860,
+  "rating": 0,
+  "createdOn": "2026-04-22T17:27:05.838Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:27:05.838Z",
+      "msg": "Nome : V&F, LDA – Equipamentos Informáticos & Serviços de Reparação\r\nE-mail : valterarlete23@gmail.com\r\nDescrição do Problema : Estou com dificuldades em aceder ao meu plano de Negocio, solicito pelo vosso apoio."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:28:25.534Z",
+      "msg": "Qual é o problema?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:28:50.770Z",
+      "msg": "Já criou o plano?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:28:56.185Z",
+      "msg": "sim"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:29:12.244Z",
+      "msg": "Mas nao aparece"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:30:04.833Z",
+      "msg": "Criou com um socio?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:30:52.874Z",
+      "msg": "Sim com o meu socio"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:32:23.837Z",
+      "msg": "Ele quem criou ou foi vc?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:32:55.145Z",
+      "msg": "foi ele"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:35:17.836Z",
+      "msg": "É o seguinte, o plano de negocio não se cria em conjunto, apenas quem criou é que pode visualizar, o plano é criado pela conta individual do estudante e não da empresa do estudante assim que só um criou so ele pode visualizar o outro não pode, mesmo sendo socios!independentemente de operar no perfil da empresa!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:37:11.474Z",
+      "msg": "Assim que ele nao actualiza outros campos? como ficamos?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:39:31.042Z",
+      "msg": "Que campo?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:40:40.254Z",
+      "msg": "O plano a nivel do sistema nao da todas as Informacoes"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:41:25.535Z",
+      "msg": "e quando fazemos a impressao nao aparece toda informacao"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

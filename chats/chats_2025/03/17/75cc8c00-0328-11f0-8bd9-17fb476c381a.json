@@ -1,0 +1,157 @@
+{
+  "id": "75cc8c00-0328-11f0-8bd9-17fb476c381a",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-NI4SfWqXskEWW1bZHquPq",
+    "email": "shelciauamusse0300@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 16,
+  "chatDuration": 2588,
+  "rating": 0,
+  "createdOn": "2025-03-17T12:26:25.787Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:26:25.787Z",
+      "msg": "Nome : shelcia\r\nTelefone : 847761030\r\nE-mail : shelciauamusse0300@gmail.com\r\nDescrição do Problema : dificuldades para adicionar a provincia de MAPUTO"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:26:43.840Z",
+      "msg": "Boa tarde"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:26:57.291Z",
+      "msg": "onde quer adicionar a provincia?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:27:40.807Z",
+      "msg": "em filtragem de imobiliarias"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:27:59.770Z",
+      "msg": "no campo de provincia"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:29:22.284Z",
+      "msg": "pode mandar o print da tua tela?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:31:35.921Z",
+      "msg": "como adicionar a provincia de maputo no campo provincia me filtragem de imobiliarias"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:32:18.616Z",
+      "msg": "tem opções"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:32:22.265Z",
+      "msg": "para selecionar"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:32:34.944Z",
+      "msg": "na lista, procura a provincia de maputo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:32:50.953Z",
+      "msg": "nao aparece a opcao maputo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:32:56.612Z",
+      "msg": "o que devo fazer"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:33:31.600Z",
+      "msg": "quero que me de opcoes de provincias de mocambique"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:33:58.705Z",
+      "msg": "podes mandar print da tela em que estas, no sistema?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:46:49.075Z",
+      "msg": "tenho dificildades para tirar print"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:49:53.809Z",
+      "msg": "https://spee.simulacao.co.mz/"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

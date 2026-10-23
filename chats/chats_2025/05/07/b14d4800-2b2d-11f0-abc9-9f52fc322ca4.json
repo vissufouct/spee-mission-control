@@ -1,0 +1,55 @@
+{
+  "id": "b14d4800-2b2d-11f0-abc9-9f52fc322ca4",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-y250dbCHQ3T1EBcaCdkv_",
+    "email": "dbechardas@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 4,
+  "chatDuration": 1450,
+  "rating": 0,
+  "createdOn": "2025-05-07T10:30:46.418Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-07T10:30:46.418Z",
+      "msg": "Nome : A Politecnica - MPT/Bechardas\r\nE-mail : dbechardas@gmail.com\r\nDescrição do Problema : Gostaria de adicionar mais um membro a empresa como faco"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-07T10:31:24.156Z",
+      "msg": "Boa tarde\nmanda convite"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-07T10:32:00.334Z",
+      "msg": "desculpe, e como faco isso?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-07T10:54:56.696Z",
+      "msg": "a pessoa ja tem uma empresa constituida?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

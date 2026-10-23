@@ -1,0 +1,68 @@
+{
+  "id": "02d01d70-049f-11f0-90a7-fd739f2938c2",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/4002807804",
+    "id": "5b081d4d8859f57bdc7b8ddd-TN0xnQaNbS945iyW5Cs3R",
+    "email": "dulce.candido.manajte@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 4,
+  "chatDuration": 2364,
+  "rating": 0,
+  "createdOn": "2025-03-19T08:51:44.250Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:51:44.250Z",
+      "msg": "Nome : ISCIM/Manjate\r\nE-mail : dulce.candido.manajte@gmail.com\r\nDescrição do Problema : Bom dia!\nnao consigo aceder aos Activos Minimos, porque da um erro"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:52:18.761Z",
+      "msg": "logo apos aceder a plataforma, entrar para este campo. e depois voltar a tentar aceceder aos activos minimos",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/d27f289792f3a9bca052eba286ec3c8e80924dc1/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 68032,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:53:44.639Z",
+      "msg": "entrei no sistema de gestao"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:55:34.765Z",
+      "msg": "Muito obrigado"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

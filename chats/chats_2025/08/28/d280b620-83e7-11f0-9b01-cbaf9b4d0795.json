@@ -1,0 +1,217 @@
+{
+  "id": "d280b620-83e7-11f0-9b01-cbaf9b4d0795",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ND Papelaria & Personalizados Lda",
+    "id": "5b081d4d8859f57bdc7b8ddd-JHEimNFn9RbaERTJaUwri",
+    "email": "garfochimica34@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 23,
+  "chatDuration": 1057,
+  "rating": 0,
+  "createdOn": "2025-08-28T08:26:39.576Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-28T08:26:39.576Z",
+      "msg": "Nome : ND Papelaria & Personalizados , Lda\r\nTelefone : 258845063123\r\nE-mail : cassimo3@icloud.com\r\nDescrição do Problema : nao consigo aceder a minha conta , a minha senha , ja disse que esqueci a senha mas nao mandam nada para o meu e-mail"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-28T08:27:36.386Z",
+      "msg": "Bom dia"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-28T08:28:08.610Z",
+      "msg": "cassimo3@icloud.com- o email não é este?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-28T08:28:54.413Z",
+      "msg": "sim"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-28T08:30:01.868Z",
+      "msg": "peco nova senha"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-28T08:31:21.990Z",
+      "msg": "Tem que clicar em \"esqueci nova senha\", e depois submeter"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-28T08:31:31.917Z",
+      "msg": "Tentou fazer isso?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-28T08:32:26.369Z",
+      "msg": "tentei , mas nao me mandaram nada"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-28T08:32:29.510Z",
+      "msg": "volta a tentar agora"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-28T08:32:50.690Z",
+      "msg": "mas dá informação d euqe o email foi enviado?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-28T08:33:02.393Z",
+      "msg": "nao"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-28T08:33:24.963Z",
+      "msg": "escreves o email correctamente?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-28T08:34:11.055Z",
+      "msg": "sim"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-28T08:34:31.996Z",
+      "msg": "pode me mandar o printe da tela, depois de ter escrito o email?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-28T08:37:13.896Z",
+      "msg": "diz que o meu e-mail nao  esta associado"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-28T08:37:51.526Z",
+      "msg": "qual é o email que está a colocar?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-28T08:38:02.321Z",
+      "msg": "deve estar a colocar de forma incorrecta"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-28T08:38:41.566Z",
+      "msg": "cassimo3@icloud.com- usa este"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-28T08:39:57.652Z",
+      "msg": "estou a usar esse mesmo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-28T08:42:34.668Z",
+      "msg": "nao aceita ,me ajude"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-08-28T08:42:56.255Z",
+      "msg": "veja o seu email"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-28T08:43:41.982Z",
+      "msg": "eu ja disse que nao consigo aceder"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-28T08:44:16.484Z",
+      "msg": "peco nova senha"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

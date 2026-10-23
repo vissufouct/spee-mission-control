@@ -1,0 +1,318 @@
+{
+  "id": "20b7c130-a5c1-11f0-ba94-eb17d78158c7",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "DigitalX/4002807781",
+    "id": "5b081d4d8859f57bdc7b8ddd-8ywtywDj2Z1Udi0Fu9_EJ",
+    "email": "tomassantos779@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 34,
+  "chatDuration": 8644,
+  "rating": 0,
+  "createdOn": "2025-10-10T10:11:28.984Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-10T10:11:28.984Z",
+      "msg": "Nome : DigitalX/4002807781\r\nTelefone : 258875016591\r\nE-mail : aduinaemilio@gmail.com\r\nDescrição do Problema : Não encontrou o produto desejado, da minha empresa na moz online"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-10-10T10:12:22.839Z",
+      "msg": "Boa tarde, de qual produto esta aprocura?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-10T10:13:05.186Z",
+      "msg": "os produtos para compra a grosso"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-10T10:13:30.874Z",
+      "msg": "os produtos da projeção"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-10-10T10:15:42.891Z",
+      "msg": "Poderia se favor mandar o print da tela para facilitar o entendimento?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-10T10:16:19.315Z",
+      "msg": "?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-10-10T10:17:13.664Z",
+      "msg": "mande o print da tela onde o estudante nao esta encontrar os produtos"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-10T10:20:55.759Z",
+      "msg": "moz online"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-10T10:21:40.434Z",
+      "msg": "nao tem como mandar o print, estou usado o computador"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-10-10T10:25:11.295Z",
+      "msg": "se na encontra os produtos  lembre-se que só estão disponiveis produtos/serviços, registados como custos variaveis na projecção de preços"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-10T10:32:17.272Z",
+      "msg": "pode mostrar e passar para moz online"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-10T10:32:48.383Z",
+      "msg": "para poder fazer a compra"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-10-10T10:34:46.018Z",
+      "msg": "so reprojectar s precos, mas colocando como custos variaveis"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-10T10:36:45.563Z",
+      "msg": "como faco?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-10-10T10:51:24.844Z",
+      "msg": "Registou os Produtos no SGC?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-10T10:51:59.145Z",
+      "msg": "sim"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-10T10:53:41.726Z",
+      "msg": "e os produtos estao na lista de entrada de stock"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-10-10T10:53:52.060Z",
+      "msg": "e qual o problema que o estudante esta a enfrentar?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-10T10:55:03.108Z",
+      "msg": "preciso comprar os produtos a grosso no Moz online"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-10T10:55:31.795Z",
+      "msg": "e os produtos estão na lista de entrada de stock"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-10-10T10:58:04.941Z",
+      "msg": "pra isso tem que fazer a projecao de precos no SPEE:",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/67bc6520a561be464e803d37/5c460c4e454c6b7d5494b1e28ff27f6645281202/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 94484,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-10T10:59:41.242Z",
+      "msg": "depois qual e o próximo passo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-10-10T10:59:57.583Z",
+      "msg": "o produtos vao aparacer na MOZ online"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-10T11:02:27.855Z",
+      "msg": "vendas de equipamentos informáticos e um produto ou serviço"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-10T11:03:10.474Z",
+      "msg": "?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-10-10T11:03:46.107Z",
+      "msg": "Pergunte o docente!"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-10-10T11:04:11.251Z",
+      "msg": "A plataforme e so pra questoes sobre o sistema em si"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-10T11:05:05.425Z",
+      "msg": "tudo be"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-10T11:05:10.392Z",
+      "msg": "bem"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-10T11:05:32.414Z",
+      "msg": "agora estou a registar os produtos"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-10T12:25:28.144Z",
+      "msg": "já fiz a compra a grosso depois qual e o próximo passo para fazer as facturas para clientes"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-10T12:25:37.527Z",
+      "msg": "?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-10T12:32:12.694Z",
+      "msg": "?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-10T12:35:32.917Z",
+      "msg": "ola"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

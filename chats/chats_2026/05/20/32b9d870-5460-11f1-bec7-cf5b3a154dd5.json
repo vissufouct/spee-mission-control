@@ -1,0 +1,29 @@
+{
+  "id": "32b9d870-5460-11f1-bec7-cf5b3a154dd5",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Sidney Boaventura",
+    "id": "5b081d4d8859f57bdc7b8ddd-cT4wMkAAhtJj8HDaYSkMP",
+    "email": "daneytechlda@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T15:28:48.836Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:28:48.836Z",
+      "msg": "Nome : Sidney Boaventura\r\nTelefone : 258833891203\r\nE-mail : sidjboa1703@gmail.com\r\nDescrição do Problema : sidjboa1703@gmail.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

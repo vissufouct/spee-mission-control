@@ -1,0 +1,125 @@
+{
+  "id": "5429f970-2c0d-11f1-9701-dbc52f8037dc",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "UDM/Cuco",
+    "id": "5b081d4d8859f57bdc7b8ddd-Gj7bcIrVaMbMyre4HYk1I",
+    "email": "moisesnamuguete101@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 9,
+  "chatDuration": 695,
+  "rating": 0,
+  "createdOn": "2026-03-30T08:19:05.094Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-30T08:19:05.094Z",
+      "msg": "Nome : UDM/Cuco\r\nTelefone : 258868731652\r\nE-mail : moisesnamuguete101@gmail.com\r\nDescrição do Problema : Bom dia pedimos alteracao do idioma de ingles para portugues"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-03-30T08:21:13.359Z",
+      "msg": "Bom dia, esta tudo em ingles?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-30T08:21:24.734Z",
+      "msg": "beatrizricardocuco01@gmail.com"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-03-30T08:24:09.882Z",
+      "msg": "Vai ate a pagina principal e clica nessa parte em vermelho como esta na imagem",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/67bc6520a561be464e803d37/b858df9e0212acfa58fc0ff4eaebdc9e6eba940e/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 107731,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-03-30T08:24:22.560Z",
+      "msg": "vai poder mudar para portugues"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-30T08:26:02.636Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69ca2b9e3ad48120250637d9/v/f736c12ffac483096e3388e3ccdaa96d53501577/image.png",
+              "name": "image.png",
+              "mimeType": "image/png",
+              "size": 108876,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-30T08:28:48.949Z",
+      "msg": "nosso email e o da beatrizricardocucu01@gmail.com"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-03-30T08:29:43.004Z",
+      "msg": "Um momento por favor, e a unica estudante com esse problema?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-30T08:30:40.106Z",
+      "msg": "ate agora sim"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

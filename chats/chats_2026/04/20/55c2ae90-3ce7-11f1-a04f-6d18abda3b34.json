@@ -1,0 +1,103 @@
+{
+  "id": "55c2ae90-3ce7-11f1-a04f-6d18abda3b34",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-W3LAC_Xw3c17sIfFSEbjT",
+    "email": "passuane90@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 8,
+  "chatDuration": 443,
+  "rating": 0,
+  "createdOn": "2026-04-20T18:42:07.216Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T18:42:07.216Z",
+      "msg": "Nome : A & P Limitada Combustíveis e Lubrificantes\r\nTelefone : 258841048024\r\nE-mail : passuane90@gmail.com\r\nDescrição do Problema : ."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-20T18:43:11.051Z",
+      "msg": "peco que descreva o problema"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T18:43:34.658Z",
+      "msg": "NAO ACEITA AVANCAR",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69e671513ad481202552dbd0/v/1e40d0ee5eb9a6cfd8fb57d550c88db012975994/Captura_de_ecr%C3%A3_2026-04-20_204228.png",
+              "name": "Captura de ecrã 2026-04-20 204228.png",
+              "mimeType": "image/png",
+              "size": 50837,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-20T18:45:34.711Z",
+      "msg": "avancar refere facturar?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T18:46:39.342Z",
+      "msg": "Pro Forma, apos adição das quantidades  NETX"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-20T18:47:09.432Z",
+      "msg": "nessa opcao so tem uma pagina, nao pode avancar para Next"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-20T18:47:38.524Z",
+      "msg": "pode clicar na opcao facturar escrito a azul para prosseguir"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T18:49:30.038Z",
+      "msg": "Grato pela explicacao"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

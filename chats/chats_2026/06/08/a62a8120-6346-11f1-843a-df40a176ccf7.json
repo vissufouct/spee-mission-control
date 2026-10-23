@@ -1,0 +1,45 @@
+{
+  "id": "a62a8120-6346-11f1-843a-df40a176ccf7",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCAM/Chavane",
+    "id": "5b081d4d8859f57bdc7b8ddd-78NhqSDdXuuPruFXccSov",
+    "email": "fermino.chavane@iscam.ac.mz"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-06-08T14:34:37.189Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-08T14:34:37.189Z",
+      "msg": "Name : S&F CONCULTORES E ASSOCIADOS,LDA\r\nEmail : fermino.chavane@iscam.ac.mz\r\nPhone : +258846173052\r\nDescrição do Problema : Saudacoes Eng. aqui Fermino Chavane e Samuel Chicane, socios da empresa S&F CONSULTORES E ASSOCIADOS LDA, venha procurar saber sobre nossa situcao, relativamente a questao da divisao de capital social e readicao do socio no sistema."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-08T14:35:27.930Z",
+      "msg": "Pensamos que talvez se avancarmos com a contratacao dos servicos pode dar um problemas mais adiante"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-08T15:09:14.950Z",
+      "msg": "Nuit: 4003078680"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

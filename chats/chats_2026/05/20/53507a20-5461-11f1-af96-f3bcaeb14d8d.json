@@ -1,0 +1,37 @@
+{
+  "id": "53507a20-5461-11f1-af96-f3bcaeb14d8d",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Inês Virginia Ricardo Maputua",
+    "id": "5b081d4d8859f57bdc7b8ddd-rlyZBZjb0rYrkVjUdFoT1",
+    "email": "inesvirginiaricardomaputua@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T15:35:08.249Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:35:08.249Z",
+      "msg": "Nome : A Politecnica - MPT/Maputua\r\nTelefone : 2587083707\r\nE-mail : inesvirginiaricardomaputua@gmail.com\r\nDescrição do Problema : Chat"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:36:13.893Z",
+      "msg": "Nome: Inês Virginia Ricardo Maputua"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

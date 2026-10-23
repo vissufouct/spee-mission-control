@@ -1,0 +1,80 @@
+{
+  "id": "66f1bb40-2ec1-11f1-9e11-6f92f6aa31e7",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "UDM/Matsinhe",
+    "id": "5b081d4d8859f57bdc7b8ddd-0MXRVEA04eqmZHBvMe6af",
+    "email": "wakelton1988@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 7,
+  "chatDuration": 1377,
+  "rating": 0,
+  "createdOn": "2026-04-02T18:38:13.659Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-02T18:38:13.659Z",
+      "msg": "Nome : UDM/Matsinhe\r\nTelefone : 258845801436\r\nE-mail : wakelton1988@gmail.com\r\nDescrição do Problema : Estou a tentar aceder aceder aos concursos públicos porém  nao acede. Me tira do sistema para a páginas das credenciais. Empresa: MozForma Design, Lda"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-02T18:46:39.072Z",
+      "msg": "Boa noite, tentar sair do navegador e voltar a entrar e fazer login"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-02T18:56:46.871Z",
+      "msg": "prevalece"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-02T18:56:55.510Z",
+      "msg": "começou ontem"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-02T18:57:18.558Z",
+      "msg": "Um momento porfavor"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-02T18:57:51.010Z",
+      "msg": "certo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-02T19:01:11.107Z",
+      "msg": "peco uns 10 minutos  so"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

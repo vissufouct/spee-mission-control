@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "revision": 0,
+  "context": {
+    "studentName": "Ana Machava",
+    "studentEmail": "ana.machava@exemplo.ac.mz",
+    "className": "Turma A · Contabilidade Aplicada",
+    "routeName": "Moçambique 2026",
+    "currentBlockId": "constituicao"
+  },
+  "blocks": [
+    {
+      "id": "ideacao",
+      "title": "Ideação",
+      "description": "Da ideia ao modelo de negócio.",
+      "state": "completed",
+      "activities": [
+        {
+          "id": "definir-ideia",
+          "title": "Definir a ideia de negócio",
+          "description": "Identificar uma oportunidade e o público-alvo.",
+          "status": "completed"
+        },
+        {
+          "id": "modelo-negocio",
+          "title": "Preparar o modelo de negócio",
+          "description": "Descrever a proposta de valor da empresa.",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "id": "constituicao",
+      "title": "Constituição",
+      "description": "Reserva, registo, sócios e início de actividades.",
+      "state": "in-progress",
+      "activities": [
+        {
+          "id": "reserva-nome",
+          "title": "Reserva do nome",
+          "description": "Verificar e reservar o nome da empresa.",
+          "status": "completed"
+        },
+        {
+          "id": "registar-empresa",
+          "title": "Registar empresa",
+          "description": "Submeter os elementos para registo da empresa.",
+          "status": "in-progress"
+        },
+        {
+          "id": "convidar-socios",
+          "title": "Convidar sócios",
+          "description": "Enviar convites e validar a participação.",
+          "status": "available"
+        },
+        {
+          "id": "inicio-actividades",
+          "title": "Início de actividades",
+          "description": "Comunicar o início de actividades às entidades competentes.",
+          "status": "blocked",
+          "reason": "Requer a constituição concluída"
+        }
+      ]
+    },
+    {
+      "id": "primeiro-ano",
+      "title": "Primeiro ano fiscal",
+      "description": "Contratos, operações, salários e obrigações.",
+      "state": "blocked",
+      "activities": [
+        {
+          "id": "ano1-0",
+          "title": "Comprar mercadorias",
+          "description": "Actividade do primeiro ano fiscal.",
+          "status": "blocked",
+          "reason": "Requer a constituição concluída"
+        },
+        {
+          "id": "ano1-1",
+          "title": "Emitir facturas de venda",
+          "description": "Actividade do primeiro ano fiscal.",
+          "status": "blocked",
+          "reason": "Requer a constituição concluída"
+        },
+        {
+          "id": "ano1-2",
+          "title": "Processar salários",
+          "description": "Actividade do primeiro ano fiscal.",
+          "status": "blocked",
+          "reason": "Requer a constituição concluída"
+        },
+        {
+          "id": "ano1-3",
+          "title": "Preparar declaração de IVA",
+          "description": "Actividade do primeiro ano fiscal.",
+          "status": "blocked",
+          "reason": "Requer a constituição concluída"
+        },
+        {
+          "id": "ano1-4",
+          "title": "Pagar INSS e IRPS",
+          "description": "Actividade do primeiro ano fiscal.",
+          "status": "blocked",
+          "reason": "Requer a constituição concluída"
+        }
+      ]
+    },
+    {
+      "id": "segundo-ano",
+      "title": "Segundo ano fiscal",
+      "description": "Continuidade e consolidação das operações.",
+      "state": "unavailable",
+      "activities": [
+        {
+          "id": "ano2-0",
+          "title": "Rever inventário",
+          "description": "Actividade do segundo ano fiscal.",
+          "status": "unavailable"
+        },
+        {
+          "id": "ano2-1",
+          "title": "Apurar resultados",
+          "description": "Actividade do segundo ano fiscal.",
+          "status": "unavailable"
+        },
+        {
+          "id": "ano2-2",
+          "title": "Regularizar obrigações",
+          "description": "Actividade do segundo ano fiscal.",
+          "status": "unavailable"
+        },
+        {
+          "id": "ano2-3",
+          "title": "Encerrar exercício",
+          "description": "Actividade do segundo ano fiscal.",
+          "status": "unavailable"
+        }
+      ]
+    },
+    {
+      "id": "relatorio",
+      "title": "Relatório final",
+      "description": "Síntese e encerramento da simulação.",
+      "state": "unavailable",
+      "activities": [
+        {
+          "id": "relatorio-0",
+          "title": "Preparar relatório final",
+          "description": "Síntese do trabalho desenvolvido.",
+          "status": "unavailable"
+        },
+        {
+          "id": "relatorio-1",
+          "title": "Apresentar resultados",
+          "description": "Síntese do trabalho desenvolvido.",
+          "status": "unavailable"
+        }
+      ]
+    }
+  ],
+  "registration": {
+    "id": "reg-horizonte-verde",
+    "status": "draft",
+    "data": {
+      "legalName": "Horizonte Verde, Lda.",
+      "taxId": "400876123",
+      "sector": "Comércio de produtos agrícolas",
+      "province": "Maputo",
+      "address": "Avenida de Moçambique, n.º 125, Maputo",
+      "email": "contacto@horizonteverde.example",
+      "capital": 150000
+    },
+    "updatedAt": "2026-10-22T08:30:00.000Z",
+    "receiptNumber": null
+  },
+  "events": [
+    {
+      "id": "evt-reserva",
+      "type": "name.reserved",
+      "message": "Nome Horizonte Verde, Lda. reservado.",
+      "actor": "Ana Machava",
+      "occurredAt": "2026-10-21T09:00:00.000Z"
+    },
+    {
+      "id": "evt-draft",
+      "type": "registration.created",
+      "message": "Dados da empresa guardados em rascunho.",
+      "actor": "Ana Machava",
+      "occurredAt": "2026-10-22T08:30:00.000Z"
+    }
+  ]
+}

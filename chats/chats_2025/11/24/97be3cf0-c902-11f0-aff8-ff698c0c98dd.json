@@ -1,0 +1,46 @@
+{
+  "id": "97be3cf0-c902-11f0-aff8-ff698c0c98dd",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Ronaldo Jeremias Vilanculo",
+    "id": "5b081d4d8859f57bdc7b8ddd-5LJ_6TwE5bNJjfn_WYhuO",
+    "email": "ronaldojeremiasv@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 2136,
+  "rating": 0,
+  "createdOn": "2025-11-24T07:01:29.112Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-24T07:01:29.112Z",
+      "msg": "Nome : Ronaldo Jeremias Vilanculo\r\nTelefone : 258846855649\r\nE-mail : ronaldojeremiasv@gmail.com\r\nDescrição do Problema : Prezados,\n\nVenho por este meio manifestar a minha preocupação, pois a funcionalidade de Gestão Comercial no SPEE Simulação não está operacional, impossibilitando o uso normal da plataforma. Peço a verificação e resolução urgente do problema."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-11-24T07:35:01.349Z",
+      "msg": "Bom dia\nEstamos a verificar"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-24T07:37:05.235Z",
+      "msg": "Agradeço o retorno. Fico a aguardar a resolução o mais breve possível, pois a funcionalidade é necessária para continuidade do trabalho."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

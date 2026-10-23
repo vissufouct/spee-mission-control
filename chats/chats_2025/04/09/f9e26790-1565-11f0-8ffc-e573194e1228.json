@@ -1,0 +1,37 @@
+{
+  "id": "f9e26790-1565-11f0-8ffc-e573194e1228",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISPM/Muandipanduca",
+    "id": "5b081d4d8859f57bdc7b8ddd-Hpek6mN2eh85rm8qw5P22",
+    "email": "davidmundipanducasande@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-04-09T17:24:43.069Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-09T17:24:43.069Z",
+      "msg": "Nome : ISPM/Muandipanduca\r\nTelefone : 871367436\r\nE-mail : davidmundipanducasande@gmail.com\r\nDescrição do Problema : Esqueci a minha cenha"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-09T17:25:31.724Z",
+      "msg": "Esqueci a minha cenha de acesso"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

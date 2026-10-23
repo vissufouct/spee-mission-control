@@ -1,0 +1,29 @@
+{
+  "id": "ef008120-f8ed-11ef-8757-a3f6611dc000",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/Mota Manuel",
+    "id": "5b081d4d8859f57bdc7b8ddd-osAHnrw4wd9AlpRZ5bBj7",
+    "email": "mottamanue43@gmail.com"
+  },
+  "location": {
+    "countryCode": "CA",
+    "city": "Toronto"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-03-04T12:19:02.072Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-04T12:19:02.072Z",
+      "msg": "Nome : /Mota Manuel\r\nTelefone : 8451478825\r\nE-mail : mottamanue43@gmail.com\r\nDescrição do Problema : quando colocamos os dados dos empreendedores não aparecem , mesmo depois de termos concluído e cadastrado o empreendedor, os dados não são reconhecidos"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

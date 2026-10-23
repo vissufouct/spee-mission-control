@@ -1,0 +1,37 @@
+{
+  "id": "03066b20-26e3-11f1-bf69-897fe53bfd72",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Celeste Albino Mugabe",
+    "id": "5b081d4d8859f57bdc7b8ddd-7UP6xLY5_6wsRJ2_WuW3G",
+    "email": "adelinorafael8@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-03-23T18:27:44.698Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:27:44.698Z",
+      "msg": "Nome : /\r\nTelefone : 258878137411\r\nE-mail : celestemugabe16@gmail.com\r\nDescrição do Problema : estou a tentar escolher o tipo de imovel e o preco mas nao passa para outra fase apos o escolher"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:31:01.265Z",
+      "msg": "estou a tentar escolher o tipo de imovel e o preco mas nao passa para outra fase apos o escolher"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

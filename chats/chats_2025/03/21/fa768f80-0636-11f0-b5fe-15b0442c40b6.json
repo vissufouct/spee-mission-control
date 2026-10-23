@@ -1,0 +1,29 @@
+{
+  "id": "fa768f80-0636-11f0-b5fe-15b0442c40b6",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Arminda Bernardo domingos",
+    "id": "5b081d4d8859f57bdc7b8ddd-arGHIsEEVH1mnDbSTY7OQ",
+    "email": "armindadomingos20@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-03-21T09:33:06.711Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-21T09:33:06.711Z",
+      "msg": "Nome : Arminda Bernardo domingos\r\nTelefone : 874648885\r\nE-mail : Armindadomingos20@gmail.com\r\nDescrição do Problema : 281420"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

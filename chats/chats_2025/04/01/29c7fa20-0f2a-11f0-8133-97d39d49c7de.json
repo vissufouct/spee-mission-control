@@ -1,0 +1,37 @@
+{
+  "id": "29c7fa20-0f2a-11f0-8133-97d39d49c7de",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/Traquino",
+    "id": "5b081d4d8859f57bdc7b8ddd-GpoBObpLq4eCAo8YR9nfc",
+    "email": "namatayisrael17@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-04-01T19:20:41.443Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:20:41.443Z",
+      "msg": "Nome : A Politecnica - MPT/Traquino\r\nE-mail : namatayisrael17@gmail.com\r\nDescrição do Problema : Cordias saudacoes, estou tento dificuldades para seleccionar a provincia quando tento fazer contrato, as opcoes que aparecem sao da corea do norte sendo que coloquei mocambique como regiao padrao"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:24:51.006Z",
+      "msg": "Cordias saudacoes, estou tento dificuldades para seleccionar a provincia quando tento fazer contrato, as opcoes que aparecem sao da corea do norte sendo que coloquei mocambique como regiao padrao"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

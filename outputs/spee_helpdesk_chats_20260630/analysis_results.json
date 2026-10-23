@@ -1,0 +1,1397 @@
+{
+  "source": "/Users/vali/Documents/Dev/SPEE Helpdesk Analysis/outputs/spee_helpdesk_chats_20260630/spee_helpdesk_chats_consolidado.xlsx",
+  "asOf": "2026-06-30T12:46:45.970Z",
+  "totals": {
+    "conversations": 576,
+    "messages": 2705,
+    "visitorMessages": 1660,
+    "assistantMessages": 1045,
+    "nonEmptyVisitorMessages": 1601,
+    "nonEmptyAssistantMessages": 1032,
+    "periodStart": "2025-03-04 12:10:05.891 UTC",
+    "periodEnd": "2026-06-26 16:23:58.663 UTC",
+    "withAssistant": 326,
+    "withoutAssistant": 250,
+    "responseCoveragePct": 56.6,
+    "medianFirstResponseMinutes": 1.3433999959309897,
+    "p75FirstResponseMinutes": 3.1532833353678384,
+    "medianMessagesPerConversation": 2,
+    "medianDurationMinutes": 1.8083333333333333
+  },
+  "groups": {
+    "Docentes": {
+      "conversations": 21,
+      "messages": 112,
+      "messageSentimentCounts": {
+        "Misto": 3,
+        "Negativo": 11,
+        "Neutro": 93,
+        "Positivo": 5
+      },
+      "messageSentimentPct": {
+        "Misto": 2.7,
+        "Negativo": 9.8,
+        "Neutro": 83,
+        "Positivo": 4.5
+      },
+      "conversationSentimentCounts": {
+        "Misto": 4,
+        "Negativo": 6,
+        "Neutro": 8,
+        "Positivo": 3
+      },
+      "conversationSentimentPct": {
+        "Misto": 19,
+        "Negativo": 28.6,
+        "Neutro": 38.1,
+        "Positivo": 14.3
+      },
+      "topTopics": [
+        {
+          "topic": "Turmas e gestão pedagógica",
+          "count": 15,
+          "pct": 71.4
+        },
+        {
+          "topic": "Registo, cadastro e dados",
+          "count": 10,
+          "pct": 47.6
+        },
+        {
+          "topic": "Sócios, convites e empresa",
+          "count": 9,
+          "pct": 42.9
+        },
+        {
+          "topic": "Acesso, conta e senha",
+          "count": 6,
+          "pct": 28.6
+        },
+        {
+          "topic": "Erro técnico ou bloqueio",
+          "count": 5,
+          "pct": 23.8
+        },
+        {
+          "topic": "Orientação de navegação",
+          "count": 5,
+          "pct": 23.8
+        },
+        {
+          "topic": "Outro/indeterminado",
+          "count": 4,
+          "pct": 19
+        },
+        {
+          "topic": "Operações simuladas",
+          "count": 2,
+          "pct": 9.5
+        },
+        {
+          "topic": "Pagamentos e facturação",
+          "count": 1,
+          "pct": 4.8
+        }
+      ],
+      "medianResponseMinutes": 2.6240666748046877,
+      "p75ResponseMinutes": 4.140466658528646,
+      "responseCoverage": {
+        "withResponse": 13,
+        "pct": 61.9
+      },
+      "medianMessagesPerConversation": 3,
+      "medianDurationMinutes": 4.616666666666666,
+      "confidence": {
+        "alta": 21
+      }
+    },
+    "Alunos": {
+      "conversations": 89,
+      "messages": 393,
+      "messageSentimentCounts": {
+        "Misto": 1,
+        "Negativo": 94,
+        "Neutro": 274,
+        "Positivo": 24
+      },
+      "messageSentimentPct": {
+        "Misto": 0.3,
+        "Negativo": 23.9,
+        "Neutro": 69.7,
+        "Positivo": 6.1
+      },
+      "conversationSentimentCounts": {
+        "Misto": 21,
+        "Negativo": 39,
+        "Neutro": 20,
+        "Positivo": 9
+      },
+      "conversationSentimentPct": {
+        "Misto": 23.6,
+        "Negativo": 43.8,
+        "Neutro": 22.5,
+        "Positivo": 10.1
+      },
+      "topTopics": [
+        {
+          "topic": "Sócios, convites e empresa",
+          "count": 66,
+          "pct": 74.2
+        },
+        {
+          "topic": "Registo, cadastro e dados",
+          "count": 43,
+          "pct": 48.3
+        },
+        {
+          "topic": "Acesso, conta e senha",
+          "count": 33,
+          "pct": 37.1
+        },
+        {
+          "topic": "Orientação de navegação",
+          "count": 33,
+          "pct": 37.1
+        },
+        {
+          "topic": "Erro técnico ou bloqueio",
+          "count": 32,
+          "pct": 36
+        },
+        {
+          "topic": "Operações simuladas",
+          "count": 21,
+          "pct": 23.6
+        },
+        {
+          "topic": "Plano de negócio e pitch",
+          "count": 19,
+          "pct": 21.3
+        },
+        {
+          "topic": "Evidência/diagnóstico pedido",
+          "count": 8,
+          "pct": 9
+        },
+        {
+          "topic": "Pagamentos e facturação",
+          "count": 7,
+          "pct": 7.9
+        },
+        {
+          "topic": "Turmas e gestão pedagógica",
+          "count": 5,
+          "pct": 5.6
+        }
+      ],
+      "medianResponseMinutes": 1.3282666707356772,
+      "p75ResponseMinutes": 3.5651416646321614,
+      "responseCoverage": {
+        "withResponse": 67,
+        "pct": 75.3
+      },
+      "medianMessagesPerConversation": 5,
+      "medianDurationMinutes": 10.4,
+      "confidence": {
+        "alta": 2,
+        "media": 87
+      }
+    },
+    "Assistentes helpdesk": {
+      "conversations": 326,
+      "messages": 1032,
+      "messageSentimentCounts": {
+        "Negativo": 155,
+        "Neutro": 851,
+        "Positivo": 26
+      },
+      "messageSentimentPct": {
+        "Negativo": 15,
+        "Neutro": 82.5,
+        "Positivo": 2.5
+      },
+      "conversationSentimentCounts": {
+        "Misto": 41,
+        "Negativo": 100,
+        "Neutro": 140,
+        "Positivo": 45
+      },
+      "conversationSentimentPct": {
+        "Misto": 12.6,
+        "Negativo": 30.7,
+        "Neutro": 42.9,
+        "Positivo": 13.8
+      },
+      "topTopics": [
+        {
+          "topic": "Registo, cadastro e dados",
+          "count": 100,
+          "pct": 30.7
+        },
+        {
+          "topic": "Erro técnico ou bloqueio",
+          "count": 94,
+          "pct": 28.8
+        },
+        {
+          "topic": "Outro/indeterminado",
+          "count": 93,
+          "pct": 28.5
+        },
+        {
+          "topic": "Acesso, conta e senha",
+          "count": 87,
+          "pct": 26.7
+        },
+        {
+          "topic": "Orientação de navegação",
+          "count": 87,
+          "pct": 26.7
+        },
+        {
+          "topic": "Sócios, convites e empresa",
+          "count": 81,
+          "pct": 24.8
+        },
+        {
+          "topic": "Operações simuladas",
+          "count": 40,
+          "pct": 12.3
+        },
+        {
+          "topic": "Plano de negócio e pitch",
+          "count": 24,
+          "pct": 7.4
+        },
+        {
+          "topic": "Turmas e gestão pedagógica",
+          "count": 22,
+          "pct": 6.7
+        },
+        {
+          "topic": "Pagamentos e facturação",
+          "count": 20,
+          "pct": 6.1
+        }
+      ],
+      "medianResponseMinutes": 1.3433999959309897,
+      "p75ResponseMinutes": 3.1532833353678384,
+      "responseCoverage": {
+        "withResponse": 319,
+        "pct": 97.9
+      },
+      "medianMessagesPerConversation": 5,
+      "medianDurationMinutes": 9.008333333333333,
+      "confidence": "directa por sender_type"
+    },
+    "Visitantes indeterminados": {
+      "conversations": 466,
+      "messages": 1096,
+      "messageSentimentCounts": {
+        "Misto": 1,
+        "Negativo": 199,
+        "Neutro": 841,
+        "Positivo": 55
+      },
+      "messageSentimentPct": {
+        "Misto": 0.1,
+        "Negativo": 18.2,
+        "Neutro": 76.7,
+        "Positivo": 5
+      },
+      "conversationSentimentCounts": {
+        "Misto": 18,
+        "Negativo": 123,
+        "Neutro": 283,
+        "Positivo": 42
+      },
+      "conversationSentimentPct": {
+        "Misto": 3.9,
+        "Negativo": 26.4,
+        "Neutro": 60.7,
+        "Positivo": 9
+      },
+      "topTopics": [
+        {
+          "topic": "Outro/indeterminado",
+          "count": 222,
+          "pct": 47.6
+        },
+        {
+          "topic": "Acesso, conta e senha",
+          "count": 83,
+          "pct": 17.8
+        },
+        {
+          "topic": "Erro técnico ou bloqueio",
+          "count": 82,
+          "pct": 17.6
+        },
+        {
+          "topic": "Orientação de navegação",
+          "count": 80,
+          "pct": 17.2
+        },
+        {
+          "topic": "Registo, cadastro e dados",
+          "count": 79,
+          "pct": 17
+        },
+        {
+          "topic": "Sócios, convites e empresa",
+          "count": 40,
+          "pct": 8.6
+        },
+        {
+          "topic": "Operações simuladas",
+          "count": 32,
+          "pct": 6.9
+        },
+        {
+          "topic": "Pagamentos e facturação",
+          "count": 23,
+          "pct": 4.9
+        },
+        {
+          "topic": "Evidência/diagnóstico pedido",
+          "count": 14,
+          "pct": 3
+        },
+        {
+          "topic": "Turmas e gestão pedagógica",
+          "count": 14,
+          "pct": 3
+        }
+      ],
+      "medianResponseMinutes": 1.3433999959309897,
+      "p75ResponseMinutes": 3.048091666666667,
+      "responseCoverage": {
+        "withResponse": 239,
+        "pct": 51.3
+      },
+      "medianMessagesPerConversation": 2,
+      "medianDurationMinutes": 0.525,
+      "confidence": {
+        "baixa": 466
+      }
+    }
+  },
+  "groupConversationCounts": {
+    "Alunos": 89,
+    "Docentes": 21,
+    "Visitantes indeterminados": 466
+  },
+  "groupConfidence": {
+    "Alunos:alta": 2,
+    "Alunos:media": 87,
+    "Docentes:alta": 21,
+    "Visitantes indeterminados:baixa": 466
+  },
+  "domains": [
+    {
+      "domain": "spee.simulacao.co.mz",
+      "count": 495,
+      "pct": 85.9
+    },
+    {
+      "domain": "sgc.simulacao.co.mz",
+      "count": 48,
+      "pct": 8.3
+    },
+    {
+      "domain": "planodenegocios.simulacao.co.mz",
+      "count": 30,
+      "pct": 5.2
+    },
+    {
+      "domain": "moodle.simulacao.co.mz",
+      "count": 2,
+      "pct": 0.3
+    },
+    {
+      "domain": "speedev.simulacao.co.mz",
+      "count": 1,
+      "pct": 0.2
+    }
+  ],
+  "domainStats": {
+    "moodle.simulacao.co.mz": {
+      "conversations": 2,
+      "sentimentCounts": {
+        "Neutro": 2
+      },
+      "negative": 0,
+      "pctNegative": 0,
+      "withResponse": 0,
+      "responseCoveragePct": 0,
+      "medianResponseMinutes": null,
+      "medianMessages": 3,
+      "medianDurationMinutes": 0
+    },
+    "planodenegocios.simulacao.co.mz": {
+      "conversations": 30,
+      "sentimentCounts": {
+        "Misto": 8,
+        "Negativo": 8,
+        "Neutro": 11,
+        "Positivo": 3
+      },
+      "negative": 8,
+      "pctNegative": 26.7,
+      "withResponse": 20,
+      "responseCoveragePct": 66.7,
+      "medianResponseMinutes": 0.9265749979654948,
+      "medianMessages": 6.5,
+      "medianDurationMinutes": 9.816666666666666
+    },
+    "sgc.simulacao.co.mz": {
+      "conversations": 48,
+      "sentimentCounts": {
+        "Negativo": 22,
+        "Neutro": 22,
+        "Positivo": 4
+      },
+      "negative": 22,
+      "pctNegative": 45.8,
+      "withResponse": 26,
+      "responseCoveragePct": 54.2,
+      "medianResponseMinutes": 1.8422666646321615,
+      "medianMessages": 2.5,
+      "medianDurationMinutes": 1.8416666666666668
+    },
+    "spee.simulacao.co.mz": {
+      "conversations": 495,
+      "sentimentCounts": {
+        "Misto": 35,
+        "Negativo": 138,
+        "Neutro": 275,
+        "Positivo": 47
+      },
+      "negative": 138,
+      "pctNegative": 27.9,
+      "withResponse": 273,
+      "responseCoveragePct": 55.2,
+      "medianResponseMinutes": 1.3619166666666667,
+      "medianMessages": 2,
+      "medianDurationMinutes": 1.6166666666666667
+    },
+    "speedev.simulacao.co.mz": {
+      "conversations": 1,
+      "sentimentCounts": {
+        "Neutro": 1
+      },
+      "negative": 0,
+      "pctNegative": 0,
+      "withResponse": 0,
+      "responseCoveragePct": 0,
+      "medianResponseMinutes": null,
+      "medianMessages": 1,
+      "medianDurationMinutes": 0
+    }
+  },
+  "monthly": {
+    "2025-03": {
+      "conversations": 65,
+      "negative": 18,
+      "pctNegative": 27.7
+    },
+    "2025-04": {
+      "conversations": 61,
+      "negative": 17,
+      "pctNegative": 27.9
+    },
+    "2025-05": {
+      "conversations": 24,
+      "negative": 7,
+      "pctNegative": 29.2
+    },
+    "2025-06": {
+      "conversations": 8,
+      "negative": 0,
+      "pctNegative": 0
+    },
+    "2025-07": {
+      "conversations": 26,
+      "negative": 9,
+      "pctNegative": 34.6
+    },
+    "2025-08": {
+      "conversations": 28,
+      "negative": 6,
+      "pctNegative": 21.4
+    },
+    "2025-09": {
+      "conversations": 32,
+      "negative": 9,
+      "pctNegative": 28.1
+    },
+    "2025-10": {
+      "conversations": 26,
+      "negative": 9,
+      "pctNegative": 34.6
+    },
+    "2025-11": {
+      "conversations": 17,
+      "negative": 11,
+      "pctNegative": 64.7
+    },
+    "2025-12": {
+      "conversations": 12,
+      "negative": 3,
+      "pctNegative": 25
+    },
+    "2026-01": {
+      "conversations": 6,
+      "negative": 2,
+      "pctNegative": 33.3
+    },
+    "2026-02": {
+      "conversations": 4,
+      "negative": 2,
+      "pctNegative": 50
+    },
+    "2026-03": {
+      "conversations": 62,
+      "negative": 13,
+      "pctNegative": 21
+    },
+    "2026-04": {
+      "conversations": 93,
+      "negative": 39,
+      "pctNegative": 41.9
+    },
+    "2026-05": {
+      "conversations": 86,
+      "negative": 13,
+      "pctNegative": 15.1
+    },
+    "2026-06": {
+      "conversations": 26,
+      "negative": 10,
+      "pctNegative": 38.5
+    }
+  },
+  "topicsOverall": [
+    {
+      "topic": "Outro/indeterminado",
+      "count": 226,
+      "pct": 39.2
+    },
+    {
+      "topic": "Registo, cadastro e dados",
+      "count": 132,
+      "pct": 22.9,
+      "conversations": 132,
+      "negative": 64,
+      "pctNegative": 48.5,
+      "medianMessages": 6,
+      "medianDurationMinutes": 9.008333333333333,
+      "withResponse": 100,
+      "responseCoveragePct": 75.8,
+      "medianResponseMinutes": 1.280133329264323,
+      "p75ResponseMinutes": 2.6278708414713545
+    },
+    {
+      "topic": "Acesso, conta e senha",
+      "count": 122,
+      "pct": 21.2,
+      "conversations": 122,
+      "negative": 50,
+      "pctNegative": 41,
+      "medianMessages": 5,
+      "medianDurationMinutes": 8.5,
+      "withResponse": 86,
+      "responseCoveragePct": 70.5,
+      "medianResponseMinutes": 1.5802500020345052,
+      "p75ResponseMinutes": 3.9016458262125653
+    },
+    {
+      "topic": "Erro técnico ou bloqueio",
+      "count": 119,
+      "pct": 20.7,
+      "conversations": 119,
+      "negative": 79,
+      "pctNegative": 66.4,
+      "medianMessages": 6,
+      "medianDurationMinutes": 9.35,
+      "withResponse": 94,
+      "responseCoveragePct": 79,
+      "medianResponseMinutes": 1.304124997965495,
+      "p75ResponseMinutes": 3.126579160563151
+    },
+    {
+      "topic": "Orientação de navegação",
+      "count": 118,
+      "pct": 20.5,
+      "conversations": 118,
+      "negative": 40,
+      "pctNegative": 33.9,
+      "medianMessages": 5,
+      "medianDurationMinutes": 8.133333333333333,
+      "withResponse": 86,
+      "responseCoveragePct": 72.9,
+      "medianResponseMinutes": 1.3042750020345053,
+      "p75ResponseMinutes": 3.0053708302815756
+    },
+    {
+      "topic": "Sócios, convites e empresa",
+      "count": 115,
+      "pct": 20,
+      "conversations": 115,
+      "negative": 43,
+      "pctNegative": 37.4,
+      "medianMessages": 5,
+      "medianDurationMinutes": 8.4,
+      "withResponse": 81,
+      "responseCoveragePct": 70.4,
+      "medianResponseMinutes": 1.25645,
+      "p75ResponseMinutes": 3.4148
+    },
+    {
+      "topic": "Operações simuladas",
+      "count": 55,
+      "pct": 9.5,
+      "conversations": 55,
+      "negative": 26,
+      "pctNegative": 47.3,
+      "medianMessages": 4,
+      "medianDurationMinutes": 5.583333333333333,
+      "withResponse": 40,
+      "responseCoveragePct": 72.7,
+      "medianResponseMinutes": 1.5789333353678385,
+      "p75ResponseMinutes": 4.024854160563151
+    },
+    {
+      "topic": "Turmas e gestão pedagógica",
+      "count": 34,
+      "pct": 5.9,
+      "conversations": 34,
+      "negative": 14,
+      "pctNegative": 41.2,
+      "medianMessages": 4,
+      "medianDurationMinutes": 7.158333333333333,
+      "withResponse": 22,
+      "responseCoveragePct": 64.7,
+      "medianResponseMinutes": 1.4216583333333332,
+      "p75ResponseMinutes": 3.255320838419596
+    },
+    {
+      "topic": "Pagamentos e facturação",
+      "count": 31,
+      "pct": 5.4,
+      "conversations": 31,
+      "negative": 15,
+      "pctNegative": 48.4,
+      "medianMessages": 3,
+      "medianDurationMinutes": 4.683333333333334,
+      "withResponse": 20,
+      "responseCoveragePct": 64.5,
+      "medianResponseMinutes": 2.365266670735677,
+      "p75ResponseMinutes": 3.2449208333333335
+    },
+    {
+      "topic": "Plano de negócio e pitch",
+      "count": 31,
+      "pct": 5.4,
+      "conversations": 31,
+      "negative": 9,
+      "pctNegative": 29,
+      "medianMessages": 7,
+      "medianDurationMinutes": 13.616666666666667,
+      "withResponse": 24,
+      "responseCoveragePct": 77.4,
+      "medianResponseMinutes": 1.0487333312988283,
+      "p75ResponseMinutes": 1.8776583282470705
+    },
+    {
+      "topic": "Evidência/diagnóstico pedido",
+      "count": 22,
+      "pct": 3.8,
+      "conversations": 22,
+      "negative": 9,
+      "pctNegative": 40.9,
+      "medianMessages": 9.5,
+      "medianDurationMinutes": 17.991666666666667,
+      "withResponse": 18,
+      "responseCoveragePct": 81.8,
+      "medianResponseMinutes": 0.8968333394368491,
+      "p75ResponseMinutes": 1.1081458353678384
+    }
+  ],
+  "negativeByTopic": {
+    "Acesso, conta e senha": {
+      "conversations": 122,
+      "negative": 50,
+      "pctNegative": 41,
+      "medianMessages": 5,
+      "medianDurationMinutes": 8.5
+    },
+    "Registo, cadastro e dados": {
+      "conversations": 132,
+      "negative": 64,
+      "pctNegative": 48.5,
+      "medianMessages": 6,
+      "medianDurationMinutes": 9.008333333333333
+    },
+    "Sócios, convites e empresa": {
+      "conversations": 115,
+      "negative": 43,
+      "pctNegative": 37.4,
+      "medianMessages": 5,
+      "medianDurationMinutes": 8.4
+    },
+    "Plano de negócio e pitch": {
+      "conversations": 31,
+      "negative": 9,
+      "pctNegative": 29,
+      "medianMessages": 7,
+      "medianDurationMinutes": 13.616666666666667
+    },
+    "Operações simuladas": {
+      "conversations": 55,
+      "negative": 26,
+      "pctNegative": 47.3,
+      "medianMessages": 4,
+      "medianDurationMinutes": 5.583333333333333
+    },
+    "Pagamentos e facturação": {
+      "conversations": 31,
+      "negative": 15,
+      "pctNegative": 48.4,
+      "medianMessages": 3,
+      "medianDurationMinutes": 4.683333333333334
+    },
+    "Turmas e gestão pedagógica": {
+      "conversations": 34,
+      "negative": 14,
+      "pctNegative": 41.2,
+      "medianMessages": 4,
+      "medianDurationMinutes": 7.158333333333333
+    },
+    "Erro técnico ou bloqueio": {
+      "conversations": 119,
+      "negative": 79,
+      "pctNegative": 66.4,
+      "medianMessages": 6,
+      "medianDurationMinutes": 9.35
+    },
+    "Orientação de navegação": {
+      "conversations": 118,
+      "negative": 40,
+      "pctNegative": 33.9,
+      "medianMessages": 5,
+      "medianDurationMinutes": 8.133333333333333
+    },
+    "Evidência/diagnóstico pedido": {
+      "conversations": 22,
+      "negative": 9,
+      "pctNegative": 40.9,
+      "medianMessages": 9.5,
+      "medianDurationMinutes": 17.991666666666667
+    }
+  },
+  "responseByTopic": {
+    "Acesso, conta e senha": {
+      "conversations": 122,
+      "withResponse": 86,
+      "responseCoveragePct": 70.5,
+      "medianResponseMinutes": 1.5802500020345052,
+      "p75ResponseMinutes": 3.9016458262125653
+    },
+    "Registo, cadastro e dados": {
+      "conversations": 132,
+      "withResponse": 100,
+      "responseCoveragePct": 75.8,
+      "medianResponseMinutes": 1.280133329264323,
+      "p75ResponseMinutes": 2.6278708414713545
+    },
+    "Sócios, convites e empresa": {
+      "conversations": 115,
+      "withResponse": 81,
+      "responseCoveragePct": 70.4,
+      "medianResponseMinutes": 1.25645,
+      "p75ResponseMinutes": 3.4148
+    },
+    "Plano de negócio e pitch": {
+      "conversations": 31,
+      "withResponse": 24,
+      "responseCoveragePct": 77.4,
+      "medianResponseMinutes": 1.0487333312988283,
+      "p75ResponseMinutes": 1.8776583282470705
+    },
+    "Operações simuladas": {
+      "conversations": 55,
+      "withResponse": 40,
+      "responseCoveragePct": 72.7,
+      "medianResponseMinutes": 1.5789333353678385,
+      "p75ResponseMinutes": 4.024854160563151
+    },
+    "Pagamentos e facturação": {
+      "conversations": 31,
+      "withResponse": 20,
+      "responseCoveragePct": 64.5,
+      "medianResponseMinutes": 2.365266670735677,
+      "p75ResponseMinutes": 3.2449208333333335
+    },
+    "Turmas e gestão pedagógica": {
+      "conversations": 34,
+      "withResponse": 22,
+      "responseCoveragePct": 64.7,
+      "medianResponseMinutes": 1.4216583333333332,
+      "p75ResponseMinutes": 3.255320838419596
+    },
+    "Erro técnico ou bloqueio": {
+      "conversations": 119,
+      "withResponse": 94,
+      "responseCoveragePct": 79,
+      "medianResponseMinutes": 1.304124997965495,
+      "p75ResponseMinutes": 3.126579160563151
+    },
+    "Orientação de navegação": {
+      "conversations": 118,
+      "withResponse": 86,
+      "responseCoveragePct": 72.9,
+      "medianResponseMinutes": 1.3042750020345053,
+      "p75ResponseMinutes": 3.0053708302815756
+    },
+    "Evidência/diagnóstico pedido": {
+      "conversations": 22,
+      "withResponse": 18,
+      "responseCoveragePct": 81.8,
+      "medianResponseMinutes": 0.8968333394368491,
+      "p75ResponseMinutes": 1.1081458353678384
+    }
+  },
+  "assistantNames": [
+    {
+      "name": "Shola",
+      "count": 434,
+      "pct": 41.5
+    },
+    {
+      "name": "Yahiko",
+      "count": 272,
+      "pct": 26
+    },
+    {
+      "name": "Evgueni",
+      "count": 191,
+      "pct": 18.3
+    },
+    {
+      "name": "Shirley De Caifaz",
+      "count": 90,
+      "pct": 8.6
+    },
+    {
+      "name": "Alexandre Viegas Mangujo Júnior",
+      "count": 29,
+      "pct": 2.8
+    },
+    {
+      "name": "MacGyver",
+      "count": 25,
+      "pct": 2.4
+    },
+    {
+      "name": "Moana",
+      "count": 2,
+      "pct": 0.2
+    },
+    {
+      "name": "newton cossa",
+      "count": 2,
+      "pct": 0.2
+    }
+  ],
+  "assistantStats": {
+    "Alexandre Viegas Mangujo Júnior": {
+      "messages": 29,
+      "conversations": 6,
+      "messageSentimentCounts": {
+        "Negativo": 4,
+        "Neutro": 24,
+        "Positivo": 1
+      },
+      "messageSentimentPct": {
+        "Negativo": 13.8,
+        "Neutro": 82.8,
+        "Positivo": 3.4
+      },
+      "topTopics": [
+        {
+          "topic": "Orientação de navegação",
+          "count": 4,
+          "pct": 66.7
+        },
+        {
+          "topic": "Sócios, convites e empresa",
+          "count": 4,
+          "pct": 66.7
+        },
+        {
+          "topic": "Acesso, conta e senha",
+          "count": 3,
+          "pct": 50
+        },
+        {
+          "topic": "Registo, cadastro e dados",
+          "count": 2,
+          "pct": 33.3
+        },
+        {
+          "topic": "Erro técnico ou bloqueio",
+          "count": 1,
+          "pct": 16.7
+        },
+        {
+          "topic": "Operações simuladas",
+          "count": 1,
+          "pct": 16.7
+        }
+      ]
+    },
+    "Evgueni": {
+      "messages": 191,
+      "conversations": 66,
+      "messageSentimentCounts": {
+        "Negativo": 39,
+        "Neutro": 146,
+        "Positivo": 6
+      },
+      "messageSentimentPct": {
+        "Negativo": 20.4,
+        "Neutro": 76.4,
+        "Positivo": 3.1
+      },
+      "topTopics": [
+        {
+          "topic": "Sócios, convites e empresa",
+          "count": 23,
+          "pct": 34.8
+        },
+        {
+          "topic": "Acesso, conta e senha",
+          "count": 22,
+          "pct": 33.3
+        },
+        {
+          "topic": "Orientação de navegação",
+          "count": 21,
+          "pct": 31.8
+        },
+        {
+          "topic": "Outro/indeterminado",
+          "count": 21,
+          "pct": 31.8
+        },
+        {
+          "topic": "Registo, cadastro e dados",
+          "count": 21,
+          "pct": 31.8
+        },
+        {
+          "topic": "Erro técnico ou bloqueio",
+          "count": 19,
+          "pct": 28.8
+        }
+      ]
+    },
+    "MacGyver": {
+      "messages": 25,
+      "conversations": 12,
+      "messageSentimentCounts": {
+        "Negativo": 2,
+        "Neutro": 23
+      },
+      "messageSentimentPct": {
+        "Negativo": 8,
+        "Neutro": 92
+      },
+      "topTopics": [
+        {
+          "topic": "Acesso, conta e senha",
+          "count": 5,
+          "pct": 41.7
+        },
+        {
+          "topic": "Outro/indeterminado",
+          "count": 5,
+          "pct": 41.7
+        },
+        {
+          "topic": "Orientação de navegação",
+          "count": 2,
+          "pct": 16.7
+        },
+        {
+          "topic": "Sócios, convites e empresa",
+          "count": 2,
+          "pct": 16.7
+        },
+        {
+          "topic": "Erro técnico ou bloqueio",
+          "count": 1,
+          "pct": 8.3
+        },
+        {
+          "topic": "Operações simuladas",
+          "count": 1,
+          "pct": 8.3
+        }
+      ]
+    },
+    "Moana": {
+      "messages": 2,
+      "conversations": 1,
+      "messageSentimentCounts": {
+        "Neutro": 2
+      },
+      "messageSentimentPct": {
+        "Neutro": 100
+      },
+      "topTopics": [
+        {
+          "topic": "Acesso, conta e senha",
+          "count": 1,
+          "pct": 100
+        },
+        {
+          "topic": "Orientação de navegação",
+          "count": 1,
+          "pct": 100
+        },
+        {
+          "topic": "Sócios, convites e empresa",
+          "count": 1,
+          "pct": 100
+        }
+      ]
+    },
+    "newton cossa": {
+      "messages": 2,
+      "conversations": 2,
+      "messageSentimentCounts": {
+        "Neutro": 2
+      },
+      "messageSentimentPct": {
+        "Neutro": 100
+      },
+      "topTopics": [
+        {
+          "topic": "Acesso, conta e senha",
+          "count": 1,
+          "pct": 50
+        },
+        {
+          "topic": "Orientação de navegação",
+          "count": 1,
+          "pct": 50
+        },
+        {
+          "topic": "Turmas e gestão pedagógica",
+          "count": 1,
+          "pct": 50
+        }
+      ]
+    },
+    "Shirley De Caifaz": {
+      "messages": 90,
+      "conversations": 28,
+      "messageSentimentCounts": {
+        "Negativo": 10,
+        "Neutro": 77,
+        "Positivo": 3
+      },
+      "messageSentimentPct": {
+        "Negativo": 11.1,
+        "Neutro": 85.6,
+        "Positivo": 3.3
+      },
+      "topTopics": [
+        {
+          "topic": "Erro técnico ou bloqueio",
+          "count": 12,
+          "pct": 42.9
+        },
+        {
+          "topic": "Registo, cadastro e dados",
+          "count": 10,
+          "pct": 35.7
+        },
+        {
+          "topic": "Outro/indeterminado",
+          "count": 8,
+          "pct": 28.6
+        },
+        {
+          "topic": "Orientação de navegação",
+          "count": 7,
+          "pct": 25
+        },
+        {
+          "topic": "Sócios, convites e empresa",
+          "count": 7,
+          "pct": 25
+        },
+        {
+          "topic": "Acesso, conta e senha",
+          "count": 6,
+          "pct": 21.4
+        }
+      ]
+    },
+    "Shola": {
+      "messages": 434,
+      "conversations": 132,
+      "messageSentimentCounts": {
+        "Negativo": 39,
+        "Neutro": 386,
+        "Positivo": 9
+      },
+      "messageSentimentPct": {
+        "Negativo": 9,
+        "Neutro": 88.9,
+        "Positivo": 2.1
+      },
+      "topTopics": [
+        {
+          "topic": "Registo, cadastro e dados",
+          "count": 38,
+          "pct": 28.8
+        },
+        {
+          "topic": "Outro/indeterminado",
+          "count": 37,
+          "pct": 28
+        },
+        {
+          "topic": "Erro técnico ou bloqueio",
+          "count": 35,
+          "pct": 26.5
+        },
+        {
+          "topic": "Acesso, conta e senha",
+          "count": 34,
+          "pct": 25.8
+        },
+        {
+          "topic": "Orientação de navegação",
+          "count": 34,
+          "pct": 25.8
+        },
+        {
+          "topic": "Sócios, convites e empresa",
+          "count": 24,
+          "pct": 18.2
+        }
+      ]
+    },
+    "Yahiko": {
+      "messages": 272,
+      "conversations": 86,
+      "messageSentimentCounts": {
+        "Negativo": 61,
+        "Neutro": 204,
+        "Positivo": 7
+      },
+      "messageSentimentPct": {
+        "Negativo": 22.4,
+        "Neutro": 75,
+        "Positivo": 2.6
+      },
+      "topTopics": [
+        {
+          "topic": "Registo, cadastro e dados",
+          "count": 32,
+          "pct": 37.2
+        },
+        {
+          "topic": "Erro técnico ou bloqueio",
+          "count": 29,
+          "pct": 33.7
+        },
+        {
+          "topic": "Sócios, convites e empresa",
+          "count": 24,
+          "pct": 27.9
+        },
+        {
+          "topic": "Orientação de navegação",
+          "count": 22,
+          "pct": 25.6
+        },
+        {
+          "topic": "Outro/indeterminado",
+          "count": 22,
+          "pct": 25.6
+        },
+        {
+          "topic": "Acesso, conta e senha",
+          "count": 18,
+          "pct": 20.9
+        }
+      ]
+    }
+  },
+  "ratings": {
+    "count": 8,
+    "positive": 5,
+    "negative": 3,
+    "neutral": 0
+  },
+  "sentimentOverallByConversation": {
+    "Misto": 43,
+    "Negativo": 168,
+    "Neutro": 311,
+    "Positivo": 54
+  },
+  "sentimentOverallByMessage": {
+    "Misto": 5,
+    "Negativo": 459,
+    "Neutro": 2059,
+    "Positivo": 110
+  },
+  "initialFinal": {
+    "Docentes": {
+      "compared": 15,
+      "improved": 11,
+      "worsened": 2,
+      "same": 2,
+      "improvedPct": 73.3,
+      "worsenedPct": 13.3
+    },
+    "Alunos": {
+      "compared": 64,
+      "improved": 53,
+      "worsened": 4,
+      "same": 7,
+      "improvedPct": 82.8,
+      "worsenedPct": 6.3
+    },
+    "Visitantes indeterminados": {
+      "compared": 225,
+      "improved": 201,
+      "worsened": 7,
+      "same": 17,
+      "improvedPct": 89.3,
+      "worsenedPct": 3.1
+    }
+  },
+  "examples": {
+    "alunoAcesso": {
+      "chat_id": "098ff4e0-ff5f-11ef-a957-f5234b61c3a5",
+      "group": "Alunos",
+      "sentiment": "Negativo",
+      "primaryTopic": "Acesso, conta e senha",
+      "excerpt": "Nome: [omitido] E-mail: [omitido] Descrição do Problema : Nao aparece o nome no cadastro",
+      "response": "Boa noite"
+    },
+    "alunoSocio": {
+      "chat_id": "ef008120-f8ed-11ef-8757-a3f6611dc000",
+      "group": "Alunos",
+      "sentiment": "Negativo",
+      "primaryTopic": "Registo, cadastro e dados",
+      "excerpt": "Nome: [omitido] Telefone: [omitido] E-mail: [omitido] Descrição do Problema : quando colocamos os dados dos empreendedores não aparecem , mesmo depois de termos concluído e cadastrado o empreendedor, os dados não são reconhecidos",
+      "response": ""
+    },
+    "alunoPlano": {
+      "chat_id": "ef275710-f9be-11ef-bf80-f5cd33eccf0b",
+      "group": "Alunos",
+      "sentiment": "Neutro",
+      "primaryTopic": "Plano de negócio e pitch",
+      "excerpt": "Nome: [omitido] E-mail: [omitido] Descrição do Problema : Nao consigo encontrar a opcao onde preencho o pitch?",
+      "response": "Boa tarde"
+    },
+    "docenteExplicito": {
+      "chat_id": "56a09380-6eb7-11f0-8a02-1dcb1f2f78f5",
+      "group": "Docentes",
+      "sentiment": "Misto",
+      "primaryTopic": "Turmas e gestão pedagógica",
+      "excerpt": "Nome: [omitido] Telefone: [omitido] E-mail: [omitido] Descrição do Problema : Bom dia, Ilustres Coordenadores do ITIS, Aqui é o docente António Brito, do ISPT. Venho por este meio reportar uma dificuldade que estou a enfrentar no sistema: já não consigo criar novas turmas, pois o campo correspondente parece não estar mais disponível. Gostaria de saber se há alguma orientação ou sugestão para resolver esta situação. A",
+      "response": "Bom dia docente , desculpe-nos pela demora , peço que aguarde um momento , que iremos verificar o problema"
+    },
+    "operacao": {
+      "chat_id": "2631f470-049d-11f0-8f42-19bd4e789c0e",
+      "group": "Alunos",
+      "sentiment": "Negativo",
+      "primaryTopic": "Acesso, conta e senha",
+      "excerpt": "Nome: [omitido] E-mail: [omitido] Descrição do Problema : Nao consigo entrar nos activos minimos",
+      "response": ""
+    },
+    "pagamento": {
+      "chat_id": "a48df020-0f93-11f0-8a1b-614d6445c0a1",
+      "group": "Visitantes indeterminados",
+      "sentiment": "Negativo",
+      "primaryTopic": "Registo, cadastro e dados",
+      "excerpt": "Nome: [omitido] Descrição do Problema : ola, o meu logotipo nao aparece na minha factura",
+      "response": "Bom dia"
+    },
+    "semResposta": {
+      "chat_id": "ef008120-f8ed-11ef-8757-a3f6611dc000",
+      "group": "Alunos",
+      "sentiment": "Negativo",
+      "primaryTopic": "Registo, cadastro e dados",
+      "excerpt": "Nome: [omitido] Telefone: [omitido] E-mail: [omitido] Descrição do Problema : quando colocamos os dados dos empreendedores não aparecem , mesmo depois de termos concluído e cadastrado o empreendedor, os dados não são reconhecidos",
+      "response": ""
+    }
+  },
+  "unansweredExamples": [
+    {
+      "chat_id": "bfedfdb0-f8e1-11ef-a781-a72656fa1977",
+      "group": "Visitantes indeterminados",
+      "sentiment": "Neutro",
+      "topic": "Outro/indeterminado",
+      "excerpt": "Nome: [omitido] E-mail: [omitido] Descrição do Problema : como criar contratos"
+    },
+    {
+      "chat_id": "552182f0-f8ea-11ef-a7e4-93fe1cb84d3c",
+      "group": "Visitantes indeterminados",
+      "sentiment": "Neutro",
+      "topic": "Outro/indeterminado",
+      "excerpt": "Nome: [omitido] E-mail: [omitido] Descrição do Problema : como localizar o plano de negocio preenchido"
+    },
+    {
+      "chat_id": "ef008120-f8ed-11ef-8757-a3f6611dc000",
+      "group": "Alunos",
+      "sentiment": "Negativo",
+      "topic": "Registo, cadastro e dados",
+      "excerpt": "Nome: [omitido] Telefone: [omitido] E-mail: [omitido] Descrição do Problema : quando colocamos os dados dos empreendedores não aparecem , mesmo depois de termos concluído e cadastrado o empreendedor, os dados não são reconhecidos"
+    },
+    {
+      "chat_id": "eaca1430-ff60-11ef-9d6f-25fcf8131a30",
+      "group": "Visitantes indeterminados",
+      "sentiment": "Neutro",
+      "topic": "Outro/indeterminado",
+      "excerpt": "Nome: [omitido] E-mail: [omitido] Descrição do Problema : Recebo o pedido de convinte para a constituição da empresa, poréom a plataforma não da espaço para aceitar o convite, ou o convite não demostra os dados do convite."
+    },
+    {
+      "chat_id": "9638baf0-032c-11f0-a53e-8b337075b2bd",
+      "group": "Visitantes indeterminados",
+      "sentiment": "Negativo",
+      "topic": "Erro técnico ou bloqueio",
+      "excerpt": "Estou tendo um outro problema não consigo alcançar as províncias da região de Moçambique"
+    },
+    {
+      "chat_id": "188d6490-034d-11f0-9747-e37ec76e016a",
+      "group": "Visitantes indeterminados",
+      "sentiment": "Neutro",
+      "topic": "Outro/indeterminado",
+      "excerpt": "Nome: [omitido] E-mail: [omitido] Descrição do Problema : o sistema diz envio o codigo parao meu numero [telefone] para validar mas nunca recebo"
+    },
+    {
+      "chat_id": "d41c1ea0-049b-11f0-9e82-5fc440c2fb1e",
+      "group": "Visitantes indeterminados",
+      "sentiment": "Negativo",
+      "topic": "Acesso, conta e senha",
+      "excerpt": "Nome: [omitido] Descrição do Problema : Ocorreu uma exceção não tratada durante a execução da solicitação da web atual. Revise o rastreamento de pilha para obter mais informações sobre o erro e onde ele se originou no código."
+    },
+    {
+      "chat_id": "2631f470-049d-11f0-8f42-19bd4e789c0e",
+      "group": "Alunos",
+      "sentiment": "Negativo",
+      "topic": "Acesso, conta e senha",
+      "excerpt": "Nome: [omitido] E-mail: [omitido] Descrição do Problema : Nao consigo entrar nos activos minimos"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "baf21ee0-5515-11f1-8891-bb34ce5c0abd",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/Ribeiro",
+    "id": "5b081d4d8859f57bdc7b8ddd-vbbLWIg8J0o27Cl4cJm0x",
+    "email": "edmadeleonete@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-21T13:34:27.240Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-21T13:34:27.240Z",
+      "msg": "Nome : A Politecnica - MPT/Ribeiro\r\nE-mail : edmadeleonete@gmail.com\r\nDescrição do Problema : Não consigo finalizar o Stock"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

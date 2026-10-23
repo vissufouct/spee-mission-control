@@ -1,0 +1,239 @@
+{
+  "id": "d7787fc0-ff5b-11ef-89a2-17e3a9698e0d",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Mateus",
+    "id": "5b081d4d8859f57bdc7b8ddd-hjseq9J9HVnRNiEq1VzDw",
+    "email": "rosalinamateusg@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 26,
+  "chatDuration": 4187,
+  "rating": 0,
+  "createdOn": "2025-03-12T17:15:15.489Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:15:15.489Z",
+      "msg": "Nome : ISCIM/Mateus\r\nE-mail : rosalinamateusg@gmail.com\r\nDescrição do Problema : Nao consigo adcionar meu socio Arestid Pedro"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:19:03.852Z",
+      "msg": "Nao consigo adcionar meu socio Arestid Pedro"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:20:35.025Z",
+      "msg": "Boa noite \nQual é a dificuldade ao adicionar?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:21:16.250Z",
+      "msg": "O Nome do Colega ARESTID PEDRO nao aparece para fazer convite"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:22:16.312Z",
+      "msg": "Ele não criou outra empresa?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:23:59.446Z",
+      "msg": "ele tem uma empresa de MSAN.COMBUSTIVEIS,LDA"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:24:30.826Z",
+      "msg": "Não pode ser sócio de um colaga que tenha outra empresa"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:25:35.030Z",
+      "msg": "ELE FEZ ESSA EMPRESA NO PASSADO E AGORA NAO ACEITA FAZER O NOVO CADASTRO"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:25:52.623Z",
+      "msg": "COMO DEVO FAZER NOVO CADASTRO"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:35:50.750Z",
+      "msg": "peço os dados do colega"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:38:33.473Z",
+      "msg": "arestidpedro@gmail.com"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:44:03.933Z",
+      "msg": "em que empresa ee pretende estar?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:44:09.701Z",
+      "msg": "ele colocou nova turma?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:45:10.383Z",
+      "msg": "APRM.Combustiveis,Lda"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:46:17.910Z",
+      "msg": "nao"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:55:01.196Z",
+      "msg": "deve colocar"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:56:11.690Z",
+      "msg": "JA COLOQUEI"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:57:07.467Z",
+      "msg": "AJUDA"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-12T18:13:52.935Z",
+      "msg": "Não percebi"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T18:20:39.142Z",
+      "msg": "adciona Arestides Pereira Pedro BINACE"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T18:21:39.856Z",
+      "msg": "COLOCA Arestides Pereia Pedro Bina na APRM Combustiveis,lda"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-12T18:22:25.526Z",
+      "msg": "peço o email"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T18:23:28.145Z",
+      "msg": "maviefelisberto91@gmail.com"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T18:24:18.221Z",
+      "msg": "COLOCA Arestides Pereira Pedro Binace na APRM Combustiveis,lda"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T18:24:31.172Z",
+      "msg": "maviefelisberto91@gmail.com"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-12T18:25:02.525Z",
+      "msg": "já está"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

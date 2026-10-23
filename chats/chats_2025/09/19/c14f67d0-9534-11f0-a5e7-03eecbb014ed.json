@@ -1,0 +1,176 @@
+{
+  "id": "c14f67d0-9534-11f0-a5e7-03eecbb014ed",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-8ywtywDj2Z1Udi0Fu9_EJ",
+    "email": "samondinemubinaismael@gmail.com"
+  },
+  "location": {
+    "countryCode": "CA",
+    "city": "Vancouver"
+  },
+  "messageCount": 17,
+  "chatDuration": 2744,
+  "rating": 0,
+  "createdOn": "2025-09-19T08:50:08.982Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-19T08:50:08.982Z",
+      "msg": "Nome : /\r\nTelefone : 258\r\nE-mail : aduinaemilio@gmail.com\r\nDescrição do Problema : nr da conta de impostos"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-19T08:51:34.379Z",
+      "msg": "?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-19T08:51:51.588Z",
+      "msg": "Bom dia"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-19T08:51:57.731Z",
+      "msg": "Na banca, tem"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-19T08:52:25.586Z",
+      "msg": "onde mais ou menos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-19T08:53:09.677Z",
+      "msg": "oagamento de serviços"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-19T08:54:56.337Z",
+      "msg": "pode indicar?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-19T08:56:24.939Z",
+      "msg": "?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-19T08:58:59.991Z",
+      "msg": "os impostos, tem no catálogo de empresas"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-19T09:00:01.680Z",
+      "msg": "clica no campo que destaquei, e a seguir sera direcionado a banca para proceder com o pagamento",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/53da74231a16276eb21dc9f851026e40050188db/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 53897,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-19T09:16:48.364Z",
+      "msg": "como verificar o pagamento do salario?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-19T09:18:14.512Z",
+      "msg": "?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-19T09:25:57.640Z",
+      "msg": "nr da conta de arrendamento"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-19T09:26:58.873Z",
+      "msg": "?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-19T09:30:57.381Z",
+      "msg": "pode me indicar as faturas da conta de água, luz, arrendamento, e telecomunicação?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-19T09:32:26.984Z",
+      "msg": "ajuda"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-19T09:35:52.664Z",
+      "msg": "ola"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

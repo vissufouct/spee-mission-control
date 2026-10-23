@@ -1,0 +1,29 @@
+{
+  "id": "285572a0-38e9-11f1-8fc6-355627796907",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-lpKS_oLMmkA0ZLJpBVfMe",
+    "email": "armenioxerinda@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-04-15T17:30:44.048Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T17:30:44.048Z",
+      "msg": "Nome : ARYOL MOTORS LDA\r\nTelefone : 25882564311\r\nE-mail : armenioxerinda@gmail.com\r\nDescrição do Problema : Boa noite\nNa aula da segunda-feira fizemos a entrada de mercadoria, porem quando procuro verificar, nao consigo obter a lista ou a confirmação de entrada. Podem ajudar a confirmar se foi correctamente processado?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

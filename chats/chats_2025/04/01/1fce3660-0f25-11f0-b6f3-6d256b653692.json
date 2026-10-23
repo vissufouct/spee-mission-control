@@ -1,0 +1,90 @@
+{
+  "id": "1fce3660-0f25-11f0-b6f3-6d256b653692",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-h9j2XIBq5SrCTJRmHAGcT",
+    "email": "wandastelio12@icloud.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 7,
+  "chatDuration": 1055,
+  "rating": -1,
+  "createdOn": "2025-04-01T18:37:00.596Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T18:37:00.596Z",
+      "msg": "Nome : A Politecnica - MPT/Nhantumbo\r\nE-mail : wandastelio12@icloud.com\r\nDescrição do Problema : SOLICITACAO DE EDITAR AS INFORMACOES DA EMPRESA"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-04-01T18:37:49.362Z",
+      "msg": "Boa noite"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-04-01T18:38:05.209Z",
+      "msg": "Poderia me fornece mais detalhes do problema?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T18:38:46.166Z",
+      "msg": "O"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T18:39:29.178Z",
+      "msg": "NAO CONSEGUIMOS  MUDAR AS QUOTAS ,FALHAMOS NA DIVISAO DAS MESMAS"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "rating",
+      "time": "2025-04-01T18:41:07.191Z",
+      "data": {
+        "rating": -1
+      }
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-04-01T18:43:28.264Z",
+      "msg": "Pra editar as informações da empresa vá ate o \"Meu Perfil\" no campo de Dados da empresa clique em \"Editar dados da Empresa\"(butão laranja)"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T18:45:23.476Z",
+      "msg": "JA TENTAMOS MAS NAO ACEITA TALVEZ PORQUE JA REGISTAMOS A EMPRESA, HA ALGUMA FORMA DE EDITAR SEM TERMOS DE APAGAR A NOSSA EMPRESA E REECRIAR UMA NOVA EMPRESA"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

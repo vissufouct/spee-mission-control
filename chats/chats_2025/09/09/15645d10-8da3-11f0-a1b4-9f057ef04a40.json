@@ -1,0 +1,63 @@
+{
+  "id": "15645d10-8da3-11f0-a1b4-9f057ef04a40",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISG/Cuinica",
+    "id": "5b081d4d8859f57bdc7b8ddd-gNhe_GxABByZY8ueM979D",
+    "email": "cuinicacelia7@gmail.com"
+  },
+  "location": {
+    "countryCode": "US",
+    "city": "Chicago"
+  },
+  "messageCount": 5,
+  "chatDuration": 280,
+  "rating": 0,
+  "createdOn": "2025-09-09T17:47:23.152Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-09T17:47:23.152Z",
+      "msg": "Nome : ISG/Cuinica\r\nTelefone : 258843679263\r\nE-mail : cuinicacelia7@gmail.com\r\nDescrição do Problema : Boa noite tudo bem, estou a tentar a voltar a registar um fucionario que apaguei por ter um cargo repetido e volto a registar nao esta aceitar"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-09T17:48:33.422Z",
+      "msg": "Boa noite. Não aceita? Que informação dá quando tenta registar?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-09T17:50:01.718Z",
+      "msg": "Que os campos não estão preenchidos mesmo estando"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-09T17:51:15.688Z",
+      "msg": "Preencha os campos correctamente"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-09T17:52:02.983Z",
+      "msg": "Impossível prosseguir, verifique se possui todos os campos devidamente preenchidos. Mas estão todos preenchidos"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

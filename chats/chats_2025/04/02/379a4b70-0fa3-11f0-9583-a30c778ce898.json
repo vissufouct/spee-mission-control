@@ -1,0 +1,29 @@
+{
+  "id": "379a4b70-0fa3-11f0-9583-a30c778ce898",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ElYash Lda Tech",
+    "id": "5b081d4d8859f57bdc7b8ddd-ovtuZVSE27m1SIQwVRVQt",
+    "email": "yashfir31@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-04-02T09:41:40.610Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-02T09:41:40.610Z",
+      "msg": "Nome : ElYash Lda Tech\r\nTelefone : 845638614\r\nE-mail : yashfir31@gmail.com\r\nDescrição do Problema : colocar logo nas facturas"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "eef42930-f2b0-11f0-b562-e92bf38dac50",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Mundo SA Auto",
+    "id": "5b081d4d8859f57bdc7b8ddd-HdjxSvIeMFO4GuLZ7Q000",
+    "email": "mundoautosa711@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 113,
+  "rating": 0,
+  "createdOn": "2026-01-16T07:57:12.150Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-01-16T07:57:12.150Z",
+      "msg": "Responda"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-01-16T07:59:05.077Z",
+      "msg": "Bom dia, poderia explicar melhor o problema?"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

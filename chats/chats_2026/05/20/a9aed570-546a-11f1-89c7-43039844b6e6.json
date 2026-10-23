@@ -1,0 +1,29 @@
+{
+  "id": "a9aed570-546a-11f1-89c7-43039844b6e6",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Shármel Rosa Mazivila",
+    "id": "5b081d4d8859f57bdc7b8ddd-C5jjcXHHNVKoC7Yv3vERE",
+    "email": "sharmelmazivila12@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T16:42:12.449Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T16:42:12.449Z",
+      "msg": "Nome : Shármel Rosa Mazivila\r\nTelefone : 258844145454\r\nE-mail : sharmelmazivila12@gmail.com\r\nDescrição do Problema : sharmelmazivila12@gmail.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

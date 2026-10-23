@@ -1,0 +1,46 @@
+{
+  "id": "6da950a0-1956-11f0-ad35-9bfcb0cd52ac",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Armussagy comunicacao,lda/4002807823",
+    "id": "5b081d4d8859f57bdc7b8ddd-o0w2j3XiqGOvVbn75turv",
+    "email": "mussagymagid@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 3,
+  "chatDuration": 97,
+  "rating": 0,
+  "createdOn": "2025-04-14T17:36:38.899Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-14T17:36:38.899Z",
+      "msg": "Nome : Armussagy comunicacao,lda/4002807823\r\nE-mail : mussagymagid@gmail.com\r\nDescrição do Problema : ola como posso fazer para aceder , login da minha empresa"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-14T17:37:15.960Z",
+      "msg": "Boa noite\nColoque os dados de acesso ao sistema"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-14T17:38:15.479Z",
+      "msg": "Nome : Armussagy comunicacao,lda/4002807823\nE-mail : mussagymagid@gmail.com\nDescrição do Problema : ola como posso fazer para aceder , login da minha empresa"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

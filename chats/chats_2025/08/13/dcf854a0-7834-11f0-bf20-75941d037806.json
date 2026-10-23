@@ -1,0 +1,71 @@
+{
+  "id": "dcf854a0-7834-11f0-bf20-75941d037806",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCAM/Matimele",
+    "id": "5b081d4d8859f57bdc7b8ddd-DnCYG6Eo_kUQZTwv9LI2W",
+    "email": "mmmatimele06@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Beira"
+  },
+  "messageCount": 6,
+  "chatDuration": 483,
+  "rating": 0,
+  "createdOn": "2025-08-13T11:58:01.249Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-13T11:58:01.249Z",
+      "msg": "Nome : ISCAM/Matimele\r\nDescrição do Problema : O sistema não esta a aceitar registar fornecedores que já foram registados como clientes, dando o erro `` O NUIT introduzido já existe``"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-13T11:59:59.157Z",
+      "msg": "boa tarde. Antes de registra um fornecedor ou cliente deve certificar-se que o NUIT nao seja igual a de um cliente ou fornecedor existente"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-13T12:03:42.868Z",
+      "msg": "Acontece que no trabalho que estamos a fazer alguns dos nossos clientes devem ser registados também como fornecedores, o que podemos fazer?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-13T12:04:07.971Z",
+      "msg": "E o NUIT consequentemente é o mesmo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-13T12:05:34.657Z",
+      "msg": "adicione o cliente como Fornecer e cliente durante o registro."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-13T12:06:04.238Z",
+      "msg": "Tudo bem, obrigada."
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

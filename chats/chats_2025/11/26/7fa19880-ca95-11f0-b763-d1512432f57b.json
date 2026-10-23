@@ -1,0 +1,29 @@
+{
+  "id": "7fa19880-ca95-11f0-b763-d1512432f57b",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISG/Gujamo",
+    "id": "5b081d4d8859f57bdc7b8ddd-9rZxfPA7qV3Iv0njwTKb8",
+    "email": "sgujamo@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-11-26T07:23:35.039Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-26T07:23:35.039Z",
+      "msg": "Nome : ISG/Gujamo\r\nTelefone : 258874049137\r\nE-mail : sgujamo@gmail.com\r\nDescrição do Problema : NÃO CONSIGO ENTRAR NO SGC COMERCIAL, CONSEQUENTEMENTE NAO CONSIGO ACEDER A CONTABILIDADE"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

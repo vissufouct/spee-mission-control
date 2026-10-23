@@ -1,0 +1,37 @@
+{
+  "id": "1bbaa140-26e8-11f1-be4b-2be8dac4f8c8",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "[Docente]A Politecnica - MPT - A Politécnica-Semestre 1_2026/Guirruta, Carlos",
+    "id": "5b081d4d8859f57bdc7b8ddd-dRwkleEbtgB1V3nL1tWCE",
+    "email": "carlosguirruta@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-03-23T18:46:47.627Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:46:47.627Z",
+      "msg": "Nome : [Docente]A Politecnica - MPT - A Politécnica-Semestre 1_2026/Guirruta, Carlos\r\nE-mail : carlosguirruta@gmail.com\r\nDescrição do Problema : Turma Bloqueada como desbloquear?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:47:28.110Z",
+      "msg": "Turma bloqueada. como desbloqear?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

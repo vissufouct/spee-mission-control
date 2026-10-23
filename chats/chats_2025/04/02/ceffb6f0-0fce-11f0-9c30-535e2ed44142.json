@@ -1,0 +1,71 @@
+{
+  "id": "ceffb6f0-0fce-11f0-9c30-535e2ed44142",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-sNODsE1oQssHsxfLQL0o9",
+    "email": "charmilaabdul92@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 6,
+  "chatDuration": 2311,
+  "rating": 0,
+  "createdOn": "2025-04-02T14:54:12.189Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-02T14:54:12.189Z",
+      "msg": "Nome : MILENIO LDA TECHNOLOGIES\r\nE-mail : charmilaabdul92@gmail.com\r\nDescrição do Problema : Boa tarde, nao consigo adicionar renda ao custo fixo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-02T15:23:20.995Z",
+      "msg": "boa tarde, continuo aguardando"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-02T15:23:50.769Z",
+      "msg": "Boa noite"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-02T15:24:05.205Z",
+      "msg": "Qual é o problema que dá?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-02T15:24:48.750Z",
+      "msg": "simplesmente processa e nao aparece na lista"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-02T15:32:42.739Z",
+      "msg": "?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

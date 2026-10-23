@@ -1,0 +1,80 @@
+{
+  "id": "2afe1c70-3e23-11f1-b343-9b2ea8101341",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "V1776845395945775",
+    "id": "5b081d4d8859f57bdc7b8ddd-iJpbmKo1GuqbPVoS6yFUs",
+    "email": null
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 7,
+  "chatDuration": 1843,
+  "rating": 0,
+  "createdOn": "2026-04-22T08:22:24.681Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T08:22:24.681Z",
+      "msg": "Telefone : 258844450058\r\nDescrição do Problema : o prbolima no marketinfd mix ainda nao foi resolvido"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-22T08:24:22.375Z",
+      "msg": "Qual problema?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T08:29:15.889Z",
+      "msg": "quando insiro a informacao na propaganda, essa mesma informacao e exportada autimaticamente para pessoas, processos evidencias fisicas"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-22T08:32:55.959Z",
+      "msg": "Qual é o seu email?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T08:33:47.730Z",
+      "msg": "alberto.erik@gmail.com"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T08:50:17.389Z",
+      "msg": "Ja resolveu ?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-22T08:53:07.355Z",
+      "msg": "Estamos a resolver, iremos entrar em contacto assim que for resolvido."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

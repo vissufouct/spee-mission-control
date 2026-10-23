@@ -1,0 +1,130 @@
+{
+  "id": "a37c5930-ff65-11ef-9ac2-0fa31714f5a2",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Xerinda",
+    "id": "5b081d4d8859f57bdc7b8ddd-OZ3QzzBTQTigfrGZLBxxZ",
+    "email": "armenio.consultmoz@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 13,
+  "chatDuration": 3324,
+  "rating": 0,
+  "createdOn": "2025-03-12T17:22:11.709Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:22:11.709Z",
+      "msg": "Nome : ISCIM/Xerinda\r\nE-mail : armenio.consultmoz@gmail.com\r\nDescrição do Problema : Criei acidentalmente a empresa DEEP CONSULTMOZ, LDA, pode ajudar a eliminar?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:22:53.190Z",
+      "msg": "Posso sim, aguarde um momento"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:23:08.374Z",
+      "msg": "Obrigado"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:28:08.896Z",
+      "msg": "qual é a empresa que deseja se juntar?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:30:46.939Z",
+      "msg": "Ja faço parte da MILENIO TECHNOLOGIES, LDA"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:31:24.705Z",
+      "msg": "Pretendo eliminar a DEEP CONSULTMOZ, LDA"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:31:46.925Z",
+      "msg": "certo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:35:06.977Z",
+      "msg": "ja esta"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:35:42.769Z",
+      "msg": "Obrigado"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:50:37.969Z",
+      "msg": "Boa noite mais uma vez"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:51:06.454Z",
+      "msg": "O docente esta a notificar-me que não criei a empresa, não teras eliminado todas?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-12T18:12:49.249Z",
+      "msg": "resolvido"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T18:17:18.845Z",
+      "msg": "Obrigado"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

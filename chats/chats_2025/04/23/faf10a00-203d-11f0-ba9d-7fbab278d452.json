@@ -1,0 +1,29 @@
+{
+  "id": "faf10a00-203d-11f0-ba9d-7fbab278d452",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "JM Cars,Lda/4002807809",
+    "id": "5b081d4d8859f57bdc7b8ddd-PNaeW5mRAmYVB4z4_e035",
+    "email": null
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-04-23T12:47:09.386Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-23T12:47:09.386Z",
+      "msg": "Nome : JM Cars,Lda\r\nDescrição do Problema : ola, estou com problemas no sistema para finalizar um lançamento"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "1e738d60-97a6-11f0-af44-7578caf40054",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "JOYCE TECNOLOGIA LDA DE INFORMAÇÃO",
+    "id": "5b081d4d8859f57bdc7b8ddd-tgVIA6lpEqlwTBnZAyCuV",
+    "email": "leta.z.mucavele@gmail.com"
+  },
+  "location": {
+    "countryCode": "DK",
+    "city": "Faaborg"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-09-22T11:25:10.953Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-22T11:25:10.953Z",
+      "msg": "Nome : Joyce Tecnologias de Informacao Ltd/4002858041\r\nE-mail : leta.z.mucavele@gmail.com\r\nDescrição do Problema : Boa tarde.\n\nPeço suporte, cadastrei os artigos da nossa Empresa Joyce Tecnologia de Informacao, mas eles não aparecem no Moz Online Comerce."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,174 @@
+{
+  "id": "b4cd1130-7471-11f0-b774-1d59724822b2",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-P3RjDXa3ndLydEgAUI7b_",
+    "email": "norbertorainha@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 15,
+  "chatDuration": 2178,
+  "rating": 0,
+  "createdOn": "2025-08-08T16:14:20.615Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-08T16:14:20.615Z",
+      "msg": "Nome : ISDB/Rissane\r\nTelefone : 843636658\r\nE-mail : norbertorainha@gmail.com\r\nDescrição do Problema : Esquece a senha"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-08T16:16:04.692Z",
+      "msg": "Esquece a senha"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-08T16:18:18.437Z",
+      "msg": "Boa noite, um momento por favor!"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-08T16:22:06.957Z",
+      "msg": "Para recuperar a senha na tela de login clica em recuperar senha insira o seu email"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-08T16:24:22.559Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "extension": "png",
+              "size": 581443,
+              "name": "tmp_56dc5c9b-d6dc-459c-bf90-2af8972857c9.png",
+              "mimeType": "image/png",
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/67bc6520a561be464e803d37/54a335e61194a079adeaabb48c71dd89caaf07bf/tmp_56dc5c9b-d6dc-459c-bf90-2af8972857c9.png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-08T16:25:42.799Z",
+      "msg": "Quando eu clicou no login parace novamente inserir emil, é dai que a senha,essa a que eu esquece"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-08T16:28:50.086Z",
+      "msg": "Na tela se login clique nesse campo:",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "extension": "png",
+              "size": 581443,
+              "name": "tmp_56dc5c9b-d6dc-459c-bf90-2af8972857c9.png",
+              "mimeType": "image/png",
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/67bc6520a561be464e803d37/32ff195e07265ef56fc06fb5799fc177b13843c3/tmp_56dc5c9b-d6dc-459c-bf90-2af8972857c9.png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-08T16:39:36.885Z",
+      "msg": "Esta sendo dificil para mi"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-08T16:39:54.491Z",
+      "msg": "Nada esta aceitar"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-08T16:43:10.418Z",
+      "msg": "O quando clica em esqueci a senha o que diz?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-08T16:46:43.088Z",
+      "msg": "Agora já consegui"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-08T16:47:40.329Z",
+      "msg": "Recebe no emil,uma nova senha"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-08T16:48:19.885Z",
+      "msg": "Já fiz alteração da antiga senha"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-08T16:49:56.189Z",
+      "msg": "O Meu muito obrigado, pela paciência e compreensão."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-08T16:50:38.226Z",
+      "msg": "Como posso mi interagir novamente se caso ter outa dificuldade?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

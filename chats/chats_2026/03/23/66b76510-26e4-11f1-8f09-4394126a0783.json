@@ -1,0 +1,38 @@
+{
+  "id": "66b76510-26e4-11f1-8f09-4394126a0783",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Adelino Rafael",
+    "id": "5b081d4d8859f57bdc7b8ddd-U4uGiWWI8cuINbwXcItBc",
+    "email": null
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 241,
+  "rating": 0,
+  "createdOn": "2026-03-23T18:25:40.405Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:25:40.405Z",
+      "msg": "Nome : Adelino Rafael\r\nTelefone : 258829196450\r\nDescrição do Problema : quando escolhemos a loja nao contece mais nada"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:29:41.004Z",
+      "msg": "Um momento por favor estamos verificando o problema"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

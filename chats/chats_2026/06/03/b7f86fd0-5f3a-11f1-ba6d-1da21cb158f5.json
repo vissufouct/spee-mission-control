@@ -1,0 +1,63 @@
+{
+  "id": "b7f86fd0-5f3a-11f1-ba6d-1da21cb158f5",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Luri Anatércia Sérgio Vembane",
+    "id": "5b081d4d8859f57bdc7b8ddd-MB0XR9_6z2AIhMCh4WNQZ",
+    "email": "airtonaly2@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 5,
+  "chatDuration": 301,
+  "rating": 0,
+  "createdOn": "2026-06-03T11:42:03.948Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-03T11:42:03.948Z",
+      "msg": "Name : Luri Anatércia Sérgio Vembane\r\nEmail : luryanaterciavembane@gmail.com\r\nPhone : +258850720207\r\nDescrição do Problema : cadastro do artigo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-03T11:42:28.596Z",
+      "msg": "comose faz o cadastro do artigo nas projecoes de venda"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-03T11:43:05.776Z",
+      "msg": "peço que pelo menos me responda"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-06-03T11:46:40.896Z",
+      "msg": "Boa tarde, Na projecao de vendas"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-06-03T11:47:05.323Z",
+      "msg": "So seguir os passos com o preenchimento"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

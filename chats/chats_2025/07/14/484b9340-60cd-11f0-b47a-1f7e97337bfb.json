@@ -1,0 +1,94 @@
+{
+  "id": "484b9340-60cd-11f0-b47a-1f7e97337bfb",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCAM/Mathe",
+    "id": "5b081d4d8859f57bdc7b8ddd-SCmhfmGi7b2hLxFtQHkfI",
+    "email": "vanessa.mathe@iscam.ac.mz"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 7,
+  "chatDuration": 312,
+  "rating": 0,
+  "createdOn": "2025-07-14T16:48:27.576Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-14T16:48:27.576Z",
+      "msg": "Nome : ISCAM/Mathe\r\nTelefone : 258863908183\r\nE-mail : elton.bila@iscam.ac.mz\r\nDescrição do Problema : Boa noite equipe de suporte,\n\nEstamos a  enfrentar problemas tecnicos para poder solicitar finnanciamento"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-14T16:49:17.878Z",
+      "msg": "Boa noite\nO que acontece quando fazem o pedido de financiamento?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-14T16:49:22.767Z",
+      "msg": "Dá algum erro?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-14T16:49:46.367Z",
+      "msg": "Da erro,sim/."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-07-14T16:50:37.716Z",
+      "msg": "Pode mandar print, por favor"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-14T16:51:12.162Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/68752c54a3c8d40bf9384276/v/5b93e4175c1bf9adfad1e91bc8f6744ea28bf583/aae7c1a9-fd58-4cfd-9e13-09b3699c7638.jpg",
+              "name": "aae7c1a9-fd58-4cfd-9e13-09b3699c7638.jpg",
+              "mimeType": "image/jpeg",
+              "size": 131746,
+              "extension": "jpeg"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-14T16:53:40.043Z",
+      "msg": "Mandei o print"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

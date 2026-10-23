@@ -1,0 +1,29 @@
+{
+  "id": "81cf8ff0-5077-11f1-8765-1df5a963fbe2",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "V1778860963383785",
+    "id": "5b081d4d8859f57bdc7b8ddd-D_r7cO5NxyV7e6Lh4GbT8",
+    "email": "paulosembaanapaula@gmail.com"
+  },
+  "location": {
+    "countryCode": "NL",
+    "city": "Amsterdam"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-15T16:09:04.255Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-15T16:09:04.255Z",
+      "msg": "Telefone : 25884965836\r\nE-mail : paulosembaanapaula@gmail.com\r\nDescrição do Problema : Empresa unipessoal"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

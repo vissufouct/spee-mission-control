@@ -1,0 +1,52 @@
+{
+  "id": "74af9770-04e2-11f0-b0f3-fbad7bf77572",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Magaia",
+    "id": "5b081d4d8859f57bdc7b8ddd-JHEimNFn9RbaERTJaUwri",
+    "email": "lurdeswenzopenicela@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 52,
+  "rating": 0,
+  "createdOn": "2025-03-19T16:52:53.923Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T16:52:53.923Z",
+      "msg": "Nome : ISCIM/Magaia\r\nE-mail : lurdeswenzopenicela@gmail.com\r\nDescrição do Problema : nao consigo acessar aos activos minimos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-03-19T16:53:46.221Z",
+      "msg": "Boa noite\nlogo apos aceder a plataforma, entrar para este campo. e depois voltar a tentar aceceder aos activos minimos",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "extension": "jpeg",
+              "size": 101550,
+              "name": "image.jpg",
+              "mimeType": "image/jpeg",
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/67bc6520a561be464e803d37/571ee1cfd43309a9484773d8c59c399e3f050d32/image.jpg"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

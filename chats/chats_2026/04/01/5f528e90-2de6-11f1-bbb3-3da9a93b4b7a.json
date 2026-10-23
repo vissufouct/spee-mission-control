@@ -1,0 +1,38 @@
+{
+  "id": "5f528e90-2de6-11f1-bbb3-3da9a93b4b7a",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "TC INFORMATICAS LDA/4003038508",
+    "id": "5b081d4d8859f57bdc7b8ddd-mq1iqIw96iCZuilGsMmAA",
+    "email": "talbasine@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 71,
+  "rating": 0,
+  "createdOn": "2026-04-01T16:19:26.227Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-01T16:19:26.227Z",
+      "msg": "Nome : TC INFORMATICAS LDA/4003038508\r\nE-mail : talbasine@gmail.com\r\nDescrição do Problema : nao consigo acessar diario do empreendedor"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-01T16:20:37.004Z",
+      "msg": "Boa noite estamos verificando o problema!"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

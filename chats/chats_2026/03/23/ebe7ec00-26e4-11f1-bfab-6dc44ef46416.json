@@ -1,0 +1,37 @@
+{
+  "id": "ebe7ec00-26e4-11f1-bfab-6dc44ef46416",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Mutemba",
+    "id": "5b081d4d8859f57bdc7b8ddd-gxJNL5UE5JQjbX5Fq1euj",
+    "email": "laramutemba2017@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-03-23T18:31:18.449Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:31:18.449Z",
+      "msg": "Nome : ISCIM/Mutemba\r\nTelefone : 258844972874\r\nE-mail : laramutemba2017@gmail.com\r\nDescrição do Problema : ao escolher valor de arrendamento, a página não avança"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:53:13.609Z",
+      "msg": "Olá"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "53003ea0-545e-11f1-862a-2bfa2fa43a0e",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Nabila Sallé",
+    "id": "5b081d4d8859f57bdc7b8ddd-_hu0Ek93RgSRTja_niSNK",
+    "email": "nabilasalle2@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T15:13:33.592Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:13:33.592Z",
+      "msg": "Nome : Nabila Sallé\r\nTelefone : 258846694882\r\nE-mail : nabilasalle2@gmail.com\r\nDescrição do Problema : Envio de e-mail"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

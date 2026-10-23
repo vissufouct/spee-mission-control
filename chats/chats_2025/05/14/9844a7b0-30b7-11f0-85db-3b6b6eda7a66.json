@@ -1,0 +1,29 @@
+{
+  "id": "9844a7b0-30b7-11f0-85db-3b6b6eda7a66",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/Goenha",
+    "id": "5b081d4d8859f57bdc7b8ddd-glQekwoIhiXFSb1JZ5zs_",
+    "email": "goenhashelsea@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-05-14T11:39:52.822Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-14T11:39:52.822Z",
+      "msg": "Nome : A Politecnica - MPT/Goenha\r\nE-mail : goenhashelsea@gmail.com\r\nDescrição do Problema : Olá! Espero que esteja bem.\nA empresa retirou um dos sócios, precisamos fazer uma nova Acta de constituição da Empresa, como fazer?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

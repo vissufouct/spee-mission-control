@@ -1,0 +1,37 @@
+{
+  "id": "d9cd91f0-48b3-11f1-b73c-15993f9442e3",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Vembane",
+    "id": "5b081d4d8859f57bdc7b8ddd-MB0XR9_6z2AIhMCh4WNQZ",
+    "email": "airtonaly2@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-05T19:04:33.795Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-05T19:04:33.795Z",
+      "msg": "Nome : Luri Anatércia Sérgio Vembane\r\nTelefone : 258850720207\r\nE-mail : luryanaterciavembane@gmail.com\r\nDescrição do Problema : Nao esta a salvar o plano de comunicacao. o que se passa"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-05T19:05:30.750Z",
+      "msg": "Nao esta salvar publico alvo"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

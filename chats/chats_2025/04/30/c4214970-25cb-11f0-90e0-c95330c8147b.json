@@ -1,0 +1,64 @@
+{
+  "id": "c4214970-25cb-11f0-90e0-c95330c8147b",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/ZITA",
+    "id": "5b081d4d8859f57bdc7b8ddd-H56axD8EEPk7IPdO2gFXo",
+    "email": "neliozita593@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 5,
+  "chatDuration": 2063,
+  "rating": 0,
+  "createdOn": "2025-04-30T14:07:21.290Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-30T14:07:21.290Z",
+      "msg": "Nome : MONEL COMPUTERS LDA\r\nE-mail : neliozita593@gmail.com\r\nDescrição do Problema : quando lanco contas so aparece a conta mae e a subconta nao aparece"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-30T14:07:56.088Z",
+      "msg": "Boa tarde"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-30T14:08:09.805Z",
+      "msg": "tem certeza que salvou a operação?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-30T14:09:22.735Z",
+      "msg": "sim salvei so aparece a conta mae e as contas de movimento mais a subconta nao aparece enquanto e a registei no plano de contas"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-30T14:14:01.132Z",
+      "msg": "peço teu email"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

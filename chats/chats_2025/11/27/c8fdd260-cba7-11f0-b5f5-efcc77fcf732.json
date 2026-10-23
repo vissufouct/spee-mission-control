@@ -1,0 +1,55 @@
+{
+  "id": "c8fdd260-cba7-11f0-b5f5-efcc77fcf732",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-dhKQOQ08p0KByHoMx7hEd",
+    "email": "irenemulhui@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 4,
+  "chatDuration": 64,
+  "rating": 0,
+  "createdOn": "2025-11-27T19:03:13.685Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-27T19:03:13.685Z",
+      "msg": "Nome : /\r\nTelefone : 258847567595\r\nE-mail : irenemulhui@gmail.com\r\nDescrição do Problema : estou a constatar um problema com o RH ,ja nao consta a lista de funcionarios no sistema"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-11-27T19:03:32.794Z",
+      "msg": "Boa noite"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-11-27T19:03:46.312Z",
+      "msg": "Peço seu email"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-27T19:04:17.303Z",
+      "msg": "irenemulhui@gmail.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

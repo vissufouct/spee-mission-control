@@ -1,0 +1,52 @@
+{
+  "id": "69ceab30-04e1-11f0-8350-0de47372ca65",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Tamele",
+    "id": "5b081d4d8859f57bdc7b8ddd-GSY5rSPG1USj2wnejmbvr",
+    "email": "suelytamele@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 116,
+  "rating": 0,
+  "createdOn": "2025-03-19T16:54:43.590Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T16:54:43.590Z",
+      "msg": "Nome : ISCIM/Tamele\r\nE-mail : suelytamele@gmail.com\r\nDescrição do Problema : erro ao aceder a loja online dos activos minimos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-03-19T16:56:39.599Z",
+      "msg": "Boa noite\nlogo apos aceder a plataforma, entrar para este campo. e depois voltar a tentar aceceder aos activos minimos",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "extension": "jpeg",
+              "size": 101550,
+              "name": "image.jpg",
+              "mimeType": "image/jpeg",
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/67bc6520a561be464e803d37/5b86b17ec342b149ea3f5d48e226aa0776e28e83/image.jpg"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

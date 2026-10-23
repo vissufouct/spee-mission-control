@@ -1,0 +1,123 @@
+{
+  "id": "1c7dc540-03d4-11f0-b38a-a78c731cb329",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Célio Fernando",
+    "id": "5b081d4d8859f57bdc7b8ddd-0HFL_KcA5RDHYOr4LEmia",
+    "email": "bigirimanarahman@gmail.com"
+  },
+  "location": {
+    "countryCode": "CA",
+    "city": "Toronto"
+  },
+  "messageCount": 12,
+  "chatDuration": 2549,
+  "rating": 0,
+  "createdOn": "2025-03-18T08:54:26.529Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-18T08:54:26.529Z",
+      "msg": "Nome : Célio Fernando\r\nTelefone : 867808852\r\nE-mail : Celiofernando494@gmail.com\r\nDescrição do Problema : nao aceita criar o Planos de Negócio"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-03-18T08:55:00.136Z",
+      "msg": "Bom dia"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-03-18T08:55:19.972Z",
+      "msg": "Poderia explicar melhor o problema"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-18T08:55:22.304Z",
+      "msg": "bom dia"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-18T08:59:22.627Z",
+      "msg": "depois de  entrar na janela de Modelo Negócio nao consigo  criar o Planos de Negócio"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-03-18T09:02:15.765Z",
+      "msg": "Para criar um plano de negocio entre em modelo de negocio, na janela \"Plano de negocio\" clique em novo em baixo vai aparecer espaço pra prencheres, depois salvar e prosseguir, para ver os seu planos de negocio clique em \"ver comentarios\""
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-18T09:05:02.534Z",
+      "msg": "o problema esta ai, quando dou clique  em \"ver comentarios\"  nao aparecem"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-03-18T09:07:25.408Z",
+      "msg": "Mas apos \"salvar e prosesseguir\" o estudante seguiu todos os passos que o sistema indica?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-03-18T09:07:43.899Z",
+      "msg": "Mas apos \"salvar e prosesseguir\" o estudante seguiu todos os passos que o sistema indica?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-18T09:07:55.465Z",
+      "msg": "sim"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-03-18T09:19:19.469Z",
+      "msg": "Prencha o perfil do empreendedor antes de criar um plano de negocio!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-18T09:36:55.745Z",
+      "msg": "esta bem"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

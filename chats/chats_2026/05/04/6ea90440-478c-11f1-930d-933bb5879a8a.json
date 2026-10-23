@@ -1,0 +1,60 @@
+{
+  "id": "6ea90440-478c-11f1-930d-933bb5879a8a",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-Zsqnnbi4JZmaa3x0OrZGR",
+    "email": "dominiczandamela296@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 77,
+  "rating": 0,
+  "createdOn": "2026-05-04T08:58:58.341Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-04T08:58:58.341Z",
+      "msg": "Telefone : 258845217539\r\nE-mail : stevenuamusse5@gmail.com\r\nDescrição do Problema : Estamos com problema na factura Pro-forma que nao aparece os dados da nossa empresa"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-04T08:59:31.805Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69f84d463ad48120252a892e/v/b462683c6a8c8bc085c3738520fb7b53e95454a0/ProForma_2_2026.pdf",
+              "name": "ProForma_2_2026.pdf",
+              "mimeType": "application/pdf",
+              "size": 65873,
+              "extension": "pdf"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-05-04T09:00:15.140Z",
+      "msg": "Bom dia, aguarde a verificacao"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

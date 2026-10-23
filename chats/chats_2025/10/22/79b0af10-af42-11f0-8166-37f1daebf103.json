@@ -1,0 +1,55 @@
+{
+  "id": "79b0af10-af42-11f0-8166-37f1daebf103",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-w1grlDxlOeJldJ62GWo19",
+    "email": "shakilmsa83@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 4,
+  "chatDuration": 562,
+  "rating": 0,
+  "createdOn": "2025-10-22T12:29:11.793Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-22T12:29:11.793Z",
+      "msg": "Nome : S&H Telemóveis e recargas Lda\r\nE-mail : shakilmsa83@gmail.com\r\nDescrição do Problema : ola,onde posso pagar seguros"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-22T12:37:57.815Z",
+      "msg": "Boa tarde"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-22T12:38:20.504Z",
+      "msg": "boa tarde"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-22T12:38:34.167Z",
+      "msg": "No Catálogo de empresas, tem os dadoa bancários\nE depois sóprecisa fazer o pagamento na banca com os dados"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "a05b6390-6fdf-11f1-9911-83905a2cd924",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "YASH DRIVE LDA/4003078665 AUTO",
+    "id": "5b081d4d8859f57bdc7b8ddd-J6nSd29RPZJRLqEXOY_VS",
+    "email": "yandracaetanodias2@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 245,
+  "rating": 0,
+  "createdOn": "2026-06-24T15:28:10.265Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-24T15:28:10.265Z",
+      "msg": "Name : YASH DRIVE LDA/4003078665 AUTO\r\nEmail : yandracaetanodias2@gmail.com\r\nPhone : +258843719135\r\nDescrição do Problema : Saudacoes\n\n1. Quando entro catalogo de empresas para devida facturacao nos mercados ggrossitas (moz, usa, rsa, china), ja nao aparecem os produtos... Mas ja estao registrados.\n\n2. E nos mesmos mercados tenho algumas facturas anuladas"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-06-24T15:32:15.343Z",
+      "msg": "Onde fez o registro dos produtos?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

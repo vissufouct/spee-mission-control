@@ -1,0 +1,29 @@
+{
+  "id": "c35ca6a0-0fe2-11f0-837e-8f750cdb769b",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/Aly",
+    "id": "5b081d4d8859f57bdc7b8ddd-T4NRGPIHD94Fn5opkPD0j",
+    "email": "lindanuvunga@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-04-02T16:55:45.491Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-02T16:55:45.491Z",
+      "msg": "Nome : A Politecnica - MPT/Aly\r\nE-mail : akildanilo@gmail.com\r\nDescrição do Problema : ola"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

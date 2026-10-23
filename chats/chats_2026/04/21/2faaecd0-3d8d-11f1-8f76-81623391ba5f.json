@@ -1,0 +1,173 @@
+{
+  "id": "2faaecd0-3d8d-11f1-8f76-81623391ba5f",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Magaia",
+    "id": "5b081d4d8859f57bdc7b8ddd-asXWUvanzc7W3uunJpNGP",
+    "email": "magaiacidalia@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 18,
+  "chatDuration": 2540,
+  "rating": 0,
+  "createdOn": "2026-04-21T14:33:46.452Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-21T14:33:46.452Z",
+      "msg": "Nome : ISCIM/Magaia\r\nE-mail : magaiacidalia@gmail.com\r\nDescrição do Problema : estou a ter problema para adicionar outro empreendedor"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-21T14:35:01.813Z",
+      "msg": "o que acontece quando adiciona?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-21T14:36:04.800Z",
+      "msg": "Quando clico no adicionar não aceita"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-21T14:36:40.190Z",
+      "msg": "Já preechi todos os dados"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-21T14:38:39.902Z",
+      "msg": "aguarde, em verificacao"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-21T14:48:32.790Z",
+      "msg": "esta bem"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-21T14:49:48.742Z",
+      "msg": "quando clica em adicionar recebe alguma mensagem de erro?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-21T14:50:13.159Z",
+      "msg": "Nao"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-21T14:50:35.199Z",
+      "msg": "pode me mandar os dados do empreendedor que deseja adicionar"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-21T14:51:58.969Z",
+      "msg": "Cidaalia  Antonio magaia , email magaiacidalia@gmail.com"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-21T14:52:27.902Z",
+      "msg": "os dados todos a preencher no empreendedor"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-21T14:55:55.410Z",
+      "msg": "Cidalia Antonio Magaia,email magaiacidalia@gmail.com,endereco av de mocambique 540, Cidade Maputo, ID 1101025422667S, Telefone 825213723, Curriculo Contabilista com experiencia em registo e analise de operações  financeiras e cumprimento das obrigações fiscais , possui conhecimentos sólidos em nomas contabilísticos.\nLicenciatura em contabilidade e auditoria"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-21T14:58:15.001Z",
+      "msg": "nuit?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-21T15:00:26.462Z",
+      "msg": "102036189"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-21T15:01:09.234Z",
+      "msg": "papel que desempenha?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-21T15:01:36.508Z",
+      "msg": "Garantir transparência financeira, apoiar a tomada de decisões."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-21T15:03:41.860Z",
+      "msg": "Peço que aguarde, estamos verificando o erro"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-21T15:16:06.919Z",
+      "msg": "Ok"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

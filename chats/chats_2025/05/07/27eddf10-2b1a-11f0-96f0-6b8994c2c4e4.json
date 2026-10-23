@@ -1,0 +1,64 @@
+{
+  "id": "27eddf10-2b1a-11f0-96f0-6b8994c2c4e4",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/4002797951",
+    "id": "5b081d4d8859f57bdc7b8ddd-xmPcmkD02XyntBXhEpdAL",
+    "email": "goenhashelsea@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 5,
+  "chatDuration": 3058,
+  "rating": 0,
+  "createdOn": "2025-05-07T08:33:15.874Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-07T08:33:15.874Z",
+      "msg": "Nome : A Politecnica - MPT/Goenha\r\nE-mail : goenhashelsea@gmail.com\r\nDescrição do Problema : Ola, espero que esteja bem. Gostaria de saber como encontrar os RECIBOS E FACTURAS PAGAS, baixei mas infelizmente nao encontro."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-07T08:33:50.542Z",
+      "msg": "Bom dia"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-07T08:34:02.049Z",
+      "msg": "procure no dispositivo por onde baixou"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-07T08:34:20.670Z",
+      "msg": "na pasta downloads\nGeralmente são colocados nessa pasta"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-07T08:35:32.846Z",
+      "msg": "obrigada"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

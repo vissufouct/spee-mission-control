@@ -1,0 +1,29 @@
+{
+  "id": "f0ce2690-13b0-11f1-a9f7-5959c66b6127",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ivan novela",
+    "id": "5b081d4d8859f57bdc7b8ddd-AjqwcNxLDLdpXaPmhiSY4",
+    "email": "ivan.fnovela@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-02-27T07:53:52.904Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-02-27T07:53:52.904Z",
+      "msg": "Nome : ivan novela\r\nTelefone : 258842959585\r\nE-mail : ivan.fnovela@gmail.com\r\nDescrição do Problema : bom dia. estou a ter problemas com obter faturas contrato de telecomunicacoes do novo ciclo"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

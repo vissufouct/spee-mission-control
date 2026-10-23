@@ -1,0 +1,29 @@
+{
+  "id": "7ce27ec0-d5e9-11f0-a9ed-d1b3d6318030",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISG/Luís",
+    "id": "5b081d4d8859f57bdc7b8ddd-ZhN1z5MQDpL6qxh6YDbi7",
+    "email": "faustina76@live.com"
+  },
+  "location": {
+    "countryCode": "RO",
+    "city": "Bucharest"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-12-10T18:07:03.814Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-12-10T18:07:03.814Z",
+      "msg": "Nome : ISG/Luís\r\nE-mail : faustina76@live.com\r\nDescrição do Problema : Boa noite. estamos com problemas no banco. não conseguimos aceder para comprar o caderno de encargo para o concurso publico"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

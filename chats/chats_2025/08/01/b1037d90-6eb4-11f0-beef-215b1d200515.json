@@ -1,0 +1,90 @@
+{
+  "id": "b1037d90-6eb4-11f0-beef-215b1d200515",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCAM/Mathe",
+    "id": "5b081d4d8859f57bdc7b8ddd-SCmhfmGi7b2hLxFtQHkfI",
+    "email": "vanessa.mathe@iscam.ac.mz"
+  },
+  "location": {
+    "countryCode": "US",
+    "city": "Albuquerque"
+  },
+  "messageCount": 8,
+  "chatDuration": 1346,
+  "rating": 0,
+  "createdOn": "2025-08-01T08:57:41.656Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-01T08:57:41.656Z",
+      "msg": "Estou a ter dificuldades para adicionar o meu socio?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Alexandre Viegas Mangujo Júnior"
+      },
+      "type": "msg",
+      "time": "2025-08-01T08:58:28.635Z",
+      "msg": "Qual é a dificuldade que está a ter , para adiconar ?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-01T09:00:56.053Z",
+      "msg": "Quando entro no campo ''Sociedadde'' a opcao adicionar campo nao avanca simplesmente nao consigo entrar, e como se estivesse congelado."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Alexandre Viegas Mangujo Júnior"
+      },
+      "type": "msg",
+      "time": "2025-08-01T09:02:57.545Z",
+      "msg": "Um minuto só , vou verificar"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Alexandre Viegas Mangujo Júnior"
+      },
+      "type": "msg",
+      "time": "2025-08-01T09:15:55.462Z",
+      "msg": "Pedimos desculpas , pela demora , peço que continue  ,com as suas actividades , estamos a ter um problema técnico , nessa parte."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Alexandre Viegas Mangujo Júnior"
+      },
+      "type": "msg",
+      "time": "2025-08-01T09:16:14.325Z",
+      "msg": "Retornamos , quando estiver solucionado"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-01T09:19:18.165Z",
+      "msg": "Esta bem. Fico a espera."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Alexandre Viegas Mangujo Júnior"
+      },
+      "type": "msg",
+      "time": "2025-08-01T09:20:07.803Z",
+      "msg": "Estamos a solucionar"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

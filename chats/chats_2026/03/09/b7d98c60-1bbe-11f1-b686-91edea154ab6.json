@@ -1,0 +1,37 @@
+{
+  "id": "b7d98c60-1bbe-11f1-b686-91edea154ab6",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Glória Regilio",
+    "id": "5b081d4d8859f57bdc7b8ddd-yThkN9bcHN_RsrYkAUSju",
+    "email": "gloriaregilio78@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-03-09T13:51:07.327Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-09T13:51:07.327Z",
+      "msg": "Nome : Glória Regilio\r\nE-mail : gloriaregilio78@gmail.com\r\nDescrição do Problema : oi,  nao consigo criar a conta"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-09T13:51:27.496Z",
+      "msg": "oi"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

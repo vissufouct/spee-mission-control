@@ -1,0 +1,71 @@
+{
+  "id": "f4fbc820-6659-11f1-be49-190fcd6704fc",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISPG/Antonio",
+    "id": "5b081d4d8859f57bdc7b8ddd-WJ2r9eisENAGR_go9oUpG",
+    "email": "vastamungoi@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 6,
+  "chatDuration": 955,
+  "rating": 0,
+  "createdOn": "2026-06-12T12:34:01.038Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-12T12:34:01.038Z",
+      "msg": "Name : ISPG/Antonio\r\nEmail : toiraantonio@gmail.com\r\nPhone : +2588701717\r\nDescrição do Problema : Boa tarde, tenho problemas, o sistema nao valida lancamentos. pedia que verificassem."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-12T12:34:33.933Z",
+      "msg": "876801717, peco qualquer actualizacao."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-06-12T12:34:45.387Z",
+      "msg": "Boa tarde, poderia explicar melhor o problema?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-06-12T12:36:30.389Z",
+      "msg": "Facturou algo e nao deu e isso?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-12T12:38:54.981Z",
+      "msg": "Um instante, pretendo refazer o lancamento"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-12T12:49:55.847Z",
+      "msg": "Bem, acho que ja esta. Grata pela atencao"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

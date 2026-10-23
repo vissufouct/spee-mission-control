@@ -1,0 +1,154 @@
+{
+  "id": "6aea3620-3cd9-11f1-8a99-73aaf66f235b",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Magaia",
+    "id": "5b081d4d8859f57bdc7b8ddd-eZLc3fBuLI1lijoX_U40a",
+    "email": "magaiacidalia@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 14,
+  "chatDuration": 552,
+  "rating": 0,
+  "createdOn": "2026-04-20T17:05:48.655Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T17:05:48.655Z",
+      "msg": "Nome : ISCIM/Magaia\r\nE-mail : magaiacidalia@gmail.com\r\nDescrição do Problema : adicionar outro socio"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-20T17:07:04.265Z",
+      "msg": "Boa noite, nao consegue adicionar socio?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T17:07:26.331Z",
+      "msg": "sim"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-20T17:09:51.518Z",
+      "msg": "Aguarde a verificacao!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T17:10:11.452Z",
+      "msg": "ja adicionei mais nao sai o nome"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-20T17:10:34.729Z",
+      "msg": "qual nome adicionou?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T17:11:05.381Z",
+      "msg": "Cidalia Magaia"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-20T17:13:23.260Z",
+      "msg": "faca refresh da pagina"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-20T17:13:48.417Z",
+      "msg": "clica neste icone de ceta curvada",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/694a43f545e3cb1b829c7ccc/625b3167ac14a1f3bdabb2d28d117bb282ef7f96/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 3049,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-20T17:14:02.179Z",
+      "msg": "no canto superior esquerdo da tela"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T17:14:32.560Z",
+      "msg": "fiz"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T17:14:41.578Z",
+      "msg": "mais nao sai"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T17:14:49.594Z",
+      "msg": "sair da pagina"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-20T17:15:00.529Z",
+      "msg": "pode mandar o print da tela?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

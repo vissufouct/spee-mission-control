@@ -1,0 +1,128 @@
+{
+  "id": "55704cc0-1134-11f0-958b-517d9109e11a",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Prime Office",
+    "id": "5b081d4d8859f57bdc7b8ddd-q3aBFt12k7yjsJ6cm33iw",
+    "email": "yurensmithbulande@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 11,
+  "chatDuration": 6147,
+  "rating": 0,
+  "createdOn": "2025-04-04T09:17:02.988Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-04T09:17:02.988Z",
+      "msg": "Nome : Prime Office\r\nE-mail : yurensmithbulande@gmail.com\r\nDescrição do Problema : como adicionar custo fixo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-04-04T09:20:44.525Z",
+      "msg": "Na projecão de Preços, apos definir o detalhe do produto, em projecão de preços clique em Adicionar custo Fixo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-04T09:21:22.458Z",
+      "msg": "fiz isso mas nao aperece nada"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-04-04T09:24:07.781Z",
+      "msg": "O estudante clicar no Menu inicial em projecão de preços oque aparece na tela?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-04T09:25:38.110Z",
+      "msg": "faco a projecao toda e precos, so nao aceita actualizar a parte do custo fixo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-04-04T09:29:15.248Z",
+      "msg": "Conseguiu alcancar esse campo?",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/67bc6520a561be464e803d37/3e0308d40db0abfe410c050b44324ba64a23bf7a/Screenshot_2025-04-04_112645.png",
+              "name": "Screenshot 2025-04-04 112645.png",
+              "extension": "png",
+              "size": 142732,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-04T09:31:06.598Z",
+      "msg": "sim. quando preencho no custo fixo ja nao actualiza"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-04-04T09:33:49.494Z",
+      "msg": "um momento porfavor!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-04T09:34:19.267Z",
+      "msg": "esta BEM"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-04-04T09:39:53.533Z",
+      "msg": "Sim, tente sair do spee e voltar a entrar siga os passos normais para projecao de precos, ao adcionar o novo custo prencha todos os campos e clique em salvar e feche a janela!!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-04T09:40:38.167Z",
+      "msg": "esta bem"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

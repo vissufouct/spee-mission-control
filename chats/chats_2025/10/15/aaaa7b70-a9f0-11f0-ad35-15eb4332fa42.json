@@ -1,0 +1,85 @@
+{
+  "id": "aaaa7b70-a9f0-11f0-ad35-15eb4332fa42",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A&H Lda. Contas",
+    "id": "5b081d4d8859f57bdc7b8ddd-3ofZ2r04QtCZVz6izFJbA",
+    "email": "deazevedoanarocay@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Beira"
+  },
+  "messageCount": 6,
+  "chatDuration": 2564,
+  "rating": 0,
+  "createdOn": "2025-10-15T18:20:40.842Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-15T18:20:40.842Z",
+      "msg": "Nome : A&H Lda. Contas\r\nTelefone : 258849545775\r\nE-mail : deazevedoanarocay@gmail.com\r\nDescrição do Problema : Saudações.\nSolicito o auxilio na recuperação das informações que foram do nada retiradas sob o nosso simulador da conta A&H Contas Limitada.\n\nAgradecemos o auxilio."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-15T18:55:34.255Z",
+      "msg": "Boa noite. A sua conta no sgc estava duplicada\nE o que fez -se foi retirar uma das contas"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-15T19:00:20.875Z",
+      "msg": "facto é que foi retirada exactamente a conta que esta em uso. como obter os dados eliminados, vista a necessidade de prosseguir com as actividades? (vide o balancete anexo)"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-15T19:00:40.205Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/68efe0f43ad4812025dbb840/v/5bb5ee51ef08003d01fbc06c5ed560932947e993/BalanceteGeral_-_15092025.pdf",
+              "name": "BalanceteGeral - 15092025.pdf",
+              "mimeType": "application/pdf",
+              "size": 45725,
+              "extension": "pdf"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-15T19:01:49.956Z",
+      "msg": "Um momento só \nPeço o nuit da conta"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-15T19:03:25.075Z",
+      "msg": "4002878160"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

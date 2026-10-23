@@ -1,0 +1,29 @@
+{
+  "id": "34de4900-a4ee-11f0-8340-f1c5545ef913",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "DigitalX",
+    "id": "5b081d4d8859f57bdc7b8ddd-8ywtywDj2Z1Udi0Fu9_EJ",
+    "email": "tomassantos779@gmail.com"
+  },
+  "location": {
+    "countryCode": "US",
+    "city": "Cleveland"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-10-09T09:58:48.592Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-09T09:58:48.592Z",
+      "msg": "Nome : DigitalX\r\nTelefone : 258875016591\r\nE-mail : aduinaemilio@gmail.com\r\nDescrição do Problema : falta de mercadoria"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

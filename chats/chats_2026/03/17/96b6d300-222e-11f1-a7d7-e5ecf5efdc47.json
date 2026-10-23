@@ -1,0 +1,38 @@
+{
+  "id": "96b6d300-222e-11f1-a7d7-e5ecf5efdc47",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/Mabote",
+    "id": "5b081d4d8859f57bdc7b8ddd-jE4QZdcR9GMZc_ACv1dtJ",
+    "email": "marvindias417@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 26,
+  "rating": 0,
+  "createdOn": "2026-03-17T18:28:34.114Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-17T18:28:34.114Z",
+      "msg": "Nome : A Politecnica - MPT/Mabote\r\nTelefone : 258864461339\r\nE-mail : mabotekhan@gmail.com\r\nDescrição do Problema : e possivel apagar conta"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-17T18:28:59.795Z",
+      "msg": "Boa noite, não!"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

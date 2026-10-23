@@ -1,0 +1,46 @@
+{
+  "id": "42edae00-33eb-11f1-8d72-31c02e475762",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Convidado/",
+    "id": "5b081d4d8859f57bdc7b8ddd-7gahPzeaS4FatZSOXqIR3",
+    "email": "ibraimoirchad57@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 87,
+  "rating": 0,
+  "createdOn": "2026-04-09T08:21:16.562Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T08:21:16.562Z",
+      "msg": "Nome : irchad\r\nTelefone : 258868994200\r\nE-mail : ibraimoirchad57@gmail.com\r\nDescrição do Problema : nao consigo criar seguro para a minha empresa"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-09T08:21:45.387Z",
+      "msg": "Bom dia, qual é o problema que esta a ter?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T08:22:43.609Z",
+      "msg": "o docente pediu para cada aluno criar um seguro para a sua empresa, alguns dos alunos conseguiram, mas eu venho tentando ha uma semana e sem sucesso"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

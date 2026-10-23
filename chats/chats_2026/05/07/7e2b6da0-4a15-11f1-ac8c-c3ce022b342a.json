@@ -1,0 +1,72 @@
+{
+  "id": "7e2b6da0-4a15-11f1-ac8c-c3ce022b342a",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISPT/TAIOBO JAIME",
+    "id": "5b081d4d8859f57bdc7b8ddd-IPe85JlWNT23PoNhrBG2l",
+    "email": "taiobojaimetaiobo@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Tete"
+  },
+  "messageCount": 6,
+  "chatDuration": 184,
+  "rating": 0,
+  "createdOn": "2026-05-07T13:08:48.091Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-07T13:08:48.091Z",
+      "msg": "Telefone : 258878235690\r\nE-mail : taiobojaimetaiobo@gmail.com\r\nDescrição do Problema : Boa tarde, como faço para ver as informações da minha empresa TLP?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-07T13:09:32.338Z",
+      "msg": "Boa tarde, que tipo informações deseja ver?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-07T13:10:23.340Z",
+      "msg": "Documentos, como actas sócios, boletim..."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-07T13:11:13.627Z",
+      "msg": "No menu lateral tem uma aba chamada Gestor documental, clica nele"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-07T13:11:31.179Z",
+      "msg": "Tera ai os documentos que da constituicao da empresa"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-07T13:11:52.320Z",
+      "msg": "Obrigado."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

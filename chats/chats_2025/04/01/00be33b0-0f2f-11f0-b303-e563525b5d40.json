@@ -1,0 +1,165 @@
+{
+  "id": "00be33b0-0f2f-11f0-b303-e563525b5d40",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/Traquino",
+    "id": "5b081d4d8859f57bdc7b8ddd-GpoBObpLq4eCAo8YR9nfc",
+    "email": "namatayisrael17@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 17,
+  "chatDuration": 859,
+  "rating": 0,
+  "createdOn": "2025-04-01T19:25:08.126Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:25:08.126Z",
+      "msg": "Boa noite"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:25:23.351Z",
+      "msg": "Deve editar o pais fa empresa"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:25:50.111Z",
+      "msg": "Ja editei o pais da empresa"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:26:02.007Z",
+      "msg": "No acto de criação da empresa seleccionou um pais que não é Moçambique"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:26:32.308Z",
+      "msg": "Selecionei mocambique"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:28:40.997Z",
+      "msg": "A acta de constituicao de empresa nao esta finalizar a criacao da empresa"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:29:16.746Z",
+      "msg": "??"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:31:25.707Z",
+      "msg": "Não consegue editar dados da empresa?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:32:27.152Z",
+      "msg": "Consegui terminar todas etapas excepto a terceira \" acta de constituicao\""
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:35:16.292Z",
+      "msg": "mas ja consegue fazer os contratos?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:35:29.909Z",
+      "msg": "Nao"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:36:10.469Z",
+      "msg": "Ja escolhi mocambique mas continua a dar opcoes de provincias da corea"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:36:16.266Z",
+      "msg": "peço seu email"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:36:20.054Z",
+      "msg": "acesso ao spee"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:37:05.077Z",
+      "msg": "sheltontraquino3@gmail.com"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:37:20.102Z",
+      "msg": "Pass: MetalMulisha1234"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:39:21.926Z",
+      "msg": "um momento"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

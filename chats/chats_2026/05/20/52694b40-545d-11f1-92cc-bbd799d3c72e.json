@@ -1,0 +1,29 @@
+{
+  "id": "52694b40-545d-11f1-92cc-bbd799d3c72e",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/Chissano",
+    "id": "5b081d4d8859f57bdc7b8ddd-wBpKuELeu4R1fczgromEI",
+    "email": "anuaritechissano99@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T15:09:44.144Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:09:44.144Z",
+      "msg": "Nome : A Politecnica - MPT/Chissano\r\nTelefone : 2580866893904\r\nE-mail : anuaritechissano99@gmail.com\r\nDescrição do Problema : Boa tarde\nMeu email: anuaritechissano99@gmail.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "320bce00-fae3-11f0-b049-c93c36d320e7",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "[Docente]ITIS - UEM Ciclo Demo 2025/Lourenco , Clemente",
+    "id": "5b081d4d8859f57bdc7b8ddd-U6Z_j1eYnaz2AjpOEF7xW",
+    "email": "djivehelena@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 42,
+  "rating": 0,
+  "createdOn": "2026-01-26T18:38:04.872Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "a",
+        "n": "newton cossa"
+      },
+      "type": "msg",
+      "time": "2026-01-26T18:38:04.872Z",
+      "msg": "boa noite dr clemente"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-01-26T18:38:34.613Z",
+      "msg": "Nome : [Docente]ITIS - UEM Ciclo Demo 2025/Lourenco , Clemente\r\nE-mail : djivehelena@gmail.com\r\nDescrição do Problema : Boa noite"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-01-26T18:38:47.289Z",
+      "msg": "como está ilustre"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

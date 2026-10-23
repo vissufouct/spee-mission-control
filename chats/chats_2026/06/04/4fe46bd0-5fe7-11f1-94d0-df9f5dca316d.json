@@ -1,0 +1,46 @@
+{
+  "id": "4fe46bd0-5fe7-11f1-94d0-df9f5dca316d",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Gujamo",
+    "id": "5b081d4d8859f57bdc7b8ddd-TcYjDSUo2kULXQ7yJBCNv",
+    "email": "fabiaomassingue05@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 180,
+  "rating": 0,
+  "createdOn": "2026-06-04T07:59:08.629Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-04T07:59:08.629Z",
+      "msg": "Name : M&O FUEL lda STATION\r\nEmail : fabiaomassingue05@gmail.com\r\nDescrição do Problema : Bom dia, gostava de saber se o sistema tem a possibilidade de aular uma fatura mal lancada"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-06-04T08:00:25.605Z",
+      "msg": "Bom dia, tem sim so ir nas facturas, detalhes e anular"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-04T08:02:08.854Z",
+      "msg": "obrigada"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,262 @@
+{
+  "id": "91e076f0-3cb5-11f1-be58-7dbba102f8d7",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Issac",
+    "id": "5b081d4d8859f57bdc7b8ddd-wGpeESAxg3tglCSouZRZi",
+    "email": "suheilaissac02@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 24,
+  "chatDuration": 4340,
+  "rating": 0,
+  "createdOn": "2026-04-20T12:37:59.733Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T12:37:59.733Z",
+      "msg": "Nome : ISCIM/Issac\r\nTelefone : 258849490724\r\nE-mail : suheilaissac02@gmail.com\r\nDescrição do Problema : boa tarde, alguma solução?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T12:38:43.959Z",
+      "msg": "Boa tarde, sim, o email do empreendedor que esta tentar adicionar e do seu colega?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T12:38:57.692Z",
+      "msg": "nao, é o meu"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T12:39:17.421Z",
+      "msg": "exprimenta colocar um outro email"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T12:39:30.491Z",
+      "msg": "pode ser o teu, mas um diferente"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T12:39:43.094Z",
+      "msg": "deixa experimentar"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T12:42:22.031Z",
+      "msg": "ja consegui adicionar, quanto ao outro problema?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T12:42:31.047Z",
+      "msg": "funcionou com um outro email?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T12:42:47.616Z",
+      "msg": "sim, so aceitou com outro email"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T12:43:03.544Z",
+      "msg": "Esta certo, o outro problema qual era?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T12:44:09.043Z",
+      "msg": "e quanto a questao dos outros campos, no ficheiro para impressao ha campos que aparece que nao estao preenchidos, mas no sistema esta preenchido"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T12:44:45.219Z",
+      "msg": "Na impressao do plano?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T12:45:37.862Z",
+      "msg": "sim, aparece uma caixa vermelha que diz algum tipo de erro, mas no sistema esta preenchido"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T12:46:16.357Z",
+      "msg": "pode mandar o print da tela?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T12:48:16.834Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69e61dd33ad48120254b95c0/v/d2c96969a7ddab28bff99094c07af51b84c37ad4/Screenshot_(151).png",
+              "name": "Screenshot (151).png",
+              "mimeType": "image/png",
+              "size": 144717,
+              "extension": "png"
+            }
+          }
+        },
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69e61dd33ad48120254b95c0/v/cdf3b378606ae0c2c8b12c57f97bb910e9e81b30/Screenshot_(150).png",
+              "name": "Screenshot (150).png",
+              "mimeType": "image/png",
+              "size": 138908,
+              "extension": "png"
+            }
+          }
+        },
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69e61dd33ad48120254b95c0/v/c95666afd4f7c573ad1ee7b748f546568640319f/Screenshot_(149).png",
+              "name": "Screenshot (149).png",
+              "mimeType": "image/png",
+              "size": 162092,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T12:49:10.577Z",
+      "msg": "Preenchei todo plano?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T12:49:30.064Z",
+      "msg": "sim, preenchi"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T12:49:44.040Z",
+      "msg": "Tudo bem, vamos verifacar"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T12:49:52.421Z",
+      "msg": "verificar#"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T12:50:21.009Z",
+      "msg": "por favor, preciso de entregar o trabalho hoje"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T13:09:59.098Z",
+      "msg": "e a pagina de artigos projetados nao abre"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T13:46:31.515Z",
+      "msg": "Na analise macroeconomica retira aqueles bullet points"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T13:49:29.244Z",
+      "msg": "ja tirei"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T13:50:19.763Z",
+      "msg": "ainda aparece o erro"
+    }
+  ],
+  "domain": "planodenegocios.simulacao.co.mz"
+}

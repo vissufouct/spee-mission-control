@@ -1,0 +1,29 @@
+{
+  "id": "1dd6b680-33f9-11f1-8a36-bbcf9231c4af",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "H&R Energy Solution LDA/4003038491",
+    "id": "5b081d4d8859f57bdc7b8ddd-BGBSzSMQUhW_q2lJANT7H",
+    "email": "raquyaj@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-04-09T09:48:13.442Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T09:48:13.442Z",
+      "msg": "Nome : H&R Energy Solution LDA/4003038491\r\nTelefone : 2584325321324\r\nE-mail : raquyaj@gmail.com\r\nDescrição do Problema : ytfr,jswgtfdfgff"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

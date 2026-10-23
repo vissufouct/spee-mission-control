@@ -1,0 +1,87 @@
+{
+  "id": "f724f100-88ef-11f0-b9c4-b3f01a55cb3a",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "LUCHA MOBI LDA/4002807820",
+    "id": "5b081d4d8859f57bdc7b8ddd-78v6fleX4CzcwD1hc_MOA",
+    "email": "lurdeswenzopenicela@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 8,
+  "chatDuration": 494,
+  "rating": 0,
+  "createdOn": "2025-09-03T18:06:17.820Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-03T18:06:17.820Z",
+      "msg": "Nome : LUCHA MOBI LDA/4002807820\r\nE-mail : lurdeswenzopenicela@gmail.com\r\nDescrição do Problema : Boa nite, peço ajuda não consigo emitir a Factura"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-03T18:09:35.452Z",
+      "msg": "oi"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-03T18:10:14.090Z",
+      "msg": "Boa noite\n Qual é o problema que está a dar?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-03T18:12:17.713Z",
+      "msg": "nao aceita emitir factura"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-03T18:13:00.030Z",
+      "msg": "quando faço o pedido do mesmo mostra um link"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-03T18:13:47.322Z",
+      "msg": "Factura quer fazer do gestor comercial?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-03T18:14:18.302Z",
+      "msg": "não percebo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-03T18:14:31.622Z",
+      "msg": "é na Moza on line"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

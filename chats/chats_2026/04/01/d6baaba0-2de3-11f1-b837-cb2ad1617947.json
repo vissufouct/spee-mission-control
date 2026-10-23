@@ -1,0 +1,38 @@
+{
+  "id": "d6baaba0-2de3-11f1-b837-cb2ad1617947",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "AF CONSULTORIA LDA/4003038515",
+    "id": "5b081d4d8859f57bdc7b8ddd-dbUVqhuGmqRp0LA0F8Vlv",
+    "email": "josefumo4@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 701,
+  "rating": 0,
+  "createdOn": "2026-04-01T16:07:50.598Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-01T16:07:50.598Z",
+      "msg": "Nome : ISCIM/Fumo\r\nE-mail : josefumo4@gmail.com\r\nDescrição do Problema : Nao consigo abrir o diario do empredendor"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-01T16:19:31.203Z",
+      "msg": "Boa noite estamos verificando o problema!"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

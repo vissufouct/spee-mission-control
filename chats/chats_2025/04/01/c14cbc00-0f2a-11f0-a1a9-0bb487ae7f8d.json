@@ -1,0 +1,138 @@
+{
+  "id": "c14cbc00-0f2a-11f0-a1a9-0bb487ae7f8d",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-h9j2XIBq5SrCTJRmHAGcT",
+    "email": "wandastelio12@icloud.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 14,
+  "chatDuration": 479,
+  "rating": 0,
+  "createdOn": "2025-04-01T19:31:48.804Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:31:48.804Z",
+      "msg": "peco para eliminar esta empresa"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:32:24.247Z",
+      "msg": "Boa noite, não percebi a questão"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:32:44.498Z",
+      "msg": "apagar nossa empresa do registo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:34:57.697Z",
+      "msg": "apaga nossa conta queremos criar nova empresa"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:35:20.449Z",
+      "msg": "nao conseguimos apagar"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:35:34.656Z",
+      "msg": "nao tem como criar nova empresa"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:35:47.051Z",
+      "msg": "qual e o problema que enfrenta com a empresa criada"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:36:11.041Z",
+      "msg": "nao conseguimos mudar as percentagens das quotas"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:36:54.059Z",
+      "msg": "queremos colocar 50 50 para cada um dos socios"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:37:47.227Z",
+      "msg": "pode mandar os emails dos socios"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:38:28.814Z",
+      "msg": "wandastelio12@icloud.com"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:39:03.287Z",
+      "msg": "karengleysse@icloud.com"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:39:27.796Z",
+      "msg": "certo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:39:47.526Z",
+      "msg": "agradecemos"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

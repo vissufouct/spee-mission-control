@@ -1,0 +1,72 @@
+{
+  "id": "552c9d60-5f47-11f1-ba6d-1da21cb158f5",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Luri Anatércia Sérgio Vembane",
+    "id": "5b081d4d8859f57bdc7b8ddd-MB0XR9_6z2AIhMCh4WNQZ",
+    "email": "airtonaly2@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 6,
+  "chatDuration": 641,
+  "rating": 0,
+  "createdOn": "2026-06-03T12:27:36.340Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-03T12:27:36.340Z",
+      "msg": "Name : Luri Anatércia Sérgio Vembane\r\nEmail : luryanaterciavembane@gmail.com\r\nPhone : +258850720207\r\nDescrição do Problema : projecao de vendas"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-03T12:27:53.586Z",
+      "msg": "nao aceita gravar"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-06-03T12:28:17.129Z",
+      "msg": "O que acontence quando tenta gravar?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-03T12:29:29.865Z",
+      "msg": "quando clico next depois de projectar os precos so diz cadastro do catigo..... epara por aí"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-06-03T12:30:00.524Z",
+      "msg": "um momento vou verificar"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-06-03T12:38:16.947Z",
+      "msg": "quando clica em next isso no primeiro passo?"
+    }
+  ],
+  "domain": "planodenegocios.simulacao.co.mz"
+}

@@ -1,0 +1,204 @@
+{
+  "id": "221907f0-3e69-11f1-b050-fb486491880d",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Mutemba",
+    "id": "5b081d4d8859f57bdc7b8ddd-gxJNL5UE5JQjbX5Fq1euj",
+    "email": "laramutemba2017@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 20,
+  "chatDuration": 1551,
+  "rating": 0,
+  "createdOn": "2026-04-22T16:56:13.760Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T16:56:13.760Z",
+      "msg": "Nome : ISCIM/Mutemba\r\nE-mail : laramutemba2017@gmail.com\r\nDescrição do Problema : Boa Noite, \n\nNão consigo aceder a minha lista de Planos de negocio."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T16:56:44.842Z",
+      "msg": "quando clica em comentarios, nao aparece?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T16:57:04.160Z",
+      "msg": "Nao"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T16:57:19.149Z",
+      "msg": "Peco o print da tela"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:01:57.541Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69e8f8943ad48120255d4f9b/v/fc5604a9a2703c8d3c44577613ee73893ec7c5cd/Screenshot_2026-04-22_at_18.58.09.png",
+              "name": "Screenshot 2026-04-22 at 18.58.09.png",
+              "mimeType": "image/png",
+              "size": 338485,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:04:26.887Z",
+      "msg": "estamos a verificar"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:04:40.893Z",
+      "msg": "Obrigada, aguardo."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:08:58.217Z",
+      "msg": "Acabamos de verificar e a estudante nao tem um plano criado"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:10:25.436Z",
+      "msg": "Tenho sim, com o meu sócio, da nossa empresa. Inclusive estamos a trabalhar nele, noutro computador. Hoje acabei reiniciando, para poder dar continuidade."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:10:39.832Z",
+      "msg": "Empresa L&A Soluções, Lda"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:11:06.038Z",
+      "msg": "Quem criou o plano foste tu ou o teu socio?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:11:18.041Z",
+      "msg": "O Meu sócio"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:11:52.045Z",
+      "msg": "Dentro da nossa empresa."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:12:11.173Z",
+      "msg": "Pergunte a ele se aparece o plano"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:12:50.074Z",
+      "msg": "Aparece."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:14:23.096Z",
+      "msg": "O plano de negocio so aparece para ele porque criaram na conta dele!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:15:12.362Z",
+      "msg": "Estamos a trabalhar na conta da empresa, não na conta individual dele."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:17:09.649Z",
+      "msg": "Nao funciona extamente assim, na verdade vcs tem contas separadas, mas tudo que tiver relacionado com empresa ira aparecer para os dois, menos o plano de negocio que e do estudante e nao da empresa"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:20:33.212Z",
+      "msg": "É que o plano de negócio que estamos a fazer, é da empresa."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:22:04.582Z",
+      "msg": "Sim é sim, mas fizeram na conta do teu socio"
+    }
+  ],
+  "domain": "planodenegocios.simulacao.co.mz"
+}

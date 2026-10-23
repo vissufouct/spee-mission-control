@@ -1,0 +1,29 @@
+{
+  "id": "0e10e7b0-09a8-11f0-b145-f9b0436c7b19",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Gune",
+    "id": "5b081d4d8859f57bdc7b8ddd-R7MkD0MP8vVN1PwbXw59u",
+    "email": "erciliagune7@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-03-25T18:42:05.946Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-25T18:42:05.946Z",
+      "msg": "Nome : ISCIM/Gune\r\nE-mail : erciliagune7@gmail.com\r\nDescrição do Problema : Onde ficam as faturas"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

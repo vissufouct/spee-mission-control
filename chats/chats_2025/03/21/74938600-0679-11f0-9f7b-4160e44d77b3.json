@@ -1,0 +1,29 @@
+{
+  "id": "74938600-0679-11f0-9f7b-4160e44d77b3",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISPM/Aniceto",
+    "id": "5b081d4d8859f57bdc7b8ddd-s0yqlhyvs8y3oY4ENj2Jh",
+    "email": "marnelosinoiaa@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-03-21T17:36:05.800Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-21T17:36:05.800Z",
+      "msg": "Nome : ISPM/Aniceto\r\nE-mail : marnelosinoiaa@gmail.com\r\nDescrição do Problema : Quero eliminar a empresa MFT Consultor conta"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

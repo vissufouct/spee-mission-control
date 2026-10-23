@@ -1,0 +1,63 @@
+{
+  "id": "4fc52d70-26e3-11f1-b53a-2541ef3db5ec",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Guambe",
+    "id": "5b081d4d8859f57bdc7b8ddd-AEDtJOy5MhceLA0h2Mgcu",
+    "email": "mairaguambe95@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 5,
+  "chatDuration": 547,
+  "rating": 0,
+  "createdOn": "2026-03-23T18:25:27.988Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:25:27.988Z",
+      "msg": "Nome : ISCIM/Guambe\r\nE-mail : mairaguambe95@gmail.com\r\nDescrição do Problema : Quando escolhe a vivenda consoante o preco pretendido, nao avanca"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:31:06.414Z",
+      "msg": "Nao respondes?:zipper_mouth:"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "MacGyver"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:33:41.091Z",
+      "msg": "Boa noite"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "MacGyver"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:34:04.844Z",
+      "msg": "Estamos a verificar. O mesmo erro foi reportado pelos seus colegas."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:34:35.344Z",
+      "msg": "Obrigada MG:expressionless:"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

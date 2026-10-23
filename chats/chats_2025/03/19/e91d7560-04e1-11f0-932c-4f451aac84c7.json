@@ -1,0 +1,60 @@
+{
+  "id": "e91d7560-04e1-11f0-932c-4f451aac84c7",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Magaia",
+    "id": "5b081d4d8859f57bdc7b8ddd-JHEimNFn9RbaERTJaUwri",
+    "email": "lurdeswenzopenicela@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 176,
+  "rating": 0,
+  "createdOn": "2025-03-19T16:49:19.978Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T16:49:19.978Z",
+      "msg": "Nome : ISCIM/Magaia\r\nE-mail : lurdeswenzopenicela@gmail.com\r\nDescrição do Problema : Boa noite"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T16:49:52.651Z",
+      "msg": "peco ajuda"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-19T16:52:15.501Z",
+      "msg": "Boa noite \nLogo após aceder a plataforma \nEntre pelo campo destacado e depois volte aos activos mínimos",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "extension": "jpeg",
+              "size": 40383,
+              "name": "IMG-20250319-WA0015.jpg",
+              "mimeType": "image/jpeg",
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/b8f89ed5df82dbdb711de45987b6693c65a0f637/IMG-20250319-WA0015.jpg"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

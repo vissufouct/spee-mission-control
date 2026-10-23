@@ -1,0 +1,37 @@
+{
+  "id": "ff680360-65c7-11f1-916a-d32e214a4993",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISPG/Antonio",
+    "id": "5b081d4d8859f57bdc7b8ddd-WJ2r9eisENAGR_go9oUpG",
+    "email": "vastamungoi@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-06-11T19:06:31.760Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-11T19:06:31.760Z",
+      "msg": "Name : ISPG/Antonio\r\nEmail : toiraantonio@gmail.com\r\nPhone : +258876801717\r\nDescrição do Problema : Boa noite, estou tendo problemas, o sistema nao valida lancamentos, indicando para contactar os tecnicos do sistema"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-11T19:09:50.832Z",
+      "msg": "Peco alguma indicacao assim que possivel."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

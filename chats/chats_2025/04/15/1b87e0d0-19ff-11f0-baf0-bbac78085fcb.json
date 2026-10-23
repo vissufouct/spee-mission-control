@@ -1,0 +1,46 @@
+{
+  "id": "1b87e0d0-19ff-11f0-baf0-bbac78085fcb",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/Rachide Augusto",
+    "id": "5b081d4d8859f57bdc7b8ddd-6LGgkBJC19Wc4CSzv29X_",
+    "email": "rachidaugusto@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Tete"
+  },
+  "messageCount": 3,
+  "chatDuration": 282,
+  "rating": 0,
+  "createdOn": "2025-04-15T13:44:11.022Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-15T13:44:11.022Z",
+      "msg": "Nome : /Rachide Augusto\r\nTelefone : 871367436\r\nE-mail : rachidaugusto@gmail.com\r\nDescrição do Problema : Pretendo eliminar um sócio, para adicionar um outro sócio, como faço"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-15T13:47:35.910Z",
+      "msg": "Boa tarde\nPeça auxílio ao docente"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-15T13:48:53.153Z",
+      "msg": "Esta bem."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

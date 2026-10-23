@@ -1,0 +1,29 @@
+{
+  "id": "82d402a0-c0a3-11f0-a629-8dfbec11641f",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "V1763046895483706",
+    "id": "5b081d4d8859f57bdc7b8ddd-KkeiucGoYUiGK0pCH3lio",
+    "email": "sheltonclinton0@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-11-13T15:18:33.455Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-13T15:18:33.455Z",
+      "msg": "Telefone : 258869570135\r\nE-mail : sheltonclinton0@gmail.com\r\nDescrição do Problema : Não consigo aceder aos movimentos dos meus lançamentos"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

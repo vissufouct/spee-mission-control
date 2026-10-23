@@ -1,0 +1,38 @@
+{
+  "id": "ca7ce350-6d57-11f0-aa54-d18b865e3d15",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-DrJOdnpTZ6Zm_mAICWjja",
+    "email": "tifanygany37@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 2,
+  "chatDuration": 190,
+  "rating": 0,
+  "createdOn": "2025-07-30T15:46:11.339Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-30T15:46:11.339Z",
+      "msg": "Nome : Florêncio Clayton Zacarias Nhantumbo\r\nTelefone : 258874830592\r\nE-mail : florenhantas@gmail.com\r\nDescrição do Problema : gostaria de saber como adicionar um socio na minha empresa (Loja Barata) apos fazer o cadastro completo. o nome da socia e Tifany Abdul Gany, com o email tifanygany37@gmail.com"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-07-30T15:49:20.923Z",
+      "msg": "Boa noite, para adicionar um socio primeiro deve garantir que o tipo sociedade adequada pra tal"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

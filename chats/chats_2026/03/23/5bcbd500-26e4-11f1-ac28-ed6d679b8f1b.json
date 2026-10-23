@@ -1,0 +1,54 @@
+{
+  "id": "5bcbd500-26e4-11f1-ac28-ed6d679b8f1b",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/francisco",
+    "id": "5b081d4d8859f57bdc7b8ddd-snkKBRgFztiRJbPXWPR32",
+    "email": "muazitefrancisco23@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 4,
+  "chatDuration": 1462,
+  "rating": 0,
+  "createdOn": "2026-03-23T18:27:34.399Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:27:34.399Z",
+      "msg": "Nome : ISCIM/francisco\r\nTelefone : 25851741250\r\nE-mail : muazitefrancisco23@gmail.com\r\nDescrição do Problema : QUANDO CLICO NO ESCOLHER NAO ACEITA COMO DEVO PROCEDER"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:29:46.575Z",
+      "msg": "Um momento por favor estamos verificando o problema"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:38:58.079Z",
+      "msg": "EVGUENI MUITO OBRIGADA. AGUARDANDO"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:51:56.437Z",
+      "msg": "NAO ME APARECE A PARTE PROCURASR QUANDO CLICO NO  ESCOLHER"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

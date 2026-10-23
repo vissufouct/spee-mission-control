@@ -1,0 +1,291 @@
+{
+  "id": "e333e430-34c0-11f1-8563-89c2e64162f7",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Cuamba",
+    "id": "5b081d4d8859f57bdc7b8ddd-3ro6ONnGOX1IeM7vMxqwo",
+    "email": "floidecf@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 27,
+  "chatDuration": 1645,
+  "rating": 0,
+  "createdOn": "2026-04-10T09:56:14.983Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-10T09:56:14.983Z",
+      "msg": "Nome : ISCIM/Cuamba\r\nTelefone : 2588410387\r\nE-mail : floidecf@gmail.com\r\nDescrição do Problema : boa tarde, estou tentando fazer um plano de negocio mas o programa trava e fica em uma tela branca que nao consigo  avancar."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-10T09:57:16.243Z",
+      "msg": "Bom dia, o sistema trava quando tenta salvar o plano ou entrar no plano de negocio?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-10T09:58:27.677Z",
+      "msg": "quando entro, fiz o primeiro passo. dai o programa na avanca."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-10T09:59:36.892Z",
+      "msg": "um momento so, estamos verificando o problema"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-10T10:00:26.832Z",
+      "msg": "certo e obrigado."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-10T10:02:00.716Z",
+      "msg": "em que passo que trava?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-10T10:03:33.988Z",
+      "msg": "Apos escrever as informacoes no Segundo passo ele trava."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-10T10:03:56.026Z",
+      "msg": "Pode mandar o print da tela? mostrando o passo?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-10T10:04:32.789Z",
+      "msg": "certo, deixa tentar."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-10T10:07:26.109Z",
+      "msg": "Depois de preencher as informacoes. ele trava aqui.",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69d8c4d73ad48120253e573e/v/62680e768d9d30b6f8622bf0a0d93794b42d5835/Screenshot_2026-04-10_110547.png",
+              "name": "Screenshot 2026-04-10 110547.png",
+              "mimeType": "image/png",
+              "size": 220538,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-10T10:08:33.975Z",
+      "msg": "preencheu as informacaoes do Inquerito do empreendedor, Plano de negocios ou do Modelos de Negocio Canvas?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-10T10:09:14.947Z",
+      "msg": "informacoes do plano de negocio"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-10T10:10:38.810Z",
+      "msg": "Um momento"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-10T10:11:09.445Z",
+      "msg": "certo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-10T10:14:06.715Z",
+      "msg": "Prencheu esse campos?:",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/67bc6520a561be464e803d37/b7ed9d49e8107596e2fdc3313665f65b4024c224/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 68990,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-10T10:14:40.064Z",
+      "msg": "sim"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-10T10:15:04.234Z",
+      "msg": "clicou em salvar e prosseguir depois?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-10T10:16:04.009Z",
+      "msg": "sim cliquei, tanto que ele deu outro campo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-10T10:16:14.675Z",
+      "msg": "que campo que deu? pode me mostrar?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-10T10:17:19.772Z",
+      "msg": "nao tenho como retroceder, a nao ser que refaca tudo novamente."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-10T10:17:48.904Z",
+      "msg": "posso refazer? nao vai influenciar em nada?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-10T10:19:56.008Z",
+      "msg": "apos clicar em salvar e prosseguir abre essa pagina?:",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/67bc6520a561be464e803d37/50fe0dcf6c52fb931821b6e57824c803984ccf4a/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 84748,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-10T10:20:33.097Z",
+      "msg": "Nao"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-10T10:20:39.633Z",
+      "msg": "nao abre"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-10T10:23:09.047Z",
+      "msg": "estou refazendo e dessa vez abriu"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-10T10:23:25.172Z",
+      "msg": "tudo bem!"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-10T10:23:40.352Z",
+      "msg": "so preencher os dados e continuar"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

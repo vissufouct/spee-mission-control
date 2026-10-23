@@ -1,0 +1,29 @@
+{
+  "id": "d49cc160-67e5-11f0-9c4b-615690b0735f",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/4002858021",
+    "id": "5b081d4d8859f57bdc7b8ddd-quGJgvOfaxLVdsvFOrsMq",
+    "email": "marcia.boca@iscam.ac.mz"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-07-23T17:13:16.784Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-23T17:13:16.784Z",
+      "msg": "Nome : Marcia Estevao Boca\r\nTelefone : 258847940071\r\nE-mail : marcianhausse@gmail.com\r\nDescrição do Problema : Como fazer para cancelar uma factura proforma"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

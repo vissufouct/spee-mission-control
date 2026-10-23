@@ -1,0 +1,81 @@
+{
+  "id": "956613c0-2a5f-11f0-9d6e-09178bbf5307",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "UNILURIO/malunguisse",
+    "id": "5b081d4d8859f57bdc7b8ddd-JxeStpBVBQ3_4fTYlzMsX",
+    "email": "rosamalunguissa5@icloud.com"
+  },
+  "location": {
+    "countryCode": "NG",
+    "city": "Unknown"
+  },
+  "messageCount": 7,
+  "chatDuration": 428,
+  "rating": 0,
+  "createdOn": "2025-05-06T09:52:21.353Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-06T09:52:21.353Z",
+      "msg": "Nome : Rosa Rosário malunguissa\r\nE-mail : rosamalunguissa5@icloud.com\r\nDescrição do Problema : Quando coloco a senha que me mandas não aceitar acessar ao meu sistema"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-06T09:52:50.452Z",
+      "msg": "um momento"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-06T09:53:09.935Z",
+      "msg": "rosamalunguissa5@icloud.com este é o email de acesso ao sistema?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-06T09:53:24.031Z",
+      "msg": "Sim"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-06T09:58:00.166Z",
+      "msg": "Qual é a tua isntituição de ensino?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-06T09:59:06.303Z",
+      "msg": "Unilurio business school"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-06T09:59:28.914Z",
+      "msg": "Obrigada\nJá pode aceder"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

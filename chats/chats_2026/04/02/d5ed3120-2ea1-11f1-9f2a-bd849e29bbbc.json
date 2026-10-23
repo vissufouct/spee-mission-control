@@ -1,0 +1,55 @@
+{
+  "id": "d5ed3120-2ea1-11f1-9f2a-bd849e29bbbc",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "JULIA",
+    "id": "5b081d4d8859f57bdc7b8ddd-j4Akcp2GLRJEN5aT5_NZR",
+    "email": "juliamabote@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 4,
+  "chatDuration": 332,
+  "rating": 0,
+  "createdOn": "2026-04-02T14:42:14.799Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-02T14:42:14.799Z",
+      "msg": "Nome : JULIA\r\nE-mail : juliamabote@gmail.com\r\nDescrição do Problema : Não consigo aceder ao sistema"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "MacGyver"
+      },
+      "type": "msg",
+      "time": "2026-04-02T14:45:48.055Z",
+      "msg": "boa tarde"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "MacGyver"
+      },
+      "type": "msg",
+      "time": "2026-04-02T14:45:55.438Z",
+      "msg": "qual é a dificuldade?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-02T14:47:46.879Z",
+      "msg": "ja consegui, obrigado"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

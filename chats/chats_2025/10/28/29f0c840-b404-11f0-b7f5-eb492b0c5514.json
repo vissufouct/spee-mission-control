@@ -1,0 +1,221 @@
+{
+  "id": "29f0c840-b404-11f0-b7f5-eb492b0c5514",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "UDM/Júnior",
+    "id": "5b081d4d8859f57bdc7b8ddd-1sgaS1ASNcby159C2LamS",
+    "email": "abdul.satar12@icloud.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 22,
+  "chatDuration": 624,
+  "rating": 0,
+  "createdOn": "2025-10-28T13:45:36.997Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-28T13:45:36.997Z",
+      "msg": "Nome : UDM/Júnior\r\nTelefone : 258842018791\r\nE-mail : abdul.satar12@icloud.com\r\nDescrição do Problema : Boa tarde.\nEstou com problemas para aceder a minha empresa e quando abro o spee do computador não consigo trocar a senha que me foi enviada"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-28T13:46:09.915Z",
+      "msg": "Boa tarde"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-28T13:46:19.377Z",
+      "msg": "recebe a senha pelo email?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-28T13:46:29.466Z",
+      "msg": "e usa a mesma para fazer login?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-28T13:46:35.007Z",
+      "msg": "Sim."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-28T13:46:46.374Z",
+      "msg": "Do telefone faço login sem problemas."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-28T13:47:03.491Z",
+      "msg": "mas do computador pede para trocar e quando troco não consigo fazer login"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-28T13:48:10.050Z",
+      "msg": "Certifique-se de que coloca os dados correctos"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-28T13:48:31.356Z",
+      "msg": "Agora acabo de aceder ao sistema."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-28T13:48:38.428Z",
+      "msg": "uando troca, passa a usar a nova senha atribuida e não usa mais a fornecida no email"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-28T13:48:52.163Z",
+      "msg": "Ta certo."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-28T13:49:39.806Z",
+      "msg": "mas mesmo assim o problema persiste. Eu troquei a palavra passe e mesmo assim não aceita. A única qu aceita é a que mandaram me no email pelo  spee."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-28T13:51:03.439Z",
+      "msg": "Não pode mais usar a senha que está no email\nUsa a que trocou\nMas tem que certificar'se de que esteja correcta"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-28T13:51:14.184Z",
+      "msg": "Eu quando entro no sistema não aparece a minha empresa então o meu docente redefiniu a conta por isso tive a palavra passe nova."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-28T13:51:53.036Z",
+      "msg": "um ponto a ter em conta quando está a trocar a senha, é que tem um indicador de senha fraca à forte\nEnquanto a senha for fraca, o sistema não vai considerar essa senha"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-28T13:52:17.674Z",
+      "msg": "Além de acesso a conta, não percebi a outra dúvida que enfrenta"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-28T13:52:43.680Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/6900c8a23ad481202525eb6d/v/38927cafbaa6a81216f0045410b602ccd14202ee/IMG_2173.jpeg",
+              "name": "IMG_2173.jpeg",
+              "mimeType": "image/jpeg",
+              "size": 5039246,
+              "extension": "jpeg"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-28T13:53:07.899Z",
+      "msg": "Eu faço parte de uma empresa mas no meu sistema não aparece o catálogo da empresa"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-28T13:54:33.065Z",
+      "msg": "Essa foto tirei do computador do colega que partilha o sistema comigo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-28T13:55:04.323Z",
+      "msg": "Okay"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-28T13:55:13.805Z",
+      "msg": "peço o email de sua conta"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-28T13:56:00.785Z",
+      "msg": "abdul.satar12@icloud.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

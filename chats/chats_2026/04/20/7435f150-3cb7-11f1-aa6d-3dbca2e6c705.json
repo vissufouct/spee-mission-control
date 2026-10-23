@@ -1,0 +1,55 @@
+{
+  "id": "7435f150-3cb7-11f1-aa6d-3dbca2e6c705",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/francisco",
+    "id": "5b081d4d8859f57bdc7b8ddd-DPHIkE7QXCUQSQ6BRkvXn",
+    "email": "muazitefrancisco23@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 4,
+  "chatDuration": 185,
+  "rating": 0,
+  "createdOn": "2026-04-20T12:53:01.548Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T12:53:01.548Z",
+      "msg": "Nome : ISCIM/francisco\r\nE-mail : muazitefrancisco23@gmail.com\r\nDescrição do Problema : dados do empreededor nao consigo cadastrar me ou seja adicionar outo empreendedor"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T12:53:36.679Z",
+      "msg": "Boa tarde, no campo de email coloque um email alternativo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T12:55:43.760Z",
+      "msg": "O outro empreendedor tambem deve ser um email alternativo!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T12:56:06.956Z",
+      "msg": "mesmo assim nao aceita adicionar outro empreendedor"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

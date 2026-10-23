@@ -1,0 +1,52 @@
+{
+  "id": "07b8e620-049d-11f0-a690-b5f28a0ed5c5",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/4002807798",
+    "id": "5b081d4d8859f57bdc7b8ddd-JHEimNFn9RbaERTJaUwri",
+    "email": "dionisiomacovo@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 3052,
+  "rating": 0,
+  "createdOn": "2025-03-19T08:40:15.605Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:40:15.605Z",
+      "msg": "Nome : ISCIM/Cassimo\r\nTelefone : 845063123\r\nE-mail : cassimo3@icloud.com\r\nDescrição do Problema : Bom dia , não consigo aceder a loja online de ativos mínimos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:47:20.885Z",
+      "msg": "Logo depois de fazer login a platarfoma, entrar para o campo destacado, e voltar a aceder aos activos minimos",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/e5d6f7e3a51644968fa1cc6c3ca2b2a64c85bfc1/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 68032,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

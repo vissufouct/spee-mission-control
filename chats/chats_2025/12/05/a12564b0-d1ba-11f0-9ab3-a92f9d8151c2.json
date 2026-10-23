@@ -1,0 +1,29 @@
+{
+  "id": "a12564b0-d1ba-11f0-9ab3-a92f9d8151c2",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Denise Irene Mabunda",
+    "id": "5b081d4d8859f57bdc7b8ddd-feDGL8g5bJD0FAeiyVlqe",
+    "email": "denisemabunda@icloud.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-12-05T10:12:05.337Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-12-05T10:12:05.337Z",
+      "msg": "Nome : Denise Irene Mabunda\r\nE-mail : denisemabunda@icloud.com\r\nDescrição do Problema : como calcular a projecao de preco apos adicionar os custos fixos e ainda como faco para calcular os custos variaveis"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

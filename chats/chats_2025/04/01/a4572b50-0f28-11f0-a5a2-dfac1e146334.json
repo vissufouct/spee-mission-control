@@ -1,0 +1,86 @@
+{
+  "id": "a4572b50-0f28-11f0-a5a2-dfac1e146334",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-ZgYT244EH0ea3dSJq03NG",
+    "email": "karenlalescateodorasitoe@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 6,
+  "chatDuration": 398,
+  "rating": 0,
+  "createdOn": "2025-04-01T19:24:32.879Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:24:32.879Z",
+      "msg": "Nome : Karen Sitoe\r\nE-mail : karenlalescateodorasitoe@gmail.com\r\nDescrição do Problema : dificuldades em celebrar contratos das lojas online"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:27:41.689Z",
+      "msg": "Boa noite, dá algum erro?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:28:12.441Z",
+      "msg": "Ao tentar entrar da erro"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:28:39.492Z",
+      "msg": "um momento só"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:30:09.434Z",
+      "msg": "saia do sistema, e volte a entrar. Logo que esta janela abrir, entre para o campo destacado. Apos isso pode aceder ao grossista",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/85eca45c6381bfe57fa8e01a988a4e981fb72b97/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 63598,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:31:10.597Z",
+      "msg": "Tudo bem"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

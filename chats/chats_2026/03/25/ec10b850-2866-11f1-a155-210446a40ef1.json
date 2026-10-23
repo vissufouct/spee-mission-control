@@ -1,0 +1,38 @@
+{
+  "id": "ec10b850-2866-11f1-a155-210446a40ef1",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-hgrwKTlAUoGrsHvNNRcvW",
+    "email": "jossefazeferinositoe@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 210,
+  "rating": 0,
+  "createdOn": "2026-03-25T16:32:36.973Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-25T16:32:36.973Z",
+      "msg": "Nome : ISCIM/Garfo\r\nE-mail : jossefazeferinositoe@gmail.com\r\nDescrição do Problema : Descrição do Problema : quero esolher imobiliaria para arendar e nao aceita o botao esolher congela"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-25T16:36:06.524Z",
+      "msg": "Boa noite, estamos a resolver o problema, pedimos que aguarde um pouco só!"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

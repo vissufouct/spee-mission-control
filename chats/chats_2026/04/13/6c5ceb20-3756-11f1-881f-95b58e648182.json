@@ -1,0 +1,81 @@
+{
+  "id": "6c5ceb20-3756-11f1-881f-95b58e648182",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "THEL,LDA/4003038516",
+    "id": "5b081d4d8859f57bdc7b8ddd-n6FSJSSpsyyFqmH5k1wIi",
+    "email": "thairesmartins04@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 7,
+  "chatDuration": 537,
+  "rating": 0,
+  "createdOn": "2026-04-13T16:37:42.064Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-13T16:37:42.064Z",
+      "msg": "Nome : DK Office Lda Solutions\r\nE-mail : thairesmartins04@gmail.com\r\nDescrição do Problema : boa noite tudo bem?\nestou a  adicionar um dos  socios ele nao esta a sumir por que?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-13T16:39:33.518Z",
+      "msg": "Boa noite, consegue me descrever o problema?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-13T16:39:44.080Z",
+      "msg": "Quer remover o socio?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-13T16:40:24.034Z",
+      "msg": "quero adicinar o segundo socio mas o nome nao aparece"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-13T16:42:11.596Z",
+      "msg": "o socio ja tem conta criada?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-13T16:43:33.466Z",
+      "msg": "no plano de negocio na parte de lista de empreendedorres, quero adicionar o segundo socio nao esta aceitar"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-13T16:46:39.352Z",
+      "msg": "Aguarde um instante, estamos em verificacao..."
+    }
+  ],
+  "domain": "planodenegocios.simulacao.co.mz"
+}

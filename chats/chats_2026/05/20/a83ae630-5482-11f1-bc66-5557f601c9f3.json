@@ -1,0 +1,29 @@
+{
+  "id": "a83ae630-5482-11f1-bc66-5557f601c9f3",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Gefferson Sitoe",
+    "id": "5b081d4d8859f57bdc7b8ddd-mLeI29U_oyJxrBeZOM75E",
+    "email": "paypalmod37@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T19:33:41.833Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T19:33:41.833Z",
+      "msg": "Nome : Gefferson Sitoe\r\nTelefone : 258823968826\r\nE-mail : Paypalmod37@gmail.com\r\nDescrição do Problema : Paypalmod37@gmail.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

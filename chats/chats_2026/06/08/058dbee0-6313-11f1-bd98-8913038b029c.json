@@ -1,0 +1,59 @@
+{
+  "id": "058dbee0-6313-11f1-bd98-8913038b029c",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Cuamba",
+    "id": "5b081d4d8859f57bdc7b8ddd-z287YO3p4Pyh7CYUwnLCD",
+    "email": "fabiaomassingue05@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-06-08T08:23:00.014Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-08T08:23:00.014Z",
+      "msg": "Name : ISCIM/Cuamba\r\nEmail : Floidecf@gmail.com\r\nDescrição do Problema : bom dia, estou com algums problemas no campo para cadastrar a empresa no inns"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-08T08:23:22.131Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/6a267b7d0eecebc220ea7403/v/36e7a26d4babf1d098ac74c8880e811a420372f4/Screenshot_2026-06-08_092145.png",
+              "name": "Screenshot 2026-06-08 092145.png",
+              "mimeType": "image/png",
+              "size": 224833,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-08T08:23:49.417Z",
+      "msg": "fica processando e nao termina"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

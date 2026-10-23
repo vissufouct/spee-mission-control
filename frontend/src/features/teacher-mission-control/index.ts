@@ -1,0 +1,8 @@
+export { TeacherOverviewPage } from './pages/TeacherOverviewPage'
+export { TeacherCompanyPage } from './pages/TeacherCompanyPage'
+export { TeacherProvider } from './hooks/TeacherProvider'
+export { JsonTeacherRepository } from './api/JsonTeacherRepository'
+export { teacherSnapshotSchema } from './schemas/teacher.schema'
+export { teacherPaths } from './services/teacher.selectors'
+export type { Company, TeacherSnapshot, TeacherEvent } from './types'
+export type { TeacherRepository } from './services/TeacherRepository'

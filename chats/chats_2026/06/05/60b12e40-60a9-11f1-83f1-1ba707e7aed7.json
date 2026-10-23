@@ -1,0 +1,145 @@
+{
+  "id": "60b12e40-60a9-11f1-83f1-1ba707e7aed7",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "S&F CONCULTORES E ASSOCIADOS,LDA",
+    "id": "5b081d4d8859f57bdc7b8ddd-78NhqSDdXuuPruFXccSov",
+    "email": "fermino.chavane@iscam.ac.mz"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 15,
+  "chatDuration": 1644,
+  "rating": 0,
+  "createdOn": "2026-06-05T07:00:21.566Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-05T07:00:21.566Z",
+      "msg": "Name : S&F CONCULTORES E ASSOCIADOS,LDA\r\nEmail : ferminochavane@gmail.com\r\nPhone : +25846173052\r\nDescrição do Problema : Sou Fermino Manuel Chavane, Socio de Samuel Albino Chicane representantes da Empresa S&F CONSULTORES E ASSOCIADOS LDA, TITULARES DO NUIT:4003078680, detentores de Capital Social de 3.000.000,00mt,\nO nosso problema e o seguinte:\nNo processo da criacao de empresa no sistema, tive um pequeno atraso isso porque meu socio Samuel, nao havia consiguido se registar ainda, mas depois de ele ter consiguido fiz lhe um covite que era para puder fazer parte da sociedade e seguirmos com os passos subsequentes"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-05T07:01:22.009Z",
+      "msg": "Do princípio criei a empresa com um capital de 3M e de seguida adicionei meu sócio mas oque aconteceu, foi de que ele nus deu 900mil cada sócio  com percentagem de 33% deixando do lado 33%, então a mostrei docente e ele disse apaga e faça novamente a divisão,  prontos, fiz isso mas quando estava pata adicionar novamente para dividir o capital não aceitou e eu já não faço mais parte da sociedade, e ocultando os campos de adicionar novo sócio isso até no computador do meu sócio."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-06-05T07:03:07.960Z",
+      "msg": "Diz o teu outro socio criar empresa e adicionar a ti como socio"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-05T07:05:03.101Z",
+      "msg": "Ele basta entrar no sistema ja vem que esta na nossa empresa como socio unico"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-05T07:05:04.660Z",
+      "msg": "e nem aceita me covidar"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-05T07:05:24.721Z",
+      "msg": "Alias, ele esta la como meu covidado, por isso nao aceita covidar apartir dele"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-05T07:05:52.960Z",
+      "msg": "Outra coisa tentei editar os dados da empresa mas nao aceita"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-06-05T07:06:05.129Z",
+      "msg": "Ta certo, um momento!"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-06-05T07:06:14.920Z",
+      "msg": "Que dados tentou editar"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-05T07:09:14.106Z",
+      "msg": "Na verdade so queria ver se e possivel reiniciar o registo."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-05T07:09:19.293Z",
+      "msg": "Mas nao aceitou"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-05T07:09:34.355Z",
+      "msg": "Assim meu socio esta sozinho la"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-05T07:10:36.040Z",
+      "msg": "Aceita ate fazer os contratos mas a minha duvida e sobre as actas e certidao que so tera um unico socio."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-05T07:10:56.895Z",
+      "msg": "Nao vai ter um impacto no relatorio final??"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-06-05T07:27:45.809Z",
+      "msg": "A empresa actual e de quem?"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

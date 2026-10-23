@@ -1,0 +1,77 @@
+{
+  "id": "73566260-43ec-11f1-b52c-7f615abeabc6",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A & P Limitada Combustíveis e Lubrificantes",
+    "id": "5b081d4d8859f57bdc7b8ddd-W3LAC_Xw3c17sIfFSEbjT",
+    "email": "passuane90@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 5,
+  "chatDuration": 476,
+  "rating": 0,
+  "createdOn": "2026-04-29T17:05:23.048Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-29T17:05:23.048Z",
+      "msg": "Nome : A & P Limitada Combustíveis e Lubrificantes\r\nTelefone : 258841048024\r\nE-mail : passuane90@gmail.com\r\nDescrição do Problema : Podemos seguir emitindo documentos enquanto verificam a questão do logotipo nos documentos ou devemos esperar?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-29T17:06:34.454Z",
+      "msg": "Não conseguem adicionar o logo tipo da empresa?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-29T17:09:07.996Z",
+      "msg": "Certo, não conseguimos adicionar o logotipo",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69f238613ad481202588ea72/v/656d4533a231cff44c436575e4afa108133ec6dd/Captura_de_ecr%C3%A3_2026-04-27_182531.png",
+              "name": "Captura de ecrã 2026-04-27 182531.png",
+              "mimeType": "image/png",
+              "size": 47060,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-29T17:12:32.827Z",
+      "msg": "Vou verificar, mas podem proseguir com a emisao de documentos"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-29T17:13:18.652Z",
+      "msg": "tudo bem"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

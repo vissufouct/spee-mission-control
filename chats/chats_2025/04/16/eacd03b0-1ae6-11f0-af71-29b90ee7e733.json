@@ -1,0 +1,29 @@
+{
+  "id": "eacd03b0-1ae6-11f0-af71-29b90ee7e733",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/Jonasse",
+    "id": "5b081d4d8859f57bdc7b8ddd-nBUR5yc663FY4w4_bTsxp",
+    "email": "jonasseshaly@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-04-16T17:36:21.081Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-16T17:36:21.081Z",
+      "msg": "Nome : A Politecnica - MPT/Jonasse\r\nE-mail : jonasseshaly@gmail.com\r\nDescrição do Problema : nao consigo criar o email da empresa, o que faco?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "9afd8450-2787-11f1-ad0d-658ec69a74d2",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - TETE/Massingue",
+    "id": "5b081d4d8859f57bdc7b8ddd-5gjHEngE1P3hCs963_kF8",
+    "email": "argentinarodriguemassingue@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Beira"
+  },
+  "messageCount": 7,
+  "chatDuration": 590,
+  "rating": 0,
+  "createdOn": "2026-03-24T13:50:20.702Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-24T13:50:20.702Z",
+      "msg": "Nome : A Politecnica - TETE/Massingue\r\nTelefone : 258845810526\r\nE-mail : ecumbane96@live.com\r\nDescrição do Problema : Boa tarde\n\npeco aos administradores do sistem o suporte tecnico. os estudantes nao conseguem cadastrar-se nas turmas criadas para o Ciclo 2026. remete a concluir o processo clicando olink enviado por email mas quando isso fazem o sistema processa e nao avanca. \n\nA vossa atencao"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-24T13:51:55.310Z",
+      "msg": "Boa tarde, qual é o codigo que estão a usar?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-24T13:52:46.272Z",
+      "msg": "305459"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-24T13:54:15.359Z",
+      "msg": "E qual é a dificuldade que os estudantes estão a ter?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-24T13:57:11.385Z",
+      "msg": "quando tentam cadastrar-se  pelo computador o sistema remete-os a continuar o cadastro mediante o link que ee enviado para o email. quando estes acedem o email e preenchem os campos de cadastro o sistema nao aceita registar e fica processando."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-24T13:58:46.067Z",
+      "msg": "quando tentam cadastrar-se  pelo computador o sistema remete-os a continuar o cadastro mediante o link que ee enviado para o email. quando estes acedem o email e preenchem os campos de cadastro o sistema nao aceita registar e fica processando."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-24T14:00:10.930Z",
+      "msg": "Existe um possibilidade de mandar o print da tela para uma melhor visualizacão do problema?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

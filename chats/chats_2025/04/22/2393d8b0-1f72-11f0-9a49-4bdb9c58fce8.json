@@ -1,0 +1,29 @@
+{
+  "id": "2393d8b0-1f72-11f0-9a49-4bdb9c58fce8",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Neelam",
+    "id": "5b081d4d8859f57bdc7b8ddd-ZDDirsGLabpXM5T1CSQhg",
+    "email": "neelamessi10@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-04-22T12:07:10.118Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-22T12:07:10.118Z",
+      "msg": "Nome : Neelam\r\nTelefone : 850308103\r\nE-mail : Neelamessi10@gmail.com\r\nDescrição do Problema : Não consigo criar o e-mail no spee, como fazer?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

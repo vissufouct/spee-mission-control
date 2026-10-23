@@ -1,0 +1,46 @@
+{
+  "id": "1fc49f30-3e3e-11f1-9e6f-116354993f5e",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "AF CONSULTORIA LDA",
+    "id": "5b081d4d8859f57bdc7b8ddd-lQeXOIGkOx8agYG2to4gW",
+    "email": "airtonaly2@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 127,
+  "rating": 0,
+  "createdOn": "2026-04-22T11:35:18.319Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T11:35:18.319Z",
+      "msg": "Nome : AF CONSULTORIA LDA\r\nE-mail : airtonaly2@gmail.com\r\nDescrição do Problema : como faço para verificar os planos de negócio criados?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T11:36:03.934Z",
+      "msg": "Vai ate o plano de negocio e clica em comentarios"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T11:37:25.398Z",
+      "msg": "já fiz isso mas ele não mostra nenhum plano de negócio criado"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

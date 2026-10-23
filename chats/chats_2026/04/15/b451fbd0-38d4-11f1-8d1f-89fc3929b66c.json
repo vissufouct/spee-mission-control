@@ -1,0 +1,37 @@
+{
+  "id": "b451fbd0-38d4-11f1-8d1f-89fc3929b66c",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Issac",
+    "id": "5b081d4d8859f57bdc7b8ddd-wGpeESAxg3tglCSouZRZi",
+    "email": "suheilaissac02@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-04-15T14:13:21.342Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T14:13:21.342Z",
+      "msg": "Nome : ISCIM/Issac\r\nTelefone : 258849490724\r\nE-mail : suheilaissac02@gmail.com\r\nDescrição do Problema : continuando a conversa anterior, os dados em falta sao, produtos principais, oportunidade identificada, estrategia de gestao generica, pessoas, evidencia fisica e processos aparece conteudo diferente do que eu introduzi, slogan"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T14:37:03.975Z",
+      "msg": "boa tarde"
+    }
+  ],
+  "domain": "planodenegocios.simulacao.co.mz"
+}

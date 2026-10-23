@@ -1,0 +1,69 @@
+{
+  "id": "02571070-032c-11f0-b553-19db7ea6471a",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-rcxk8G6mwVVZrzKqxB1q5",
+    "email": "jossefazeferinost@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 4,
+  "chatDuration": 316,
+  "rating": 0,
+  "createdOn": "2025-03-17T12:35:04.485Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:35:04.485Z",
+      "msg": "Nome : /\r\nE-mail : jossefazeferinost@gmail.com\r\nDescrição do Problema : Estou tendo problemas para achar as províncias de moçambique"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:36:41.964Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/67d81690a3c8d40bf9a6dc08/v/cdec1808f4258ef5adbc08e446d02c02adec53ed/Screenshot_20250317-143341.png",
+              "name": "Screenshot_20250317-143341.png",
+              "mimeType": "image/png",
+              "size": 70519,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:40:12.543Z",
+      "msg": "peco o teu contacto"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:40:20.675Z",
+      "msg": "para que eu possa explicar"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

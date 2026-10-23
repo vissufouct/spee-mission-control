@@ -1,0 +1,29 @@
+{
+  "id": "188d6490-034d-11f0-9747-e37ec76e016a",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-o0w2j3XiqGOvVbn75turv",
+    "email": "mussagymagid@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-03-17T16:34:19.714Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-17T16:34:19.714Z",
+      "msg": "Nome : ISCIM/Ussy\r\nE-mail : mussagymagid@gmail.com\r\nDescrição do Problema : o sistema diz envio o codigo parao meu numero 848082015 para validar mas nunca recebo"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

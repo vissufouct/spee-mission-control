@@ -1,0 +1,54 @@
+{
+  "id": "afc288d0-2036-11f0-a8c3-d9561a5783e5",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ND Lda. Papelaria & Personalizados",
+    "id": "5b081d4d8859f57bdc7b8ddd-JHEimNFn9RbaERTJaUwri",
+    "email": "garfochimica34@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 4,
+  "chatDuration": 2297,
+  "rating": 0,
+  "createdOn": "2025-04-23T12:21:10.531Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-23T12:21:10.531Z",
+      "msg": "Nome : ISCIM/Cassimo\r\nE-mail : garfochimica34@gmail.com\r\nDescrição do Problema : Estou com problemas no sistema"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-04-23T12:24:58.951Z",
+      "msg": "Boa tarde. Qualquer seria o problema?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-23T12:58:39.433Z",
+      "msg": "nao consigo ver os movimentos da minha empresa"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-23T12:59:28.002Z",
+      "msg": "oque devo fazer"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

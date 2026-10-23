@@ -1,0 +1,76 @@
+{
+  "id": "caf96360-3757-11f1-ae0f-df225ff01410",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "THEL,LDA/4003038516",
+    "id": "5b081d4d8859f57bdc7b8ddd-75x9dQhzb30UBaqvq955j",
+    "email": "thairesmartins04@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 5,
+  "chatDuration": 7025,
+  "rating": 0,
+  "createdOn": "2026-04-13T17:11:02.263Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-13T17:11:02.263Z",
+      "msg": "Nome : THEL,LDA\r\nE-mail : thairesmartins04@gmail.com\r\nDescrição do Problema : Boa noite prezado,\n\nAo registrar activo o sistema nao assume os valores."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-13T17:12:32.099Z",
+      "msg": "Boa noite, onde é que esta a ter dificuldades?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-13T17:17:25.725Z",
+      "msg": "No SCG ao registrar activo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-13T19:07:48.286Z",
+      "msg": "boa noite"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-13T19:08:07.560Z",
+      "msg": "Encontro o erro",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69dd1d033ad4812025644a2d/v/46e90c7b5fed1a41f37b926a9ab7641f01362ac1/image.png",
+              "name": "image.png",
+              "mimeType": "image/png",
+              "size": 53572,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

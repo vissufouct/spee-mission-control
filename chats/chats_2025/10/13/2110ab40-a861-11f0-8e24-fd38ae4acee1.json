@@ -1,0 +1,47 @@
+{
+  "id": "2110ab40-a861-11f0-8e24-fd38ae4acee1",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "UNILURIO/JUNIOR",
+    "id": "5b081d4d8859f57bdc7b8ddd-2f423MJvJxJJK2YOw3dsi",
+    "email": "l.felismino.2023@unilurio.ac"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 501,
+  "rating": 0,
+  "createdOn": "2025-10-13T18:25:38.418Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-13T18:25:38.418Z",
+      "msg": "Nome : UNILURIO/JUNIOR\r\nE-mail : l.felismino.2023@unilurio.ac.mz\r\nDescrição do Problema : quero adicionar mais um socio masi nao o consigo fazer"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-13T18:33:54.537Z",
+      "msg": "Qual é o sócio que pretende adicionar'"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-13T18:33:59.426Z",
+      "msg": "peço o email"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

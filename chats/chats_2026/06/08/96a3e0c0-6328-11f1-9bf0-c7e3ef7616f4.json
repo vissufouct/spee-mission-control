@@ -1,0 +1,38 @@
+{
+  "id": "96a3e0c0-6328-11f1-9bf0-c7e3ef7616f4",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "V&F, LDA – Equipamentos Informáticos & Serviços de Reparação",
+    "id": "5b081d4d8859f57bdc7b8ddd-RR9ZqEKC0wew8ePLNCF7f",
+    "email": "fabiaomassingue05@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 147,
+  "rating": 0,
+  "createdOn": "2026-06-08T10:56:17.986Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-08T10:56:17.986Z",
+      "msg": "Name : V&F, LDA – Equipamentos Informáticos & Serviços de Reparação\r\nEmail : fabiaomassingue05@gmail.com\r\nDescrição do Problema : Podem me ajudar a registar a minha empresa no INSS"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-06-08T10:58:44.868Z",
+      "msg": "Bom dia, Nao crie um contracto com a INSS\nNao e para ser considerado."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

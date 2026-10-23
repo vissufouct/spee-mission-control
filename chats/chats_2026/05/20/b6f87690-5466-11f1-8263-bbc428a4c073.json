@@ -1,0 +1,29 @@
+{
+  "id": "b6f87690-5466-11f1-8263-bbc428a4c073",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Nilma Serena Emiliana Jussa",
+    "id": "5b081d4d8859f57bdc7b8ddd-HL5es1Rz4_ICyWjr57ic5",
+    "email": "nilmajussa01@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T16:14:26.755Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T16:14:26.755Z",
+      "msg": "Nome : Nilma Serena Emiliana Jussa\r\nTelefone : 258862361017\r\nE-mail : nilmajussa01@gmail.com\r\nDescrição do Problema : nilmajussa01@gmail.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

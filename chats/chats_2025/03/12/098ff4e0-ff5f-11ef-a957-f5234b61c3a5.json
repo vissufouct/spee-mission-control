@@ -1,0 +1,184 @@
+{
+  "id": "098ff4e0-ff5f-11ef-a957-f5234b61c3a5",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/mawai",
+    "id": "5b081d4d8859f57bdc7b8ddd-JHEimNFn9RbaERTJaUwri",
+    "email": "arturtaimo00@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 19,
+  "chatDuration": 4327,
+  "rating": 0,
+  "createdOn": "2025-03-12T17:05:28.797Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:05:28.797Z",
+      "msg": "Nome : ISCIM/mawai\r\nE-mail : arturtaimo00@gmail.com\r\nDescrição do Problema : Nao aparece o nome no cadastro"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:19:50.925Z",
+      "msg": "Boa noite"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:20:02.980Z",
+      "msg": "Não percebi  a questão"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:21:02.122Z",
+      "msg": "meu nome não aparece no cadastro da escola"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:21:50.070Z",
+      "msg": "No sistema?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:21:58.454Z",
+      "msg": "Criou conta?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:22:12.598Z",
+      "msg": "sim"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:23:22.835Z",
+      "msg": "E não consegue entrar para o spee?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:23:49.351Z",
+      "msg": "não"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:24:48.737Z",
+      "msg": "Qual é a sua senha?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:25:33.775Z",
+      "msg": "charla2020"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:31:22.707Z",
+      "msg": "504b8db\nuse esta senha"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:55:15.623Z",
+      "msg": "Nao aceite o codico"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-12T18:13:20.065Z",
+      "msg": "qual é o email?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-12T18:13:41.610Z",
+      "msg": "arturtaimo00@gmail.com, não é este?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T18:13:42.111Z",
+      "msg": "esta senha nao foi aceite"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-12T18:14:16.712Z",
+      "msg": "peço o email do estudante"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T18:16:09.950Z",
+      "msg": "Charla.mawai05@gmail.com"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-12T18:16:32.078Z",
+      "msg": "9f0252d\nusa esta senha"
+    }
+  ],
+  "domain": "planodenegocios.simulacao.co.mz"
+}

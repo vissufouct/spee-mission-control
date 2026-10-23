@@ -1,0 +1,51 @@
+{
+  "id": "b4344800-4253-11f1-afb0-5b79ba141913",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A & P Limitada Combustíveis e Lubrificantes",
+    "id": "5b081d4d8859f57bdc7b8ddd-W3LAC_Xw3c17sIfFSEbjT",
+    "email": "passuane90@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-04-27T16:25:52.824Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-27T16:25:52.824Z",
+      "msg": "Nome : ISCIM/Tomas\r\nTelefone : 258841048024\r\nE-mail : passuane90@gmail.com\r\nDescrição do Problema : ."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-27T16:27:41.118Z",
+      "msg": "estou dificuldade em colocar o logotipo neste campo, e recorrente e já vim cá expor essa situação e sem resposta ate hoje",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69ef8a9d3ad48120254d601c/v/77de70b5c8291755383fe25a5ab2fd01b645f809/Captura_de_ecr%C3%A3_2026-04-27_182531.png",
+              "name": "Captura de ecrã 2026-04-27 182531.png",
+              "mimeType": "image/png",
+              "size": 47060,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

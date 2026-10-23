@@ -1,0 +1,39 @@
+{
+  "id": "19c73440-30d8-11f0-9ef7-197516be9082",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Tesoura",
+    "id": "5b081d4d8859f57bdc7b8ddd-TxstXa3I1s_sAlTBa620U",
+    "email": "nasmaluis@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-05-14T15:28:54.558Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-14T15:28:54.558Z",
+      "msg": "Boa noite \nEstá lento por conta da conexão a Internet"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-14T15:29:09.434Z",
+      "msg": "Quais funcionalidades não estão claras?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

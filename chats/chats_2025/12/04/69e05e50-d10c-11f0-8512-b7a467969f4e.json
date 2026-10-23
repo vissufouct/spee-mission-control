@@ -1,0 +1,183 @@
+{
+  "id": "69e05e50-d10c-11f0-8512-b7a467969f4e",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISG/Júnior",
+    "id": "5b081d4d8859f57bdc7b8ddd-x0HX0McRL_rf7EVoHonHd",
+    "email": "pdrsimbine@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 16,
+  "chatDuration": 958,
+  "rating": 0,
+  "createdOn": "2025-12-04T12:56:39.280Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-12-04T12:56:39.280Z",
+      "msg": "Nome : ISG/Júnior\r\nE-mail : pdrsimbine@gmail.com\r\nDescrição do Problema : Como fazer o pagamento do INSS Da banca do spee"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-12-04T12:56:53.311Z",
+      "msg": "Boa tarde"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-12-04T12:57:22.392Z",
+      "msg": "Como Está?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-12-04T12:58:43.721Z",
+      "msg": "Preciso pagar o INNS da banca spee"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-12-04T12:59:37.831Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/f3ff19ced568fccb1883424577fd561cd35442e8/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 91976,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-12-04T13:00:57.783Z",
+      "msg": "Sim, mas é o número da referência que preciso ter acesso"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-12-04T13:02:46.089Z",
+      "msg": "Pode fazer tranferência"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-12-04T13:03:19.431Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/90c5de80a8e3f269c2d17accca55e4468e488b24/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 151653,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-12-04T13:03:48.854Z",
+      "msg": "Assim que estou fazendo para o primeiro ciclo nao terá efeito para a reconciliação bancária?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-12-04T13:03:55.471Z",
+      "msg": "No catálogo de empresas, por baixo, tem uma tabela com dados bancários das instituições públicas"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-12-04T13:05:13.578Z",
+      "msg": "Tudo bem ao proceder a transferência o que coloco na factura?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-12-04T13:05:46.943Z",
+      "msg": "Onde vem ref da factura"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-12-04T13:06:22.178Z",
+      "msg": "Pode colocar qualquer informação"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-12-04T13:06:38.861Z",
+      "msg": "Obrigado"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-12-04T13:07:02.654Z",
+      "msg": "Estou a ter alguns problemas na Reconciliação bancaria pode ajudar?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-12-04T13:12:37.217Z",
+      "msg": "?"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

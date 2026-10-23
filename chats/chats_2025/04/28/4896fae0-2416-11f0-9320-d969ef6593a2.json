@@ -1,0 +1,71 @@
+{
+  "id": "4896fae0-2416-11f0-9320-d969ef6593a2",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "UNILURIO/Fernando",
+    "id": "5b081d4d8859f57bdc7b8ddd-JLtVaylf0yaOsIGrvDhzB",
+    "email": "shanymagandana02@gmail.com"
+  },
+  "location": {
+    "countryCode": "NG",
+    "city": "Unknown"
+  },
+  "messageCount": 6,
+  "chatDuration": 2127,
+  "rating": 0,
+  "createdOn": "2025-04-28T11:58:13.666Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-28T11:58:13.666Z",
+      "msg": "Nome : UNILURIO/Fernando\r\nE-mail : celiofernando494@gmail.com\r\nDescrição do Problema : boa tarde \nnao estou a conseguir editar os dados do empreendedor"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-28T11:59:56.878Z",
+      "msg": "Boa tarde\nQUal é a dificuldade?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-28T12:03:47.208Z",
+      "msg": "nao estou a conseguir editar os dados do empreendedor, na parte de Modelos de negocio"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-28T12:05:01.199Z",
+      "msg": "quando coloca os novos dados, grava?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-28T12:05:20.545Z",
+      "msg": "sim"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-28T12:33:40.559Z",
+      "msg": "AGORA VEM NUIT INVALIDO OU JA FOI CADASTRADO"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

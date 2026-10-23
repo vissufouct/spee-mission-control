@@ -1,0 +1,29 @@
+{
+  "id": "eae14b20-14a8-11f0-84b2-b74ea6a0c01f",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/Nhantumbo",
+    "id": "5b081d4d8859f57bdc7b8ddd-6Asioh6q6pf2gq_fH8y2c",
+    "email": "kellyisaacnhantumbo@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-04-08T18:43:05.042Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-08T18:43:05.042Z",
+      "msg": "Nome : A Politecnica - MPT/Nhantumbo\r\nE-mail : kellyisaacnhantumbo@gmail.com\r\nDescrição do Problema : Boa noite.\nTenho algumas dúvidas, em relação ao portal.\nGostava de saber se ao fazer o registo ou seja a reserva do nome da empresa, o sócio que iniciou a tarefa deve ser o mesmo a terminar as mesmas??"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

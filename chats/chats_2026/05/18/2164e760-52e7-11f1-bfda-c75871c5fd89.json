@@ -1,0 +1,37 @@
+{
+  "id": "2164e760-52e7-11f1-bfda-c75871c5fd89",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "[Docente]A Politecnica - MPT - A Politécnica-Semestre 1_2026/Guirruta, Carlos",
+    "id": "5b081d4d8859f57bdc7b8ddd-rQeZ1eKQTuswyNFv1n0WM",
+    "email": "carlosguirruta@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-18T18:27:58.885Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-18T18:27:58.885Z",
+      "msg": "Nome : [Docente]A Politecnica - MPT - A Politécnica-Semestre 1_2026/Guirruta, Carlos\r\nE-mail : carlosguirruta@gmail.com\r\nDescrição do Problema : Boa arde"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-18T18:33:49.951Z",
+      "msg": "nabilasalle2@gmail.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

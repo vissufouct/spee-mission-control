@@ -1,0 +1,54 @@
+{
+  "id": "462e2d70-3d77-11f1-8005-99447e46eea6",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/Bata",
+    "id": "5b081d4d8859f57bdc7b8ddd-U74EPw_ApdyE2BWsuKXwL",
+    "email": "bbrite789.bb@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 4,
+  "chatDuration": 265,
+  "rating": 0,
+  "createdOn": "2026-04-21T11:46:48.656Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-21T11:46:48.656Z",
+      "msg": "Nome : A Politecnica - MPT/Bata\r\nTelefone : 258873677611\r\nE-mail : bbrite789.bb@gmail.com\r\nDescrição do Problema : o sistema não aceita adicionar os custos fixos para projeção dos preços"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-21T11:47:35.731Z",
+      "msg": "Boa tarde, qual e dificuldade esta a ter?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-21T11:49:34.164Z",
+      "msg": "Boa tarde, quero fazer a projeção dos preços dos servviços no sistema, mas quando chega o momento de adicionar os custos fixos o sistema não salva os custos"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-21T11:51:13.816Z",
+      "msg": "Já fiz logout e de seguida voltar a aceder, e o problema prevalece."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

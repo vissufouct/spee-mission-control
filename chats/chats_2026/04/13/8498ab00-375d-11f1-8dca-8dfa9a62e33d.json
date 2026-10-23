@@ -1,0 +1,63 @@
+{
+  "id": "8498ab00-375d-11f1-8dca-8dfa9a62e33d",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-vlP7Exp057eVOTuWcOQzG",
+    "email": "shaniaalicecumbene@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 5,
+  "chatDuration": 752,
+  "rating": 0,
+  "createdOn": "2026-04-13T17:28:03.987Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-13T17:28:03.987Z",
+      "msg": "Nome : ISCIM/Vembane\r\nTelefone : 258850720207\r\nE-mail : luryanateciavembane@gmail.com\r\nDescrição do Problema : nao aceita alterat a percentagem de quotas\no que devo fazer"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-13T17:28:48.266Z",
+      "msg": "Boa noite, onde esta a ter essa dificuldade?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-13T17:29:49.625Z",
+      "msg": "no campo de divisao de quotas, no tipo de sociedade"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-13T17:30:30.034Z",
+      "msg": "como alterar a percentagem de quotas"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-13T17:40:36.434Z",
+      "msg": "Se ja tiverem definido as quotas, so podem pedir ao docente para alterar"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

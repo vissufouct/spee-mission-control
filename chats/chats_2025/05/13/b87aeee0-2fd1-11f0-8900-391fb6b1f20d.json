@@ -1,0 +1,226 @@
+{
+  "id": "b87aeee0-2fd1-11f0-8900-391fb6b1f20d",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-gckg9fpeEQAEpHWWLWSEi",
+    "email": "pndayshimiye@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 21,
+  "chatDuration": 1685,
+  "rating": 0,
+  "createdOn": "2025-05-13T08:14:27.153Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-13T08:14:27.153Z",
+      "msg": "Nome : UNILURIO/Ndayshimiye\r\nTelefone : 862833233\r\nE-mail : pndayshimiye@gmail.com\r\nDescrição do Problema : Bom dia\nA minha empresa paladar Cultural já tinha feito modelo canvas e,alguns contratos com algumas empresas, e aguardamos os documentos no sistema, mas agora que estamos a procura dos documentos não conseguimos encontrar, queremos ter os documentos para transferir e teremos em físico"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-13T08:22:59.925Z",
+      "msg": "Bom dia"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-13T08:24:50.965Z",
+      "msg": "Quais são as empresas pelas quais fez os contratos?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-13T08:28:21.915Z",
+      "msg": "Telecomunicação, Água,Energia,Mobiliaria"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-13T08:30:55.017Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/38f483f8b08d25888be1c686624a44c5b653f8b6/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 55567,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-13T08:32:11.413Z",
+      "msg": "Não entendi oque isso quer dizer"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-13T08:34:30.724Z",
+      "msg": "para o exemplo das telecomunicações\nEntre para a aba facturas\ne verá essa tela, a seguir é só clicar em ver contrato"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-13T08:34:59.512Z",
+      "msg": "E os documentos como é que faço"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-13T08:35:08.333Z",
+      "msg": "???"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-13T08:36:08.445Z",
+      "msg": "não percebi?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-13T08:36:44.525Z",
+      "msg": "Tem um botão exportar pdf"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-13T08:37:42.052Z",
+      "msg": "Sobre o caso de modelo canvas como é posso encontrar o modelo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-13T08:37:45.911Z",
+      "msg": "??"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-13T08:38:00.672Z",
+      "msg": "A minha empresa já tinha feito o modelo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-13T08:38:10.674Z",
+      "msg": "um momento"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-13T08:39:18.646Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/9432510f8c4a8a8d7b21c915739b3566546810c1/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 88237,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-13T08:40:25.433Z",
+      "msg": "Quando nós colocamos ai não aparece nada, e também não estamos a saber como transferir"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-13T08:40:48.490Z",
+      "msg": "não percebi?\neu entrei usando sua conta"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-13T08:41:30.813Z",
+      "msg": "Eu já tentei desde ontem fazer isso"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-13T08:41:59.529Z",
+      "msg": "minha querida\nPodes por favor manadr o print da tela, depois de ter clicado em ver comentários?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-13T08:42:32.012Z",
+      "msg": "Esta bem meu querido"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

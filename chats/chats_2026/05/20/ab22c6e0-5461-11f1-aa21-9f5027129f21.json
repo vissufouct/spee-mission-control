@@ -1,0 +1,29 @@
+{
+  "id": "ab22c6e0-5461-11f1-aa21-9f5027129f21",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Neima",
+    "id": "5b081d4d8859f57bdc7b8ddd-i8FonhZHED16LuBxzRiVG",
+    "email": "neimamacuvule@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T15:40:58.624Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:40:58.624Z",
+      "msg": "Nome : Neima\r\nTelefone : 258847480504\r\nE-mail : neimamacuvule@gmail.com\r\nDescrição do Problema : Nome: Neima José Macuvule \nneimamacuvule@gmail.com"
+    }
+  ],
+  "domain": "moodle.simulacao.co.mz"
+}

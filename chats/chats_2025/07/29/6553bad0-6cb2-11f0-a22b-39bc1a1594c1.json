@@ -1,0 +1,29 @@
+{
+  "id": "6553bad0-6cb2-11f0-a22b-39bc1a1594c1",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "V1753816349202244",
+    "id": "5b081d4d8859f57bdc7b8ddd-AVHmxD7jymKioPAqJhdIG",
+    "email": null
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-07-29T19:31:30.184Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-29T19:31:30.184Z",
+      "msg": "Descrição do Problema : Na"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

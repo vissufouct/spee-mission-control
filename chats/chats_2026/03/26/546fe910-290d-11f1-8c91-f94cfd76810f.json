@@ -1,0 +1,146 @@
+{
+  "id": "546fe910-290d-11f1-8c91-f94cfd76810f",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "[Docente]A Politecnica - TETE - ISPT_Ciclo_2026/Cumbane, Edson",
+    "id": "5b081d4d8859f57bdc7b8ddd-IsldVzGQbzKsqHhppNuJZ",
+    "email": "camilodomingos@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 13,
+  "chatDuration": 1392,
+  "rating": 0,
+  "createdOn": "2026-03-26T12:20:39.342Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-26T12:20:39.342Z",
+      "msg": "Nome : [Docente]A Politecnica - TETE - ISPT_Ciclo_2026/Cumbane, Edson\r\nTelefone : 258843712585\r\nE-mail : ecumbane96@live.com\r\nDescrição do Problema : Saudacoes! Soiu Edson Cumbane, Assistente Universitario do ISPT. Gostaria de solicitar a vossa assistencia para que eu possa visualizar o numero total de estudantes inscritos no Sistema. Pois, apenas 3 e que aparecem, mas se inscreveram mais de 3."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-26T12:23:16.786Z",
+      "msg": "Boa tarde, esse tipo de informacao esta limitada ao docente, se for o assistente do docente, so perguntar a ele, ele tem acesso a informacao!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-26T12:24:24.643Z",
+      "msg": "Eu sou oi docente da Disciplina"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-26T12:25:19.283Z",
+      "msg": "O sistema so aparece assim",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69c523213ad4812025f4b26e/v/822a9ba9b8ac707e6e32ed8a64c28e3e0823bd97/image.png",
+              "name": "image.png",
+              "mimeType": "image/png",
+              "size": 27411,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-26T12:26:16.390Z",
+      "msg": "Um momento, estamos verificando!"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-26T12:27:18.861Z",
+      "msg": "os estudantes ja se inscreveram?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-26T12:27:57.448Z",
+      "msg": "Sim, ja se inscreveram."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-26T12:30:48.460Z",
+      "msg": "Possivelmente os seu estudantes inscreveram-se numa turma errada, peco o email de um deles que nao aparece na lista dos estudantes!"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-26T12:31:30.868Z",
+      "msg": "Ou peco que diga a eles mandar uma messagem aqui!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-26T12:34:52.451Z",
+      "msg": "Email de estudantes: Safiraacacio3@gmail.com"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-26T12:38:09.923Z",
+      "msg": "E hoje  na aula, os estudantes estavam a enfrentar as seguintes dificuldades: 1. Nao estavam a conseguir adicionar os outros socios no ambito da constituicao das empresas; 2. No Catalogo de Empresas, quando estavamos a firmar contratos, apenas o  electricidade e que dava a opcao de \"Contratos\".. A Agua, Telecomunicacoes nao da espaco para emissao da factura e nem para elaboracao do contrato. A Banca fomos forcados a utilizar o Menu da Banca.  Isso mesmo os que aparecem  na lista de docentes estavam a enfrentar a mesma dificuldade."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-26T12:41:46.051Z",
+      "msg": "Acabamos de verificar aqui que estudante Safiraacacio3@gmail.com esta registrada num turma errada!"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-26T12:43:51.548Z",
+      "msg": "Pode mandar email de outros estundes ou pedir a esses estudantes mandar uma mensagem para verificarmos"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

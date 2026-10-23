@@ -1,0 +1,55 @@
+{
+  "id": "c48c1bb0-04ba-11f0-9283-9df8ec8e30f9",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/4002807779",
+    "id": "5b081d4d8859f57bdc7b8ddd-lozoniMXJnXS3bWyyvcV2",
+    "email": "bergvictorio1821@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 4,
+  "chatDuration": 144,
+  "rating": 0,
+  "createdOn": "2025-03-19T12:08:32.349Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T12:08:32.349Z",
+      "msg": "Nome : ISCIM/Maotse\r\nE-mail : bergvictorio1821@gmail.com\r\nDescrição do Problema : Sou estudante da turma da tarde nao consigo aceder a loja de activos minimos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-19T12:08:57.703Z",
+      "msg": "Boa tarde"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-19T12:10:10.332Z",
+      "msg": "Depois de fazer login no sistema, a primeira janela mostrada, tem um campo denominado gestor comercial \nAceda ao campo, e por fim volte aos activos minimos"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T12:10:55.940Z",
+      "msg": "Esta certo obrigado"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

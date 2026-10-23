@@ -1,0 +1,87 @@
+{
+  "id": "33d54770-0f93-11f0-a9d9-07fad164d46c",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Nhantumbo",
+    "id": "5b081d4d8859f57bdc7b8ddd-LoEDOLnu9cZOST6usr8h5",
+    "email": "pauloelija@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 6,
+  "chatDuration": 468,
+  "rating": 0,
+  "createdOn": "2025-04-02T07:50:29.345Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-02T07:50:29.345Z",
+      "msg": "Nome : RS Lda. Mobiliário\r\nE-mail : pauloelija@gmail.com\r\nDescrição do Problema : nas facturas não tem o logotipo da empresa"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-02T07:50:45.502Z",
+      "msg": "Bom dia"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-02T07:50:54.794Z",
+      "msg": "colocou o logotipo da empresa no sgc?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-02T07:51:03.737Z",
+      "msg": "sim"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-02T07:52:28.397Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/9149d5badc3ba63bf3ca8cc491d612efe29a5d47/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 81424,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-02T07:52:35.479Z",
+      "msg": "aqui n tem"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

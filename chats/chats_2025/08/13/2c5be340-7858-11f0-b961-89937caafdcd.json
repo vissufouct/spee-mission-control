@@ -1,0 +1,51 @@
+{
+  "id": "2c5be340-7858-11f0-b961-89937caafdcd",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/Mónica José Azeite",
+    "id": "5b081d4d8859f57bdc7b8ddd-Qe8dXwr2PuD9pOFiFuKvz",
+    "email": "monicaazeite@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Beira"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-08-13T16:14:37.387Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-13T16:14:37.387Z",
+      "msg": "Nome : /Mónica José Azeite\r\nE-mail : monicaazeite@gmail.com\r\nDescrição do Problema : Cordiais Saudações,\n\nMeu nome e Monica Jose Azeite, estudante do 4 ano do Curso de Contabilidade e Auditoria no ISPT, gostaria de pedir que verificassem a apresentação das informações relativamente aos lançamentos das operações, notei uma falha na organização do relatório conforme exibirei na imagem que se segue.\n\nDesde já, agradeço a atenção e disponibilidade dispensadas.\n\nAtenciosamente,\nMónica José Azeite"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-13T16:14:52.841Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/689cabc6a3c8d40bf922d414/v/9865272a93d5c7988eaad27cde7c19bde3cf0a95/image.png",
+              "name": "image.png",
+              "mimeType": "image/png",
+              "size": 61044,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

@@ -1,0 +1,149 @@
+{
+  "id": "c2b50130-2c64-11f1-bb71-376a5bc63c57",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ARYOL MOTORS LDA/4003038504",
+    "id": "5b081d4d8859f57bdc7b8ddd-lpKS_oLMmkA0ZLJpBVfMe",
+    "email": "armenioxerinda@gmail.com"
+  },
+  "location": {
+    "countryCode": "ZA",
+    "city": "Johannesburg"
+  },
+  "messageCount": 12,
+  "chatDuration": 1107,
+  "rating": 0,
+  "createdOn": "2026-03-30T18:20:26.744Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-30T18:20:26.744Z",
+      "msg": "Boa noite"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-30T18:20:42.730Z",
+      "msg": "Mais uma vez, estou a deparar com o mesmo problema novamente"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-30T18:21:04.926Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69cabe4e3ad48120254626b0/v/00bfa1f626e39aebb860382e9025b9dfbfc1ac0b/image.png",
+              "name": "image.png",
+              "mimeType": "image/png",
+              "size": 86616,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-03-30T18:22:41.477Z",
+      "msg": "boa noite, e a primeira vez com esse problema?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-30T18:23:33.194Z",
+      "msg": "Nome : ARYOL MOTORS LDA/4003038504\r\nTelefone : 258\r\nE-mail : armenioxerinda@gmail.com\r\nDescrição do Problema : Não é a segunda vez"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-30T18:23:55.045Z",
+      "msg": "é a segunda vez"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-03-30T18:24:59.278Z",
+      "msg": "Estamo verificando o problema!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-30T18:35:27.553Z",
+      "msg": "Temos ainda o seguinte erro"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-30T18:35:34.002Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69cabe4e3ad48120254626b0/v/e127a3d1e4199c96e4b5f2dc16fa57180996a59d/image.png",
+              "name": "image.png",
+              "mimeType": "image/png",
+              "size": 77313,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-03-30T18:35:52.105Z",
+      "msg": "qual faz login da o mesmo erro?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-30T18:36:16.931Z",
+      "msg": "Sim"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-03-30T18:38:53.304Z",
+      "msg": "sai e volta a entra no navegador e  volte a tentar"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

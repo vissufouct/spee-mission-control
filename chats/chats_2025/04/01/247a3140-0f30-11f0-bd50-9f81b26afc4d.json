@@ -1,0 +1,38 @@
+{
+  "id": "247a3140-0f30-11f0-bd50-9f81b26afc4d",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Criart,Lda",
+    "id": "5b081d4d8859f57bdc7b8ddd-D4DwxSyPjFO9VKKjXmsMN",
+    "email": "chanilmatild@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 16,
+  "rating": 0,
+  "createdOn": "2025-04-01T19:34:14.469Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:34:14.469Z",
+      "msg": "Nome : Criart,Lda\r\nTelefone : 844676367\r\nE-mail : chanilmatild@gmail.com\r\nDescrição do Problema : apagar a conta do registo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-01T19:34:30.129Z",
+      "msg": "Boa noite"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

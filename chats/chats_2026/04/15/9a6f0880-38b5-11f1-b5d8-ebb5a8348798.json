@@ -1,0 +1,72 @@
+{
+  "id": "9a6f0880-38b5-11f1-b5d8-ebb5a8348798",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Issac",
+    "id": "5b081d4d8859f57bdc7b8ddd-wGpeESAxg3tglCSouZRZi",
+    "email": "suheilaissac02@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 6,
+  "chatDuration": 697,
+  "rating": 0,
+  "createdOn": "2026-04-15T13:33:38.718Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T13:33:38.718Z",
+      "msg": "Nome : ISCIM/Issac\r\nTelefone : 258849490724\r\nE-mail : suheilaissac02@gmail.com\r\nDescrição do Problema : estou a tentar editar o plano de negocio e quando salvo ele diz que foi gravado com sucesso, mas no documento final para impressão não aparecem as partes que editei.\noutrou campos estao preenchidos no sistema, mas nao aparecem no documeto a ser impresso"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-15T13:34:39.894Z",
+      "msg": "Boa tarde, efectuou todos passos? sem falha?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T13:35:17.568Z",
+      "msg": "boa tarde, sim e apareceu que foi gravado com sucesso"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-15T13:36:48.329Z",
+      "msg": "um momento porfavor"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-15T13:37:10.674Z",
+      "msg": "certo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-15T13:45:15.668Z",
+      "msg": "quais os dados quem estao em falta?"
+    }
+  ],
+  "domain": "planodenegocios.simulacao.co.mz"
+}

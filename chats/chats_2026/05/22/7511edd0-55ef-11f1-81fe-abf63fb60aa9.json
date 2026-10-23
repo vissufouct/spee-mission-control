@@ -1,0 +1,29 @@
+{
+  "id": "7511edd0-55ef-11f1-81fe-abf63fb60aa9",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISPM/Pascoal",
+    "id": "5b081d4d8859f57bdc7b8ddd-9zJ6gFH95HIGK1yPL69B3",
+    "email": "franciscadiogopascoal3@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-22T15:07:23.103Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-22T15:07:23.103Z",
+      "msg": "Nome : ISPM/Pascoal\r\nE-mail : franciscadiogopascoal3@gmail.com\r\nDescrição do Problema : onde encontrar ata da constituicao"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

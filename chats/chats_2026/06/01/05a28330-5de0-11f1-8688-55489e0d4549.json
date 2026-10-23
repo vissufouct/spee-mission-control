@@ -1,0 +1,29 @@
+{
+  "id": "05a28330-5de0-11f1-8688-55489e0d4549",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "UDM/Esculudes Gonçalves",
+    "id": "5b081d4d8859f57bdc7b8ddd-nJIfjzgVuLf1_CVxgkwmT",
+    "email": "kim.esculudes@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-06-01T17:56:29.788Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-01T17:56:29.788Z",
+      "msg": "Name : UDM/Esculudes Gonçalves\r\nEmail : kim.esculudes@gmail.com\r\nPhone : +258846005853\r\nDescrição do Problema : boa noite, nao consigo carregar nenhuma foto de perfil,"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

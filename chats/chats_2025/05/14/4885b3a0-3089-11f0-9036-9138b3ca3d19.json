@@ -1,0 +1,71 @@
+{
+  "id": "4885b3a0-3089-11f0-9036-9138b3ca3d19",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Ussene",
+    "id": "5b081d4d8859f57bdc7b8ddd-AmAZpt1N3iJUtmdIVcELn",
+    "email": "ucharifo77@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 6,
+  "chatDuration": 773,
+  "rating": 0,
+  "createdOn": "2025-05-14T07:34:40.879Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-14T07:34:40.879Z",
+      "msg": "Nome : ISCIM/Ussene\r\nE-mail : ucharifo77@gmail.com\r\nDescrição do Problema : Bom dia, tudo bem? Preciso de ajuda para mudar o nome da nossa empresa. Já há um tempo que temos tentado por recomendação do docente pois segundo ele, o nome que escolhemos não é adequado. Daí que, pretendemos mudar de US Nhongas para US Vendas. Agradeço antecipadamente."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-14T07:35:18.688Z",
+      "msg": "Empresa de Ussene Charifo e Suely Tamele, CAN 4a."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-05-14T07:38:45.406Z",
+      "msg": "Bom dia! Pra mudar o nome da empresa so precisa ir ao Meu perfil depois editar dados da empresa"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-14T07:40:33.475Z",
+      "msg": "O campo fica bloqueado, não permite alterar."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-05-14T07:46:53.198Z",
+      "msg": "Um momento!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-14T07:47:33.941Z",
+      "msg": "Certo"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

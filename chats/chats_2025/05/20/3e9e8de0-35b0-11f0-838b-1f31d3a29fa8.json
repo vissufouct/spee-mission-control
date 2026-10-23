@@ -1,0 +1,46 @@
+{
+  "id": "3e9e8de0-35b0-11f0-838b-1f31d3a29fa8",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-qDVmrRYVaarult3zU5JOc",
+    "email": "cumbejoao02@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 109,
+  "rating": 0,
+  "createdOn": "2025-05-20T19:38:15.629Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-20T19:38:15.629Z",
+      "msg": "Nome : /\r\nE-mail : cumbejoao02@gmail.com\r\nDescrição do Problema : NAO CONSIGO BAIXAR OS CONTRATOS."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-20T19:38:44.007Z",
+      "msg": "Boa noite \nQual é a dificuldade"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-20T19:40:04.803Z",
+      "msg": "Emite contratos de agua, luz, telefone e contrato bancario. apenas consigo visualizar o contrato, nao consigo exportar o pdf. simplesmente nao responde."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,231 @@
+{
+  "id": "aaca23c0-8746-11f0-bbc1-19656453b3d3",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Maison du sorbet",
+    "id": "5b081d4d8859f57bdc7b8ddd-63rTXOyMLZdo7KbVMAre3",
+    "email": "ivandramajope01@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 25,
+  "chatDuration": 1152,
+  "rating": 0,
+  "createdOn": "2025-09-01T15:22:04.488Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-01T15:22:04.488Z",
+      "msg": "Nome : A Politecnica - MPT/Dava\r\nTelefone : 258848965683\r\nE-mail : davaekan@gmail.com\r\nDescrição do Problema : e possivel pedir para colocar os mesmos dados da minha conta sobre a empresa na conta spee da minha colega?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-01T15:23:09.076Z",
+      "msg": "ela criou outra empresa?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-01T15:23:14.884Z",
+      "msg": "Boa tarde"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-01T15:23:42.098Z",
+      "msg": "nao estamos na mesma empresa mas os dados dela todos desapareceram"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-01T15:27:11.204Z",
+      "msg": "maison du sorbet e a empresa"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-01T15:27:49.436Z",
+      "msg": "Não percebi a questão. Pretende juntara tua colega a tua empresa?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-01T15:29:20.261Z",
+      "msg": "sim e quero pedir para colocar todos os dados que eu tenho na conta spee dela"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-01T15:31:48.916Z",
+      "msg": "e possivel ?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-01T15:32:05.062Z",
+      "msg": "Não"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-01T15:32:54.339Z",
+      "msg": "Se ela já tiver constituido empresa, pode pedir o docente para lhe colocar na tua empresa\nO transporte de dados é que não será possível"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-01T15:33:18.195Z",
+      "msg": "mas nos fizemos tudo juntos e os dados desapareceram"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-01T15:33:41.541Z",
+      "msg": "os dados desapareceram de onde?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-01T15:33:47.309Z",
+      "msg": "os dados dela"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-01T15:34:03.619Z",
+      "msg": "o plano de contas estava igual ao meu"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-01T15:34:07.247Z",
+      "msg": "peco email dela"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-01T15:34:12.960Z",
+      "msg": "mas tudo desapareceu"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-01T15:35:20.594Z",
+      "msg": "hamanacalu2002@gmail.com"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-01T15:36:00.705Z",
+      "msg": "nos fizemos tudo juntos mas tudo desapareceu da conta dela"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-01T15:37:09.144Z",
+      "msg": "o plano de conta dela ja nao tem as subcontas"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-01T15:37:28.447Z",
+      "msg": "Mas na tua conta, os dados continam ?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-01T15:37:50.960Z",
+      "msg": "sim"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-01T15:39:09.621Z",
+      "msg": "Esse problema está na gestão comercial, certo?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-01T15:39:39.276Z",
+      "msg": "sim"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-01T15:40:36.784Z",
+      "msg": "Crto. Um momento só"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-01T15:41:16.804Z",
+      "msg": "estabem"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

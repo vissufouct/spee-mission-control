@@ -1,0 +1,29 @@
+{
+  "id": "d2864340-9fa5-11f0-82a2-47f9136b5349",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "JE & NO Lda Manutençoes",
+    "id": "5b081d4d8859f57bdc7b8ddd-CApKkh51w9dRJpShPeH1I",
+    "email": "jemimaeusebioabreu@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Beira"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-10-02T15:52:34.983Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-02T15:52:34.983Z",
+      "msg": "Nome : JE & NO Lda Manutençoes\r\nTelefone : 25885025069\r\nE-mail : jemimaeusebioabreu@gmail.com\r\nDescrição do Problema : Saudaçoes. Estou enfrentando problemas quanto ao fazer lançamentos,quando  tento adicionar  a 443 nao esta aparendo o sinal + para adicionar a conta. gostava de saber como proceder perante essa sictuaçao? \n\nAtenciosamente."
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

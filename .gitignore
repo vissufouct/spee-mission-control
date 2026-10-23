@@ -1,0 +1,21 @@
+.DS_Store
+**/.DS_Store
+__pycache__/
+*.py[cod]
+~$*
+
+# Directórios temporários de geração e controlo de qualidade
+tmp/
+.tmp_*/
+.build_*/
+.qa_*/
+.codex-*/
+node_modules/
+
+# Artefactos locais do frontend
+frontend/node_modules/
+frontend/dist/
+frontend/storybook-static/
+frontend/playwright-report/
+frontend/test-results/
+frontend/*.tsbuildinfo

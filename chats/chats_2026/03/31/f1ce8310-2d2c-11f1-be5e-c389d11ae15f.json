@@ -1,0 +1,37 @@
+{
+  "id": "f1ce8310-2d2c-11f1-be5e-c389d11ae15f",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Convidado/",
+    "id": "5b081d4d8859f57bdc7b8ddd-dNfPL0enZ9BesE_1yJ5OJ",
+    "email": "felisbertovalter@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-03-31T18:11:37.042Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-31T18:11:37.042Z",
+      "msg": "Nome : Convidado/\r\nTelefone : 877436502\r\nE-mail : felisbertovalter@gmail.com\r\nDescrição do Problema : Não aceita fazer o contrato de seguro"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-31T18:14:39.031Z",
+      "msg": "Alguma instrução?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "1de787a0-3a55-11f1-aaec-83365ec5a871",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "USTM/Tembe",
+    "id": "5b081d4d8859f57bdc7b8ddd-uZhaHEpTbPwNk35lUf1gP",
+    "email": "ameliawilsonconsultores@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 4,
+  "chatDuration": 266,
+  "rating": 0,
+  "createdOn": "2026-04-17T12:21:53.880Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-17T12:21:53.880Z",
+      "msg": "Nome : USTM/Tembe\r\nE-mail : ameliawilsonconsultores@gmail.com\r\nDescrição do Problema : Não consigo passar no compo 4"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-17T12:22:26.758Z",
+      "msg": "Boa tarde, qual é a dificuldade?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-17T12:24:04.529Z",
+      "msg": "Noa não consigo passar no campo 4 para campo 5 não sei qual é o problema"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-17T12:26:19.579Z",
+      "msg": "Onde que esta a ter dificuldades em que passo?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

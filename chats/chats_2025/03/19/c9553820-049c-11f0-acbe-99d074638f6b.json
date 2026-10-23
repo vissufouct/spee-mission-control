@@ -1,0 +1,52 @@
+{
+  "id": "c9553820-049c-11f0-acbe-99d074638f6b",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/4002807817",
+    "id": "5b081d4d8859f57bdc7b8ddd-VEhzPhNxcAWVdpCXmM2ER",
+    "email": "neliozita593@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 3205,
+  "rating": 0,
+  "createdOn": "2025-03-19T08:37:43.390Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:37:43.390Z",
+      "msg": "Nome : ISCIM/ZITA\r\nE-mail : zitanelio7@gmail.com\r\nDescrição do Problema : NAO CONSIGO ACESSAR O CAMPO DE LOJA ONLINE  ACTIVOS MINIMOS"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:46:10.890Z",
+      "msg": "Logo depois de fazer login a platarfoma, entrar para o campo destacado, e voltar a aceder aos activos minimos",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/d31db0b5b4177705cc43557c1015c38b8e2de95a/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 68032,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

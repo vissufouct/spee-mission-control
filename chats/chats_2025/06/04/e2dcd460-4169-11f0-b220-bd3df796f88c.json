@@ -1,0 +1,46 @@
+{
+  "id": "e2dcd460-4169-11f0-b220-bd3df796f88c",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-2h2lUoRm2wOD8D1jOs0xY",
+    "email": "jonasseshaly@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 710,
+  "rating": 0,
+  "createdOn": "2025-06-04T18:44:26.700Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-06-04T18:44:26.700Z",
+      "msg": "Nome : /\r\nE-mail : jonasseshaly@gmail.com\r\nDescrição do Problema : onde encontrar a referencia de pagamentos da nossa empresa?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-06-04T18:45:22.836Z",
+      "msg": "Boa noite. Referência de pagamento de que entidade?\n\nO que deseja pagar?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-06-04T18:56:16.776Z",
+      "msg": "o problema ja foi solucionado, muio obrigada"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

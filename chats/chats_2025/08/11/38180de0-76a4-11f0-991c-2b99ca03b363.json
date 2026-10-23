@@ -1,0 +1,267 @@
+{
+  "id": "38180de0-76a4-11f0-991c-2b99ca03b363",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-XDN0rIZ96oIs3iE3l1zow",
+    "email": "elton.bila@iscam.ac.mz"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 24,
+  "chatDuration": 2608,
+  "rating": 0,
+  "createdOn": "2025-08-11T11:52:10.581Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-11T11:52:10.581Z",
+      "msg": "Nome : EV Sociedade de Contabilistas e Auditores Lda Certificados\r\nTelefone : 258866869345\r\nE-mail : elton.bila@iscam.ac.mz\r\nDescrição do Problema : Como saber o Email coporativo da minha Empresa"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Alexandre Viegas Mangujo Júnior"
+      },
+      "type": "msg",
+      "time": "2025-08-11T11:53:56.003Z",
+      "msg": "Na página inicial , é só clicar , clicar no campo verde , ver perfil da minha empresa"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Alexandre Viegas Mangujo Júnior"
+      },
+      "type": "msg",
+      "time": "2025-08-11T11:55:02.457Z",
+      "msg": "Irão aparecer todos os dados da sua empresa , inclusive o email"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Alexandre Viegas Mangujo Júnior"
+      },
+      "type": "msg",
+      "time": "2025-08-11T11:55:42.264Z",
+      "msg": "Aqui",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/6889ef8171b6bf1aec925b8f/c7e48824617f56db749d1b72eb186d6450a69bf5/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 7700,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-11T12:03:26.736Z",
+      "msg": "Aparece (Sem dados)\nqual eo padrao do email que vem Spee"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Alexandre Viegas Mangujo Júnior"
+      },
+      "type": "msg",
+      "time": "2025-08-11T12:04:21.825Z",
+      "msg": "É possível enviar um print da página"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Alexandre Viegas Mangujo Júnior"
+      },
+      "type": "msg",
+      "time": "2025-08-11T12:05:42.674Z",
+      "msg": "Ou , se aparece sem dados pode clicar em editar dados da empresa , e voltar a preenhcer os dados da sua empresa."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-11T12:05:48.151Z",
+      "msg": "Ai",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/6899d05da3c8d40bf99bb80a/v/86df7e33cb77e3c3f54d63c2db8a444b7ad79db8/Screenshot_2025-08-11_135716.png",
+              "name": "Screenshot 2025-08-11 135716.png",
+              "mimeType": "image/png",
+              "size": 29787,
+              "extension": "png"
+            }
+          }
+        },
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/6899d05da3c8d40bf99bb80a/v/50534c5dd8655c80870c075a5fd8eb3b0edb684a/Screenshot_2025-08-11_135716.png",
+              "name": "Screenshot 2025-08-11 135716.png",
+              "mimeType": "image/png",
+              "size": 29787,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-11T12:06:59.414Z",
+      "msg": "Que padrao seguem os Emails das Empresas constituidos por meio do Spee."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Alexandre Viegas Mangujo Júnior"
+      },
+      "type": "msg",
+      "time": "2025-08-11T12:07:57.236Z",
+      "msg": "exemplo@gmail.com"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-11T12:08:19.726Z",
+      "msg": "Nao vem Spee no email ??"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Alexandre Viegas Mangujo Júnior"
+      },
+      "type": "msg",
+      "time": "2025-08-11T12:10:19.796Z",
+      "msg": "Um momento.."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-11T12:11:53.197Z",
+      "msg": "Aguardando"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-11T12:15:46.103Z",
+      "msg": "Aguardando ainda."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Alexandre Viegas Mangujo Júnior"
+      },
+      "type": "msg",
+      "time": "2025-08-11T12:16:04.576Z",
+      "msg": "Desculpe a demora"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Alexandre Viegas Mangujo Júnior"
+      },
+      "type": "msg",
+      "time": "2025-08-11T12:16:08.087Z",
+      "msg": "Vem sim"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Alexandre Viegas Mangujo Júnior"
+      },
+      "type": "msg",
+      "time": "2025-08-11T12:16:19.030Z",
+      "msg": "Aqui o exemplo \"@spee.ac.mz\""
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Alexandre Viegas Mangujo Júnior"
+      },
+      "type": "msg",
+      "time": "2025-08-11T12:24:32.559Z",
+      "msg": "Mas certifique-se de que já realizou um contrato , com alguma empresa"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-11T12:26:35.535Z",
+      "msg": "Tenho contracto de Agua e energia, preciso fazer contracto com empresa de email coporate."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-11T12:26:37.196Z",
+      "msg": "E se o emial na estrutura tem \"@spee.ac.mz\" preciso ainda assim ter contrato de empresa de emial ??"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Alexandre Viegas Mangujo Júnior"
+      },
+      "type": "msg",
+      "time": "2025-08-11T12:27:57.246Z",
+      "msg": "O email é gerado quando realizas o contracto"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-11T12:28:32.523Z",
+      "msg": "Que Contractos devo firmar para o Sistema gerar esse email ??"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Alexandre Viegas Mangujo Júnior"
+      },
+      "type": "msg",
+      "time": "2025-08-11T12:32:31.369Z",
+      "msg": "Quando firmou contrato de água e energia , não obteve nenhum email ?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Alexandre Viegas Mangujo Júnior"
+      },
+      "type": "msg",
+      "time": "2025-08-11T12:35:38.791Z",
+      "msg": "É o mesmo email que escreveu ao firmar esses contratos"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

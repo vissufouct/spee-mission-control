@@ -1,0 +1,37 @@
+{
+  "id": "b2ea00d0-88df-11f0-90f1-11f9895bc1d2",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "LUCHA MOBI LDA/4002807820",
+    "id": "5b081d4d8859f57bdc7b8ddd-7OyGNZuM5LocSD7A4QCQP",
+    "email": "charla.mawai05@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-09-03T16:21:05.710Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-03T16:21:05.710Z",
+      "msg": "Nome : LUCHA MOBI LDA/4002807820\r\nTelefone : 258842510973\r\nE-mail : charla.mawai05@gmail.com\r\nDescrição do Problema : tenho problema não consigo emitir proforma na moz oniline"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-03T16:25:29.221Z",
+      "msg": "não consigo emitir proforma no moz online"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

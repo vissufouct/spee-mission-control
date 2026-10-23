@@ -1,0 +1,38 @@
+{
+  "id": "264dd4f0-26e4-11f1-aec0-ff5693bfe33e",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-rzIimK_LpK1NvNIG4apw5",
+    "email": "suheilaissac02@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 300,
+  "rating": 0,
+  "createdOn": "2026-03-23T18:24:59.776Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:24:59.776Z",
+      "msg": "Nome : ISCIM/Issac\r\nTelefone : 258849490724\r\nE-mail : suheilaissac02@gmail.com\r\nDescrição do Problema : na escolha do imovel para arrendar, clicamos em escolher mas nao avança"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:29:59.925Z",
+      "msg": "Um momento por favor estamos verificando o problema"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

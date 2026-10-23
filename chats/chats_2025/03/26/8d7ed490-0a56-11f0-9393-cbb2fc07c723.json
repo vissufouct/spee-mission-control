@@ -1,0 +1,29 @@
+{
+  "id": "8d7ed490-0a56-11f0-9393-cbb2fc07c723",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/Mabote",
+    "id": "5b081d4d8859f57bdc7b8ddd-D_HZBAftEdQbIdYIm4gpt",
+    "email": "carolinamanhique6@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-03-26T15:28:49.410Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-26T15:28:49.410Z",
+      "msg": "Nome : A Politecnica - MPT/Mabote\r\nE-mail : eddiemabote@gmail.com\r\nDescrição do Problema : como trocar o codigo"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,109 @@
+{
+  "id": "b947b720-43e6-11f1-82f8-dd39824ec079",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Tomas",
+    "id": "5b081d4d8859f57bdc7b8ddd-W3LAC_Xw3c17sIfFSEbjT",
+    "email": "passuane90@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 6,
+  "chatDuration": 252,
+  "rating": 0,
+  "createdOn": "2026-04-29T16:18:08.918Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-29T16:18:08.918Z",
+      "msg": "Nome : A & P Limitada Combustíveis e Lubrificantes\r\nTelefone : 258841048024\r\nE-mail : passuane90@gmail.com\r\nDescrição do Problema : Boa noite"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-29T16:18:53.838Z",
+      "msg": "Boa noite, em que podemos ajudar?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-29T16:19:49.073Z",
+      "msg": "meus documentos saem o logotipo",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69f22ec53ad48120253dbbd1/v/8139a106d78ca6c543b128f354b235958c98a7b9/Captura_de_ecr%C3%A3_2026-04-27_182847ppppk.png",
+              "name": "Captura de ecrã 2026-04-27 182847ppppk.png",
+              "mimeType": "image/png",
+              "size": 80366,
+              "extension": "png"
+            }
+          }
+        },
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69f22ec53ad48120253dbbd1/v/63ab3acf76fa15fa0916f3e2b5cec66cb228b0db/Captura_de_ecr%C3%A3_2026-04-27_182847ppppk.png",
+              "name": "Captura de ecrã 2026-04-27 182847ppppk.png",
+              "mimeType": "image/png",
+              "size": 80366,
+              "extension": "png"
+            }
+          }
+        },
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69f22ec53ad48120253dbbd1/v/d9e4839cc5715a41a8542ba050baf07b84368f2c/Problema_1.png",
+              "name": "Problema 1.png",
+              "mimeType": "image/png",
+              "size": 70745,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-29T16:20:23.581Z",
+      "msg": "Ja venho expondo essa inquietação porem sem resolucao ate entao"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-29T16:21:59.662Z",
+      "msg": "Certo, peço que aguarde a verificação"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-29T16:22:20.931Z",
+      "msg": "Grato"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

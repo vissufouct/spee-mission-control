@@ -1,0 +1,54 @@
+{
+  "id": "f65cc710-54e7-11f1-9e31-43595570857c",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Alage",
+    "id": "5b081d4d8859f57bdc7b8ddd-xQFR7aluaLE_qTos5egyE",
+    "email": "katia.f.alage@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 4,
+  "chatDuration": 2375,
+  "rating": 0,
+  "createdOn": "2026-05-21T07:55:17.072Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-21T07:55:17.072Z",
+      "msg": "Nome : ISCIM/Alage\r\nE-mail : katia.f.alage@gmail.com\r\nDescrição do Problema : bom dia, no meu plano de contas ha subcontas que aparecem por cima da conta mae tenho o caso da conta 62\npeco para verificar"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-21T07:55:49.189Z",
+      "msg": "Bom dia, vamos verificar"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-21T07:56:01.730Z",
+      "msg": "obrigado"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-21T08:34:52.475Z",
+      "msg": "E a conta 33 mesmo caso"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "75b357b0-545f-11f1-ad72-55cd2c3b7262",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Sidney Boaventura",
+    "id": "5b081d4d8859f57bdc7b8ddd-cT4wMkAAhtJj8HDaYSkMP",
+    "email": "daneytechlda@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T15:22:32.990Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:22:32.990Z",
+      "msg": "Nome : Sidney Boaventura\r\nTelefone : 258833891203\r\nE-mail : sidjboa1703@gmail.com\r\nDescrição do Problema : Boa Tarde Dr."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:22:50.299Z",
+      "msg": "Sidney João De Ivo Boaventura"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:23:01.915Z",
+      "msg": "email: sidjboa1703@gmail.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

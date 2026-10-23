@@ -1,0 +1,63 @@
+{
+  "id": "0ae526a0-8a72-11f0-b186-2f952db64b76",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISG/Manjate",
+    "id": "5b081d4d8859f57bdc7b8ddd-bmoePrCsCTuRPu5nUunDh",
+    "email": "emerson.r.manjate@gmail.com"
+  },
+  "location": {
+    "countryCode": "US",
+    "city": "Albuquerque"
+  },
+  "messageCount": 5,
+  "chatDuration": 1148,
+  "rating": 0,
+  "createdOn": "2025-09-05T16:22:57.212Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-05T16:22:57.212Z",
+      "msg": "Nome : ISG/Manjate\r\nTelefone : 258820935408\r\nE-mail : emerson.r.manjate@gmail.com\r\nDescrição do Problema : Boa noite. #Problema de Listagem dos funcionários."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-05T16:23:21.504Z",
+      "msg": "Boa noite. peço só um momento"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-05T16:38:19.317Z",
+      "msg": "resolvido"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-05T16:41:51.807Z",
+      "msg": "Já aparecem,"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-05T16:42:05.278Z",
+      "msg": "Muito obrigado"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

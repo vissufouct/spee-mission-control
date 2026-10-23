@@ -1,0 +1,29 @@
+{
+  "id": "414d7650-244e-11f0-8014-2bd632132322",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Tamele",
+    "id": "5b081d4d8859f57bdc7b8ddd-PV60OO1FrwMUWos8Y_CqY",
+    "email": "suelytamele@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-04-28T16:33:15.675Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-28T16:33:15.675Z",
+      "msg": "Nome : ISCIM/Tamele\r\nE-mail : suelytamele@gmail.com\r\nDescrição do Problema : solicito a mudanca do nome da minha empresa US Nhonga's, LDA"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

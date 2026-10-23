@@ -1,0 +1,37 @@
+{
+  "id": "ae2d3e50-3cd4-11f1-8916-d7c3376fbdea",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Matavele",
+    "id": "5b081d4d8859f57bdc7b8ddd-uzZ6odcxjBdzevRv_jN2N",
+    "email": "alberto.erik@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-04-20T16:36:33.648Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T16:36:33.648Z",
+      "msg": "Nome : ISCIM/Matavele\r\nTelefone : 258876261457\r\nE-mail : alberto.erik@gmail.com\r\nDescrição do Problema : No plano de marketing quando preencho a informacao solicitada no marketing mix, nao aparece na impressao, esta a dar erro"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T16:45:26.035Z",
+      "msg": "Preciso de resolucao"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

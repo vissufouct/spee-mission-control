@@ -1,0 +1,39 @@
+{
+  "id": "a1e50990-278d-11f1-95d1-4f6b816df458",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ITIS/Pedro",
+    "id": "5b081d4d8859f57bdc7b8ddd-5gjHEngE1P3hCs963_kF8",
+    "email": "safiraacacio3@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Beira"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-03-24T14:29:58.479Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "a",
+        "n": "MacGyver"
+      },
+      "type": "msg",
+      "time": "2026-03-24T14:29:58.479Z",
+      "msg": "boa tarde"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "MacGyver"
+      },
+      "type": "msg",
+      "time": "2026-03-24T14:30:17.609Z",
+      "msg": "peço que actualizem a pagina e voltem a tentar registrar"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

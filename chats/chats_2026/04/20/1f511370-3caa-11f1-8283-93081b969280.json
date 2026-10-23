@@ -1,0 +1,102 @@
+{
+  "id": "1f511370-3caa-11f1-8283-93081b969280",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Issac",
+    "id": "5b081d4d8859f57bdc7b8ddd-wGpeESAxg3tglCSouZRZi",
+    "email": "suheilaissac02@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 8,
+  "chatDuration": 626,
+  "rating": 0,
+  "createdOn": "2026-04-20T11:17:49.083Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T11:17:49.083Z",
+      "msg": "Nome : ISCIM/Issac\r\nTelefone : 258849490724\r\nE-mail : suheilaissac02@gmail.com\r\nDescrição do Problema : bom dia, estou a ter dificuldade em salvar as minhas alterações quando faço o plano de negócio. agora tentei alterar os dados do empreendedor, eliminei um dos empreendedores e aceitou, mas quando volto a adicionar nao grava"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T11:19:03.412Z",
+      "msg": "Boa tarde, poderia me mandar o print da tela com os dados que quer adicionar?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T11:21:12.105Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69e60a9f3ad4812025cb771f/v/c5046357ade54d084c2f613edff5a99773191c0b/Screenshot_(148).png",
+              "name": "Screenshot (148).png",
+              "mimeType": "image/png",
+              "size": 125502,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T11:22:43.231Z",
+      "msg": "quer adicionar esse empredendor cero?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T11:25:49.673Z",
+      "msg": "e tambem há campos que no fichiro para imprimir nao aparece, mas que no sistema estao preenchidos"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T11:26:01.027Z",
+      "msg": "sim quero adicionar esse empreendedor"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T11:27:19.516Z",
+      "msg": "um momento por favor!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T11:28:15.507Z",
+      "msg": "certo, aguardo"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

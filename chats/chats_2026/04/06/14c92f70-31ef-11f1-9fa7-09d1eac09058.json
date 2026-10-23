@@ -1,0 +1,37 @@
+{
+  "id": "14c92f70-31ef-11f1-9fa7-09d1eac09058",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "[Docente]A Politecnica - MPT - A Politécnica-Semestre 1_2026/Guirruta, Carlos",
+    "id": "5b081d4d8859f57bdc7b8ddd-rQeZ1eKQTuswyNFv1n0WM",
+    "email": "carlosguirruta@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-04-06T19:32:37.424Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-06T19:32:37.424Z",
+      "msg": "Nome : [Docente]A Politecnica - MPT - A Politécnica-Semestre 1_2026/Guirruta, Carlos\r\nTelefone : 258843210558\r\nE-mail : carlosguirruta@gmail.com\r\nDescrição do Problema : Os estudantes nao conseguem criar suas empresas"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-06T19:33:39.878Z",
+      "msg": "Depois do preenchimento dos dados quando forem submetidos da erro"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,264 @@
+{
+  "id": "e08cc170-81b5-11f0-8c40-033880b6708f",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "RS Lda. Mobiliário",
+    "id": "5b081d4d8859f57bdc7b8ddd-gptCTOd4p3ktTXvo0gumo",
+    "email": "muhammadaliador@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 22,
+  "chatDuration": 3668,
+  "rating": 0,
+  "createdOn": "2025-08-25T13:39:44.144Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-25T13:39:44.144Z",
+      "msg": "Nome : RS Lda. Mobiliário\r\nTelefone : 258850181649\r\nDescrição do Problema : Como activar um lançamento que foi anulado?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-25T13:40:09.119Z",
+      "msg": "Como activar um lançamento que foi anulado?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-25T13:41:09.932Z",
+      "msg": "Boa tarde! Pode me explicar quais os problemas que esta a enfrentar?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-25T13:42:01.521Z",
+      "msg": "Pretendo activar um lançamento que foi anulado."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-25T13:45:15.629Z",
+      "msg": "Peco o email da conta do SGC da empresa"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-25T13:48:41.892Z",
+      "msg": "rsmobiliariolda@spee.ac.mz, este é o email da empresa, sobre a conta SGC eu não sei de existe algum outro."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-25T13:49:30.791Z",
+      "msg": "Obrigado um momento"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-25T13:50:11.903Z",
+      "msg": "E eu só quero saber como activar lançamentos que foram anulados por lapso."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-25T13:54:42.763Z",
+      "msg": "pode  enviar me o email da conta do spee!?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-25T13:55:28.981Z",
+      "msg": "Que conta?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-25T13:56:27.408Z",
+      "msg": "a conta que usa para aceder a plataforma"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-25T13:57:14.578Z",
+      "msg": "saidymanueljunior@gmail.com"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-25T13:58:23.052Z",
+      "msg": "Obrigado. um momento por favor"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-25T14:00:52.435Z",
+      "msg": "deseja voltar a reactivar um fatura certo?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-25T14:02:06.900Z",
+      "msg": "Uma dessas",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/67bc6520a561be464e803d37/39fec46eaa36d34408b3cc912976d64edee24cc2/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 7488,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-25T14:04:01.228Z",
+      "msg": "Lançamento, não facturas."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-25T14:12:32.420Z",
+      "msg": "Peco que mande o print do lancamento anulado."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-25T14:30:59.621Z",
+      "msg": "Este, o de Apuramento de Resultados",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/68ac6274a3c8d40bf99122ea/v/ba9eef97e8f3235fad226bfb9c9d8b747681355b/imagem.png",
+              "name": "imagem.png",
+              "mimeType": "image/png",
+              "size": 64963,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-25T14:33:23.889Z",
+      "msg": "Peco print da tela inteira"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-25T14:34:27.506Z",
+      "msg": "Aqui tem.",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/68ac6274a3c8d40bf99122ea/v/517f736e6c86efb69f369842f4cd6e843d0fecb5/imagem.png",
+              "name": "imagem.png",
+              "mimeType": "image/png",
+              "size": 163570,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-25T14:35:26.446Z",
+      "msg": "a tela inteira junto com a parte do navegador"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-25T14:40:51.846Z",
+      "msg": "aqui",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/68ac6274a3c8d40bf99122ea/v/30f57131736bb49a7847c3793d8e5b25387a1a3b/imagem.png",
+              "name": "imagem.png",
+              "mimeType": "image/png",
+              "size": 315045,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

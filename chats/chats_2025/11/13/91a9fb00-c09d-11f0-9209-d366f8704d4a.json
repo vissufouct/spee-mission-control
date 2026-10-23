@@ -1,0 +1,38 @@
+{
+  "id": "91a9fb00-c09d-11f0-9209-d366f8704d4a",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "V1762434529288537",
+    "id": "5b081d4d8859f57bdc7b8ddd-yNPAWAPigppI8XDrRzZyl",
+    "email": "sheltonclinton0@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 108,
+  "rating": 0,
+  "createdOn": "2025-11-13T14:34:13.905Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-13T14:34:13.905Z",
+      "msg": "Telefone : 258258869570135\r\nE-mail : sheltonclinton0@gmail.com\r\nDescrição do Problema : Os movimentos dos meu lançamentos não aparecem"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-11-13T14:36:02.050Z",
+      "msg": "Estamos a verificar. peºo que aguarde um momento"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

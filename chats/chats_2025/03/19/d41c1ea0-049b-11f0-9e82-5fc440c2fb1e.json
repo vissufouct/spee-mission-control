@@ -1,0 +1,29 @@
+{
+  "id": "d41c1ea0-049b-11f0-9e82-5fc440c2fb1e",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-WCv23nF8SKa1HXjJVTRTK",
+    "email": "amadjuma@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-03-19T08:26:38.106Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:26:38.106Z",
+      "msg": "Nome : /\r\nDescrição do Problema : Ocorreu uma exceção não tratada durante a execução da solicitação da web atual. Revise o rastreamento de pilha para obter mais informações sobre o erro e onde ele se originou no código."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

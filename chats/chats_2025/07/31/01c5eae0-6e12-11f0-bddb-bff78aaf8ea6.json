@@ -1,0 +1,38 @@
+{
+  "id": "01c5eae0-6e12-11f0-bddb-bff78aaf8ea6",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-MdlJ8XaqlWhjw3OqbfRLP",
+    "email": "augustoguilhermeag43@gmail.com"
+  },
+  "location": {
+    "countryCode": "US",
+    "city": "Chicago"
+  },
+  "messageCount": 2,
+  "chatDuration": 78,
+  "rating": 0,
+  "createdOn": "2025-07-31T13:26:58.212Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-31T13:26:58.212Z",
+      "msg": "Nome : /\r\nE-mail : augustoguilhermeag43@gmail.com\r\nDescrição do Problema : hiiiiiiii"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Alexandre Viegas Mangujo Júnior"
+      },
+      "type": "msg",
+      "time": "2025-07-31T13:28:15.822Z",
+      "msg": "Okay"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

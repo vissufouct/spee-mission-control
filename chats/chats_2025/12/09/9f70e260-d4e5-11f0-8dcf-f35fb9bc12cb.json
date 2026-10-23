@@ -1,0 +1,105 @@
+{
+  "id": "9f70e260-d4e5-11f0-8dcf-f35fb9bc12cb",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISPG/Banze",
+    "id": "5b081d4d8859f57bdc7b8ddd-fORI2yRhjrBgZIAZ9BxMW",
+    "email": "edna.banze@spee.ac.mz"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 10,
+  "chatDuration": 2039,
+  "rating": 0,
+  "createdOn": "2025-12-09T09:59:21.194Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-12-09T09:59:21.194Z",
+      "msg": "Nome : ISPG/Banze\r\nE-mail : ebanze116@gmail.com\r\nDescrição do Problema : Nome : ISPG/Banze\nTelefone : 258863223838\nE-mail : ebanze116@gmail.com\nDescrição do Problema : Prezados,\n\nVenho por este meio reportar um problema que está a ocorrer no sistema SPEE. No módulo de Gestão Comercial, ao tentar aceder à opção de Movimentação, o sistema não apresenta qualquer informação para visualização.\n\nPeço a vossa verificação e resolução deste problema com a maior brevidade possível, uma vez que a funcionalidade é essencial para o acompanhamento das operações.\n\nFico a aguardar o"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-12-09T10:02:25.043Z",
+      "msg": "Boa tarde"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-12-09T10:03:33.813Z",
+      "msg": "Peço que aguarde um momento"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-12-09T10:03:46.040Z",
+      "msg": "certo. Aguardo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-12-09T10:05:47.146Z",
+      "msg": "Peço o email que usa para aceder a plataforma SPEE"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-12-09T10:10:27.864Z",
+      "msg": "edna.banze@spee.ac.mz"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-12-09T10:32:17.263Z",
+      "msg": "??"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-12-09T10:32:37.138Z",
+      "msg": "edna.banze@spee.ac.mz"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-12-09T10:32:58.517Z",
+      "msg": "Estamos ainda a analizar. Assim que estiveresolvido, retornamosº"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-12-09T10:33:19.727Z",
+      "msg": "certo, aguardo"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

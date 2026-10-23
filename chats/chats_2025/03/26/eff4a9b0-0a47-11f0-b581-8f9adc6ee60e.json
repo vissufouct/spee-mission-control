@@ -1,0 +1,29 @@
+{
+  "id": "eff4a9b0-0a47-11f0-b581-8f9adc6ee60e",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "JM Cars,Lda",
+    "id": "5b081d4d8859f57bdc7b8ddd-8xvj4FC8Im_idFBaEMeou",
+    "email": "hamisseamade71@mail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-03-26T13:47:41.664Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-26T13:47:41.664Z",
+      "msg": "Nome : JM Cars,Lda\r\nE-mail : juremajanio57@gmail.com\r\nDescrição do Problema : Nao conseguimos adicionar os custos fixos"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

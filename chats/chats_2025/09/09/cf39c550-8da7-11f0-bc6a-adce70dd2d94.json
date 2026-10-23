@@ -1,0 +1,72 @@
+{
+  "id": "cf39c550-8da7-11f0-bc6a-adce70dd2d94",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISG/Cuinica",
+    "id": "5b081d4d8859f57bdc7b8ddd-gNhe_GxABByZY8ueM979D",
+    "email": "cuinicacelia7@gmail.com"
+  },
+  "location": {
+    "countryCode": "US",
+    "city": "Chicago"
+  },
+  "messageCount": 6,
+  "chatDuration": 165,
+  "rating": 0,
+  "createdOn": "2025-09-09T18:16:06.347Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-09T18:16:06.347Z",
+      "msg": "Boa noite, estou na espera para me resolver o problema mas pararam de me responder."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-09T18:16:28.515Z",
+      "msg": "Peço seu email"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-09T18:17:22.276Z",
+      "msg": "Fiz agora um teste no sistema, e não foi verificado nenhum problema"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-09T18:17:40.460Z",
+      "msg": "Cuinicacelia7@gmail.com"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-09T18:17:41.568Z",
+      "msg": "Tenta prestar bem atenção nos campos de preenchimento"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-09T18:18:51.548Z",
+      "msg": "Nao aceita proceguir"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

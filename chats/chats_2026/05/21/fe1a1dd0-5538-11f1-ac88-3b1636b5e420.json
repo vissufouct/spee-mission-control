@@ -1,0 +1,29 @@
+{
+  "id": "fe1a1dd0-5538-11f1-ac88-3b1636b5e420",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "V1779383869440719",
+    "id": "5b081d4d8859f57bdc7b8ddd-NRyQEM5MlcQOcZgBN0uiY",
+    "email": "amelia.jmachava@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-21T17:20:47.793Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-21T17:20:47.793Z",
+      "msg": "Telefone : 25845261654\r\nE-mail : amelia.jmachava@gmail.com\r\nDescrição do Problema : amelia.jmachava@gmail.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

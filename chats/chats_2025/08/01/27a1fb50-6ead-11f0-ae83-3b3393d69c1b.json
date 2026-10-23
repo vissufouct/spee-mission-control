@@ -1,0 +1,238 @@
+{
+  "id": "27a1fb50-6ead-11f0-ae83-3b3393d69c1b",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCAM/Mathe",
+    "id": "5b081d4d8859f57bdc7b8ddd-SCmhfmGi7b2hLxFtQHkfI",
+    "email": "vanessa.mathe@iscam.ac.mz"
+  },
+  "location": {
+    "countryCode": "US",
+    "city": "Albuquerque"
+  },
+  "messageCount": 21,
+  "chatDuration": 1656,
+  "rating": 1,
+  "createdOn": "2025-08-01T08:22:26.524Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-01T08:22:26.524Z",
+      "msg": "Nome : ISCAM/Mathe\r\nTelefone : 1863908183\r\nE-mail : vanessa.mathe@iscam.ac.mz\r\nDescrição do Problema : Estou a enfrentar dificuldades para terminar o processo de constituicao da empresa, relativamente a etapa da acta da constituicao."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Alexandre Viegas Mangujo Júnior"
+      },
+      "type": "msg",
+      "time": "2025-08-01T08:23:02.916Z",
+      "msg": "Bom dia , aqui é o Alexandre , um minuto só"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Alexandre Viegas Mangujo Júnior"
+      },
+      "type": "msg",
+      "time": "2025-08-01T08:24:20.994Z",
+      "msg": "O qual é a etapa , que está a ter dificuldades , em passar , na ácta da constituiação"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-01T08:27:06.026Z",
+      "msg": "O processo da etapa da acta da constituicao nao da por finalizada."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Alexandre Viegas Mangujo Júnior"
+      },
+      "type": "msg",
+      "time": "2025-08-01T08:27:34.451Z",
+      "msg": "Um momento , vou verificar"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-01T08:27:55.115Z",
+      "msg": "E consequente o processo de constituicao da empresa nao esta concluido"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-01T08:28:37.629Z",
+      "msg": "poderia mandar me o print da tela, para melhor entendimento?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-01T08:33:06.013Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/688c7362a3c8d40bf9813e11/v/3c1a42231c2f4dda57fea82eb78722c1f41fbcbf/Captura_de_Ecr%C3%A3_(1).png",
+              "name": "Captura de Ecrã (1).png",
+              "mimeType": "image/png",
+              "size": 211825,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Alexandre Viegas Mangujo Júnior"
+      },
+      "type": "msg",
+      "time": "2025-08-01T08:34:06.261Z",
+      "msg": "Conseguiu passar para a próxima etapa"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-01T08:35:07.574Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/688c7362a3c8d40bf9813e11/v/72659b74fe6bb4360100cbd3fcc38308719d2e8c/Captura_de_Ecr%C3%A3_(2).png",
+              "name": "Captura de Ecrã (2).png",
+              "mimeType": "image/png",
+              "size": 195989,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-01T08:35:54.539Z",
+      "msg": "Sim, esta em falta a acta da constituicao"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-01T08:37:32.187Z",
+      "msg": "A acta da constituicao ja esta feita, pode verificar no perfil da empresa, onde ira encontrar todos documetos de cadastro da empresa."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-01T08:38:51.053Z",
+      "msg": "E na figura porque aparece assim, sem sinal do certo? Como nos outros passos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-01T08:39:00.431Z",
+      "msg": "e so uma pequena falha, as vezes acontece nao precisa se preocupar."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-01T08:39:37.947Z",
+      "msg": "mas a suua empresa ja foi criada com sucesso."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-01T08:41:01.004Z",
+      "msg": "Mas o problema e que nao consigo avancar com o finacimento e nem sequer a minha empresa e do meu socio tem as mesmas informacoes."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-01T08:43:57.250Z",
+      "msg": "mas ja adicionou o teu colega como socio?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-01T08:44:52.924Z",
+      "msg": "Em que estagio posso fazer isso?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-01T08:47:00.643Z",
+      "msg": "Em que passo posso adicionar o meu socio?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-01T08:48:57.486Z",
+      "msg": "Basta ir na compo de \"sociedade\", adicionar o novo socio, em ver perfil de empresa."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-01T08:50:02.847Z",
+      "msg": "e o tipo de sociedade nao pode ser individual"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "rating",
+      "time": "2025-08-01T08:50:29.545Z",
+      "data": {
+        "rating": 1
+      }
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

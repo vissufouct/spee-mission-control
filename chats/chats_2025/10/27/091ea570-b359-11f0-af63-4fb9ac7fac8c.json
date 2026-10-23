@@ -1,0 +1,29 @@
+{
+  "id": "091ea570-b359-11f0-af63-4fb9ac7fac8c",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Júnior",
+    "id": "5b081d4d8859f57bdc7b8ddd-gptCTOd4p3ktTXvo0gumo",
+    "email": "octaviamatsinhepedro@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-10-27T17:23:01.291Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-27T17:23:01.291Z",
+      "msg": "Nome : ISCIM/Júnior\r\nTelefone : 258850181649\r\nE-mail : saidymanueljunior@gmail.com\r\nDescrição do Problema : como posso emitir recibo de imposto?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

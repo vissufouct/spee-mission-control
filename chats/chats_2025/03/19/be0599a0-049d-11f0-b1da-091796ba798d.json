@@ -1,0 +1,29 @@
+{
+  "id": "be0599a0-049d-11f0-b1da-091796ba798d",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/HUO",
+    "id": "5b081d4d8859f57bdc7b8ddd-V1Py8LHQuml5X_rUugw7g",
+    "email": "dianaarlindohuo@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-03-19T08:41:36.278Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:41:36.278Z",
+      "msg": "Nome : ISCIM/HUO\r\nTelefone : 878940098\r\nE-mail : dianaarlindohuo@gmail.com\r\nDescrição do Problema : Bom dia, gostava de pedir uma ajuda para acessar a loja online, Activo minimo."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

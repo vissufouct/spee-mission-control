@@ -1,0 +1,71 @@
+{
+  "id": "8276ec10-2764-11f0-9d9f-ef7100301904",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ND Lda. Papelaria & Personalizados",
+    "id": "5b081d4d8859f57bdc7b8ddd-QzR74zbrRI00LP74eujDd",
+    "email": "cassimo3@icloud.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 6,
+  "chatDuration": 283,
+  "rating": 0,
+  "createdOn": "2025-05-02T14:51:56.511Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-02T14:51:56.511Z",
+      "msg": "Nome : Naira Cassimo\r\nTelefone : 845063123\r\nE-mail : cassimo3@icloud.com\r\nDescrição do Problema : Boa tarde ,estou a ter problemas em aceder o sistema, ja venho tendo esses problemas"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-02T14:54:16.158Z",
+      "msg": "na quarta-feira relatei o mesmo problema mas hoje  voltou a acontecer"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-02T14:54:55.309Z",
+      "msg": "Boa tarde \nDeram uma nova palavra passe?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-05-02T14:55:01.414Z",
+      "msg": "Se sim, usa a mesma"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-02T14:55:15.498Z",
+      "msg": "esta certo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-02T14:56:39.245Z",
+      "msg": "ja consegui"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

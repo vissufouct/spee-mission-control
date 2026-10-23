@@ -1,0 +1,64 @@
+{
+  "id": "046ede20-3f34-11f1-9417-f5f1d3180589",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Cátia Abel Queco",
+    "id": "5b081d4d8859f57bdc7b8ddd-dDJ_vY2cDIwXEX1yQK97L",
+    "email": "techmobiliarioqueco@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 5,
+  "chatDuration": 211,
+  "rating": 0,
+  "createdOn": "2026-04-23T17:11:45.370Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-23T17:11:45.370Z",
+      "msg": "Nome : Cátia Abel Queco\r\nTelefone : 258876498050\r\nE-mail : techmobiliarioqueco@gmail.com\r\nDescrição do Problema : ESTÁ A DIZER PARA ACEITAR CONVITE E NÃO SEI DE QUE"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-23T17:12:04.438Z",
+      "msg": "Onde?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-23T17:12:21.348Z",
+      "msg": "Boa noite, onde que esta a ter problemas?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-23T17:13:30.320Z",
+      "msg": "O SOMATÓRIO DE QUOTA DOS SÓCIO DEVE SER IGUAL A 100 E TODOS DEVEM ACEITAR O CONVITE , ESTÁO A FALAR DE QUE"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-23T17:15:15.897Z",
+      "msg": "Tem socio?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "826d4310-d121-11f0-a21e-3b30a9d4667d",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISG/Júnior",
+    "id": "5b081d4d8859f57bdc7b8ddd-x0HX0McRL_rf7EVoHonHd",
+    "email": "pdrsimbine@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-12-04T15:11:11.400Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-12-04T15:11:11.400Z",
+      "msg": "Nome : ISG/Júnior\r\nE-mail : pdrsimbine@gmail.com\r\nDescrição do Problema : Reconciliação bancaria"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-12-04T15:13:35.332Z",
+      "msg": "Saudações"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-12-04T15:15:02.397Z",
+      "msg": ":grin:"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

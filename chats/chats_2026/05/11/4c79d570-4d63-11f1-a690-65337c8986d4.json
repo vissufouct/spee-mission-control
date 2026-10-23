@@ -1,0 +1,46 @@
+{
+  "id": "4c79d570-4d63-11f1-a690-65337c8986d4",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "THEL,LDA",
+    "id": "5b081d4d8859f57bdc7b8ddd-pnmMxLyxqFzEVyRicFwsS",
+    "email": "heliasigauque07@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 273,
+  "rating": 0,
+  "createdOn": "2026-05-11T18:04:32.302Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-11T18:04:32.302Z",
+      "msg": "Nome : THEL,LDA\r\nE-mail : heliasigauque07@gmail.com\r\nDescrição do Problema : Boa noite tudo bem? tenho uma fatura em falta dos ativos minimos, mas agora quando entro no catalogo da empresa mi aparecem novas funcionalidades. gostaria de saber, como faco para poder chegar la visto que o sistema foi atualisado?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-11T18:06:06.727Z",
+      "msg": "oi"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-11T18:09:05.073Z",
+      "msg": "Boa noite! Na pagina do catalogo de empresas acima da \"AREA DE ACTUACÃO\" pode escrever o nome da empresa que procura"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

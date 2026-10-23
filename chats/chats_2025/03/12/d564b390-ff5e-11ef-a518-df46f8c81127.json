@@ -1,0 +1,88 @@
+{
+  "id": "d564b390-ff5e-11ef-a518-df46f8c81127",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Magaia",
+    "id": "5b081d4d8859f57bdc7b8ddd-VnWsj3iVmOn9iwLTgYC0G",
+    "email": "jossefazeferinost@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 8,
+  "chatDuration": 4177,
+  "rating": 0,
+  "createdOn": "2025-03-12T17:06:28.331Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:06:28.331Z",
+      "msg": "Nome : ISCIM/Magaia\r\nE-mail : jossefazeferinost@gmail.com\r\nDescrição do Problema : Não aparece o nome da sócia para o convite"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:08:37.566Z",
+      "msg": "Boa noite, poderia me fornecer mais detalhes do problema?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:10:48.963Z",
+      "msg": "Boa noite, estou na criação da empresa, ja fiz a reserva do nome estou na fase da acta de constituição no entanto ao fazer o convite a sócia o nome dela nao costa mesmo fazendo pesquisa"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:13:15.265Z",
+      "msg": "Tem que se certificar de que o outro estudante possui uma conta criada, e selecionar o tipo de sociedade certa da sua empresa para fazer o convite!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:14:24.257Z",
+      "msg": "esta criada a conta"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:17:04.330Z",
+      "msg": "o email é Charla.mawai05@gmail.com"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-12T17:40:21.511Z",
+      "msg": "boa noite esta ai"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-03-12T18:16:05.538Z",
+      "msg": "O estudante durante o processo de criação da empresa, não selecionou o tipo de sociedade por isso do problema em adicionar o socio!"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

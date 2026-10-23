@@ -1,0 +1,29 @@
+{
+  "id": "0edc71b0-049d-11f0-9cef-f577c7842c04",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Usta",
+    "id": "5b081d4d8859f57bdc7b8ddd-9_adRUFNFvnmkX1dlS6U8",
+    "email": "ammarahbibiseif@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-03-19T08:38:44.617Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:38:44.617Z",
+      "msg": "Nome : ISCIM/Usta\r\nTelefone : 878872739\r\nE-mail : huneidausta@gmail.com\r\nDescrição do Problema : não consigo aceder a loja online ativos mínimos"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

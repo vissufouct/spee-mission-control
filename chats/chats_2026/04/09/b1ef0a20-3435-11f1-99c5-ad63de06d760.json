@@ -1,0 +1,357 @@
+{
+  "id": "b1ef0a20-3435-11f1-99c5-ad63de06d760",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/Armando",
+    "id": "5b081d4d8859f57bdc7b8ddd-fOmYKYGgluISge_2fWlIi",
+    "email": "chelciaelinajorgerangane@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 37,
+  "chatDuration": 1943,
+  "rating": 0,
+  "createdOn": "2026-04-09T17:28:31.611Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:28:31.611Z",
+      "msg": "Nome : ITIS/Zefanias\r\nTelefone : 258874428136\r\nE-mail : lorosamario3@gmail.com\r\nDescrição do Problema : dificuldade em, adicionar socio  no processo da criacao de empresa"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:29:45.637Z",
+      "msg": "dificuyldade em adicionar socio"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:30:43.836Z",
+      "msg": "5tttgtyt"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:32:40.039Z",
+      "msg": "Boa noite, na lista de socios o estudante aparece?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:32:45.777Z",
+      "msg": "n"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:32:56.806Z",
+      "msg": "aparee outros que nao sao da miha turma"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:33:02.626Z",
+      "msg": "de contabilidade e economia"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:33:18.337Z",
+      "msg": "mas eu estou e ela esta mas n aparece"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:33:38.453Z",
+      "msg": "Pode mostrar me o print da lista?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:36:20.177Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69d7db503ad4812025b7f0ad/v/19c7d7c14479987c1594c7c9d0f5dabb74543cbb/Screenshot_(3).png",
+              "name": "Screenshot (3).png",
+              "mimeType": "image/png",
+              "size": 182349,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:37:17.643Z",
+      "msg": "chelsiaelinajorge"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:37:32.336Z",
+      "msg": "Qual é o nome do seu dc?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:37:40.744Z",
+      "msg": "bamo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:37:47.617Z",
+      "msg": "raimundo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:40:35.628Z",
+      "msg": "O seu nome é?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:40:45.527Z",
+      "msg": "rosa maria armado"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:40:50.982Z",
+      "msg": "20231923"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:41:01.825Z",
+      "msg": "crie novo usario lorosamario"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:41:14.449Z",
+      "msg": "pk rosa armando n consegia entrar"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:42:03.741Z",
+      "msg": "Não conseguia entrar com o usuario rosa armando porque?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:42:23.009Z",
+      "msg": "n aceita"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:42:36.859Z",
+      "msg": "O que diz quando tentava entrar?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:43:28.222Z",
+      "msg": "error"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:45:31.285Z",
+      "msg": "ja esquice"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:45:44.921Z",
+      "msg": "Entra no sistema com esse email lorosamario3@gmail.com e vá em recuperar senha na tela de login!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:46:03.974Z",
+      "msg": "ja"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:48:28.792Z",
+      "msg": "Tenta com esse pass: ce775e4"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:56:31.554Z",
+      "msg": "ja"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:56:49.314Z",
+      "msg": "Aceitou?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:57:15.774Z",
+      "msg": "aparece as pessoas que n sao da minha turma"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:57:55.108Z",
+      "msg": "a nao ser que a outra colega deva fazer o mesmo proces"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:58:07.141Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69d7db503ad4812025b7f0ad/v/99e97e1f55c266006b7c0a7afe1a7b722b57763c/Screenshot_(4).png",
+              "name": "Screenshot (4).png",
+              "mimeType": "image/png",
+              "size": 183807,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:58:07.275Z",
+      "msg": "Fez login com lorosariomario03?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:58:13.426Z",
+      "msg": "s"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-09T17:58:52.639Z",
+      "msg": "uk faco"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-09T18:00:20.119Z",
+      "msg": "Qual é a nova palavra passe que usou?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-09T18:00:54.200Z",
+      "msg": "A nova palavra pass que definiu?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

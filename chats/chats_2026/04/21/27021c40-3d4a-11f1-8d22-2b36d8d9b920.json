@@ -1,0 +1,173 @@
+{
+  "id": "27021c40-3d4a-11f1-8d22-2b36d8d9b920",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Sigauque",
+    "id": "5b081d4d8859f57bdc7b8ddd-pnmMxLyxqFzEVyRicFwsS",
+    "email": "heliasigauque07@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 13,
+  "chatDuration": 3315,
+  "rating": 0,
+  "createdOn": "2026-04-21T07:29:48.901Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-21T07:29:48.901Z",
+      "msg": "Nome : ISCIM/Sigauque\r\nE-mail : heliasigauque07@gmail.com\r\nDescrição do Problema : bom dia, tudo bem?\ncomo faco para apagar  a analise macro economica no meu plano"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-21T07:32:56.360Z",
+      "msg": "Bom dia, clica no butao vermelho como esta aqui:",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/67bc6520a561be464e803d37/91519859fa37efb57b5edbb127e216356ee0c439/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 25731,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-21T07:40:05.097Z",
+      "msg": "quero apagar isso",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69e7171b3ad48120259a670a/v/1ff6c3f37bdb1e170d8d9e7254d119a453443ba6/image.png",
+              "name": "image.png",
+              "mimeType": "image/png",
+              "size": 274519,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-21T07:43:17.023Z",
+      "msg": "Na coluna operacoes, tem o butacao vermelho para apagar"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-21T07:52:35.083Z",
+      "msg": "nao aparece o botao, se for possivel peco que apagem dai tudo que vem na analise macro economica, para que eu poca avancar"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-21T07:53:37.020Z",
+      "msg": "O que aparece na coluna operacoes? peco o print"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-21T07:56:50.002Z",
+      "msg": "agora estou a prencher dados da analise micro economica e isso que quero apagar"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-21T08:10:04.409Z",
+      "msg": "estou a espera de uma resposta"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-21T08:11:03.074Z",
+      "msg": "Para apagar apagar oque desejas vai na coluna operacaoes e clica no butao vermelho, tal como mostrei"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-21T08:17:19.499Z",
+      "msg": "nao mostra esta ipotese que mi deste",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69e7171b3ad48120259a670a/v/6f216adfc755a35aba7c77d5e1f4e3b5fb512245/image.png",
+              "name": "image.png",
+              "mimeType": "image/png",
+              "size": 272833,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-21T08:18:45.609Z",
+      "msg": "Faca scroll para baixo vera a opcao"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-21T08:22:18.110Z",
+      "msg": "ainda nao aparece"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-21T08:25:04.254Z",
+      "msg": "Diminua o zoom da tela! se estiver com dificuldades"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

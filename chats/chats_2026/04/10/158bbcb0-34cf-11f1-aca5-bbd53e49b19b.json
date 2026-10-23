@@ -1,0 +1,29 @@
+{
+  "id": "158bbcb0-34cf-11f1-aca5-bbd53e49b19b",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Albertina matsinhe",
+    "id": "5b081d4d8859f57bdc7b8ddd-VPDDfe12mFf0uGUZOI7GH",
+    "email": "albertinamatsinhe90@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Beira"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-04-10T11:20:15.200Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-10T11:20:15.200Z",
+      "msg": "Nome : Albertina matsinhe\r\nTelefone : 258869147650\r\nE-mail : Albertinamatsinhe90@gmail.com\r\nDescrição do Problema : Turma"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

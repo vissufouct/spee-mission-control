@@ -1,0 +1,80 @@
+{
+  "id": "bfb44750-6e2e-11f1-9b14-bf0df9cf5aa5",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Restaurante LDA Aroma e Sabor",
+    "id": "5b081d4d8859f57bdc7b8ddd-NiouCzSCntj5ta0nUwckz",
+    "email": "aromaesabor@spee.ac.mz"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 7,
+  "chatDuration": 306,
+  "rating": 0,
+  "createdOn": "2026-06-22T11:53:11.778Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-22T11:53:11.778Z",
+      "msg": "Name : Restaurante LDA Aroma e Sabor\r\nEmail : sevenebelarosa@gmail.com\r\nPhone : +258879762467\r\nDescrição do Problema : Boa tarde, \n\nNo meu sistema, a parte do gestor comercial, não tira os movimentos que foram feitos na contabilidade atráves de registos contabilisticos... peço que façam a revisão do sistema."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-06-22T11:53:57.189Z",
+      "msg": "bom dia qual a dificuldade que esta a enfrentar com o sistema/"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-06-22T11:53:59.735Z",
+      "msg": "?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-22T11:55:52.432Z",
+      "msg": "não estou a ter acesso aos movimentos na parte da contabilidade, não mostra nada."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-22T11:56:45.933Z",
+      "msg": "Já foi seleccionado, obrigado"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-06-22T11:57:11.078Z",
+      "msg": "Esta tudo bem obrigado!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-22T11:58:18.069Z",
+      "msg": "certo"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

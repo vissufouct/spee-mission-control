@@ -1,0 +1,38 @@
+{
+  "id": "87e53e90-2862-11f1-9fa4-813014616921",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "AD combustível e lubrificantes Lda",
+    "id": "5b081d4d8859f57bdc7b8ddd-RPlmm6FIzUyjYBE5AYTqa",
+    "email": "horaciomachangame@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 1304,
+  "rating": 0,
+  "createdOn": "2026-03-25T15:55:01.559Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-25T15:55:01.559Z",
+      "msg": "Boa noite, veja no menu inicio"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-25T16:16:45.922Z",
+      "msg": "não  contigo  entrar  no diario do empreededor"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

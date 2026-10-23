@@ -1,0 +1,45 @@
+{
+  "id": "955bd060-39a7-11f1-bda1-81170eb9d213",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/Armando",
+    "id": "5b081d4d8859f57bdc7b8ddd-cS52vNYd3lSktWKP80Afy",
+    "email": "lorosamario3@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-04-16T15:23:19.635Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:23:19.635Z",
+      "msg": "Nome : A Politecnica - MPT/Armando\r\nTelefone : 258874428136\r\nE-mail : lorosamario3@gmail.com\r\nDescrição do Problema : nao consigo adicionar o socio aparece pessoas ou usurioos de outras turmas"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:23:35.865Z",
+      "msg": "boa tarde"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-16T15:24:30.898Z",
+      "msg": "a minha turma eh contabilidade e  auditoria  docente bamo"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

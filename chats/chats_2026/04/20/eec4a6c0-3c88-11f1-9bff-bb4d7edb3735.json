@@ -1,0 +1,45 @@
+{
+  "id": "eec4a6c0-3c88-11f1-9bff-bb4d7edb3735",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Issac",
+    "id": "5b081d4d8859f57bdc7b8ddd-wGpeESAxg3tglCSouZRZi",
+    "email": "suheilaissac02@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-04-20T07:42:02.214Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T07:42:02.214Z",
+      "msg": "Nome : ISCIM/Issac\r\nTelefone : 258849490724\r\nE-mail : suheilaissac02@gmail.com\r\nDescrição do Problema : bom dia, estou a ter dificuldade em salvar as minhas alterações quando faço o plano de negócio. agora tentei alterar os dados do empreendedor, eliminei um dos empreendedores e aceitou, mas quando volto a adicionar nao grava"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T08:02:23.775Z",
+      "msg": "bom dia"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T08:03:09.970Z",
+      "msg": "estou a ter dificuldade em terminar o plano de negócio devido a esses problemas"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

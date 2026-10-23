@@ -1,0 +1,63 @@
+{
+  "id": "59498740-3748-11f1-881f-95b58e648182",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Campos",
+    "id": "5b081d4d8859f57bdc7b8ddd-lNh4gFbTBAID20nGVAUJE",
+    "email": "kelven.ivandro@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 5,
+  "chatDuration": 466,
+  "rating": 0,
+  "createdOn": "2026-04-13T14:55:52.026Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-13T14:55:52.026Z",
+      "msg": "Nome : ISCIM/Campos\r\nE-mail : kelven.ivandro@gmail.com\r\nDescrição do Problema : Eu estava a preencher o plano de negócios, agora que pretendo retornar vem para ver comentarios e novo, não aparece o meu progresso"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-13T15:02:24.895Z",
+      "msg": "Boa tarde, clique na opcao \"Ver Comentarios\""
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-13T15:03:04.485Z",
+      "msg": "Obrigado"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-13T15:03:26.963Z",
+      "msg": "Vai aparecer a lista dos planos criados, e pode acompanhar o progresso do plano que desejar"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-13T15:03:38.196Z",
+      "msg": "Funcionou"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

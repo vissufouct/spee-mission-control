@@ -1,0 +1,29 @@
+{
+  "id": "c62fd870-298c-11f0-9197-8f8489ff6673",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISPT/Campião",
+    "id": "5b081d4d8859f57bdc7b8ddd-SvmuiXhjOirynU93pnAJm",
+    "email": "dulcejcampiao@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Xai-Xai"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-05-05T08:47:27.493Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-05T08:47:27.493Z",
+      "msg": "Nome : ISPT/Campião\r\nE-mail : dulcejcampiao@gmail.com\r\nDescrição do Problema : Como faço  para acessar o lançamento  de  contas?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

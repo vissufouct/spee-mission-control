@@ -1,0 +1,130 @@
+{
+  "id": "fbd0b340-a421-11f0-804c-875586277be7",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "DigitalX",
+    "id": "5b081d4d8859f57bdc7b8ddd-8ywtywDj2Z1Udi0Fu9_EJ",
+    "email": "tomassantos779@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 13,
+  "chatDuration": 1991,
+  "rating": 0,
+  "createdOn": "2025-10-08T10:03:59.862Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-08T10:03:59.862Z",
+      "msg": "Nome : DigitalX\r\nTelefone : 258875016591\r\nE-mail : aduinaemilio@gmail.com\r\nDescrição do Problema : Não encontrou o produto desejado?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-08T10:05:29.641Z",
+      "msg": "?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-08T10:07:43.405Z",
+      "msg": "Boa tarde"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-08T10:07:49.196Z",
+      "msg": "Em que posso ajudar?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-08T10:08:34.013Z",
+      "msg": "Não encontrou o produto desejado"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-08T10:09:11.598Z",
+      "msg": "qual é o produto que pretende encontrar?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-08T10:09:54.667Z",
+      "msg": "GESTÃO DE STOCK\nLista de produtos e serviços"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-08T10:13:34.842Z",
+      "msg": "?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-08T10:16:36.198Z",
+      "msg": "pretende localizar qual produto?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-08T10:17:09.581Z",
+      "msg": "sim, e comprar na moz online"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-08T10:27:57.440Z",
+      "msg": "?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-08T10:29:58.892Z",
+      "msg": "Tem que fazer projecção de preços para que se listem os produtos"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-08T10:37:10.903Z",
+      "msg": "ja esta feita"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

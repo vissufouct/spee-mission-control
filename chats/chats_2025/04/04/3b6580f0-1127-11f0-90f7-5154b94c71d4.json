@@ -1,0 +1,37 @@
+{
+  "id": "3b6580f0-1127-11f0-90f7-5154b94c71d4",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Prime Office",
+    "id": "5b081d4d8859f57bdc7b8ddd-q3aBFt12k7yjsJ6cm33iw",
+    "email": "yurensmithbulande@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-04-04T08:04:58.673Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-04T08:04:58.673Z",
+      "msg": "Nome : Prime Office/4002807778\r\nE-mail : yurensmithbulande@gmail.com\r\nDescrição do Problema : como apagar varios em simultaneo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-04T08:07:53.766Z",
+      "msg": "como apagar varios estocks em simultaneo"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

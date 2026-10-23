@@ -1,0 +1,29 @@
+{
+  "id": "85e5ea20-546a-11f1-aa21-9f5027129f21",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Melaiza Messias",
+    "id": "5b081d4d8859f57bdc7b8ddd-dmaPe_6xl0rDGoVj8DUjH",
+    "email": "melaizamessias6@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T16:41:08.738Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T16:41:08.738Z",
+      "msg": "Nome : Melaiza Messias\r\nTelefone : 258868027184\r\nE-mail : melaizamessias6@gmail.com\r\nDescrição do Problema : melaizamessias6@gmail.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

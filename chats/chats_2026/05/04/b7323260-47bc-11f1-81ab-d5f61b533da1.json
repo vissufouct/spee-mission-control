@@ -1,0 +1,155 @@
+{
+  "id": "b7323260-47bc-11f1-81ab-d5f61b533da1",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Luri Anatércia Sérgio Vembane",
+    "id": "5b081d4d8859f57bdc7b8ddd-MB0XR9_6z2AIhMCh4WNQZ",
+    "email": "airtonaly2@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 16,
+  "chatDuration": 1000,
+  "rating": 0,
+  "createdOn": "2026-05-04T13:44:06.749Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-04T13:44:06.749Z",
+      "msg": "Nome : Luri Anatércia Sérgio Vembane\r\nTelefone : 258850720207\r\nE-mail : luryanaterciavembane@gmail.com\r\nDescrição do Problema : Nao aceita preencher o campo plano de comunicacao"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-04T13:45:04.441Z",
+      "msg": "Boa tarde qual a dificuldade que esta a enfrentar?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-04T13:46:23.997Z",
+      "msg": "Quando tento preencher o plano de midia a actividade, duracao e o orçamento nao salva e no plano de comunicacao tambem"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-04T13:46:43.751Z",
+      "msg": "Vamos verificar"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-04T13:47:19.085Z",
+      "msg": "Esta certo, obrigada"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-04T13:49:21.824Z",
+      "msg": "na projecao de vendas, quando preencho os custos fixos nao aparecem arrolados, apenas faz calculos automaticos"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-04T13:50:20.940Z",
+      "msg": "Tambem nao grava os activos do custo variavel"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-04T13:54:19.160Z",
+      "msg": "plano de comunicacao quais informacoes que esta a colocar?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-04T13:55:52.205Z",
+      "msg": "Quando escrevo a actividade, duracao e orçame nto, nao salva"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-04T13:56:15.541Z",
+      "msg": "escreva aqui os dados quero verificar"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-04T13:58:32.937Z",
+      "msg": "Actividade: atentimento, catalogo e respostas automaticas; Duração: Contínuo(mensal); Orçamento: 15.000"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-04T13:59:14.185Z",
+      "msg": "Quando escrevo essa informacao nao salva"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-04T13:59:31.566Z",
+      "msg": "E quando coloco outras idem"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-04T13:59:38.143Z",
+      "msg": "a duracao deve indicar a o numero de semanas!"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-04T13:59:52.963Z",
+      "msg": "e nao \"Continuo(mensal)\""
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-04T14:00:46.406Z",
+      "msg": "ja gravou! muito obrigada"
+    }
+  ],
+  "domain": "planodenegocios.simulacao.co.mz"
+}

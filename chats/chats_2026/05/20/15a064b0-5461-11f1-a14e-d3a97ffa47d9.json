@@ -1,0 +1,29 @@
+{
+  "id": "15a064b0-5461-11f1-a14e-d3a97ffa47d9",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Marlyn Barreto",
+    "id": "5b081d4d8859f57bdc7b8ddd-f6Ucs4GsROWneiJoRQw6n",
+    "email": "rajuamade5@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T15:33:13.041Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:33:13.041Z",
+      "msg": "Nome : Marlyn Barreto\r\nTelefone : 258845648159\r\nE-mail : rajuamade5@gmail.com\r\nDescrição do Problema : ."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

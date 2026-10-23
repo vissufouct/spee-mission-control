@@ -1,0 +1,263 @@
+{
+  "id": "4f019be0-fadc-11f0-a129-9f9636da90bb",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "EMIA LEIA MACHOMBE",
+    "id": "5b081d4d8859f57bdc7b8ddd-PhPEpNWS1zyMIRsAChoQL",
+    "email": "machombe.emia@icloud.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 25,
+  "chatDuration": 1536,
+  "rating": 0,
+  "createdOn": "2026-01-26T17:34:30.560Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-01-26T17:34:30.560Z",
+      "msg": "Nome : EMIA LEIA MACHOMBE\r\nTelefone : 258862167705\r\nE-mail : machombe.emia@icloud.com\r\nDescrição do Problema : Nao consigo comprar o caderno de encargos nos concursos publicos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-01-26T17:35:29.191Z",
+      "msg": "Boa noite, esta enfrentando uma dificuldade ou um erro com a plataforma?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-01-26T17:36:55.108Z",
+      "msg": "sim, nao consigo comprar o caderno de encargos nos concursos publicos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-01-26T17:37:37.619Z",
+      "msg": "Quando clica a opcao de comprar o caderno oque acontece?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-01-26T17:38:01.760Z",
+      "msg": "nao acontece nada"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-01-26T17:38:40.922Z",
+      "msg": "O estudante criou uma conta no banco?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-01-26T17:38:48.644Z",
+      "msg": "na Banca do spee?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-01-26T17:39:48.146Z",
+      "msg": "sim"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-01-26T17:41:15.040Z",
+      "msg": "um momento porfavor, qual e a instituicao?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-01-26T17:43:25.477Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/6977a4093ad48120253c6784/v/3d34d068e5661561b5acec9608306afe38f0cea8/image.png",
+              "name": "image.png",
+              "mimeType": "image/png",
+              "size": 71403,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-01-26T17:44:35.858Z",
+      "msg": "apenas termina aqui quando tento comprar o caderno de encargos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-01-26T17:45:04.782Z",
+      "msg": "clica nesse campo para prossegui com o pagamento:",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/67bc6520a561be464e803d37/a8697f4444679f49d1c794114ddb8e5d92f52118/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 83720,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-01-26T17:45:56.432Z",
+      "msg": "quando clico nao faz nada"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-01-26T17:46:18.680Z",
+      "msg": "qual e o concurso?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-01-26T17:46:37.129Z",
+      "msg": "USAID"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-01-26T17:48:38.983Z",
+      "msg": "Verificando"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-01-26T17:49:16.591Z",
+      "msg": "Essa turma é deste ano?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-01-26T17:49:50.643Z",
+      "msg": "SIM"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-01-26T17:49:57.458Z",
+      "msg": "Quem é o docente?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-01-26T17:50:40.104Z",
+      "msg": "DESCULPA e do ano passado"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-01-26T17:53:04.990Z",
+      "msg": "Esse ciclo já encerrou, por isso algumas operações estão limitadas"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-01-26T17:53:54.633Z",
+      "msg": "É estudante do Dr, Clemente?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-01-26T17:57:08.416Z",
+      "msg": "sim"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-01-26T17:59:05.953Z",
+      "msg": "O docente deve solicitar a reabertura do ciclo, caso ainda seja necessário"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-01-26T18:00:06.515Z",
+      "msg": "O pessoal administrativo irá entrar em contacto com Dr, Clemente amanhã."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

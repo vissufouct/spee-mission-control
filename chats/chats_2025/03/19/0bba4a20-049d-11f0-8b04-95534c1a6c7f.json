@@ -1,0 +1,52 @@
+{
+  "id": "0bba4a20-049d-11f0-8b04-95534c1a6c7f",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/4002807800",
+    "id": "5b081d4d8859f57bdc7b8ddd-V3v2zPZwhYVy0L64aT1V2",
+    "email": "safinaconte02@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 3279,
+  "rating": 0,
+  "createdOn": "2025-03-19T08:36:28.880Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:36:28.880Z",
+      "msg": "Nome : ISCIM/Juma\r\nE-mail : amadjuma@gmail.com\r\nDescrição do Problema : Não estou a conseguir acessar ativos mínimos."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-19T08:44:25.931Z",
+      "msg": "logo apos aceder a plataforma, entrar para este campo. e depois voltar a tentar aceceder aos activos minimos",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/a27901e8b7120c78628925e333116695fa704c89/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 68032,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

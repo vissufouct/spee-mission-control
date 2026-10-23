@@ -1,0 +1,71 @@
+{
+  "id": "2bbc74a0-3cc9-11f1-b718-adc8d42cacb2",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Monjane",
+    "id": "5b081d4d8859f57bdc7b8ddd-DQY7wgr5ydSCllrdoh8l1",
+    "email": "benildemubai@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 6,
+  "chatDuration": 732,
+  "rating": 0,
+  "createdOn": "2026-04-20T15:54:51.975Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T15:54:51.975Z",
+      "msg": "Nome : ISCIM/Monjane\r\nTelefone : 258845415753\r\nE-mail : antonio.monjane@gmail.com\r\nDescrição do Problema : boa tarde, estou a enfrentar problemas na conclusao no dado do empreededor"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T15:56:15.279Z",
+      "msg": "quando preencho os campos ele nao aceita gravar, volta ao inicio do preenchimento."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T15:57:59.615Z",
+      "msg": "Boa noite pode mostrar-me o print da tela?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T16:00:44.547Z",
+      "msg": "nao tem como fazer"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-20T16:06:15.737Z",
+      "msg": "Oky, ao adicionar dados do empreendedor no campo de email, tente adicionar um email alternativo, nao o email do spee um alternativo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T16:07:03.900Z",
+      "msg": "tudo bem"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,129 @@
+{
+  "id": "7d921280-3cdd-11f1-9325-3fa2d1e00af1",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Sigauque",
+    "id": "5b081d4d8859f57bdc7b8ddd-n6FSJSSpsyyFqmH5k1wIi",
+    "email": "thairesmartins04@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 11,
+  "chatDuration": 1322,
+  "rating": 0,
+  "createdOn": "2026-04-20T17:30:04.319Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T17:30:04.319Z",
+      "msg": "Nome : ISCIM/Sigauque\r\nE-mail : thairesmartins04@gmail.com\r\nDescrição do Problema : estou a ter problemas em adicionar departamento responsavel"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-20T17:31:00.529Z",
+      "msg": "Pode descrever o problema?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T17:31:23.520Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69e660cd3ad48120253b1a4f/v/27daba08c19edafe7e2572aed3ef07163813b6fb/image.png",
+              "name": "image.png",
+              "mimeType": "image/png",
+              "size": 162853,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T17:32:10.849Z",
+      "msg": "nao consigo prencher o ultimo lugar que esta azul"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-20T17:34:42.250Z",
+      "msg": "Aguarde a verificacao"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T17:36:20.051Z",
+      "msg": "certo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-20T17:39:40.692Z",
+      "msg": "quer adicionar departamento responsavel?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-20T17:41:27.200Z",
+      "msg": "Tem algum departamento registado ou esse e o primeiro?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-20T17:49:15.712Z",
+      "msg": "este e o primeiro mas tenho outros"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-20T17:51:29.468Z",
+      "msg": "Se for o primeiro a registrar nao tem departamento respondavel ainda, os proximos ja pode adicionar departamento responsavel"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-20T17:52:06.763Z",
+      "msg": "deixa essa parte em vazio e adiciona os outros, e ja podera adicionar esse como responsavel"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

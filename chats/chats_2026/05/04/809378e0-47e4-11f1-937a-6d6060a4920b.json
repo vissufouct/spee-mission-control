@@ -1,0 +1,98 @@
+{
+  "id": "809378e0-47e4-11f1-937a-6d6060a4920b",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A & P Limitada Combustíveis e Lubrificantes",
+    "id": "5b081d4d8859f57bdc7b8ddd-W3LAC_Xw3c17sIfFSEbjT",
+    "email": "passuane90@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 6,
+  "chatDuration": 2471,
+  "rating": 0,
+  "createdOn": "2026-05-04T18:43:22.775Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-04T18:43:22.775Z",
+      "msg": "Nome : A & P Limitada Combustíveis e Lubrificantes\r\nTelefone : 258841048024\r\nE-mail : passuane90@gmail.com\r\nDescrição do Problema : Cordiais saudações. O assunto que ja venho levantando fazem semanas ate entao nao foi resolvido, o docentes recusam-se a validar documento sem logotipo, agradeco defescho desse assunto"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-04T18:46:01.173Z",
+      "msg": "Pedimos desculpa com a demora, houve um erro no processo da resolucao do seu problema. vamos peco que deixe o seu numero ligaremos logo que resolver!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-04T18:46:42.974Z",
+      "msg": "258841048024"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-04T18:47:21.822Z",
+      "msg": "Aguardo obrigado."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-04T19:23:40.890Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69f8e1083ad481202549ff83/v/89f082c79d1a97fbe977616b2028af840632f952/Screenshot_2026-05-04_212234_edited.png",
+              "name": "Screenshot 2026-05-04 212234_edited.png",
+              "mimeType": "image/png",
+              "size": 127868,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-04T19:24:33.706Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69f8e1083ad481202549ff83/v/652d8bbacd8848681e9d75369c0e768727a62f40/logo_simulacao.docx",
+              "name": "logo simulacao.docx",
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "size": 52114,
+              "extension": "docx"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

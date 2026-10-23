@@ -1,0 +1,69 @@
+{
+  "id": "ee567630-04b9-11f0-b889-1f7858ebcb78",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Taimo",
+    "id": "5b081d4d8859f57bdc7b8ddd-6F2IUaGAk3I07mEs8kR_w",
+    "email": "arturtaimo00@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 4,
+  "chatDuration": 561,
+  "rating": 0,
+  "createdOn": "2025-03-19T12:02:30.571Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T12:02:30.571Z",
+      "msg": "Nome : ISCIM/Taimo\r\nE-mail : arturtaimo00@gmail.com\r\nDescrição do Problema : Não consigo acessar as lojas on-line cativos mínimos"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T12:08:45.185Z",
+      "msg": "Sou estudante da tarde da turma de gestão estou tenho problema não consigo acessar aos ativos mínimos na loja on-line"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-03-19T12:11:39.596Z",
+      "msg": "Boa tarde"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-03-19T12:11:51.682Z",
+      "msg": "logo apos aceder a plataforma, entrar para este campo. e depois voltar a tentar aceceder aos activos minimos",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "extension": "jpeg",
+              "size": 101550,
+              "name": "image.jpg",
+              "mimeType": "image/jpeg",
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/67bc6520a561be464e803d37/65295ae96d1893e889d0b149dbb4ddc1e0f9d241/image.jpg"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "57b815d0-5468-11f1-8aab-253490691c18",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Selton Sérgio Nhaúle",
+    "id": "5b081d4d8859f57bdc7b8ddd-v6e4sYQGnEPhCnTnDu345",
+    "email": "seltonnhaulegoruto@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T16:26:38.545Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T16:26:38.545Z",
+      "msg": "Nome : Selton Sérgio Nhaúle\r\nTelefone : 258844335967\r\nE-mail : seltonnhaulegoruto@gmail.com\r\nDescrição do Problema : seltonnhaulegoruto@gmail.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

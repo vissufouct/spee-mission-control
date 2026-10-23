@@ -1,0 +1,29 @@
+{
+  "id": "59f03610-34ac-11f1-a992-497c5d73639a",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "[Docente]ISPM - ISPM_SEMESTRE Denyse 1_2026/Sebastião",
+    "id": "5b081d4d8859f57bdc7b8ddd-OxpdQ4mx4z76F9cbxlJ1R",
+    "email": "denysedette42@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-04-10T07:18:34.998Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-10T07:18:34.998Z",
+      "msg": "Bom dia"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

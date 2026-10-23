@@ -1,0 +1,162 @@
+{
+  "id": "394eaab0-3d79-11f1-a8dd-95130ae0eba9",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "MM Lda Consumiveis",
+    "id": "5b081d4d8859f57bdc7b8ddd-l88kR9q_m2yVTZfQs0PBX",
+    "email": "alberto.erik@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 12,
+  "chatDuration": 4920,
+  "rating": 0,
+  "createdOn": "2026-04-21T12:17:40.377Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-21T12:17:40.377Z",
+      "msg": "Nome : MM Lda Consumiveis\r\nTelefone : 258876261457\r\nE-mail : alberto.erik@gmail.com\r\nDescrição do Problema : No composto marketing Mix, a informacao que issiro em cada campo ela nao aparece na impressao, o sistema da erro. peco que resolova este problema"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-21T12:18:26.859Z",
+      "msg": "Mande o print do erro"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-21T12:21:15.253Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69e766143ad4812025a4bfbf/v/b2dba5ef10a9bc00c562f445e74fbc77767eb5ec/Untitled_Iscim.png",
+              "name": "Untitled Iscim.png",
+              "mimeType": "image/png",
+              "size": 235564,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-21T12:23:05.093Z",
+      "msg": "ai tens o print, essas partes vermelhas"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-21T12:23:52.088Z",
+      "msg": "aguarde, em verificacao"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-21T12:41:23.958Z",
+      "msg": "pode voltar ao compo de preenchimento e mandar o print"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-21T12:41:31.838Z",
+      "msg": "com os dados ja preenchidos"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-21T12:49:53.016Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69e766143ad4812025a4bfbf/v/675fb25ca28b6a0376a1511c365475b8ada95978/imagem.png",
+              "name": "imagem.png",
+              "mimeType": "image/png",
+              "size": 210607,
+              "extension": "png"
+            }
+          }
+        },
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69e766143ad4812025a4bfbf/v/b93b4b9ab34bc778c4a9392cbd83294fd3412dca/Imagem1.png",
+              "name": "Imagem1.png",
+              "mimeType": "image/png",
+              "size": 199172,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-21T12:52:37.869Z",
+      "msg": "aI TENS AS IMAGENS"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-21T13:10:28.504Z",
+      "msg": "Ainda nao foi resolvido"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-21T13:12:28.177Z",
+      "msg": "Estamos verificando, aguarde o retorno"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-21T13:39:39.925Z",
+      "msg": "estou aguardando"
+    }
+  ],
+  "domain": "planodenegocios.simulacao.co.mz"
+}

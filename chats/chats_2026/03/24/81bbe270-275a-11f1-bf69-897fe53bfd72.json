@@ -1,0 +1,89 @@
+{
+  "id": "81bbe270-275a-11f1-bf69-897fe53bfd72",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/Velemo",
+    "id": "5b081d4d8859f57bdc7b8ddd-wOvnPIeuEyTmkCpkJz4Ug",
+    "email": "marvindias417@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 8,
+  "chatDuration": 2229,
+  "rating": 0,
+  "createdOn": "2026-03-24T08:25:12.966Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-24T08:25:12.966Z",
+      "msg": "Nome : A Politecnica - MPT/Velemo\r\nTelefone : 258864461339\r\nE-mail : marvindias417@gmail.com\r\nDescrição do Problema : Bom dia, estou com dificuldades, eu já aceitei convite do meu colega na empresa Maputo Serviços Automotivos, mas o nome dele não aparece na divisão de quotas, e no sistema dele aparece que eu ainda não aceitei o convite"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-24T08:25:55.550Z",
+      "msg": "Bom dia, um momento porfavor!"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-24T08:27:11.929Z",
+      "msg": "Qual é o nome do seu colega?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-24T08:27:32.860Z",
+      "msg": "Ananguno De Khan Luís Mabote"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-24T08:30:29.239Z",
+      "msg": "Certo, um momento"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-24T08:34:55.176Z",
+      "msg": "Está certo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-24T09:01:52.503Z",
+      "msg": "Diga o seu colega, enviar-lhe o convite outra vez! Depois vai ter que aceitar outra vez"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-24T09:02:21.521Z",
+      "msg": "Está certo, vou fazer isso agora"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

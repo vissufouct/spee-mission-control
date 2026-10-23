@@ -1,0 +1,46 @@
+{
+  "id": "566bd440-6030-11f1-8af6-51438ba4dba5",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A & E CELL LDA SHOP",
+    "id": "5b081d4d8859f57bdc7b8ddd-4Mwp60rFiEmQ855TYbcUx",
+    "email": "anderson.muchine99@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 2122,
+  "rating": 0,
+  "createdOn": "2026-06-04T16:49:46.319Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-04T16:49:46.319Z",
+      "msg": "Name : A & E CELL LDA SHOP\r\nEmail : anderson.muchine99@gmail.com\r\nPhone : +258824814120\r\nDescrição do Problema : Viva Eng. Estamos a enfrentar problemas com a transportadora fiel, o sistema diz o seguinte: LOJA NÃO ENCONTRADA! PESQUISE O CONTACTO DO EMAIL NO CATALOGO DE EMPRESAS."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-04T17:17:05.970Z",
+      "msg": "Email: aecellshop@spee.ac.mz\nNuit: 4003078674"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-06-04T17:25:08.696Z",
+      "msg": "Boa noite, qual o problema que enfrenta ? Não encontra a loja no catalogo da empresa ?"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

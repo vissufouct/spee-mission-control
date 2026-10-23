@@ -1,0 +1,46 @@
+{
+  "id": "e4c33200-1924-11f0-bdc7-31a62d0b6218",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "RS Lda. Mobiliário",
+    "id": "5b081d4d8859f57bdc7b8ddd-gptCTOd4p3ktTXvo0gumo",
+    "email": "chamiracalumia@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 681,
+  "rating": 0,
+  "createdOn": "2025-04-14T11:52:30.073Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-14T11:52:30.073Z",
+      "msg": "Nome : RS Lda. Mobiliário\r\nE-mail : chamiracalumia@gmail.com\r\nDescrição do Problema : Como posso anular um factura?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-14T12:03:09.187Z",
+      "msg": "Como posso anular uma factura?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "MacGyver"
+      },
+      "type": "msg",
+      "time": "2025-04-14T12:03:51.013Z",
+      "msg": "na sistema de gestao comercial, na listagem de facturas tem opçao para anular"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "3992a6c0-545d-11f1-b488-c50eb3f0e386",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/Mathombe",
+    "id": "5b081d4d8859f57bdc7b8ddd-c5gdPB4Zc4hyYsrBE9jsC",
+    "email": "zelialiamanjate@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T15:05:51.421Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:05:51.421Z",
+      "msg": "Nome : A Politecnica - MPT/Mathombe\r\nE-mail : zelialiamanjate@gmail.com\r\nDescrição do Problema : Boa tarde, \n\nO meu e-mail é zelialiamanjate@gmail.com \n\nObrigada"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

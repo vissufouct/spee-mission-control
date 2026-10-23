@@ -1,0 +1,29 @@
+{
+  "id": "311e62f0-26e4-11f1-98cc-e521650de988",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Cuamba",
+    "id": "5b081d4d8859f57bdc7b8ddd-aMy48cA4iHwntAuTbrsFE",
+    "email": "floidecf@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-03-23T18:30:35.565Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:30:35.565Z",
+      "msg": "Nome : ISCIM/Cuamba\r\nTelefone : 25844810387\r\nE-mail : floidecf@gmail.com\r\nDescrição do Problema : boa noite, estou com dificuldades para escolher uma opcao de arrendamento, na escolha do valor."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

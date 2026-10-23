@@ -1,0 +1,63 @@
+{
+  "id": "987f7310-4a04-11f1-9795-793f6badc8da",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "E&E OFFICE Lda CENTER",
+    "id": "5b081d4d8859f57bdc7b8ddd-6bD4FcNHBKb_sFhcled0I",
+    "email": "eunicejanett@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 5,
+  "chatDuration": 120,
+  "rating": 0,
+  "createdOn": "2026-05-07T11:24:09.429Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-07T11:24:09.429Z",
+      "msg": "Nome : E&E OFFICE Lda CENTER\r\nE-mail : eunicejanett@gmail.com\r\nDescrição do Problema : Boa tarde,\nConstatei que fiz mal um lancamento, gostaria de saber como posso retifica-lo?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-07T11:24:53.241Z",
+      "msg": "Boa tarde, onde exatamente poderia explicar melhor?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-07T11:25:32.803Z",
+      "msg": "Erro do tipo Inversao de contas"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-07T11:25:56.296Z",
+      "msg": "Facturacão?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-07T11:26:09.697Z",
+      "msg": "Contabilidade"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

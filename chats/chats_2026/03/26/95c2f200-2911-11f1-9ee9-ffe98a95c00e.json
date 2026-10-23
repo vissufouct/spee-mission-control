@@ -1,0 +1,89 @@
+{
+  "id": "95c2f200-2911-11f1-9ee9-ffe98a95c00e",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "[Docente]A Politecnica - TETE - ISPT_Ciclo_2026/Cumbane, Edson",
+    "id": "5b081d4d8859f57bdc7b8ddd-IsldVzGQbzKsqHhppNuJZ",
+    "email": "camilodomingos@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 8,
+  "chatDuration": 999,
+  "rating": 0,
+  "createdOn": "2026-03-26T12:52:58.867Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-26T12:52:58.867Z",
+      "msg": "Peco para confirmar, a turma por nos criada para diurno e: 305459."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-26T12:53:43.158Z",
+      "msg": "um momento vamos confirmar"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-26T12:55:40.160Z",
+      "msg": "Esta correcto sim: TURMA CAP-D 2026"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-26T12:56:39.070Z",
+      "msg": "E possivel me confirmar em qual turma a estudante Safiraacacio3@gmail.com se encontra?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-26T13:00:18.082Z",
+      "msg": "A estudante Sarifa nao esta em nunhama das suas duas turma, ela provavelmente inseriu o codigo errado e foi parar numa turma de uma outra instituicao! mas vamos lhe alocar a sua turma"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-26T13:00:39.937Z",
+      "msg": "existe outros estudantes, nessa situacao?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-26T13:03:27.637Z",
+      "msg": "Sim, existem. Posso lhe enviar os seus emails?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-26T13:09:38.147Z",
+      "msg": "Nome : [Docente]A Politecnica - TETE - ISPT_Ciclo_2026/Cumbane, Edson\r\nTelefone : 258843712585\r\nE-mail : ecumbane96@live.com\r\nDescrição do Problema : Posso enviar-lhe os emails dos estudantes para se efectuar a alocacao na turma 305459?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

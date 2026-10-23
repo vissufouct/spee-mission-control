@@ -1,0 +1,29 @@
+{
+  "id": "5edef970-30f4-11f0-afb1-234476f098b8",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "THE FOUR IMPORT LDA SOLUTIONS",
+    "id": "5b081d4d8859f57bdc7b8ddd-2h2lUoRm2wOD8D1jOs0xY",
+    "email": "jonasseshaly@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-05-14T18:52:41.478Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-14T18:52:41.478Z",
+      "msg": "Nome : A Politecnica - MPT/Jonasse\r\nE-mail : jonasseshaly@gmail.com\r\nDescrição do Problema : quando diz 'referencia do documento' o que quer dizer"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

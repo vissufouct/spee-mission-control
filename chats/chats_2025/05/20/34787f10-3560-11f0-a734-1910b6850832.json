@@ -1,0 +1,29 @@
+{
+  "id": "34787f10-3560-11f0-a734-1910b6850832",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ElYash Lda Tech",
+    "id": "5b081d4d8859f57bdc7b8ddd-fOlQvns8LVSjT_3WT7C88",
+    "email": "yashfir31@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-05-20T10:24:02.601Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-05-20T10:24:02.601Z",
+      "msg": "Nome : ElYash Lda Tech\r\nE-mail : yashfir31@gmail.com\r\nDescrição do Problema : Boa Tarde. tenho uma questao e um pedido.\neu ao adicionar os meus produtos em Stock um colega meu me explicou de forma errada e ao invés de registar como produto ele disse para registar como serviços. E no meu gestor de Stock nao aparece as quantidades restantes apos as Vendas.\nA minha questao e como posso editar para trocar para produto e nao servicos. E o pedido e que me ajudes me dizendo como editar. aguardo uma resposta please."
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

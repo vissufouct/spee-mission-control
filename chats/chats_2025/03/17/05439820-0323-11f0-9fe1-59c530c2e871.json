@@ -1,0 +1,121 @@
+{
+  "id": "05439820-0323-11f0-9fe1-59c530c2e871",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Taimo",
+    "id": "5b081d4d8859f57bdc7b8ddd-JHEimNFn9RbaERTJaUwri",
+    "email": "matsinheelisabeth@icloud.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 10,
+  "chatDuration": 1509,
+  "rating": 0,
+  "createdOn": "2025-03-17T12:17:31.134Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:17:31.134Z",
+      "msg": "Nome : /\r\nE-mail : matsinheelisabeth@icloud.com\r\nDescrição do Problema : estou tendo um problema para arrendar uma imobiliária em Maputo mas não consigo acessar as regiões de moçambique"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:18:12.632Z",
+      "msg": "Boa tarde"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:18:26.414Z",
+      "msg": "Não dá opções de províncias?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:21:25.054Z",
+      "msg": "sim quero opções de províncias de mocambique"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:22:23.212Z",
+      "msg": "poderia ajudar a resolver este problema"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:24:59.995Z",
+      "msg": "Não dá estas opções?",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/93f67bbf6da9900c3e80641a55112fe9e23d69ee/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 90712,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:26:43.683Z",
+      "msg": "não da estas"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:27:24.629Z",
+      "msg": "mas eu testei usando tua conta"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:27:34.524Z",
+      "msg": "peço o print da tua tela"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:42:40.499Z",
+      "msg": "pode por favor fornecer o seu contact?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

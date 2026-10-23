@@ -1,0 +1,80 @@
+{
+  "id": "7ccd2980-2760-11f1-95cf-6fa0737278e7",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/Mabote",
+    "id": "5b081d4d8859f57bdc7b8ddd-wOvnPIeuEyTmkCpkJz4Ug",
+    "email": "marvindias417@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 7,
+  "chatDuration": 1086,
+  "rating": 0,
+  "createdOn": "2026-03-24T09:15:06.114Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-24T09:15:06.114Z",
+      "msg": "Nome : A Politecnica - MPT/Mabote\r\nTelefone : 258864461339\r\nE-mail : mabotekhan@gmail.com\r\nDescrição do Problema : Bom dia. Espero que esteja bem, o meu sócio Marvin, na conta dele ja diz que faz parte da empresa, mas quando eu abro o meu sistema ainda aparece pendente no nome dele, e isso impossibilida a continuação da criação da empresa, o convite ja foi feito e ele já tinha aceitado,  quando tento voltar a mandar o convite, a informação que recebo foi que o convite ja foi enviado"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-24T09:16:09.070Z",
+      "msg": "A empresa é Maputo Serviços Automotivos, e sou Ananguno de Khan Luís Mabote"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-24T09:16:28.332Z",
+      "msg": "Bom dia, estamos resolvendo o problema"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-24T09:16:42.874Z",
+      "msg": "Vamos pedir que aguarde um pouco"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-24T09:17:22.647Z",
+      "msg": "Está certo, muito obrigado"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-24T09:26:15.694Z",
+      "msg": "Resolvido"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-24T09:33:12.213Z",
+      "msg": "Muito obrigado"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

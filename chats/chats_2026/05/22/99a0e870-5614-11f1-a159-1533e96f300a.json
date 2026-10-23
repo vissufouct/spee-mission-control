@@ -1,0 +1,29 @@
+{
+  "id": "99a0e870-5614-11f1-a159-1533e96f300a",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - MPT/ ClyshaJecuza",
+    "id": "5b081d4d8859f57bdc7b8ddd-2SUeqOWZjIT4Ogn_Ri5cr",
+    "email": "clysonjecuza@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-22T19:35:00.059Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-22T19:35:00.059Z",
+      "msg": "Nome : A Politecnica - MPT/ ClyshaJecuza\r\nTelefone : 258870642659\r\nE-mail : ColeMuchave70@gmail.com\r\nDescrição do Problema : ColeMuchave70@gmail.com"
+    }
+  ],
+  "domain": "speedev.simulacao.co.mz"
+}

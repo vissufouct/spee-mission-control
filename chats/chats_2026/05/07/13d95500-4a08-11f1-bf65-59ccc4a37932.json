@@ -1,0 +1,30 @@
+{
+  "id": "13d95500-4a08-11f1-bf65-59ccc4a37932",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "E&E OFFICE Lda CENTER",
+    "id": "5b081d4d8859f57bdc7b8ddd-6bD4FcNHBKb_sFhcled0I",
+    "email": "eunicejanett@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-07T11:30:16.556Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-07T11:30:16.556Z",
+      "msg": "Vai ate a lista de movementos, localize o movimento e clique no canto onde tem um \"olho\" apos isso clica em anulada!"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

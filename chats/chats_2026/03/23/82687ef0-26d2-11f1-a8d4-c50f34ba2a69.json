@@ -1,0 +1,46 @@
+{
+  "id": "82687ef0-26d2-11f1-a8d4-c50f34ba2a69",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Limeme",
+    "id": "5b081d4d8859f57bdc7b8ddd-DQY7wgr5ydSCllrdoh8l1",
+    "email": "atalialimeme16@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 179,
+  "rating": 0,
+  "createdOn": "2026-03-23T16:50:23.368Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T16:50:23.368Z",
+      "msg": "Nome : ISCIM/Limeme\r\nE-mail : atalialimeme16@gmail.com\r\nDescrição do Problema : o convite nao aceita o que posso fazer?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "MacGyver"
+      },
+      "type": "msg",
+      "time": "2026-03-23T16:51:49.882Z",
+      "msg": "Boa tarde,\nEstamos a verificar."
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T16:53:22.041Z",
+      "msg": "Aguardo"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

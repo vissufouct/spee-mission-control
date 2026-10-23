@@ -1,0 +1,38 @@
+{
+  "id": "b37d8980-5a6d-11f1-a3b6-9f92eece0848",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "SHEM HST",
+    "id": "5b081d4d8859f57bdc7b8ddd-ddywZAAIUdpxJmdTEFBcR",
+    "email": "shemhst@spee.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 52,
+  "rating": 0,
+  "createdOn": "2026-05-28T08:18:46.878Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-28T08:18:46.878Z",
+      "msg": "Porquê tanta demora para ajudar em uma simples questão :thinking:"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-28T08:19:39.342Z",
+      "msg": "Nao temos registro de uma conta com esse email no sistema! Tem a certeza que e esse?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

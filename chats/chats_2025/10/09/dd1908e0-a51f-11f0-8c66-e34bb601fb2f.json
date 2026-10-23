@@ -1,0 +1,144 @@
+{
+  "id": "dd1908e0-a51f-11f0-8c66-e34bb601fb2f",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISG/Massango",
+    "id": "5b081d4d8859f57bdc7b8ddd-37IQGMsrdvO6XLoGaxN3Q",
+    "email": "michelamassango463@gmail.com"
+  },
+  "location": {
+    "countryCode": "US",
+    "city": "Albuquerque"
+  },
+  "messageCount": 11,
+  "chatDuration": 1073,
+  "rating": 0,
+  "createdOn": "2025-10-09T17:04:07.787Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-09T17:04:07.787Z",
+      "msg": "Nome : ISG/Massango\r\nTelefone : 258875043363\r\nE-mail : michelamassango463@gmail.com\r\nDescrição do Problema : Boa noite, a nossa factura nao aparece os dados dos clientes, mesmo com logotipo e dados da empresa preenchidos.\nem anexo um exemplo de uma  factura"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-09T17:04:27.255Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/68e7cca83ad4812025d27caa/v/17a50eba4efd72321613857ae2b93f4e6a8bdf9c/BSCOS_Factura_final_2.pdf",
+              "name": "BSCOS Factura final 2.pdf",
+              "mimeType": "application/pdf",
+              "size": 64363,
+              "extension": "pdf"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-09T17:04:49.923Z",
+      "msg": "Boa noite. Vou já verificar"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-09T17:06:43.943Z",
+      "msg": "A vossa empresa não tem um logotipo carregado",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/216d76a975c3e3c6a70fbbe2be1ae22e4d70c2cd/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 38293,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-09T17:07:24.630Z",
+      "msg": "E não tem os dados da empresa, no perfil da empresa"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-09T17:16:13.102Z",
+      "msg": "ja coloquei o logotipo, peco que verifique."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-09T17:17:49.875Z",
+      "msg": "Ainda não tem"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-09T17:20:03.329Z",
+      "msg": "Eu agora coloquei um logotipo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-09T17:20:08.383Z",
+      "msg": "e paareceu"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-10-09T17:20:23.844Z",
+      "msg": "Peço que tenha atenção ao adicionar"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-09T17:22:00.744Z",
+      "msg": "Nao percebi a sua mensagem."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

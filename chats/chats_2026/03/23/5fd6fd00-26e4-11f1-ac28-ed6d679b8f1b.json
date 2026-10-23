@@ -1,0 +1,54 @@
+{
+  "id": "5fd6fd00-26e4-11f1-ac28-ed6d679b8f1b",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Donatelo da Cruz",
+    "id": "5b081d4d8859f57bdc7b8ddd-HtZzJA7CwBewu7gPCVDjZ",
+    "email": "laurymiguel@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 4,
+  "chatDuration": 1445,
+  "rating": 0,
+  "createdOn": "2026-03-23T18:26:57.060Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:26:57.060Z",
+      "msg": "Nome : Donatelo da Cruz\r\nTelefone : 258856031375\r\nE-mail : donatelocruz5@gmail.com\r\nDescrição do Problema : Apos escolher o tipo de imovel nao passa para a proxima opcao"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:27:34.050Z",
+      "msg": "Um momento porfavor!"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:28:05.126Z",
+      "msg": "Boa noite, desculpa me a ma educacao"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-23T18:51:01.696Z",
+      "msg": "Antes disso tambem nao aparecia a opcao de pesquisa"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "c15d8de0-278a-11f1-b270-4dc7e07d0ee7",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "A Politecnica - TETE/Massingue",
+    "id": "5b081d4d8859f57bdc7b8ddd-5gjHEngE1P3hCs963_kF8",
+    "email": "argentinarodriguemassingue@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Beira"
+  },
+  "messageCount": 3,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-03-24T14:10:29.126Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-24T14:10:29.126Z",
+      "msg": "Nome : A Politecnica - TETE/Massingue\r\nTelefone : 258845810526\r\nE-mail : ecumbane@live.com\r\nDescrição do Problema : Boa tarde, segue-se o estagio em que o sistema estaa congelar e nao avanca"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-24T14:11:00.389Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69c29a903ad48120255ca61d/v/85c53812752856b4eb6ac6b554d794cfb5401889/IMG-20260324-WA0013.jpg",
+              "name": "IMG-20260324-WA0013.jpg",
+              "mimeType": "image/jpeg",
+              "size": 62145,
+              "extension": "jpg"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-24T14:14:22.899Z",
+      "msg": "Estamos aguardando vossa interacao"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

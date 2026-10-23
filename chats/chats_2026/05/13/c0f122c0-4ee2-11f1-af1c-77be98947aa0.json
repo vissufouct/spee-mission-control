@@ -1,0 +1,29 @@
+{
+  "id": "c0f122c0-4ee2-11f1-af1c-77be98947aa0",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Nilson",
+    "id": "5b081d4d8859f57bdc7b8ddd-dUK1LfwddCkJVYISGIpgk",
+    "email": "nilsonnovela@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-13T17:44:40.338Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-13T17:44:40.338Z",
+      "msg": "Nome : Nilson\r\nTelefone : 258842101075\r\nE-mail : nilsonnovela@gmail.com\r\nDescrição do Problema : Sou estudante da UDM, Simulacao empresarial e estou a ter dificuldade para enviar email dentro da plataforma. Simplesmente seca e nao avança para  o proximo passo."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

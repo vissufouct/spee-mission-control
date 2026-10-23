@@ -1,0 +1,69 @@
+{
+  "id": "490b6fa0-8e66-11f0-ba51-513b9c8ce5ae",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Armussagy comunicacao,lda",
+    "id": "5b081d4d8859f57bdc7b8ddd-o0w2j3XiqGOvVbn75turv",
+    "email": "elcidiarosamoises@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 4,
+  "chatDuration": 164,
+  "rating": 0,
+  "createdOn": "2025-09-10T17:32:14.410Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-10T17:32:14.410Z",
+      "msg": "Nome : Armussagy comunicacao,lda/4002807823\r\nDescrição do Problema : boa noite, como adicionar um artigo na proforma moz online"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-10T17:32:45.596Z",
+      "msg": "Boa noite, na projeção de preços"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-10T17:34:26.982Z",
+      "msg": "como chegar na projeção de preços"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-10T17:34:58.713Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/64f6eedf8e9c2021f8bef2d4/203e8941c21910ab8ad4995ed9659400a93096df/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 13386,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,94 @@
+{
+  "id": "96236fe0-3767-11f1-9a47-c795c19b6fbe",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "AD combustível e lubrificantes Lda",
+    "id": "5b081d4d8859f57bdc7b8ddd-RPlmm6FIzUyjYBE5AYTqa",
+    "email": "horaciomachangame@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 7,
+  "chatDuration": 1072,
+  "rating": 0,
+  "createdOn": "2026-04-13T18:42:35.764Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-13T18:42:35.764Z",
+      "msg": "Nome : ISCIM/Machangane\r\nE-mail : horaciomachangame@gmail.com\r\nDescrição do Problema : Qual e cadastro que tenho que faze"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-13T18:43:19.197Z",
+      "msg": "boa noite, tem alguma dificuldade com o sistema?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-13T18:43:35.586Z",
+      "msg": "sim"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-13T18:43:46.142Z",
+      "msg": "Qual?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-13T18:46:06.276Z",
+      "msg": "não  consigo  passar  para o 4",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69dd37823ad48120258cf8b8/v/b10fd5cccf3014af10b6895d75c68e504e539226/Screenshot_2026-04-13_204507.png",
+              "name": "Screenshot 2026-04-13 204507.png",
+              "mimeType": "image/png",
+              "size": 176416,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-13T18:52:03.525Z",
+      "msg": "um momento estamos verificando o problema"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-13T19:00:27.408Z",
+      "msg": "ok"
+    }
+  ],
+  "domain": "planodenegocios.simulacao.co.mz"
+}

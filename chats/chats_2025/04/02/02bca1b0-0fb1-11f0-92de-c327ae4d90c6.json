@@ -1,0 +1,47 @@
+{
+  "id": "02bca1b0-0fb1-11f0-92de-c327ae4d90c6",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "FranMan Lda Escritório",
+    "id": "5b081d4d8859f57bdc7b8ddd-ObFT0sWC36btrIr5REb2q",
+    "email": "mirciamanjate3@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 2367,
+  "rating": 0,
+  "createdOn": "2025-04-02T11:19:47.523Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-02T11:19:47.523Z",
+      "msg": "Nome : FranMan Lda/4002807788 Escritório\r\nE-mail : mirciamanjate3@gmail.com\r\nDescrição do Problema : logo na factura"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-02T11:58:37.588Z",
+      "msg": "Boa tarde"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-04-02T11:59:14.354Z",
+      "msg": "Colocou o logotipo no sgc?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

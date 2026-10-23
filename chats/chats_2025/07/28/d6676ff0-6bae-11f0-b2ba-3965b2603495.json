@@ -1,0 +1,29 @@
+{
+  "id": "d6676ff0-6bae-11f0-b2ba-3965b2603495",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "G&J Office Center",
+    "id": "5b081d4d8859f57bdc7b8ddd-zgl_t9Log8kZiOr2_V6AF",
+    "email": "josemanuelcome.jmc@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-07-28T13:13:27.421Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-07-28T13:13:27.421Z",
+      "msg": "Nome : G&J Office Center\r\nTelefone : 258865298555\r\nE-mail : josemanuelcome.jmc@gmail.com\r\nDescrição do Problema : Boa tarde docentes,\n\nProcedemos com a projeção de preços na semana transata, mas quando acedemos a loja online grossista os produtos ainda não se encontram disponíveis até hoje.\nAgradecemos que nos ajudem a solucionar, já pedimos o apoio de colegas mas não conseguimos a solução ainda.\nSalientar que os produtos estão visíveis na lista de artigos."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

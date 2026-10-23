@@ -1,0 +1,29 @@
+{
+  "id": "79e46a10-1a25-11f0-a100-2de8296b404a",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-wr76chOBwOpJNy9cI38rA",
+    "email": "jacquescirillo532@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-04-15T18:19:32.382Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-15T18:19:32.382Z",
+      "msg": "Nome : A Politecnica - MPT/Jacques\r\nE-mail : jacquescirillo532@gmail.com\r\nDescrição do Problema : boa noite colegas da informatica, esperoamos que estejam bem. estamos a mais de duas semana tentando trabalhar com o spee simulador mas nao tem sido possivel pois alguns Icon nao abrem, gostariamois de saber o que devemos fazer para podermos ter a plataforma a funcinar como deve ser pois, isso esta a contribuir para um fraco desempenho."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

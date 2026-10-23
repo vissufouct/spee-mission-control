@@ -1,0 +1,29 @@
+{
+  "id": "5aba04d0-5460-11f1-868e-2fda7d8dff8b",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Camil Harune Ibraim Hassane",
+    "id": "5b081d4d8859f57bdc7b8ddd-F9cQYXbR0SQvcTMEGsoBO",
+    "email": "camilharune7@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T15:31:18.593Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:31:18.593Z",
+      "msg": "Nome : Camil Harune Ibraim Hassane\r\nE-mail : camilharune7@gmail.com\r\nDescrição do Problema : Boa Tarde Docente"
+    }
+  ],
+  "domain": "planodenegocios.simulacao.co.mz"
+}

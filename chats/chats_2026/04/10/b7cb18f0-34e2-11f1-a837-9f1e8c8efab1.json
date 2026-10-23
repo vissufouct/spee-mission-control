@@ -1,0 +1,63 @@
+{
+  "id": "b7cb18f0-34e2-11f1-a837-9f1e8c8efab1",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-WBQ6Z0ISEquE9A5y2JnMU",
+    "email": "edfrancisco045@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Beira"
+  },
+  "messageCount": 5,
+  "chatDuration": 335,
+  "rating": 0,
+  "createdOn": "2026-04-10T13:43:41.981Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-10T13:43:41.981Z",
+      "msg": "Nome : Edvaldo Francisco\r\nTelefone : 258847007896\r\nE-mail : edfrancisco045@gmail.com\r\nDescrição do Problema : estou a tentar adicionar contrato de imobiliaria e não aceita, peço ajuda para resolver"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-10T13:44:52.268Z",
+      "msg": "Boa tarde, onde que esta a ter dificuldades?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-10T13:45:34.117Z",
+      "msg": "Na criação de contrato com imobiliaria"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-10T13:46:25.268Z",
+      "msg": "Clico para adicionar contrato e nada acontece"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-10T13:49:17.142Z",
+      "msg": "Primeiro clica em Search(pesquisar) coloca as propriedades do imobiliario e clica em escolher"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "975d28a0-032a-11f0-a8c9-4325816c7931",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Taimo",
+    "id": "5b081d4d8859f57bdc7b8ddd-mnQ0PraZm7fM_MoIoIkhl",
+    "email": "arturtaimo00@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 5,
+  "chatDuration": 127,
+  "rating": 0,
+  "createdOn": "2025-03-17T12:26:51.138Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:26:51.138Z",
+      "msg": "Nome : ISCIM/Taimo\r\nE-mail : arturtaimo00@gmail.com\r\nDescrição do Problema : Estou com problema de senha oque faço ?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:27:11.467Z",
+      "msg": "esqueceu a senha?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:27:16.978Z",
+      "msg": "Sim"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:27:52.065Z",
+      "msg": "Sim esqueci"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:28:58.517Z",
+      "msg": "504b8db use esta senha"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

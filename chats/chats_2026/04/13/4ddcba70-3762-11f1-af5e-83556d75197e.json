@@ -1,0 +1,133 @@
+{
+  "id": "4ddcba70-3762-11f1-af5e-83556d75197e",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ARYOL MOTORS LDA",
+    "id": "5b081d4d8859f57bdc7b8ddd-lpKS_oLMmkA0ZLJpBVfMe",
+    "email": "armenioxerinda@gmail.com"
+  },
+  "location": {
+    "countryCode": "ZA",
+    "city": "Johannesburg"
+  },
+  "messageCount": 10,
+  "chatDuration": 397,
+  "rating": 0,
+  "createdOn": "2026-04-13T19:27:49.727Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-13T19:27:49.727Z",
+      "msg": "Nome : ARYOL MOTORS LDA\r\nTelefone : 258\r\nE-mail : armenioxerinda@gmail.com\r\nDescrição do Problema : Nao consigo recuperar o plano de negocio em edição"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-13T19:28:03.628Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69dd2ea53ad48120256fb7aa/v/e79a23c0738ea115acf03c24a115d8359a73fe9d/image.png",
+              "name": "image.png",
+              "mimeType": "image/png",
+              "size": 8809,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-13T19:28:26.787Z",
+      "msg": "Não consigo aceder a comentarios."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-13T19:30:14.548Z",
+      "msg": "Boa noite, o que acontece quando clica na opção?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-13T19:31:33.961Z",
+      "msg": "Não aceita abrir o documento anterior para a edição."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-13T19:31:35.548Z",
+      "msg": "Ao entrar em ver comentários, verá os planos criados e poderá entrar e continuar com a edição"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-13T19:32:10.292Z",
+      "msg": "Muito menos ver os planos criados."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-13T19:32:15.027Z",
+      "msg": "Peço clicar no ver comentários e mandar o print da tela"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-13T19:33:07.113Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69dd2ea53ad48120256fb7aa/v/b3e2b43a1d17aff3927afdb6553229295601a82a/image.png",
+              "name": "image.png",
+              "mimeType": "image/png",
+              "size": 10111,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-13T19:34:26.388Z",
+      "msg": "Um instante, em verificação"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

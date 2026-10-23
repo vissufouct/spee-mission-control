@@ -1,0 +1,29 @@
+{
+  "id": "d8541a90-d763-11f0-baf5-87c4affc79e6",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "UDM/Manjate",
+    "id": "5b081d4d8859f57bdc7b8ddd-iqOEAVZ1cOw0eoHJS2ezF",
+    "email": "amanjate09@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-12-12T14:19:44.516Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-12-12T14:19:44.516Z",
+      "msg": "Nome : UDM/Manjate\r\nE-mail : amanjate09@gmail.com\r\nDescrição do Problema : registo de stock"
+    }
+  ],
+  "domain": "sgc.simulacao.co.mz"
+}

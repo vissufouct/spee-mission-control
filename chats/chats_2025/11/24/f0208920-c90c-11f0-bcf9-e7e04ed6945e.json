@@ -1,0 +1,37 @@
+{
+  "id": "f0208920-c90c-11f0-bcf9-e7e04ed6945e",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Bulande",
+    "id": "5b081d4d8859f57bdc7b8ddd-xW8e_6Ivg2pMOkjn_ZE69",
+    "email": "yurensmithbulande@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-11-24T08:22:00.177Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-24T08:22:00.177Z",
+      "msg": "Nome : ISCIM/Bulande\r\nTelefone : 258876503165\r\nE-mail : yurensmithbulande@gmail.com\r\nDescrição do Problema : bom dia, nao consigo aceder ao Gestor Comercial"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-24T08:54:45.739Z",
+      "msg": "."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

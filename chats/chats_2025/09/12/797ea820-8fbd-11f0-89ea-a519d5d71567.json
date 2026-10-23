@@ -1,0 +1,38 @@
+{
+  "id": "797ea820-8fbd-11f0-89ea-a519d5d71567",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Nhanombe",
+    "id": "5b081d4d8859f57bdc7b8ddd-ZAEZqy8jvWa3sJTKWrsmK",
+    "email": "joaonhanombe@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 2,
+  "chatDuration": 98,
+  "rating": 0,
+  "createdOn": "2025-09-12T09:51:32.685Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-12T09:51:32.685Z",
+      "msg": "Nome : ISCIM/Nhanombe\r\nE-mail : joaonhanombe@gmail.com\r\nDescrição do Problema : Boa tarde gostaria de saber quanto custa para poder ter acesso a plataforma para dar formacoes?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-12T09:53:10.942Z",
+      "msg": "Bom dia \nPor favor, mande um email para o info@itis.ac.mz   informando o que precisa"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

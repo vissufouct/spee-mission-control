@@ -1,0 +1,129 @@
+{
+  "id": "207e8410-25a1-11f0-a1dc-13a7a6e179dd",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Cassimo",
+    "id": "5b081d4d8859f57bdc7b8ddd-JHEimNFn9RbaERTJaUwri",
+    "email": "garfochimica34@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 13,
+  "chatDuration": 2530,
+  "rating": 0,
+  "createdOn": "2025-04-30T09:16:30.986Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-30T09:16:30.986Z",
+      "msg": "Nome : Naira Cassimo\r\nTelefone : 845063123\r\nE-mail : nairacassimo448@gmail.com\r\nDescrição do Problema : Não consigo aceder a plataforma , diz que os meus dados estão  e inválidos ,tento mudar a minha senha mas não consigo, não recebo nenhum E- mail"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-04-30T09:17:27.917Z",
+      "msg": "Bom dia, é a primeira vez que isso acontece?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-30T09:17:44.147Z",
+      "msg": "nao"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-04-30T09:19:16.119Z",
+      "msg": "Mas já possui uma conta na plataforma certo?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-30T09:19:27.325Z",
+      "msg": "So conseguia ter acesso em só um computador , mas hoje nenhum aceita"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-30T09:20:34.759Z",
+      "msg": "Sim , ja tenho uma conta , mas com outrou E- mail"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-30T09:21:05.104Z",
+      "msg": "cassimo3@icloud.com"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-30T09:22:04.041Z",
+      "msg": "Tem como mudar E-mail de uma conta ja existente ?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-04-30T09:22:26.232Z",
+      "msg": "Ok, um momento"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-04-30T09:28:44.221Z",
+      "msg": "Pode tentar aceder agora usando essa senha: 31aa1dd"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-30T09:29:51.658Z",
+      "msg": "Esta bem , obrigada"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-30T09:30:46.218Z",
+      "msg": "ja consegui"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-04-30T09:58:41.204Z",
+      "msg": "Tenho como aceder do celular?"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

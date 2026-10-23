@@ -1,0 +1,29 @@
+{
+  "id": "22f0b500-6f16-11f1-a5b8-5137dc7eb5ae",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "L&J Cell lda Retail",
+    "id": "5b081d4d8859f57bdc7b8ddd-jAe66Xfa9gp_tMdNiFiRe",
+    "email": "judite.fumo@iscam.ac.mz"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-06-23T15:24:27.492Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-06-23T15:24:27.492Z",
+      "msg": "Name : L&J Cell lda Retail\r\nEmail : judite.fumo@iscam.ac.mz\r\nDescrição do Problema : retificar fatura com valores errados e quantidades erradas"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "0a070f90-290b-11f1-9a34-eb995f58b0d1",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Safira Acácio",
+    "id": "5b081d4d8859f57bdc7b8ddd-4wIdps08ufTkxkq8n8ZcS",
+    "email": "safiraacacio3@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 5,
+  "chatDuration": 321,
+  "rating": 0,
+  "createdOn": "2026-03-26T12:02:50.553Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-26T12:02:50.553Z",
+      "msg": "Nome : Safira Acácio\r\nTelefone : 258858173482\r\nE-mail : safiraacacio3@gmail.com\r\nDescrição do Problema : Saudações.\npeço ajuda para aceder aos dados contracto de água e telecpmunicações"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-26T12:03:44.883Z",
+      "msg": "Boa tarde qual a dificuldade que esta a ter?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-26T12:05:33.193Z",
+      "msg": "Na aba de água e telecomunicações semplesmente aparece início e sair, sem contratos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2026-03-26T12:07:19.203Z",
+      "msg": "Va ate perfil da empresa e aceda ao catalogo da empresa por esse butao como esta na imagem!",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/67bc6520a561be464e803d37/402346bcf306f9ef2248f8a2336e20a9c3ea3c8a/image.png",
+              "name": "image.png",
+              "extension": "png",
+              "size": 96353,
+              "mimeType": "image/png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-03-26T12:08:11.934Z",
+      "msg": "Certo"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

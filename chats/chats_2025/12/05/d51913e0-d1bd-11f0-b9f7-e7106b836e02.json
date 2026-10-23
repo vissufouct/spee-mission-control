@@ -1,0 +1,29 @@
+{
+  "id": "d51913e0-d1bd-11f0-b9f7-e7106b836e02",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISPG/Banze",
+    "id": "5b081d4d8859f57bdc7b8ddd-fORI2yRhjrBgZIAZ9BxMW",
+    "email": "edna.banze@spee.ac.mz"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-12-05T09:44:53.489Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-12-05T09:44:53.489Z",
+      "msg": "Nome : ISPG/Banze\r\nTelefone : 258863223838\r\nE-mail : ebanze116@gmail.com\r\nDescrição do Problema : Prezados,\n\nVenho por este meio reportar um problema que está a ocorrer no sistema SPEE. No módulo de Gestão Comercial, ao tentar aceder à opção de Movimentação, o sistema não apresenta qualquer informação para visualização.\n\nPeço a vossa verificação e resolução deste problema com a maior brevidade possível, uma vez que a funcionalidade é essencial para o acompanhamento das operações.\n\nFico a aguardar o vosso retorno."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

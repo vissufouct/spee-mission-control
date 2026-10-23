@@ -1,0 +1,72 @@
+{
+  "id": "f158a3e0-c6af-11f0-b247-e7ec41569efb",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-oKFIG79hdt81dA1gHpHMj",
+    "email": "joissewilson96@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 6,
+  "chatDuration": 639,
+  "rating": 0,
+  "createdOn": "2025-11-21T08:15:35.979Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-21T08:15:35.979Z",
+      "msg": "Nome : /\r\nTelefone : 258849042513\r\nE-mail : joissewilson96@gmail.com\r\nDescrição do Problema : o RH esta com problemas  eliminou todos os funcionarios"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-11-21T08:16:51.217Z",
+      "msg": "Bom dia\nPeço que aguarde um momento enquanto verifico o problema"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-11-21T08:20:06.282Z",
+      "msg": "Quantos funcionários tinha a tua empresa?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-21T08:23:46.881Z",
+      "msg": "31funcionarios"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-11-21T08:24:21.298Z",
+      "msg": "ontem desapareceu tudo ."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-11-21T08:26:14.833Z",
+      "msg": "certo"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

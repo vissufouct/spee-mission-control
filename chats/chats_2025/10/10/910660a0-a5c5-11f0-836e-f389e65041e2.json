@@ -1,0 +1,51 @@
+{
+  "id": "910660a0-a5c5-11f0-836e-f389e65041e2",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "DigitalX",
+    "id": "5b081d4d8859f57bdc7b8ddd-TUkYbsB6YoSnD4UiptcNj",
+    "email": "aduinaemilio@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Nampula"
+  },
+  "messageCount": 2,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-10-10T10:43:50.348Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-10T10:43:50.348Z",
+      "msg": "Nome : DigitalX\r\nTelefone : 258875016591\r\nE-mail : aduinaemilio@gmail.com\r\nDescrição do Problema : Ajuda"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-10-10T10:45:01.099Z",
+      "msg": "Quero que esses produtos estejam na moz online",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/68e8e2a83ad481202597b2e9/v/35c8a281748e209e2d772a59de25e4376ebd4fc3/033CB098-2161-4E15-916B-0B74CEAC4FB8.jpeg",
+              "name": "033CB098-2161-4E15-916B-0B74CEAC4FB8.jpeg",
+              "mimeType": "image/jpeg",
+              "size": 2250155,
+              "extension": "jpeg"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "7f0a3fd0-8710-11f0-869c-1fd75df43055",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISPG/Jose",
+    "id": "5b081d4d8859f57bdc7b8ddd-CNbiRb5dmTku5m7JILYrg",
+    "email": "jconstrucoes@spee.ac.mz"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 49,
+  "rating": 0,
+  "createdOn": "2025-09-01T08:52:28.683Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-01T08:52:28.683Z",
+      "msg": "Nome : ISPG/Jose\r\nE-mail : miltonangelo30@gmail.com\r\nDescrição do Problema : Boa tarde. Nao estou conseguindo aceder as lojas online. o sistema nao permite."
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shola"
+      },
+      "type": "msg",
+      "time": "2025-09-01T08:53:01.796Z",
+      "msg": "Bom dia, estamos a verificar o problema"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-01T08:53:17.618Z",
+      "msg": "Ta certo."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

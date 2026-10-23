@@ -1,0 +1,61 @@
+{
+  "id": "c69ad770-04ba-11f0-bf57-65bf978398d7",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/4002807785",
+    "id": "5b081d4d8859f57bdc7b8ddd-wbNQjVL5eUZBhVj_rWiOR",
+    "email": "octaviamatsinhepedro@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 117,
+  "rating": 0,
+  "createdOn": "2025-03-19T12:08:26.644Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-19T12:08:26.644Z",
+      "msg": "Nome : ISCIM/Luciano\r\nE-mail : octaviamatsinhepedro@gmail.com\r\nDescrição do Problema : sou estudante do iscim e não consigo aceder a loja dos ativos minimos"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-03-19T12:10:06.993Z",
+      "msg": "Boa tarde"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-03-19T12:10:23.570Z",
+      "msg": "logo apos aceder a plataforma, entrar para este campo. e depois voltar a tentar aceceder aos activos minimos",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "extension": "jpeg",
+              "size": 101550,
+              "name": "image.jpg",
+              "mimeType": "image/jpeg",
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/a/67bc6520a561be464e803d37/9d5709a4c39a501f6c5710c7c9d4b59a83aa19d4/image.jpg"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "94c63f90-5460-11f1-a14e-d3a97ffa47d9",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Daniela Rondão",
+    "id": "5b081d4d8859f57bdc7b8ddd-0zSkj8r4adhylLs1UTe0q",
+    "email": "danielarondao972@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T15:30:50.857Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T15:30:50.857Z",
+      "msg": "Nome : Daniela Rondão\r\nTelefone : 258872465410\r\nE-mail : danielarondao972@gmail.com\r\nDescrição do Problema : danielarondao972@gmail.com"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

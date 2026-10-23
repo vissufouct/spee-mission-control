@@ -1,0 +1,29 @@
+{
+  "id": "4f846f40-5467-11f1-bb8c-e7b731c4abf9",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Denise Sérgio Tivane",
+    "id": "5b081d4d8859f57bdc7b8ddd-pnsvNE9ehe3jnzlqZctcU",
+    "email": "tivanedenise@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2026-05-20T16:21:37.813Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-20T16:21:37.813Z",
+      "msg": "Nome : Denise Sérgio Tivane\r\nTelefone : 258871200767\r\nE-mail : tivanedenise@gmail.com\r\nDescrição do Problema : Spee"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

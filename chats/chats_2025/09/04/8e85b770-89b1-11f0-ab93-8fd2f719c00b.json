@@ -1,0 +1,29 @@
+{
+  "id": "8e85b770-89b1-11f0-ab93-8fd2f719c00b",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "Kelven Pascoal Maússe",
+    "id": "5b081d4d8859f57bdc7b8ddd-u0dd_ZwdSfJFWJIzG8cii",
+    "email": "kelvenpascualmausse1@gmail.com"
+  },
+  "location": {
+    "countryCode": "US",
+    "city": "Chicago"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-09-04T17:08:41.948Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-09-04T17:08:41.948Z",
+      "msg": "Nome : Kelven Pascoal Maússe\r\nTelefone : 258844585219\r\nE-mail : kelvenpascualmausse1@gmail.com\r\nDescrição do Problema : Realizamos o registo dos trabalhadores e apenas consta no painel de inicio que apresentam 25 trabalhadores, porem não contam na listagem dos Funcionarios."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

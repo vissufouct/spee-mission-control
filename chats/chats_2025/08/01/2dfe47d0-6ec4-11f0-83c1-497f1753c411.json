@@ -1,0 +1,47 @@
+{
+  "id": "2dfe47d0-6ec4-11f0-83c1-497f1753c411",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "[Docente]ISPT - Semestre 1 - 2023/Brito, António José abú Bacar",
+    "id": "5b081d4d8859f57bdc7b8ddd-orTvRyaqTEI6AIHgoKnN5",
+    "email": "antoniojabbrito@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 3,
+  "chatDuration": 924,
+  "rating": 0,
+  "createdOn": "2025-08-01T10:42:52.680Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-08-01T10:42:52.680Z",
+      "msg": "Nome : [Docente]ISPT - Semestre 1 - 2023/Brito, António José abú Bacar\r\nTelefone : 258868847428\r\nE-mail : antoniojabbrito@gmail.com\r\nDescrição do Problema : Boa tarde Ilustres Coordenadores do ITIS"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-01T10:50:58.206Z",
+      "msg": "Boa tarde, acabos de verificar que o docente nao possui um ciclo ativo!"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Evgueni"
+      },
+      "type": "msg",
+      "time": "2025-08-01T10:58:16.704Z",
+      "msg": "deve entrar contacto com a administracao do  para formalizar o pedido de abertura de novo ciclo, pois último ciclo funcional foi em 2023."
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

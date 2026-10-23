@@ -1,0 +1,55 @@
+{
+  "id": "8a450990-580f-11f1-bddb-1f1c7b4260ea",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "António",
+    "id": "5b081d4d8859f57bdc7b8ddd-xR_L2aEhkveLtoIIn6hTW",
+    "email": "eusamatsimbe@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 4,
+  "chatDuration": 1467,
+  "rating": 0,
+  "createdOn": "2026-05-25T09:10:25.076Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-25T09:10:25.076Z",
+      "msg": "Nome : António\r\nTelefone : 258844338510\r\nE-mail : eusamatsimbe@gmail.com\r\nDescrição do Problema : Bom dia, nao consigo anexar documentos no email"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-25T09:11:13.959Z",
+      "msg": "bom dia, um momento Porfavor vamos verificar o problema"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-05-25T09:15:22.659Z",
+      "msg": "Qual e a dificuldade que esta a enfrentar?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-05-25T09:34:51.650Z",
+      "msg": "Nao consigo anexar os documentos no email"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

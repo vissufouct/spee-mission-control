@@ -1,0 +1,29 @@
+{
+  "id": "9638baf0-032c-11f0-a53e-8b337075b2bd",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "ISCIM/Taimo",
+    "id": "5b081d4d8859f57bdc7b8ddd-mnQ0PraZm7fM_MoIoIkhl",
+    "email": "arturtaimo00@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Unknown"
+  },
+  "messageCount": 1,
+  "chatDuration": 0,
+  "rating": 0,
+  "createdOn": "2025-03-17T12:39:31.425Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2025-03-17T12:39:31.425Z",
+      "msg": "Estou tendo um outro problema não consigo alcançar as províncias da região de Moçambique"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

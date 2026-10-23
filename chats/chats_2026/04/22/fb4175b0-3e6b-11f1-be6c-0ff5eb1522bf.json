@@ -1,0 +1,169 @@
+{
+  "id": "fb4175b0-3e6b-11f1-be6c-0ff5eb1522bf",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "VF Telecomunicacoes lda",
+    "id": "5b081d4d8859f57bdc7b8ddd-aMy48cA4iHwntAuTbrsFE",
+    "email": "vanessainguane5@gmail.com"
+  },
+  "location": {
+    "countryCode": "MZ",
+    "city": "Maputo"
+  },
+  "messageCount": 16,
+  "chatDuration": 1178,
+  "rating": 0,
+  "createdOn": "2026-04-22T17:19:51.545Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:19:51.545Z",
+      "msg": "Nome : VF Telecomunicacoes lda\r\nE-mail : vanessainguane5@gmail.com\r\nDescrição do Problema : boa noite estou tendo dificuldades para colocar logotipo nas facturas"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:21:20.942Z",
+      "msg": "Vai ate perfil da empresa no SGC e adiciona o logotipo da empresa, depois vai aparecer o logo tipo"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:22:32.677Z",
+      "msg": "estou nesse campo no momento e ele nao aceita colocar um logotipo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:23:06.331Z",
+      "msg": "Pode mostrar o print da tela?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:24:36.373Z",
+      "msg": "",
+      "attchs": [
+        {
+          "type": "file",
+          "content": {
+            "file": {
+              "url": "https://tawk.link/5b081d4d8859f57bdc7b8ddd/vc/69e8fd5c3ad4812025fd8c0f/v/e4dc6a6a7100a600c251e97213c38c22a1ea8b11/Capture.PNG",
+              "name": "Capture.PNG",
+              "mimeType": "image/png",
+              "size": 68666,
+              "extension": "png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:26:02.241Z",
+      "msg": "Quando clica na camera? Não faz uploaded da imagem?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:26:17.169Z",
+      "msg": "nao"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:26:36.150Z",
+      "msg": "ele nem da opcoes para upload"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:26:58.162Z",
+      "msg": "O que acontece quando clica na camera?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:27:04.442Z",
+      "msg": "nada"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:27:29.098Z",
+      "msg": "nao acontece nada. o sistema fica na mesma"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:28:07.424Z",
+      "msg": "Vamos ver do nosso lado, aguarde"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:28:50.446Z",
+      "msg": "certo"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Yahiko"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:38:55.840Z",
+      "msg": "Qual dispositivo que esta usar pra aceder ao sistema?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:39:23.614Z",
+      "msg": "pc"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-22T17:39:29.118Z",
+      "msg": "computador"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}

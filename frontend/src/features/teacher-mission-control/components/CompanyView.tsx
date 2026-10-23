@@ -1,0 +1,38 @@
+import { Check, Flag, ChevronRight } from 'lucide-react'
+import { Button } from '@/shared/components/ui/button'
+import type { Company, TeacherSnapshot } from '../types'
+import { companyProgress, companyAlerts, daysUntil, formatDay, aggregateStatus } from '../services/teacher.selectors'
+import { MetricCards } from './MetricCards'
+import { TeacherStatusBadge } from './TeacherStatusBadge'
+import { EventTrail } from './EventTrail'
+import '../styles.css'
+export function CompanyView({ company, snapshot, blockId, onBlock, onOpen, onContributions }: {
+  company: Company; snapshot: TeacherSnapshot; blockId: string; onBlock: (id: string) => void;
+  onOpen: (activityId: string, resultId?: string) => void; onContributions: () => void
+}) {
+  const activities = company.activities.filter(a => a.blockId === blockId)
+  const active = company.activities.filter(a => a.status === 'in-progress').length
+  const due = company.activities.filter(a => a.status !== 'completed' && a.status !== 'unavailable' && daysUntil(a.dueDate, snapshot.context.asOf) >= 0 && daysUntil(a.dueDate, snapshot.context.asOf) <= snapshot.context.dueSoonDays).length
+  return <div className="teacher-stack teacher-company-view">
+    {company.linkedToStudent && <p className="teacher-link-note">Empresa ligada ao Meu Percurso: estados e progresso lidos da mesma fonte do estudante.</p>}
+    <MetricCards items={[
+      { label: 'Progresso confirmado', value: companyProgress(company) + '%', icon: 'progress', tone: 'green' },
+      { label: 'Actividades em curso', value: active, icon: 'active', tone: 'blue' },
+      { label: 'Actividades com alertas', value: companyAlerts(company, snapshot).length, icon: 'alerts', tone: 'red' },
+      { label: 'Prazos próximos', value: due, icon: 'active', tone: 'amber' },
+    ]} />
+    <section className="spee-panel teacher-section">
+      <h2>Percurso da empresa</h2>
+      <div className="teacher-steps" aria-label="Blocos do percurso">{company.blocks.map((block, index) => {
+        const status = aggregateStatus(company.activities.filter(a => a.blockId === block.id))
+        return <button key={block.id} aria-pressed={blockId === block.id} onClick={() => onBlock(block.id)}><span className={'teacher-step-icon teacher-cell--' + status}>{status === 'completed' ? <Check size={23} /> : index === company.blocks.length - 1 ? <Flag size={23} /> : index + 1}</span><strong>{block.title}</strong><TeacherStatusBadge status={status} />{index < company.blocks.length - 1 && <ChevronRight className="teacher-step-arrow" size={19} />}</button>
+      })}</div>
+    </section>
+    <section className="spee-panel teacher-section">
+      <div className="teacher-section-heading"><h2>{company.blocks.find(b => b.id === blockId)?.title} <span className="teacher-muted">· Actividades</span></h2><Button variant="outline" size="sm" onClick={onContributions}>Contribuição e pista de actividade</Button></div>
+      <div className="teacher-table-scroll" tabIndex={0} role="region" aria-label="Actividades do bloco"><table className="teacher-table"><thead><tr><th>Actividade</th><th>Participantes</th><th>Estado</th><th>Prazo</th><th><span className="sr-only">Detalhe</span></th></tr></thead><tbody>{activities.map(activity => <tr key={activity.id}><th scope="row">{activity.title}<small>{activity.module}</small></th><td>{company.participants.filter(p => activity.participantIds.includes(p.id)).map(p => p.name).join(' + ') || 'Sem evidência'}</td><td><TeacherStatusBadge status={activity.status} /></td><td>{formatDay(activity.dueDate)}</td><td><Button variant="outline" size="sm" aria-label={'Ver ' + activity.title} onClick={() => onOpen(activity.id)}>Ver</Button></td></tr>)}</tbody></table></div>
+      {!activities.length && <p className="teacher-empty">Sem actividades neste bloco.</p>}
+    </section>
+    <section className="spee-panel teacher-section teacher-compact-trail"><div className="teacher-section-heading"><h2>Pista de actividade</h2><button className="teacher-text-link" onClick={onContributions}>Ver cronologia completa →</button></div><EventTrail company={company} events={[...company.events].sort((a,b) => b.occurredAt.localeCompare(a.occurredAt)).slice(0,3)} onOpen={onOpen} /></section>
+  </div>
+}

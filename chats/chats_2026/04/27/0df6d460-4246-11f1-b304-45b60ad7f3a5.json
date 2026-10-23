@@ -1,0 +1,46 @@
+{
+  "id": "0df6d460-4246-11f1-b304-45b60ad7f3a5",
+  "type": "chat",
+  "pageId": "5b081d4d8859f57bdc7b8ddd",
+  "visitor": {
+    "name": "/",
+    "id": "5b081d4d8859f57bdc7b8ddd-RR9ZqEKC0wew8ePLNCF7f",
+    "email": "fabiaomassingue05@gmail.com"
+  },
+  "location": {
+    "countryCode": "NA",
+    "city": "Windhoek"
+  },
+  "messageCount": 3,
+  "chatDuration": 201,
+  "rating": 0,
+  "createdOn": "2026-04-27T14:40:23.900Z",
+  "messages": [
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-27T14:40:23.900Z",
+      "msg": "Nome : /\r\nTelefone : 258\r\nE-mail : fabiaomassingue05@gmail.com\r\nDescrição do Problema : O MEU PLANO DE NEGOCIO N ACEUTA ACTUALIZAR N SEI PRK?"
+    },
+    {
+      "sender": {
+        "t": "a",
+        "n": "Shirley De Caifaz"
+      },
+      "type": "msg",
+      "time": "2026-04-27T14:43:06.238Z",
+      "msg": "Boa tarde, pode descrever melhor?"
+    },
+    {
+      "sender": {
+        "t": "v"
+      },
+      "type": "msg",
+      "time": "2026-04-27T14:43:45.222Z",
+      "msg": "COMO POSSO RECEBER O MEU STOCK NO ARMAZEM E VER QUANTO DE STOCK EU TENHO"
+    }
+  ],
+  "domain": "spee.simulacao.co.mz"
+}
