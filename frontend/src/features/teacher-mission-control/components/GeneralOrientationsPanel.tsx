@@ -12,6 +12,9 @@ export function GeneralOrientationsPanel({ snapshot }: { snapshot: TeacherSnapsh
   const [open, setOpen] = useState(false)
   const [feedback, setFeedback] = useState('')
   const mutation = useTeacherMutation()
+  const activityOptions = [...new Set(
+    snapshot.companies.flatMap(company => company.activities.map(activity => activity.title)),
+  )]
   const { register, handleSubmit, reset, formState: { errors } } = useForm<GeneralOrientationInput>({
     resolver: zodResolver(generalOrientationInputSchema),
     defaultValues: { classIds: snapshot.classes.map(item => item.id), activity: '', subject: '', message: '', reason: '' },
@@ -30,7 +33,7 @@ export function GeneralOrientationsPanel({ snapshot }: { snapshot: TeacherSnapsh
     <Dialog open={open} onOpenChange={value => { if (!mutation.isPending) setOpen(value) }} title="Nova orientação geral" description="A mensagem ficará visível no cenário local das turmas seleccionadas.">
       <form className="teacher-form" onSubmit={handleSubmit(publish)}>
         <fieldset className="teacher-class-selection"><legend>Turmas destinatárias</legend>{snapshot.classes.map(item => <label key={item.id}><input type="checkbox" value={item.id} {...register('classIds')} />{item.name} · {item.subject}</label>)}{errors.classIds && <span role="alert">{errors.classIds.message}</span>}</fieldset>
-        <label>Actividade ou tema<input {...register('activity')} aria-invalid={!!errors.activity} />{errors.activity && <span role="alert">{errors.activity.message}</span>}</label>
+        <label>Actividade<select {...register('activity')} aria-label="Actividade" aria-invalid={!!errors.activity}><option value="">Seleccione uma actividade</option>{activityOptions.map(activity => <option key={activity} value={activity}>{activity}</option>)}</select>{errors.activity && <span role="alert">{errors.activity.message}</span>}</label>
         <label>Assunto<input {...register('subject')} aria-invalid={!!errors.subject} />{errors.subject && <span role="alert">{errors.subject.message}</span>}</label>
         <label>Orientação<textarea rows={5} {...register('message')} aria-invalid={!!errors.message} />{errors.message && <span role="alert">{errors.message.message}</span>}</label>
         <label>Motivo<textarea rows={3} {...register('reason')} aria-invalid={!!errors.reason} />{errors.reason && <span role="alert">{errors.reason.message}</span>}</label>

@@ -57,7 +57,7 @@ export const orientationRequestSchema = z.object({
 })
 export const generalOrientationInputSchema = z.object({
   classIds: z.array(z.string()).min(1, 'Seleccione pelo menos uma turma.'),
-  activity: z.string().trim().min(3, 'Indique a actividade ou o tema.'),
+  activity: z.string().trim().min(3, 'Seleccione uma actividade.'),
   subject: z.string().trim().min(3, 'Indique um assunto.').max(100, 'Utilize até 100 caracteres.'),
   message: z.string().trim().min(10, 'Descreva a orientação com pelo menos 10 caracteres.').max(2000),
   reason: z.string().trim().min(10, 'Explique o motivo com pelo menos 10 caracteres.').max(1000),
