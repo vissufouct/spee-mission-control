@@ -12,7 +12,7 @@ export function OrientationForm({ company, initial, pending, error, onSave, onCa
     defaultValues: initial ?? { companyId: company.id, activityId: company.activities.find(a => a.blockId === company.currentBlockId)?.id, subject: '', message: '', reason: '' },
   })
   return <form className="teacher-form" onSubmit={handleSubmit(onSave)}>
-    <p className="teacher-link-note">Rascunho privado neste browser. Registar a orientação não envia mensagens nem altera o trabalho do estudante.</p>
+    <p className="teacher-link-note">Prepare um rascunho antes de publicar a orientação no cenário local desta empresa. A publicação não altera o progresso.</p>
     <label>Actividade<select {...register('activityId')} disabled={pending}>{company.activities.map(a => <option value={a.id} key={a.id}>{a.title}</option>)}</select></label>
     <label>Assunto<input {...register('subject')} aria-invalid={!!errors.subject} aria-describedby={errors.subject ? 'subject-error' : undefined} disabled={pending} /></label>
     {errors.subject && <p id="subject-error" role="alert">{errors.subject.message}</p>}

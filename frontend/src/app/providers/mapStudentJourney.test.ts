@@ -24,11 +24,11 @@ describe('origem comum estudante/docente', () => {
     expect(linked.results.find(r => r.activityId === 'registar-empresa')?.reference).toBe((await student.getSnapshot()).registration?.receiptNumber)
     expect(linked.events.filter(e => e.role === 'student')).toHaveLength(3)
   })
-  it('sem rascunho volta a disponível; não atribui autoria a estados iniciais', async () => {
+  it('sem rascunho volta a por iniciar; não atribui autoria a estados iniciais', async () => {
     const { student, teacher } = setup()
     await student.removeRegistration(0)
     const linked = (await teacher.getSnapshot()).companies.find(c => c.linkedToStudent)!
-    expect(linked.activities.find(a => a.id === 'registar-empresa')?.status).toBe('available')
+    expect(linked.activities.find(a => a.id === 'registar-empresa')?.status).toBe('not-started')
     expect(linked.events.filter(e => e.id.startsWith('source-initial')).every(e => e.role === 'system' && e.actorIds.length === 0)).toBe(true)
   })
 })

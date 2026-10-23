@@ -1,7 +1,7 @@
 # PRD do Mission Control — núcleo comum
 
-**Versão:** 0.3  
-**Data:** 22 de Outubro de 2026  
+**Versão:** 0.4
+**Data:** 23 de Outubro de 2026
 **Estado:** rascunho consolidado para validação  
 **Produto:** SPEE Mission Control  
 
@@ -17,10 +17,11 @@ Os dois protótipos permanecem separados e válidos. Apresentam perspectivas dif
 
 Este PRD aplica a seguinte ordem de autoridade:
 
-1. imagens mais recentes dos protótipos do estudante e do docente;
-2. imagens anteriores, apenas para capacidades que não tenham sido substituídas ou contrariadas;
-3. decisões registadas no transcript `Call with Leila Omar.docx`;
-4. requisitos transversais do backlog e da especificação do motor de processos.
+1. decisões explícitas mais recentes do utilizador e reuniões de validação posteriores aos protótipos;
+2. imagens mais recentes dos protótipos do estudante e do docente;
+3. imagens anteriores, apenas para capacidades que não tenham sido substituídas ou contrariadas;
+4. decisões registadas nos transcripts das reuniões;
+5. requisitos transversais do backlog e da especificação do motor de processos.
 
 Quando duas imagens apresentam designações ou comportamentos diferentes, a divergência não é resolvida por inferência. Fica registada em `PRD_03_Decisoes_Pendentes.md`.
 
@@ -87,6 +88,22 @@ As imagens actuais representam o seguinte núcleo comum:
 | Concluído | Todos os critérios exigidos foram confirmados | verde com marca de confirmação |
 
 Estados adicionais descritos no backlog — à espera de terceiro, submetido, aprovado, vencido e cancelado — carecem de correspondência visual e regras de apresentação aprovadas.
+
+### 5.1. Projecção de estados no Mission Control do docente
+
+Na validação de 23 de Outubro de 2026, a vista do docente foi simplificada para quatro estados visíveis: **Concluído**, **Em curso**, **Por iniciar** e **Bloqueado**. A correspondência é:
+
+| Estado de origem | Estado apresentado ao docente |
+|---|---|
+| Concluído | Concluído |
+| Em curso | Em curso |
+| Devolvido | Em curso |
+| Disponível | Por iniciar |
+| Não disponível | Por iniciar |
+| Por iniciar | Por iniciar |
+| Bloqueado | Bloqueado |
+
+Esta projecção simplifica a leitura pedagógica e não elimina o histórico da transição de origem. Uma devolução continua registada na pista de dados, mas surge como trabalho em curso no Mission Control do docente.
 
 ## 6. Regras de progresso
 

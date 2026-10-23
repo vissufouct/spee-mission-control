@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom'
+import { Link, useParams, useSearchParams } from 'react-router-dom'
 import { useTeacher } from '../hooks/useTeacher'
 import { TeacherLoadState } from '../components/TeacherLoadState'
 import { TeacherHeading } from '../components/TeacherHeading'
@@ -7,13 +7,14 @@ import { CompanyView } from '../components/CompanyView'
 import { ContributionView } from '../components/ContributionView'
 import { OrientationsPanel } from '../components/OrientationsPanel'
 import { ActivityDialog, type ActivitySelection } from '../components/ActivityDialog'
+import { OrientationRequestsDialog } from '../components/OrientationRequestsDialog'
 import { teacherPaths } from '../services/teacher.selectors'
 export function TeacherCompanyPage({ contributions = false }: { contributions?: boolean }) {
   const { companyId } = useParams()
   const query = useTeacher()
   const [params, setParams] = useSearchParams()
-  const navigate = useNavigate()
   const [selection, setSelection] = useState<ActivitySelection | null>(null)
+  const [requestsOpen, setRequestsOpen] = useState(false)
   if (query.isPending || query.isError) return <TeacherLoadState error={query.error?.message} onRetry={() => { void query.refetch() }} />
   const company = query.data.companies.find(c => c.id === companyId)
   const backParams = new URLSearchParams(params)
@@ -31,7 +32,8 @@ export function TeacherCompanyPage({ contributions = false }: { contributions?: 
       <Link className="teacher-text-link" to={contributions ? teacherPaths.company(company.id) + suffix(returnParams) : teacherPaths.home + suffix(backParams)}>{contributions ? '← Voltar ao percurso' : '← Voltar à turma'}</Link>
     </TeacherHeading>
     {contributions ? <ContributionView company={company} snapshot={query.data} category={category} onCategory={value => change('categoria', value)} onOpen={onOpen} />
-      : <><CompanyView company={company} snapshot={query.data} blockId={blockId} onBlock={id => change('bloco', id)} onOpen={onOpen} onContributions={() => navigate(teacherPaths.contribution(company.id) + suffix(params))} /><OrientationsPanel key={company.id} company={company} snapshot={query.data} /></>}
+      : <><CompanyView company={company} snapshot={query.data} blockId={blockId} onBlock={id => change('bloco', id)} onOpen={onOpen} onRequests={() => setRequestsOpen(true)} /><OrientationsPanel key={company.id} company={company} snapshot={query.data} /></>}
     <ActivityDialog company={company} selection={selection} onSelect={setSelection} />
+    <OrientationRequestsDialog snapshot={query.data} companyId={company.id} open={requestsOpen} onOpenChange={setRequestsOpen} />
   </div>
 }

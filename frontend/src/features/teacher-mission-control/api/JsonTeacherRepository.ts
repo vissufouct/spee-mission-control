@@ -1,6 +1,6 @@
-import { orientationInputSchema, teacherSnapshotSchema } from '../schemas/teacher.schema'
+import { generalOrientationInputSchema, orientationInputSchema, requestReplySchema, teacherSnapshotSchema } from '../schemas/teacher.schema'
 import type { LinkedCompanyReader, TeacherRepository } from '../services/TeacherRepository'
-import type { OrientationInput, TeacherSnapshot } from '../types'
+import type { GeneralOrientationInput, OrientationInput, RequestReply, TeacherSnapshot } from '../types'
 
 interface JsonStorage { getItem(key: string): string | null; setItem(key: string, value: string): void }
 const KEY = 'spee.teacher-mission-control.v1'
@@ -29,7 +29,7 @@ export class JsonTeacherRepository implements TeacherRepository {
   private write(snapshot: TeacherSnapshot) {
     const parsed = teacherSnapshotSchema.parse(snapshot)
     try { this.storage.setItem(KEY, JSON.stringify(parsed)) }
-    catch { throw new Error('Não foi possível guardar a orientação neste browser. Nenhuma alteração foi confirmada.') }
+    catch { throw new Error('Não foi possível guardar a alteração neste browser. Nenhuma alteração foi confirmada.') }
     return structuredClone(parsed)
   }
   private commit(revision: number, change: (snapshot: TeacherSnapshot) => void) {
@@ -86,6 +86,38 @@ export class JsonTeacherRepository implements TeacherRepository {
       note.status = 'recorded'
       note.updatedAt = new Date().toISOString()
       this.audit(snapshot, id, 'recorded', 'draft')
+    })
+  }
+  async replyToOrientationRequest(id: string, input: RequestReply, revision: number) {
+    const parsed = requestReplySchema.safeParse(input)
+    if (!parsed.success) throw new Error(parsed.error.issues[0].message)
+    return this.commit(revision, snapshot => {
+      const request = snapshot.orientationRequests.find(item => item.id === id)
+      if (!request) throw new Error('O pedido de orientação já não existe.')
+      if (request.status === 'concluded') throw new Error('Reabra o pedido antes de acrescentar uma resposta.')
+      const now = new Date().toISOString()
+      request.messages.push({ id: crypto.randomUUID(), role: 'teacher', author: snapshot.context.teacherName, message: parsed.data.message, occurredAt: now })
+      request.status = 'awaiting-student'
+      request.updatedAt = now
+    })
+  }
+  async concludeOrientationRequest(id: string, revision: number) {
+    return this.commit(revision, snapshot => {
+      const request = snapshot.orientationRequests.find(item => item.id === id)
+      if (!request) throw new Error('O pedido de orientação já não existe.')
+      const now = new Date().toISOString()
+      request.status = 'concluded'
+      request.concludedAt = now
+      request.updatedAt = now
+    })
+  }
+  async publishGeneralOrientation(input: GeneralOrientationInput, revision: number) {
+    const parsed = generalOrientationInputSchema.safeParse(input)
+    if (!parsed.success) throw new Error(parsed.error.issues[0].message)
+    return this.commit(revision, snapshot => {
+      if (!parsed.data.classIds.every(id => snapshot.classes.some(item => item.id === id)))
+        throw new Error('Seleccione apenas turmas disponíveis neste ciclo.')
+      snapshot.generalOrientations.push({ ...parsed.data, id: crypto.randomUUID(), author: snapshot.context.teacherName, createdAt: new Date().toISOString() })
     })
   }
   async reset() {

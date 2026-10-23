@@ -1,7 +1,7 @@
 # Registo de decisões do Mission Control
 
-**Versão:** 0.3  
-**Data:** 22 de Outubro de 2026  
+**Versão:** 0.4
+**Data:** 23 de Outubro de 2026
 **Finalidade:** manter decisões resolvidas e pendentes com resposta, responsável, data e impacto rastreáveis.  
 
 ## Como utilizar
@@ -18,7 +18,7 @@ Em cada decisão:
 
 | Estado | Quantidade actual |
 |---|---:|
-| Resolvidas | 6 |
+| Resolvidas | 9 |
 | Não resolvidas | 15 |
 
 ---
@@ -56,9 +56,9 @@ Em cada decisão:
 - **Data da decisão:** 20 de Outubro de 2026
 - **Resposta:**
 
-> Manter deslocamento vertical e horizontal em vez de depender de paginação visível.
+> Manter deslocamento vertical e horizontal e acrescentar controlos de navegação pelas colunas.
 
-- **Decisão final:** A matriz cresce para baixo e para a direita com barras de deslocamento; o acesso ao detalhe ocorre pelo ícone junto ao nome da empresa.
+- **Decisão final:** A matriz cresce para baixo e para a direita com barras de deslocamento. Acima da tabela existem controlos para avançar ou recuar uma coluna e para avançar ou recuar o conjunto de colunas visíveis, calculado segundo a largura disponível. O acesso ao detalhe ocorre pelo ícone junto ao nome da empresa.
 - **Impacto:** `PRD_01_Mission_Control_Docente.md` e protótipo docente.
 - **Evidência ou acta:** transcript e imagem `docente_v2_01_visao_geral`.
 
@@ -181,18 +181,18 @@ Em cada decisão:
 - **Impacto:** contrato de eventos, vista docente, transparência para estudantes e avaliação.
 - **Evidência ou acta:** o protótipo docente aceita vários participantes, mas não define a regra de atribuição.
 
-## DEC-013 — Catálogo e limiares de alertas docentes
+## DEC-013 — Alertas e pedidos de orientação
 
-- **Estado:** [x] Não resolvida  [ ] Resolvida
-- **Responsável:** ____________________
-- **Data-alvo:** ____________________
+- **Estado:** [ ] Não resolvida  [x] Resolvida
+- **Responsável:** equipa de produto
+- **Data da decisão:** 23 de Outubro de 2026
 - **Resposta:**
 
-> Definir quais alertas existem, o limiar de prazo, a prioridade e se a selecção filtra a matriz ou abre uma lista.
+> Substituir “Actividades com alertas” por “Pedidos de orientação”.
 
-- **Decisão final:** ____________________
-- **Impacto:** tile de alertas, filtros, notificações e fila de intervenção.
-- **Evidência ou acta:** o transcript rejeita exemplos de aprovação docente e tarefas sem responsável no cenário actual.
+- **Decisão final:** O indicador abre conversas iniciadas por estudantes e associadas a empresa e actividade. Bloqueios, devoluções e prazos não são convertidos automaticamente em pedidos. O contador representa apenas pedidos que aguardam resposta do docente.
+- **Impacto:** indicador da visão geral e da empresa, notificações, modelo de conversas e filtros.
+- **Evidência ou acta:** reunião de validação com Leila Omar, 23 de Outubro de 2026.
 
 ## DEC-014 — Catálogo e permissões de intervenção docente
 
@@ -233,18 +233,18 @@ Em cada decisão:
 - **Impacto:** vista docente, acessibilidade, relatórios e protecção de dados.
 - **Evidência ou acta:** o backlog prevê exportação; o transcript considera-a desnecessária e as imagens não a incluem.
 
-## DEC-017 — Estados adicionais e correspondência visual
+## DEC-017 — Estados visíveis e correspondência de Devolvido
 
-- **Estado:** [x] Não resolvida  [ ] Resolvida
-- **Responsável:** ____________________
-- **Data-alvo:** ____________________
+- **Estado:** [ ] Não resolvida  [x] Resolvida
+- **Responsável:** Vali Issufo
+- **Data da decisão:** 23 de Outubro de 2026
 - **Resposta:**
 
-> Definir apresentação e transições de “à espera de terceiro”, “submetido”, “aprovado”, “vencido” e “cancelado”.
+> Simplificar a vista docente e definir a correspondência de “Devolvido”.
 
-- **Decisão final:** ____________________
-- **Impacto:** modelo de estados, filtros, legenda e eventos.
-- **Evidência ou acta:** estes estados constam do backlog, mas não têm representação completa nas imagens actuais.
+- **Decisão final:** O Mission Control do docente apresenta apenas Concluído, Em curso, Por iniciar e Bloqueado. “Devolvido” passa para “Em curso”; “Disponível” e “Não disponível” aparecem como “Por iniciar”. O estado de origem permanece conservado na pista de dados.
+- **Impacto:** modelo de apresentação, filtros, legenda, matriz, percurso da empresa e compatibilidade com dados anteriores.
+- **Evidência ou acta:** reunião de validação de 23 de Outubro de 2026 e decisão explícita posterior de Vali Issufo.
 
 ## DEC-018 — Retenção, anonimização e uso pedagógico da pista
 
@@ -298,3 +298,42 @@ Em cada decisão:
 - **Impacto:** referências visuais dos PRDs comum, docente e estudante; cabeçalho, menu lateral, cores e acções dos sete ecrãs.
 - **Evidência ou acta:** pedido do utilizador e imagem guardada em `output/mockups/referencias/simulador_menu_2026-10-22.png`; séries em `output/mockups/docente_v3/` e `output/mockups/estudante_v4/`.
 - **Nota de revisão:** No exemplo docente, o contador foi reconciliado com os cinco participantes nomeados, e a tabela foi identificada como extracto. No modal concluído do estudante, o resumo do bloco foi actualizado para duas actividades concluídas e zero em curso. São correcções de coerência dos dados ilustrativos, sem alteração das regras pedagógicas ou resolução das decisões pendentes.
+
+## DEC-022 — Pedidos e orientações do docente
+
+- **Estado:** [ ] Não resolvida  [x] Resolvida
+- **Responsável:** equipa de produto
+- **Data da decisão:** 23 de Outubro de 2026
+- **Resposta:**
+
+> Associar cada pedido a empresa e actividade, permitir resposta contextual, conclusão manual e orientações proactivas.
+
+- **Decisão final:** Os pedidos são conversas com histórico e estados “aguarda docente”, “aguarda estudante” e “concluído”. O docente pode concluir manualmente uma conversa respondida presencialmente. Uma nova mensagem do estudante reactiva o pedido. O docente pode iniciar orientações para uma empresa ou para todas ou várias turmas.
+- **Impacto:** modelo JSON temporário, repository, indicadores, modais, painel da empresa e painel geral.
+- **Evidência ou acta:** reunião de validação com Leila Omar, 23 de Outubro de 2026.
+
+## DEC-023 — Gestão e visibilidade dos prazos docentes
+
+- **Estado:** [x] Não resolvida  [ ] Resolvida
+- **Responsável:** ____________________
+- **Data-alvo:** ____________________
+- **Resposta:**
+
+> Definir se os prazos permanecem na primeira versão e quem os configura, altera ou prolonga por turma ou grupo.
+
+- **Decisão final:** ____________________
+- **Impacto:** filtros, tabela de actividades, indicadores, Studio e permissões de gestão.
+- **Evidência ou acta:** a reunião reconheceu que apresentar prazos exige uma interface de gestão; não foi aprovada a sua retirada nem permanência definitiva.
+
+## DEC-024 — Futuro da contribuição e pista de actividade
+
+- **Estado:** [x] Não resolvida  [ ] Resolvida
+- **Responsável:** ____________________
+- **Data-alvo:** ____________________
+- **Resposta:**
+
+> Definir a utilidade pedagógica, granularidade, capacidade real de rastreio, retenção e permissões antes de voltar a expor a cronologia detalhada.
+
+- **Decisão final:** ____________________
+- **Impacto:** navegação docente, privacidade, modelo de eventos e relatórios.
+- **Evidência ou acta:** a vista e os seus acessos ficam ocultos na experiência corrente, mas os artefactos anteriores são preservados para decisão futura.

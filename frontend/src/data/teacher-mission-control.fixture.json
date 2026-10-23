@@ -35,6 +35,10 @@
   ],
   "milestones": [
     {
+      "id": "ideacao",
+      "title": "Ideação"
+    },
+    {
       "id": "constituicao",
       "title": "Constituição"
     },
@@ -53,6 +57,10 @@
     {
       "id": "fecho",
       "title": "Fecho"
+    },
+    {
+      "id": "relatorio",
+      "title": "Relatório final"
     }
   ],
   "companies": [
@@ -118,7 +126,7 @@
           "id": "definir-ideia",
           "title": "Definir a ideia de negócio",
           "blockId": "ideacao",
-          "milestone": "constituicao",
+          "milestone": "ideacao",
           "status": "completed",
           "participantIds": [
             "ana",
@@ -135,7 +143,7 @@
           "id": "modelo-negocio",
           "title": "Preparar o modelo de negócio",
           "blockId": "ideacao",
-          "milestone": "constituicao",
+          "milestone": "ideacao",
           "status": "completed",
           "participantIds": [
             "paulo"
@@ -366,7 +374,7 @@
           "id": "relatorio-0",
           "title": "Preparar relatório final",
           "blockId": "relatorio",
-          "milestone": "fecho",
+          "milestone": "relatorio",
           "status": "blocked",
           "participantIds": [],
           "dueDate": "2026-11-05",
@@ -378,7 +386,7 @@
           "id": "relatorio-1",
           "title": "Apresentar resultados",
           "blockId": "relatorio",
-          "milestone": "fecho",
+          "milestone": "relatorio",
           "status": "not-started",
           "participantIds": [],
           "dueDate": "2026-11-05",
@@ -1024,7 +1032,7 @@
           "id": "definir-ideia",
           "title": "Definir a ideia de negócio",
           "blockId": "ideacao",
-          "milestone": "constituicao",
+          "milestone": "ideacao",
           "status": "completed",
           "participantIds": [
             "ana",
@@ -1041,7 +1049,7 @@
           "id": "modelo-negocio",
           "title": "Preparar o modelo de negócio",
           "blockId": "ideacao",
-          "milestone": "constituicao",
+          "milestone": "ideacao",
           "status": "completed",
           "participantIds": [
             "paulo"
@@ -1221,7 +1229,7 @@
           "id": "relatorio-0",
           "title": "Preparar relatório final",
           "blockId": "relatorio",
-          "milestone": "fecho",
+          "milestone": "relatorio",
           "status": "unavailable",
           "participantIds": [],
           "dueDate": "2026-11-05",
@@ -1233,7 +1241,7 @@
           "id": "relatorio-1",
           "title": "Apresentar resultados",
           "blockId": "relatorio",
-          "milestone": "fecho",
+          "milestone": "relatorio",
           "status": "unavailable",
           "participantIds": [],
           "dueDate": "2026-11-05",
@@ -1454,7 +1462,7 @@
           "id": "definir-ideia",
           "title": "Definir a ideia de negócio",
           "blockId": "ideacao",
-          "milestone": "constituicao",
+          "milestone": "ideacao",
           "status": "completed",
           "participantIds": [
             "ana",
@@ -1471,7 +1479,7 @@
           "id": "modelo-negocio",
           "title": "Preparar o modelo de negócio",
           "blockId": "ideacao",
-          "milestone": "constituicao",
+          "milestone": "ideacao",
           "status": "completed",
           "participantIds": [
             "paulo"
@@ -1679,7 +1687,7 @@
           "id": "relatorio-0",
           "title": "Preparar relatório final",
           "blockId": "relatorio",
-          "milestone": "fecho",
+          "milestone": "relatorio",
           "status": "not-started",
           "participantIds": [],
           "dueDate": "2026-11-05",
@@ -1691,7 +1699,7 @@
           "id": "relatorio-1",
           "title": "Apresentar resultados",
           "blockId": "relatorio",
-          "milestone": "fecho",
+          "milestone": "relatorio",
           "status": "not-started",
           "participantIds": [],
           "dueDate": "2026-11-05",
@@ -2144,7 +2152,7 @@
           "id": "definir-ideia",
           "title": "Definir a ideia de negócio",
           "blockId": "ideacao",
-          "milestone": "constituicao",
+          "milestone": "ideacao",
           "status": "completed",
           "participantIds": [
             "ana",
@@ -2161,7 +2169,7 @@
           "id": "modelo-negocio",
           "title": "Preparar o modelo de negócio",
           "blockId": "ideacao",
-          "milestone": "constituicao",
+          "milestone": "ideacao",
           "status": "completed",
           "participantIds": [
             "paulo"
@@ -2350,7 +2358,7 @@
           "id": "relatorio-0",
           "title": "Preparar relatório final",
           "blockId": "relatorio",
-          "milestone": "fecho",
+          "milestone": "relatorio",
           "status": "not-started",
           "participantIds": [],
           "dueDate": "2026-11-05",
@@ -2362,7 +2370,7 @@
           "id": "relatorio-1",
           "title": "Apresentar resultados",
           "blockId": "relatorio",
-          "milestone": "fecho",
+          "milestone": "relatorio",
           "status": "not-started",
           "participantIds": [],
           "dueDate": "2026-11-05",
@@ -2660,7 +2668,7 @@
           "id": "definir-ideia",
           "title": "Definir a ideia de negócio",
           "blockId": "ideacao",
-          "milestone": "constituicao",
+          "milestone": "ideacao",
           "status": "completed",
           "participantIds": [
             "ana",
@@ -2677,7 +2685,7 @@
           "id": "modelo-negocio",
           "title": "Preparar o modelo de negócio",
           "blockId": "ideacao",
-          "milestone": "constituicao",
+          "milestone": "ideacao",
           "status": "completed",
           "participantIds": [
             "paulo"
@@ -2908,7 +2916,7 @@
           "id": "relatorio-0",
           "title": "Preparar relatório final",
           "blockId": "relatorio",
-          "milestone": "fecho",
+          "milestone": "relatorio",
           "status": "returned",
           "participantIds": [
             "ana",
@@ -2925,7 +2933,7 @@
           "id": "relatorio-1",
           "title": "Apresentar resultados",
           "blockId": "relatorio",
-          "milestone": "fecho",
+          "milestone": "relatorio",
           "status": "blocked",
           "participantIds": [],
           "dueDate": "2026-11-05",
@@ -3610,7 +3618,7 @@
           "id": "definir-ideia",
           "title": "Definir a ideia de negócio",
           "blockId": "ideacao",
-          "milestone": "constituicao",
+          "milestone": "ideacao",
           "status": "completed",
           "participantIds": [
             "ana",
@@ -3627,7 +3635,7 @@
           "id": "modelo-negocio",
           "title": "Preparar o modelo de negócio",
           "blockId": "ideacao",
-          "milestone": "constituicao",
+          "milestone": "ideacao",
           "status": "completed",
           "participantIds": [
             "paulo"
@@ -3844,7 +3852,7 @@
           "id": "relatorio-0",
           "title": "Preparar relatório final",
           "blockId": "relatorio",
-          "milestone": "fecho",
+          "milestone": "relatorio",
           "status": "not-started",
           "participantIds": [],
           "dueDate": "2026-11-05",
@@ -3856,7 +3864,7 @@
           "id": "relatorio-1",
           "title": "Apresentar resultados",
           "blockId": "relatorio",
-          "milestone": "fecho",
+          "milestone": "relatorio",
           "status": "not-started",
           "participantIds": [],
           "dueDate": "2026-11-05",
@@ -4386,7 +4394,7 @@
           "id": "definir-ideia",
           "title": "Definir a ideia de negócio",
           "blockId": "ideacao",
-          "milestone": "constituicao",
+          "milestone": "ideacao",
           "status": "completed",
           "participantIds": [
             "ana",
@@ -4403,7 +4411,7 @@
           "id": "modelo-negocio",
           "title": "Preparar o modelo de negócio",
           "blockId": "ideacao",
-          "milestone": "constituicao",
+          "milestone": "ideacao",
           "status": "completed",
           "participantIds": [
             "paulo"
@@ -4615,7 +4623,7 @@
           "id": "relatorio-0",
           "title": "Preparar relatório final",
           "blockId": "relatorio",
-          "milestone": "fecho",
+          "milestone": "relatorio",
           "status": "not-started",
           "participantIds": [],
           "dueDate": "2026-11-05",
@@ -4627,7 +4635,7 @@
           "id": "relatorio-1",
           "title": "Apresentar resultados",
           "blockId": "relatorio",
-          "milestone": "fecho",
+          "milestone": "relatorio",
           "status": "not-started",
           "participantIds": [],
           "dueDate": "2026-11-05",
@@ -5118,7 +5126,7 @@
           "id": "definir-ideia",
           "title": "Definir a ideia de negócio",
           "blockId": "ideacao",
-          "milestone": "constituicao",
+          "milestone": "ideacao",
           "status": "completed",
           "participantIds": [
             "ana",
@@ -5135,7 +5143,7 @@
           "id": "modelo-negocio",
           "title": "Preparar o modelo de negócio",
           "blockId": "ideacao",
-          "milestone": "constituicao",
+          "milestone": "ideacao",
           "status": "completed",
           "participantIds": [
             "paulo"
@@ -5333,7 +5341,7 @@
           "id": "relatorio-0",
           "title": "Preparar relatório final",
           "blockId": "relatorio",
-          "milestone": "fecho",
+          "milestone": "relatorio",
           "status": "not-started",
           "participantIds": [],
           "dueDate": "2026-11-05",
@@ -5345,7 +5353,7 @@
           "id": "relatorio-1",
           "title": "Apresentar resultados",
           "blockId": "relatorio",
-          "milestone": "fecho",
+          "milestone": "relatorio",
           "status": "not-started",
           "participantIds": [],
           "dueDate": "2026-11-05",
@@ -5720,7 +5728,7 @@
           "id": "definir-ideia",
           "title": "Definir a ideia de negócio",
           "blockId": "ideacao",
-          "milestone": "constituicao",
+          "milestone": "ideacao",
           "status": "completed",
           "participantIds": [
             "ana",
@@ -5737,7 +5745,7 @@
           "id": "modelo-negocio",
           "title": "Preparar o modelo de negócio",
           "blockId": "ideacao",
-          "milestone": "constituicao",
+          "milestone": "ideacao",
           "status": "completed",
           "participantIds": [
             "paulo"
@@ -5954,7 +5962,7 @@
           "id": "relatorio-0",
           "title": "Preparar relatório final",
           "blockId": "relatorio",
-          "milestone": "fecho",
+          "milestone": "relatorio",
           "status": "not-started",
           "participantIds": [],
           "dueDate": "2026-11-05",
@@ -5966,7 +5974,7 @@
           "id": "relatorio-1",
           "title": "Apresentar resultados",
           "blockId": "relatorio",
-          "milestone": "fecho",
+          "milestone": "relatorio",
           "status": "not-started",
           "participantIds": [],
           "dueDate": "2026-11-05",
@@ -6496,7 +6504,7 @@
           "id": "definir-ideia",
           "title": "Definir a ideia de negócio",
           "blockId": "ideacao",
-          "milestone": "constituicao",
+          "milestone": "ideacao",
           "status": "completed",
           "participantIds": [
             "ana",
@@ -6513,7 +6521,7 @@
           "id": "modelo-negocio",
           "title": "Preparar o modelo de negócio",
           "blockId": "ideacao",
-          "milestone": "constituicao",
+          "milestone": "ideacao",
           "status": "completed",
           "participantIds": [
             "paulo"
@@ -6707,7 +6715,7 @@
           "id": "relatorio-0",
           "title": "Preparar relatório final",
           "blockId": "relatorio",
-          "milestone": "fecho",
+          "milestone": "relatorio",
           "status": "not-started",
           "participantIds": [],
           "dueDate": "2026-11-05",
@@ -6719,7 +6727,7 @@
           "id": "relatorio-1",
           "title": "Apresentar resultados",
           "blockId": "relatorio",
-          "milestone": "fecho",
+          "milestone": "relatorio",
           "status": "not-started",
           "participantIds": [],
           "dueDate": "2026-11-05",
@@ -6996,5 +7004,93 @@
     }
   ],
   "orientations": [],
+  "orientationRequests": [
+    {
+      "id": "request-nova-geracao-iva",
+      "companyId": "nova-geracao",
+      "activityId": "ano1-3",
+      "subject": "Dúvida sobre a declaração de IVA",
+      "status": "awaiting-teacher",
+      "createdAt": "2026-10-22T08:15:00.000Z",
+      "updatedAt": "2026-10-22T08:15:00.000Z",
+      "concludedAt": null,
+      "messages": [
+        {
+          "id": "message-nova-geracao-iva-1",
+          "role": "student",
+          "author": "Amélia Mucavele",
+          "message": "Não conseguimos perceber que documentos devem sustentar o apuramento do IVA deste período.",
+          "occurredAt": "2026-10-22T08:15:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "request-horizonte-salarios",
+      "companyId": "horizonte-verde",
+      "activityId": "ano1-2",
+      "subject": "Processamento de salários bloqueado",
+      "status": "awaiting-student",
+      "createdAt": "2026-10-22T07:45:00.000Z",
+      "updatedAt": "2026-10-22T08:02:00.000Z",
+      "concludedAt": null,
+      "messages": [
+        {
+          "id": "message-horizonte-salarios-1",
+          "role": "student",
+          "author": "Celina Bila",
+          "message": "O sistema não permite avançar para o processamento de salários. Que actividade devemos concluir primeiro?",
+          "occurredAt": "2026-10-22T07:45:00.000Z"
+        },
+        {
+          "id": "message-horizonte-salarios-2",
+          "role": "teacher",
+          "author": "Vali Issufo",
+          "message": "Confirmem primeiro a constituição da empresa e o início de actividades. Depois voltem a abrir o módulo de recursos humanos.",
+          "occurredAt": "2026-10-22T08:02:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "request-indico-compras",
+      "companyId": "indico-servicos",
+      "activityId": "ano1-0",
+      "subject": "Confirmação da compra de mercadorias",
+      "status": "concluded",
+      "createdAt": "2026-10-21T14:20:00.000Z",
+      "updatedAt": "2026-10-21T15:05:00.000Z",
+      "concludedAt": "2026-10-21T15:05:00.000Z",
+      "messages": [
+        {
+          "id": "message-indico-compras-1",
+          "role": "student",
+          "author": "Rui Macamo",
+          "message": "A compra foi registada, mas ainda não aparece como concluída no percurso.",
+          "occurredAt": "2026-10-21T14:20:00.000Z"
+        },
+        {
+          "id": "message-indico-compras-2",
+          "role": "teacher",
+          "author": "Vali Issufo",
+          "message": "A evidência ficou sincronizada. Podem confirmar o resultado e prosseguir.",
+          "occurredAt": "2026-10-21T15:00:00.000Z"
+        }
+      ]
+    }
+  ],
+  "generalOrientations": [
+    {
+      "id": "general-orientation-salarios",
+      "classIds": [
+        "turma-a",
+        "turma-b"
+      ],
+      "activity": "Processamento de salários",
+      "subject": "Elementos necessários antes de processar salários",
+      "message": "Antes de iniciar o processamento, confirmem a constituição da empresa, os trabalhadores registados e o período salarial correcto.",
+      "reason": "Várias empresas apresentaram a mesma dúvida durante a sessão presencial.",
+      "author": "Vali Issufo",
+      "createdAt": "2026-10-22T08:30:00.000Z"
+    }
+  ],
   "audit": []
 }

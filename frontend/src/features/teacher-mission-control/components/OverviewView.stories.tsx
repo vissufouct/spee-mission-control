@@ -7,11 +7,11 @@ import { OverviewView } from './OverviewView'
 const snapshot = teacherSnapshotSchema.parse(fixture)
 function InteractiveOverview() {
   const [params, setParams] = useState(new URLSearchParams())
-  return <OverviewView snapshot={snapshot} filters={readFilters(params)} onChange={(key,value) => setParams(previous => { const next = new URLSearchParams(previous); next.set(key,value); return next })} onClear={() => setParams(new URLSearchParams())} onOpen={() => {}} />
+  return <OverviewView snapshot={snapshot} filters={readFilters(params)} onChange={(key,value) => setParams(previous => { const next = new URLSearchParams(previous); next.set(key,value); return next })} onClear={() => setParams(new URLSearchParams())} onOpen={() => {}} onRequests={() => {}} />
 }
 const meta = {
   title: 'Docente/Visão geral sem AppShell', component: OverviewView,
-  args: { snapshot, filters: readFilters(new URLSearchParams()), onChange: () => {}, onClear: () => {}, onOpen: () => {} },
+  args: { snapshot, filters: readFilters(new URLSearchParams()), onChange: () => {}, onClear: () => {}, onOpen: () => {}, onRequests: () => {} },
   parameters: { layout: 'padded' },
 } satisfies Meta<typeof OverviewView>
 export default meta

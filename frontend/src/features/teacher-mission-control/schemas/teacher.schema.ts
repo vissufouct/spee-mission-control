@@ -1,11 +1,18 @@
 import { z } from 'zod'
 
-export const statusSchema = z.enum(['completed', 'in-progress', 'available', 'not-started', 'blocked', 'returned', 'unavailable'])
+const legacyStatusSchema = z.enum(['completed', 'in-progress', 'available', 'not-started', 'blocked', 'returned', 'unavailable'])
+export const statusSchema = legacyStatusSchema.transform(status => {
+  if (status === 'returned') return 'in-progress' as const
+  if (status === 'available' || status === 'unavailable') return 'not-started' as const
+  return status
+})
 export const participantSchema = z.object({ id: z.string().min(1), name: z.string().min(1), initials: z.string().min(1) })
 export const activitySchema = z.object({
   id: z.string().min(1), title: z.string().min(1), blockId: z.string(), milestone: z.string(),
   status: statusSchema, participantIds: z.array(z.string()), dueDate: z.iso.date().nullable(),
   module: z.string(), nextStep: z.string(), resultIds: z.array(z.string()),
+  description: z.string().optional(), definitionOfDone: z.string().optional(),
+  dependencyIds: z.array(z.string()).default([]),
 })
 export const eventSchema = z.object({
   id: z.string().min(1), activityId: z.string(), occurredAt: z.iso.datetime(), actorIds: z.array(z.string()),
@@ -35,6 +42,29 @@ export const orientationSchema = orientationInputSchema.extend({
   id: z.string(), status: z.enum(['draft', 'recorded']), author: z.string(),
   createdAt: z.iso.datetime(), updatedAt: z.iso.datetime(),
 })
+export const requestReplySchema = z.object({
+  message: z.string().trim().min(3, 'Escreva uma resposta.').max(2000, 'Utilize até 2000 caracteres.'),
+})
+export const orientationMessageSchema = z.object({
+  id: z.string(), role: z.enum(['student', 'teacher']), author: z.string(),
+  message: z.string().min(1), occurredAt: z.iso.datetime(),
+})
+export const orientationRequestSchema = z.object({
+  id: z.string(), companyId: z.string(), activityId: z.string(), subject: z.string(),
+  status: z.enum(['awaiting-teacher', 'awaiting-student', 'concluded']),
+  createdAt: z.iso.datetime(), updatedAt: z.iso.datetime(), concludedAt: z.iso.datetime().nullable(),
+  messages: z.array(orientationMessageSchema).min(1),
+})
+export const generalOrientationInputSchema = z.object({
+  classIds: z.array(z.string()).min(1, 'Seleccione pelo menos uma turma.'),
+  activity: z.string().trim().min(3, 'Indique a actividade ou o tema.'),
+  subject: z.string().trim().min(3, 'Indique um assunto.').max(100, 'Utilize até 100 caracteres.'),
+  message: z.string().trim().min(10, 'Descreva a orientação com pelo menos 10 caracteres.').max(2000),
+  reason: z.string().trim().min(10, 'Explique o motivo com pelo menos 10 caracteres.').max(1000),
+})
+export const generalOrientationSchema = generalOrientationInputSchema.extend({
+  id: z.string(), author: z.string(), createdAt: z.iso.datetime(),
+})
 export const teacherSnapshotSchema = z.object({
   schemaVersion: z.literal(1), revision: z.number().int().nonnegative(),
   context: z.object({ teacherName: z.string(), asOf: z.iso.datetime(), updatedAt: z.iso.datetime(), dueSoonDays: z.number().int().min(1).max(30) }),
@@ -42,6 +72,8 @@ export const teacherSnapshotSchema = z.object({
   routes: z.array(z.object({ id: z.string(), name: z.string(), version: z.string() })).min(1),
   milestones: z.array(z.object({ id: z.string(), title: z.string() })).min(1),
   companies: z.array(companySchema), orientations: z.array(orientationSchema),
+  orientationRequests: z.array(orientationRequestSchema).default([]),
+  generalOrientations: z.array(generalOrientationSchema).default([]),
   audit: z.array(z.object({
     id: z.string(), orientationId: z.string(), companyId: z.string(), actor: z.string(),
     role: z.literal('teacher'), occurredAt: z.iso.datetime(), reason: z.string(),
@@ -49,7 +81,8 @@ export const teacherSnapshotSchema = z.object({
   })),
 }).superRefine((value, ctx) => {
   const unique = (ids: string[]) => new Set(ids).size === ids.length
-  if (!unique(value.companies.map(c => c.id)) || !unique(value.orientations.map(o => o.id)))
+  if (!unique(value.companies.map(c => c.id)) || !unique(value.orientations.map(o => o.id)) ||
+      !unique(value.orientationRequests.map(o => o.id)) || !unique(value.generalOrientations.map(o => o.id)))
     ctx.addIssue({ code: 'custom', message: 'Identificadores repetidos no cenário.' })
   for (const company of value.companies) {
     const activityIds = new Set(company.activities.map(a => a.id))
@@ -75,4 +108,10 @@ export const teacherSnapshotSchema = z.object({
   for (const note of value.orientations)
     if (!value.companies.some(c => c.id === note.companyId && c.activities.some(a => a.id === note.activityId)))
       ctx.addIssue({ code: 'custom', message: 'Orientação fora do contexto da empresa.' })
+  for (const request of value.orientationRequests)
+    if (!value.companies.some(c => c.id === request.companyId && c.activities.some(a => a.id === request.activityId)))
+      ctx.addIssue({ code: 'custom', message: 'Pedido de orientação fora do contexto da empresa.' })
+  for (const orientation of value.generalOrientations)
+    if (!orientation.classIds.every(id => value.classes.some(c => c.id === id)))
+      ctx.addIssue({ code: 'custom', message: 'Orientação geral dirigida a uma turma inexistente.' })
 })

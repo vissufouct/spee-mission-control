@@ -1,5 +1,10 @@
 import { getActivityStatus, type JourneySnapshot } from '@/features/student-journey'
-import type { Company, TeacherEvent } from '@/features/teacher-mission-control'
+import type { Company, TeacherEvent, TeacherStatus } from '@/features/teacher-mission-control'
+
+function toTeacherStatus(status: ReturnType<typeof getActivityStatus>): TeacherStatus {
+  if (status === 'available' || status === 'unavailable') return 'not-started'
+  return status
+}
 
 /** Read-only composition adapter: the teacher never maintains a second student state. */
 export function mapStudentJourney(source: JourneySnapshot, template: Company): Company {
@@ -14,12 +19,13 @@ export function mapStudentJourney(source: JourneySnapshot, template: Company): C
   company.activities = source.blocks.flatMap(block => block.activities.map(activity => {
     const metadata = template.activities.find(a => a.id === activity.id)
     return { id: activity.id, title: activity.title, blockId: block.id, milestone: metadata?.milestone ?? 'constituicao',
-      status: getActivityStatus(activity, source), participantIds: [], dueDate: metadata?.dueDate ?? null,
-      module: metadata?.module ?? 'Roteiro de Tarefas', nextStep: activity.reason || activity.description, resultIds: [] }
+      status: toTeacherStatus(getActivityStatus(activity, source)), participantIds: [], dueDate: metadata?.dueDate ?? null,
+      module: metadata?.module ?? 'Roteiro de Tarefas', nextStep: activity.reason || activity.description, resultIds: [],
+      description: activity.description, definitionOfDone: metadata?.definitionOfDone, dependencyIds: metadata?.dependencyIds ?? [] }
   }))
   const states: Record<string, TeacherEvent['newStatus']> = {
     'name.reserved': 'completed', 'registration.created': 'in-progress', 'registration.updated': 'in-progress',
-    'registration.removed': 'available', 'registration.confirmed': 'completed',
+    'registration.removed': 'not-started', 'registration.confirmed': 'completed',
   }
   for (const event of source.events) {
     const status = states[event.type]

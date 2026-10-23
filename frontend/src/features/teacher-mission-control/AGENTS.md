@@ -20,7 +20,9 @@ Os estados iniciais sem evento de origem são identificados como dados de cenár
 
 ## Orientações
 
-Apenas orientações locais: criar/editar/eliminar rascunhos e registar uma versão imutável. Exigir motivo e confirmação antes de eliminar ou registar; preservar histórico de eliminação. Não implementar envio real, reabertura, aprovação, alteração de estado ou substituição de trabalho do estudante sem requisitos e autoridade adicionais.
+Os pedidos de orientação são conversas simuladas no armazenamento local, associadas a empresa e actividade. Preservar mensagens e estados “aguarda docente”, “aguarda estudante” e “concluído”; responder ou concluir não altera actividades nem progresso. Uma integração futura substitui o repository sem reescrever os componentes.
+
+Para orientações proactivas, permitir rascunhos da empresa e publicação imutável no cenário local, com motivo e confirmação. Orientações gerais destinam-se a todas ou várias turmas e exigem actividade ou tema. Preservar histórico de eliminação e não implementar envio externo, aprovação, alteração de estado ou substituição de trabalho do estudante sem autoridade adicional.
 
 Verificar revisão antes da escrita. Erros de persistência nunca produzem falso sucesso. A auditoria local é demonstrativa, não inviolável.
 

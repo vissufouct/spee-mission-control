@@ -6,7 +6,7 @@ const snapshot = teacherSnapshotSchema.parse(fixture)
 const company = snapshot.companies.find(c => c.id === 'nova-geracao')!
 const meta = {
   title: 'Docente/Percurso sem AppShell', component: CompanyView,
-  args: { snapshot, company, blockId: 'primeiro-ano', onBlock: () => {}, onOpen: () => {}, onContributions: () => {} },
+  args: { snapshot, company, blockId: 'primeiro-ano', onBlock: () => {}, onOpen: () => {}, onRequests: () => {} },
   parameters: { layout: 'padded' },
 } satisfies Meta<typeof CompanyView>
 export default meta

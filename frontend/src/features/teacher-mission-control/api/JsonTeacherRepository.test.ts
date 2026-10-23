@@ -11,9 +11,35 @@ function setup() {
 describe('repository do docente', () => {
   it('valida fixtures e exige evidência para conclusões', () => {
     expect(teacherSnapshotSchema.safeParse(fixture).success).toBe(true)
+    const normalized = teacherSnapshotSchema.parse(fixture)
+    const statuses = normalized.companies.flatMap(company =>
+      company.activities.map(activity => activity.status),
+    )
+    expect(statuses).toContain('in-progress')
+    expect(statuses.every(status => ['completed', 'in-progress', 'not-started', 'blocked'].includes(status))).toBe(true)
     const invalid = structuredClone(fixture)
     invalid.companies[0].events = []
     expect(teacherSnapshotSchema.safeParse(invalid).success).toBe(false)
+  })
+  it('responde, encerra e preserva o histórico dos pedidos de orientação', async () => {
+    const { repo } = setup()
+    const initial = await repo.getSnapshot()
+    const id = 'request-nova-geracao-iva'
+    const replied = await repo.replyToOrientationRequest(id,{ message: 'Consultem a declaração e confirmem os documentos de suporte.' },initial.revision)
+    const request = replied.orientationRequests.find(item => item.id === id)!
+    expect(request.status).toBe('awaiting-student')
+    expect(request.messages.at(-1)?.role).toBe('teacher')
+    const concluded = await repo.concludeOrientationRequest(id,replied.revision)
+    expect(concluded.orientationRequests.find(item => item.id === id)?.status).toBe('concluded')
+    expect(concluded.orientationRequests.find(item => item.id === id)?.messages).toHaveLength(2)
+  })
+  it('publica orientações gerais apenas para turmas existentes', async () => {
+    const { repo } = setup()
+    const input = { classIds: ['turma-a','turma-b'], activity: 'Processamento de salários', subject: 'Preparar salários', message: 'Confirmem os trabalhadores e o período antes de processar.', reason: 'A mesma dúvida surgiu em várias empresas.' }
+    const initial = await repo.getSnapshot()
+    const published = await repo.publishGeneralOrientation(input,initial.revision)
+    expect(published.generalOrientations.at(-1)?.classIds).toEqual(['turma-a','turma-b'])
+    await expect(repo.publishGeneralOrientation({ ...input, classIds:['inexistente'] },published.revision)).rejects.toThrow('turmas')
   })
   it('cria, edita, confirma e conserva histórico sem mudar actividades', async () => {
     const { repo, storage } = setup()

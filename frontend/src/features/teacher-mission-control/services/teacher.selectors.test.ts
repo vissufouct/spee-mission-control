@@ -1,12 +1,12 @@
 import { describe, expect, it } from 'vitest'
 import fixture from '@/data/teacher-mission-control.fixture.json'
 import { teacherSnapshotSchema } from '../schemas/teacher.schema'
-import { aggregateStatus, companyProgress, contributionEvents, filterCompanies, readFilters, activityAlerts } from './teacher.selectors'
+import { aggregateStatus, companyProgress, contributionEvents, filterCompanies, readFilters, activityAlerts, pendingOrientationRequests } from './teacher.selectors'
 const snapshot = teacherSnapshotSchema.parse(fixture)
 const filters = (query: string) => readFilters(new URLSearchParams(query))
 describe('consulta do docente', () => {
-  it('separa as turmas e combina filtros por coluna com AND', () => {
-    expect(filterCompanies(snapshot,filters(''))).toHaveLength(8)
+  it('mostra todas as turmas e combina filtros por coluna com AND', () => {
+    expect(filterCompanies(snapshot,filters(''))).toHaveLength(10)
     expect(filterCompanies(snapshot,filters('turma=turma-b'))).toHaveLength(2)
     expect(filterCompanies(snapshot,filters('marco.constituicao=completed&marco.salarios=in-progress')).map(c => c.id)).toEqual(['nova-geracao'])
   })
@@ -15,20 +15,25 @@ describe('consulta do docente', () => {
     expect(filterCompanies(snapshot,filters('q=joao')).length).toBeGreaterThan(0)
     expect(filterCompanies(snapshot,filters('q=inexistente'))).toHaveLength(0)
   })
-  it('os alertas não incluem actividades concluídas ou indisponíveis', () => {
+  it('os alertas não incluem actividades concluídas', () => {
     const activity = snapshot.companies[0].activities[0]
     expect(activityAlerts(activity,snapshot)).toEqual([])
-    expect(activityAlerts({ ...activity, status:'unavailable' },snapshot)).toEqual([])
+    expect(activityAlerts({ ...activity, status:'not-started', dueDate: null },snapshot)).toEqual([])
     expect(activityAlerts({ ...activity, status:'blocked', dueDate: '2026-10-21' },snapshot)).toContain('Prazo ultrapassado')
     expect(activityAlerts({ ...activity, status:'in-progress', dueDate: '2026-10-24' },snapshot)).toEqual(['Prazo próximo'])
   })
-  it('só a conclusão conta para o progresso e devolução tem precedência no marco', () => {
+  it('só a conclusão conta para o progresso e devolvido é apresentado como em curso', () => {
     const company = snapshot.companies.find(c => c.id === 'nova-geracao')!
     expect(companyProgress(company)).toBe(47)
-    expect(aggregateStatus(company.activities.filter(a => a.milestone === 'fiscal'))).toBe('returned')
+    expect(aggregateStatus(company.activities.filter(a => a.milestone === 'fiscal'))).toBe('in-progress')
     const before = companyProgress(company)
     contributionEvents(company,'confirmed')
     expect(companyProgress(company)).toBe(before)
+  })
+  it('conta apenas pedidos que aguardam resposta do docente', () => {
+    expect(pendingOrientationRequests(snapshot)).toHaveLength(1)
+    expect(pendingOrientationRequests(snapshot,'nova-geracao')).toHaveLength(1)
+    expect(pendingOrientationRequests(snapshot,'horizonte-verde')).toHaveLength(0)
   })
   it('separa participação humana, colaboração e automação sem duplicar eventos', () => {
     const company = snapshot.companies[0]
