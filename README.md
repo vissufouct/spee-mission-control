@@ -2,7 +2,7 @@
 
 Área de trabalho do projecto SPEE, incluindo análises, documentação, protótipos e o frontend local para exploração e validação da experiência do Mission Control do Docente e do Estudante.
 
-Frontend publicado: [SPEE Mission Control](https://vissufouct.github.io/spee-helpdesk-analysis/).
+Frontend publicado: [SPEE Mission Control](https://vissufouct.github.io/spee-mission-control/).
 
 ## Organização
 
