@@ -10,7 +10,7 @@ tmp/
 .build_*/
 .qa_*/
 .codex-*/
-node_modules/
+node_modules
 
 # Artefactos locais do frontend
 frontend/node_modules/
