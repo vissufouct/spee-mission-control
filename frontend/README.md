@@ -2,6 +2,8 @@
 
 Frontend local para exploração da UX do **Mission Control do Docente** e do **Meu Percurso do Estudante**, em áreas separadas. Não existe backend, API, base de dados ou autenticação real. Os documentos e imagens anteriores do projecto foram preservados; a aplicação vive em `frontend/`.
 
+Versão publicada: [SPEE Mission Control no GitHub Pages](https://vissufouct.github.io/spee-helpdesk-analysis/).
+
 ## Executar
 
 Requisitos: Node.js **22.18+** e npm. Testado nesta máquina com Node 26.9.0.

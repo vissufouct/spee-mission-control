@@ -4,6 +4,8 @@ import { AppShell } from '../shell/AppShell'
 import { TeacherOverviewPage, TeacherCompanyPage, teacherPaths } from '@/features/teacher-mission-control'
 import { DevelopmentLandingPage } from '../landing/DevelopmentLandingPage'
 
+const basename = import.meta.env.BASE_URL.replace(/\/$/, '') || '/'
+
 export const router = createBrowserRouter([{
   path: '/',
   element: <DevelopmentLandingPage />,
@@ -32,4 +34,4 @@ export const router = createBrowserRouter([{
       </section>
     </main>
   ),
-}])
+}], { basename })
