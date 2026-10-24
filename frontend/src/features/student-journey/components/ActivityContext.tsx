@@ -19,13 +19,15 @@ export function ActivityContext({ activity, snapshot, onActivity, onCurrentActiv
         const status = getActivityStatus(item, snapshot)
         const label = status === 'completed' || status === 'blocked' ? 'Ver' : status === 'in-progress' ? 'Continuar actividade' : 'Iniciar actividade'
         const current = id === activity.id
-        return <div key={id} className="mb-4"><button type="button" className="text-left text-sm font-semibold text-blue-700 underline mb-2 disabled:no-underline disabled:text-slate-800" disabled={current || !onActivity} aria-current={current ? 'page' : undefined} onClick={() => onActivity?.(id)}>{item.title}</button><div><StatusBadge status={status} /></div><Button variant="outline" className="mt-3" aria-label={`${label}: ${item.title}`} disabled={current ? !onCurrentActivity : !onActivity} onClick={() => current ? onCurrentActivity?.() : onActivity?.(id)}>{label}</Button></div>
+        return <div key={id} className="mb-4"><button type="button" className="text-left text-sm font-semibold text-blue-700 underline mb-2 disabled:no-underline disabled:text-slate-800" disabled={current || !onActivity} aria-current={current ? 'page' : undefined} onClick={() => onActivity?.(id)}>{item.title}</button><div><StatusBadge status={status} /></div>
+          <section aria-label={`Participantes: ${item.title}`} className="mt-4 border-t border-slate-200 pt-3">
+            <div className="flex flex-wrap items-center gap-2"><h4 className="text-sm font-semibold">Participantes</h4>{!!item.simulatedParticipants?.length && <span className="rounded-full bg-amber-50 px-2 py-1 text-xs text-amber-800">Dados simulados</span>}</div>
+            {item.simulatedParticipants?.length ? <ul className="mt-2 space-y-3">{item.simulatedParticipants.map(person => <li key={person.name}><p className="text-sm font-semibold">{person.name}</p><p className="mt-1 text-xs leading-5 text-slate-600">{person.contribution}</p></li>)}</ul> : <p className="mt-2 text-xs text-slate-500">Sem participantes simulados nesta actividade.</p>}
+          </section>
+          <Button variant="outline" className="mt-3" aria-label={`${label}: ${item.title}`} disabled={current ? !onCurrentActivity : !onActivity} onClick={() => current ? onCurrentActivity?.() : onActivity?.(id)}>{label}</Button>
+        </div>
       }) : <p className="text-xs text-slate-500">Sem ligação definida.</p>}
     </div>)}</div>
-    <section aria-label="Participantes da actividade" className="mt-5">
-      <div className="flex flex-wrap items-center gap-2"><h4 className="font-semibold">Participantes da actividade</h4><span className="rounded-full bg-amber-50 px-2 py-1 text-xs text-amber-800">Dados simulados</span></div>
-      {activity.simulatedParticipants?.length ? <ul className="mt-3 grid gap-3 sm:grid-cols-3">{activity.simulatedParticipants.map(person => <li key={person.name} className="rounded-md border border-slate-200 p-4"><p className="text-sm font-semibold">{person.name}</p><p className="mt-1 text-sm text-slate-600">{person.contribution}</p></li>)}</ul> : <p className="mt-2 text-sm text-slate-500">Sem participantes simulados nesta actividade.</p>}
-      <p className="mt-2 text-xs text-slate-500">Exemplo fictício para validar a interface. A identificação e a participação reais serão definidas na integração com o simulador.</p>
-    </section>
+    <p className="mt-2 text-xs text-slate-500">Participantes fictícios para validar a interface. A identificação e a participação reais serão definidas na integração com o simulador.</p>
   </section>
 }
