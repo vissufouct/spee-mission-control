@@ -189,6 +189,8 @@ A aplicação inicial desta referência incide no detalhe da actividade do estud
 
 ### 9.2. Grupo de notificações na página da actividade
 
+O padrão visual aplica-se também ao Percurso completo: painéis brancos com cabeçalhos suaves, contornos claros, destaque azul no bloco actual e barras segmentadas por actividade. Manter consistência de tipografia, estados e espaçamento com o Meu Percurso, sem modificar menu lateral, header ou footer.
+
 O popup segue o mesmo padrão visual do conteúdo: contornos azul-cinza claros, cartões de fundo muito suave e cantos de 10 px, título compacto e hierarquia entre actividade, autor e mensagem. «Abrir conversa» é uma acção azul; «Marcar como resolvida» usa botão de contorno. Separadores têm ícones e badges, sem alterar as cores institucionais. O histórico fica num rodapé discreto. Limitar a altura à janela e deslocar apenas o conteúdo, mantendo título, fecho e separadores acessíveis. Os estilos são locais ao popup, sem afectar outros diálogos ou o shell.
 
 | ID | Critério de aceitação |

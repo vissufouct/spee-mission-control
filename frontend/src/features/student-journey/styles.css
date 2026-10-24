@@ -49,6 +49,23 @@
 .student-block-overview { display: flex; flex-wrap: wrap; align-items: center; gap: 20px 28px; margin-top: 16px; }
 .student-block-progress { flex: 1 1 300px; min-width: 0; }
 .student-block-overview > section { flex: 0 1 auto; max-width: 100%; }
+.student-full-journey { color: #132039; }
+.student-full-journey .spee-panel { border-color: #dce7f3; box-shadow: none; border-radius: 10px; }
+.student-full-block { border: 1px solid #dce7f3; border-radius: 10px; background: white; }
+.student-full-block--current { border-top: 3px solid #087eff; }
+.student-full-block-summary { display: flex; align-items: center; gap: 16px; padding: 20px; cursor: pointer; list-style: none; border-radius: 10px; background: #f7fbff; }
+.student-full-block-summary::-webkit-details-marker { display: none; }
+.student-full-block-summary:focus-visible, .student-full-activity:focus-visible { outline: 2px solid #076dd7; outline-offset: 2px; }
+.student-full-block-number { display: grid; place-items: center; width: 40px; height: 40px; flex-shrink: 0; border-radius: 50%; background: #edf6ff; color: #076dd7; font-size: 16px; font-weight: 600; }
+.student-full-block-title { font-size: 18px; font-weight: 650; color: #076dd7; }
+.student-full-block-title:hover { text-decoration: underline; }
+.student-full-current-label { border-radius: 20px; background: #edf6ff; color: #076dd7; padding: 3px 8px; font-size: 11px; }
+.student-full-block-state { display: flex; align-items: center; gap: 12px; }
+.student-full-activities { margin: 0 20px; }
+.student-full-activities > li { border-top: 1px solid #dce7f3; }
+.student-full-activity { display: flex; width: 100%; align-items: center; gap: 12px; padding: 16px 0; text-align: left; border-radius: 4px; }
+.student-full-activity:hover { background: #f7fbff; }
+@media (max-width: 600px) { .student-full-block-summary { flex-wrap: wrap; gap: 12px; padding: 16px; } .student-full-block-state { margin-left: auto; } .student-full-activity { flex-wrap: wrap; } .student-full-activity > span:first-child { flex-basis: 100%; } .student-full-activities { margin: 0 16px; } }
 .journey-field-label { display: block; margin-bottom: 7px; font-size: 13px; font-weight: 600; }
 .journey-field-input { width: 100%; border: 1px solid #cbd5e1; border-radius: 5px; padding: 10px 12px; min-height: 42px; font: inherit; font-size: 14px; background: white; }
 .journey-field-input:focus { outline: 2px solid #087eff; outline-offset: 1px; }

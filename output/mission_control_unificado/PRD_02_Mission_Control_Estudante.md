@@ -220,6 +220,8 @@ Aceitação: testar scroll, contexto e materiais por actividade, três pendênci
 
 ## 12. Anotações visuais posteriores — 24 de Outubro de 2026
 
+O Percurso completo segue a linguagem visual do Meu Percurso: painéis com contornos suaves, cabeçalhos de fundo claro, blocos numerados e destaque azul superior no bloco actual. Cada bloco mostra a contagem de concluídas e a barra segmentada mesmo quando recolhido; as actividades, com descrição e estado, pertencem ao mesmo painel, separadas por divisórias leves. Preservar a expansão/recolha, o bloco actual aberto inicialmente, as ligações ao Meu Percurso, a legenda e o acesso ao detalhe. Adaptar o conteúdo a ecrãs estreitos sem alterar o shell.
+
 A barra do bloco é segmentada: um segmento de igual largura por actividade, pela ordem da lista, independentemente do filtro seleccionado. Usar verde para Concluído, âmbar para Em curso, ciano para Por iniciar e cinzento para Bloqueado. Os segmentos não representam progresso parcial estimado: mostram apenas o estado de cada actividade. Manter a contagem de concluídas, identificar actividade/estado no texto acessível e actualizar segmentos ao mudar de bloco ou confirmar uma operação. No bloco vazio não apresentar segmentos. Não alterar a barra global.
 
 O popup de notificações adopta a linguagem visual aprovada: cartões suaves, contornos claros, tipografia compacta, separadores com ícones e badges e botões distintos para abrir conversa (azul) e resolver (contorno). Manter foco, teclado, estados de carregamento/erro, conteúdo integral e comportamento de resolução; o corpo tem deslocação interna em ecrãs pequenos.
