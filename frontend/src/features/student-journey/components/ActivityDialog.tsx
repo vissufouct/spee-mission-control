@@ -1,6 +1,6 @@
 import { ArrowRight, CheckCircle2, Circle, Clock3, FileText } from 'lucide-react'
 import { Dialog } from '@/shared/components/ui/dialog'
-import type { ReactNode } from 'react'
+import { useRef, type ReactNode } from 'react'
 import { Button } from '@/shared/components/ui/button'
 import { ActivityContext } from './ActivityContext'
 import { SupportMaterials } from './SupportMaterials'
@@ -13,6 +13,7 @@ function DetailContainer({ embedded, title, description, onClose, children }: { 
   return embedded ? <section className="spee-panel p-5"><p>{description}</p>{children}</section> : <Dialog open onOpenChange={open => { if (!open) onClose() }} title={title} description={description}>{children}</Dialog>
 }
 export function ActivityDialog({ activity, snapshot, onClose, onContinue, onActivity, embedded = false }: { activity: Activity | null; snapshot: JourneySnapshot; onClose: () => void; onContinue: () => void; onActivity?: (id: string) => void; embedded?: boolean }) {
+  const details = useRef<HTMLDivElement>(null)
   if (!activity) return null
   const status = getActivityStatus(activity, snapshot)
   const registration = activity.id === 'registar-empresa'
@@ -20,7 +21,8 @@ export function ActivityDialog({ activity, snapshot, onClose, onContinue, onActi
   const count = completed ? 3 : registrationSchema.safeParse(snapshot.registration?.data).success ? 1 : 0
   return <DetailContainer embedded={embedded} onClose={onClose} title={activity.title} description={activity.description}>
     <div className="mt-4"><StatusBadge status={status} />{registration && <p className="mt-3 text-sm text-blue-700">{count} de 3 critérios confirmados</p>}</div>
-    <ActivityContext activity={activity} snapshot={snapshot} onActivity={onActivity} />
+    <ActivityContext activity={activity} snapshot={snapshot} onActivity={onActivity} onCurrentActivity={() => { if (registration) onContinue(); else { details.current?.scrollIntoView({ block: 'start' }); details.current?.focus({ preventScroll: true }) } }} />
+    <div ref={details} tabIndex={-1}>
     {registration ? <>
       <h3 className="mb-3 mt-6 font-semibold">{completed ? 'O que foi confirmado' : 'Para concluir esta actividade'}</h3>
       <ul className="divide-y rounded-md border">{(activity.steps ?? ['Preencher os dados da empresa', 'Submeter o formulário de registo', 'Gerar os documentos de constituição']).map((label, index) => {
@@ -37,5 +39,6 @@ export function ActivityDialog({ activity, snapshot, onClose, onContinue, onActi
       <><h3 className="font-semibold text-slate-900">{activity.reason ?? 'Esta actividade está prevista no percurso.'}</h3><p className="mt-2">Nesta primeira iteração pode testar o fluxo completo de registo da empresa. A execução desta actividade será desenvolvida numa próxima iteração.</p></>}
     </div>}
     {!registration && <><h3 className="mt-6 font-semibold">Para concluir esta actividade</h3><ul className="list-disc pl-5 my-3 text-sm">{(activity.steps ?? [activity.description]).map(step => <li key={step}>{step}</li>)}</ul><SupportMaterials materials={activity.materials ?? []} /></>}
+    </div>
   </DetailContainer>
 }

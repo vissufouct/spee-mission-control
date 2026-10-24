@@ -23,6 +23,7 @@ test('navegação estável, cartões de contexto e materiais reais do protótipo
   await expect(page.getByText('Pesquisar a disponibilidade da denominação.')).toBeVisible()
   await expect(page.getByRole('link', { name: /Guia de registo da empresa/ })).toHaveCount(0)
   const popup = page.waitForEvent('popup')
+  await page.locator('summary').filter({ hasText: 'Materiais de apoio' }).click()
   await page.getByRole('link', { name: /Guia de reserva do nome/ }).click()
   const resource = await popup
   await expect(resource.getByRole('heading', { name: 'Guia de reserva do nome' })).toBeVisible()

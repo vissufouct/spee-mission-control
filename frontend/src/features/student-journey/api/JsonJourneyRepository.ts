@@ -23,6 +23,7 @@ export class JsonJourneyRepository implements JourneyRepository {
         const initial = this.seed.blocks.flatMap(b => b.activities).find(a => a.id === activity.id)
         if (initial) {
           activity.steps ??= structuredClone(initial.steps)
+          activity.simulatedParticipants ??= structuredClone(initial.simulatedParticipants)
           activity.materials ??= structuredClone(initial.materials)
           activity.previousIds ??= structuredClone(initial.previousIds)
           activity.nextIds ??= structuredClone(initial.nextIds)

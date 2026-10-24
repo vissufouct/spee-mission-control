@@ -94,6 +94,11 @@
         },
         {
           "id": "registar-empresa",
+          "simulatedParticipants": [
+            { "name": "Ana Machava", "contribution": "Preparação dos dados e preenchimento do formulário de registo." },
+            { "name": "João Tembe", "contribution": "Conferência do NUIT, da morada e do capital social." },
+            { "name": "António Sitoe", "contribution": "Revisão dos documentos necessários à constituição da empresa." }
+          ],
           "title": "Registar empresa",
           "description": "Submeter os elementos para registo da empresa.",
           "status": "in-progress",

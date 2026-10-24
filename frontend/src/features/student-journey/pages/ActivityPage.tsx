@@ -17,10 +17,10 @@ export function ActivityPage() {
   if (!activity || !block) return <section><h1>Actividade não encontrada</h1><Link preventScrollReset to={journeyPaths.home}>Voltar ao Meu Percurso</Link></section>
   return <div className="space-y-5">
     <nav aria-label="Navegação do percurso" className="flex flex-wrap gap-2 text-sm text-blue-700"><Link preventScrollReset to={journeyPaths.home}>Meu Percurso</Link><span>/</span><Link preventScrollReset to={journeyPaths.full}>Percurso completo</Link><span>/</span><Link preventScrollReset to={journeyPaths.home + '?bloco=' + block.id}>{block.title}</Link><span>/</span><span aria-current="page" className="text-slate-600">{activity.title}</span></nav>
-    <div className="student-heading-notifications"><h1 className="text-3xl font-semibold">{activity.title}</h1>
-      <div className="space-y-3"><NotificationBar snapshot={snapshot} />
+    <div className="space-y-5"><h1 className="text-3xl font-semibold">{activity.title}</h1>
+      <NotificationBar snapshot={snapshot}>
         <ConversationPanel key={activity.id + params.get('canal')} snapshot={snapshot} activityId={activity.id} initialOpen={params.has('canal')} initialChannel={params.get('canal') === 'group' ? 'group' : 'teacher'} />
-      </div>
+      </NotificationBar>
     </div>
     <ActivityDialog embedded activity={activity} snapshot={snapshot} onClose={() => navigate(journeyPaths.home)} onContinue={() => navigate(journeyPaths.registration)} onActivity={id => navigate(journeyPaths.activity(id), { preventScrollReset: true })} />
   </div>

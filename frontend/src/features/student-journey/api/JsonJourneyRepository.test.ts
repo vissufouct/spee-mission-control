@@ -28,6 +28,16 @@ describe('JsonJourneyRepository: contrato e invariantes', () => {
     expect(updated.revision).toBe(1)
     await expect(new JsonJourneyRepository(fixture, storage).getSnapshot()).resolves.toEqual(updated)
   })
+  it('acrescenta participantes simulados aos cenários antigos sem alterar progresso ou persistência', async () => {
+    const old = journeySnapshotSchema.parse(fixture)
+    for (const block of old.blocks) for (const activity of block.activities) delete activity.simulatedParticipants
+    const json = JSON.stringify(old)
+    store.set('spee.student-journey.v1', json)
+    const snapshot = await repository.getSnapshot()
+    expect(snapshot.blocks.flatMap(b => b.activities).find(a => a.id === 'registar-empresa')?.simulatedParticipants).toHaveLength(3)
+    expect(getProgress(snapshot)).toEqual(getProgress(old))
+    expect(store.get('spee.student-journey.v1')).toBe(json)
+  })
   it('confirmar actualiza resultado, evento e progresso como uma única operação', async () => {
     const confirmed = await repository.confirmRegistration(0)
     expect(confirmed.registration?.status).toBe('confirmed')

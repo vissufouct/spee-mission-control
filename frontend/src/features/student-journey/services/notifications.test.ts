@@ -9,6 +9,8 @@ describe('pré-visualizações pendentes', () => {
     const messages = ['antiga', 'resolvida', 'recente', 'propria'].map((id, i) => ({ id, activityId: 'registar-empresa', author: 'Vali Issufo', message: id, incoming: id !== 'propria', createdAt: new Date(2026, 9, 24, 10, i).toISOString() }))
     const pending = pendingNotifications(snapshot, messages, 'registar-empresa')
     expect(pending.teacher.map(m => m.id)).toEqual(['recente', 'antiga'])
+    expect(pending.teacher.every(m => m.activityTitle === 'Registar empresa')).toBe(true)
+    expect(pending.group[0].activityTitle).toBe('Registar empresa')
     expect(pending.group.map(m => m.id)).toEqual(['grupo-documentos'])
     expect(pendingNotifications(snapshot, messages, 'ano1-2').teacher).toEqual([])
     expect(messages[0].id).toBe('antiga')

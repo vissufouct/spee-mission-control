@@ -1,10 +1,11 @@
 import { ArrowRight, BookOpenCheck, GraduationCap, Presentation } from 'lucide-react'
+import { useState } from 'react'
+import { MissionControlIntroduction, type MissionControlRole } from './MissionControlIntroduction'
 import { Link } from 'react-router-dom'
-import { journeyPaths } from '@/features/student-journey'
-import { teacherPaths } from '@/features/teacher-mission-control'
 import './development-landing.css'
 
 export function DevelopmentLandingPage() {
+  const [introduction, setIntroduction] = useState<MissionControlRole | null>(null)
   return (
     <div className="development-landing">
       <header className="development-landing__header">
@@ -32,7 +33,7 @@ export function DevelopmentLandingPage() {
         </section>
 
         <nav className="development-landing__choices" aria-label="Escolher experiência do protótipo">
-          <Link className="development-choice development-choice--teacher" to={teacherPaths.home}>
+          <button type="button" className="development-choice development-choice--teacher text-left" aria-haspopup="dialog" onClick={() => setIntroduction('teacher')}>
             <span className="development-choice__topline">
               <span className="development-choice__icon" aria-hidden="true">
                 <Presentation size={26} strokeWidth={1.8} />
@@ -51,9 +52,9 @@ export function DevelopmentLandingPage() {
               Entrar como docente
               <ArrowRight size={18} aria-hidden="true" />
             </span>
-          </Link>
+          </button>
 
-          <Link className="development-choice development-choice--student" to={journeyPaths.home}>
+          <button type="button" className="development-choice development-choice--student text-left" aria-haspopup="dialog" onClick={() => setIntroduction('student')}>
             <span className="development-choice__topline">
               <span className="development-choice__icon" aria-hidden="true">
                 <GraduationCap size={26} strokeWidth={1.8} />
@@ -72,13 +73,16 @@ export function DevelopmentLandingPage() {
               Entrar como estudante
               <ArrowRight size={18} aria-hidden="true" />
             </span>
-          </Link>
+          </button>
+
         </nav>
 
         <p className="development-landing__note">
           Protótipo local · dados ilustrativos · sem autenticação real
         </p>
       </main>
+
+      <MissionControlIntroduction role={introduction} onClose={() => setIntroduction(null)} />
 
       <footer className="development-landing__footer">
         <span>ITIS — Instituto de Tecnologias, Inovação e Serviços</span>

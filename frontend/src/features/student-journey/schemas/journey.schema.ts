@@ -26,6 +26,7 @@ export const activitySchema = z.object({
   steps: z.array(z.string().min(1)).optional(),
   previousIds: z.array(z.string()).optional(), nextIds: z.array(z.string()).optional(),
   materials: z.array(supportMaterialSchema).optional(),
+  simulatedParticipants: z.array(z.object({ name: z.string().min(1), contribution: z.string().min(1) })).optional(),
 })
 export const journeySnapshotSchema = z.object({
   members: z.array(z.string().min(1)).default(['Ana Machava', 'João Tembe', 'António Sitoe']),
