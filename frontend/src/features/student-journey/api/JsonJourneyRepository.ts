@@ -17,9 +17,20 @@ export class JsonJourneyRepository implements JourneyRepository {
   private read() {
     try {
       const stored = this.storage.getItem(STORAGE_KEY)
-      return stored === null ? structuredClone(this.seed) : journeySnapshotSchema.parse(JSON.parse(stored))
+      const snapshot = stored === null ? structuredClone(this.seed) : journeySnapshotSchema.parse(JSON.parse(stored))
+      // Add only absent descriptive metadata to old scenarios; never replace user state or messages.
+      for (const block of snapshot.blocks) for (const activity of block.activities) {
+        const initial = this.seed.blocks.flatMap(b => b.activities).find(a => a.id === activity.id)
+        if (initial) {
+          activity.steps ??= structuredClone(initial.steps)
+          activity.materials ??= structuredClone(initial.materials)
+          activity.previousIds ??= structuredClone(initial.previousIds)
+          activity.nextIds ??= structuredClone(initial.nextIds)
+        }
+      }
+      return snapshot
     } catch {
-      throw new Error('Não foi possível ler os dados locais. Pode repor o cenário inicial; os dados actuais não foram alterados.')
+      throw new Error('Não foi possível ler os dados locais. Os dados actuais não foram alterados. Verifique o armazenamento do browser antes de tentar novamente.')
     }
   }
   async getSnapshot() { return this.read() }

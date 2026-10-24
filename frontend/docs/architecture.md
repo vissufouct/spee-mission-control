@@ -32,11 +32,11 @@ fixture JSON + JsonStorage injectado
 
 ## Persistência temporária
 
-**Decisão:** JSON inicial + localStorage serializado, sem servidor adicional. O browser não escreve automaticamente nos ficheiros JSON do projecto. Exportação/importação é a ponte explícita para ficheiros.
+**Decisão:** JSON inicial + localStorage serializado, sem servidor adicional. O browser não escreve automaticamente nos ficheiros JSON do projecto. Os contratos internos permitem exportação/importação para testes, mas estas ferramentas deixaram de estar expostas nas duas interfaces por decisão de 24 de Outubro de 2026.
 
 O contrato é assíncrono e injectado; apenas `AppProviders` conhece o fixture e o armazenamento real. O adaptador recebe uma interface mínima getItem/setItem; os testes injectam armazenamento em memória. Ler não altera dados. Mutações validam, verificam revisão, registam o evento e só devolvem sucesso após a escrita.
 
-A verificação de revisão evita dois pedidos obsoletos no mesmo contexto e detecta muitos casos de edição noutro separador; não constitui bloqueio distribuído. Não foi implementada sincronização multi-utilizador. A reposição explícita recupera dados corrompidos; uma leitura com erro nunca os apaga silenciosamente.
+A verificação de revisão evita dois pedidos obsoletos no mesmo contexto e detecta muitos casos de edição noutro separador; não constitui bloqueio distribuído. Não foi implementada sincronização multi-utilizador. A reposição continua disponível apenas no contrato de testes, não na interface. Uma leitura com erro nunca apaga dados silenciosamente; a UI apresenta erro e tentativa de leitura.
 
 JSON importado pode alterar estados do cenário para testar a UX. Não representa prova de execução real, classificação ou auditoria segura.
 
@@ -78,7 +78,7 @@ Testes/stories podem ler fixtures para preparar cenários isolados. Esta guarda 
 
 - Progresso de demonstração: peso uniforme por actividade, 3/17 → 4/17. A percentagem está em `shared/lib/progress.ts`, usada pelos selectores das duas features; não consolida a regra pedagógica.
 - Campos de registo e regras são uma simulação para testar formulários, não validação legal/tributária.
-- Confirmados são apenas de consulta; repetir a experiência exige repor/importar o cenário.
+- Confirmados são apenas de consulta; os testes usam armazenamento isolado para repetir a experiência. Não há controlos de reposição/importação na UI.
 - Blocos seguintes e módulos externos são contexto. Desbloqueios reais, co-operação entre sócios, permissões e integrações aguardam iterações próprias.
 - A identidade do shell é demonstrativa; não existe sessão/autenticação.
 - Os pontos pendentes dos PRDs continuam pendentes. A implementação não os transforma em decisões aprovadas.

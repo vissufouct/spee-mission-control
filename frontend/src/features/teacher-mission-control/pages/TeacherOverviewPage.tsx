@@ -22,7 +22,7 @@ export function TeacherOverviewPage() {
     return next
   }, { replace: true, preventScrollReset: true, flushSync: true })
   return <div className="teacher-page">
-    <TeacherHeading title="Mission Control do Docente" subtitle={subtitle} updatedAt={query.data.context.updatedAt} onRefresh={() => { void query.refetch() }} refreshing={query.isFetching} />
+    <TeacherHeading title="Mission Control do Docente" subtitle={subtitle} onRefresh={() => { void query.refetch() }} refreshing={query.isFetching} />
     <OverviewView snapshot={query.data} filters={filters} onChange={change} onClear={() => setParams({}, { replace: true, preventScrollReset: true, flushSync: true })} onRequests={() => setRequestsOpen(true)} onOpen={(id, milestone) => {
       const next = new URLSearchParams(params)
       if (milestone) next.set('bloco', query.data.companies.find(c => c.id === id)?.activities.find(a => a.milestone === milestone)?.blockId ?? '')

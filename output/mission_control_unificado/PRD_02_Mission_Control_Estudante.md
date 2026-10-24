@@ -1,6 +1,6 @@
 # PRD do Mission Control do Estudante
 
-**Versão:** 0.4
+**Versão:** 0.5
 **Data:** 24 de Outubro de 2026
 **Estado:** actualizado após reunião e decisões de 24 de Outubro de 2026
 **Depende de:** `PRD_00_Mission_Control_Comum.md`  
@@ -173,7 +173,7 @@ Fonte: reunião «Call with Leila Omar (2)», 0:51–13:39, e esclarecimentos po
 - MC-EST-025: disponibilizar «Voltar para o bloco actual»; desactivar a navegação sem destino nos extremos.
 - MC-EST-026: manter o percurso completo. O nome de cada bloco liga ao Meu Percurso com foco nesse bloco, independentemente do controlo de expandir/recolher.
 - MC-EST-027: usar páginas próprias para actividades e breadcrumbs funcionais com regresso ao bloco.
-- MC-EST-028: detalhe equivalente ao docente: descrição, definição de concluído, dependências, próximo passo, participantes e evidências/resultados disponíveis. Não inventar evidência.
+- MC-EST-028: contexto, passos de conclusão, materiais e resultados da actividade. A secção autónoma de detalhe foi retirada pela validação seguinte (MC-EST-043); a regra de participação permanece em aberto (DEC-012).
 - MC-EST-029: apresentar apenas Concluído, Em curso, Por iniciar e Bloqueado. Disponível/Não disponível correspondem a Por iniciar; Devolvido corresponde a Em curso. Preservar compatibilidade de leitura dos cenários antigos.
 
 ### Conversas e tarefas
@@ -198,3 +198,21 @@ Fonte: reunião «Call with Leila Omar (2)», 0:51–13:39, e esclarecimentos po
 Testar navegação e URL recarregável, comunicação estudante–docente nas duas direcções, reabertura de pedido, resolução persistente, tarefa concluída apenas pelo responsável e ausência de mensagens privadas na projecção docente. Verificar mobile e conteúdo sem AppShell.
 
 Persistência temporária no browser e fixtures JSON. A identidade é a do participante do cenário; não existe autenticação ou isolamento de segurança contra acesso manual ao armazenamento local. A futura API deve impor a autorização por empresa/canal/responsável. O fluxo operacional de registo continua funcional; os restantes módulos conservam o âmbito demonstrativo anterior.
+
+## 11. Continuação da validação de 24 de Outubro de 2026
+
+Fonte: «Call with Leila Omar (4)», gravação de 15m52s, e esclarecimentos posteriores de Vali Issufo. Prevalece sobre opções visuais anteriores em conflito.
+
+- MC-EST-041: preservar a posição do ecrã ao navegar entre blocos, aplicar filtros ou seleccionar actividades no mesmo tipo de página. Não repor o scroll no topo; aceitar apenas o ajuste natural ao comprimento da página de destino.
+- MC-EST-042: materiais de apoio com designação, descrição e ícone/rótulo PDF, Excel, Word, Vídeo ou Página Web. Abrir ligações disponíveis noutro separador, com indicação acessível; recursos sem ligação ficam explicitamente indisponíveis. Os recursos locais são ilustrativos, não manuais oficiais.
+- MC-EST-043: remover a secção separada «Detalhe da actividade». Preservar contexto, critérios/passos, resultados e materiais.
+- MC-EST-044: cartões de contexto navegáveis, actualizando actividade, critérios, materiais e conversas. Relações de precedência provêm dos dados; não inferir dependências pela posição numa lista.
+- MC-EST-045: participação permanece em aberto até à integração com o simulador (DEC-012). Não atribuir nomes por leitura, cliques, mensagens ou pertença à empresa. A localização futura é junto do cartão de cada actividade; não mostrar participantes em actividades não iniciadas.
+- MC-EST-046: chat docente partilhado por todos os membros da mesma empresa, com autoria identificada; mensagens do docente e dos estudantes distinguem-se por cores e rótulos de papel. A conversa privada do grupo continua inacessível ao docente.
+- MC-EST-047: título do pop-up «Conversas da actividade: <nome>». Manter separadores, badges e histórico progressivo.
+- MC-EST-048: substituir botões globais por cartões na zona direita do cabeçalho, no Meu Percurso, percurso completo e actividade; em ecrãs pequenos, empilhar. Incluir contador e até três pré-visualizações, ordenadas da mais recente para a mais antiga, exclusivamente de notificações pendentes do destinatário.
+- MC-EST-049: na actividade, acrescentar cartão contextual de conversas, com pré-visualizações pendentes apenas dessa actividade. Os cartões são acessos ao pop-up, não painéis permanentes de chat. Resolução explícita remove a pré-visualização e actualiza os contadores; não apaga mensagens.
+- MC-EST-050: retirar completamente as ferramentas de demonstração da interface do estudante e do docente: importação, exportação de cenário, reposição e indicadores «Dados locais guardados»/metadados do cenário. Não apagar dados existentes. Contratos internos de teste podem continuar a existir; conservar avisos necessários de dados ilustrativos.
+- MC-EST-051: redireccionamento de «Continuar actividade» para o simulador fica adiado, à espera das ligações reais. Preservar o fluxo local já existente, sem inventar integrações.
+
+Aceitação: testar scroll, contexto e materiais por actividade, três pendências mais recentes, resolução individual, autoria e cores por papel, ausência de ferramentas nos dois Mission Controls, dados antigos preservados, desktop/mobile e componentes sem AppShell.

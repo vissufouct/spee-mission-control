@@ -143,16 +143,14 @@ test('o mesmo registo passa de 18% a 24% nas duas perspectivas', async ({ page }
   await expect(page.getByRole('dialog')).toContainText('REG-')
 })
 
-test('erros locais são visíveis e a reposição exige confirmação', async ({ page }) => {
+test('erros locais são visíveis sem ferramentas de reposição', async ({ page }) => {
   await page.addInitScript(() => localStorage.setItem('spee.teacher-mission-control.v1','{invalido'))
   await page.goto(home)
   await expect(page.getByRole('alert')).toContainText('não foram alterados')
-  await page.getByRole('button', { name:'Repor cenário inicial', exact:true }).click()
-  await page.getByRole('button', { name:'Cancelar', exact:true }).click()
+  await expect(page.getByRole('button', { name: /Repor cenário/ })).toHaveCount(0)
+  await page.getByRole('button', { name: 'Tentar novamente' }).click()
   await expect(page.getByRole('alert')).toContainText('não foram alterados')
-  await page.getByRole('button', { name:'Repor cenário inicial', exact:true }).click()
-  await page.getByRole('button', { name:'Confirmar reposição', exact:true }).click()
-  await expect(page.getByRole('heading', { name:'Mission Control do Docente', exact:true })).toBeVisible()
+  expect(await page.evaluate(() => localStorage.getItem('spee.teacher-mission-control.v1'))).toBe('{invalido')
 })
 
 test('erro de escrita não fecha formulário nem anuncia sucesso', async ({ page }) => {

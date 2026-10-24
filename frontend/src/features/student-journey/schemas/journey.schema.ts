@@ -14,10 +14,18 @@ export const draftSchema = registrationSchema.extend({
   legalName: z.string().max(120), taxId: z.string().max(20), sector: z.string().max(160),
   address: z.string().max(200), email: z.string().max(200), capital: z.number().finite().min(0).max(1_000_000_000),
 })
+export const supportMaterialSchema = z.object({
+  title: z.string().min(1), description: z.string(),
+  format: z.enum(['pdf', 'excel', 'word', 'video', 'url']),
+  href: z.string().regex(/^(https:\/\/[^\s]+|apoio\/[a-z0-9-]+\.html)$/).optional(),
+})
 export const activitySchema = z.object({
   id: z.string().min(1), title: z.string().min(1), description: z.string(),
   status: activityStatusSchema, reason: z.string().optional(),
   definitionOfDone: z.string().optional(),
+  steps: z.array(z.string().min(1)).optional(),
+  previousIds: z.array(z.string()).optional(), nextIds: z.array(z.string()).optional(),
+  materials: z.array(supportMaterialSchema).optional(),
 })
 export const journeySnapshotSchema = z.object({
   members: z.array(z.string().min(1)).default(['Ana Machava', 'João Tembe', 'António Sitoe']),
@@ -45,6 +53,10 @@ export const journeySnapshotSchema = z.object({
   })),
 }).superRefine((value, ctx) => {
   const ids = value.blocks.flatMap(block => block.activities.map(activity => activity.id))
+  for (const activity of value.blocks.flatMap(block => block.activities)) {
+    if ([...(activity.previousIds ?? []), ...(activity.nextIds ?? [])].some(id => !ids.includes(id) || id === activity.id))
+      ctx.addIssue({ code: 'custom', message: 'Ligação de actividade inválida.' })
+  }
   if (new Set(value.groupMessages.map(m => m.id)).size !== value.groupMessages.length || value.groupMessages.some(m => !ids.includes(m.activityId) || !value.members.includes(m.author) || (m.assignee !== null && !value.members.includes(m.assignee)) || (m.doneAt !== null && m.assignee === null)))
     ctx.addIssue({ code: 'custom', message: 'Conversa ou tarefa fora do contexto da empresa.' })
   if (new Set(ids).size !== ids.length || new Set(value.blocks.map(block => block.id)).size !== value.blocks.length)

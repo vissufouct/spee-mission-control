@@ -1,16 +1,11 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import { useJourneyRepository } from './JourneyProvider'
 import type { RegistrationValues } from '../types'
-import { downloadJson } from '../services/download'
 
 const queryKey = ['student-journey'] as const
 export function useJourney() {
   const repository = useJourneyRepository()
   return useQuery({ queryKey, queryFn: () => repository.getSnapshot(), retry: false })
-}
-export function useScenarioExport() {
-  const repository = useJourneyRepository()
-  return async () => downloadJson(await repository.exportSnapshot(), 'spee-cenario.json')
 }
 type Command =
   | { type: 'group-message'; activityId: string; message: string; assignee: string | null; revision: number }

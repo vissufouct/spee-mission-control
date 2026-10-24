@@ -1,6 +1,6 @@
 # PRD do Mission Control do Docente
 
-**Versão:** 0.5
+**Versão:** 0.6
 **Data:** 24 de Outubro de 2026
 **Estado:** actualizado após validação funcional com Leila Omar
 **Depende de:** `PRD_00_Mission_Control_Comum.md`  
@@ -176,3 +176,9 @@ Decisão transversal de 24 de Outubro: o docente recebe apenas o canal de orient
 - Avaliação automática da qualidade da contribuição.
 - Comparação competitiva ou ranking entre estudantes e empresas.
 - Definição final dos limiares de prazo, catálogo de intervenções e política de retenção.
+
+## Continuação da validação de 24 de Outubro de 2026
+
+Retirar as ferramentas e metadados de demonstração do Mission Control do docente, incluindo a reposição de cenário no estado de erro. Preservar dados existentes, estados de erro e a acção funcional de actualizar dados. Os avisos de conteúdo ilustrativo não constituem ferramentas de demonstração.
+
+A conversa docente–empresa é visível e respondível por todos os membros dessa empresa, com autoria individual preservada. Não dar acesso ao canal privado do grupo. A definição de participação permanece adiada até à integração com o simulador (DEC-012); não alterar a atribuição de participação com base nas conversas.

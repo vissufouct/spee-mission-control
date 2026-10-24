@@ -92,6 +92,17 @@ describe('JsonJourneyRepository: contrato e invariantes', () => {
     await expect(repository.importSnapshot('x'.repeat(2_000_001), 2)).rejects.toThrow('Ficheiro inválido')
     expect(await repository.getSnapshot()).toEqual(imported)
   })
+  it('completa metadados ausentes de cenários antigos sem substituir dados guardados', async () => {
+    const old = structuredClone(fixture)
+    const json = JSON.stringify(old, (key, value) => ['materials', 'steps', 'previousIds', 'nextIds'].includes(key) ? undefined : value)
+    store.set('spee.student-journey.v1', json)
+    const snapshot = await repository.getSnapshot()
+    expect(snapshot.blocks[1].activities[1].materials?.length).toBe(2)
+    expect(snapshot.registration).toEqual(old.registration)
+    expect(snapshot.events).toEqual(old.events)
+    expect(snapshot.groupMessages).toEqual(old.groupMessages)
+    expect(store.get('spee.student-journey.v1')).toBe(json)
+  })
   it('rejeita IDs duplicados, bloco inexistente e confirmação sem comprovativo', async () => {
     const snapshot = await repository.getSnapshot()
     snapshot.blocks[0].activities[1].id = snapshot.blocks[0].activities[0].id

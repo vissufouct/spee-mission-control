@@ -1,6 +1,6 @@
 # Registo de decisões do Mission Control
 
-**Versão:** 0.5
+**Versão:** 0.6
 **Data:** 24 de Outubro de 2026
 **Finalidade:** manter decisões resolvidas e pendentes com resposta, responsável, data e impacto rastreáveis.  
 
@@ -18,7 +18,7 @@ Em cada decisão:
 
 | Estado | Quantidade actual |
 |---|---:|
-| Resolvidas | 10 |
+| Resolvidas | 12 |
 | Não resolvidas | 15 |
 
 ---
@@ -175,7 +175,7 @@ Em cada decisão:
 - **Data-alvo:** ____________________
 - **Resposta:**
 
-> Definir como distinguir autoria, preparação, validação, execução conjunta e automatização sem transformar ocorrências em ranking.
+> Definir como distinguir autoria, preparação, validação, execução conjunta e automatização sem transformar ocorrências em ranking. Em 24 de Outubro de 2026, Vali Issufo determinou que esta definição fica para a fase de integração com o simulador. Não inferir participação a partir de cliques, mensagens ou pertença ao grupo.
 
 - **Decisão final:** ____________________
 - **Impacto:** contrato de eventos, vista docente, transparência para estudantes e avaliação.
@@ -347,3 +347,23 @@ Em cada decisão:
 - **Decisão final:** navegação entre blocos com destinos dinâmicos e regresso ao bloco actual; actividades em páginas próprias; estados alinhados com o docente; dois canais por actividade. Tarefas têm responsável e indicação de feito, marcada apenas pelo responsável. Cada destinatário resolve as suas notificações. O docente não pode ver conversas do grupo. O detalhe da actividade pode ser equivalente ao docente.
 - **Impacto:** PRD estudante MC-EST-023–038, projecção comum de estados, composição entre repositories e testes de privacidade/colaboração. Consultar o PRD estudante para os critérios de aceitação e limites da persistência local.
 - **Evidência ou acta:** Call with Leila Omar (2).docx, 0:51–13:39, e esclarecimentos explícitos posteriores do utilizador.
+
+## DEC-026 — Conteúdo das pré-visualizações
+
+- **Estado:** [ ] Não resolvida  [x] Resolvida
+- **Responsável:** Vali Issufo
+- **Data da decisão:** 24 de Outubro de 2026
+- **Resposta e decisão final:** apenas notificações pendentes do destinatário; mostrar até três, mais recentes primeiro. Na actividade, distinguir cartões globais do cartão contextual. Resolver retira a pré-visualização, não elimina a mensagem.
+- **Impacto:** cartões, contadores e selecção de mensagens do estudante.
+- **Evidência:** esclarecimento explícito após análise de «Call with Leila Omar (4)».
+
+## DEC-027 — Retirada das ferramentas de demonstração
+
+- **Estado:** [ ] Não resolvida  [x] Resolvida
+- **Responsável:** Vali Issufo
+- **Data da decisão:** 24 de Outubro de 2026
+- **Resposta e decisão final:** retirar completamente da UI dos dois Mission Controls as ferramentas de demonstração, sem as transferir para outro menu. Preservar os dados existentes e os mecanismos internos de teste; manter a identificação de conteúdo ilustrativo quando necessária.
+- **Impacto:** cabeçalhos, importação/exportação/reposição de cenários e estados de erro.
+- **Evidência:** esclarecimento explícito após análise de «Call with Leila Omar (4)».
+
+A ligação de «Continuar actividade» ao simulador mantém-se dependente da integração e dos destinos reais (DEC-015); não é implementada nesta revisão.

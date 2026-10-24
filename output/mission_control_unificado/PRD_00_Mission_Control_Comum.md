@@ -1,6 +1,6 @@
 # PRD do Mission Control — núcleo comum
 
-**Versão:** 0.5
+**Versão:** 0.6
 **Data:** 24 de Outubro de 2026
 **Estado:** rascunho consolidado para validação  
 **Produto:** SPEE Mission Control  
@@ -199,3 +199,9 @@ Esta projecção simplifica a leitura pedagógica e não elimina o histórico da
 - Implementação do motor de processos, do SPEE Studio ou dos conectores de módulos.
 - Definição final de pesos, prazos pedagógicos, retenção de dados e catálogo completo de intervenções.
 - Comunicação comercial entre ciclos ou instituições.
+
+## Actualização transversal de 24 de Outubro de 2026
+
+As ferramentas de demonstração são removidas de ambas as interfaces, incluindo importação/exportação/reposição de cenários e metadados visuais de armazenamento. A persistência temporária e os dados existentes permanecem; retirar controlos não autoriza limpar o armazenamento. Erros mantêm mensagem e tentativa de leitura, sem reposição destrutiva pela UI.
+
+Pré-visualizações mostram exclusivamente notificações pendentes do destinatário, no máximo três por cartão, mais recentes primeiro. O histórico completo continua no chat. Participação/contribuição permanece por definir durante a integração (DEC-012), sem novas inferências a partir de mensagens ou navegação.

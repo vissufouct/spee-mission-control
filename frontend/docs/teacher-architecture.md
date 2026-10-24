@@ -30,7 +30,7 @@ As orientações são privadas ao browser, com motivo obrigatório e estados dra
 
 Revisões protegem contra pedidos obsoletos no mesmo contexto; não há transacções distribuídas ou sincronização entre dispositivos. Refetch ao abrir a vista, regressar ao separador ou usar Actualizar dados lê a projecção actual. A interface não deve instalar directamente na cache o retorno bruto da mutação do docente.
 
-Reposição é destrutiva apenas para o cenário local do docente e exige confirmação; não repõe o estudante. Exportação do docente não foi antecipada enquanto o âmbito de exportação permanece pendente.
+Por decisão de 24 de Outubro de 2026, a UI não expõe ferramentas de demonstração, incluindo reposição em caso de erro. O contrato reset permanece para testes isolados, sem alterar o estudante. Dados existentes nunca são apagados automaticamente. Exportação do docente não foi antecipada.
 
 ## Consulta e UX
 

@@ -7042,6 +7042,13 @@
           "occurredAt": "2026-10-22T07:45:00.000Z"
         },
         {
+          "id": "message-horizonte-salarios-colega",
+          "role": "student",
+          "author": "João Tembe",
+          "message": "Também confirmei o bloqueio. Vamos rever juntos os documentos de constituição.",
+          "occurredAt": "2026-10-22T07:50:00.000Z"
+        },
+        {
           "id": "message-horizonte-salarios-2",
           "role": "teacher",
           "author": "Vali Issufo",

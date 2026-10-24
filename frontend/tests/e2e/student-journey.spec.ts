@@ -99,39 +99,21 @@ test('protege alterações por guardar quando se muda de página', async ({ page
   await expect(page.getByLabel('Denominação da empresa')).toHaveValue('Horizonte Verde, Lda.')
 })
 
-test('exporta e importa cenários; rejeita ficheiros inválidos sem apagar dados', async ({ page }) => {
+test('ferramentas de demonstração foram removidas', async ({ page }) => {
   await page.goto(home)
-  await page.getByRole('button', { name: 'Dados de demonstração', exact: true }).click()
-  const downloaded = page.waitForEvent('download')
-  await page.getByRole('button', { name: 'Exportar cenário JSON', exact: true }).click()
-  const download = await downloaded
-  const exported = await readFile((await download.path())!, 'utf8')
-  expect(JSON.parse(exported).schemaVersion).toBe(1)
-  await page.getByLabel('Ficheiro do cenário', { exact: true }).setInputFiles({ name: 'invalido.json', mimeType: 'application/json', buffer: Buffer.from('{}') })
-  await page.getByRole('button', { name: 'Importar cenário', exact: true }).click()
-  await expect(page.getByRole('alert')).toContainText('Ficheiro inválido')
-  await page.getByRole('dialog', { name: 'Importar este cenário?', exact: true }).getByRole('button', { name: 'Cancelar', exact: true }).click()
-  await page.getByRole('dialog', { name: 'Dados de demonstração', exact: true }).getByRole('button', { name: 'Fechar', exact: true }).click()
-  await openRegistration(page)
-  await confirmRegistration(page)
-  await page.getByRole('link', { name: 'Voltar ao Meu Percurso', exact: true }).click()
-  await expect(page.getByLabel('Progresso global', { exact: true })).toHaveAttribute('value', '24')
-  await page.getByRole('button', { name: 'Dados de demonstração', exact: true }).click()
-  await page.getByLabel('Ficheiro do cenário', { exact: true }).setInputFiles({ name: 'cenario.json', mimeType: 'application/json', buffer: Buffer.from(exported) })
-  await page.getByRole('button', { name: 'Importar cenário', exact: true }).click()
-  await expect(page.getByRole('status')).toContainText('Cenário importado')
-  await page.getByRole('button', { name: 'Fechar', exact: true }).click()
-  await expect(page.getByLabel('Progresso global', { exact: true })).toHaveAttribute('value', '18')
+  await expect(page.getByRole('button', { name: 'Dados de demonstração', exact: true })).toHaveCount(0)
+  await expect(page.getByText('Dados locais guardados', { exact: true })).toHaveCount(0)
+  await expect(page.getByRole('button', { name: /Exportar cenário|Importar cenário|Repor cenário/ })).toHaveCount(0)
 })
 
-test('dados corrompidos mostram erro e permitem reposição explícita', async ({ page }) => {
+test('dados corrompidos mostram erro sem ferramentas de reposição', async ({ page }) => {
   await page.addInitScript(() => localStorage.setItem('spee.student-journey.v1', '{invalido'))
   await page.goto(home)
-  await expect(page.getByText(/Não foi possível ler os dados locais/)).toBeVisible()
-  await page.getByRole('button', { name: 'Repor cenário inicial', exact: true }).click()
-  await page.getByRole('button', { name: 'Repor cenário', exact: true }).click()
-  await expect(page.getByRole('heading', { name: 'Meu Percurso', exact: true })).toBeVisible()
-  await expect(page.getByLabel('Progresso global', { exact: true })).toHaveAttribute('value', '18')
+  await expect(page.getByRole('alert')).toContainText('Não foi possível ler os dados locais')
+  await expect(page.getByRole('button', { name: /Repor cenário/ })).toHaveCount(0)
+  await page.getByRole('button', { name: 'Tentar novamente' }).click()
+  await expect(page.getByRole('alert')).toContainText('não foram alterados')
+  expect(await page.evaluate(() => localStorage.getItem('spee.student-journey.v1'))).toBe('{invalido')
 })
 
 test('indisponibilidade do armazenamento não produz falsa confirmação', async ({ page }) => {

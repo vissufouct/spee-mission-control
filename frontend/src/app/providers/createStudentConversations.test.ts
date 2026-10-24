@@ -11,7 +11,7 @@ function setup() {
   const student = new JsonJourneyRepository(studentFixture, storage)
   const template = teacherSnapshotSchema.parse(teacherFixture).companies.find(c => c.linkedToStudent)!
   const teacher = new JsonTeacherRepository(teacherFixture, storage, async () => mapStudentJourney(await student.getSnapshot(), template))
-  return { student, teacher, gateway: createStudentConversations(student, teacher) }
+  return { data, student, teacher, gateway: createStudentConversations(student, teacher) }
 }
 describe('colaboração com fronteiras de privacidade', () => {
   it('não projecta mensagens ou tarefas do grupo para o docente', async () => {
@@ -21,6 +21,18 @@ describe('colaboração com fronteiras de privacidade', () => {
     expect(JSON.stringify(await teacher.getSnapshot())).not.toContain('Conteúdo exclusivo do grupo')
     expect(await gateway.read()).not.toEqual(expect.arrayContaining([expect.objectContaining({ message: 'Conteúdo exclusivo do grupo' })]))
     expect((await teacher.getSnapshot()).revision).toBe(before.revision)
+  })
+  it('partilha a conversa docente por empresa com autoria de vários estudantes', async () => {
+    const { data, student, gateway } = setup()
+    await gateway.send('registar-empresa', 'Ana conferiu os dados do registo.')
+    const snapshot = await student.getSnapshot()
+    snapshot.context.studentName = 'João Tembe'
+    data.set('spee.student-journey.v1', JSON.stringify(snapshot))
+    expect(await gateway.read()).toContainEqual(expect.objectContaining({ author: 'Ana Machava', message: 'Ana conferiu os dados do registo.' }))
+    await gateway.send('registar-empresa', 'João confirmou os documentos da empresa.')
+    snapshot.context.studentName = 'Ana Machava'
+    data.set('spee.student-journey.v1', JSON.stringify(snapshot))
+    expect(await gateway.read()).toContainEqual(expect.objectContaining({ author: 'João Tembe', message: 'João confirmou os documentos da empresa.' }))
   })
   it('só permite concluir a tarefa ao responsável e mantém notificação independente', async () => {
     const { student } = setup()

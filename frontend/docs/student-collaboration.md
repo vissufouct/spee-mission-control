@@ -13,3 +13,11 @@ IDs de mensagens permitem resolver notificações sem ocultar futuras respostas.
 Dados antigos continuam legíveis: os campos novos têm valores iniciais; os estados legados são projectados nos quatro estados visíveis. Cenários já guardados conservam os seus dados e não recebem automaticamente as novas mensagens ilustrativas. Repor o cenário é uma operação explícita.
 
 Sem novas dependências. Stories usam memória isolada. Testes cobrem navegação, round-trip docente/estudante, tarefas, notificações, reabertura e ausência de dados privados na projecção docente.
+
+## Revisão após continuação da validação
+
+Cartões na zona direita mostram até três notificações pendentes (mais recentes primeiro), globais ou restritas à actividade. O histórico do chat não é filtrado por resolução. Cores e rótulos distinguem docente de estudantes, independentemente de quem está a consultar.
+
+Navegação contextual usa preventScrollReset, sem dependências do shell. Cartões de actividade recebem relações explícitas; não inferem precedência pela ordenação do percurso. Materiais têm metadados na fixture e ligações seguras; páginas de apoio locais estão identificadas como ilustrativas. O adaptador completa apenas metadados descritivos ausentes em cenários antigos, sem substituir estados, registos ou mensagens. Ligações externas reais e a participação ficam para a integração.
+
+As ferramentas de cenário deixaram de estar expostas nas duas interfaces, incluindo reposição em caso de erro. Contratos internos de importação/exportação/reset continuam cobertos por testes de repository. Os dados não são apagados nem migrados destrutivamente. Não foram acrescentadas dependências.
