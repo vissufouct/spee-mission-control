@@ -1,4 +1,5 @@
 import { useState, type ReactNode } from 'react'
+import { NotebookPen, Users } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { NotificationTile } from './NotificationTile'
 import { pendingNotifications } from '../services/notifications'
@@ -14,8 +15,8 @@ export function NotificationBar({ snapshot, children }: { snapshot: JourneySnaps
   const { teacher, group } = pendingNotifications(snapshot, query.data ?? [])
   const items = channel === 'teacher' ? teacher : group
   return <section className={`student-notifications${children ? ' student-notifications--activity' : ''}`} aria-label="Notificações">
-    <NotificationTile title="Orientações do docente" items={teacher} loading={query.isPending} onOpen={() => setChannel('teacher')} />
-    <NotificationTile title="Conversas do grupo" items={group} onOpen={() => setChannel('group')} />
+    <NotificationTile icon={NotebookPen} title="Orientações do docente" items={teacher} loading={query.isPending} onOpen={() => setChannel('teacher')} />
+    <NotificationTile icon={Users} title="Conversas do grupo" items={group} onOpen={() => setChannel('group')} />
     {children}
     {query.error && <p role="alert">Não foi possível carregar as orientações. <button onClick={() => void query.refetch()}>Tentar novamente</button></p>}
     <Dialog open={channel !== null} onOpenChange={open => { if (!open) setChannel(null) }} title={channel === 'teacher' ? 'Orientações do docente' : 'Conversas do grupo'} description="Abra a actividade para consultar a conversa. Marque a notificação como resolvida quando estiver tratada.">

@@ -1,3 +1,4 @@
+@import './activity-design.css';
 .journey-progress { display: block; width: 100%; height: 12px; border: none; border-radius: 99px; overflow: hidden; background: #eaf0f6; color: #087eff; }
 .journey-progress::-webkit-progress-bar { background: #eaf0f6; border-radius: 99px; }
 .journey-progress::-webkit-progress-value { background: #087eff; border-radius: 99px; }

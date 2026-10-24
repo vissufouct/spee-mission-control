@@ -1,4 +1,4 @@
-import { ArrowRight, CheckCircle2, Circle, Clock3, FileText } from 'lucide-react'
+import { ArrowRight, CheckCircle2, Circle, Clock3, FileText, Info } from 'lucide-react'
 import { Dialog } from '@/shared/components/ui/dialog'
 import { useRef, type ReactNode } from 'react'
 import { Button } from '@/shared/components/ui/button'
@@ -10,7 +10,7 @@ import type { Activity, JourneySnapshot } from '../types'
 import { registrationSchema } from '../schemas/journey.schema'
 
 function DetailContainer({ embedded, title, description, onClose, children }: { embedded: boolean; title: string; description: string; onClose: () => void; children: ReactNode }) {
-  return embedded ? <section className="spee-panel p-5"><p>{description}</p>{children}</section> : <Dialog open onOpenChange={open => { if (!open) onClose() }} title={title} description={description}>{children}</Dialog>
+  return embedded ? <section className="spee-panel student-activity-detail p-5"><p>{description}</p>{children}</section> : <Dialog className="student-activity-detail" open onOpenChange={open => { if (!open) onClose() }} title={title} description={description}>{children}</Dialog>
 }
 export function ActivityDialog({ activity, snapshot, onClose, onContinue, onActivity, embedded = false }: { activity: Activity | null; snapshot: JourneySnapshot; onClose: () => void; onContinue: () => void; onActivity?: (id: string) => void; embedded?: boolean }) {
   const details = useRef<HTMLDivElement>(null)
@@ -25,12 +25,12 @@ export function ActivityDialog({ activity, snapshot, onClose, onContinue, onActi
     <div ref={details} tabIndex={-1}>
     {registration ? <>
       <h3 className="mb-3 mt-6 font-semibold">{completed ? 'O que foi confirmado' : 'Para concluir esta actividade'}</h3>
-      <ul className="divide-y rounded-md border">{(activity.steps ?? ['Preencher os dados da empresa', 'Submeter o formulário de registo', 'Gerar os documentos de constituição']).map((label, index) => {
+      <ul className="student-completion-list">{(activity.steps ?? ['Preencher os dados da empresa', 'Submeter o formulário de registo', 'Gerar os documentos de constituição']).map((label, index) => {
         const done = index < count
         const Icon = done ? CheckCircle2 : index === count ? Clock3 : Circle
-        return <li key={label} className="flex items-center gap-3 px-4 py-3 text-sm"><Icon size={21} className={done ? 'text-emerald-600' : 'text-slate-400'} /><span className="flex-1">{label}</span><span className="text-xs text-slate-500">{done ? 'Concluído' : index === count ? 'Em curso' : 'Por fazer'}</span></li>
+        return <li key={label} className="flex items-center gap-3 px-4 py-3 text-sm"><Icon size={21} className={'shrink-0 ' + (done ? 'text-emerald-600' : index === count ? 'text-blue-600' : 'text-slate-400')} aria-hidden /><span className="flex-1">{label}</span><span className={'student-criterion-badge ' + (done ? 'bg-emerald-50 text-emerald-800' : index === count ? 'bg-amber-50 text-amber-800' : 'bg-slate-100 text-slate-600')}>{done ? 'Concluído' : index === count ? 'Em curso' : 'Por fazer'}</span></li>
       })}</ul>
-      <p className="mt-3 rounded-md bg-blue-50 px-4 py-3 text-xs text-blue-800">{completed ? 'Conclusão confirmada na simulação local.' : 'O progresso é actualizado após a confirmação da operação.'}</p>
+      <p className="student-progress-note mt-3"><Info size={16} aria-hidden />{completed ? 'Conclusão confirmada na simulação local.' : 'O progresso é actualizado após a confirmação da operação.'}</p>
       {completed && <div className="mt-4 rounded-md border border-emerald-100 bg-emerald-50 p-4"><h3 className="mb-2 flex gap-2 font-semibold"><FileText size={19} />Resultado da actividade</h3><p className="text-sm text-emerald-800">Empresa registada · Comprovativo de constituição gerado</p></div>}
       <SupportMaterials materials={activity.materials ?? []} />
       <div className="mt-5 flex flex-wrap items-center justify-end gap-4 border-t pt-5"><span className="text-xs text-slate-500">{completed ? 'Consultar o resultado guardado.' : 'Abre o formulário nesta experiência local.'}</span><Button onClick={onContinue}>{completed ? 'Ver detalhes' : 'Continuar actividade'}<ArrowRight /></Button></div>

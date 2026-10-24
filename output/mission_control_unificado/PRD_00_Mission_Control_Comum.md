@@ -1,13 +1,13 @@
 # PRD do Mission Control — núcleo comum
 
-**Versão:** 0.6
+**Versão:** 0.7
 **Data:** 24 de Outubro de 2026
 **Estado:** rascunho consolidado para validação  
 **Produto:** SPEE Mission Control  
 
 ## 1. Finalidade
 
-Este PRD descreve exclusivamente o núcleo partilhado de dados e comportamento: modelo de dados, estados, progresso, eventos, auditoria, permissões, sincronização e padrões transversais. Não define uma interface comum nem funde os protótipos.
+Este PRD descreve o núcleo partilhado de dados, comportamento e linguagem visual: modelo de dados, estados, progresso, eventos, auditoria, permissões, sincronização e padrões transversais. A linguagem visual comum não define uma interface única nem funde os protótipos.
 
 O Mission Control é a camada de orientação e acompanhamento do percurso de simulação do SPEE. O estudante usa a vista **Meu Percurso** para saber o que já concluiu, o que está disponível, o que está bloqueado e qual é a próxima acção. O docente usa o **Mission Control do Docente** para acompanhar turmas e empresas, aprofundar actividades, compreender contribuições e realizar intervenções autorizadas.
 
@@ -168,6 +168,35 @@ Esta projecção simplifica a leitura pedagógica e não elimina o histórico da
 - Resultados e evidências abertos no módulo do simulador responsável.
 - Dados densos em tabelas filtráveis; gráficos apenas quando ajudam a interpretar o estado.
 - Ausência de rankings de estudantes ou métricas de presença disfarçadas de desempenho.
+
+### 9.1. Design aprovado em 24 de Outubro de 2026
+
+A referência aprovada é `output/mockups/referencias/mission-control-design-aprovado-2026-10-24.png` (primeira imagem anexada à aprovação). Substitui as explorações visuais anteriores apenas quanto ao look and feel da **área funcional de conteúdo**. A imagem de recorte das notificações identifica o grupo a tornar expansível, não uma segunda alternativa visual.
+
+**Limite obrigatório:** não alterar menu lateral, header, footer, respectivos ícones, cores, dimensões ou comportamento. Os elementos do shell desenhados na imagem não são autorização para modificar o template. As features continuam independentes do AppShell e o seu CSS não deve atingir o shell.
+
+Padrão comum para as duas perspectivas, sem uniformizar os seus fluxos:
+
+- Preservar as cores institucionais: azul de acção `#087EFF` (variante de contraste `#076DD7`), ciano, branco e cinzentos claros. Sem modo escuro ou mudança de identidade.
+- Conteúdo em superfícies brancas, contornos azul-cinza claros (`#DCE7F3`), cantos de aproximadamente 8–10 px, sombras mínimas e hierarquia tipográfica sans-serif. Manter a fonte disponível no projecto, sem depender de fontes remotas.
+- Cartões de contexto com fundo muito claro; actividade actual destacada com traço azul superior. Estados acompanhados por texto e ícone: verde para Concluído, âmbar para Em curso, ciano para Por iniciar e cinzento para Bloqueado.
+- Ícones lineares de apoio, acções secundárias de contorno e acção principal azul. Os participantes e as contribuições permanecem no cartão da actividade a que pertencem, identificados como dados simulados nesta fase.
+- Checklist com divisórias suaves e badges de estado. Materiais de apoio mantêm-se expansíveis, com ícone e contagem por formato.
+- Preservar a sequência funcional e a organização dos conteúdos; adaptar as colunas ao espaço disponível em ecrãs pequenos, sem esconder acções ou provocar deslocação horizontal da página.
+
+A aplicação inicial desta referência incide no detalhe da actividade do estudante e nos componentes que este reutiliza. O PRD fixa o padrão para evolução das restantes páginas; não implica reestruturação automática do Mission Control do docente.
+
+### 9.2. Grupo de notificações na página da actividade
+
+| ID | Critério de aceitação |
+|---|---|
+| MC-UI-001 | Na página da actividade, os três cartões integram um único grupo «Notificações e conversas», fechado por defeito a cada entrada/recarregamento e mudança de actividade. |
+| MC-UI-002 | O cabeçalho fechado mostra badges separados para Docente, Grupo e Actividade, com as contagens das notificações pendentes do destinatário. Não somar estas contagens: o subconjunto da actividade pode sobrepor-se às outras categorias. |
+| MC-UI-003 | Ao expandir, apresentar os três cartões em linha quando existir espaço; em mobile, empilhar. Cada cartão conserva o nome da actividade nas pré-visualizações, o contador e a abertura do popup correspondente. |
+| MC-UI-004 | Expandir, recolher ou ler não resolve notificações, não conclui tarefas e não altera progresso. As contagens actualizam-se apenas com os dados e a resolução explícita. |
+| MC-UI-005 | A abertura por teclado e o foco são visíveis. Loading e erro não devem surgir como zero confirmado; um grupo fechado indica carregamento ou falha no badge afectado e permite expandir para tentar novamente. |
+| MC-UI-006 | Ligações directas com canal continuam a abrir o chat da actividade, mesmo com o grupo fechado. O histórico e os rascunhos não são descartados ao recolher o grupo. |
+| MC-UI-007 | Fora da página da actividade, conservar a apresentação e os fluxos de notificações existentes. Header, menu lateral e footer permanecem sem alterações. |
 
 ## 10. Requisitos não funcionais
 
