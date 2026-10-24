@@ -220,6 +220,8 @@ Aceitação: testar scroll, contexto e materiais por actividade, três pendênci
 
 ## 12. Anotações visuais posteriores — 24 de Outubro de 2026
 
+A barra do bloco é segmentada: um segmento de igual largura por actividade, pela ordem da lista, independentemente do filtro seleccionado. Usar verde para Concluído, âmbar para Em curso, ciano para Por iniciar e cinzento para Bloqueado. Os segmentos não representam progresso parcial estimado: mostram apenas o estado de cada actividade. Manter a contagem de concluídas, identificar actividade/estado no texto acessível e actualizar segmentos ao mudar de bloco ou confirmar uma operação. No bloco vazio não apresentar segmentos. Não alterar a barra global.
+
 O popup de notificações adopta a linguagem visual aprovada: cartões suaves, contornos claros, tipografia compacta, separadores com ícones e badges e botões distintos para abrir conversa (azul) e resolver (contorno). Manter foco, teclado, estados de carregamento/erro, conteúdo integral e comportamento de resolução; o corpo tem deslocação interna em ecrãs pequenos.
 
 O resumo do bloco e «Actividades deste bloco» passam a integrar um único painel: título, indicadores e progresso no topo; filtros e lista de actividades abaixo de um separador interno discreto. Não apresentar a lista num cartão independente. Aplicar ao bloco actual e aos blocos em consulta, preservando filtros, navegação e acções.

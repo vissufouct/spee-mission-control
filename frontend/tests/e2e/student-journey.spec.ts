@@ -48,7 +48,7 @@ test('editar, persistir, confirmar e consultar o resultado sem progresso por cli
   await page.screenshot({ path: info.outputPath('04-resultado.png'), fullPage: true })
   await page.getByRole('link', { name: 'Voltar ao Meu Percurso', exact: true }).click()
   await expect(page.getByLabel('Progresso global', { exact: true })).toHaveAttribute('value', '24')
-  await expect(page.getByLabel('Progresso do bloco', { exact: true })).toHaveAttribute('value', '2')
+  await expect(page.getByLabel('Progresso do bloco', { exact: true })).toHaveAttribute('aria-valuenow', '2')
   await page.getByRole('button', { name: 'Em curso', exact: true }).click()
   await expect(page.getByText('Não existem actividades neste estado.')).toBeVisible()
   await page.getByRole('button', { name: 'Mostrar todas as actividades', exact: true }).click()

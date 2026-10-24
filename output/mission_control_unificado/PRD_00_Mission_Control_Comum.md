@@ -250,6 +250,8 @@ No Meu Percurso, o resumo/progresso do bloco e as suas actividades formam um ún
 
 Os quatro indicadores do bloco alinham-se à direita do título grande e da barra de progresso, não junto do rótulo «Bloco actual». A barra ocupa apenas a coluna esquerda e termina antes dos indicadores. Quando não houver largura suficiente, o resumo passa para baixo, mantendo a grelha 2 × 2.
 
+A barra do bloco usa segmentos iguais, um por actividade pela ordem do percurso, com as cores dos estados: verde (Concluído), âmbar (Em curso), ciano (Por iniciar) e cinzento (Bloqueado). A informação não depende apenas da cor: conservar contagem de concluídas, legenda existente e descrição acessível dos estados por actividade. Filtros não reduzem o número de segmentos; a barra global permanece inalterada.
+
 As ferramentas de demonstração são removidas de ambas as interfaces, incluindo importação/exportação/reposição de cenários e metadados visuais de armazenamento. A persistência temporária e os dados existentes permanecem; retirar controlos não autoriza limpar o armazenamento. Erros mantêm mensagem e tentativa de leitura, sem reposição destrutiva pela UI.
 
 Pré-visualizações mostram exclusivamente notificações pendentes do destinatário, no máximo três por cartão, mais recentes primeiro. O histórico completo continua no chat. Participação/contribuição permanece por definir durante a integração (DEC-012), sem novas inferências a partir de mensagens ou navegação.
