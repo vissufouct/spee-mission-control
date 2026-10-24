@@ -1,6 +1,6 @@
 # PRD do Mission Control — núcleo comum
 
-**Versão:** 0.12
+**Versão:** 0.13
 **Data:** 24 de Outubro de 2026
 **Estado:** rascunho consolidado para validação  
 **Produto:** SPEE Mission Control  
@@ -185,7 +185,9 @@ Padrão comum para as duas perspectivas, sem uniformizar os seus fluxos:
 - Os fixtures devem incluir participantes e contribuições fictícias contextualizadas nas actividades concluídas ou em curso onde fizer sentido. Evitar cartões vazios por falta de exemplos; não confundir esses exemplos com evidência real nem atribuir trabalho realizado a actividades ainda não iniciadas. Preservar a nota de proveniência.
 - Preservar a sequência funcional e a organização dos conteúdos; adaptar as colunas ao espaço disponível em ecrãs pequenos, sem esconder acções ou provocar deslocação horizontal da página.
 
-A aplicação inicial desta referência incide no detalhe da actividade do estudante e nos componentes que este reutiliza. O PRD fixa o padrão para evolução das restantes páginas; não implica reestruturação automática do Mission Control do docente.
+A referência aplica-se às páginas do estudante e do docente. No docente abrange a visão geral, a matriz de empresas, o percurso da empresa, as contribuições e os diálogos de detalhe e orientação. A uniformização é visual: preserva fluxos, filtros, permissões, dados, cálculos e navegação próprios de cada perspectiva. Menu lateral, header e footer permanecem intactos.
+
+No docente, os indicadores são cartões compactos com ícones, as tabelas têm cabeçalhos suaves e deslocação própria, e o bloco seleccionado recebe destaque azul superior. Estados usam a mesma correspondência cromática do estudante, sempre com texto e ícone. Orientações usam cartões de contorno claro; diálogos usam título compacto, superfícies suaves e altura limitada à janela. Os estilos pertencem à feature e aos seus diálogos, incluindo quando renderizados sem AppShell.
 
 ### 9.2. Grupo de notificações na página da actividade
 

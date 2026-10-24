@@ -10,7 +10,7 @@ export function ActivityDialog({ company, selection, onSelect }: { company: Comp
   const activity = company.activities.find(a => a.id === selection?.activityId)
   const result = company.results.find(r => r.id === selection?.resultId && r.activityId === activity?.id)
   const modulePreview = moduleActivityId === activity?.id && !result
-  return <Dialog open={!!activity} onOpenChange={open => { if (!open) { setModuleActivityId(null); onSelect(null) } }} title={result?.title ?? activity?.title ?? 'Actividade'} description={company.name + ' · ' + (activity?.module ?? '')}>
+  return <Dialog className="teacher-dialog" open={!!activity} onOpenChange={open => { if (!open) { setModuleActivityId(null); onSelect(null) } }} title={result?.title ?? activity?.title ?? 'Actividade'} description={company.name + ' · ' + (activity?.module ?? '')}>
     {activity && <div className="teacher-stack mt-6">
       {result ? <>
         <Button variant="outline" size="sm" className="self-start" onClick={() => { setModuleActivityId(null); onSelect({ activityId: activity.id }) }}>Voltar à actividade</Button>

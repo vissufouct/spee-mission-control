@@ -1,9 +1,22 @@
 # PRD do Mission Control do Docente
 
-**Versão:** 0.6
+**Versão:** 0.7
 **Data:** 24 de Outubro de 2026
-**Estado:** actualizado após validação funcional com Leila Omar
+**Estado:** actualizado após validação funcional com Leila Omar e alinhamento com o design aprovado
 **Depende de:** `PRD_00_Mission_Control_Comum.md`  
+
+## Apresentação visual aprovada — 24 de Outubro de 2026
+
+Aplicar a secção 9.1 do PRD comum à visão geral, percurso da empresa, contribuições, orientações e respectivos diálogos. Preservar integralmente menu lateral, header e footer.
+
+- Painéis brancos, contorno azul-cinza `#DCE7F3`, cantos de 10 px e fundos suaves `#F7FBFF`; evitar contornos escuros e sombras pesadas.
+- Títulos e indicadores compactos, hierarquia legível e ícones lineares. Manter azul e ciano institucionais.
+- Estados em pills com texto e ícone: Concluído verde, Em curso âmbar, Por iniciar ciano e Bloqueado cinzento, tanto nas tabelas como no percurso e no detalhe.
+- Destacar o bloco seleccionado com fundo azul muito suave e traço azul superior, mantendo a selecção e os filtros existentes.
+- Tabelas conservam deslocação interna e cabeçalhos/colunas fixos onde já existem; não provocar deslocação horizontal da página.
+- Orientações em cartões suaves; formulários e diálogos com contornos claros, título compacto e scroll dentro da janela. Preservar foco, Escape, validação e feedback.
+- Manter os fluxos de consulta, resposta, conclusão, rascunho, publicação e auditoria. A alteração visual não modifica progresso, permissões ou persistência, nem dá acesso às conversas privadas do grupo.
+- Validar os três ecrãs principais sem AppShell no Storybook, os fluxos no browser e a apresentação em desktop e ecrãs estreitos.
 
 ## 1. Resultado esperado
 

@@ -38,7 +38,7 @@ export function OrientationRequestsDialog({ snapshot, companyId, open, onOpenCha
   }
   const company = selected ? snapshot.companies.find(item => item.id === selected.companyId) : undefined
   const activity = company?.activities.find(item => item.id === selected?.activityId)
-  return <Dialog className="max-w-5xl" open={open} onOpenChange={onOpenChange} title="Pedidos de orientação" description={companyId ? 'Conversas desta empresa' : 'Pedidos recebidos em todas as turmas'}>
+  return <Dialog className="teacher-dialog max-w-5xl" open={open} onOpenChange={onOpenChange} title="Pedidos de orientação" description={companyId ? 'Conversas desta empresa' : 'Pedidos recebidos em todas as turmas'}>
     <div className="teacher-request-layout">
       <nav className="teacher-request-list" aria-label="Lista de pedidos de orientação">
         {requests.map(request => {
