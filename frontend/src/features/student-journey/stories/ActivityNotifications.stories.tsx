@@ -7,8 +7,6 @@ import { JsonJourneyRepository } from '../api/JsonJourneyRepository'
 import { JourneyProvider } from '../hooks/JourneyProvider'
 import { journeySnapshotSchema } from '../schemas/journey.schema'
 import { ActivityNotifications } from '../components/ActivityNotifications'
-import { NotificationBar } from '../components/NotificationBar'
-import { ConversationPanel } from '../components/ConversationPanel'
 import '../styles.css'
 
 const snapshot = journeySnapshotSchema.parse(fixture)
@@ -18,11 +16,11 @@ function Providers({ children }: { children: ReactNode }) {
   return <MemoryRouter><QueryClientProvider client={client}><JourneyProvider repository={repository} conversations={{ read: async () => [], send: async () => {} }}>{children}</JourneyProvider></QueryClientProvider></MemoryRouter>
 }
 const meta = {
-  title: 'Estudante/Notificações expansíveis sem AppShell', component: ActivityNotifications,
+  title: 'Estudante/Painel de notificações sem AppShell', component: ActivityNotifications,
   decorators: [Story => <Providers><div className="student-activity-page"><Story /></div></Providers>],
-  args: { snapshot, activityId: 'registar-empresa', children: <NotificationBar snapshot={snapshot}><ConversationPanel snapshot={snapshot} activityId="registar-empresa" /></NotificationBar> },
+  args: { snapshot, activityId: 'registar-empresa' },
 } satisfies Meta<typeof ActivityNotifications>
 export default meta
 type Story = StoryObj<typeof meta>
 export const Default: Story = {}
-export const Empty: Story = { args: { snapshot: { ...snapshot, groupMessages: [] }, children: <NotificationBar snapshot={{ ...snapshot, groupMessages: [] }}><ConversationPanel snapshot={{ ...snapshot, groupMessages: [] }} activityId="registar-empresa" /></NotificationBar> } }
+export const Empty: Story = { args: { snapshot: { ...snapshot, groupMessages: [] } } }

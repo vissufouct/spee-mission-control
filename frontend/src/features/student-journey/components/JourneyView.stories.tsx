@@ -2,12 +2,16 @@ import type { Meta, StoryObj } from '@storybook/react-vite'
 import fixture from '@/data/student-journey.fixture.json'
 import { journeySnapshotSchema } from '../schemas/journey.schema'
 import { JourneyView } from './JourneyView'
+import { MemoryRouter } from 'react-router-dom'
+import { JourneyProgressHeading } from './JourneyProgressHeading'
+import { getProgress } from '../services/journey.selectors'
 
 const snapshot = journeySnapshotSchema.parse(fixture)
 const meta = {
   title: 'Estudante/Meu Percurso sem AppShell',
   component: JourneyView,
-  args: { snapshot, filter: 'all', onFilter: () => {}, onOpen: () => {}, onFullPath: () => {} },
+  render: args => <MemoryRouter><div className="space-y-5"><JourneyProgressHeading {...getProgress(args.snapshot)} /><JourneyView {...args} /></div></MemoryRouter>,
+  args: { snapshot, filter: 'all', onFilter: () => {}, onOpen: () => {} },
   parameters: { layout: 'padded' },
 } satisfies Meta<typeof JourneyView>
 export default meta

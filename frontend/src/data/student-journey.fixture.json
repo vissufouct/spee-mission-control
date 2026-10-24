@@ -43,6 +43,10 @@
       "activities": [
         {
           "id": "definir-ideia",
+          "simulatedParticipants": [
+            { "name": "Ana Machava", "contribution": "Identificação da oportunidade de negócio e das necessidades dos clientes." },
+            { "name": "António Sitoe", "contribution": "Pesquisa de alternativas no mercado e caracterização do público-alvo." }
+          ],
           "title": "Definir a ideia de negócio",
           "description": "Identificar uma oportunidade e o público-alvo.",
           "status": "completed",
@@ -53,6 +57,10 @@
         },
         {
           "id": "modelo-negocio",
+          "simulatedParticipants": [
+            { "name": "Ana Machava", "contribution": "Definição da proposta de valor e dos canais de relacionamento com os clientes." },
+            { "name": "João Tembe", "contribution": "Preparação da estrutura de custos e das fontes de receita do modelo de negócio." }
+          ],
           "title": "Preparar o modelo de negócio",
           "description": "Descrever a proposta de valor da empresa.",
           "status": "completed",
@@ -71,6 +79,10 @@
       "activities": [
         {
           "id": "reserva-nome",
+          "simulatedParticipants": [
+            { "name": "João Tembe", "contribution": "Pesquisa da disponibilidade da denominação Horizonte Verde e preparação do pedido de reserva." },
+            { "name": "António Sitoe", "contribution": "Conferência da denominação e arquivo do comprovativo de reserva do nome." }
+          ],
           "title": "Reserva do nome",
           "description": "Verificar e reservar o nome da empresa.",
           "status": "completed",

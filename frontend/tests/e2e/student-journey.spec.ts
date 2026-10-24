@@ -13,8 +13,8 @@ test.afterEach(async ({ page }) => expect(errors.get(page)).toEqual([]))
 async function openRegistration(page: Page) {
   await page.getByRole('button', { name: 'Continuar Registar empresa', exact: true }).click()
   await expect(page).toHaveURL(/actividades\/registar-empresa/)
-  await expect(page.getByText('1 de 3 critérios confirmados')).toBeVisible()
-  await page.getByRole('button', { name: 'Continuar actividade', exact: true }).click()
+  await expect(page.locator('.student-context-card--current').getByLabel('1 de 3 critérios confirmados')).toHaveText('(1 de 3)')
+  await page.locator('.student-next-activity').getByRole('button', { name: 'Continuar actividade', exact: true }).click()
   await expect(page.getByLabel('Denominação da empresa')).toBeVisible()
 }
 async function confirmRegistration(page: Page) {
@@ -53,7 +53,8 @@ test('editar, persistir, confirmar e consultar o resultado sem progresso por cli
   await expect(page.getByText('Não existem actividades neste estado.')).toBeVisible()
   await page.getByRole('button', { name: 'Mostrar todas as actividades', exact: true }).click()
   await page.getByRole('button', { name: 'Ver Registar empresa', exact: true }).click()
-  await expect(page.getByText('3 de 3 critérios confirmados')).toBeVisible()
+  await expect(page.locator('.student-context-card--current').getByLabel('3 de 3 critérios confirmados')).toHaveText('(3 de 3)')
+  await expect(page.locator('.student-next-activity')).toHaveCount(0)
   await page.getByRole('button', { name: 'Ver detalhes', exact: true }).click()
   const downloaded = page.waitForEvent('download')
   await page.getByRole('button', { name: 'Descarregar comprovativo', exact: true }).click()
@@ -82,7 +83,7 @@ test('eliminar com confirmação e criar um novo rascunho incompleto', async ({ 
   await page.getByRole('link', { name: 'Voltar ao Meu Percurso', exact: true }).click()
   await expect(page.getByLabel('Progresso global', { exact: true })).toHaveAttribute('value', '18')
   await page.getByRole('button', { name: 'Continuar Registar empresa', exact: true }).click()
-  await expect(page.getByText('0 de 3 critérios confirmados')).toBeVisible()
+  await expect(page.locator('.student-context-card--current').getByLabel('0 de 3 critérios confirmados')).toHaveText('(0 de 3)')
 })
 
 test('protege alterações por guardar quando se muda de página', async ({ page }) => {
@@ -138,7 +139,7 @@ test('menu respeitado, percurso completo e ausência de overflow em mobile', asy
   await expect(page.getByRole('button', { name: 'RH Online Recursos Humanos', exact: true })).toBeVisible()
   await page.getByRole('link', { name: 'Roteiro de Tarefas', exact: true }).click()
   await expect(page.getByRole('button', { name: 'Alternar menu lateral', exact: true })).toHaveAttribute('aria-expanded', 'false')
-  await page.getByRole('button', { name: 'Ver percurso completo', exact: true }).first().click()
+  await page.getByRole('link', { name: 'Ver percurso completo', exact: true }).click()
   await expect(page.getByRole('heading', { name: 'Percurso completo', exact: true })).toBeVisible()
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true)
   await page.goto(registration)

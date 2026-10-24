@@ -11,7 +11,7 @@ import { useConversations, useSendTeacherMessage } from '../hooks/useConversatio
 import { useJourneyMutation } from '../hooks/useJourney'
 import type { JourneySnapshot } from '../types'
 const schema = z.object({ message: z.string().trim().min(3, 'Escreva pelo menos 3 caracteres.').max(2000), assignee: z.string() })
-export function ConversationPanel({ snapshot, activityId, initialChannel = 'teacher', initialOpen = false }: { snapshot: JourneySnapshot; activityId: string; initialChannel?: 'teacher' | 'group'; initialOpen?: boolean }) {
+export function ConversationPanel({ snapshot, activityId, initialChannel = 'teacher', initialOpen = false, hideTrigger = false }: { snapshot: JourneySnapshot; activityId: string; initialChannel?: 'teacher' | 'group'; initialOpen?: boolean; hideTrigger?: boolean }) {
   const [open, setOpen] = useState(initialOpen)
   const id = useId()
   const [channel, setChannel] = useState(initialChannel)
@@ -39,7 +39,7 @@ export function ConversationPanel({ snapshot, activityId, initialChannel = 'teac
     } catch { /* Mutation error remains visible; keep the draft. */ }
   }
   return <>
-    <NotificationTile title="Conversas desta actividade" items={previews} loading={query.isPending} onOpen={() => setOpen(true)} />
+    {!hideTrigger && <NotificationTile title="Conversas desta actividade" items={previews} loading={query.isPending} onOpen={() => setOpen(true)} />}
     <Dialog open={open} onOpenChange={setOpen} title={'Conversas da actividade: ' + activityTitle} className="student-chat-dialog">
     <div className="flex gap-2 border-b py-3" role="tablist" aria-label="Canal da conversa">{(['teacher', 'group'] as const).map(value => <button key={value} id={id + value} role="tab" type="button" aria-selected={value === channel} aria-controls={id + '-panel'} tabIndex={value === channel ? 0 : -1} className="student-chat-tab" onKeyDown={event => {
       if (['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) {

@@ -4,13 +4,12 @@ import { useRef, type ReactNode } from 'react'
 import { Button } from '@/shared/components/ui/button'
 import { ActivityContext } from './ActivityContext'
 import { SupportMaterials } from './SupportMaterials'
-import { StatusBadge } from './StatusBadge'
 import { getActivityStatus } from '../services/journey.selectors'
 import type { Activity, JourneySnapshot } from '../types'
-import { registrationSchema } from '../schemas/journey.schema'
+import { getActivityCriteria } from '../services/activity.presentation'
 
 function DetailContainer({ embedded, title, description, onClose, children }: { embedded: boolean; title: string; description: string; onClose: () => void; children: ReactNode }) {
-  return embedded ? <section className="spee-panel student-activity-detail p-5"><p>{description}</p>{children}</section> : <Dialog className="student-activity-detail" open onOpenChange={open => { if (!open) onClose() }} title={title} description={description}>{children}</Dialog>
+  return embedded ? <section className="spee-panel student-activity-detail p-5">{children}</section> : <Dialog className="student-activity-detail" open onOpenChange={open => { if (!open) onClose() }} title={title} description={description}>{children}</Dialog>
 }
 export function ActivityDialog({ activity, snapshot, onClose, onContinue, onActivity, embedded = false }: { activity: Activity | null; snapshot: JourneySnapshot; onClose: () => void; onContinue: () => void; onActivity?: (id: string) => void; embedded?: boolean }) {
   const details = useRef<HTMLDivElement>(null)
@@ -18,11 +17,10 @@ export function ActivityDialog({ activity, snapshot, onClose, onContinue, onActi
   const status = getActivityStatus(activity, snapshot)
   const registration = activity.id === 'registar-empresa'
   const completed = status === 'completed'
-  const count = completed ? 3 : registrationSchema.safeParse(snapshot.registration?.data).success ? 1 : 0
+  const count = getActivityCriteria(activity, snapshot).confirmed
   return <DetailContainer embedded={embedded} onClose={onClose} title={activity.title} description={activity.description}>
-    <div className="mt-4"><StatusBadge status={status} />{registration && <p className="mt-3 text-sm text-blue-700">{count} de 3 critérios confirmados</p>}</div>
     <ActivityContext activity={activity} snapshot={snapshot} onActivity={onActivity} onCurrentActivity={() => { if (registration) onContinue(); else { details.current?.scrollIntoView({ block: 'start' }); details.current?.focus({ preventScroll: true }) } }} />
-    <div ref={details} tabIndex={-1}>
+    <div ref={details} id={embedded ? 'activity-criteria' : undefined} tabIndex={-1}>
     {registration ? <>
       <h3 className="mb-3 mt-6 font-semibold">{completed ? 'O que foi confirmado' : 'Para concluir esta actividade'}</h3>
       <ul className="student-completion-list">{(activity.steps ?? ['Preencher os dados da empresa', 'Submeter o formulário de registo', 'Gerar os documentos de constituição']).map((label, index) => {

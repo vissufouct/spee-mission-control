@@ -1,6 +1,6 @@
 # PRD do Mission Control — núcleo comum
 
-**Versão:** 0.7
+**Versão:** 0.12
 **Data:** 24 de Outubro de 2026
 **Estado:** rascunho consolidado para validação  
 **Produto:** SPEE Mission Control  
@@ -180,8 +180,9 @@ Padrão comum para as duas perspectivas, sem uniformizar os seus fluxos:
 - Preservar as cores institucionais: azul de acção `#087EFF` (variante de contraste `#076DD7`), ciano, branco e cinzentos claros. Sem modo escuro ou mudança de identidade.
 - Conteúdo em superfícies brancas, contornos azul-cinza claros (`#DCE7F3`), cantos de aproximadamente 8–10 px, sombras mínimas e hierarquia tipográfica sans-serif. Manter a fonte disponível no projecto, sem depender de fontes remotas.
 - Cartões de contexto com fundo muito claro; actividade actual destacada com traço azul superior. Estados acompanhados por texto e ícone: verde para Concluído, âmbar para Em curso, ciano para Por iniciar e cinzento para Bloqueado.
-- Ícones lineares de apoio, acções secundárias de contorno e acção principal azul. Os participantes e as contribuições permanecem no cartão da actividade a que pertencem, identificados como dados simulados nesta fase.
+- Ícones lineares de apoio, acções secundárias de contorno e acção principal azul. Os participantes permanecem no cartão da actividade a que pertencem: apenas nomes e ícone de informação; contribuições em tooltip por hover, clique ou foco. Remover etiquetas «Dados simulados» dos cartões, mantendo uma nota discreta de proveniência do protótipo.
 - Checklist com divisórias suaves e badges de estado. Materiais de apoio mantêm-se expansíveis, com ícone e contagem por formato.
+- Os fixtures devem incluir participantes e contribuições fictícias contextualizadas nas actividades concluídas ou em curso onde fizer sentido. Evitar cartões vazios por falta de exemplos; não confundir esses exemplos com evidência real nem atribuir trabalho realizado a actividades ainda não iniciadas. Preservar a nota de proveniência.
 - Preservar a sequência funcional e a organização dos conteúdos; adaptar as colunas ao espaço disponível em ecrãs pequenos, sem esconder acções ou provocar deslocação horizontal da página.
 
 A aplicação inicial desta referência incide no detalhe da actividade do estudante e nos componentes que este reutiliza. O PRD fixa o padrão para evolução das restantes páginas; não implica reestruturação automática do Mission Control do docente.
@@ -190,13 +191,25 @@ A aplicação inicial desta referência incide no detalhe da actividade do estud
 
 | ID | Critério de aceitação |
 |---|---|
-| MC-UI-001 | Na página da actividade, os três cartões integram um único grupo «Notificações e conversas», fechado por defeito a cada entrada/recarregamento e mudança de actividade. |
-| MC-UI-002 | O cabeçalho fechado mostra badges separados para Docente, Grupo e Actividade, com as contagens das notificações pendentes do destinatário. Não somar estas contagens: o subconjunto da actividade pode sobrepor-se às outras categorias. |
-| MC-UI-003 | Ao expandir, apresentar os três cartões em linha quando existir espaço; em mobile, empilhar. Cada cartão conserva o nome da actividade nas pré-visualizações, o contador e a abertura do popup correspondente. |
-| MC-UI-004 | Expandir, recolher ou ler não resolve notificações, não conclui tarefas e não altera progresso. As contagens actualizam-se apenas com os dados e a resolução explícita. |
-| MC-UI-005 | A abertura por teclado e o foco são visíveis. Loading e erro não devem surgir como zero confirmado; um grupo fechado indica carregamento ou falha no badge afectado e permite expandir para tentar novamente. |
-| MC-UI-006 | Ligações directas com canal continuam a abrir o chat da actividade, mesmo com o grupo fechado. O histórico e os rascunhos não são descartados ao recolher o grupo. |
-| MC-UI-007 | Fora da página da actividade, conservar a apresentação e os fluxos de notificações existentes. Header, menu lateral e footer permanecem sem alterações. |
+| MC-UI-001 | Nos formulários do estudante, as notificações abrem num único popup tabulado, inicialmente fechado a cada entrada ou recarregamento. |
+| MC-UI-002 | O painel clicável mostra total na primeira linha e badges por canal na segunda, com pendências do destinatário. Actividade aparece apenas em contexto de actividade. |
+| MC-UI-003 | Clicar em qualquer ponto do painel abre o popup; os separadores apresentam pendências com actividade, autor, mensagem, acesso à conversa e resolução explícita. Não expandir cartões na página. |
+| MC-UI-004 | Abrir, fechar ou ler não resolve notificações, não conclui tarefas nem altera progresso. |
+| MC-UI-005 | Suportar Enter/Espaço no painel, setas/Home/End nos separadores, Escape para fechar e devolução de foco ao painel. Loading/erro têm indicação própria e opção de tentar novamente. |
+| MC-UI-006 | Ligações com canal continuam a abrir o chat da actividade. Permitir reabrir a mesma conversa; preservar o histórico persistido e os rascunhos durante mudanças de canal no chat. |
+| MC-UI-007 | Nos quatro formulários do estudante (Meu Percurso, Percurso completo, detalhe e registo da empresa), apresentar um único painel clicável à direita do título principal. Primeira linha: «Notificações e conversas» e total; segunda linha: badges Docente/Grupo e Actividade quando contextual. O painel abre directamente um popup tabulado, inicialmente fechado, em vez de expandir cartões na página. Em ecrãs estreitos, permitir quebra de linha sem overflow. Manter progresso global junto do título, marcos abaixo e ligação ao percurso completo apenas no Meu Percurso. Não alterar o shell. |
+| MC-UI-008 | Mostrar um badge de total junto de «Notificações e conversas», visível com o popup fechado. Por decisão explícita do utilizador, somar os três badges visíveis: Docente 2 + Grupo 1 + Actividade 1 = total 4 no cenário inicial. É uma soma das pendências apresentadas por categoria, não uma contagem de mensagens distintas; a mesma mensagem pode contribuir para duas categorias. Mostrar zero quando não há pendências; durante carregamento ou erro, apresentar indicação própria, não um total parcial como definitivo. Actualizar após resolução explícita. |
+
+### 9.3. Compactação após anotações no browser — 24/10/2026
+
+As seis anotações posteriores à aprovação visual prevalecem sobre os detalhes de apresentação da imagem original. Não alteram menu lateral, header, footer, cores principais, permissões nem persistência.
+
+- Participantes: uma linha compacta, por exemplo «Participantes: Ana M., João T. e António S.», seguida de um único ícone de informação. Abre um único tooltip com todos os nomes completos e respectivas contribuições, por hover, clique/toque ou foco de teclado; Escape fecha. Abreviar pelo primeiro nome e inicial do último apelido, sem alterar os dados. Permitir quebra natural em ecrãs estreitos. Sem participantes, indicar a ausência sem ícone. O popup não deve exceder o cartão nem ocultar permanentemente outros conteúdos. Esta regra substitui os ícones individuais da primeira compactação.
+- Acção junto da designação de cada actividade: Ver, Continuar actividade ou Iniciar actividade, segundo o estado. Permitir quebra de linha quando faltar espaço, sem truncar a acção.
+- Remover etiquetas «Dados simulados» repetidas; a nota de proveniência mantém clara a natureza ilustrativa dos dados, sem sugerir participação real confirmada.
+- Estado e critérios juntos em cada cartão: «Em curso (1 de 3)», «Concluído (2 de 2)». Os números resultam dos critérios existentes; não inventar contagens quando não há critérios definidos nem inferir conclusão pela navegação.
+- Retirar o estado e a frase de contagem redundantes acima dos cartões.
+- Cabeçalho da actividade: «Registar empresa | Próxima actividade: <designação> <acção>». Mostrar apenas quando existe um passo ainda não confirmado do checklist actual e a actividade não está concluída nem bloqueada. No cenário inicial: «Submeter o formulário de registo», com acção para continuar no formulário. Após conclusão, ocultar todo o bloco, sem o substituir por uma actividade sucessora. As sucessoras permanecem nos cartões de contexto. Sem passo pendente definido, omitir igualmente o segmento. Substitui a descrição isolada acima do contexto, sem apagar a descrição nos dados. O cabeçalho e o checklist usam a mesma fonte de confirmação; clicar não altera progresso.
 
 ## 10. Requisitos não funcionais
 
@@ -230,6 +243,8 @@ A aplicação inicial desta referência incide no detalhe da actividade do estud
 - Comunicação comercial entre ciclos ou instituições.
 
 ## Actualização transversal de 24 de Outubro de 2026
+
+No Meu Percurso, o resumo/progresso do bloco e as suas actividades formam um único painel visual, com separador interno discreto entre resumo e filtros/lista. A composição mantém componentes separados por responsabilidade, sem dependência do shell; header, menu lateral e footer não são alterados.
 
 As ferramentas de demonstração são removidas de ambas as interfaces, incluindo importação/exportação/reposição de cenários e metadados visuais de armazenamento. A persistência temporária e os dados existentes permanecem; retirar controlos não autoriza limpar o armazenamento. Erros mantêm mensagem e tentativa de leitura, sem reposição destrutiva pela UI.
 

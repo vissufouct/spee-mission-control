@@ -1,6 +1,6 @@
 # PRD do Mission Control do Estudante
 
-**Versão:** 0.5
+**Versão:** 0.10
 **Data:** 24 de Outubro de 2026
 **Estado:** actualizado após reunião e decisões de 24 de Outubro de 2026
 **Depende de:** `PRD_00_Mission_Control_Comum.md`  
@@ -57,7 +57,7 @@ Fonte principal: `output/mockups/estudante_v4/mission_control_estudante_v4_02_ac
 
 Elementos representados:
 
-- título, estado e número de critérios confirmados;
+- título e próxima actividade elegível no cabeçalho; estado e número de critérios confirmados no respectivo cartão de contexto, sem duplicação acima dos cartões;
 - contexto **Vem de → Actividade actual → Desbloqueia**;
 - lista do que falta para concluir;
 - indicação de que o progresso é actualizado após confirmação do simulador;
@@ -97,7 +97,7 @@ Elementos representados:
 | ID | Requisito |
 |---|---|
 | MC-EST-001 | Meu Percurso deve mostrar o estado de sincronização e o progresso global. |
-| MC-EST-002 | O progresso global deve indicar quantos marcos confirmados o sustentam e permitir abrir o percurso completo. |
+| MC-EST-002 | No Meu Percurso e no Percurso completo, integrar a barra e percentagem do progresso global ao lado do título. Na linha seguinte, mostrar «N de T marcos confirmados», substituindo a descrição introdutória. Apenas no Meu Percurso, acrescentar o hyperlink «Ver percurso completo»; não apresentar ligação para a própria página no Percurso completo. Não duplicar num cartão de progresso separado. Os valores são calculados a partir dos marcos confirmados; em espaços estreitos, permitir quebra de linha. |
 | MC-EST-003 | O ecrã principal deve destacar o bloco actual, o seu progresso e a possibilidade de actividades paralelas. |
 | MC-EST-004 | A lista do bloco deve permitir filtrar todas as actividades, por iniciar, concluídas, em curso e bloqueadas. |
 | MC-EST-005 | Cada actividade deve apresentar título, descrição breve, estado e acção coerente com o estado. |
@@ -169,6 +169,7 @@ Fonte: reunião «Call with Leila Omar (2)», 0:51–13:39, e esclarecimentos po
 ### Navegação e detalhe
 
 - MC-EST-023: consultar blocos anteriores/seguintes através de setas com os nomes dos destinos. Actualizar actividades, progresso e resumo do bloco seleccionado.
+- Apresentação revista do resumo: integrar os quatro indicadores na zona superior direita do cartão do bloco, substituindo «Algumas actividades podem decorrer em paralelo». Grelha 2 × 2: concluídas/em curso na primeira linha, por iniciar/bloqueadas na segunda, com ícone, contagem e rótulo. Não duplicar num painel lateral. Em espaços estreitos, permitir que a grelha passe abaixo do título, mantendo duas colunas. Preservar o acesso ao percurso completo no cabeçalho funcional do Meu Percurso, junto dos marcos confirmados.
 - MC-EST-024: distinguir bloco em consulta de bloco actual; consultar não muda o bloco actual nem o progresso.
 - MC-EST-025: disponibilizar «Voltar para o bloco actual»; desactivar a navegação sem destino nos extremos.
 - MC-EST-026: manter o percurso completo. O nome de cada bloco liga ao Meu Percurso com foco nesse bloco, independentemente do controlo de expandir/recolher.
@@ -210,9 +211,29 @@ Fonte: «Call with Leila Omar (4)», gravação de 15m52s, e esclarecimentos pos
 - MC-EST-045: participação permanece em aberto até à integração com o simulador (DEC-012). Não atribuir nomes por leitura, cliques, mensagens ou pertença à empresa. A localização futura é junto do cartão de cada actividade; não mostrar participantes em actividades não iniciadas.
 - MC-EST-046: chat docente partilhado por todos os membros da mesma empresa, com autoria identificada; mensagens do docente e dos estudantes distinguem-se por cores e rótulos de papel. A conversa privada do grupo continua inacessível ao docente.
 - MC-EST-047: título do pop-up «Conversas da actividade: <nome>». Manter separadores, badges e histórico progressivo.
-- MC-EST-048: substituir botões globais por cartões na zona direita do cabeçalho, no Meu Percurso, percurso completo e actividade; em ecrãs pequenos, empilhar. Incluir contador e até três pré-visualizações, ordenadas da mais recente para a mais antiga, exclusivamente de notificações pendentes do destinatário.
-- MC-EST-049: na actividade, acrescentar cartão contextual de conversas, com pré-visualizações pendentes apenas dessa actividade. Os cartões são acessos ao pop-up, não painéis permanentes de chat. Resolução explícita remove a pré-visualização e actualiza os contadores; não apaga mensagens.
+- MC-EST-048: painel único clicável alinhado à direita do título nos quatro formulários do estudante, com título/total na primeira linha e badges na segunda. Substitui os cartões de pré-visualização; as pendências, ordenadas da mais recente para a mais antiga, são consultadas no popup tabulado.
+- MC-EST-049: no detalhe e no registo, acrescentar o separador Actividade ao popup de notificações, com pendências apenas dessa actividade e acesso ao histórico do chat. Resolução explícita remove a pendência e actualiza os contadores; não apaga mensagens.
 - MC-EST-050: retirar completamente as ferramentas de demonstração da interface do estudante e do docente: importação, exportação de cenário, reposição e indicadores «Dados locais guardados»/metadados do cenário. Não apagar dados existentes. Contratos internos de teste podem continuar a existir; conservar avisos necessários de dados ilustrativos.
 - MC-EST-051: redireccionamento de «Continuar actividade» para o simulador fica adiado, à espera das ligações reais. Preservar o fluxo local já existente, sem inventar integrações.
 
 Aceitação: testar scroll, contexto e materiais por actividade, três pendências mais recentes, resolução individual, autoria e cores por papel, ausência de ferramentas nos dois Mission Controls, dados antigos preservados, desktop/mobile e componentes sem AppShell.
+
+## 12. Anotações visuais posteriores — 24 de Outubro de 2026
+
+O resumo do bloco e «Actividades deste bloco» passam a integrar um único painel: título, indicadores e progresso no topo; filtros e lista de actividades abaixo de um separador interno discreto. Não apresentar a lista num cartão independente. Aplicar ao bloco actual e aos blocos em consulta, preservando filtros, navegação e acções.
+
+Nos quatro formulários do estudante (Meu Percurso, Percurso completo, detalhe da actividade e registo), o painel de notificações fica à direita do título principal. A primeira linha apresenta «Notificações e conversas» com total; a segunda apresenta badges por canal. Toda a superfície funciona como botão e abre directamente um popup com separadores Docente, Grupo e, nas páginas com actividade, Actividade. O popup começa fechado, suporta teclado e Escape, apresenta pendências e permite resolver ou abrir a conversa. Não existe expansão de cartões na página. Em ecrãs estreitos, o painel pode passar à linha seguinte. A soma dos badges mantém-se como total; abrir não resolve notificações.
+
+O cabeçalho «Notificações e conversas» inclui um badge com a soma dos três badges visíveis, conforme MC-UI-008 do PRD comum: Docente + Grupo + Actividade (2 + 1 + 1 = 4 no cenário inicial). Esta soma por categoria não representa mensagens distintas. Manter os badges por canal.
+
+Fonte: seis comentários do utilizador no browser e esclarecimentos posteriores sobre o próximo passo e a síntese dos participantes, no detalhe «Registar empresa». Complementa o PRD comum v0.11 e prevalece sobre a disposição anterior do detalhe.
+
+- MC-EST-052 (comentário 1, simplificação posterior): apresentar «Participantes: Ana M., João T. e António S.» numa única linha compacta, com quebra natural se necessário. Primeiro nome e inicial do último apelido; um único ícone abre um tooltip conjunto com os nomes completos e as respectivas contribuições. Disponível por hover, clique/toque e foco; fechar com Escape e ao abandonar a interacção. Sem participantes, indicar a ausência sem ícone. Preservar dados originais, associação à actividade e privacidade; não apresentar uma linha/ícone por pessoa no cartão.
+- MC-EST-053 (comentário 2): colocar a acção apropriada junto do título em cada cartão; adaptar por quebra de linha em espaços estreitos. Bloqueado/Concluído → Ver; Em curso → Continuar actividade; Por iniciar → Iniciar actividade. A existência do botão não amplia o âmbito funcional dos módulos.
+- MC-EST-054 (comentário 3): eliminar as etiquetas «Dados simulados». Manter apenas a nota de proveniência abaixo do contexto; a participação real continua por definir na integração. Estado vazio compacto: «Sem participantes indicados».
+- MC-EST-058 (anotação posterior): preencher participantes fictícios e contribuições plausíveis nas actividades concluídas ou em curso do cenário de demonstração, onde fizer sentido. Cobrir ideia de negócio, modelo de negócio, reserva do nome e registo da empresa. Não copiar indiscriminadamente a equipa inteira, nem apresentar contribuições realizadas em actividades não iniciadas/bloqueadas. Manter a síntese abreviada e o tooltip conjunto. Acrescentar metadados ausentes em cenários antigos através do adaptador, sem substituir participantes existentes, alterar progresso ou apagar dados.
+- MC-EST-055 (comentário 4): mostrar junto do estado «(confirmados de total)» em cada actividade com critérios definidos. A conclusão usa os critérios confirmados do cenário; no registo da empresa, mantém-se a validação e confirmação existentes. Nos restantes casos, não atribuir confirmação parcial sem evidência.
+- MC-EST-056 (comentário 5): retirar o estado repetido acima da secção de contexto, bem como a frase isolada «N de N critérios confirmados».
+- MC-EST-057 (comentário 6, corrigido pelos esclarecimentos posteriores): apresentar no cabeçalho «<actividade actual> | Próxima actividade: <passo pendente> <acção>» apenas quando existir um passo não confirmado do checklist actual e a actividade não estiver concluída nem bloqueada. No cenário inicial de registo, mostrar «Submeter o formulário de registo», não «Convidar sócios»; o botão abre o formulário local. Sem dados preenchidos, mostrar «Preencher os dados da empresa». Após conclusão confirmada, ocultar todo o bloco, sem sugerir outra actividade neste local. Sem passo pendente definido, mostrar apenas o título. As sucessoras continuam acessíveis nos cartões de contexto. Nas actividades ainda sem execução implementada, o botão conduz aos critérios da própria actividade, não a outro módulo. A descrição permanece nos dados. Não alterar progresso por clique.
+
+Aceitação: verificar tooltip com rato, teclado e toque, ausência de etiquetas, contagens por actividade, acções próximas dos títulos, navegação da próxima actividade e ausência de overflow em mobile. Manter o popup de notificações fechado na entrada e o shell intacto. Sem novas métricas de participação ou regras de progresso.

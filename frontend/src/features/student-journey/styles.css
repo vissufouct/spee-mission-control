@@ -23,6 +23,11 @@
 .student-chat-tab { padding: 8px; border-radius: 6px; color: #475569; font-size: 14px; }
 .student-chat-tab[aria-selected=true] { background: #e0f2fe; color: #0369a1; font-weight: 600; }
 .student-chat-badge { display: inline-flex; justify-content: center; min-width: 22px; padding: 1px 6px; border-radius: 20px; background: #087eff; color: white; font-size: 12px; }
+.student-page-heading { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; }
+.student-page-heading > :first-child { flex: 1 1 320px; min-width: 0; }
+.student-notification-launcher { flex: 0 1 auto; margin-left: auto; max-width: 100%; padding: 14px 16px; border: 1px solid #d5e3f5; border-radius: 12px; background: white; text-align: left; cursor: pointer; font-size: 13px; }
+.student-notification-launcher:hover { background: #f4f9ff; }
+.student-notification-launcher:focus-visible { outline: 2px solid #087eff; outline-offset: 3px; }
 .journey-activity-row { display: flex; align-items: center; gap: 12px; padding: 13px 0; }
 .journey-activity-action { min-width: 125px; }
 .journey-field-label { display: block; margin-bottom: 7px; font-size: 13px; font-weight: 600; }

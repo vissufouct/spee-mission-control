@@ -35,6 +35,9 @@ describe('JsonJourneyRepository: contrato e invariantes', () => {
     store.set('spee.student-journey.v1', json)
     const snapshot = await repository.getSnapshot()
     expect(snapshot.blocks.flatMap(b => b.activities).find(a => a.id === 'registar-empresa')?.simulatedParticipants).toHaveLength(3)
+    for (const id of ['definir-ideia', 'modelo-negocio', 'reserva-nome']) {
+      expect(snapshot.blocks.flatMap(b => b.activities).find(a => a.id === id)?.simulatedParticipants).toHaveLength(2)
+    }
     expect(getProgress(snapshot)).toEqual(getProgress(old))
     expect(store.get('spee.student-journey.v1')).toBe(json)
   })

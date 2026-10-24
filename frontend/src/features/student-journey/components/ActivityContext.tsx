@@ -2,7 +2,9 @@ import type { Activity, JourneySnapshot } from '../types'
 import { getActivityStatus } from '../services/journey.selectors'
 import { StatusBadge } from './StatusBadge'
 import { Button } from '@/shared/components/ui/button'
-import { FileCheck2, Settings2, UnlockKeyhole, Users } from 'lucide-react'
+import { FileCheck2, Settings2, UnlockKeyhole } from 'lucide-react'
+import { ParticipantInfo } from './ParticipantInfo'
+import { getActivityCriteria } from '../services/activity.presentation'
 export function ActivityContext({ activity, snapshot, onActivity, onCurrentActivity }: { activity: Activity; snapshot: JourneySnapshot; onActivity?: (id: string) => void; onCurrentActivity?: () => void }) {
   const all = snapshot.blocks.flatMap(b => b.activities)
   const groups = [
@@ -20,12 +22,11 @@ export function ActivityContext({ activity, snapshot, onActivity, onCurrentActiv
         const status = getActivityStatus(item, snapshot)
         const label = status === 'completed' || status === 'blocked' ? 'Ver' : status === 'in-progress' ? 'Continuar actividade' : 'Iniciar actividade'
         const current = id === activity.id
-        return <div key={id} className="student-context-item"><button type="button" className="student-context-link" disabled={current || !onActivity} aria-current={current ? 'page' : undefined} onClick={() => onActivity?.(id)}>{item.title}</button><div className="flex flex-wrap items-center gap-2"><StatusBadge status={status} />{!!item.simulatedParticipants?.length && <span className="student-demo-badge">Dados simulados</span>}</div>
+        const criteria = getActivityCriteria(item, snapshot)
+        return <div key={id} className="student-context-item"><div className="student-context-heading"><button type="button" className="student-context-link" disabled={current || !onActivity} aria-current={current ? 'page' : undefined} onClick={() => onActivity?.(id)}>{item.title}</button><Button variant={current && status !== 'completed' && status !== 'blocked' ? 'default' : 'outline'} className="student-context-action" aria-label={`${label}: ${item.title}`} disabled={current ? !onCurrentActivity : !onActivity} onClick={() => current ? onCurrentActivity?.() : onActivity?.(id)}>{label}</Button></div><div className="flex flex-wrap items-center gap-2"><StatusBadge status={status} />{criteria.total > 0 && <span className="text-xs text-slate-600" aria-label={`${criteria.confirmed} de ${criteria.total} critérios confirmados`}>({criteria.confirmed} de {criteria.total})</span>}</div>
           <section aria-label={`Participantes: ${item.title}`} className="mt-4 border-t border-slate-200 pt-3">
-            <h4 className="flex items-center gap-2 text-sm font-semibold"><Users size={17} className="text-blue-600" aria-hidden />Participantes</h4>
-            {item.simulatedParticipants?.length ? <ul className="mt-2 space-y-3">{item.simulatedParticipants.map(person => <li key={person.name}><p className="text-sm font-semibold">{person.name}</p><p className="mt-1 text-xs leading-5 text-slate-600">{person.contribution}</p></li>)}</ul> : <p className="mt-2 text-xs text-slate-500">Sem participantes simulados nesta actividade.</p>}
+            <ParticipantInfo participants={item.simulatedParticipants ?? []} />
           </section>
-          <Button variant={current && status !== 'completed' && status !== 'blocked' ? 'default' : 'outline'} className="student-context-action mt-4" aria-label={`${label}: ${item.title}`} disabled={current ? !onCurrentActivity : !onActivity} onClick={() => current ? onCurrentActivity?.() : onActivity?.(id)}>{label}</Button>
         </div>
       }) : <p className="text-xs text-slate-500">Sem ligação definida.</p>}
     </div>)}</div>

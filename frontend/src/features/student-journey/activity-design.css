@@ -24,7 +24,16 @@
 .student-context-link:disabled { color: #132039; }
 .student-context-item section { border-color: #dce7f3; margin-top: 20px; padding-top: 16px; }
 .student-context-item section p { overflow-wrap: anywhere; }
-.student-demo-badge { display: inline-flex; font-size: 11px; line-height: 20px; border: 1px solid #fde8b1; background: #fff5db; color: #8b4b06; padding: 3px 10px; border-radius: 999px; }
+.student-context-heading { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 12px; }
+.student-context-heading .student-context-link { margin: 0; }
+.student-context-action { font-size: 12px; padding: 6px 10px; min-height: 32px; height: auto; }
+.student-activity-heading { display: flex; align-items: center; flex-wrap: wrap; gap: 16px; }
+.student-next-activity { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; border-left: 1px solid #dce7f3; padding-left: 16px; font-size: 13px; color: #526985; }
+.student-activity-detail > section:first-child { margin-top: 0; }
+.student-participant { position: relative; display: flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 600; }
+.student-participant-info { display: inline-flex; align-items: center; justify-content: center; min-width: 28px; min-height: 28px; color: #076dd7; border-radius: 6px; }
+.student-participant-info:focus-visible { outline: 2px solid #076dd7; outline-offset: 2px; }
+.student-participant-tooltip { position: absolute; z-index: 20; top: 100%; left: 0; width: min(280px, 100%); padding: 10px 12px; border: 1px solid #bfd3ed; border-radius: 8px; background: white; box-shadow: 0 6px 18px #13203920; color: #334155; font-size: 12px; font-weight: 400; line-height: 1.5; }
 .student-completion-list { border: 1px solid var(--activity-border); border-radius: 9px; overflow: hidden; }
 .student-completion-list > li + li { border-top: 1px solid var(--activity-border); }
 .student-criterion-badge { font-size: 12px; white-space: nowrap; padding: 5px 12px; border-radius: 999px; }
