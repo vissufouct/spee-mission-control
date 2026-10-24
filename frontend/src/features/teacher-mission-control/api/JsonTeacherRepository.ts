@@ -26,6 +26,24 @@ export class JsonTeacherRepository implements TeacherRepository {
     return teacherSnapshotSchema.parse(snapshot)
   }
   async getSnapshot() { return this.hydrate(this.read()) }
+  async receiveStudentMessage(companyId: string, activityId: string, author: string, message: string, revision: number) {
+    const parsed = requestReplySchema.parse({ message })
+    return this.commit(revision, snapshot => {
+      const company = snapshot.companies.find(c => c.id === companyId)
+      const activity = company?.activities.find(a => a.id === activityId)
+      if (!activity) throw new Error('Actividade inexistente nesta empresa.')
+      const now = new Date().toISOString()
+      let request = snapshot.orientationRequests.find(r => r.companyId === companyId && r.activityId === activityId)
+      if (!request) {
+        request = { id: crypto.randomUUID(), companyId, activityId, subject: activity.title, status: 'awaiting-teacher', createdAt: now, updatedAt: now, concludedAt: null, messages: [] }
+        snapshot.orientationRequests.push(request)
+      }
+      request.messages.push({ id: crypto.randomUUID(), role: 'student', author, message: parsed.message, occurredAt: now })
+      request.status = 'awaiting-teacher'
+      request.concludedAt = null
+      request.updatedAt = now
+    })
+  }
   private write(snapshot: TeacherSnapshot) {
     const parsed = teacherSnapshotSchema.parse(snapshot)
     try { this.storage.setItem(KEY, JSON.stringify(parsed)) }

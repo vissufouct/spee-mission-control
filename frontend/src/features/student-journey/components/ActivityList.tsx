@@ -3,9 +3,9 @@ import { Button } from '@/shared/components/ui/button'
 import { StatusBadge } from './StatusBadge'
 import { getActivityStatus } from '../services/journey.selectors'
 import type { Activity, JourneySnapshot } from '../types'
-export type ActivityFilter = 'all' | 'available' | 'in-progress' | 'blocked'
+export type ActivityFilter = 'all' | 'not-started' | 'in-progress' | 'blocked' | 'completed'
 const filters: { value: ActivityFilter; label: string }[] = [
-  { value: 'all', label: 'Todas' }, { value: 'available', label: 'Disponíveis' },
+  { value: 'all', label: 'Todas' }, { value: 'not-started', label: 'Por iniciar' }, { value: 'completed', label: 'Concluídas' },
   { value: 'in-progress', label: 'Em curso' }, { value: 'blocked', label: 'Bloqueadas' },
 ]
 const icons = { 'reserva-nome': FileCheck2, 'registar-empresa': FilePenLine, 'convidar-socios': UsersRound, 'inicio-actividades': CalendarDays }

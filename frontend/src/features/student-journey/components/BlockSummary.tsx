@@ -2,12 +2,12 @@ import { Check, Clock3, LockKeyhole, Play, ChevronRight } from 'lucide-react'
 import { Button } from '@/shared/components/ui/button'
 import { getBlockSummary } from '../services/journey.selectors'
 import type { JourneySnapshot } from '../types'
-export function BlockSummary({ snapshot, onFullPath }: { snapshot: JourneySnapshot; onFullPath: () => void }) {
-  const summary = getBlockSummary(snapshot)
+export function BlockSummary({ snapshot, onFullPath, blockId }: { snapshot: JourneySnapshot; onFullPath: () => void; blockId?: string }) {
+  const summary = getBlockSummary(snapshot, blockId)
   const entries = [
     { count: summary.completed, label: summary.completed === 1 ? 'concluída' : 'concluídas', icon: Check, style: 'bg-emerald-600 text-white' },
     { count: summary.inProgress, label: 'em curso', icon: Clock3, style: 'bg-amber-500 text-white' },
-    { count: summary.available, label: summary.available === 1 ? 'disponível' : 'disponíveis', icon: Play, style: 'bg-cyan-50 text-cyan-700' },
+    { count: summary.available, label: 'por iniciar', icon: Play, style: 'bg-cyan-50 text-cyan-700' },
     { count: summary.blocked, label: summary.blocked === 1 ? 'bloqueada' : 'bloqueadas', icon: LockKeyhole, style: 'bg-slate-100 text-slate-500' },
   ]
   return <aside className="spee-panel self-start p-5" aria-label="Resumo do bloco"><h2 className="mb-5 text-lg font-semibold">Resumo do bloco</h2>

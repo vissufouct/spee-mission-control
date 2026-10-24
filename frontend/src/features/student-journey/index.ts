@@ -1,4 +1,6 @@
 export { JourneyPage } from './pages/JourneyPage'
+export { ActivityPage } from './pages/ActivityPage'
+export type { ConversationGateway, TeacherMessage } from './services/ConversationGateway'
 export { FullJourneyPage } from './pages/FullJourneyPage'
 export { RegistrationPage } from './pages/RegistrationPage'
 export { JourneyProvider } from './hooks/JourneyProvider'

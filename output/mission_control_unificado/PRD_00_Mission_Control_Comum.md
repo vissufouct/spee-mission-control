@@ -1,7 +1,7 @@
 # PRD do Mission Control — núcleo comum
 
-**Versão:** 0.4
-**Data:** 23 de Outubro de 2026
+**Versão:** 0.5
+**Data:** 24 de Outubro de 2026
 **Estado:** rascunho consolidado para validação  
 **Produto:** SPEE Mission Control  
 
@@ -90,6 +90,8 @@ As imagens actuais representam o seguinte núcleo comum:
 Estados adicionais descritos no backlog — à espera de terceiro, submetido, aprovado, vencido e cancelado — carecem de correspondência visual e regras de apresentação aprovadas.
 
 ### 5.1. Projecção de estados no Mission Control do docente
+
+Actualização de 24 de Outubro: a mesma projecção aplica-se ao estudante, incluindo filtros e legendas. As duas perspectivas apresentam os quatro estados abaixo.
 
 Na validação de 23 de Outubro de 2026, a vista do docente foi simplificada para quatro estados visíveis: **Concluído**, **Em curso**, **Por iniciar** e **Bloqueado**. A correspondência é:
 

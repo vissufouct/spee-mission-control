@@ -1,18 +1,22 @@
 import { ArrowRight, BookOpen, CheckCircle2, Circle, Clock3, FileText } from 'lucide-react'
 import { Dialog } from '@/shared/components/ui/dialog'
+import type { ReactNode } from 'react'
 import { Button } from '@/shared/components/ui/button'
 import { StatusBadge } from './StatusBadge'
 import { getActivityStatus } from '../services/journey.selectors'
 import type { Activity, JourneySnapshot } from '../types'
 import { registrationSchema } from '../schemas/journey.schema'
 
-export function ActivityDialog({ activity, snapshot, onClose, onContinue }: { activity: Activity | null; snapshot: JourneySnapshot; onClose: () => void; onContinue: () => void }) {
+function DetailContainer({ embedded, title, description, onClose, children }: { embedded: boolean; title: string; description: string; onClose: () => void; children: ReactNode }) {
+  return embedded ? <section className="spee-panel p-5"><p>{description}</p>{children}</section> : <Dialog open onOpenChange={open => { if (!open) onClose() }} title={title} description={description}>{children}</Dialog>
+}
+export function ActivityDialog({ activity, snapshot, onClose, onContinue, embedded = false }: { activity: Activity | null; snapshot: JourneySnapshot; onClose: () => void; onContinue: () => void; embedded?: boolean }) {
   if (!activity) return null
   const status = getActivityStatus(activity, snapshot)
   const registration = activity.id === 'registar-empresa'
   const completed = status === 'completed'
   const count = completed ? 3 : registrationSchema.safeParse(snapshot.registration?.data).success ? 1 : 0
-  return <Dialog open onOpenChange={open => { if (!open) onClose() }} title={activity.title} description={registration ? 'Meu Percurso / Constituição' : activity.description}>
+  return <DetailContainer embedded={embedded} onClose={onClose} title={activity.title} description={activity.description}>
     <div className="mt-4"><StatusBadge status={status} />{registration && <p className="mt-3 text-sm text-blue-700">{count} de 3 critérios confirmados</p>}</div>
     {registration ? <>
       <h3 className="mb-3 mt-6 font-semibold">Esta actividade em contexto</h3>
@@ -39,5 +43,5 @@ export function ActivityDialog({ activity, snapshot, onClose, onContinue }: { ac
       {activity.id === 'reserva-nome' ? <><h3 className="font-semibold text-slate-900">Nome reservado</h3><p>Horizonte Verde, Lda. · Reserva RV-2026-0841</p><p>Resultado ilustrativo fornecido no cenário inicial.</p></> :
       <><h3 className="font-semibold text-slate-900">{activity.reason ?? 'Esta actividade está prevista no percurso.'}</h3><p className="mt-2">Nesta primeira iteração pode testar o fluxo completo de registo da empresa. A execução desta actividade será desenvolvida numa próxima iteração.</p></>}
     </div>}
-  </Dialog>
+  </DetailContainer>
 }

@@ -23,6 +23,28 @@ export class JsonJourneyRepository implements JourneyRepository {
     }
   }
   async getSnapshot() { return this.read() }
+  async sendGroupMessage(activityId: string, message: string, assignee: string | null, revision: number) {
+    return this.commit(revision, current => {
+      if (!current.blocks.some(b => b.activities.some(a => a.id === activityId))) throw new Error('Actividade inexistente.')
+      if (!message.trim() || message.length > 2000) throw new Error('Escreva uma mensagem até 2000 caracteres.')
+      if (assignee && !current.members.includes(assignee)) throw new Error('Seleccione um membro da empresa.')
+      current.groupMessages.push({ id: crypto.randomUUID(), activityId, author: current.context.studentName, message: message.trim(), createdAt: new Date().toISOString(), assignee, doneAt: null })
+    })
+  }
+  async completeTask(id: string, revision: number) {
+    return this.commit(revision, current => {
+      const task = current.groupMessages.find(item => item.id === id)
+      if (!task || task.assignee !== current.context.studentName) throw new Error('Só o responsável pode marcar a tarefa como feita.')
+      if (!task.doneAt) task.doneAt = new Date().toISOString()
+    })
+  }
+  async resolveNotification(id: string, revision: number) {
+    return this.commit(revision, current => {
+      const group = current.groupMessages.find(item => item.id === id)
+      if (group && (group.author === current.context.studentName || (group.assignee && group.assignee !== current.context.studentName))) throw new Error('Esta notificação não lhe é destinada.')
+      if (!current.resolvedNotifications.some(item => item.id === id && item.recipient === current.context.studentName)) current.resolvedNotifications.push({ id, recipient: current.context.studentName })
+    })
+  }
   private async commit(expectedRevision: number, change: (current: JourneySnapshot) => void) {
     // Read/check/write in one synchronous turn: concurrent calls cannot share a stale revision.
     const current = this.read()

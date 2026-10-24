@@ -1,6 +1,12 @@
 {
   "schemaVersion": 1,
   "revision": 0,
+  "members": ["Ana Machava", "João Tembe", "António Sitoe"],
+  "groupMessages": [
+    { "id": "grupo-documentos", "activityId": "registar-empresa", "author": "António Sitoe", "message": "Ana, confirma os dados da empresa antes de submetermos o registo.", "createdAt": "2026-10-24T09:00:00.000Z", "assignee": "Ana Machava", "doneAt": null },
+    { "id": "grupo-arquivo", "activityId": "registar-empresa", "author": "João Tembe", "message": "António, depois do registo, guarda os documentos de constituição no gestor documental.", "createdAt": "2026-10-24T09:05:00.000Z", "assignee": "António Sitoe", "doneAt": null }
+  ],
+  "resolvedNotifications": [],
   "context": {
     "studentName": "Ana Machava",
     "studentEmail": "ana.machava@exemplo.ac.mz",

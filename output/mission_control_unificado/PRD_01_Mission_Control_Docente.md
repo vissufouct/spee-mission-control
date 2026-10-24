@@ -1,7 +1,7 @@
 # PRD do Mission Control do Docente
 
-**Versão:** 0.4
-**Data:** 23 de Outubro de 2026
+**Versão:** 0.5
+**Data:** 24 de Outubro de 2026
 **Estado:** actualizado após validação funcional com Leila Omar
 **Depende de:** `PRD_00_Mission_Control_Comum.md`  
 
@@ -128,6 +128,8 @@ O padrão visual apresenta fila de intervenção, motivo obrigatório, efeito pr
 | MC-DOC-024 | A vista docente apresenta apenas Concluído, Em curso, Por iniciar e Bloqueado; Devolvido corresponde a Em curso. |
 
 ## 6. Regras de pedidos de orientação
+
+Decisão transversal de 24 de Outubro: o docente recebe apenas o canal de orientação da actividade. As conversas e tarefas privadas dos membros da empresa não podem ser consultadas pelo docente nem gerar notificações docentes. O conteúdo funcional do detalhe pode ser equivalente ao apresentado ao estudante, mantendo as permissões de cada perspectiva.
 
 1. Um pedido nasce de uma mensagem do estudante associada à empresa e actividade em curso.
 2. O contador inclui apenas pedidos que aguardam resposta do docente.

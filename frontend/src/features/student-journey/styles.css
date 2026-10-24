@@ -3,6 +3,16 @@
 .journey-progress::-webkit-progress-value { background: #087eff; border-radius: 99px; }
 .journey-progress::-moz-progress-bar { background: #087eff; border-radius: 99px; }
 .journey-columns { display: grid; grid-template-columns: minmax(0, 1fr) minmax(240px, .34fr); gap: 20px; }
+.student-detail-columns { display: flex; flex-direction: column-reverse; gap: 20px; align-items: stretch; }
+.student-detail-columns > button { align-self: flex-start; }
+.student-chat-dialog { display: flex; flex-direction: column; height: 90dvh; overflow: hidden; padding: 20px; }
+.student-chat-content { display: flex; flex-direction: column; gap: 8px; min-height: 0; flex: 1; }
+.student-chat-history { flex: 1; min-height: 60px; overflow-y: auto; overscroll-behavior: contain; overflow-anchor: none; padding: 16px; background: #f1f5f9; border-radius: 8px; }
+.student-chat-bubble { max-width: 88%; width: fit-content; padding: 12px; border-radius: 12px 12px 12px 2px; background: white; border: 1px solid #e2e8f0; font-size: 14px; overflow-wrap: anywhere; }
+.student-chat-own { margin-left: auto; background: #e0f2fe; border-color: #bae6fd; border-radius: 12px 12px 2px 12px; }
+.student-chat-tab { padding: 8px; border-radius: 6px; color: #475569; font-size: 14px; }
+.student-chat-tab[aria-selected=true] { background: #e0f2fe; color: #0369a1; font-weight: 600; }
+.student-chat-badge { display: inline-flex; justify-content: center; min-width: 22px; padding: 1px 6px; border-radius: 20px; background: #087eff; color: white; font-size: 12px; }
 .journey-activity-row { display: flex; align-items: center; gap: 12px; padding: 13px 0; }
 .journey-activity-action { min-width: 125px; }
 .journey-field-label { display: block; margin-bottom: 7px; font-size: 13px; font-weight: 600; }

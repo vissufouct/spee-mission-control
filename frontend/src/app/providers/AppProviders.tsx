@@ -5,6 +5,7 @@ import fixture from '@/data/student-journey.fixture.json'
 import teacherFixture from '@/data/teacher-mission-control.fixture.json'
 import { TeacherProvider, JsonTeacherRepository, teacherSnapshotSchema } from '@/features/teacher-mission-control'
 import { mapStudentJourney } from './mapStudentJourney'
+import { createStudentConversations } from './createStudentConversations'
 const queryClient = new QueryClient({ defaultOptions: { queries: { staleTime: 10_000, retry: false } } })
 // Lazy Storage calls preserve an actionable error screen if browser storage is unavailable.
 const repository = new JsonJourneyRepository(fixture, {
@@ -16,6 +17,7 @@ const teacherRepository = new JsonTeacherRepository(teacherSeed, {
   getItem: key => window.localStorage.getItem(key),
   setItem: (key, value) => window.localStorage.setItem(key, value),
 }, async () => mapStudentJourney(await repository.getSnapshot(), teacherSeed.companies.find(c => c.linkedToStudent)!))
+const conversations = createStudentConversations(repository, teacherRepository)
 export function AppProviders({ children }: { children: ReactNode }) {
-  return <QueryClientProvider client={queryClient}><JourneyProvider repository={repository}><TeacherProvider repository={teacherRepository}>{children}</TeacherProvider></JourneyProvider></QueryClientProvider>
+  return <QueryClientProvider client={queryClient}><JourneyProvider repository={repository} conversations={conversations}><TeacherProvider repository={teacherRepository}>{children}</TeacherProvider></JourneyProvider></QueryClientProvider>
 }

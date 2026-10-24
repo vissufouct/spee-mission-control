@@ -3,6 +3,7 @@ import type { Company, TeacherEvent, TeacherStatus } from '@/features/teacher-mi
 
 function toTeacherStatus(status: ReturnType<typeof getActivityStatus>): TeacherStatus {
   if (status === 'available' || status === 'unavailable') return 'not-started'
+  if (status === 'returned') return 'in-progress'
   return status
 }
 

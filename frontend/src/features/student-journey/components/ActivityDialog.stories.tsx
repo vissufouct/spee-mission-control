@@ -11,6 +11,7 @@ const meta = {
 export default meta
 type Story = StoryObj<typeof meta>
 export const InProgress: Story = {}
+export const PageContentWithoutShell: Story = { args: { embedded: true } }
 export const Completed: Story = {
   args: { snapshot: { ...snapshot, registration: { ...snapshot.registration!, status: 'confirmed', receiptNumber: 'REG-DEMO-0841' } } },
 }

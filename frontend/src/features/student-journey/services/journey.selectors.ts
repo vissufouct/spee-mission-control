@@ -2,8 +2,8 @@ import type { Activity, ActivityStatus, JourneySnapshot } from '../types'
 import { confirmedProgress } from '@/shared/lib/progress'
 
 export function getActivityStatus(activity: Activity, snapshot: JourneySnapshot): ActivityStatus {
-  if (activity.id !== 'registar-empresa') return activity.status
-  return snapshot.registration?.status === 'confirmed' ? 'completed' : snapshot.registration ? 'in-progress' : 'available'
+  if (activity.id !== 'registar-empresa') return activity.status === 'returned' ? 'in-progress' : ['available', 'unavailable'].includes(activity.status) ? 'not-started' : activity.status
+  return snapshot.registration?.status === 'confirmed' ? 'completed' : snapshot.registration ? 'in-progress' : 'not-started'
 }
 export function getProgress(snapshot: JourneySnapshot) {
   const activities = snapshot.blocks.flatMap(block => block.activities)
@@ -13,17 +13,18 @@ export function getProgress(snapshot: JourneySnapshot) {
 export function getCurrentBlock(snapshot: JourneySnapshot) {
   return snapshot.blocks.find(block => block.id === snapshot.context.currentBlockId)!
 }
-export function getBlockSummary(snapshot: JourneySnapshot) {
-  const activities = getCurrentBlock(snapshot).activities
+export function getBlockSummary(snapshot: JourneySnapshot, blockId = snapshot.context.currentBlockId) {
+  const activities = (snapshot.blocks.find(block => block.id === blockId) ?? getCurrentBlock(snapshot)).activities
   return {
     total: activities.length,
     completed: activities.filter(a => getActivityStatus(a, snapshot) === 'completed').length,
     inProgress: activities.filter(a => getActivityStatus(a, snapshot) === 'in-progress').length,
-    available: activities.filter(a => getActivityStatus(a, snapshot) === 'available').length,
+    available: activities.filter(a => getActivityStatus(a, snapshot) === 'not-started').length,
     blocked: activities.filter(a => getActivityStatus(a, snapshot) === 'blocked').length,
   }
 }
 export const journeyPaths = {
+  activity: (id: string) => '/estudante/percurso/actividades/' + encodeURIComponent(id),
   home: '/estudante/percurso',
   full: '/estudante/percurso/completo',
   registration: '/estudante/percurso/registar-empresa',

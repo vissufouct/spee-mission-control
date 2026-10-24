@@ -1,6 +1,7 @@
 import type { Company, GeneralOrientationInput, OrientationInput, RequestReply, TeacherSnapshot } from '../types'
 
 export interface TeacherRepository {
+  receiveStudentMessage(companyId: string, activityId: string, author: string, message: string, revision: number): Promise<TeacherSnapshot>
   getSnapshot(): Promise<TeacherSnapshot>
   saveOrientation(input: OrientationInput, expectedRevision: number, id?: string): Promise<TeacherSnapshot>
   removeOrientation(id: string, expectedRevision: number): Promise<TeacherSnapshot>

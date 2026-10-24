@@ -9,7 +9,9 @@ const states = {
   unavailable: { label: 'Não disponível', icon: Ban, style: 'bg-slate-100 text-slate-600', circle: 'bg-slate-200 text-slate-600' },
 }
 export function StatusBadge({ status, compact = false }: { status: ActivityStatus; compact?: boolean }) {
-  const { label, icon: Icon, style, circle } = states[status]
+  const normalized = status === 'not-started' || status === 'unavailable' ? 'available' : status === 'returned' ? 'in-progress' : status
+  const { icon: Icon, style, circle } = states[normalized]
+  const label = normalized === 'available' ? 'Por iniciar' : states[normalized].label
   return <span className={cn('inline-flex shrink-0 items-center gap-2 rounded-full px-2.5 py-1 text-xs font-medium whitespace-nowrap', style)}>
     <span className={cn('grid size-5 place-items-center rounded-full', circle)}><Icon size={13} aria-hidden /></span>
     {compact ? <span className="sr-only">{label}</span> : label}

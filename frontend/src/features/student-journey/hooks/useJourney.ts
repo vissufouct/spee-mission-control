@@ -13,6 +13,8 @@ export function useScenarioExport() {
   return async () => downloadJson(await repository.exportSnapshot(), 'spee-cenario.json')
 }
 type Command =
+  | { type: 'group-message'; activityId: string; message: string; assignee: string | null; revision: number }
+  | { type: 'complete-task' | 'resolve-notification'; id: string; revision: number }
   | { type: 'save'; values: RegistrationValues; revision: number; create: boolean }
   | { type: 'confirm' | 'remove'; revision: number }
   | { type: 'import'; json: string; revision: number }
@@ -23,6 +25,9 @@ export function useJourneyMutation() {
   return useMutation({
     mutationFn: (command: Command) => {
       switch (command.type) {
+        case 'group-message': return repository.sendGroupMessage(command.activityId, command.message, command.assignee, command.revision)
+        case 'complete-task': return repository.completeTask(command.id, command.revision)
+        case 'resolve-notification': return repository.resolveNotification(command.id, command.revision)
         case 'save': return command.create
           ? repository.createRegistration(command.values, command.revision)
           : repository.updateRegistration(command.values, command.revision)

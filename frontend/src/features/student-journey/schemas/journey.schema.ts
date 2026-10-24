@@ -1,6 +1,6 @@
 import { z } from 'zod'
 
-export const activityStatusSchema = z.enum(['completed', 'in-progress', 'available', 'blocked', 'unavailable'])
+export const activityStatusSchema = z.enum(['completed', 'in-progress', 'available', 'blocked', 'unavailable', 'not-started', 'returned'])
 export const registrationSchema = z.object({
   legalName: z.string().trim().min(3, 'Indique a denominação da empresa.').max(120),
   taxId: z.string().regex(/^\d{9}$/, 'O NUIT deve ter exactamente 9 algarismos.'),
@@ -17,8 +17,15 @@ export const draftSchema = registrationSchema.extend({
 export const activitySchema = z.object({
   id: z.string().min(1), title: z.string().min(1), description: z.string(),
   status: activityStatusSchema, reason: z.string().optional(),
+  definitionOfDone: z.string().optional(),
 })
 export const journeySnapshotSchema = z.object({
+  members: z.array(z.string().min(1)).default(['Ana Machava', 'João Tembe', 'António Sitoe']),
+  groupMessages: z.array(z.object({
+    id: z.string(), activityId: z.string(), author: z.string(), message: z.string().min(1),
+    createdAt: z.iso.datetime(), assignee: z.string().nullable(), doneAt: z.iso.datetime().nullable(),
+  })).default([]),
+  resolvedNotifications: z.array(z.object({ id: z.string(), recipient: z.string() })).default([]),
   schemaVersion: z.literal(1),
   revision: z.number().int().nonnegative(),
   context: z.object({
@@ -38,6 +45,8 @@ export const journeySnapshotSchema = z.object({
   })),
 }).superRefine((value, ctx) => {
   const ids = value.blocks.flatMap(block => block.activities.map(activity => activity.id))
+  if (new Set(value.groupMessages.map(m => m.id)).size !== value.groupMessages.length || value.groupMessages.some(m => !ids.includes(m.activityId) || !value.members.includes(m.author) || (m.assignee !== null && !value.members.includes(m.assignee)) || (m.doneAt !== null && m.assignee === null)))
+    ctx.addIssue({ code: 'custom', message: 'Conversa ou tarefa fora do contexto da empresa.' })
   if (new Set(ids).size !== ids.length || new Set(value.blocks.map(block => block.id)).size !== value.blocks.length)
     ctx.addIssue({ code: 'custom', message: 'Os identificadores do percurso devem ser únicos.' })
   if (!value.blocks.some(block => block.id === value.context.currentBlockId))

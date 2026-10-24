@@ -1,7 +1,7 @@
 # Registo de decisões do Mission Control
 
-**Versão:** 0.4
-**Data:** 23 de Outubro de 2026
+**Versão:** 0.5
+**Data:** 24 de Outubro de 2026
 **Finalidade:** manter decisões resolvidas e pendentes com resposta, responsável, data e impacto rastreáveis.  
 
 ## Como utilizar
@@ -18,7 +18,7 @@ Em cada decisão:
 
 | Estado | Quantidade actual |
 |---|---:|
-| Resolvidas | 9 |
+| Resolvidas | 10 |
 | Não resolvidas | 15 |
 
 ---
@@ -337,3 +337,13 @@ Em cada decisão:
 - **Decisão final:** ____________________
 - **Impacto:** navegação docente, privacidade, modelo de eventos e relatórios.
 - **Evidência ou acta:** a vista e os seus acessos ficam ocultos na experiência corrente, mas os artefactos anteriores são preservados para decisão futura.
+
+## DEC-025 — Navegação, colaboração e notificações do estudante
+
+- **Estado:** [ ] Não resolvida  [x] Resolvida
+- **Responsável:** Vali Issufo
+- **Data da decisão:** 24 de Outubro de 2026
+- **Resposta:** aprovadas as alterações da reunião e esclarecidos os quatro aspectos em aberto.
+- **Decisão final:** navegação entre blocos com destinos dinâmicos e regresso ao bloco actual; actividades em páginas próprias; estados alinhados com o docente; dois canais por actividade. Tarefas têm responsável e indicação de feito, marcada apenas pelo responsável. Cada destinatário resolve as suas notificações. O docente não pode ver conversas do grupo. O detalhe da actividade pode ser equivalente ao docente.
+- **Impacto:** PRD estudante MC-EST-023–038, projecção comum de estados, composição entre repositories e testes de privacidade/colaboração. Consultar o PRD estudante para os critérios de aceitação e limites da persistência local.
+- **Evidência ou acta:** Call with Leila Omar (2).docx, 0:51–13:39, e esclarecimentos explícitos posteriores do utilizador.

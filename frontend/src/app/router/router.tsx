@@ -1,5 +1,5 @@
 import { createBrowserRouter, Link } from 'react-router-dom'
-import { JourneyPage, FullJourneyPage, RegistrationPage, journeyPaths } from '@/features/student-journey'
+import { JourneyPage, FullJourneyPage, RegistrationPage, ActivityPage, journeyPaths } from '@/features/student-journey'
 import { AppShell } from '../shell/AppShell'
 import { TeacherOverviewPage, TeacherCompanyPage, teacherPaths } from '@/features/teacher-mission-control'
 import { DevelopmentLandingPage } from '../landing/DevelopmentLandingPage'
@@ -15,6 +15,7 @@ export const router = createBrowserRouter([{
     { path: journeyPaths.home, element: <JourneyPage /> },
     { path: journeyPaths.full, element: <FullJourneyPage /> },
     { path: journeyPaths.registration, element: <RegistrationPage /> },
+    { path: journeyPaths.home + '/actividades/:activityId', element: <ActivityPage /> },
   ],
 }, {
   element: <AppShell role="teacher" />,
