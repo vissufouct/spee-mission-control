@@ -169,7 +169,7 @@ Fonte: reunião «Call with Leila Omar (2)», 0:51–13:39, e esclarecimentos po
 ### Navegação e detalhe
 
 - MC-EST-023: consultar blocos anteriores/seguintes através de setas com os nomes dos destinos. Actualizar actividades, progresso e resumo do bloco seleccionado.
-- Apresentação revista do resumo: integrar os quatro indicadores na zona superior direita do cartão do bloco, substituindo «Algumas actividades podem decorrer em paralelo». Grelha 2 × 2: concluídas/em curso na primeira linha, por iniciar/bloqueadas na segunda, com ícone, contagem e rótulo. Não duplicar num painel lateral. Em espaços estreitos, permitir que a grelha passe abaixo do título, mantendo duas colunas. Preservar o acesso ao percurso completo no cabeçalho funcional do Meu Percurso, junto dos marcos confirmados.
+- Apresentação revista do resumo: integrar os quatro indicadores à direita do título grande do bloco e da sua barra de progresso, alinhados verticalmente com esse conjunto, e não com o rótulo «Bloco actual». A barra termina antes dos indicadores, sem passar por baixo deles. Grelha 2 × 2: concluídas/em curso na primeira linha, por iniciar/bloqueadas na segunda, com ícone, contagem e rótulo. Não duplicar num painel lateral. Em espaços estreitos, permitir que a grelha passe abaixo do conjunto título/progresso, mantendo duas colunas. Preservar o acesso ao percurso completo no cabeçalho funcional do Meu Percurso, junto dos marcos confirmados.
 - MC-EST-024: distinguir bloco em consulta de bloco actual; consultar não muda o bloco actual nem o progresso.
 - MC-EST-025: disponibilizar «Voltar para o bloco actual»; desactivar a navegação sem destino nos extremos.
 - MC-EST-026: manter o percurso completo. O nome de cada bloco liga ao Meu Percurso com foco nesse bloco, independentemente do controlo de expandir/recolher.
@@ -219,6 +219,8 @@ Fonte: «Call with Leila Omar (4)», gravação de 15m52s, e esclarecimentos pos
 Aceitação: testar scroll, contexto e materiais por actividade, três pendências mais recentes, resolução individual, autoria e cores por papel, ausência de ferramentas nos dois Mission Controls, dados antigos preservados, desktop/mobile e componentes sem AppShell.
 
 ## 12. Anotações visuais posteriores — 24 de Outubro de 2026
+
+O popup de notificações adopta a linguagem visual aprovada: cartões suaves, contornos claros, tipografia compacta, separadores com ícones e badges e botões distintos para abrir conversa (azul) e resolver (contorno). Manter foco, teclado, estados de carregamento/erro, conteúdo integral e comportamento de resolução; o corpo tem deslocação interna em ecrãs pequenos.
 
 O resumo do bloco e «Actividades deste bloco» passam a integrar um único painel: título, indicadores e progresso no topo; filtros e lista de actividades abaixo de um separador interno discreto. Não apresentar a lista num cartão independente. Aplicar ao bloco actual e aos blocos em consulta, preservando filtros, navegação e acções.
 

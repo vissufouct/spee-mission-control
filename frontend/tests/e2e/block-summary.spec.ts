@@ -34,7 +34,19 @@ test('resumo integrado do bloco em grelha 2 × 2', async ({ page }, info) => {
     expect(boxes[2].y).toBeGreaterThan(boxes[0].y)
   }
   await checkGrid()
+  const checkAlignment = async () => {
+    const indicators = await summary.boundingBox()
+    const title = await panel.getByRole('heading', { name: 'Constituição', exact: true }).boundingBox()
+    const progress = await panel.getByRole('progressbar', { name: 'Progresso do bloco' }).boundingBox()
+    expect(progress!.x + progress!.width).toBeLessThan(indicators!.x)
+    expect(indicators!.y).toBeGreaterThanOrEqual(title!.y)
+    expect(indicators!.y + indicators!.height).toBeLessThanOrEqual(progress!.y + progress!.height)
+  }
+  await checkAlignment()
   await page.screenshot({ path: info.outputPath('block-summary-desktop.png'), fullPage: true })
+  await page.setViewportSize({ width: 720, height: 853 })
+  await checkAlignment()
+  await page.screenshot({ path: info.outputPath('block-summary-tablet.png'), fullPage: true })
   await page.setViewportSize({ width: 390, height: 844 })
   await checkGrid()
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true)

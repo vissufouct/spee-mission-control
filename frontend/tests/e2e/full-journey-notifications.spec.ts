@@ -12,6 +12,8 @@ for (const route of ['/estudante/percurso', '/estudante/percurso/completo', '/es
     expect(launcherBox!.x).toBeGreaterThan(headingBox!.x)
     await launcher.press('Enter')
     await expect(page.getByRole('dialog', { name: 'Notificações e conversas', exact: true })).toBeVisible()
+    await expect(page.getByRole('dialog').locator('.student-notification-message')).toHaveCount(2)
+    await page.screenshot({ path: info.outputPath('desktop-popup.png') })
     await page.getByRole('tab', { name: 'Docente 2', exact: true }).focus()
     await page.keyboard.press('ArrowRight')
     await expect(page.getByRole('tab', { name: 'Grupo 1', exact: true })).toHaveAttribute('aria-selected', 'true')

@@ -23,12 +23,15 @@ export function JourneyView({ snapshot, filter, onFilter, onOpen, blockId, onBlo
     <div>
       <div className="min-w-0 space-y-4">
         <section className="spee-panel p-5" aria-label={`Bloco e actividades: ${current.title}`}>
-          <div className="flex flex-wrap items-start justify-between gap-3"><h2 className="font-semibold">{current.id === snapshot.context.currentBlockId ? 'Bloco actual' : 'Bloco em consulta'}</h2><BlockSummary snapshot={snapshot} blockId={current.id} /></div>
-          <div className="mt-2 flex items-center gap-5"><span className="grid size-16 shrink-0 place-items-center rounded-full bg-blue-50 text-blue-600"><Layers3 size={36} strokeWidth={1.7} /></span><div className="min-w-0 flex-1">
+          <h2 className="font-semibold">{current.id === snapshot.context.currentBlockId ? 'Bloco actual' : 'Bloco em consulta'}</h2>
+          <div className="student-block-overview">
+          <div className="student-block-progress flex items-center gap-5"><span className="grid size-16 shrink-0 place-items-center rounded-full bg-blue-50 text-blue-600"><Layers3 size={36} strokeWidth={1.7} /></span><div className="min-w-0 flex-1">
             <h2 className="text-3xl font-semibold tracking-tight">{current.title}</h2>
             <p className="my-2 text-sm">{summary.completed} de {summary.total} actividades concluídas</p>
             <progress className="journey-progress" max={Math.max(1, summary.total)} value={summary.completed} aria-label="Progresso do bloco" />
           </div></div>
+          <BlockSummary snapshot={snapshot} blockId={current.id} />
+          </div>
         <ActivityList activities={current.activities} snapshot={snapshot} filter={filter} onFilter={onFilter} onOpen={onOpen} />
         </section>
       </div>

@@ -189,6 +189,8 @@ A aplicação inicial desta referência incide no detalhe da actividade do estud
 
 ### 9.2. Grupo de notificações na página da actividade
 
+O popup segue o mesmo padrão visual do conteúdo: contornos azul-cinza claros, cartões de fundo muito suave e cantos de 10 px, título compacto e hierarquia entre actividade, autor e mensagem. «Abrir conversa» é uma acção azul; «Marcar como resolvida» usa botão de contorno. Separadores têm ícones e badges, sem alterar as cores institucionais. O histórico fica num rodapé discreto. Limitar a altura à janela e deslocar apenas o conteúdo, mantendo título, fecho e separadores acessíveis. Os estilos são locais ao popup, sem afectar outros diálogos ou o shell.
+
 | ID | Critério de aceitação |
 |---|---|
 | MC-UI-001 | Nos formulários do estudante, as notificações abrem num único popup tabulado, inicialmente fechado a cada entrada ou recarregamento. |
@@ -245,6 +247,8 @@ As seis anotações posteriores à aprovação visual prevalecem sobre os detalh
 ## Actualização transversal de 24 de Outubro de 2026
 
 No Meu Percurso, o resumo/progresso do bloco e as suas actividades formam um único painel visual, com separador interno discreto entre resumo e filtros/lista. A composição mantém componentes separados por responsabilidade, sem dependência do shell; header, menu lateral e footer não são alterados.
+
+Os quatro indicadores do bloco alinham-se à direita do título grande e da barra de progresso, não junto do rótulo «Bloco actual». A barra ocupa apenas a coluna esquerda e termina antes dos indicadores. Quando não houver largura suficiente, o resumo passa para baixo, mantendo a grelha 2 × 2.
 
 As ferramentas de demonstração são removidas de ambas as interfaces, incluindo importação/exportação/reposição de cenários e metadados visuais de armazenamento. A persistência temporária e os dados existentes permanecem; retirar controlos não autoriza limpar o armazenamento. Erros mantêm mensagem e tentativa de leitura, sem reposição destrutiva pela UI.
 
