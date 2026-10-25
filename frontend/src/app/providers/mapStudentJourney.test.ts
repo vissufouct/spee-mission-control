@@ -1,9 +1,11 @@
 import { describe, expect, it } from 'vitest'
 import studentFixture from '@/data/student-journey.fixture.json'
 import teacherFixture from '@/data/teacher-mission-control.fixture.json'
+import roadmapFixture from '@/data/student-roadmap-example-1.fixture.json'
 import { JsonJourneyRepository } from '@/features/student-journey'
 import { JsonTeacherRepository, teacherSnapshotSchema } from '@/features/teacher-mission-control'
 import { mapStudentJourney } from './mapStudentJourney'
+import { createStudentConversations } from './createStudentConversations'
 const template = teacherSnapshotSchema.parse(teacherFixture).companies.find(c => c.linkedToStudent)!
 function setup() {
   const data = new Map<string,string>()
@@ -36,5 +38,47 @@ describe('origem comum estudante/docente', () => {
     const linked = (await teacher.getSnapshot()).companies.find(c => c.linkedToStudent)!
     expect(linked.activities.find(a => a.id === 'registar-empresa')?.status).toBe('not-started')
     expect(linked.events.filter(e => e.id.startsWith('source-initial')).every(e => e.role === 'system' && e.actorIds.length === 0)).toBe(true)
+  })
+})
+
+describe('roteiro aplicado à empresa ligada', () => {
+  function setupRoadmap() {
+    const values = new Map<string, string>()
+    const storage = { getItem: (key: string) => values.get(key) ?? null, setItem: (key: string, value: string) => { values.set(key, value) } }
+    const student = new JsonJourneyRepository(roadmapFixture, storage)
+    const seed = teacherSnapshotSchema.parse(teacherFixture)
+    seed.orientations = seed.orientations.filter(note => note.companyId !== template.id)
+    seed.orientationRequests = seed.orientationRequests.filter(note => note.companyId !== template.id)
+    const teacher = new JsonTeacherRepository(seed, storage, async () => mapStudentJourney(await student.getSnapshot(), template))
+    return { student, teacher, conversations: createStudentConversations(student, teacher) }
+  }
+  it('mostra as 48 tarefas e permite orientação numa actividade nova sem expor conversas do grupo', async () => {
+    const { student, teacher, conversations } = setupRoadmap()
+    const linked = (await teacher.getSnapshot()).companies.find(company => company.linkedToStudent)!
+    expect(linked.activities.flatMap(activity => activity.tasks ?? [])).toHaveLength(48)
+    expect(linked.activities.flatMap(activity => activity.tasks ?? []).filter(task => task.status === 'completed')).toHaveLength(24)
+    expect(linked.blocks.find(block => block.id === 'inicio-actividades')?.state).toBe('not-started')
+    expect(linked.blocks.find(block => block.id === 'primeiro-ano')?.state).toBe('unavailable')
+    await conversations.send('boas-vindas', 'Como organizar o acolhimento da equipa?')
+    const snapshot = await teacher.getSnapshot()
+    const request = snapshot.orientationRequests.find(item => item.activityId === 'boas-vindas')!
+    await teacher.replyToOrientationRequest(request.id, { message: 'Comecem pelo guia de apresentação.' }, snapshot.revision)
+    const messages = await conversations.read()
+    expect(messages.map(message => message.message)).toEqual(['Como organizar o acolhimento da equipa?', 'Comecem pelo guia de apresentação.'])
+    const privateMessages = (await student.getSnapshot()).groupMessages
+    expect(privateMessages.length).toBeGreaterThan(0)
+    expect(JSON.stringify(await teacher.getSnapshot())).not.toContain(privateMessages[0].message)
+  })
+  it('recusa uma escrita concorrente depois de actualizar a empresa ligada', async () => {
+    const { teacher } = setupRoadmap()
+    const results = await Promise.allSettled([
+      teacher.receiveStudentMessage(template.id, 'boas-vindas', 'Ana Machava', 'Primeira dúvida sobre o roteiro.', 0),
+      teacher.receiveStudentMessage(template.id, 'boas-vindas', 'Ana Machava', 'Segunda dúvida sobre o roteiro.', 0),
+    ])
+    expect(results.filter(result => result.status === 'fulfilled')).toHaveLength(1)
+    expect(results.filter(result => result.status === 'rejected')).toHaveLength(1)
+    const snapshot = await teacher.getSnapshot()
+    expect(snapshot.revision).toBe(1)
+    expect(snapshot.orientationRequests.find(item => item.activityId === 'boas-vindas')?.messages).toHaveLength(1)
   })
 })

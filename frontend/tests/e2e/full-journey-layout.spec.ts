@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test'
+import { expect, test } from './legacy-fixture'
 
 test('percurso completo mantém blocos, segmentos e navegação no layout aprovado', async ({ page }, info) => {
   await page.goto('/estudante/percurso/completo')

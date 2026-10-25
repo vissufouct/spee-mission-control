@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test'
+import { expect, test } from './legacy-fixture'
 
 test('progresso global integrado no cabeçalho do Meu Percurso', async ({ page }, info) => {
   await page.goto('/estudante/percurso')

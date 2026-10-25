@@ -4,10 +4,17 @@
 
 As designações oficiais são **Painel do Docente** e **Painel do Estudante**, sem acento em «Painel». Usar estes termos na entrada, introduções, títulos, navegação, mensagens e documentação corrente. Conservar identificadores técnicos, nomes de ficheiros e URLs existentes para manter a compatibilidade; esta decisão altera a terminologia apresentada ao utilizador.
 
-**Versão:** 0.15
+**Versão:** 0.17
 **Data:** 25 de Outubro de 2026
 **Estado:** rascunho consolidado para validação  
 **Produto:** Painéis SPEE
+
+## Validação no browser — 25 de Outubro de 2026
+
+- Os cartões dos exemplos descrevem o ponto de partida; a entrada deve explicar que visitas seguintes retomam alterações guardadas.
+- Os PDF de exemplo incluem pré-visualização estática gerada do documento original e ligação de descarga, sem depender do plugin PDF do browser. Ficheiros enviados pelo utilizador nunca mostram a pré-visualização de um exemplo diferente; conservam o ficheiro real e a alternativa de descarga.
+- O resultado do registo permite voltar directamente às tarefas da actividade. Não remete para ferramentas de reposição de cenário retiradas da interface.
+- Validar os fluxos por interacção no browser, incluindo erros do quiz, confirmação de consulta, persistência e correspondência estudante/docente. Registar evidências em `output/roteiro-qa/usabilidade-2026-10-25/`.
 
 ## Decisão de 25 de Outubro — actividades e tarefas
 
@@ -16,9 +23,9 @@ Esta decisão prevalece sobre referências anteriores a critérios/passos execut
 - Cada tarefa tem identificador estável, tipo, estado e acção própria. Tipos nesta experiência: operação, quiz, vídeo, PDF, página Web e submissão de evidência. As tarefas de aprendizagem são distintas das tarefas atribuídas nas conversas, cujo regime Por fazer/Feito permanece intacto.
 - O estudante executa acções nas linhas das tarefas. Os cartões de contexto deixam de ter botões de execução; a navegação por nome continua disponível. As listas de actividades oferecem «Ver tarefas». Estado e contagem da actividade são agregados de leitura, não uma operação autónoma.
 - A actividade só fica concluída quando todas as suas tarefas obrigatórias estão concluídas. O progresso global mantém como denominador as actividades, sem contar tarefas como actividades adicionais.
-- Abrir popups não confirma resultados. Operações de registo dependem da evidência do formulário; operações genéricas são explicitamente simuladas. Quiz exige validação de respostas; materiais exigem confirmação expressa de consulta. No vídeo, a confirmação fica disponível no final da reprodução.
-- Quiz em popup, respostas obrigatórias, feedback de erro e nova tentativa; o pré-quiz exige todas as respostas correctas; o diagnóstico exige respostas completas e apresenta a pontuação, mesmo inferior a 100%. Guardar respostas correctas e data de conclusão. O modelo definitivo de avaliação será validado na integração.
-- Materiais obrigatórios pertencem às tarefas; materiais complementares continuam no grupo «Materiais de apoio». PDF e páginas têm visualização no popup e abertura alternativa noutro separador; vídeo usa controlos nativos e transcrição no texto da tarefa.
+- Abrir popups não confirma resultados. Operações de registo dependem da evidência do formulário; operações genéricas são explicitamente simuladas. Quiz exige validação de respostas; materiais exigem confirmação expressa de consulta. Nos vídeos existentes, a confirmação depende do fim da reprodução. No novo roteiro, capas ilustrativas substituem os vídeos e exigem simulação explícita de visualização.
+- Quiz em popup, respostas obrigatórias, feedback de erro e nova tentativa; os quizzes do roteiro usam o limiar configurado (70% no acolhimento e constituição; 100% quando omitido); o diagnóstico exige respostas completas e apresenta a pontuação, mesmo inferior a 100%. Guardar as respostas submetidas e a data de conclusão; apresentar a pontuação calculada a partir dessas respostas. O modelo definitivo de avaliação será validado na integração.
+- Materiais obrigatórios pertencem às tarefas; materiais complementares continuam no grupo «Materiais de apoio». PDF e páginas locais têm visualização no popup e abertura alternativa noutro separador; páginas externas abrem no portal de origem. Vídeos existentes usam controlos nativos; as novas capas são identificadas como ilustrações, com simulação explícita de visualização.
 - Persistir tarefas, respostas e eventos via repository, com revisão e tratamento de erros. Ao ler cenários antigos sem tarefas, acrescentar as definições dos fixtures sem apagar registos, mensagens ou histórico. Um registo já confirmado continua confirmado, mas a actividade pode passar a Em curso enquanto faltarem as novas tarefas obrigatórias de PDF/quiz; não inventar a conclusão desses requisitos.
 - A projecção para o docente consome o agregado actual. O comprovativo de registo pode estar disponível mesmo quando a actividade ainda aguarda outras tarefas. Não expor conversas privadas nesta projecção.
 - Preservar cores, menu lateral, header e footer. Não criar backend ou dependências externas para executar os exemplos.
@@ -31,9 +38,11 @@ O Painel do Estudante inclui um hub social independente das orientações do doc
 
 ### Exemplos e contagens de tarefas — 25 de Outubro
 
-«Ver tarefas» apresenta um badge X de Y (concluídas/total). Em «Definir a ideia de negócio», o diagnóstico é a primeira tarefa, já respondida com 4/5 (80%); a evidência «Relatório de auditoria 1» é uma tarefa já submetida em PDF. Em «Registar empresa», o pré-quiz passa para primeiro e «Submeter Declaração de Início de actividade» é a sexta e última tarefa, inicialmente Por iniciar. A ordem de apresentação não cria precedências implícitas.
+«Ver tarefas» apresenta X de Y tarefas concluídas. O conteúdo corrente segue o [Roteiro SPEE consolidado](Roteiro_SPEE_Consolidado.md): 15 actividades, 48 tarefas e um bloco futuro vazio. A entrada oferece dois exemplos independentes: empresa a meio da constituição legal e empresa que acaba de iniciar. Os anteriores exemplos de tarefas são substituídos nos novos fixtures; o armazenamento anterior é preservado.
 
-Evidências guardam ficheiro, autor e data; submetido não equivale a aprovado. Nesta experiência, a submissão pendente usa um PDF local preparado, com consulta e confirmação explícita; não inclui upload de ficheiros pessoais nem envio a entidades oficiais. Preservar respostas e submissões ao actualizar exemplos nos cenários existentes.
+Evidências guardam ficheiro, autor e data; submetido não equivale a aprovado. Aceitar PDF, DOCX ou XLSX conforme a tarefa, até 2 MB, com confirmação explícita e persistência no browser. Não enviar documentos a entidades externas. Disponibilizar modelos editáveis e exemplos locais identificados. Capas geradas por IA representam vídeos previstos, sem simular reprodução de um vídeo inexistente.
+
+A aplicação das condições do roteiro, os limites do armazenamento, as fontes pesquisadas e o catálogo estão em [Roteiro: exemplos e materiais](../../frontend/docs/roadmap-scenarios.md). A numeração não impõe precedências. Os alcances ainda por definir são escolhas reversíveis para validar UX, identificadas na DEC-028.
 
 Este PRD descreve o núcleo partilhado de dados, comportamento e linguagem visual: modelo de dados, estados, progresso, eventos, auditoria, permissões, sincronização e padrões transversais. A linguagem visual comum não define uma interface única nem funde os protótipos.
 

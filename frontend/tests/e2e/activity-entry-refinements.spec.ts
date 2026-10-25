@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test'
+import { expect, test } from './legacy-fixture'
 
 test('três cartões alinhados, actividade nas mensagens, participantes e acções', async ({ page }, info) => {
   await page.setViewportSize({ width: 1600, height: 1000 })
@@ -73,7 +73,7 @@ test('introdução pode ser fechada sem entrar e funciona em mobile', async ({ p
   await page.setViewportSize({ width: 390, height: 844 })
   await page.getByRole('button', { name: /Painel do Estudante/ }).click()
   await expect(page.getByRole('dialog')).toContainText('o canal do grupo permanece privado')
-  await page.getByRole('link', { name: 'Entrar', exact: true }).scrollIntoViewIfNeeded()
+  await page.getByRole('link', { name: /Entrar no exemplo 2/ }).scrollIntoViewIfNeeded()
   await page.screenshot({ path: info.outputPath('introduction-mobile.png') })
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true)
   await page.getByRole('button', { name: 'Voltar', exact: true }).click()

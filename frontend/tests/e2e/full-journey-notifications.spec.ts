@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test'
+import { expect, test } from './legacy-fixture'
 
 for (const route of ['/estudante/percurso', '/estudante/percurso/completo', '/estudante/percurso/actividades/registar-empresa', '/estudante/percurso/registar-empresa']) {
   test('painel tabulado no título: ' + route, async ({ page }, info) => {

@@ -1,7 +1,8 @@
-import { ArrowRight, BookOpenCheck, GraduationCap, Presentation } from 'lucide-react'
+import { ArrowRight, BookOpenCheck, GraduationCap, Presentation, Workflow } from 'lucide-react'
 import { useState } from 'react'
 import { MissionControlIntroduction, type MissionControlRole } from './MissionControlIntroduction'
 import { Link } from 'react-router-dom'
+import { scenarioEditorPath } from '@/features/scenario-editor'
 import './development-landing.css'
 
 export function DevelopmentLandingPage() {
@@ -75,6 +76,26 @@ export function DevelopmentLandingPage() {
             </span>
           </button>
 
+          <Link className="development-choice development-choice--studio" to={scenarioEditorPath}>
+            <span className="development-choice__topline">
+              <span className="development-choice__icon" aria-hidden="true">
+                <Workflow size={26} strokeWidth={1.8} />
+              </span>
+              <span className="development-choice__role">SPEE Studio</span>
+            </span>
+
+            <span className="development-choice__body">
+              <strong>Editor visual de roteiro</strong>
+              <span>
+                Organize actividades, agrupamentos, precedências, etiquetas e versões do roteiro.
+              </span>
+            </span>
+
+            <span className="development-choice__action">
+              Abrir editor
+              <ArrowRight size={18} aria-hidden="true" />
+            </span>
+          </Link>
         </nav>
 
         <p className="development-landing__note">

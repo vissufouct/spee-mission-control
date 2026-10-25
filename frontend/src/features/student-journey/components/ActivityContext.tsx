@@ -10,10 +10,10 @@ export function ActivityContext({ activity, snapshot, onActivity }: { activity: 
     { label: 'Vem de', ids: activity.previousIds ?? [], icon: FileCheck2, current: false },
     { label: 'Actividade actual', ids: [activity.id], icon: Settings2, current: true },
     { label: 'Desbloqueia', ids: activity.nextIds ?? [], icon: UnlockKeyhole, current: false },
-  ]
+  ].filter(group => !snapshot.context.roadmapVersion || group.ids.length > 0)
   return <section aria-label="Actividades em contexto" className="mt-6">
     <h3 className="font-semibold mb-3">Esta actividade em contexto</h3>
-    <div className="student-context-grid grid gap-3 sm:grid-cols-3">{groups.map(group => <div key={group.label} className={'student-context-card' + (group.current ? ' student-context-card--current' : '')}>
+    <div className={`student-context-grid grid gap-3 ${groups.length > 1 ? 'sm:grid-cols-3' : 'grid-cols-1'}`}>{groups.map(group => <div key={group.label} className={'student-context-card' + (group.current ? ' student-context-card--current' : '')}>
       <p className="student-context-label"><group.icon size={18} aria-hidden />{group.label}</p>
       {group.ids.length ? group.ids.map(id => {
         const item = all.find(a => a.id === id)

@@ -1,5 +1,6 @@
 import { completeRegistrationLearningTasks } from './learning-task-helpers'
-import { test, expect, type Page } from '@playwright/test'
+import { expect, test } from './legacy-fixture'
+import { type Page } from '@playwright/test'
 const home = '/docente/mission-control'
 const company = home + '/empresas/nova-geracao'
 const errors = new WeakMap<Page, string[]>()
@@ -146,13 +147,13 @@ test('o mesmo registo passa de 18% a 24% nas duas perspectivas', async ({ page }
 })
 
 test('erros locais são visíveis sem ferramentas de reposição', async ({ page }) => {
-  await page.addInitScript(() => localStorage.setItem('spee.teacher-mission-control.v1','{invalido'))
+  await page.addInitScript(() => localStorage.setItem('spee.roadmap-2026.1.spee.teacher-mission-control.v1','{invalido'))
   await page.goto(home)
   await expect(page.getByRole('alert')).toContainText('não foram alterados')
   await expect(page.getByRole('button', { name: /Repor cenário/ })).toHaveCount(0)
   await page.getByRole('button', { name: 'Tentar novamente' }).click()
   await expect(page.getByRole('alert')).toContainText('não foram alterados')
-  expect(await page.evaluate(() => localStorage.getItem('spee.teacher-mission-control.v1'))).toBe('{invalido')
+  expect(await page.evaluate(() => localStorage.getItem('spee.roadmap-2026.1.spee.teacher-mission-control.v1'))).toBe('{invalido')
 })
 
 test('erro de escrita não fecha formulário nem anuncia sucesso', async ({ page }) => {

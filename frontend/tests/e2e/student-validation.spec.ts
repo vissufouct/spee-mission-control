@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test'
+import { expect, test } from './legacy-fixture'
 import fixture from '../../src/data/student-journey.fixture.json' with { type: 'json' }
 const home = '/estudante/percurso'
 test('navegação estável, cartões de contexto e materiais reais do protótipo', async ({ page }, info) => {
@@ -38,7 +38,7 @@ test('navegação estável, cartões de contexto e materiais reais do protótipo
 test('popup mostra pendências recentes e resolução actualiza badges', async ({ page }) => {
   await page.addInitScript(seed => {
     const groupMessages = Array.from({ length: 5 }, (_, i) => ({ id: 'pending-' + i, activityId: 'registar-empresa', author: 'João Tembe', message: 'Documento por confirmar ' + i, createdAt: new Date(2026, 9, 24, 10, i).toISOString(), assignee: null, doneAt: null }))
-    localStorage.setItem('spee.student-journey.v1', JSON.stringify({ ...seed, groupMessages, resolvedNotifications: [{ id: 'pending-4', recipient: seed.context.studentName }] }))
+    localStorage.setItem('spee.roadmap-2026.1.spee.student-journey.v1', JSON.stringify({ ...seed, groupMessages, resolvedNotifications: [{ id: 'pending-4', recipient: seed.context.studentName }] }))
   }, fixture)
   await page.goto(home)
   const launcher = page.locator('.student-notification-launcher')

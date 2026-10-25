@@ -3,6 +3,7 @@ import { JourneyPage, FullJourneyPage, RegistrationPage, ActivityPage, journeyPa
 import { AppShell } from '../shell/AppShell'
 import { TeacherOverviewPage, TeacherCompanyPage, teacherPaths } from '@/features/teacher-mission-control'
 import { DevelopmentLandingPage } from '../landing/DevelopmentLandingPage'
+import { ScenarioEditorPage, scenarioEditorPath } from '@/features/scenario-editor'
 import { SocialHub } from '@/features/social-hub'
 
 const basename = import.meta.env.BASE_URL.replace(/\/$/, '') || '/'
@@ -18,6 +19,9 @@ export const router = createBrowserRouter([{
     { path: journeyPaths.registration, element: <RegistrationPage /> },
     { path: journeyPaths.home + '/actividades/:activityId', element: <ActivityPage /> },
   ],
+}, {
+  path: scenarioEditorPath,
+  element: <ScenarioEditorPage />,
 }, {
   element: <AppShell role="teacher" />,
   children: [

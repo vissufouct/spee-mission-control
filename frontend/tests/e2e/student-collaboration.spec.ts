@@ -1,10 +1,10 @@
-import { test, expect } from '@playwright/test'
+import { expect, test } from './legacy-fixture'
 import fixture from '../../src/data/student-journey.fixture.json' with { type: 'json' }
 const home = '/estudante/percurso'
 test('chat tabulado carrega histórico ao subir e separa rascunhos', async ({ page }) => {
   await page.addInitScript(seed => {
     const groupMessages = Array.from({ length: 45 }, (_, index) => ({ id: 'history-' + index, activityId: 'registar-empresa', author: 'João Tembe', message: 'Mensagem do histórico ' + index, createdAt: new Date(2026, 9, 20, 10, index).toISOString(), assignee: null, doneAt: null }))
-    localStorage.setItem('spee.student-journey.v1', JSON.stringify({ ...seed, groupMessages }))
+    localStorage.setItem('spee.roadmap-2026.1.spee.student-journey.v1', JSON.stringify({ ...seed, groupMessages }))
   }, fixture)
   await page.goto(home + '/actividades/registar-empresa?canal=group')
   const dialog = page.getByRole('dialog')

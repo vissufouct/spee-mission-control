@@ -17,7 +17,7 @@ export function FullJourneyPage() {
   const legends: [ActivityStatus, string][] = [['completed', 'Actividade confirmada.'], ['in-progress', 'Actividade em progresso.'], ['not-started', 'Actividade por iniciar.'], ['blocked', 'Requer outra condição.']]
   return <div className="student-full-journey">
     <nav aria-label="Navegação do percurso" className="mb-4 text-sm text-blue-700"><Link preventScrollReset to={journeyPaths.home}>Meu Percurso</Link> / <span aria-current="page">Percurso completo</span></nav>
-    <div className="student-page-heading mb-5"><JourneyProgressHeading title="Percurso completo" showFullPath={false} {...getProgress(snapshot)} />
+    <div className="student-page-heading mb-5"><JourneyProgressHeading title="Percurso completo" showFullPath={false} {...getProgress(snapshot)} companyName={snapshot.context.companyName} example={snapshot.context.example} />
     <ActivityNotifications snapshot={snapshot} /></div>
     <div className="journey-columns"><div className="min-w-0 space-y-4">
       <p className="flex gap-3 rounded-md bg-blue-50 p-3 text-sm text-blue-800"><Info className="shrink-0" size={20} />As actividades podem decorrer em paralelo dentro de cada bloco.</p>

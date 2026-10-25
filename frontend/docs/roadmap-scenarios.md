@@ -1,0 +1,90 @@
+# Roteiro SPEE — exemplos e materiais
+
+Data: 25 de Outubro de 2026. Fonte de conteúdo: [Roteiro SPEE consolidado](../../output/mission_control_unificado/Roteiro_SPEE_Consolidado.md). Esta implementação aplica as 15 actividades e 48 tarefas dos quatro blocos detalhados. O primeiro ano fiscal é apresentado como «Brevemente», sem tarefas inventadas e sem entrar no denominador do progresso.
+
+## Entrada e persistência
+
+| Exemplo | Empresa fictícia | Ponto inicial |
+| --- | --- | --- |
+| 1 | Horizonte Verde, Lda. | Acolhimento e ideação concluídos; 4 de 7 tarefas da constituição legal concluídas e formulário de registo em rascunho. 24 de 48 tarefas e 7 de 15 actividades concluídas (47%). |
+| 2 | Nascente Criativa, Lda. | Nenhuma tarefa realizada. 0 de 48 tarefas, 0 de 15 actividades; inicia no acolhimento. |
+
+O popup de entrada do estudante oferece as duas escolhas. `?exemplo=1` e `?exemplo=2` seleccionam o cenário; a selecção é conservada em `sessionStorage` durante a navegação. Cada entrada recarrega a aplicação para criar uma cache de consultas independente. A UI identifica empresa e exemplo no cabeçalho do percurso.
+
+Os fixtures estão em `src/data/student-roadmap-example-{1,2}.fixture.json`. Só a composição em `app/providers` conhece os ficheiros e escolhe o adaptador. Cada exemplo usa o prefixo `spee.roadmap-2026.<exemplo>.` no armazenamento do estudante, docente e hub social. O cenário antigo mantém os seus dados nas chaves anteriores; não há migração destrutiva. As visitas seguintes retomam as alterações desse exemplo, em vez de repor os dados iniciais.
+
+As alterações não escrevem nos JSON do projecto nem são partilhadas entre computadores. Os ficheiros seleccionados são guardados no browser, juntamente com a submissão. Uma futura API substitui o repository; os componentes não conhecem estes caminhos. O Studio existente continua independente.
+
+## Progressão e escolhas provisórias
+
+A ordem editorial não cria bloqueios. As actividades podem decorrer em paralelo. A tarefa mostra a condição quando está bloqueada; o bloco actual é o primeiro bloco detalhado com actividades por concluir. Navegar para outro bloco não modifica o estado.
+
+O alcance de algumas condições está por definir na fonte. Para permitir testar o fluxo, este cenário adopta o seguinte mapeamento explícito e reversível, pendente de validação pedagógica:
+
+| Condição da fonte | Alcance usado no exemplo |
+| --- | --- |
+| Quiz de acolhimento: pelo menos 70% | Liberta o compromisso; quiz e compromisso aceite são pré-requisitos de todas as tarefas posteriores ao acolhimento. |
+| Compromisso de responsabilidade | Aceitação expressa. «Não aceito» não conclui a tarefa. |
+| Quiz de constituição: pelo menos 70% | Liberta as cinco tarefas operacionais/evidência restantes da constituição legal. A consulta do BAU continua obrigatória para concluir a actividade, mas abrir o portal não bloqueia ou conclui o quiz. |
+| Leitura do guia documental | Liberta separadores, pastas e as duas tarefas de contratos/conta bancária. |
+| Prospecção e contactos | Liberta o registo de clientes e fornecedores. |
+| Orientação final | Ambas as tarefas aguardam as 14 tarefas das quatro actividades anteriores do bloco B04. Excluem-se as próprias tarefas da orientação para evitar um ciclo. |
+
+Não se exige a conclusão integral de um bloco para abrir o seguinte, além das condições acima. As restantes tarefas podem ser executadas em paralelo. As relações são dados `dependsOn`, validados quanto a referências e ciclos. Não há um motor de processos externo.
+
+Os quizzes de acolhimento e constituição têm quatro perguntas originais e aprovação a partir de 70% (3/4). O diagnóstico tem cinco perguntas, não exige nota mínima e surge com 4/5 (80%) no exemplo 1. A verificação final tem seis respostas Sim/Não; nesta experiência, todas devem ser Sim para a concluir. Esta regra, as perguntas e as tentativas ilimitadas são propostas de simulação, não um modelo de avaliação institucional aprovado. Tentativas sem aprovação apresentam erro; conservam-se as respostas da conclusão, não um histórico de tentativas falhadas.
+
+As operações genéricas exigem confirmação explícita do resultado simulado. O registo da empresa reutiliza o formulário existente e exige dados válidos e confirmação final. Nenhuma operação envia dados para BAU, INSS, bancos ou sistemas comerciais. O docente consulta a mesma realização de tarefas da empresa ligada, sem ver mensagens privadas do grupo ou do hub.
+
+## Ficheiros e tarefas
+
+Os materiais locais estão em `public/apoio/`, com caminhos relativos compatíveis com a base do GitHub Pages. As ligações externas abrem no portal de origem; os conteúdos de terceiros não são copiados para o repositório.
+
+| Formato | Conteúdo original criado |
+| --- | --- |
+| Word (3) | Modelos editáveis de relatório final, plano de negócios e relatório de auditoria I. Campos de preenchimento, instruções e exemplos identificados. |
+| Excel (2) | Recursos: quantidades, custos e total calculado; vendas: três meses, quantidades, preços e receitas calculadas. Dados fictícios, células de entrada e fórmulas diferenciadas. |
+| PDF (12) | Apresentação SPEE, regras propostas, comunicação, organização da equipa, ideia com IA, modelo com IA, auditoria, arquivo, prospecção, imagens com IA, relatório de auditoria preenchido e evidência de publicação fictícia. |
+| Imagens (3) | Capas de acolhimento, empreendedorismo/modelo/plano e entrada no mercado. |
+| Páginas locais (4) | Modelo do relatório final, plano de negócios, identidade visual e mapa integral do roteiro. |
+
+As folhas Excel contêm fórmulas, não totais estáticos: o exemplo de recursos totaliza 103 000 MZN e o de vendas 246 000 MZN. Estes montantes são inventados para testar a utilização dos modelos, não preços pesquisados.
+
+Os vídeos não foram produzidos. Cinco tarefas utilizam três capas geradas por IA; o popup identifica «Vídeo previsto · capa ilustrativa» e permite «Simular visualização» antes da confirmação. Uma capa não é apresentada como prova de que existe um vídeo.
+
+As três imagens seguem uma direcção comum: ilustração editorial de jovens empreendedores moçambicanos, branco, azul e ciano, sem marcas, texto ou botão de reprodução incorporado. Temas: equipa a explorar um percurso num portátil; equipa a trabalhar num modelo de negócio; entrada de uma pequena empresa no mercado. Não são fotografias de participantes reais.
+
+Submissões aceitam os formatos definidos por tarefa (PDF, DOCX ou XLSX), até 2 MB por ficheiro. A leitura valida extensão e assinatura básica do formato; não equivale a verificação antivírus nem à análise semântica do documento. Seleccionar um ficheiro não o submete. A confirmação guarda ficheiro, nome, autor e data. Como alternativa explícita, pode seleccionar o ficheiro de exemplo e confirmar. Submetido não significa avaliado ou aprovado. Falhas de armazenamento mantêm o estado anterior e apresentam erro.
+
+O limite total depende da quota do browser; várias evidências podem esgotá-la. Esta fase não utiliza armazenamento remoto. O contrato histórico de importação JSON mantém o limite de 2 MB; um cenário exportado com anexos maiores pode exceder esse limite de importação. Essas ferramentas não são expostas na interface desta fase.
+
+O regulamento é uma proposta pedagógica; a publicação é um exemplo inequívoco sem validade oficial. O relatório de auditoria contém entrevistas fictícias. A aprovação institucional dos materiais, os vídeos definitivos e os eventos reais dos módulos ficam para a integração.
+
+## Pesquisa e proveniência
+
+Pesquisa efectuada em 25/10/2026. Os guias locais são texto original, sem reproduzir publicações de terceiros.
+
+| Fonte | Uso e verificação |
+| --- | --- |
+| [BAU](https://www.bau.gov.mz/) | Portal oficial encontrado na pesquisa. Substitui o endereço de testes referido no roteiro. Abertura directa intermitente; ligação externa, sem copiar requisitos nem simular pedidos oficiais. |
+| [Strategyzer — Business Model Canvas](https://www.strategyzer.com/library/the-business-model-canvas) | Fonte original consultada para os nove componentes. Ligação complementar e referência no guia; o modelo gráfico original não foi reproduzido. |
+| [SEBRAE — Como elaborar um plano de negócio](https://sebrae.com.br/sites/PortalSebrae/cursosonline/como-elaborar-um-plano-de-negocio,1880b8a6a28bb610VgnVCM1000004c00210aRCRD) | Recurso pedagógico encontrado no portal. Pode exigir conta. Assinalada a necessidade de adaptar exemplos brasileiros ao contexto moçambicano. |
+| [INSS — Lei n.º 13/2023](https://www.inss.gov.mz/sdm_downloads/20320/) | Página oficial encontrada na pesquisa para consulta complementar em RH. Abertura directa intermitente. Não se afirma que a lei isolada esgote o enquadramento aplicável. |
+| [ITIS](https://www.itis.ac.mz/) e [IPEME](https://www.facebook.com/ipememocambique) | Endereços fornecidos no roteiro; mantidos como apoio, com disponibilidade dependente dos portais e eventual sessão no Facebook. |
+
+## Reproduzir e verificar
+
+- `scripts/roteiro/build-fixtures.py`: gera os dois JSON e o mapa HTML; não altera estado guardado nos browsers.
+- `scripts/roteiro/build-documents.py`: usa python-docx e ReportLab para gerar Word, PDF e páginas de apoio.
+- `scripts/roteiro/build-spreadsheets.mjs`: usa `@oai/artifact-tool` no ambiente de autoria para criar, recalcular, verificar e exportar Excel. Não é uma dependência do frontend.
+- As capas geradas são ficheiros versionáveis; não se regeneram com os scripts.
+- `catalogo-materiais.json` inventaria os recursos. `output/roteiro-qa/` conserva pré-visualizações para revisão.
+- Testes unitários verificam as 48 tarefas, dependências, limiares, persistência, isolamento e recursos. Playwright verifica os exemplos reais e os cenários anteriores importados separadamente; Storybook mantém componentes isolados do shell.
+
+Nenhuma dependência de execução foi acrescentada para o roteiro. Menu lateral, header e footer permanecem intactos.
+
+## Correcções após teste de usabilidade
+
+Os cartões de entrada descrevem estados iniciais e esclarecem que a navegação retoma o progresso local. Os PDF preparados incluem um campo opcional `preview`, gerado do próprio documento, para browsers sem visualizador PDF funcional. O repository acrescenta apenas esse metadado ausente quando o recurso coincide com o fixture; preserva estados e revisões. Evidências enviadas não usam a preview do exemplo. O ficheiro original continua descarregável.
+
+Executar `python3 scripts/roteiro/build-previews.py` com PyMuPDF instalado depois de gerar documentos; o script valida que os exemplos têm uma página. Não foi acrescentada uma dependência à aplicação. O resultado de registo oferece regresso directo às tarefas, sem instruções de reposição inexistentes.

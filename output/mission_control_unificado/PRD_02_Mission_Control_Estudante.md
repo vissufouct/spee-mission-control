@@ -1,9 +1,16 @@
 # PRD do Painel do Estudante
 
-**Versão:** 0.12
+**Versão:** 0.14
 **Data:** 25 de Outubro de 2026
-**Estado:** actualizado com a separação entre actividades e tarefas
+**Estado:** actualizado com o roteiro de 48 tarefas e dois exemplos de empresas
 **Depende de:** `PRD_00_Mission_Control_Comum.md`  
+
+## Validação no browser — 25 de Outubro de 2026
+
+- Os cartões dos exemplos descrevem o ponto de partida; a entrada deve explicar que visitas seguintes retomam alterações guardadas.
+- Os PDF de exemplo incluem pré-visualização estática gerada do documento original e ligação de descarga, sem depender do plugin PDF do browser. Ficheiros enviados pelo utilizador nunca mostram a pré-visualização de um exemplo diferente; conservam o ficheiro real e a alternativa de descarga.
+- O resultado do registo permite voltar directamente às tarefas da actividade. Não remete para ferramentas de reposição de cenário retiradas da interface.
+- Validar os fluxos por interacção no browser, incluindo erros do quiz, confirmação de consulta, persistência e correspondência estudante/docente. Registar evidências em `output/roteiro-qa/usabilidade-2026-10-25/`.
 
 ## 1. Resultado esperado
 
@@ -21,26 +28,19 @@ Popular com conversas fictícias entre turmas, uma conversa privada e um convite
 
 Aplicar a decisão «actividades e tarefas» do PRD comum, que substitui o checklist passivo e os botões de execução nos cartões de actividade. «Próxima tarefa» identifica a primeira tarefa pendente executável e remete para a lista. Não aparece depois da conclusão de todas as tarefas.
 
-Em «Registar empresa», apresentar pela ordem seguinte:
+O conteúdo corrente é o [Roteiro SPEE consolidado](Roteiro_SPEE_Consolidado.md): quatro blocos detalhados, 15 actividades e 48 tarefas, mais o primeiro ano fiscal por desenvolver. Esta versão substitui a antiga lista de seis tarefas de registo e a distribuição dos exemplos da ideação. O relatório de auditoria pertence agora à actividade «Auditoria I — trabalho de campo», conforme o novo roteiro; o diagnóstico permanece em «Encontrar uma ideia de negócio».
 
-1. Pré-quiz de registo da empresa — primeira tarefa, popup com três perguntas sobre NUIT, capital social e evidência de confirmação; todas correctas para concluir, com repetição permitida.
-2. Preencher os dados da empresa — operação; concluída quando os dados guardados são válidos.
-3. Submeter o formulário de registo — operação; em curso quando os dados estão válidos, concluída após confirmação.
-4. Gerar os documentos de constituição — bloqueada até à confirmação; a operação de registo gera o comprovativo e confirma esta tarefa.
-5. Consultar o guia de constituição — PDF obrigatório, com confirmação explícita de consulta.
-6. Submeter Declaração de Início de actividade — evidência PDF, inicialmente Por iniciar. Permite consultar e confirmar a submissão do PDF de demonstração; guarda autor, ficheiro e data localmente. Não representa uma declaração oficial.
+Na entrada do estudante, oferecer **Exemplo 1 — Horizonte Verde** (acolhimento e ideação concluídos; 4 de 7 tarefas da constituição legal concluídas, registo em curso) e **Exemplo 2 — Nascente Criativa** (zero tarefas realizadas). Os estados são independentes e persistem ao recarregar e alternar exemplos. O exemplo 1 começa com 7/15 actividades (47%); o exemplo 2 com 0/15 (0%).
 
-As tarefas de PDF e quiz podem ser feitas antes da submissão; a posição na lista não cria uma dependência não definida. O total inicial é 1 de 6 tarefas concluídas. Confirmar apenas o registo passa a 3 de 6; PDF e quiz levam a 5 de 6; a evidência completa as 6 tarefas. Submetido não significa avaliado ou aprovado.
+A constituição legal reúne: consultar BAU; quiz de constituição/licenciamento; reservar nome; convidar sócios; registar empresa; declarar início; submeter evidência de publicação. A execução continua por tarefa. «Ver tarefas» e os estados mostram X de Y tarefas. A actividade só fica concluída quando todas as tarefas obrigatórias estiverem concluídas. O progresso global conta actividades, excluindo o bloco futuro vazio.
 
-Em «Definir a ideia de negócio», a primeira tarefa é «Diagnóstico do empreendedor», já respondido, com 4/5 (80%) e consulta das respostas. Seguem-se a identificação da oportunidade e «Relatório de auditoria 1», PDF já submetido por Ana Machava. São três tarefas da mesma actividade, não novas actividades. O diagnóstico aceita respostas completas sem exigir 100%.
+Fornecer materiais locais descarregáveis: três modelos Word, duas folhas Excel com fórmulas, doze PDF e três capas ilustrativas utilizadas em cinco tarefas de vídeo. Não gerar nem anunciar vídeos reais. Mostrar a natureza da capa e exigir a acção «Simular visualização» antes da confirmação.
 
-Os botões «Ver tarefas» incluem um badge «X de Y», indicando tarefas concluídas e total. A contagem deriva do estado actual, incluindo evidências submetidas. A ordem dos quizzes e a nova evidência são aplicadas aos cenários já guardados sem substituir respostas ou submissões.
+Os quizzes de acolhimento e constituição exigem 70%; diagnóstico sem mínimo, preenchido com 4/5 (80%) no exemplo 1; compromisso por aceitação explícita; verificação final Sim/Não. Perguntas e alcance dos bloqueios são escolhas do protótipo descritas no [mapeamento e catálogo](../../frontend/docs/roadmap-scenarios.md), pendentes de validação pedagógica. Não inferir uma cadeia linear a partir da ordem do roteiro.
 
-No «Percurso completo», cada linha de actividade apresenta a contagem de tarefas concluídas junto ao estado: «Em curso (1 de 6)». O cabeçalho do bloco mantém a sua contagem de actividades, distinguindo os dois níveis.
+Submissão de evidência: seleccionar PDF/DOCX/XLSX nos formatos permitidos, até 2 MB, e confirmar. Alternativa: seleccionar explicitamente o exemplo disponibilizado. Guardar conteúdo, nome, autor e data no repository local; permitir consulta/descarga após reload. Mostrar erros sem falsa confirmação. Submetido não equivale a aprovado.
 
-As acções nas linhas de tarefas usam botões discretos: fundo branco, contorno azul claro, texto azul de peso normal e dimensão compacta. Evitar vários botões de fundo azul saturado na mesma lista. Manter rótulos explícitos, foco visível e os estados das tarefas nos respectivos badges.
-
-Em «Convidar sócios», incluir um vídeo obrigatório com controlos de reprodução e uma página obrigatória sobre responsabilidades dos sócios. Em «Modelo de negócio», incluir uma página sobre proposta de valor já consultada no cenário inicial. Os ficheiros são locais, fictícios e utilizáveis também no GitHub Pages.
+Botões de tarefas discretos, contornos claros, texto azul, rótulos explícitos e foco visível. Materiais complementares continuam recolhíveis com badges por formato. O contexto omite cartões «Vem de/Desbloqueia» sem relações definidas, em vez de inventar ligações entre actividades.
 
 Cada tarefa mostra ícone de formato, título, estado e botão: Ver, Iniciar tarefa, Continuar tarefa, Ver condição, Responder ao quiz, Ver respostas, Ver vídeo, Ler PDF ou Consultar página. A actividade mantém apenas o agregado e a navegação. Validar erros do quiz, persistência após reload, confirmação de materiais, bloqueios, revisão obsoleta e ausência de falsa confirmação em falhas de armazenamento.
 

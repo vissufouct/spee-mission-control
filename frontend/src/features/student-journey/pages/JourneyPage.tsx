@@ -18,9 +18,9 @@ export function JourneyPage() {
     setParams(previous => { const next = new URLSearchParams(previous); if (value) next.set(name, value); else next.delete(name); return next }, { preventScrollReset: true })
   }
   return <>
-    <div className="student-page-heading mb-5"><JourneyProgressHeading {...getProgress(snapshot)} />
+    <div className="student-page-heading mb-5"><JourneyProgressHeading {...getProgress(snapshot)} companyName={snapshot.context.companyName} example={snapshot.context.example} />
     <ActivityNotifications snapshot={snapshot} /></div>
     <JourneyView snapshot={snapshot} blockId={params.get('bloco') ?? undefined} onBlock={id => setParams({ bloco: id }, { preventScrollReset: true })} filter={filter} onFilter={value => param('estado', value === 'all' ? undefined : value)} onOpen={item => navigate(journeyPaths.activity(item.id))} />
-    <p className="mt-5 text-xs text-slate-500">Experiência disponível nesta iteração: registo da empresa. Os restantes módulos mantêm-se como contexto do percurso.</p>
+    <p className="mt-5 text-xs text-slate-500">{snapshot.context.roadmapVersion ? 'Roteiro com 15 actividades e 48 tarefas. As operações são simuladas e as alterações ficam guardadas neste browser.' : 'Experiência disponível nesta iteração: registo da empresa. Os restantes módulos mantêm-se como contexto do percurso.'}</p>
   </>
 }

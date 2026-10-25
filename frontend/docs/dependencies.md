@@ -12,9 +12,10 @@ Foi inspeccionada a pasta antes da instalação: não existiam dependências Jav
 | Navegação | React Router 7, data router necessário à protecção de formulários por guardar. |
 | Dados | TanStack Query 5 para estado assíncrono, erros e mutações; sem outra biblioteca global de estado. |
 | Formulários | React Hook Form 7, Zod 4 e @hookform/resolvers 5.2.2. |
+| Editor de grafos | @xyflow/react 12.12.0 para nós arrastáveis, ligações de precedência, zoom, minimapa e representação de agrupamentos. A persistência e o modelo de versões continuam no domínio da feature. |
 | Qualidade | ESLint, TypeScript estrito, Vitest, Playwright e Storybook React/Vite. |
 
-Não foram adicionados bibliotecas de gráficos, backend, base de dados, ORM, biblioteca de datas, cliente HTTP, framework genérico de repositories ou biblioteca de estado adicional.
+Não foram adicionados backend, base de dados, ORM, biblioteca de datas, cliente HTTP, framework genérico de repositories ou biblioteca de estado adicional.
 
 A tentativa de instalar a versão 6 do adaptador de formulários encontrou um conflito nas peer dependencies opcionais relacionadas com Effect. Foi seleccionada a série 5.2.2 compatível, sem `--force` ou `--legacy-peer-deps`. npm audit não encontrou vulnerabilidades na instalação verificada; isto não é uma garantia permanente.
 
@@ -27,6 +28,8 @@ Os componentes em `shared/components/ui` seguem o padrão de composição shadcn
 - [React Router](https://reactrouter.com/start/declarative/installation)
 - [TanStack Query](https://tanstack.com/query/latest/docs/framework/react/overview)
 - [Storybook React/Vite](https://storybook.js.org/docs/get-started/frameworks/react-vite)
+- [React Flow — interactividade](https://reactflow.dev/learn/concepts/adding-interactivity)
+- [React Flow — sub-flows e agrupamentos](https://reactflow.dev/learn/layouting/sub-flows)
 
 ## Referências locais de produto
 

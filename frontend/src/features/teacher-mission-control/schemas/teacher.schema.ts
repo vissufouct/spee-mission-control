@@ -10,11 +10,11 @@ export const participantSchema = z.object({ id: z.string().min(1), name: z.strin
 const learningTaskSchema = z.object({
   id: z.string(), title: z.string(), description: z.string(),
   kind: z.enum(['operation', 'quiz', 'video', 'pdf', 'url', 'evidence']), status: statusSchema,
-  resource: z.string().regex(/^apoio\/[a-zA-Z0-9._-]+\.(pdf|html|mp4)$/).optional(),
+  resource: z.string().regex(/^(https:\/\/[^\s]+|apoio\/[a-zA-Z0-9_-]+\.(pdf|html|mp4|png|jpg|webp|xlsx|docx))$/).optional(),
   completedAt: z.iso.datetime().optional(),
   questions: z.array(z.object({ id: z.string(), prompt: z.string(), options: z.array(z.string()), correct: z.number().int() })).optional(),
   answers: z.record(z.string(), z.number().int()).optional(),
-  submission: z.object({ fileName: z.string(), submittedBy: z.string(), submittedAt: z.iso.datetime() }).optional(),
+  submission: z.object({ fileName: z.string(), submittedBy: z.string(), submittedAt: z.iso.datetime(), file: z.object({ fileName: z.string(), dataUrl: z.string().max(2_800_000).regex(/^data:application\/(pdf|vnd\.openxmlformats-officedocument\.(wordprocessingml\.document|spreadsheetml\.sheet));base64,[A-Za-z0-9+/=]+$/) }).optional() }).optional(),
 })
 export const activitySchema = z.object({
   id: z.string().min(1), title: z.string().min(1), blockId: z.string(), milestone: z.string(),
@@ -34,7 +34,7 @@ export const companySchema = z.object({
   id: z.string().min(1), name: z.string().min(1), classId: z.string(), routeId: z.string(),
   definitionVersion: z.string(), currentBlockId: z.string(),
   linkedToStudent: z.boolean(), participants: z.array(participantSchema),
-  blocks: z.array(z.object({ id: z.string(), title: z.string() })).min(1),
+  blocks: z.array(z.object({ id: z.string(), title: z.string(), state: z.enum(['completed', 'in-progress', 'not-started', 'blocked', 'unavailable']).optional() })).min(1),
   activities: z.array(activitySchema).min(1), events: z.array(eventSchema),
   results: z.array(z.object({
     id: z.string(), activityId: z.string(), title: z.string(), reference: z.string(),

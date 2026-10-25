@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test'
+import { expect, test } from './legacy-fixture'
 import { readFile } from 'node:fs/promises'
 
 test('Ideação contém diagnóstico respondido e evidência PDF dentro de Definir a ideia', async ({ page }, info) => {
@@ -23,7 +23,7 @@ test('Ideação contém diagnóstico respondido e evidência PDF dentro de Defin
   await expect(dialog.getByRole('status')).toHaveText('Submetido · PDF')
   await expect(dialog).toContainText('Ana Machava')
   const download = page.waitForEvent('download')
-  await dialog.getByRole('link', { name: 'Descarregar PDF submetido' }).click()
+  await dialog.getByRole('link', { name: 'Descarregar ficheiro submetido' }).click()
   const pdf = await download
   expect(pdf.suggestedFilename()).toBe('relatorio-auditoria-1.pdf')
   expect((await readFile((await pdf.path())!)).subarray(0, 5).toString()).toBe('%PDF-')

@@ -10,19 +10,22 @@ function toTeacherStatus(status: ReturnType<typeof getActivityStatus>): TeacherS
 /** Read-only composition adapter: the teacher never maintains a second student state. */
 export function mapStudentJourney(source: JourneySnapshot, template: Company): Company {
   const company = structuredClone(template)
-  company.name = source.registration?.data.legalName || template.name
+  company.name = source.registration?.data.legalName || source.context.companyName || template.name
   company.currentBlockId = source.context.currentBlockId
-  company.blocks = source.blocks.map(({ id, title }) => ({ id, title }))
+  company.blocks = source.blocks.map(({ id, title, state, activities }) => ({ id, title,
+    ...(source.context.roadmapVersion ? { state: activities.length ? toTeacherStatus(state) : 'unavailable' as const } : {}),
+  }))
   const names = [...new Set([source.context.studentName, ...source.events.filter(e => e.type === 'name.reserved' || e.type.startsWith('registration.') || e.type === 'learning-task.completed').map(e => e.actor)])]
   company.participants = names.map((name, index) => ({ id: 'source-' + index, name, initials: name.split(' ').map(n => n[0]).slice(0, 2).join('') }))
   company.results = []
   company.events = []
   company.activities = source.blocks.flatMap(block => block.activities.map(activity => {
     const metadata = template.activities.find(a => a.id === activity.id)
-    return { id: activity.id, title: activity.title, blockId: block.id, milestone: metadata?.milestone ?? 'constituicao',
+    const roadmapMilestone = ['acolhimento', 'ideacao'].includes(block.id) ? 'ideacao' : block.id === 'inicio-actividades' ? 'compras-vendas' : 'constituicao'
+    return { id: activity.id, title: activity.title, blockId: block.id, milestone: source.context.roadmapVersion ? roadmapMilestone : metadata?.milestone ?? 'constituicao',
       status: toTeacherStatus(getActivityStatus(activity, source)), participantIds: [], dueDate: metadata?.dueDate ?? null,
       module: metadata?.module ?? 'Roteiro de Tarefas', nextStep: activity.reason || activity.description, resultIds: [],
-      description: activity.description, definitionOfDone: metadata?.definitionOfDone, dependencyIds: metadata?.dependencyIds ?? [],
+      description: activity.description, definitionOfDone: metadata?.definitionOfDone, dependencyIds: source.context.roadmapVersion ? activity.previousIds ?? [] : metadata?.dependencyIds ?? [],
       tasks: getLearningTasks(activity, source).map(task => ({ ...task, status: toTeacherStatus(task.status) })) }
   }))
   const states: Record<string, TeacherEvent['newStatus']> = {

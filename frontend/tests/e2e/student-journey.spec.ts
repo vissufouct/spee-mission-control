@@ -1,5 +1,6 @@
 import { completeRegistrationLearningTasks } from './learning-task-helpers'
-import { expect, test, type Page } from '@playwright/test'
+import { expect, test } from './legacy-fixture'
+import { type Page } from '@playwright/test'
 import { readFile } from 'node:fs/promises'
 
 const home = '/estudante/percurso'
@@ -110,13 +111,13 @@ test('ferramentas de demonstração foram removidas', async ({ page }) => {
 })
 
 test('dados corrompidos mostram erro sem ferramentas de reposição', async ({ page }) => {
-  await page.addInitScript(() => localStorage.setItem('spee.student-journey.v1', '{invalido'))
+  await page.addInitScript(() => localStorage.setItem('spee.roadmap-2026.1.spee.student-journey.v1', '{invalido'))
   await page.goto(home)
   await expect(page.getByRole('alert')).toContainText('Não foi possível ler os dados locais')
   await expect(page.getByRole('button', { name: /Repor cenário/ })).toHaveCount(0)
   await page.getByRole('button', { name: 'Tentar novamente' }).click()
   await expect(page.getByRole('alert')).toContainText('não foram alterados')
-  expect(await page.evaluate(() => localStorage.getItem('spee.student-journey.v1'))).toBe('{invalido')
+  expect(await page.evaluate(() => localStorage.getItem('spee.roadmap-2026.1.spee.student-journey.v1'))).toBe('{invalido')
 })
 
 test('indisponibilidade do armazenamento não produz falsa confirmação', async ({ page }) => {

@@ -1,0 +1,4 @@
+# Office/PDF artefacts are binary; preserve their bytes in Git.
+*.pdf binary
+*.docx binary
+*.xlsx binary

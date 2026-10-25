@@ -54,9 +54,11 @@ export class JsonTeacherRepository implements TeacherRepository {
     catch { throw new Error('Não foi possível guardar a alteração neste browser. Nenhuma alteração foi confirmada.') }
     return structuredClone(parsed)
   }
-  private commit(revision: number, change: (snapshot: TeacherSnapshot) => void) {
-    const snapshot = this.read()
-    if (snapshot.revision !== revision) throw new Error('O cenário foi alterado noutra vista. Actualize os dados antes de continuar.')
+  private async commit(revision: number, change: (snapshot: TeacherSnapshot) => void) {
+    const snapshot = await this.hydrate(this.read())
+    // Hydration may await the student's repository. Recheck after that await so
+    // concurrent writes cannot overwrite one another with the same revision.
+    if (snapshot.revision !== revision || this.read().revision !== revision) throw new Error('O cenário foi alterado noutra vista. Actualize os dados antes de continuar.')
     change(snapshot)
     snapshot.revision++
     return this.write(snapshot)

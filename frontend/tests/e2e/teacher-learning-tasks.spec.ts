@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test'
+import { expect, test } from './legacy-fixture'
 
 test('docente consulta tarefas, respostas e PDF sem executar tarefas', async ({ page }) => {
   await page.goto('/docente/mission-control/empresas/maputo-solucoes?bloco=ideacao')
@@ -9,7 +9,7 @@ test('docente consulta tarefas, respostas e PDF sem executar tarefas', async ({ 
   await expect(tasks.locator('li').first()).toContainText('Diagnóstico do empreendedor')
   await tasks.getByText('Pontuação: 4/5 (80%) · Ver respostas', { exact: true }).click()
   await expect(tasks).toContainText('Ignorá-los até haver problemas')
-  const pdf = tasks.getByRole('link', { name: /Consultar PDF submetido/ })
+  const pdf = tasks.getByRole('link', { name: /Consultar ficheiro submetido/ })
   await expect(pdf).toHaveAttribute('href', /relatorio-auditoria-1.pdf$/)
   expect((await page.request.get((await pdf.getAttribute('href'))!)).status()).toBe(200)
   await expect(tasks.getByRole('button')).toHaveCount(0)

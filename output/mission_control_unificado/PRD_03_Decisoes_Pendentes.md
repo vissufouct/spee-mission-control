@@ -1,7 +1,7 @@
 # Registo de decisões do Painel
 
-**Versão:** 0.6
-**Data:** 24 de Outubro de 2026
+**Versão:** 0.7
+**Data:** 25 de Outubro de 2026
 **Finalidade:** manter decisões resolvidas e pendentes com resposta, responsável, data e impacto rastreáveis.  
 
 ## Como utilizar
@@ -19,7 +19,7 @@ Em cada decisão:
 | Estado | Quantidade actual |
 |---|---:|
 | Resolvidas | 12 |
-| Não resolvidas | 15 |
+| Não resolvidas | 16 |
 
 ---
 
@@ -367,3 +367,14 @@ Em cada decisão:
 - **Evidência:** esclarecimento explícito após análise de «Call with Leila Omar (4)».
 
 A ligação de «Continuar actividade» ao simulador mantém-se dependente da integração e dos destinos reais (DEC-015); não é implementada nesta revisão.
+
+## DEC-028 — Aplicação do roteiro e alcance dos bloqueios
+
+- **Estado:** [x] Não resolvida  [ ] Resolvida
+- **Situação:** conteúdo aplicado ao protótipo; escolhas pedagógicas de implementação por validar.
+- **Responsável:** validação pedagógica por definir.
+- **Data do registo:** 25 de Outubro de 2026
+- **Fonte:** pedido de aplicação do roteiro consolidado de 25/10/2026, com exemplos 1 e 2 e materiais documentais.
+- **Implementado:** 15 actividades, 48 tarefas, 4 blocos detalhados, primeiro ano fiscal vazio. Dois cenários isolados, anexos locais PDF/DOCX/XLSX, quiz com limiar configurável e capas em vez de vídeos.
+- **Escolhas provisórias:** alcance das condições de bloqueio de acolhimento/compromisso, constituição, leitura documental, prospecção e orientação final; questões dos quizzes; seis confirmações Sim na verificação final; tentativas ilimitadas, sem histórico de tentativas falhadas. O mapeamento exacto está em [roadmap-scenarios.md](../../frontend/docs/roadmap-scenarios.md). Não bloquear todas as tarefas de um bloco apenas por o anterior estar incompleto.
+- **Por definir na integração:** regulamento institucional, avaliação de evidências, participantes e eventos dos módulos, aceitação real dos convites, vídeos definitivos e conteúdo do primeiro ano fiscal. A utilização dos modelos e capas no protótipo não aprova estes elementos como materiais institucionais finais.

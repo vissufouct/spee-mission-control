@@ -1,0 +1,8 @@
+export { ScenarioEditorPage } from './pages/ScenarioEditorPage'
+export { ScenarioProvider } from './hooks/ScenarioProvider'
+export { JsonScenarioRepository } from './api/JsonScenarioRepository'
+export type { ScenarioRepository } from './services/ScenarioRepository'
+export { scenarioDocumentSchema } from './schemas/scenario.schema'
+export const scenarioEditorPath = '/studio/roteiro'
+import '@xyflow/react/dist/style.css'
+import './styles.css'

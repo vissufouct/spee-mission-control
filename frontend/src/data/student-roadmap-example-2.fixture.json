@@ -1,0 +1,1353 @@
+{
+  "schemaVersion": 1,
+  "revision": 0,
+  "context": {
+    "studentName": "Ana Machava",
+    "studentEmail": "ana.machava@example.test",
+    "className": "Turma A",
+    "routeName": "Roteiro SPEE",
+    "currentBlockId": "acolhimento",
+    "roadmapVersion": "spee-2026-10-25",
+    "example": "2",
+    "companyName": "Nascente Criativa, Lda."
+  },
+  "members": [
+    "Ana Machava",
+    "João Tembe",
+    "António Sitoe"
+  ],
+  "blocks": [
+    {
+      "id": "acolhimento",
+      "title": "Acolhimento e preparação",
+      "description": "Conheça a simulação, as regras e a forma de trabalhar em equipa.",
+      "state": "not-started",
+      "activities": [
+        {
+          "id": "boas-vindas",
+          "title": "Boas-vindas",
+          "description": "Descubra o propósito do SPEE e aprenda a navegar no painel.",
+          "status": "not-started",
+          "tasks": [
+            {
+              "id": "b01-a01-t01",
+              "title": "Conhecer a apresentação do SPEE",
+              "kind": "pdf",
+              "description": "Leia os objectivos, os papéis dos participantes e o percurso da simulação.",
+              "required": true,
+              "status": "not-started",
+              "resource": "apoio/apresentacao-spee.pdf",
+              "preview": "apoio/apresentacao-spee-preview.png",
+              "dependsOn": []
+            },
+            {
+              "id": "b01-a01-t02",
+              "title": "Explorar a navegação no painel",
+              "kind": "video",
+              "description": "Apresentação prevista: percurso, estados, tarefas, materiais e canais de apoio.",
+              "required": true,
+              "status": "not-started",
+              "cover": "apoio/capa-acolhimento.png",
+              "resource": "apoio/capa-acolhimento.png",
+              "dependsOn": []
+            }
+          ],
+          "materials": [
+            {
+              "title": "ITIS — informação institucional",
+              "format": "url",
+              "href": "https://www.itis.ac.mz/",
+              "description": "Referência indicada no roteiro; acesso externo sujeito à disponibilidade do portal."
+            },
+            {
+              "title": "Organizar o tempo e o trabalho em equipa",
+              "format": "pdf",
+              "href": "apoio/organizacao-equipa.pdf",
+              "description": "Guia local de planeamento semanal e comunicação respeitosa."
+            }
+          ],
+          "simulatedParticipants": [
+            {
+              "name": "Ana Machava",
+              "contribution": "Coordenação da actividade, revisão e submissão dos resultados."
+            },
+            {
+              "name": "João Tembe",
+              "contribution": "Pesquisa, preparação dos dados e conferência das fontes."
+            },
+            {
+              "name": "António Sitoe",
+              "contribution": "Organização dos documentos e verificação com a equipa."
+            }
+          ]
+        },
+        {
+          "id": "conhecer-simulacao",
+          "title": "Conhecer a simulação",
+          "description": "Consulte as regras de participação, o relatório final e os canais de comunicação.",
+          "status": "not-started",
+          "tasks": [
+            {
+              "id": "b01-a02-t01",
+              "title": "Ler o regulamento da simulação",
+              "kind": "pdf",
+              "description": "Consulte as regras pedagógicas propostas para este exemplo. O regulamento institucional será confirmado na integração.",
+              "required": true,
+              "status": "not-started",
+              "resource": "apoio/regulamento-simulacao.pdf",
+              "preview": "apoio/regulamento-simulacao-preview.png",
+              "dependsOn": []
+            },
+            {
+              "id": "b01-a02-t02",
+              "title": "Consultar o modelo de relatório final",
+              "kind": "url",
+              "description": "Conheça desde já a estrutura do relatório e descarregue o modelo Word editável.",
+              "required": true,
+              "status": "not-started",
+              "resource": "apoio/relatorio-final.html",
+              "dependsOn": []
+            },
+            {
+              "id": "b01-a02-t03",
+              "title": "Conhecer os canais de comunicação",
+              "kind": "pdf",
+              "description": "Escolha entre orientação do docente, conversa da empresa e apoio técnico.",
+              "required": true,
+              "status": "not-started",
+              "resource": "apoio/comunicacao-spee.pdf",
+              "preview": "apoio/comunicacao-spee-preview.png",
+              "dependsOn": []
+            }
+          ],
+          "materials": [
+            {
+              "title": "Modelo de relatório final",
+              "format": "word",
+              "href": "apoio/modelo-relatorio-final.docx",
+              "description": "Estrutura editável com campos para evidências e reflexão."
+            }
+          ],
+          "simulatedParticipants": [
+            {
+              "name": "Ana Machava",
+              "contribution": "Coordenação da actividade, revisão e submissão dos resultados."
+            },
+            {
+              "name": "João Tembe",
+              "contribution": "Pesquisa, preparação dos dados e conferência das fontes."
+            },
+            {
+              "name": "António Sitoe",
+              "contribution": "Organização dos documentos e verificação com a equipa."
+            }
+          ]
+        },
+        {
+          "id": "confirmar-preparacao",
+          "title": "Recapitular e confirmar",
+          "description": "Reveja o roteiro e confirme que está preparado para participar.",
+          "status": "not-started",
+          "tasks": [
+            {
+              "id": "b01-a03-t01",
+              "title": "Explorar o percurso completo",
+              "kind": "url",
+              "description": "Consulte o mapa integral, em modo de leitura, antes de iniciar a simulação.",
+              "required": true,
+              "status": "not-started",
+              "resource": "apoio/roteiro-completo.html",
+              "dependsOn": []
+            },
+            {
+              "id": "b01-a03-t02",
+              "title": "Quiz de acolhimento",
+              "kind": "quiz",
+              "description": "Verifique os conhecimentos essenciais sobre a simulação. Aprovação a partir de 70%.",
+              "required": true,
+              "status": "not-started",
+              "questions": [
+                {
+                  "prompt": "Qual é a estrutura do roteiro?",
+                  "options": [
+                    "Bloco, actividade e tarefa.",
+                    "Tarefa, turma e universidade.",
+                    "Apenas uma lista de documentos."
+                  ],
+                  "correct": 0,
+                  "id": "b01-a03-t02-q1"
+                },
+                {
+                  "prompt": "O que confirma a realização de uma tarefa?",
+                  "options": [
+                    "A confirmação explícita ou a evidência pedida.",
+                    "Abrir a página.",
+                    "O tempo com o browser aberto."
+                  ],
+                  "correct": 0,
+                  "id": "b01-a03-t02-q2"
+                },
+                {
+                  "prompt": "Onde deve pedir orientação pedagógica?",
+                  "options": [
+                    "Na conversa com o docente, identificando a actividade.",
+                    "Numa mensagem sem contexto.",
+                    "Num comentário anónimo."
+                  ],
+                  "correct": 0,
+                  "id": "b01-a03-t02-q3"
+                },
+                {
+                  "prompt": "Como deve usar conteúdos produzidos com IA?",
+                  "options": [
+                    "Rever, adaptar e verificar as fontes.",
+                    "Copiar sem ler.",
+                    "Apresentá-los como factos verificados automaticamente."
+                  ],
+                  "correct": 0,
+                  "id": "b01-a03-t02-q4"
+                }
+              ],
+              "passPercent": 70,
+              "dependsOn": []
+            },
+            {
+              "id": "b01-a03-t03",
+              "title": "Aceitar a declaração de responsabilidade e ética",
+              "kind": "quiz",
+              "description": "Comprometo-me a colaborar, respeitar os colegas, referenciar fontes e distinguir dados simulados de documentos oficiais. A aceitação é necessária para prosseguir.",
+              "required": true,
+              "status": "not-started",
+              "questions": [
+                {
+                  "prompt": "Aceita este compromisso de participação?",
+                  "options": [
+                    "Aceito o compromisso.",
+                    "Não aceito."
+                  ],
+                  "correct": 0,
+                  "id": "b01-a03-t03-q1"
+                }
+              ],
+              "passPercent": 100,
+              "dependsOn": [
+                "b01-a03-t02"
+              ]
+            }
+          ],
+          "materials": [],
+          "simulatedParticipants": [
+            {
+              "name": "Ana Machava",
+              "contribution": "Coordenação da actividade, revisão e submissão dos resultados."
+            },
+            {
+              "name": "João Tembe",
+              "contribution": "Pesquisa, preparação dos dados e conferência das fontes."
+            },
+            {
+              "name": "António Sitoe",
+              "contribution": "Organização dos documentos e verificação com a equipa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ideacao",
+      "title": "Ideação",
+      "description": "Valide a ideia, estruture o modelo e prepare o plano de negócios.",
+      "state": "not-started",
+      "activities": [
+        {
+          "id": "definir-ideia",
+          "title": "Encontrar uma ideia de negócio",
+          "description": "Identifique um problema real, o público e a proposta de valor da empresa.",
+          "status": "not-started",
+          "tasks": [
+            {
+              "id": "b02-a01-t01",
+              "title": "Diagnóstico do empreendedor",
+              "kind": "quiz",
+              "description": "Avalie os conhecimentos de partida. Este diagnóstico apresenta pontuação, sem nota mínima de aprovação.",
+              "required": true,
+              "status": "not-started",
+              "questions": [
+                {
+                  "prompt": "Como começar a validar uma oportunidade?",
+                  "options": [
+                    "Conversar com potenciais clientes.",
+                    "Comprar equipamento antes de investigar.",
+                    "Escolher apenas pelo nome."
+                  ],
+                  "correct": 0,
+                  "id": "b02-a01-t01-q1"
+                },
+                {
+                  "prompt": "O que descreve uma proposta de valor?",
+                  "options": [
+                    "O benefício para um público e problema concretos.",
+                    "A lista dos sócios.",
+                    "Só o preço."
+                  ],
+                  "correct": 0,
+                  "id": "b02-a01-t01-q2"
+                },
+                {
+                  "prompt": "Uma receita é…",
+                  "options": [
+                    "Um valor proveniente de vendas ou serviços.",
+                    "Sempre igual ao lucro.",
+                    "Um empréstimo recebido."
+                  ],
+                  "correct": 0,
+                  "id": "b02-a01-t01-q3"
+                },
+                {
+                  "prompt": "Ao receber uma crítica de um cliente, deve…",
+                  "options": [
+                    "Procurar compreender e testar melhorias.",
+                    "Ignorá-la.",
+                    "Mudar tudo sem investigar."
+                  ],
+                  "correct": 0,
+                  "id": "b02-a01-t01-q4"
+                },
+                {
+                  "prompt": "Como gerir a incerteza de uma ideia?",
+                  "options": [
+                    "Registar hipóteses e procurar evidências.",
+                    "Prometer que não há riscos.",
+                    "Evitar conversar com a equipa."
+                  ],
+                  "correct": 0,
+                  "id": "b02-a01-t01-q5"
+                }
+              ],
+              "quizMode": "diagnostic",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03"
+              ]
+            },
+            {
+              "id": "b02-a01-t02",
+              "title": "Conhecer as características empreendedoras",
+              "kind": "video",
+              "description": "Apresentação prevista: iniciativa, curiosidade, persistência, colaboração e validação de hipóteses.",
+              "required": true,
+              "status": "not-started",
+              "cover": "apoio/capa-empreendedorismo.png",
+              "resource": "apoio/capa-empreendedorismo.png",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03"
+              ]
+            },
+            {
+              "id": "b02-a01-t03",
+              "title": "Explorar uma ideia com apoio de IA",
+              "kind": "pdf",
+              "description": "Use o prompt do guia, compare alternativas e reveja a proposta com a equipa.",
+              "required": true,
+              "status": "not-started",
+              "resource": "apoio/guia-ideia-ia.pdf",
+              "preview": "apoio/guia-ideia-ia-preview.png",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03"
+              ]
+            },
+            {
+              "id": "b02-a01-t04",
+              "title": "Publicar a ideia e convidar colegas",
+              "kind": "operation",
+              "description": "Abra o Hub social na seta à direita, apresente o problema, o público e a proposta de valor. Convide colegas interessados e confirme aqui quando terminar.",
+              "required": true,
+              "status": "not-started",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03"
+              ]
+            }
+          ],
+          "materials": [
+            {
+              "title": "IPEME — página indicada no roteiro",
+              "format": "url",
+              "href": "https://www.facebook.com/ipememocambique",
+              "description": "Pode exigir sessão no Facebook. Referência de apoio, não é condição de conclusão."
+            }
+          ],
+          "simulatedParticipants": [
+            {
+              "name": "Ana Machava",
+              "contribution": "Coordenação da actividade, revisão e submissão dos resultados."
+            },
+            {
+              "name": "João Tembe",
+              "contribution": "Pesquisa, preparação dos dados e conferência das fontes."
+            },
+            {
+              "name": "António Sitoe",
+              "contribution": "Organização dos documentos e verificação com a equipa."
+            }
+          ]
+        },
+        {
+          "id": "modelo-negocio",
+          "title": "Construir o modelo de negócio",
+          "description": "Relacione a proposta de valor, os clientes, os recursos e a viabilidade da ideia.",
+          "status": "not-started",
+          "tasks": [
+            {
+              "id": "b02-a02-t01",
+              "title": "Conhecer o Business Model Canvas",
+              "kind": "video",
+              "description": "Apresentação prevista: os nove componentes do modelo e a ligação entre mercado, operação, custos e receitas.",
+              "required": true,
+              "status": "not-started",
+              "cover": "apoio/capa-empreendedorismo.png",
+              "resource": "apoio/capa-empreendedorismo.png",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03"
+              ]
+            },
+            {
+              "id": "b02-a02-t02",
+              "title": "Preparar o modelo com apoio de IA",
+              "kind": "pdf",
+              "description": "Use o prompt, explicite hipóteses e evite tratar sugestões de IA como pesquisa de mercado.",
+              "required": true,
+              "status": "not-started",
+              "resource": "apoio/guia-canvas-ia.pdf",
+              "preview": "apoio/guia-canvas-ia-preview.png",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03"
+              ]
+            },
+            {
+              "id": "b02-a02-t03",
+              "title": "Criar o modelo de negócio",
+              "kind": "operation",
+              "description": "Preencha o modelo com a equipa e confirme a revisão dos nove componentes. Use o recurso oficial de apoio.",
+              "required": true,
+              "status": "not-started",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03"
+              ]
+            }
+          ],
+          "materials": [
+            {
+              "title": "Business Model Canvas — Strategyzer",
+              "format": "url",
+              "href": "https://www.strategyzer.com/library/the-business-model-canvas",
+              "description": "Modelo de referência original; abrir o portal para consultar e descarregar o recurso."
+            }
+          ],
+          "simulatedParticipants": [
+            {
+              "name": "Ana Machava",
+              "contribution": "Coordenação da actividade, revisão e submissão dos resultados."
+            },
+            {
+              "name": "João Tembe",
+              "contribution": "Pesquisa, preparação dos dados e conferência das fontes."
+            },
+            {
+              "name": "António Sitoe",
+              "contribution": "Organização dos documentos e verificação com a equipa."
+            }
+          ]
+        },
+        {
+          "id": "plano-negocios",
+          "title": "Elaborar o plano de negócios",
+          "description": "Transforme as hipóteses do modelo numa proposta documentada e verificável.",
+          "status": "not-started",
+          "tasks": [
+            {
+              "id": "b02-a03-t01",
+              "title": "Conhecer a estrutura do plano de negócios",
+              "kind": "video",
+              "description": "Apresentação prevista: mercado, operação, equipa, previsão de vendas, recursos e riscos.",
+              "required": true,
+              "status": "not-started",
+              "cover": "apoio/capa-empreendedorismo.png",
+              "resource": "apoio/capa-empreendedorismo.png",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03"
+              ]
+            },
+            {
+              "id": "b02-a03-t02",
+              "title": "Consultar exemplos e orientações",
+              "kind": "url",
+              "description": "Consulte o exemplo local e a referência do SEBRAE. Adapte o enquadramento à simulação moçambicana.",
+              "required": true,
+              "status": "not-started",
+              "resource": "apoio/plano-negocios.html",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03"
+              ]
+            },
+            {
+              "id": "b02-a03-t03",
+              "title": "Criar e entregar o plano de negócios",
+              "kind": "evidence",
+              "description": "Descarregue o modelo Word, adapte-o à empresa e submeta o documento. Pode usar o exemplo para testar este fluxo.",
+              "required": true,
+              "status": "not-started",
+              "accepts": [
+                "docx",
+                "pdf"
+              ],
+              "resource": "apoio/modelo-plano-negocios.docx",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03"
+              ]
+            }
+          ],
+          "materials": [
+            {
+              "title": "Plano de negócios — modelo editável",
+              "format": "word",
+              "href": "apoio/modelo-plano-negocios.docx",
+              "description": "Campos e um exemplo identificado para orientar a elaboração."
+            },
+            {
+              "title": "Como elaborar um plano de negócio — SEBRAE",
+              "format": "url",
+              "href": "https://sebrae.com.br/sites/PortalSebrae/cursosonline/como-elaborar-um-plano-de-negocio,1880b8a6a28bb610VgnVCM1000004c00210aRCRD",
+              "description": "Recurso pedagógico brasileiro. A inscrição pode exigir uma conta; os conteúdos legais não substituem fontes moçambicanas."
+            }
+          ],
+          "simulatedParticipants": [
+            {
+              "name": "Ana Machava",
+              "contribution": "Coordenação da actividade, revisão e submissão dos resultados."
+            },
+            {
+              "name": "João Tembe",
+              "contribution": "Pesquisa, preparação dos dados e conferência das fontes."
+            },
+            {
+              "name": "António Sitoe",
+              "contribution": "Organização dos documentos e verificação com a equipa."
+            }
+          ]
+        },
+        {
+          "id": "auditoria-1",
+          "title": "Auditoria I — trabalho de campo",
+          "description": "Recolha evidências sobre a viabilidade da ideia e apresente conclusões fundamentadas.",
+          "status": "not-started",
+          "tasks": [
+            {
+              "id": "b02-a04-t01",
+              "title": "Consultar o guia da auditoria I",
+              "kind": "pdf",
+              "description": "Prepare o objectivo, as perguntas, os participantes e a forma de registar evidências.",
+              "required": true,
+              "status": "not-started",
+              "resource": "apoio/guia-auditoria.pdf",
+              "preview": "apoio/guia-auditoria-preview.png",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03"
+              ]
+            },
+            {
+              "id": "b02-a04-t02",
+              "title": "Submeter o relatório de auditoria I",
+              "kind": "evidence",
+              "description": "Apresente método, evidências, limitações e melhorias propostas. O exemplo usa entrevistas fictícias.",
+              "required": true,
+              "status": "not-started",
+              "accepts": [
+                "pdf",
+                "docx"
+              ],
+              "resource": "apoio/exemplo-auditoria.pdf",
+              "preview": "apoio/exemplo-auditoria-preview.png",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03"
+              ]
+            }
+          ],
+          "materials": [
+            {
+              "title": "Relatório de auditoria I — modelo",
+              "format": "word",
+              "href": "apoio/modelo-auditoria.docx",
+              "description": "Estrutura editável para preparar a entrega."
+            }
+          ],
+          "simulatedParticipants": [
+            {
+              "name": "Ana Machava",
+              "contribution": "Coordenação da actividade, revisão e submissão dos resultados."
+            },
+            {
+              "name": "João Tembe",
+              "contribution": "Pesquisa, preparação dos dados e conferência das fontes."
+            },
+            {
+              "name": "António Sitoe",
+              "contribution": "Organização dos documentos e verificação com a equipa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "constituicao",
+      "title": "Criação de empresas",
+      "description": "Constitua a empresa, organize o arquivo e prepare os contratos essenciais.",
+      "state": "not-started",
+      "activities": [
+        {
+          "id": "registar-empresa",
+          "title": "Constituição legal da empresa",
+          "description": "Reúna os elementos necessários e percorra as etapas da constituição na simulação.",
+          "status": "not-started",
+          "tasks": [
+            {
+              "id": "b03-a01-t01",
+              "title": "Consultar o portal do BAU",
+              "kind": "url",
+              "description": "Explore a informação pública do Balcão de Atendimento Único e identifique onde confirmar os requisitos. Não submeta pedidos reais.",
+              "required": true,
+              "status": "not-started",
+              "resource": "https://www.bau.gov.mz/",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03"
+              ]
+            },
+            {
+              "id": "b03-a01-t02",
+              "title": "Quiz sobre constituição e licenciamento",
+              "kind": "quiz",
+              "description": "Confirme a compreensão do processo. É necessário obter pelo menos 70% para executar as tarefas seguintes.",
+              "required": true,
+              "status": "not-started",
+              "questions": [
+                {
+                  "prompt": "Onde confirmar os requisitos aplicáveis à actividade económica?",
+                  "options": [
+                    "Nas fontes oficiais e com as entidades competentes.",
+                    "Apenas num exemplo de outra empresa.",
+                    "Numa mensagem antiga sem fonte."
+                  ],
+                  "correct": 0,
+                  "id": "b03-a01-t02-q1"
+                },
+                {
+                  "prompt": "Reservar um nome significa que todos os passos estão concluídos?",
+                  "options": [
+                    "Não; é uma etapa do processo.",
+                    "Sim, dispensa as etapas seguintes.",
+                    "Sim, substitui qualquer licença."
+                  ],
+                  "correct": 0,
+                  "id": "b03-a01-t02-q2"
+                },
+                {
+                  "prompt": "O que deve verificar antes de submeter um pedido?",
+                  "options": [
+                    "A coerência dos dados e os documentos exigidos.",
+                    "Apenas a cor do logótipo.",
+                    "A popularidade da empresa."
+                  ],
+                  "correct": 0,
+                  "id": "b03-a01-t02-q3"
+                },
+                {
+                  "prompt": "O registo neste protótipo tem validade oficial?",
+                  "options": [
+                    "Não, é uma simulação pedagógica.",
+                    "Sim, substitui o registo oficial.",
+                    "Sim, em todas as províncias."
+                  ],
+                  "correct": 0,
+                  "id": "b03-a01-t02-q4"
+                }
+              ],
+              "passPercent": 70,
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03"
+              ]
+            },
+            {
+              "id": "b03-a01-t03",
+              "title": "Reservar o nome da empresa",
+              "kind": "operation",
+              "description": "Escolha a denominação com a equipa e confirme a reserva simulada do nome.",
+              "required": true,
+              "status": "not-started",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03",
+                "b03-a01-t02"
+              ]
+            },
+            {
+              "id": "b03-a01-t04",
+              "title": "Convidar os sócios",
+              "kind": "operation",
+              "description": "Identifique os membros da empresa e confirme a aceitação dos convites na simulação.",
+              "required": true,
+              "status": "not-started",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03",
+                "b03-a01-t02"
+              ]
+            },
+            {
+              "id": "b03-a01-t05",
+              "title": "Registar a empresa",
+              "kind": "operation",
+              "description": "Preencha e confirme o formulário de registo local da empresa.",
+              "required": true,
+              "status": "not-started",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03",
+                "b03-a01-t02"
+              ]
+            },
+            {
+              "id": "b03-a01-t06",
+              "title": "Declarar o início de actividades",
+              "kind": "operation",
+              "description": "Confirme a preparação dos dados necessários à declaração de início de actividades. Esta confirmação é exclusivamente pedagógica.",
+              "required": true,
+              "status": "not-started",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03",
+                "b03-a01-t02"
+              ]
+            },
+            {
+              "id": "b03-a01-t07",
+              "title": "Submeter a publicação no Boletim da República",
+              "kind": "evidence",
+              "description": "Anexe a evidência prevista no exercício. O ficheiro fornecido é um exemplo pedagógico sem validade oficial, não uma publicação autêntica.",
+              "required": true,
+              "status": "not-started",
+              "accepts": [
+                "pdf"
+              ],
+              "resource": "apoio/exemplo-publicacao.pdf",
+              "preview": "apoio/exemplo-publicacao-preview.png",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03",
+                "b03-a01-t02"
+              ]
+            }
+          ],
+          "materials": [],
+          "simulatedParticipants": [
+            {
+              "name": "Ana Machava",
+              "contribution": "Coordenação da actividade, revisão e submissão dos resultados."
+            },
+            {
+              "name": "João Tembe",
+              "contribution": "Pesquisa, preparação dos dados e conferência das fontes."
+            },
+            {
+              "name": "António Sitoe",
+              "contribution": "Organização dos documentos e verificação com a equipa."
+            }
+          ]
+        },
+        {
+          "id": "gestor-documental",
+          "title": "Inicializar o gestor documental",
+          "description": "Prepare um arquivo que permita localizar as evidências de cada operação.",
+          "status": "not-started",
+          "tasks": [
+            {
+              "id": "b03-a02-t01",
+              "title": "Consultar o guia de organização documental",
+              "kind": "pdf",
+              "description": "Leia a convenção de nomes, os separadores e a regra de conservação das versões. Esta leitura antecede as operações de arquivo.",
+              "required": true,
+              "status": "not-started",
+              "resource": "apoio/guia-arquivo.pdf",
+              "preview": "apoio/guia-arquivo-preview.png",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03"
+              ]
+            },
+            {
+              "id": "b03-a02-t02",
+              "title": "Gerar os separadores do arquivo",
+              "kind": "operation",
+              "description": "Crie separadores para constituição, contratos, vendas, compras, recursos humanos e banca.",
+              "required": true,
+              "status": "not-started",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03",
+                "b03-a02-t01"
+              ]
+            },
+            {
+              "id": "b03-a02-t03",
+              "title": "Criar as pastas da empresa",
+              "kind": "operation",
+              "description": "Organize as pastas e confirme que a equipa consegue localizar os documentos.",
+              "required": true,
+              "status": "not-started",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03",
+                "b03-a02-t01"
+              ]
+            }
+          ],
+          "materials": [],
+          "simulatedParticipants": [
+            {
+              "name": "Ana Machava",
+              "contribution": "Coordenação da actividade, revisão e submissão dos resultados."
+            },
+            {
+              "name": "João Tembe",
+              "contribution": "Pesquisa, preparação dos dados e conferência das fontes."
+            },
+            {
+              "name": "António Sitoe",
+              "contribution": "Organização dos documentos e verificação com a equipa."
+            }
+          ]
+        },
+        {
+          "id": "contratos-servicos",
+          "title": "Celebrar contratos de serviços",
+          "description": "Prepare os compromissos regulares e o acesso aos serviços bancários.",
+          "status": "not-started",
+          "tasks": [
+            {
+              "id": "b03-a03-t01",
+              "title": "Celebrar contratos de custos fixos",
+              "kind": "operation",
+              "description": "Registe na simulação os contratos de instalações, água, electricidade e internet. Compare condições e arquive os documentos.",
+              "required": true,
+              "status": "not-started",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03",
+                "b03-a02-t01"
+              ]
+            },
+            {
+              "id": "b03-a03-t02",
+              "title": "Abrir a conta bancária",
+              "kind": "operation",
+              "description": "Confirme os dados da empresa, simule a abertura de conta e arquive a documentação.",
+              "required": true,
+              "status": "not-started",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03",
+                "b03-a02-t01"
+              ]
+            }
+          ],
+          "materials": [],
+          "simulatedParticipants": [
+            {
+              "name": "Ana Machava",
+              "contribution": "Coordenação da actividade, revisão e submissão dos resultados."
+            },
+            {
+              "name": "João Tembe",
+              "contribution": "Pesquisa, preparação dos dados e conferência das fontes."
+            },
+            {
+              "name": "António Sitoe",
+              "contribution": "Organização dos documentos e verificação com a equipa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inicio-actividades",
+      "title": "Início de actividades",
+      "description": "Prepare recursos, vendas, equipas e rotinas antes de entrar no mercado.",
+      "state": "not-started",
+      "activities": [
+        {
+          "id": "preparar-empresa",
+          "title": "Preparar a empresa",
+          "description": "Defina a identidade visual e os recursos necessários para começar a operar.",
+          "status": "not-started",
+          "tasks": [
+            {
+              "id": "b04-a01-t01",
+              "title": "Criar o logótipo da empresa",
+              "kind": "url",
+              "description": "Consulte o guia de criação de imagens, prepare o pedido e reveja o resultado com a equipa.",
+              "required": true,
+              "status": "not-started",
+              "resource": "apoio/identidade-visual.html",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03"
+              ]
+            },
+            {
+              "id": "b04-a01-t02",
+              "title": "Elaborar a lista de recursos",
+              "kind": "evidence",
+              "description": "Preencha a folha de recursos com quantidades, custos unitários, prioridades e justificações.",
+              "required": true,
+              "status": "not-started",
+              "accepts": [
+                "xlsx",
+                "pdf"
+              ],
+              "resource": "apoio/modelo-recursos.xlsx",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03"
+              ]
+            },
+            {
+              "id": "b04-a01-t03",
+              "title": "Elaborar o plano de vendas",
+              "kind": "evidence",
+              "description": "Preencha produtos ou serviços, quantidades previstas e preços. Os totais são calculados no modelo.",
+              "required": true,
+              "status": "not-started",
+              "accepts": [
+                "xlsx",
+                "pdf"
+              ],
+              "resource": "apoio/modelo-vendas.xlsx",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03"
+              ]
+            },
+            {
+              "id": "b04-a01-t04",
+              "title": "Criar e publicar o cartão de visita",
+              "kind": "operation",
+              "description": "Prepare um cartão com nome da empresa, proposta de valor e contactos fictícios. Publique-o no Hub social e confirme a partilha.",
+              "required": true,
+              "status": "not-started",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03"
+              ]
+            }
+          ],
+          "materials": [
+            {
+              "title": "Guia de criação de imagens com IA",
+              "format": "pdf",
+              "href": "apoio/guia-imagens-ia.pdf",
+              "description": "Prompt de logótipo e critérios de revisão."
+            },
+            {
+              "title": "Lista de recursos — Excel",
+              "format": "excel",
+              "href": "apoio/modelo-recursos.xlsx",
+              "description": "Custos e quantidades editáveis, totais automáticos."
+            },
+            {
+              "title": "Plano de vendas — Excel",
+              "format": "excel",
+              "href": "apoio/modelo-vendas.xlsx",
+              "description": "Previsão mensal com fórmulas e exemplo fictício."
+            }
+          ],
+          "simulatedParticipants": [
+            {
+              "name": "Ana Machava",
+              "contribution": "Coordenação da actividade, revisão e submissão dos resultados."
+            },
+            {
+              "name": "João Tembe",
+              "contribution": "Pesquisa, preparação dos dados e conferência das fontes."
+            },
+            {
+              "name": "António Sitoe",
+              "contribution": "Organização dos documentos e verificação com a equipa."
+            }
+          ]
+        },
+        {
+          "id": "configurar-comercial",
+          "title": "Configurar a gestão comercial",
+          "description": "Prepare a oferta e a informação necessária para comprar e vender.",
+          "status": "not-started",
+          "tasks": [
+            {
+              "id": "b04-a02-t01",
+              "title": "Actualizar o perfil comercial",
+              "kind": "operation",
+              "description": "Complete os dados de identificação, contactos e área de actividade da empresa na simulação.",
+              "required": true,
+              "status": "not-started",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03"
+              ]
+            },
+            {
+              "id": "b04-a02-t02",
+              "title": "Registar produtos, serviços e preços",
+              "kind": "operation",
+              "description": "Defina o catálogo com descrição, unidade, preço e pressupostos utilizados.",
+              "required": true,
+              "status": "not-started",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03"
+              ]
+            },
+            {
+              "id": "b04-a02-t03",
+              "title": "Prospectar clientes e fornecedores",
+              "kind": "operation",
+              "description": "Use o guia para pesquisar parceiros, preparar contactos e comparar propostas. Confirme a conclusão da prospecção simulada.",
+              "required": true,
+              "status": "not-started",
+              "resource": "apoio/guia-prospeccao.pdf",
+              "preview": "apoio/guia-prospeccao-preview.png",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03"
+              ]
+            },
+            {
+              "id": "b04-a02-t04",
+              "title": "Registar clientes e fornecedores",
+              "kind": "operation",
+              "description": "Organize os parceiros seleccionados e verifique contactos e condições comerciais.",
+              "required": true,
+              "status": "not-started",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03",
+                "b04-a02-t03"
+              ]
+            }
+          ],
+          "materials": [
+            {
+              "title": "Guia de prospecção e contactos",
+              "format": "pdf",
+              "href": "apoio/guia-prospeccao.pdf",
+              "description": "Critérios de selecção, mensagem de apresentação e pedido de cotação."
+            }
+          ],
+          "simulatedParticipants": [
+            {
+              "name": "Ana Machava",
+              "contribution": "Coordenação da actividade, revisão e submissão dos resultados."
+            },
+            {
+              "name": "João Tembe",
+              "contribution": "Pesquisa, preparação dos dados e conferência das fontes."
+            },
+            {
+              "name": "António Sitoe",
+              "contribution": "Organização dos documentos e verificação com a equipa."
+            }
+          ]
+        },
+        {
+          "id": "configurar-rh",
+          "title": "Configurar os recursos humanos",
+          "description": "Organize a empresa, os trabalhadores e os registos de pessoal.",
+          "status": "not-started",
+          "tasks": [
+            {
+              "id": "b04-a03-t01",
+              "title": "Actualizar o perfil da empresa em RH",
+              "kind": "operation",
+              "description": "Confirme identificação e contactos da empresa no módulo de recursos humanos.",
+              "required": true,
+              "status": "not-started",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03"
+              ]
+            },
+            {
+              "id": "b04-a03-t02",
+              "title": "Registar os trabalhadores",
+              "kind": "operation",
+              "description": "Prepare os dados fictícios dos trabalhadores, funções e condições do exercício.",
+              "required": true,
+              "status": "not-started",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03"
+              ]
+            },
+            {
+              "id": "b04-a03-t03",
+              "title": "Preparar a inscrição no INSS",
+              "kind": "operation",
+              "description": "Confirme a preparação da inscrição simulada da empresa e dos trabalhadores. Os campos reais serão definidos na integração.",
+              "required": true,
+              "status": "not-started",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03"
+              ]
+            },
+            {
+              "id": "b04-a03-t04",
+              "title": "Gerar e arquivar a relação nominal",
+              "kind": "operation",
+              "description": "Confira a relação de trabalhadores e arquive o documento na pasta de recursos humanos.",
+              "required": true,
+              "status": "not-started",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03"
+              ]
+            }
+          ],
+          "materials": [
+            {
+              "title": "Lei do Trabalho — fonte INSS",
+              "format": "url",
+              "href": "https://www.inss.gov.mz/sdm_downloads/20320/",
+              "description": "Página oficial de disponibilização da Lei n.º 13/2023. Confirmar o enquadramento aplicável com o docente."
+            }
+          ],
+          "simulatedParticipants": [
+            {
+              "name": "Ana Machava",
+              "contribution": "Coordenação da actividade, revisão e submissão dos resultados."
+            },
+            {
+              "name": "João Tembe",
+              "contribution": "Pesquisa, preparação dos dados e conferência das fontes."
+            },
+            {
+              "name": "António Sitoe",
+              "contribution": "Organização dos documentos e verificação com a equipa."
+            }
+          ]
+        },
+        {
+          "id": "preparar-banca",
+          "title": "Preparar as operações bancárias",
+          "description": "Organize os comprovativos iniciais e explore o financiamento da empresa.",
+          "status": "not-started",
+          "tasks": [
+            {
+              "id": "b04-a04-t01",
+              "title": "Arquivar os comprovativos dos encargos iniciais",
+              "kind": "operation",
+              "description": "Extraia os comprovativos das operações simuladas e arquive-os com referências que permitam a conferência.",
+              "required": true,
+              "status": "not-started",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03"
+              ]
+            },
+            {
+              "id": "b04-a04-t02",
+              "title": "Simular o pedido de financiamento",
+              "kind": "operation",
+              "description": "Indique finalidade, montante e capacidade de reembolso. Compare pressupostos antes de confirmar a simulação.",
+              "required": true,
+              "status": "not-started",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03"
+              ]
+            }
+          ],
+          "materials": [],
+          "simulatedParticipants": [
+            {
+              "name": "Ana Machava",
+              "contribution": "Coordenação da actividade, revisão e submissão dos resultados."
+            },
+            {
+              "name": "João Tembe",
+              "contribution": "Pesquisa, preparação dos dados e conferência das fontes."
+            },
+            {
+              "name": "António Sitoe",
+              "contribution": "Organização dos documentos e verificação com a equipa."
+            }
+          ]
+        },
+        {
+          "id": "orientacao-final",
+          "title": "Orientação final para entrada no mercado",
+          "description": "Confirme que a empresa reúne as condições do exercício para começar a operar.",
+          "status": "not-started",
+          "tasks": [
+            {
+              "id": "b04-a05-t01",
+              "title": "Verificar a preparação da empresa",
+              "kind": "quiz",
+              "description": "Confirme todos os pontos. Se algum estiver pendente, regresse à tarefa correspondente antes de avançar.",
+              "required": true,
+              "status": "not-started",
+              "questions": [
+                {
+                  "prompt": "A empresa está constituída na simulação?",
+                  "options": [
+                    "Sim, confirmado.",
+                    "Ainda não."
+                  ],
+                  "correct": 0,
+                  "id": "b04-a05-t01-q1"
+                },
+                {
+                  "prompt": "O arquivo está organizado?",
+                  "options": [
+                    "Sim, confirmado.",
+                    "Ainda não."
+                  ],
+                  "correct": 0,
+                  "id": "b04-a05-t01-q2"
+                },
+                {
+                  "prompt": "Os recursos e o plano de vendas foram revistos?",
+                  "options": [
+                    "Sim, confirmado.",
+                    "Ainda não."
+                  ],
+                  "correct": 0,
+                  "id": "b04-a05-t01-q3"
+                },
+                {
+                  "prompt": "O catálogo comercial está preparado?",
+                  "options": [
+                    "Sim, confirmado.",
+                    "Ainda não."
+                  ],
+                  "correct": 0,
+                  "id": "b04-a05-t01-q4"
+                },
+                {
+                  "prompt": "Os registos de pessoal estão organizados?",
+                  "options": [
+                    "Sim, confirmado.",
+                    "Ainda não."
+                  ],
+                  "correct": 0,
+                  "id": "b04-a05-t01-q5"
+                },
+                {
+                  "prompt": "Os documentos bancários estão arquivados?",
+                  "options": [
+                    "Sim, confirmado.",
+                    "Ainda não."
+                  ],
+                  "correct": 0,
+                  "id": "b04-a05-t01-q6"
+                }
+              ],
+              "passPercent": 100,
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03",
+                "b04-a01-t01",
+                "b04-a01-t02",
+                "b04-a01-t03",
+                "b04-a01-t04",
+                "b04-a02-t01",
+                "b04-a02-t02",
+                "b04-a02-t03",
+                "b04-a02-t04",
+                "b04-a03-t01",
+                "b04-a03-t02",
+                "b04-a03-t03",
+                "b04-a03-t04",
+                "b04-a04-t01",
+                "b04-a04-t02"
+              ]
+            },
+            {
+              "id": "b04-a05-t02",
+              "title": "Boas-vindas ao mercado",
+              "kind": "video",
+              "description": "Apresentação prevista: entrada no mercado, compras e vendas, concursos públicos, contabilidade e obrigações do primeiro ano fiscal.",
+              "required": true,
+              "status": "not-started",
+              "cover": "apoio/capa-mercado.png",
+              "resource": "apoio/capa-mercado.png",
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03",
+                "b04-a01-t01",
+                "b04-a01-t02",
+                "b04-a01-t03",
+                "b04-a01-t04",
+                "b04-a02-t01",
+                "b04-a02-t02",
+                "b04-a02-t03",
+                "b04-a02-t04",
+                "b04-a03-t01",
+                "b04-a03-t02",
+                "b04-a03-t03",
+                "b04-a03-t04",
+                "b04-a04-t01",
+                "b04-a04-t02"
+              ]
+            }
+          ],
+          "materials": [],
+          "simulatedParticipants": [
+            {
+              "name": "Ana Machava",
+              "contribution": "Coordenação da actividade, revisão e submissão dos resultados."
+            },
+            {
+              "name": "João Tembe",
+              "contribution": "Pesquisa, preparação dos dados e conferência das fontes."
+            },
+            {
+              "name": "António Sitoe",
+              "contribution": "Organização dos documentos e verificação com a equipa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "primeiro-ano",
+      "title": "Primeiro ano fiscal",
+      "description": "Brevemente: compras, vendas, concursos, contabilidade e obrigações fiscais. Conteúdo ainda por definir.",
+      "state": "not-started",
+      "activities": []
+    }
+  ],
+  "registration": null,
+  "events": [],
+  "groupMessages": [],
+  "resolvedNotifications": []
+}

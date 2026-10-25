@@ -18,10 +18,10 @@ export function FullJourneyBlock({ block, index, snapshot, onActivity }: {
       <div className="min-w-0 flex-1">
         <div className="flex flex-wrap items-center gap-2"><Link onClick={event => event.stopPropagation()} to={journeyPaths.home + '?bloco=' + block.id} className="student-full-block-title">{block.title}</Link>{current && <span className="student-full-current-label">Bloco actual</span>}</div>
         <p className="mt-1 text-xs text-slate-500">{block.description}</p>
-        <p className="mb-2 mt-3 text-xs text-slate-600">{completed} de {activities.length} actividades concluídas</p>
+        <p className="mb-2 mt-3 text-xs text-slate-600">{activities.length ? `${completed} de ${activities.length} actividades concluídas` : 'Conteúdo futuro · não contabilizado no progresso'}</p>
         <BlockProgressBar activities={activities} />
       </div>
-      <span className="student-full-block-state"><StatusBadge status={block.state} /><ChevronDown className="shrink-0 group-open:rotate-180" size={18} aria-hidden /></span>
+      <span className="student-full-block-state">{activities.length ? <StatusBadge status={block.state} /> : <span className="rounded-full bg-slate-100 px-3 py-1 text-xs text-slate-600">Brevemente</span>}<ChevronDown className="shrink-0 group-open:rotate-180" size={18} aria-hidden /></span>
     </summary>
     <ul className="student-full-activities">{activities.map(activity => <li key={activity.id}>
       <button type="button" className="student-full-activity" onClick={() => onActivity(activity.id)}>

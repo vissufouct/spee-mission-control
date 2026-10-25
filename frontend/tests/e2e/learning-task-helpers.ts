@@ -17,9 +17,10 @@ export async function completeRegistrationLearningTasks(page: Page) {
   await expect(dialog.getByRole('status')).toContainText('Quiz concluído')
   await page.keyboard.press('Escape')
   await page.getByRole('button', { name: 'Submeter evidência: Submeter Declaração de Início de actividade', exact: true }).click()
-  await expect(dialog.getByRole('button', { name: 'Submeter PDF', exact: true })).toBeDisabled()
-  await dialog.getByRole('checkbox').check()
-  await dialog.getByRole('button', { name: 'Submeter PDF', exact: true }).click()
+  await expect(dialog.getByRole('button', { name: 'Confirmar submissão', exact: true })).toBeDisabled()
+  await dialog.getByLabel('Usar o ficheiro de exemplo nesta simulação.').check()
+  await dialog.getByLabel(/Confirmo a submissão/).check()
+  await dialog.getByRole('button', { name: 'Confirmar submissão', exact: true }).click()
   await expect(dialog.getByRole('status')).toContainText('Submetido · PDF')
   await page.keyboard.press('Escape')
 }

@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test'
+import { expect, test } from './legacy-fixture'
 
 test('resumo integrado do bloco em grelha 2 × 2', async ({ page }, info) => {
   await page.setViewportSize({ width: 1440, height: 1000 })

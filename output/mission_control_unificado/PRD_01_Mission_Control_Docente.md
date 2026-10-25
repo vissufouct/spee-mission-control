@@ -4,13 +4,13 @@
 
 ### Realização de tarefas no detalhe da actividade
 
-O popup «Detalhes» apresenta as tarefas da actividade, na ordem do estudante, com contagem concluídas/total, tipo, estado, data disponível, pontuação e consulta de respostas de quizzes, e metadados e ligação para PDFs submetidos. É exclusivamente de leitura: o docente não executa nem conclui tarefas. Submissão não significa aprovação. Preservar os restantes detalhes e resultados.
+O popup «Detalhes» apresenta as tarefas da actividade, na ordem do estudante, com contagem concluídas/total, tipo, estado, data disponível, pontuação e consulta de respostas de quizzes, e metadados e ligação para evidências PDF, DOCX ou XLSX submetidas. É exclusivamente de leitura: o docente não executa nem conclui tarefas. Submissão não significa aprovação. Preservar os restantes detalhes e resultados.
 
-A Horizonte Verde projecta as tarefas efectivas do repository do estudante através da composição, sem importar componentes da outra feature e sem expor conversas privadas. A Maputo Soluções inclui tarefas fictícias para validar a consulta; nas empresas sem dados de tarefas, apresentar um estado vazio explícito, sem inferir realizações a partir do estado da actividade.
+A empresa do exemplo seleccionado (Horizonte Verde ou Nascente Criativa) projecta as tarefas efectivas do repository do estudante através da composição, sem importar componentes da outra feature e sem expor conversas privadas. A Maputo Soluções inclui tarefas fictícias para validar a consulta; nas empresas sem dados de tarefas, apresentar um estado vazio explícito, sem inferir realizações a partir do estado da actividade.
 
 Na vista geral, entre o título e o subtítulo da turma/ano, apresentar um dropdown «Universidade»: Universidade Eduardo Mondlane (inicial), Universidade Pedagógica de Maputo e Universidade Joaquim Chissano. A escolha fica na URL e é preservada ao limpar filtros de turma/estado/prazo. Nesta etapa valida-se a selecção visual; os dados de demonstração ainda são comuns às três opções, sem simular isolamento institucional ou permissões. O shell mantém-se inalterado.
 
-**Versão:** 0.8
+**Versão:** 0.10
 **Data:** 25 de Outubro de 2026
 **Estado:** actualizado após validação funcional com Leila Omar e alinhamento com o design aprovado
 **Depende de:** `PRD_00_Mission_Control_Comum.md`  
@@ -209,3 +209,13 @@ Decisão transversal de 24 de Outubro: o docente recebe apenas o canal de orient
 Retirar as ferramentas e metadados de demonstração do Painel do Docente, incluindo a reposição de cenário no estado de erro. Preservar dados existentes, estados de erro e a acção funcional de actualizar dados. Os avisos de conteúdo ilustrativo não constituem ferramentas de demonstração.
 
 A conversa docente–empresa é visível e respondível por todos os membros dessa empresa, com autoria individual preservada. Não dar acesso ao canal privado do grupo. A definição de participação permanece adiada até à integração com o simulador (DEC-012); não alterar a atribuição de participação com base nas conversas.
+
+## Compatibilidade com o roteiro de 48 tarefas — 25/10/2026
+
+A empresa ligada ao estudante reflecte as actividades, tarefas, respostas, ficheiros e progresso do exemplo activo. Os pedidos/orientações usam as novas actividades na leitura e na escrita; as mensagens de salário do cenário anterior não são associadas a actividades diferentes. As outras empresas de demonstração mantêm os seus percursos. O docente consulta resultados, não executa as tarefas do estudante. Preservar a separação das conversas privadas e o shell.
+
+## Coerência dos blocos com o estudante — 25 de Outubro de 2026
+
+Para a empresa ligada ao exemplo seleccionado, o estado de cada bloco é projectado do mesmo roteiro do estudante. Um bloco com tarefas disponíveis não passa a bloqueado apenas porque outra tarefa está bloqueada. Um bloco futuro sem actividades definidas apresenta «Brevemente» e uma explicação do estado vazio, sem sugerir tarefas executáveis. A agregação das restantes empresas de demonstração mantém o comportamento existente.
+
+O teste no browser confirmou a passagem da constituição de 4/7 para 7/7 tarefas e a consulta no docente do quiz, da pontuação e da evidência submetida, sem expor conversas privadas. Ver `output/roteiro-qa/usabilidade-2026-10-25/RELATORIO.md`.

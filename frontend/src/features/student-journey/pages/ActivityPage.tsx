@@ -27,7 +27,7 @@ export function ActivityPage() {
   const next = getNextAction(activity, snapshot)
   const selectedTask = getLearningTasks(activity, snapshot).find(task => task.id === taskId)
   const openTask = (task: LearningTask) => {
-    if (task.kind === 'operation' && activity.id === 'registar-empresa' && task.status !== 'blocked') {
+    if (task.kind === 'operation' && activity.id === 'registar-empresa' && (!snapshot.context.roadmapVersion || task.id === 'b03-a01-t05') && task.status !== 'blocked') {
       navigate(journeyPaths.registration)
     } else { mutation.reset(); setTaskId(task.id) }
   }
@@ -40,6 +40,6 @@ export function ActivityPage() {
         <ConversationPanel hideTrigger key={activity.id + location.key + params.get('canal')} snapshot={snapshot} activityId={activity.id} initialOpen={params.has('canal')} initialChannel={params.get('canal') === 'group' ? 'group' : 'teacher'} />
     </div>
     <ActivityDialog onTask={openTask} embedded activity={activity} snapshot={snapshot} onClose={() => navigate(journeyPaths.home)} onContinue={() => navigate(journeyPaths.registration)} onActivity={id => navigate(journeyPaths.activity(id), { preventScrollReset: true })} />
-    {selectedTask && <LearningTaskDialog key={activity.id + selectedTask.id} task={selectedTask} reason={activity.reason} pending={mutation.isPending} error={mutation.error?.message} onClose={() => setTaskId(null)} onComplete={answers => mutation.mutate({ type: 'learning-task', activityId: activity.id, taskId: selectedTask.id, answers, revision: snapshot.revision })} />}
+    {selectedTask && <LearningTaskDialog key={activity.id + selectedTask.id} task={selectedTask} reason={snapshot.context.roadmapVersion ? selectedTask.description : activity.reason} pending={mutation.isPending} error={mutation.error?.message} onClose={() => setTaskId(null)} onComplete={(answers, file) => mutation.mutate({ type: 'learning-task', activityId: activity.id, taskId: selectedTask.id, answers, file, revision: snapshot.revision })} />}
   </div>
 }

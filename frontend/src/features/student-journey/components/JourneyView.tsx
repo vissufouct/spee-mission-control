@@ -11,13 +11,14 @@ export function JourneyView({ snapshot, filter, onFilter, onOpen, blockId, onBlo
 }) {
   const current = snapshot.blocks.find(block => block.id === blockId) ?? getCurrentBlock(snapshot)
   const summary = getBlockSummary(snapshot, current.id)
+  const upcoming = !summary.total && current.state === 'unavailable'
   const index = snapshot.blocks.indexOf(current)
   const previous = snapshot.blocks[index - 1]
   const next = snapshot.blocks[index + 1]
   return <div className="space-y-5">
     <nav className="spee-panel flex flex-wrap items-center justify-between gap-4 p-4 text-sm" aria-label="Blocos do percurso">
       <button disabled={!previous} onClick={() => previous && onBlock?.(previous.id)} className="flex items-center gap-2 disabled:opacity-40"><ChevronLeft size={20} />{previous?.title ?? 'Início do percurso'}</button>
-      <span><strong>{current.title}</strong> <StatusBadge status={current.state} /><span className="block text-xs">{current.id === snapshot.context.currentBlockId ? 'Bloco actual' : `Bloco em consulta · actual: ${getCurrentBlock(snapshot).title}`}</span></span>
+      <span><strong>{current.title}</strong> {upcoming ? <span className="text-slate-500">Brevemente</span> : <StatusBadge status={current.state} />}<span className="block text-xs">{current.id === snapshot.context.currentBlockId ? 'Bloco actual' : `Bloco em consulta · actual: ${getCurrentBlock(snapshot).title}`}</span></span>
       <button disabled={current.id === snapshot.context.currentBlockId} onClick={() => onBlock?.(snapshot.context.currentBlockId)} className="text-blue-700 disabled:opacity-40">Voltar para o bloco actual</button>
       <button disabled={!next} onClick={() => next && onBlock?.(next.id)} className="flex items-center gap-2 disabled:opacity-40">{next?.title ?? 'Fim do percurso'}<ChevronRight size={20} /></button>
     </nav>
@@ -28,12 +29,12 @@ export function JourneyView({ snapshot, filter, onFilter, onOpen, blockId, onBlo
           <div className="student-block-overview">
           <div className="student-block-progress flex items-center gap-5"><span className="grid size-16 shrink-0 place-items-center rounded-full bg-blue-50 text-blue-600"><Layers3 size={36} strokeWidth={1.7} /></span><div className="min-w-0 flex-1">
             <h2 className="text-3xl font-semibold tracking-tight">{current.title}</h2>
-            <p className="my-2 text-sm">{summary.completed} de {summary.total} actividades concluídas</p>
-            <BlockProgressBar activities={current.activities.map(activity => ({ id: activity.id, title: activity.title, status: getActivityStatus(activity, snapshot) }))} />
+            <p className="my-2 text-sm">{summary.total ? `${summary.completed} de ${summary.total} actividades concluídas` : current.description}</p>
+            {!!summary.total && <BlockProgressBar activities={current.activities.map(activity => ({ id: activity.id, title: activity.title, status: getActivityStatus(activity, snapshot) }))} />}
           </div></div>
-          <BlockSummary snapshot={snapshot} blockId={current.id} />
+          {!!summary.total && <BlockSummary snapshot={snapshot} blockId={current.id} />}
           </div>
-        <ActivityList activities={current.activities} snapshot={snapshot} filter={filter} onFilter={onFilter} onOpen={onOpen} />
+        {!upcoming && <ActivityList activities={current.activities} snapshot={snapshot} filter={filter} onFilter={onFilter} onOpen={onOpen} />}
         </section>
       </div>
     </div>

@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test'
+import { expect, test } from './legacy-fixture'
 import { completeRegistrationLearningTasks } from './learning-task-helpers'
 
 test('tarefas, quiz e materiais persistem sem conclusão por simples abertura', async ({ page }, info) => {

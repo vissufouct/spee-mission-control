@@ -1,6 +1,7 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import { useJourneyRepository } from './JourneyProvider'
 import type { RegistrationValues } from '../types'
+import type { EvidenceFile } from '../services/JourneyRepository'
 
 const queryKey = ['student-journey'] as const
 export function useJourney() {
@@ -8,7 +9,7 @@ export function useJourney() {
   return useQuery({ queryKey, queryFn: () => repository.getSnapshot(), retry: false })
 }
 type Command =
-  | { type: 'learning-task'; activityId: string; taskId: string; answers?: Record<string, number>; revision: number }
+  | { type: 'learning-task'; activityId: string; taskId: string; answers?: Record<string, number>; revision: number; file?: EvidenceFile }
   | { type: 'group-message'; activityId: string; message: string; assignee: string | null; revision: number }
   | { type: 'complete-task' | 'resolve-notification'; id: string; revision: number }
   | { type: 'save'; values: RegistrationValues; revision: number; create: boolean }
@@ -21,7 +22,7 @@ export function useJourneyMutation() {
   return useMutation({
     mutationFn: (command: Command) => {
       switch (command.type) {
-        case 'learning-task': return repository.completeLearningTask(command.activityId, command.taskId, command.answers, command.revision)
+        case 'learning-task': return repository.completeLearningTask(command.activityId, command.taskId, command.answers, command.revision, command.file)
         case 'group-message': return repository.sendGroupMessage(command.activityId, command.message, command.assignee, command.revision)
         case 'complete-task': return repository.completeTask(command.id, command.revision)
         case 'resolve-notification': return repository.resolveNotification(command.id, command.revision)
