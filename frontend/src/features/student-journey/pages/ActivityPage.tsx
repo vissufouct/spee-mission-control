@@ -39,7 +39,7 @@ export function ActivityPage() {
     <div>
         <ConversationPanel hideTrigger key={activity.id + location.key + params.get('canal')} snapshot={snapshot} activityId={activity.id} initialOpen={params.has('canal')} initialChannel={params.get('canal') === 'group' ? 'group' : 'teacher'} />
     </div>
-    <ActivityDialog onTask={openTask} embedded activity={activity} snapshot={snapshot} onClose={() => navigate(journeyPaths.home)} onContinue={() => navigate(journeyPaths.registration)} onActivity={id => navigate(journeyPaths.activity(id), { preventScrollReset: true })} />
+    <ActivityDialog onTask={openTask} embedded activity={activity} snapshot={snapshot} onClose={() => navigate(journeyPaths.home)} onContinue={() => navigate(journeyPaths.registration)} onBlock={id => navigate(journeyPaths.home + '?bloco=' + encodeURIComponent(id))} />
     {selectedTask && <LearningTaskDialog key={activity.id + selectedTask.id} task={selectedTask} reason={snapshot.context.roadmapVersion ? selectedTask.description : activity.reason} pending={mutation.isPending} error={mutation.error?.message} onClose={() => setTaskId(null)} onComplete={(answers, file) => mutation.mutate({ type: 'learning-task', activityId: activity.id, taskId: selectedTask.id, answers, file, revision: snapshot.revision })} />}
   </div>
 }

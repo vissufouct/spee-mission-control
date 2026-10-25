@@ -25,3 +25,18 @@ Data: 25/10/2026. Âmbito: `social-hub` e `student-journey`; PRD comum v0.19 e P
 ![Pesquisa de convidados com selecções preservadas](pesquisa-grupo.png)
 
 ![Pesquisa de destinatário privado por nome e turma](pesquisa-privada.png)
+
+## Correcção após esclarecimento — blocos do roteiro
+
+O utilizador confirmou que os três cartões representam **blocos**, substituindo a interpretação de actividades adjacentes descrita acima. PRD comum actualizado para v0.20 e PRD do estudante para v0.17.
+
+- Em «Constituição legal da empresa»: Ideação → Criação de empresas → Início de actividades. O bloco seleccionado é o da actividade aberta; consultar uma actividade concluída da ideação centra o contexto em Ideação, mesmo quando a empresa já está em Criação de empresas.
+- Cada bloco apresenta descrição, estado agregado, contagem de actividades concluídas e barra segmentada. O nome abre o resumo do bloco. O central preserva a síntese da actividade seleccionada, a contagem das suas tarefas e os participantes.
+- Primeiro/último bloco conservam três posições com mensagem na posição sem vizinho. O bloco futuro vazio é apresentado como «Brevemente», sem progresso fictício.
+- Nenhuma alteração aos fixtures, repositories, progresso, menu, header ou footer.
+
+Verificação desta correcção: TypeScript, lint, fronteiras e 87 testes unitários aprovados; builds da aplicação e Storybook aprovados; 17 testes de fluxos relevantes e um teste adicional de independência do shell aprovados. Cobrem os dois exemplos, primeira actividade, bloco futuro, navegação e persistência do progresso, tarefas/materiais, participantes, notificações e largura de 390 px. Mantém-se o aviso de tamanho de bundle já existente.
+
+Validação por interacção no browser local: abrir constituição legal, entrar no bloco Ideação e abrir «Encontrar uma ideia de negócio». O contexto acompanha a selecção e mantém os registos existentes (8/15 actividades no cenário pessoal utilizado, sem reposição para o fixture inicial).
+
+![Três blocos do roteiro, em componente isolado do AppShell](contexto-blocos-sem-shell.png)

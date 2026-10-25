@@ -4,7 +4,7 @@
 
 As designações oficiais são **Painel do Docente** e **Painel do Estudante**, sem acento em «Painel». Usar estes termos na entrada, introduções, títulos, navegação, mensagens e documentação corrente. Conservar identificadores técnicos, nomes de ficheiros e URLs existentes para manter a compatibilidade; esta decisão altera a terminologia apresentada ao utilizador.
 
-**Versão:** 0.19
+**Versão:** 0.20
 **Data:** 25 de Outubro de 2026
 **Estado:** rascunho consolidado para validação  
 **Produto:** Painéis SPEE
@@ -41,8 +41,9 @@ O Painel do Estudante inclui um hub social independente das orientações do doc
 - No hub social, pesquisar participantes por nome e turma, sem distinguir maiúsculas ou acentos, tanto ao criar grupos como ao iniciar mensagens privadas. Lista com altura limitada e deslocamento interno; mostrar total de resultados e estado sem resultados. Excluir o próprio utilizador.
 - A selecção múltipla de convidados mantém-se ao mudar a pesquisa e permite retirar cada selecção. Escolher um destinatário privado abre ou reutiliza a conversa existente. Só a confirmação do grupo emite convites; pesquisar não envia mensagens nem aceita convites.
 - Uniformizar o painel e o popup como **Notificações de actividades**, preservando canais, contadores e resolução por destinatário. O hub social conserva a sua identidade separada.
-- «Esta actividade em contexto» apresenta sempre três cartões: actividade anterior, actividade actual seleccionada e próxima actividade, pela ordem publicada do roteiro. A actual é a que está aberta, mesmo que já esteja concluída ou pertença a outro bloco. Nas extremidades, manter o cartão com indicação de início/fim e sem ligação. Não inventar actividades para blocos futuros vazios.
-- Estes cartões são navegação sequencial, não relações de dependência: não usar «Desbloqueia» nem alterar precedências ou estados por posição. Manter nomes de bloco, estados, contagens de tarefas e participantes de cada actividade; acções de execução permanecem nas tarefas. Esta regra substitui a omissão de cartões sem relações definida anteriormente.
+- Esclarecimento explícito do utilizador: «Esta actividade em contexto» apresenta três cartões de **blocos do roteiro** — anterior, seleccionado e seguinte — pela ordem publicada. O seleccionado é o bloco a que pertence a actividade aberta, mesmo quando é diferente do bloco em curso da empresa. Esta decisão substitui a interpretação anterior de três actividades adjacentes. Exemplo: «Ideação → Criação de empresas → Início de actividades».
+- Cada cartão mostra título, descrição, estado e contagem de actividades concluídas do bloco, com barra segmentada por actividade. O nome abre o resumo desse bloco em «Meu Percurso», sem modificar o bloco em curso ou o progresso. O cartão seleccionado conserva uma síntese da actividade aberta, com estado, X de Y tarefas e participantes. As acções de execução permanecem nas tarefas.
+- Manter três posições nas extremidades, indicando início/fim e sem ligação quando não existir bloco adjacente. Um bloco futuro vazio existe no roteiro e deve aparecer como «Brevemente», sem barra nem conclusão fictícia; não conta para o progresso. Os cartões representam posição no roteiro, não relações de dependência: não usar «Desbloqueia» nem alterar precedências pela posição.
 
 ### Exemplos e contagens de tarefas — 25 de Outubro
 
@@ -224,7 +225,7 @@ Padrão comum para as duas perspectivas, sem uniformizar os seus fluxos:
 
 - Preservar as cores institucionais: azul de acção `#087EFF` (variante de contraste `#076DD7`), ciano, branco e cinzentos claros. Sem modo escuro ou mudança de identidade.
 - Conteúdo em superfícies brancas, contornos azul-cinza claros (`#DCE7F3`), cantos de aproximadamente 8–10 px, sombras mínimas e hierarquia tipográfica sans-serif. Manter a fonte disponível no projecto, sem depender de fontes remotas.
-- Cartões de contexto com fundo muito claro; actividade actual destacada com traço azul superior. Estados acompanhados por texto e ícone: verde para Concluído, âmbar para Em curso, ciano para Por iniciar e cinzento para Bloqueado.
+- Cartões de contexto com fundo muito claro; bloco seleccionado destacado com traço azul superior. Estados acompanhados por texto e ícone: verde para Concluído, âmbar para Em curso, ciano para Por iniciar e cinzento para Bloqueado.
 - Ícones lineares de apoio, acções secundárias de contorno e acção principal azul. Os participantes permanecem no cartão da actividade a que pertencem: apenas nomes e ícone de informação; contribuições em tooltip por hover, clique ou foco. Remover etiquetas «Dados simulados» dos cartões, mantendo uma nota discreta de proveniência do protótipo.
 - Checklist com divisórias suaves e badges de estado. Materiais de apoio mantêm-se expansíveis, com ícone e contagem por formato.
 - Os fixtures devem incluir participantes e contribuições fictícias contextualizadas nas actividades concluídas ou em curso onde fizer sentido. Evitar cartões vazios por falta de exemplos; não confundir esses exemplos com evidência real nem atribuir trabalho realizado a actividades ainda não iniciadas. Preservar a nota de proveniência.
@@ -260,7 +261,7 @@ As seis anotações posteriores à aprovação visual prevalecem sobre os detalh
 - Remover etiquetas «Dados simulados» repetidas; a nota de proveniência mantém clara a natureza ilustrativa dos dados, sem sugerir participação real confirmada.
 - Estado e critérios juntos em cada cartão: «Em curso (1 de 3)», «Concluído (2 de 2)». Os números resultam dos critérios existentes; não inventar contagens quando não há critérios definidos nem inferir conclusão pela navegação.
 - Retirar o estado e a frase de contagem redundantes acima dos cartões.
-- Cabeçalho da actividade: «Registar empresa | Próxima actividade: <designação> <acção>». Mostrar apenas quando existe um passo ainda não confirmado do checklist actual e a actividade não está concluída nem bloqueada. No cenário inicial: «Submeter o formulário de registo», com acção para continuar no formulário. Após conclusão, ocultar todo o bloco, sem o substituir por uma actividade sucessora. As sucessoras permanecem nos cartões de contexto. Sem passo pendente definido, omitir igualmente o segmento. Substitui a descrição isolada acima do contexto, sem apagar a descrição nos dados. O cabeçalho e o checklist usam a mesma fonte de confirmação; clicar não altera progresso.
+- Cabeçalho da actividade: «Registar empresa | Próxima actividade: <designação> <acção>». Mostrar apenas quando existe um passo ainda não confirmado do checklist actual e a actividade não está concluída nem bloqueada. No cenário inicial: «Submeter o formulário de registo», com acção para continuar no formulário. Após conclusão, ocultar todo o bloco, sem o substituir por uma actividade sucessora. Os blocos adjacentes permanecem acessíveis nos cartões de contexto. Sem passo pendente definido, omitir igualmente o segmento. Substitui a descrição isolada acima do contexto, sem apagar a descrição nos dados. O cabeçalho e o checklist usam a mesma fonte de confirmação; clicar não altera progresso.
 
 ## 10. Requisitos não funcionais
 
