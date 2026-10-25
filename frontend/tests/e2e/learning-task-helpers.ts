@@ -1,0 +1,25 @@
+import { expect, type Page } from '@playwright/test'
+
+export async function completeRegistrationLearningTasks(page: Page) {
+  await page.goto('/estudante/percurso/actividades/registar-empresa')
+  await page.getByRole('button', { name: 'Ler PDF: Consultar o guia de constituição', exact: true }).click()
+  let dialog = page.getByRole('dialog')
+  await dialog.getByRole('checkbox').check()
+  await dialog.getByRole('button', { name: 'Confirmar conclusão da tarefa' }).click()
+  await expect(dialog.getByRole('status')).toHaveText('Tarefa concluída.')
+  await page.keyboard.press('Escape')
+  await page.getByRole('button', { name: 'Responder ao quiz: Pré-quiz de registo da empresa' }).click()
+  dialog = page.getByRole('dialog')
+  await dialog.getByLabel('9 algarismos', { exact: true }).check()
+  await dialog.getByLabel('Um valor positivo correspondente ao capital da empresa', { exact: true }).check()
+  await dialog.getByLabel('A confirmação da operação e o comprovativo gerado', { exact: true }).check()
+  await dialog.getByRole('button', { name: 'Validar respostas' }).click()
+  await expect(dialog.getByRole('status')).toContainText('Quiz concluído')
+  await page.keyboard.press('Escape')
+  await page.getByRole('button', { name: 'Submeter evidência: Submeter Declaração de Início de actividade', exact: true }).click()
+  await expect(dialog.getByRole('button', { name: 'Submeter PDF', exact: true })).toBeDisabled()
+  await dialog.getByRole('checkbox').check()
+  await dialog.getByRole('button', { name: 'Submeter PDF', exact: true }).click()
+  await expect(dialog.getByRole('status')).toContainText('Submetido · PDF')
+  await page.keyboard.press('Escape')
+}

@@ -19,11 +19,24 @@ export const supportMaterialSchema = z.object({
   format: z.enum(['pdf', 'excel', 'word', 'video', 'url']),
   href: z.string().regex(/^(https:\/\/[^\s]+|apoio\/[a-z0-9-]+\.html)$/).optional(),
 })
+export const learningTaskSchema = z.object({
+  id: z.string().min(1), title: z.string().min(1),
+  kind: z.enum(['operation', 'quiz', 'video', 'pdf', 'url', 'evidence']),
+  status: z.enum(['completed', 'in-progress', 'not-started', 'blocked']),
+  description: z.string(), required: z.boolean().default(true),
+  resource: z.string().regex(/^apoio\/[a-z0-9-]+\.(html|pdf|mp4)$/).optional(),
+  questions: z.array(z.object({ id: z.string(), prompt: z.string(), options: z.array(z.string()).min(2), correct: z.number().int().nonnegative() })).optional(),
+  answers: z.record(z.string(), z.number().int().nonnegative()).optional(),
+  quizMode: z.enum(['mastery', 'diagnostic']).optional(),
+  submission: z.object({ fileName: z.string().min(1), submittedBy: z.string().min(1), submittedAt: z.iso.datetime() }).optional(),
+  completedAt: z.iso.datetime().optional(),
+})
 export const activitySchema = z.object({
   id: z.string().min(1), title: z.string().min(1), description: z.string(),
   status: activityStatusSchema, reason: z.string().optional(),
   definitionOfDone: z.string().optional(),
   steps: z.array(z.string().min(1)).optional(),
+  tasks: z.array(learningTaskSchema).optional(),
   previousIds: z.array(z.string()).optional(), nextIds: z.array(z.string()).optional(),
   materials: z.array(supportMaterialSchema).optional(),
   simulatedParticipants: z.array(z.object({ name: z.string().min(1), contribution: z.string().min(1) })).optional(),
@@ -51,10 +64,18 @@ export const journeySnapshotSchema = z.object({
   }).nullable(),
   events: z.array(z.object({
     id: z.string(), type: z.string(), message: z.string(), actor: z.string(), occurredAt: z.iso.datetime(),
+    activityId: z.string().optional(), activityStatus: activityStatusSchema.optional(),
   })),
 }).superRefine((value, ctx) => {
   const ids = value.blocks.flatMap(block => block.activities.map(activity => activity.id))
   for (const activity of value.blocks.flatMap(block => block.activities)) {
+    const tasks = activity.tasks ?? []
+    if (tasks.some(task => task.kind === 'evidence' && task.status === 'completed' && (!task.submission || !task.resource?.endsWith('.pdf'))))
+      ctx.addIssue({ code: 'custom', message: 'Uma evidência submetida exige PDF e metadados de submissão.' })
+    if (new Set(tasks.map(task => task.id)).size !== tasks.length || tasks.some(task =>
+      (task.kind === 'quiz' && (!task.questions?.length || new Set(task.questions.map(q => q.id)).size !== task.questions.length || task.questions.some(q => q.correct >= q.options.length))) ||
+      (['video', 'pdf', 'url'].includes(task.kind) && !task.resource)))
+      ctx.addIssue({ code: 'custom', message: 'Definição de tarefa inválida.' })
     if ([...(activity.previousIds ?? []), ...(activity.nextIds ?? [])].some(id => !ids.includes(id) || id === activity.id))
       ctx.addIssue({ code: 'custom', message: 'Ligação de actividade inválida.' })
   }

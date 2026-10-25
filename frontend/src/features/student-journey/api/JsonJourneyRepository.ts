@@ -1,6 +1,8 @@
 import { draftSchema, journeySnapshotSchema, registrationSchema } from '../schemas/journey.schema'
 import type { JourneyRepository } from '../services/JourneyRepository'
 import type { JourneySnapshot, RegistrationValues } from '../types'
+import { getLearningTasks, quizPassed } from '../services/learning-tasks'
+import { getActivityStatus } from '../services/journey.selectors'
 
 export interface JsonStorage {
   getItem(key: string): string | null
@@ -23,6 +25,14 @@ export class JsonJourneyRepository implements JourneyRepository {
         const initial = this.seed.blocks.flatMap(b => b.activities).find(a => a.id === activity.id)
         if (initial) {
           activity.steps ??= structuredClone(initial.steps)
+          activity.tasks ??= structuredClone(initial.tasks)
+          // Add the two approved Ideation examples without replacing existing answers or submissions.
+          if (['definir-ideia', 'registar-empresa'].includes(activity.id) && activity.tasks) {
+            for (const task of initial.tasks ?? []) if (['entrepreneur-diagnostic', 'audit-report-1', 'registration-declaration'].includes(task.id) && !activity.tasks.some(existing => existing.id === task.id)) activity.tasks.push(structuredClone(task))
+            const first = activity.id === 'definir-ideia' ? 'entrepreneur-diagnostic' : 'registration-quiz'
+            const rank = (id: string) => id === first ? -1 : id === 'registration-declaration' ? 1 : 0
+            activity.tasks.sort((a, b) => rank(a.id) - rank(b.id))
+          }
           activity.simulatedParticipants ??= structuredClone(initial.simulatedParticipants)
           activity.materials ??= structuredClone(initial.materials)
           activity.previousIds ??= structuredClone(initial.previousIds)
@@ -35,6 +45,26 @@ export class JsonJourneyRepository implements JourneyRepository {
     }
   }
   async getSnapshot() { return this.read() }
+  async completeLearningTask(activityId: string, taskId: string, answers: Record<string, number> | undefined, revision: number) {
+    return this.commit(revision, current => {
+      const activity = current.blocks.flatMap(block => block.activities).find(item => item.id === activityId)
+      const task = activity?.tasks?.find(item => item.id === taskId)
+      if (!activity || !task) throw new Error('Tarefa inexistente.')
+      if (task.kind === 'operation' && activity.id === 'registar-empresa') throw new Error('Esta tarefa exige confirmação no módulo da operação.')
+      if (getLearningTasks(activity, current).find(item => item.id === taskId)?.status === 'blocked') throw new Error('A tarefa está bloqueada.')
+      if (task.status === 'completed') return
+      if (task.kind === 'evidence') {
+        if (!task.resource?.endsWith('.pdf')) throw new Error('Não existe um PDF preparado para esta submissão.')
+        task.submission = { fileName: task.resource.split('/').at(-1)!, submittedBy: current.context.studentName, submittedAt: new Date().toISOString() }
+      }
+      if (task.kind === 'quiz' && !quizPassed(task, answers ?? {})) throw new Error('Reveja as respostas: é necessário acertar todas as perguntas. Pode tentar novamente.')
+      task.status = 'completed'
+      task.completedAt = new Date().toISOString()
+      if (task.kind === 'quiz') task.answers = answers
+      this.event(current, 'learning-task.completed', `${activity.title}: ${task.title} — conclusão confirmada.`)
+      Object.assign(current.events.at(-1)!, { activityId, activityStatus: getActivityStatus(activity, current) })
+    })
+  }
   async sendGroupMessage(activityId: string, message: string, assignee: string | null, revision: number) {
     return this.commit(revision, current => {
       if (!current.blocks.some(b => b.activities.some(a => a.id === activityId))) throw new Error('Actividade inexistente.')
@@ -116,6 +146,8 @@ export class JsonJourneyRepository implements JourneyRepository {
       current.registration.receiptNumber = 'REG-' + new Date().getUTCFullYear() + '-' + current.registration.id.slice(0, 8).toUpperCase()
       current.registration.updatedAt = new Date().toISOString()
       this.event(current, 'registration.confirmed', 'Registo confirmado e comprovativo de constituição gerado na simulação local.')
+      const activity = current.blocks.flatMap(block => block.activities).find(item => item.id === 'registar-empresa')!
+      Object.assign(current.events.at(-1)!, { activityId: activity.id, activityStatus: getActivityStatus(activity, current) })
     })
   }
   async importSnapshot(json: string, expectedRevision: number) {

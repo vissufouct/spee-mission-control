@@ -1,11 +1,31 @@
 # PRD do Mission Control — núcleo comum
 
-**Versão:** 0.13
-**Data:** 24 de Outubro de 2026
+**Versão:** 0.15
+**Data:** 25 de Outubro de 2026
 **Estado:** rascunho consolidado para validação  
 **Produto:** SPEE Mission Control  
 
+## Decisão de 25 de Outubro — actividades e tarefas
+
+Esta decisão prevalece sobre referências anteriores a critérios/passos executáveis e a botões «Iniciar/Continuar actividade» no estudante. A hierarquia passa a ser **Bloco → Actividade → Tarefas**. «Registar empresa» é uma actividade; preencher dados, submeter o formulário, gerar documentos, consultar um material e responder a um quiz são tarefas.
+
+- Cada tarefa tem identificador estável, tipo, estado e acção própria. Tipos nesta experiência: operação, quiz, vídeo, PDF, página Web e submissão de evidência. As tarefas de aprendizagem são distintas das tarefas atribuídas nas conversas, cujo regime Por fazer/Feito permanece intacto.
+- O estudante executa acções nas linhas das tarefas. Os cartões de contexto deixam de ter botões de execução; a navegação por nome continua disponível. As listas de actividades oferecem «Ver tarefas». Estado e contagem da actividade são agregados de leitura, não uma operação autónoma.
+- A actividade só fica concluída quando todas as suas tarefas obrigatórias estão concluídas. O progresso global mantém como denominador as actividades, sem contar tarefas como actividades adicionais.
+- Abrir popups não confirma resultados. Operações de registo dependem da evidência do formulário; operações genéricas são explicitamente simuladas. Quiz exige validação de respostas; materiais exigem confirmação expressa de consulta. No vídeo, a confirmação fica disponível no final da reprodução.
+- Quiz em popup, respostas obrigatórias, feedback de erro e nova tentativa; o pré-quiz exige todas as respostas correctas; o diagnóstico exige respostas completas e apresenta a pontuação, mesmo inferior a 100%. Guardar respostas correctas e data de conclusão. O modelo definitivo de avaliação será validado na integração.
+- Materiais obrigatórios pertencem às tarefas; materiais complementares continuam no grupo «Materiais de apoio». PDF e páginas têm visualização no popup e abertura alternativa noutro separador; vídeo usa controlos nativos e transcrição no texto da tarefa.
+- Persistir tarefas, respostas e eventos via repository, com revisão e tratamento de erros. Ao ler cenários antigos sem tarefas, acrescentar as definições dos fixtures sem apagar registos, mensagens ou histórico. Um registo já confirmado continua confirmado, mas a actividade pode passar a Em curso enquanto faltarem as novas tarefas obrigatórias de PDF/quiz; não inventar a conclusão desses requisitos.
+- A projecção para o docente consome o agregado actual. O comprovativo de registo pode estar disponível mesmo quando a actividade ainda aguarda outras tarefas. Não expor conversas privadas nesta projecção.
+- Preservar cores, menu lateral, header e footer. Não criar backend ou dependências externas para executar os exemplos.
+
 ## 1. Finalidade
+
+### Exemplos e contagens de tarefas — 25 de Outubro
+
+«Ver tarefas» apresenta um badge X de Y (concluídas/total). Em «Definir a ideia de negócio», o diagnóstico é a primeira tarefa, já respondida com 4/5 (80%); a evidência «Relatório de auditoria 1» é uma tarefa já submetida em PDF. Em «Registar empresa», o pré-quiz passa para primeiro e «Submeter Declaração de Início de actividade» é a sexta e última tarefa, inicialmente Por iniciar. A ordem de apresentação não cria precedências implícitas.
+
+Evidências guardam ficheiro, autor e data; submetido não equivale a aprovado. Nesta experiência, a submissão pendente usa um PDF local preparado, com consulta e confirmação explícita; não inclui upload de ficheiros pessoais nem envio a entidades oficiais. Preservar respostas e submissões ao actualizar exemplos nos cenários existentes.
 
 Este PRD descreve o núcleo partilhado de dados, comportamento e linguagem visual: modelo de dados, estados, progresso, eventos, auditoria, permissões, sincronização e padrões transversais. A linguagem visual comum não define uma interface única nem funde os protótipos.
 

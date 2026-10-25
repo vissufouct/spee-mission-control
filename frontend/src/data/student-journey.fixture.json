@@ -44,8 +44,14 @@
         {
           "id": "definir-ideia",
           "simulatedParticipants": [
-            { "name": "Ana Machava", "contribution": "Identificação da oportunidade de negócio e das necessidades dos clientes." },
-            { "name": "António Sitoe", "contribution": "Pesquisa de alternativas no mercado e caracterização do público-alvo." }
+            {
+              "name": "Ana Machava",
+              "contribution": "Identificação da oportunidade de negócio e das necessidades dos clientes."
+            },
+            {
+              "name": "António Sitoe",
+              "contribution": "Pesquisa de alternativas no mercado e caracterização do público-alvo."
+            }
           ],
           "title": "Definir a ideia de negócio",
           "description": "Identificar uma oportunidade e o público-alvo.",
@@ -53,13 +59,113 @@
           "steps": [
             "Identificar uma oportunidade e o público-alvo."
           ],
-          "materials": []
+          "materials": [],
+          "tasks": [
+            {
+              "id": "entrepreneur-diagnostic",
+              "title": "Diagnóstico do empreendedor",
+              "kind": "quiz",
+              "quizMode": "diagnostic",
+              "status": "completed",
+              "description": "Diagnóstico simulado de conhecimentos sobre a preparação de uma ideia de negócio, já respondido por Ana Machava.",
+              "required": true,
+              "completedAt": "2026-10-21T08:30:00.000Z",
+              "questions": [
+                {
+                  "id": "client",
+                  "prompt": "Qual é o primeiro passo para compreender uma oportunidade?",
+                  "options": [
+                    "Identificar uma necessidade concreta dos clientes",
+                    "Escolher imediatamente um logótipo",
+                    "Comprar equipamento antes de pesquisar"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "id": "validation",
+                  "prompt": "Como pode validar uma ideia com baixo investimento?",
+                  "options": [
+                    "Assumir que todos vão comprar",
+                    "Conversar com potenciais clientes e testar um protótipo",
+                    "Esperar que um concorrente decida"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": "value",
+                  "prompt": "O que deve explicar a proposta de valor?",
+                  "options": [
+                    "Apenas o nome da empresa",
+                    "Só a cor da marca",
+                    "O benefício que resolve um problema do cliente"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": "risk",
+                  "prompt": "Como deve tratar os riscos da ideia?",
+                  "options": [
+                    "Ignorá-los até haver problemas",
+                    "Identificar hipóteses e testar as mais incertas",
+                    "Evitar qualquer feedback"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": "cost",
+                  "prompt": "O que deve considerar para estimar a viabilidade?",
+                  "options": [
+                    "Custos, receitas esperadas e recursos necessários",
+                    "Apenas as vendas do melhor mês",
+                    "Só o número de seguidores"
+                  ],
+                  "correct": 0
+                }
+              ],
+              "answers": {
+                "client": 0,
+                "validation": 1,
+                "value": 2,
+                "risk": 0,
+                "cost": 0
+              }
+            },
+            {
+              "id": "definir-ideia-0",
+              "title": "Identificar uma oportunidade e o público-alvo.",
+              "kind": "operation",
+              "status": "completed",
+              "description": "Identificar uma oportunidade e o público-alvo.",
+              "required": true
+            },
+            {
+              "id": "audit-report-1",
+              "title": "Relatório de auditoria 1",
+              "kind": "evidence",
+              "status": "completed",
+              "description": "Evidência da revisão inicial da ideia de negócio, já submetida em PDF no cenário de demonstração.",
+              "required": true,
+              "resource": "apoio/relatorio-auditoria-1.pdf",
+              "completedAt": "2026-10-21T09:15:00.000Z",
+              "submission": {
+                "fileName": "relatorio-auditoria-1.pdf",
+                "submittedBy": "Ana Machava",
+                "submittedAt": "2026-10-21T09:15:00.000Z"
+              }
+            }
+          ]
         },
         {
           "id": "modelo-negocio",
           "simulatedParticipants": [
-            { "name": "Ana Machava", "contribution": "Definição da proposta de valor e dos canais de relacionamento com os clientes." },
-            { "name": "João Tembe", "contribution": "Preparação da estrutura de custos e das fontes de receita do modelo de negócio." }
+            {
+              "name": "Ana Machava",
+              "contribution": "Definição da proposta de valor e dos canais de relacionamento com os clientes."
+            },
+            {
+              "name": "João Tembe",
+              "contribution": "Preparação da estrutura de custos e das fontes de receita do modelo de negócio."
+            }
           ],
           "title": "Preparar o modelo de negócio",
           "description": "Descrever a proposta de valor da empresa.",
@@ -67,7 +173,26 @@
           "steps": [
             "Descrever a proposta de valor da empresa."
           ],
-          "materials": []
+          "materials": [],
+          "tasks": [
+            {
+              "id": "modelo-negocio-0",
+              "title": "Descrever a proposta de valor da empresa.",
+              "kind": "operation",
+              "status": "completed",
+              "description": "Descrever a proposta de valor da empresa.",
+              "required": true
+            },
+            {
+              "id": "modelo-guia",
+              "title": "Consultar o guia da proposta de valor",
+              "kind": "url",
+              "status": "completed",
+              "description": "Reveja o público-alvo, o problema e a proposta de valor. Consulta já confirmada no cenário inicial.",
+              "required": true,
+              "resource": "apoio/proposta-valor.html"
+            }
+          ]
         }
       ]
     },
@@ -80,8 +205,14 @@
         {
           "id": "reserva-nome",
           "simulatedParticipants": [
-            { "name": "João Tembe", "contribution": "Pesquisa da disponibilidade da denominação Horizonte Verde e preparação do pedido de reserva." },
-            { "name": "António Sitoe", "contribution": "Conferência da denominação e arquivo do comprovativo de reserva do nome." }
+            {
+              "name": "João Tembe",
+              "contribution": "Pesquisa da disponibilidade da denominação Horizonte Verde e preparação do pedido de reserva."
+            },
+            {
+              "name": "António Sitoe",
+              "contribution": "Conferência da denominação e arquivo do comprovativo de reserva do nome."
+            }
           ],
           "title": "Reserva do nome",
           "description": "Verificar e reservar o nome da empresa.",
@@ -102,14 +233,49 @@
               "format": "url",
               "href": "apoio/reserva-nome.html"
             }
+          ],
+          "tasks": [
+            {
+              "id": "reserva-nome-0",
+              "title": "Pesquisar a disponibilidade da denominação.",
+              "kind": "operation",
+              "status": "completed",
+              "description": "Verificar e reservar o nome da empresa.",
+              "required": true
+            },
+            {
+              "id": "reserva-nome-1",
+              "title": "Submeter o pedido de reserva do nome.",
+              "kind": "operation",
+              "status": "completed",
+              "description": "Verificar e reservar o nome da empresa.",
+              "required": true
+            },
+            {
+              "id": "reserva-nome-2",
+              "title": "Consultar o comprovativo de reserva.",
+              "kind": "operation",
+              "status": "completed",
+              "description": "Verificar e reservar o nome da empresa.",
+              "required": true
+            }
           ]
         },
         {
           "id": "registar-empresa",
           "simulatedParticipants": [
-            { "name": "Ana Machava", "contribution": "Preparação dos dados e preenchimento do formulário de registo." },
-            { "name": "João Tembe", "contribution": "Conferência do NUIT, da morada e do capital social." },
-            { "name": "António Sitoe", "contribution": "Revisão dos documentos necessários à constituição da empresa." }
+            {
+              "name": "Ana Machava",
+              "contribution": "Preparação dos dados e preenchimento do formulário de registo."
+            },
+            {
+              "name": "João Tembe",
+              "contribution": "Conferência do NUIT, da morada e do capital social."
+            },
+            {
+              "name": "António Sitoe",
+              "contribution": "Revisão dos documentos necessários à constituição da empresa."
+            }
           ],
           "title": "Registar empresa",
           "description": "Submeter os elementos para registo da empresa.",
@@ -139,6 +305,90 @@
               "format": "url",
               "href": "apoio/documentos-constituicao.html"
             }
+          ],
+          "tasks": [
+            {
+              "id": "registration-quiz",
+              "title": "Pré-quiz de registo da empresa",
+              "kind": "quiz",
+              "status": "not-started",
+              "description": "Três perguntas de preparação. Responda correctamente a todas; pode repetir.",
+              "required": true,
+              "questions": [
+                {
+                  "id": "nuit",
+                  "prompt": "Quantos algarismos tem o NUIT neste formulário?",
+                  "options": [
+                    "7 algarismos",
+                    "9 algarismos",
+                    "12 algarismos"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": "capital",
+                  "prompt": "Que valor deve indicar no capital social?",
+                  "options": [
+                    "Um valor positivo correspondente ao capital da empresa",
+                    "Zero em todos os casos",
+                    "O número de sócios"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "id": "evidence",
+                  "prompt": "O que confirma a submissão do registo?",
+                  "options": [
+                    "Abrir o formulário",
+                    "Guardar um rascunho",
+                    "A confirmação da operação e o comprovativo gerado"
+                  ],
+                  "correct": 2
+                }
+              ]
+            },
+            {
+              "id": "registration-data",
+              "title": "Preencher os dados da empresa",
+              "kind": "operation",
+              "status": "in-progress",
+              "description": "Submeter os elementos para registo da empresa.",
+              "required": true
+            },
+            {
+              "id": "registration-submit",
+              "title": "Submeter o formulário de registo",
+              "kind": "operation",
+              "status": "in-progress",
+              "description": "Submeter os elementos para registo da empresa.",
+              "required": true
+            },
+            {
+              "id": "registration-documents",
+              "title": "Gerar os documentos de constituição",
+              "kind": "operation",
+              "status": "in-progress",
+              "description": "Submeter os elementos para registo da empresa.",
+              "required": true
+            },
+            {
+              "id": "registration-guide",
+              "title": "Consultar o guia de constituição",
+              "kind": "pdf",
+              "status": "not-started",
+              "description": "Leia os elementos necessários ao registo e confirme a consulta.",
+              "required": true,
+              "resource": "apoio/guia-constituicao.pdf"
+            },
+            {
+              "id": "registration-declaration",
+              "title": "Submeter Declaração de Início de actividade",
+              "kind": "evidence",
+              "status": "not-started",
+              "required": true,
+              "description": "Submeter o PDF de demonstração da Declaração de Início de actividade. Esta submissão é local e não comunica com entidades oficiais.",
+              "resource": "apoio/declaracao-inicio-actividade.pdf"
+            }
           ]
         },
         {
@@ -162,6 +412,50 @@
               "format": "url",
               "href": "apoio/convidar-socios.html"
             }
+          ],
+          "tasks": [
+            {
+              "id": "socios-video",
+              "title": "Ver a introdução à participação dos sócios",
+              "kind": "video",
+              "status": "not-started",
+              "description": "Veja o vídeo até ao fim e confirme a visualização. Transcrição: identifique os sócios; confirme os contactos; envie os convites; consulte as participações confirmadas.",
+              "required": true,
+              "resource": "apoio/participacao-socios.mp4"
+            },
+            {
+              "id": "convidar-socios-0",
+              "title": "Identificar os membros da sociedade.",
+              "kind": "operation",
+              "status": "not-started",
+              "description": "Enviar convites e validar a participação.",
+              "required": true
+            },
+            {
+              "id": "convidar-socios-1",
+              "title": "Enviar os convites aos sócios.",
+              "kind": "operation",
+              "status": "not-started",
+              "description": "Enviar convites e validar a participação.",
+              "required": true
+            },
+            {
+              "id": "convidar-socios-2",
+              "title": "Consultar as participações confirmadas.",
+              "kind": "operation",
+              "status": "not-started",
+              "description": "Enviar convites e validar a participação.",
+              "required": true
+            },
+            {
+              "id": "socios-guia",
+              "title": "Consultar as responsabilidades dos sócios",
+              "kind": "url",
+              "status": "not-started",
+              "description": "Leia o guia e confirme a consulta antes de concluir a actividade.",
+              "required": true,
+              "resource": "apoio/responsabilidades-socios.html"
+            }
           ]
         },
         {
@@ -179,7 +473,33 @@
             "registar-empresa"
           ],
           "nextIds": [],
-          "materials": []
+          "materials": [],
+          "tasks": [
+            {
+              "id": "inicio-actividades-0",
+              "title": "Verificar as condições de constituição.",
+              "kind": "operation",
+              "status": "blocked",
+              "description": "Comunicar o início de actividades às entidades competentes.",
+              "required": true
+            },
+            {
+              "id": "inicio-actividades-1",
+              "title": "Preparar os dados para a comunicação de início.",
+              "kind": "operation",
+              "status": "blocked",
+              "description": "Comunicar o início de actividades às entidades competentes.",
+              "required": true
+            },
+            {
+              "id": "inicio-actividades-2",
+              "title": "Consultar o resultado da comunicação.",
+              "kind": "operation",
+              "status": "blocked",
+              "description": "Comunicar o início de actividades às entidades competentes.",
+              "required": true
+            }
+          ]
         }
       ]
     },
@@ -198,7 +518,17 @@
           "steps": [
             "Actividade do primeiro ano fiscal."
           ],
-          "materials": []
+          "materials": [],
+          "tasks": [
+            {
+              "id": "ano1-0-0",
+              "title": "Actividade do primeiro ano fiscal.",
+              "kind": "operation",
+              "status": "blocked",
+              "description": "Actividade do primeiro ano fiscal.",
+              "required": true
+            }
+          ]
         },
         {
           "id": "ano1-1",
@@ -209,7 +539,17 @@
           "steps": [
             "Actividade do primeiro ano fiscal."
           ],
-          "materials": []
+          "materials": [],
+          "tasks": [
+            {
+              "id": "ano1-1-0",
+              "title": "Actividade do primeiro ano fiscal.",
+              "kind": "operation",
+              "status": "blocked",
+              "description": "Actividade do primeiro ano fiscal.",
+              "required": true
+            }
+          ]
         },
         {
           "id": "ano1-2",
@@ -220,7 +560,17 @@
           "steps": [
             "Actividade do primeiro ano fiscal."
           ],
-          "materials": []
+          "materials": [],
+          "tasks": [
+            {
+              "id": "ano1-2-0",
+              "title": "Actividade do primeiro ano fiscal.",
+              "kind": "operation",
+              "status": "blocked",
+              "description": "Actividade do primeiro ano fiscal.",
+              "required": true
+            }
+          ]
         },
         {
           "id": "ano1-3",
@@ -231,7 +581,17 @@
           "steps": [
             "Actividade do primeiro ano fiscal."
           ],
-          "materials": []
+          "materials": [],
+          "tasks": [
+            {
+              "id": "ano1-3-0",
+              "title": "Actividade do primeiro ano fiscal.",
+              "kind": "operation",
+              "status": "blocked",
+              "description": "Actividade do primeiro ano fiscal.",
+              "required": true
+            }
+          ]
         },
         {
           "id": "ano1-4",
@@ -242,7 +602,17 @@
           "steps": [
             "Actividade do primeiro ano fiscal."
           ],
-          "materials": []
+          "materials": [],
+          "tasks": [
+            {
+              "id": "ano1-4-0",
+              "title": "Actividade do primeiro ano fiscal.",
+              "kind": "operation",
+              "status": "blocked",
+              "description": "Actividade do primeiro ano fiscal.",
+              "required": true
+            }
+          ]
         }
       ]
     },
@@ -260,7 +630,17 @@
           "steps": [
             "Actividade do segundo ano fiscal."
           ],
-          "materials": []
+          "materials": [],
+          "tasks": [
+            {
+              "id": "ano2-0-0",
+              "title": "Actividade do segundo ano fiscal.",
+              "kind": "operation",
+              "status": "not-started",
+              "description": "Actividade do segundo ano fiscal.",
+              "required": true
+            }
+          ]
         },
         {
           "id": "ano2-1",
@@ -270,7 +650,17 @@
           "steps": [
             "Actividade do segundo ano fiscal."
           ],
-          "materials": []
+          "materials": [],
+          "tasks": [
+            {
+              "id": "ano2-1-0",
+              "title": "Actividade do segundo ano fiscal.",
+              "kind": "operation",
+              "status": "not-started",
+              "description": "Actividade do segundo ano fiscal.",
+              "required": true
+            }
+          ]
         },
         {
           "id": "ano2-2",
@@ -280,7 +670,17 @@
           "steps": [
             "Actividade do segundo ano fiscal."
           ],
-          "materials": []
+          "materials": [],
+          "tasks": [
+            {
+              "id": "ano2-2-0",
+              "title": "Actividade do segundo ano fiscal.",
+              "kind": "operation",
+              "status": "not-started",
+              "description": "Actividade do segundo ano fiscal.",
+              "required": true
+            }
+          ]
         },
         {
           "id": "ano2-3",
@@ -290,7 +690,17 @@
           "steps": [
             "Actividade do segundo ano fiscal."
           ],
-          "materials": []
+          "materials": [],
+          "tasks": [
+            {
+              "id": "ano2-3-0",
+              "title": "Actividade do segundo ano fiscal.",
+              "kind": "operation",
+              "status": "not-started",
+              "description": "Actividade do segundo ano fiscal.",
+              "required": true
+            }
+          ]
         }
       ]
     },
@@ -308,7 +718,17 @@
           "steps": [
             "Síntese do trabalho desenvolvido."
           ],
-          "materials": []
+          "materials": [],
+          "tasks": [
+            {
+              "id": "relatorio-0-0",
+              "title": "Síntese do trabalho desenvolvido.",
+              "kind": "operation",
+              "status": "not-started",
+              "description": "Síntese do trabalho desenvolvido.",
+              "required": true
+            }
+          ]
         },
         {
           "id": "relatorio-1",
@@ -318,7 +738,17 @@
           "steps": [
             "Síntese do trabalho desenvolvido."
           ],
-          "materials": []
+          "materials": [],
+          "tasks": [
+            {
+              "id": "relatorio-1-0",
+              "title": "Síntese do trabalho desenvolvido.",
+              "kind": "operation",
+              "status": "not-started",
+              "description": "Síntese do trabalho desenvolvido.",
+              "required": true
+            }
+          ]
         }
       ]
     }

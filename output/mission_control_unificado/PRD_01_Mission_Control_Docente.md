@@ -1,13 +1,17 @@
 # PRD do Mission Control do Docente
 
-**Versão:** 0.7
-**Data:** 24 de Outubro de 2026
+**Versão:** 0.8
+**Data:** 25 de Outubro de 2026
 **Estado:** actualizado após validação funcional com Leila Omar e alinhamento com o design aprovado
 **Depende de:** `PRD_00_Mission_Control_Comum.md`  
 
 ## Apresentação visual aprovada — 24 de Outubro de 2026
 
 Aplicar a secção 9.1 do PRD comum à visão geral, percurso da empresa, contribuições, orientações e respectivos diálogos. Preservar integralmente menu lateral, header e footer.
+
+No cabeçalho do percurso da empresa, apresentar apenas o nome da empresa e a turma. Não mostrar a versão técnica do percurso (por exemplo, `percurso-demo-v1`); esta mantém-se nos dados para identificação e consistência, sem ocupar o subtítulo da interface.
+
+Na empresa ligada à experiência do estudante, o estado da actividade agrega as tarefas obrigatórias conforme a decisão de 25 de Outubro do PRD comum. A confirmação do registo pode disponibilizar o comprovativo sem concluir «Registar empresa», caso faltem o material obrigatório ou o quiz. Eventos de conclusão de tarefas actualizam a mesma origem, preservando a privacidade das conversas do grupo.
 
 - Painéis brancos, contorno azul-cinza `#DCE7F3`, cantos de 10 px e fundos suaves `#F7FBFF`; evitar contornos escuros e sombras pesadas.
 - Títulos e indicadores compactos, hierarquia legível e ícones lineares. Manter azul e ciano institucionais.

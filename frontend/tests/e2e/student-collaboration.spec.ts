@@ -34,7 +34,7 @@ test('navegar, regressar ao bloco actual e abrir actividade sem modal', async ({
   await expect(page.getByRole('button', { name: 'Início do percurso', exact: true })).toBeDisabled()
   await page.getByRole('button', { name: 'Voltar para o bloco actual', exact: true }).click()
   await expect(page).toHaveURL(/bloco=constituicao/)
-  await page.getByRole('button', { name: 'Continuar Registar empresa', exact: true }).click()
+  await page.getByRole('button', { name: 'Ver tarefas: Registar empresa', exact: true }).click()
   await expect(page).toHaveURL(/actividades\/registar-empresa/)
   await expect(page.getByRole('dialog')).toHaveCount(0)
   await page.getByRole('link', { name: 'Percurso completo', exact: true }).click()

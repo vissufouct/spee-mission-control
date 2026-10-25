@@ -12,7 +12,7 @@ test('navegação estável, cartões de contexto e materiais reais do protótipo
   expect(Math.abs(await page.evaluate(() => scrollY) - scroll)).toBeLessThan(10)
   await navigation.getByRole('button', { name: 'Voltar para o bloco actual' }).click()
   expect(Math.abs(await page.evaluate(() => scrollY) - scroll)).toBeLessThan(10)
-  await page.getByRole('button', { name: 'Continuar Registar empresa' }).click()
+  await page.getByRole('button', { name: 'Ver tarefas: Registar empresa' }).click()
   await expect(page.getByRole('heading', { name: 'Detalhe da actividade', exact: true })).toHaveCount(0)
   const context = page.getByRole('region', { name: 'Actividades em contexto' })
   await context.evaluate(node => node.scrollIntoView({ block: 'center' }))

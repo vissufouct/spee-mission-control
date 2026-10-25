@@ -20,9 +20,15 @@ describe('origem comum estudante/docente', () => {
     expect(linked.events.filter(e => e.role === 'student')).toHaveLength(2)
     await student.confirmRegistration(0)
     linked = (await teacher.getSnapshot()).companies.find(c => c.linkedToStudent)!
-    expect(linked.activities.filter(a => a.status === 'completed')).toHaveLength(4)
+    expect(linked.activities.filter(a => a.status === 'completed')).toHaveLength(3)
+    expect(linked.activities.find(a => a.id === 'registar-empresa')?.status).toBe('in-progress')
     expect(linked.results.find(r => r.activityId === 'registar-empresa')?.reference).toBe((await student.getSnapshot()).registration?.receiptNumber)
     expect(linked.events.filter(e => e.role === 'student')).toHaveLength(3)
+    await student.completeLearningTask('registar-empresa', 'registration-guide', undefined, 1)
+    await student.completeLearningTask('registar-empresa', 'registration-quiz', { nuit: 1, capital: 0, evidence: 2 }, 2)
+    await student.completeLearningTask('registar-empresa', 'registration-declaration', undefined, 3)
+    linked = (await teacher.getSnapshot()).companies.find(c => c.linkedToStudent)!
+    expect(linked.activities.filter(a => a.status === 'completed')).toHaveLength(4)
   })
   it('sem rascunho volta a por iniciar; não atribui autoria a estados iniciais', async () => {
     const { student, teacher } = setup()

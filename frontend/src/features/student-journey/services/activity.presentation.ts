@@ -1,12 +1,10 @@
 import type { Activity, JourneySnapshot } from '../types'
-import { registrationSchema } from '../schemas/journey.schema'
+import { getLearningTasks } from './learning-tasks'
 import { getActivityStatus } from './journey.selectors'
 
 export function getActivityCriteria(activity: Activity, snapshot: JourneySnapshot) {
-  const total = activity.steps?.length ?? (activity.id === 'registar-empresa' ? 3 : 0)
-  const completed = getActivityStatus(activity, snapshot) === 'completed'
-  const confirmed = completed ? total : activity.id === 'registar-empresa' && registrationSchema.safeParse(snapshot.registration?.data).success ? Math.min(1, total) : 0
-  return { confirmed, total }
+  const tasks = getLearningTasks(activity, snapshot)
+  return { confirmed: tasks.filter(task => task.status === 'completed').length, total: tasks.length }
 }
 
 export function getNextActivity(activity: Activity, snapshot: JourneySnapshot) {
@@ -17,8 +15,7 @@ export function getNextActivity(activity: Activity, snapshot: JourneySnapshot) {
 export function getNextAction(activity: Activity, snapshot: JourneySnapshot) {
   const status = getActivityStatus(activity, snapshot)
   if (status === 'blocked' || status === 'completed') return undefined
-  const { confirmed } = getActivityCriteria(activity, snapshot)
-  const title = activity.steps?.[confirmed]
-  if (!title) return undefined
-  return { title, id: activity.id, target: activity.id === 'registar-empresa' ? 'registration' as const : 'criteria' as const, label: status === 'in-progress' ? 'Continuar actividade' : 'Iniciar actividade' }
+  const task = getLearningTasks(activity, snapshot).find(item => item.status !== 'completed' && item.status !== 'blocked')
+  if (!task) return undefined
+  return { title: task.title, id: task.id, target: 'criteria' as const, label: 'Ver tarefa' }
 }

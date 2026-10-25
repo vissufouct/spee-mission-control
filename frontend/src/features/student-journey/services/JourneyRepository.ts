@@ -2,6 +2,7 @@ import type { JourneySnapshot, RegistrationValues } from '../types'
 
 /** Transport-independent contract. Every mutation returns the committed snapshot. */
 export interface JourneyRepository {
+  completeLearningTask(activityId: string, taskId: string, answers: Record<string, number> | undefined, expectedRevision: number): Promise<JourneySnapshot>
   sendGroupMessage(activityId: string, message: string, assignee: string | null, revision: number): Promise<JourneySnapshot>
   completeTask(id: string, revision: number): Promise<JourneySnapshot>
   resolveNotification(id: string, revision: number): Promise<JourneySnapshot>

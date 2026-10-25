@@ -1,7 +1,15 @@
 import type { Activity, ActivityStatus, JourneySnapshot } from '../types'
 import { confirmedProgress } from '@/shared/lib/progress'
+import { getLearningTasks } from './learning-tasks'
 
 export function getActivityStatus(activity: Activity, snapshot: JourneySnapshot): ActivityStatus {
+  if (activity.tasks?.length) {
+    const tasks = getLearningTasks(activity, snapshot).filter(task => task.required)
+    if (tasks.length && tasks.every(task => task.status === 'completed')) return 'completed'
+    if (tasks.some(task => task.status === 'completed' || task.status === 'in-progress')) return 'in-progress'
+    if (tasks.length && tasks.every(task => task.status === 'blocked')) return 'blocked'
+    return 'not-started'
+  }
   if (activity.id !== 'registar-empresa') return activity.status === 'returned' ? 'in-progress' : ['available', 'unavailable'].includes(activity.status) ? 'not-started' : activity.status
   return snapshot.registration?.status === 'confirmed' ? 'completed' : snapshot.registration ? 'in-progress' : 'not-started'
 }

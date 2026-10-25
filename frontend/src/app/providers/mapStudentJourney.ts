@@ -13,7 +13,7 @@ export function mapStudentJourney(source: JourneySnapshot, template: Company): C
   company.name = source.registration?.data.legalName || template.name
   company.currentBlockId = source.context.currentBlockId
   company.blocks = source.blocks.map(({ id, title }) => ({ id, title }))
-  const names = [...new Set([source.context.studentName, ...source.events.filter(e => e.type === 'name.reserved' || e.type.startsWith('registration.')).map(e => e.actor)])]
+  const names = [...new Set([source.context.studentName, ...source.events.filter(e => e.type === 'name.reserved' || e.type.startsWith('registration.') || e.type === 'learning-task.completed').map(e => e.actor)])]
   company.participants = names.map((name, index) => ({ id: 'source-' + index, name, initials: name.split(' ').map(n => n[0]).slice(0, 2).join('') }))
   company.results = []
   company.events = []
@@ -29,9 +29,9 @@ export function mapStudentJourney(source: JourneySnapshot, template: Company): C
     'registration.removed': 'not-started', 'registration.confirmed': 'completed',
   }
   for (const event of source.events) {
-    const status = states[event.type]
+    const status = event.activityStatus ? toTeacherStatus(event.activityStatus) : states[event.type]
     if (!status) continue
-    const activityId = event.type === 'name.reserved' ? 'reserva-nome' : 'registar-empresa'
+    const activityId = event.activityId ?? (event.type === 'name.reserved' ? 'reserva-nome' : 'registar-empresa')
     const actor = company.participants.find(p => p.name === event.actor)!
     company.events.push({ id: event.id, activityId, occurredAt: event.occurredAt, actorIds: [actor.id],
       role: 'student', category: 'individual', message: event.message, previousStatus: null,
@@ -39,8 +39,9 @@ export function mapStudentJourney(source: JourneySnapshot, template: Company): C
   }
   for (const activity of company.activities) {
     activity.participantIds = [...new Set(company.events.filter(e => e.activityId === activity.id).flatMap(e => e.actorIds))]
-    if (activity.status !== 'completed') continue
-    const evidence = [...company.events].reverse().find(e => e.activityId === activity.id && e.newStatus === 'completed')
+    const registrationConfirmed = activity.id === 'registar-empresa' && source.registration?.status === 'confirmed'
+    if (activity.status !== 'completed' && !registrationConfirmed) continue
+    const evidence = [...company.events].reverse().find(e => e.activityId === activity.id && (e.newStatus === 'completed' || (registrationConfirmed && source.events.some(original => original.id === e.id && original.type === 'registration.confirmed'))))
     const confirmedAt = evidence?.occurredAt ?? '2026-10-21T07:00:00.000Z'
     const id = 'source-result-' + activity.id
     const registration = activity.id === 'registar-empresa' ? source.registration : null

@@ -1,3 +1,4 @@
+import { completeRegistrationLearningTasks } from './learning-task-helpers'
 import { test, expect, type Page } from '@playwright/test'
 const home = '/docente/mission-control'
 const company = home + '/empresas/nova-geracao'
@@ -135,6 +136,7 @@ test('o mesmo registo passa de 18% a 24% nas duas perspectivas', async ({ page }
   await page.getByRole('button', { name:'Rever e confirmar', exact:true }).click()
   await page.getByRole('button', { name:'Confirmar registo', exact:true }).click()
   await expect(page.getByRole('heading', { name:'Empresa registada', exact:true })).toBeVisible()
+  await completeRegistrationLearningTasks(page)
   await page.goto(home)
   await expect(page.locator('.teacher-matrix tbody tr').filter({hasText:'Horizonte Verde'})).toContainText('24%')
   await page.getByRole('button', { name:'Horizonte Verde, Lda.', exact:true }).click()

@@ -1,11 +1,34 @@
 # PRD do Mission Control do Estudante
 
-**Versão:** 0.10
-**Data:** 24 de Outubro de 2026
-**Estado:** actualizado após reunião e decisões de 24 de Outubro de 2026
+**Versão:** 0.12
+**Data:** 25 de Outubro de 2026
+**Estado:** actualizado com a separação entre actividades e tarefas
 **Depende de:** `PRD_00_Mission_Control_Comum.md`  
 
 ## 1. Resultado esperado
+
+### Actualização de 25 de Outubro: execução por tarefa
+
+Aplicar a decisão «actividades e tarefas» do PRD comum, que substitui o checklist passivo e os botões de execução nos cartões de actividade. «Próxima tarefa» identifica a primeira tarefa pendente executável e remete para a lista. Não aparece depois da conclusão de todas as tarefas.
+
+Em «Registar empresa», apresentar pela ordem seguinte:
+
+1. Pré-quiz de registo da empresa — primeira tarefa, popup com três perguntas sobre NUIT, capital social e evidência de confirmação; todas correctas para concluir, com repetição permitida.
+2. Preencher os dados da empresa — operação; concluída quando os dados guardados são válidos.
+3. Submeter o formulário de registo — operação; em curso quando os dados estão válidos, concluída após confirmação.
+4. Gerar os documentos de constituição — bloqueada até à confirmação; a operação de registo gera o comprovativo e confirma esta tarefa.
+5. Consultar o guia de constituição — PDF obrigatório, com confirmação explícita de consulta.
+6. Submeter Declaração de Início de actividade — evidência PDF, inicialmente Por iniciar. Permite consultar e confirmar a submissão do PDF de demonstração; guarda autor, ficheiro e data localmente. Não representa uma declaração oficial.
+
+As tarefas de PDF e quiz podem ser feitas antes da submissão; a posição na lista não cria uma dependência não definida. O total inicial é 1 de 6 tarefas concluídas. Confirmar apenas o registo passa a 3 de 6; PDF e quiz levam a 5 de 6; a evidência completa as 6 tarefas. Submetido não significa avaliado ou aprovado.
+
+Em «Definir a ideia de negócio», a primeira tarefa é «Diagnóstico do empreendedor», já respondido, com 4/5 (80%) e consulta das respostas. Seguem-se a identificação da oportunidade e «Relatório de auditoria 1», PDF já submetido por Ana Machava. São três tarefas da mesma actividade, não novas actividades. O diagnóstico aceita respostas completas sem exigir 100%.
+
+Os botões «Ver tarefas» incluem um badge «X de Y», indicando tarefas concluídas e total. A contagem deriva do estado actual, incluindo evidências submetidas. A ordem dos quizzes e a nova evidência são aplicadas aos cenários já guardados sem substituir respostas ou submissões.
+
+Em «Convidar sócios», incluir um vídeo obrigatório com controlos de reprodução e uma página obrigatória sobre responsabilidades dos sócios. Em «Modelo de negócio», incluir uma página sobre proposta de valor já consultada no cenário inicial. Os ficheiros são locais, fictícios e utilizáveis também no GitHub Pages.
+
+Cada tarefa mostra ícone de formato, título, estado e botão: Ver, Iniciar tarefa, Continuar tarefa, Ver condição, Responder ao quiz, Ver respostas, Ver vídeo, Ler PDF ou Consultar página. A actividade mantém apenas o agregado e a navegação. Validar erros do quiz, persistência após reload, confirmação de materiais, bloqueios, revisão obsoleta e ausência de falsa confirmação em falhas de armazenamento.
 
 A vista **Meu Percurso** orienta o estudante durante a simulação. Em qualquer momento, o estudante deve perceber:
 

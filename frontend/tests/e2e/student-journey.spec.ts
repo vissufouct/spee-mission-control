@@ -1,3 +1,4 @@
+import { completeRegistrationLearningTasks } from './learning-task-helpers'
 import { expect, test, type Page } from '@playwright/test'
 import { readFile } from 'node:fs/promises'
 
@@ -11,10 +12,10 @@ test.beforeEach(async ({ page }) => {
 test.afterEach(async ({ page }) => expect(errors.get(page)).toEqual([]))
 
 async function openRegistration(page: Page) {
-  await page.getByRole('button', { name: 'Continuar Registar empresa', exact: true }).click()
+  await page.getByRole('button', { name: 'Ver tarefas: Registar empresa', exact: true }).click()
   await expect(page).toHaveURL(/actividades\/registar-empresa/)
-  await expect(page.locator('.student-context-card--current').getByLabel('1 de 3 critérios confirmados')).toHaveText('(1 de 3)')
-  await page.locator('.student-next-activity').getByRole('button', { name: 'Continuar actividade', exact: true }).click()
+  await expect(page.locator('.student-context-card--current').getByLabel('1 de 6 tarefas concluídas')).toHaveText('(1 de 6)')
+  await page.getByRole('button', { name: 'Continuar tarefa: Submeter o formulário de registo', exact: true }).click()
   await expect(page.getByLabel('Denominação da empresa')).toBeVisible()
 }
 async function confirmRegistration(page: Page) {
@@ -28,10 +29,10 @@ test('editar, persistir, confirmar e consultar o resultado sem progresso por cli
   await page.goto(home)
   await expect(page.getByLabel('Progresso global', { exact: true })).toHaveAttribute('value', '18')
   await page.screenshot({ path: info.outputPath('01-meu-percurso.png'), fullPage: true })
-  await page.getByRole('button', { name: 'Continuar Registar empresa', exact: true }).click()
+  await page.getByRole('button', { name: 'Ver tarefas: Registar empresa', exact: true }).click()
   await page.screenshot({ path: info.outputPath('02-actividade.png'), fullPage: true })
   await page.getByRole('link', { name: 'Meu Percurso', exact: true }).click()
-  await expect(page.getByRole('button', { name: 'Continuar Registar empresa', exact: true })).toBeVisible()
+  await expect(page.getByRole('button', { name: 'Ver tarefas: Registar empresa', exact: true })).toBeVisible()
   await openRegistration(page)
   await page.getByLabel('Denominação da empresa').fill('Horizonte Verde Agro, Lda.')
   await page.getByRole('button', { name: 'Guardar rascunho', exact: true }).click()
@@ -46,16 +47,17 @@ test('editar, persistir, confirmar e consultar o resultado sem progresso por cli
   await page.screenshot({ path: info.outputPath('03-formulario.png'), fullPage: true })
   await confirmRegistration(page)
   await page.screenshot({ path: info.outputPath('04-resultado.png'), fullPage: true })
-  await page.getByRole('link', { name: 'Voltar ao Meu Percurso', exact: true }).click()
+  await completeRegistrationLearningTasks(page)
+  await page.goto(home)
   await expect(page.getByLabel('Progresso global', { exact: true })).toHaveAttribute('value', '24')
   await expect(page.getByLabel('Progresso do bloco', { exact: true })).toHaveAttribute('aria-valuenow', '2')
   await page.getByRole('button', { name: 'Em curso', exact: true }).click()
   await expect(page.getByText('Não existem actividades neste estado.')).toBeVisible()
   await page.getByRole('button', { name: 'Mostrar todas as actividades', exact: true }).click()
-  await page.getByRole('button', { name: 'Ver Registar empresa', exact: true }).click()
-  await expect(page.locator('.student-context-card--current').getByLabel('3 de 3 critérios confirmados')).toHaveText('(3 de 3)')
+  await page.getByRole('button', { name: 'Ver tarefas: Registar empresa', exact: true }).click()
+  await expect(page.locator('.student-context-card--current').getByLabel('6 de 6 tarefas concluídas')).toHaveText('(6 de 6)')
   await expect(page.locator('.student-next-activity')).toHaveCount(0)
-  await page.getByRole('button', { name: 'Ver detalhes', exact: true }).click()
+  await page.getByRole('button', { name: 'Ver: Gerar os documentos de constituição', exact: true }).click()
   const downloaded = page.waitForEvent('download')
   await page.getByRole('button', { name: 'Descarregar comprovativo', exact: true }).click()
   const download = await downloaded
@@ -82,8 +84,8 @@ test('eliminar com confirmação e criar um novo rascunho incompleto', async ({ 
   await expect(page.getByLabel('NUIT', { exact: true })).toHaveValue('')
   await page.getByRole('link', { name: 'Voltar ao Meu Percurso', exact: true }).click()
   await expect(page.getByLabel('Progresso global', { exact: true })).toHaveAttribute('value', '18')
-  await page.getByRole('button', { name: 'Continuar Registar empresa', exact: true }).click()
-  await expect(page.locator('.student-context-card--current').getByLabel('0 de 3 critérios confirmados')).toHaveText('(0 de 3)')
+  await page.getByRole('button', { name: 'Ver tarefas: Registar empresa', exact: true }).click()
+  await expect(page.locator('.student-context-card--current').getByLabel('0 de 6 tarefas concluídas')).toHaveText('(0 de 6)')
 })
 
 test('protege alterações por guardar quando se muda de página', async ({ page }) => {

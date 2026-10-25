@@ -28,7 +28,7 @@ export function TeacherCompanyPage({ contributions = false }: { contributions?: 
   const onOpen = (activityId: string, resultId?: string) => setSelection({ activityId, resultId })
   const returnParams = new URLSearchParams(params); returnParams.delete('categoria')
   return <div className="teacher-page">
-    <TeacherHeading title={contributions ? 'Contribuição e pista de actividade' : 'Percurso da empresa'} subtitle={company.name + ' · ' + query.data.classes.find(c => c.id === company.classId)?.name + ' · ' + company.definitionVersion}>
+    <TeacherHeading title={contributions ? 'Contribuição e pista de actividade' : 'Percurso da empresa'} subtitle={company.name + ' · ' + query.data.classes.find(c => c.id === company.classId)?.name}>
       <Link className="teacher-text-link" to={contributions ? teacherPaths.company(company.id) + suffix(returnParams) : teacherPaths.home + suffix(backParams)}>{contributions ? '← Voltar ao percurso' : '← Voltar à turma'}</Link>
     </TeacherHeading>
     {contributions ? <ContributionView company={company} snapshot={query.data} category={category} onCategory={value => change('categoria', value)} onOpen={onOpen} />

@@ -46,8 +46,8 @@ describe('JsonJourneyRepository: contrato e invariantes', () => {
     expect(confirmed.registration?.status).toBe('confirmed')
     expect(confirmed.registration?.receiptNumber).toMatch(/^REG-/)
     expect(confirmed.events.at(-1)?.type).toBe('registration.confirmed')
-    expect(getProgress(confirmed).percent).toBe(24)
-    expect(getBlockSummary(confirmed)).toMatchObject({ completed: 2, inProgress: 0, available: 1, blocked: 1 })
+    expect(getProgress(confirmed).percent).toBe(18)
+    expect(getBlockSummary(confirmed)).toMatchObject({ completed: 1, inProgress: 1, available: 1, blocked: 1 })
   })
   it('permite eliminar e voltar a criar um rascunho incompleto', async () => {
     const initial = await repository.getSnapshot()

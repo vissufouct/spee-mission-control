@@ -1,0 +1,41 @@
+import { expect, test } from '@playwright/test'
+import { readFile } from 'node:fs/promises'
+
+test('Ideação contém diagnóstico respondido e evidência PDF dentro de Definir a ideia', async ({ page }, info) => {
+  await page.goto('/estudante/percurso?bloco=ideacao')
+  const entry = page.getByRole('button', { name: 'Ver tarefas: Definir a ideia de negócio', exact: true })
+  await expect(entry).toContainText('3 de 3')
+  await expect(entry).toHaveAccessibleDescription('3 tarefas concluídas de um total de 3')
+  await entry.click()
+  await expect(page.getByRole('region', { name: 'Tarefas da actividade' }).getByRole('listitem')).toHaveCount(3)
+  await expect(page.getByRole('region', { name: 'Tarefas da actividade' }).getByRole('listitem').first()).toContainText('Diagnóstico do empreendedor')
+  await expect(page.getByText('Quiz · Pontuação: 4/5 (80%)', { exact: true })).toBeVisible()
+  await page.getByRole('button', { name: 'Ver respostas: Diagnóstico do empreendedor', exact: true }).click()
+  const dialog = page.getByRole('dialog')
+  await expect(dialog).toContainText('Pontuação obtida: 4/5 (80%)')
+  await expect(dialog.getByRole('radio', { checked: true })).toHaveCount(5)
+  await expect(dialog.getByLabel('Ignorá-los até haver problemas')).toBeChecked()
+  await expect(dialog).toContainText('Resposta a rever.')
+  await expect(dialog.getByRole('button', { name: 'Validar respostas' })).toHaveCount(0)
+  await page.screenshot({ path: info.outputPath('diagnostic-result.png') })
+  await page.keyboard.press('Escape')
+  await page.getByRole('button', { name: 'Ver submissão: Relatório de auditoria 1' }).click()
+  await expect(dialog.getByRole('status')).toHaveText('Submetido · PDF')
+  await expect(dialog).toContainText('Ana Machava')
+  const download = page.waitForEvent('download')
+  await dialog.getByRole('link', { name: 'Descarregar PDF submetido' }).click()
+  const pdf = await download
+  expect(pdf.suggestedFilename()).toBe('relatorio-auditoria-1.pdf')
+  expect((await readFile((await pdf.path())!)).subarray(0, 5).toString()).toBe('%PDF-')
+  await page.screenshot({ path: info.outputPath('submitted-evidence.png') })
+  await page.keyboard.press('Escape')
+  await page.reload()
+  await expect(page.getByText('Quiz · Pontuação: 4/5 (80%)')).toBeVisible()
+  await page.goto('/estudante/percurso?bloco=constituicao')
+  await expect(page.getByRole('button', { name: 'Ver tarefas: Registar empresa', exact: true })).toContainText('1 de 6')
+  for (const width of [1440, 390]) {
+    await page.setViewportSize({ width, height: 900 })
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true)
+    await page.screenshot({ path: info.outputPath(`task-counts-${width}.png`), fullPage: true })
+  }
+})

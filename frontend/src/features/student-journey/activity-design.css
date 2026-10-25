@@ -66,3 +66,13 @@
   .student-completion-list > li { flex-wrap: wrap; }
   .student-completion-list > li > .student-criterion-badge { margin-left: auto; }
 }
+.student-task-row { display: flex; align-items: center; gap: 12px; padding: 14px 16px; }
+.student-task-row > button { min-width: 130px; }
+.student-task-resource { width: 100%; height: 45dvh; border: 1px solid #dce7f3; border-radius: 10px; }
+.student-learning-dialog { border-color: #dce7f3; padding: 24px; }
+.student-learning-dialog > h2 { font-size: 22px; color: #132039; }
+@media (max-width: 600px) {
+ .student-task-row { flex-wrap: wrap; }
+ .student-task-row > div { flex-basis: calc(100% - 40px); }
+ .student-task-row > button { margin-left: auto; }
+}
