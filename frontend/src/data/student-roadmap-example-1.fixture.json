@@ -36,6 +36,12 @@
               "description": "Leia os objectivos, os papéis dos participantes e o percurso da simulação.",
               "required": true,
               "status": "completed",
+              "simulatedParticipants": [
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Participação em «Conhecer a apresentação do SPEE»; preparação e partilha das notas com a equipa."
+                }
+              ],
               "resource": "apoio/apresentacao-spee.pdf",
               "preview": "apoio/apresentacao-spee-preview.png",
               "dependsOn": [],
@@ -49,6 +55,12 @@
               "required": true,
               "status": "completed",
               "cover": "apoio/capa-acolhimento.png",
+              "simulatedParticipants": [
+                {
+                  "name": "João Tembe",
+                  "contribution": "Participação em «Explorar a navegação no painel»; preparação e partilha das notas com a equipa."
+                }
+              ],
               "resource": "apoio/capa-acolhimento.png",
               "dependsOn": [],
               "completedAt": "2026-10-25T08:00:00.000Z"
@@ -71,15 +83,11 @@
           "simulatedParticipants": [
             {
               "name": "Ana Machava",
-              "contribution": "Coordenação da actividade, revisão e submissão dos resultados."
+              "contribution": "Apresentação dos objectivos à equipa e exploração da navegação."
             },
             {
               "name": "João Tembe",
-              "contribution": "Pesquisa, preparação dos dados e conferência das fontes."
-            },
-            {
-              "name": "António Sitoe",
-              "contribution": "Organização dos documentos e verificação com a equipa."
+              "contribution": "Leitura da apresentação e organização das dúvidas iniciais."
             }
           ]
         },
@@ -96,6 +104,12 @@
               "description": "Consulte as regras pedagógicas propostas para este exemplo. O regulamento institucional será confirmado na integração.",
               "required": true,
               "status": "completed",
+              "simulatedParticipants": [
+                {
+                  "name": "João Tembe",
+                  "contribution": "Participação em «Ler o regulamento da simulação»; preparação e partilha das notas com a equipa."
+                }
+              ],
               "resource": "apoio/regulamento-simulacao.pdf",
               "preview": "apoio/regulamento-simulacao-preview.png",
               "dependsOn": [],
@@ -108,6 +122,12 @@
               "description": "Conheça desde já a estrutura do relatório e descarregue o modelo Word editável.",
               "required": true,
               "status": "completed",
+              "simulatedParticipants": [
+                {
+                  "name": "António Sitoe",
+                  "contribution": "Participação em «Consultar o modelo de relatório final»; preparação e partilha das notas com a equipa."
+                }
+              ],
               "resource": "apoio/relatorio-final.html",
               "dependsOn": [],
               "completedAt": "2026-10-25T08:00:00.000Z"
@@ -119,6 +139,12 @@
               "description": "Escolha entre orientação do docente, conversa da empresa e apoio técnico.",
               "required": true,
               "status": "completed",
+              "simulatedParticipants": [
+                {
+                  "name": "João Tembe",
+                  "contribution": "Participação em «Conhecer os canais de comunicação»; preparação e partilha das notas com a equipa."
+                }
+              ],
               "resource": "apoio/comunicacao-spee.pdf",
               "preview": "apoio/comunicacao-spee-preview.png",
               "dependsOn": [],
@@ -135,16 +161,12 @@
           ],
           "simulatedParticipants": [
             {
-              "name": "Ana Machava",
-              "contribution": "Coordenação da actividade, revisão e submissão dos resultados."
-            },
-            {
               "name": "João Tembe",
-              "contribution": "Pesquisa, preparação dos dados e conferência das fontes."
+              "contribution": "Revisão do regulamento e dos canais de comunicação."
             },
             {
               "name": "António Sitoe",
-              "contribution": "Organização dos documentos e verificação com a equipa."
+              "contribution": "Consulta do modelo de relatório e organização das regras da equipa."
             }
           ]
         },
@@ -161,6 +183,12 @@
               "description": "Consulte o mapa integral, em modo de leitura, antes de iniciar a simulação.",
               "required": true,
               "status": "completed",
+              "simulatedParticipants": [
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Participação em «Explorar o percurso completo»; preparação e partilha das notas com a equipa."
+                }
+              ],
               "resource": "apoio/roteiro-completo.html",
               "dependsOn": [],
               "completedAt": "2026-10-25T08:00:00.000Z"
@@ -215,6 +243,12 @@
                 }
               ],
               "passPercent": 70,
+              "simulatedParticipants": [
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Resposta a «Quiz de acolhimento» e revisão do resultado."
+                }
+              ],
               "dependsOn": [],
               "completedAt": "2026-10-25T08:00:00.000Z",
               "answers": {
@@ -243,6 +277,12 @@
                 }
               ],
               "passPercent": 100,
+              "simulatedParticipants": [
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Resposta a «Aceitar a declaração de responsabilidade e ética» e revisão do resultado."
+                }
+              ],
               "dependsOn": [
                 "b01-a03-t02"
               ],
@@ -256,15 +296,11 @@
           "simulatedParticipants": [
             {
               "name": "Ana Machava",
-              "contribution": "Coordenação da actividade, revisão e submissão dos resultados."
-            },
-            {
-              "name": "João Tembe",
-              "contribution": "Pesquisa, preparação dos dados e conferência das fontes."
+              "contribution": "Revisão do roteiro e resposta ao quiz de acolhimento."
             },
             {
               "name": "António Sitoe",
-              "contribution": "Organização dos documentos e verificação com a equipa."
+              "contribution": "Revisão do compromisso de responsabilidade e ética com a equipa."
             }
           ]
         }
@@ -342,6 +378,12 @@
                 }
               ],
               "quizMode": "diagnostic",
+              "simulatedParticipants": [
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Resposta a «Diagnóstico do empreendedor» e revisão do resultado."
+                }
+              ],
               "dependsOn": [
                 "b01-a03-t02",
                 "b01-a03-t03"
@@ -363,6 +405,12 @@
               "required": true,
               "status": "completed",
               "cover": "apoio/capa-empreendedorismo.png",
+              "simulatedParticipants": [
+                {
+                  "name": "João Tembe",
+                  "contribution": "Participação em «Conhecer as características empreendedoras»; preparação e partilha das notas com a equipa."
+                }
+              ],
               "resource": "apoio/capa-empreendedorismo.png",
               "dependsOn": [
                 "b01-a03-t02",
@@ -377,6 +425,12 @@
               "description": "Use o prompt do guia, compare alternativas e reveja a proposta com a equipa.",
               "required": true,
               "status": "completed",
+              "simulatedParticipants": [
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Participação em «Explorar uma ideia com apoio de IA»; preparação e partilha das notas com a equipa."
+                }
+              ],
               "resource": "apoio/guia-ideia-ia.pdf",
               "preview": "apoio/guia-ideia-ia-preview.png",
               "dependsOn": [
@@ -392,6 +446,16 @@
               "description": "Abra o Hub social na seta à direita, apresente o problema, o público e a proposta de valor. Convide colegas interessados e confirme aqui quando terminar.",
               "required": true,
               "status": "completed",
+              "simulatedParticipants": [
+                {
+                  "name": "João Tembe",
+                  "contribution": "Participação em «Publicar a ideia e convidar colegas»; preparação e partilha das notas com a equipa."
+                },
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Conferência dos elementos da tarefa «Publicar a ideia e convidar colegas» com a equipa."
+                }
+              ],
               "dependsOn": [
                 "b01-a03-t02",
                 "b01-a03-t03"
@@ -410,15 +474,11 @@
           "simulatedParticipants": [
             {
               "name": "Ana Machava",
-              "contribution": "Coordenação da actividade, revisão e submissão dos resultados."
+              "contribution": "Resposta ao diagnóstico e definição da proposta de valor."
             },
             {
               "name": "João Tembe",
-              "contribution": "Pesquisa, preparação dos dados e conferência das fontes."
-            },
-            {
-              "name": "António Sitoe",
-              "contribution": "Organização dos documentos e verificação com a equipa."
+              "contribution": "Pesquisa do problema e do público-alvo; revisão das sugestões de IA."
             }
           ]
         },
@@ -436,6 +496,12 @@
               "required": true,
               "status": "completed",
               "cover": "apoio/capa-empreendedorismo.png",
+              "simulatedParticipants": [
+                {
+                  "name": "João Tembe",
+                  "contribution": "Participação em «Conhecer o Business Model Canvas»; preparação e partilha das notas com a equipa."
+                }
+              ],
               "resource": "apoio/capa-empreendedorismo.png",
               "dependsOn": [
                 "b01-a03-t02",
@@ -450,6 +516,12 @@
               "description": "Use o prompt, explicite hipóteses e evite tratar sugestões de IA como pesquisa de mercado.",
               "required": true,
               "status": "completed",
+              "simulatedParticipants": [
+                {
+                  "name": "António Sitoe",
+                  "contribution": "Participação em «Preparar o modelo com apoio de IA»; preparação e partilha das notas com a equipa."
+                }
+              ],
               "resource": "apoio/guia-canvas-ia.pdf",
               "preview": "apoio/guia-canvas-ia-preview.png",
               "dependsOn": [
@@ -465,6 +537,16 @@
               "description": "Preencha o modelo com a equipa e confirme a revisão dos nove componentes. Use o recurso oficial de apoio.",
               "required": true,
               "status": "completed",
+              "simulatedParticipants": [
+                {
+                  "name": "João Tembe",
+                  "contribution": "Participação em «Criar o modelo de negócio»; preparação e partilha das notas com a equipa."
+                },
+                {
+                  "name": "António Sitoe",
+                  "contribution": "Conferência dos elementos da tarefa «Criar o modelo de negócio» com a equipa."
+                }
+              ],
               "dependsOn": [
                 "b01-a03-t02",
                 "b01-a03-t03"
@@ -482,16 +564,12 @@
           ],
           "simulatedParticipants": [
             {
-              "name": "Ana Machava",
-              "contribution": "Coordenação da actividade, revisão e submissão dos resultados."
-            },
-            {
               "name": "João Tembe",
-              "contribution": "Pesquisa, preparação dos dados e conferência das fontes."
+              "contribution": "Definição dos segmentos de clientes e dos canais no Canvas."
             },
             {
               "name": "António Sitoe",
-              "contribution": "Organização dos documentos e verificação com a equipa."
+              "contribution": "Organização dos recursos, parceiros e estrutura de custos."
             }
           ]
         },
@@ -509,6 +587,12 @@
               "required": true,
               "status": "completed",
               "cover": "apoio/capa-empreendedorismo.png",
+              "simulatedParticipants": [
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Participação em «Conhecer a estrutura do plano de negócios»; preparação e partilha das notas com a equipa."
+                }
+              ],
               "resource": "apoio/capa-empreendedorismo.png",
               "dependsOn": [
                 "b01-a03-t02",
@@ -523,6 +607,12 @@
               "description": "Consulte o exemplo local e a referência do SEBRAE. Adapte o enquadramento à simulação moçambicana.",
               "required": true,
               "status": "completed",
+              "simulatedParticipants": [
+                {
+                  "name": "João Tembe",
+                  "contribution": "Participação em «Consultar exemplos e orientações»; preparação e partilha das notas com a equipa."
+                }
+              ],
               "resource": "apoio/plano-negocios.html",
               "dependsOn": [
                 "b01-a03-t02",
@@ -540,6 +630,12 @@
               "accepts": [
                 "docx",
                 "pdf"
+              ],
+              "simulatedParticipants": [
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Revisão e submissão da evidência: Criar e entregar o plano de negócios."
+                }
               ],
               "resource": "apoio/modelo-plano-negocios.docx",
               "dependsOn": [
@@ -571,15 +667,15 @@
           "simulatedParticipants": [
             {
               "name": "Ana Machava",
-              "contribution": "Coordenação da actividade, revisão e submissão dos resultados."
+              "contribution": "Redacção da proposta e revisão do plano de negócios."
             },
             {
               "name": "João Tembe",
-              "contribution": "Pesquisa, preparação dos dados e conferência das fontes."
+              "contribution": "Preparação das hipóteses de vendas e verificação da viabilidade."
             },
             {
               "name": "António Sitoe",
-              "contribution": "Organização dos documentos e verificação com a equipa."
+              "contribution": "Organização dos documentos de apoio e revisão dos riscos."
             }
           ]
         },
@@ -596,6 +692,12 @@
               "description": "Prepare o objectivo, as perguntas, os participantes e a forma de registar evidências.",
               "required": true,
               "status": "completed",
+              "simulatedParticipants": [
+                {
+                  "name": "António Sitoe",
+                  "contribution": "Participação em «Consultar o guia da auditoria I»; preparação e partilha das notas com a equipa."
+                }
+              ],
               "resource": "apoio/guia-auditoria.pdf",
               "preview": "apoio/guia-auditoria-preview.png",
               "dependsOn": [
@@ -614,6 +716,12 @@
               "accepts": [
                 "pdf",
                 "docx"
+              ],
+              "simulatedParticipants": [
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Revisão e submissão da evidência: Submeter o relatório de auditoria I."
+                }
               ],
               "resource": "apoio/exemplo-auditoria.pdf",
               "preview": "apoio/exemplo-auditoria-preview.png",
@@ -639,16 +747,12 @@
           ],
           "simulatedParticipants": [
             {
-              "name": "Ana Machava",
-              "contribution": "Coordenação da actividade, revisão e submissão dos resultados."
-            },
-            {
-              "name": "João Tembe",
-              "contribution": "Pesquisa, preparação dos dados e conferência das fontes."
-            },
-            {
               "name": "António Sitoe",
-              "contribution": "Organização dos documentos e verificação com a equipa."
+              "contribution": "Recolha das evidências e organização do relatório de auditoria I."
+            },
+            {
+              "name": "Ana Machava",
+              "contribution": "Revisão das conclusões e submissão do relatório."
             }
           ]
         }
@@ -673,6 +777,16 @@
               "description": "Explore a informação pública do Balcão de Atendimento Único e identifique onde confirmar os requisitos. Não submeta pedidos reais.",
               "required": true,
               "status": "completed",
+              "simulatedParticipants": [
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Consulta dos requisitos no portal do BAU."
+                },
+                {
+                  "name": "João Tembe",
+                  "contribution": "Organização das notas sobre os documentos exigidos."
+                }
+              ],
               "resource": "https://www.bau.gov.mz/",
               "dependsOn": [
                 "b01-a03-t02",
@@ -730,6 +844,12 @@
                 }
               ],
               "passPercent": 70,
+              "simulatedParticipants": [
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Resposta ao quiz sobre constituição e licenciamento."
+                }
+              ],
               "dependsOn": [
                 "b01-a03-t02",
                 "b01-a03-t03"
@@ -749,6 +869,16 @@
               "description": "Escolha a denominação com a equipa e confirme a reserva simulada do nome.",
               "required": true,
               "status": "completed",
+              "simulatedParticipants": [
+                {
+                  "name": "João Tembe",
+                  "contribution": "Verificação e preparação do pedido de reserva do nome."
+                },
+                {
+                  "name": "António Sitoe",
+                  "contribution": "Conferência da denominação escolhida pela equipa."
+                }
+              ],
               "dependsOn": [
                 "b01-a03-t02",
                 "b01-a03-t03",
@@ -763,6 +893,16 @@
               "description": "Identifique os membros da empresa e confirme a aceitação dos convites na simulação.",
               "required": true,
               "status": "completed",
+              "simulatedParticipants": [
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Preparação dos convites aos sócios."
+                },
+                {
+                  "name": "António Sitoe",
+                  "contribution": "Conferência dos contactos e dos dados dos convidados."
+                }
+              ],
               "dependsOn": [
                 "b01-a03-t02",
                 "b01-a03-t03",
@@ -777,6 +917,16 @@
               "description": "Preencha e confirme o formulário de registo local da empresa.",
               "required": true,
               "status": "in-progress",
+              "simulatedParticipants": [
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Preenchimento do formulário de registo da empresa."
+                },
+                {
+                  "name": "João Tembe",
+                  "contribution": "Conferência do NUIT, da morada e do capital social."
+                }
+              ],
               "dependsOn": [
                 "b01-a03-t02",
                 "b01-a03-t03",
@@ -790,6 +940,12 @@
               "description": "Confirme a preparação dos dados necessários à declaração de início de actividades. Esta confirmação é exclusivamente pedagógica.",
               "required": true,
               "status": "not-started",
+              "simulatedParticipants": [
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Preparação e conferência da declaração de início de actividades."
+                }
+              ],
               "dependsOn": [
                 "b01-a03-t02",
                 "b01-a03-t03",
@@ -806,6 +962,16 @@
               "accepts": [
                 "pdf"
               ],
+              "simulatedParticipants": [
+                {
+                  "name": "António Sitoe",
+                  "contribution": "Organização do documento de publicação."
+                },
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Revisão e submissão da evidência."
+                }
+              ],
               "resource": "apoio/exemplo-publicacao.pdf",
               "preview": "apoio/exemplo-publicacao-preview.png",
               "dependsOn": [
@@ -819,15 +985,15 @@
           "simulatedParticipants": [
             {
               "name": "Ana Machava",
-              "contribution": "Coordenação da actividade, revisão e submissão dos resultados."
+              "contribution": "Consulta do portal do BAU, quiz e preparação do registo da empresa."
             },
             {
               "name": "João Tembe",
-              "contribution": "Pesquisa, preparação dos dados e conferência das fontes."
+              "contribution": "Conferência do nome, dos dados dos sócios e dos elementos do pedido."
             },
             {
               "name": "António Sitoe",
-              "contribution": "Organização dos documentos e verificação com a equipa."
+              "contribution": "Organização dos documentos de constituição e dos convites aos sócios."
             }
           ]
         },
@@ -844,6 +1010,12 @@
               "description": "Leia a convenção de nomes, os separadores e a regra de conservação das versões. Esta leitura antecede as operações de arquivo.",
               "required": true,
               "status": "not-started",
+              "simulatedParticipants": [
+                {
+                  "name": "António Sitoe",
+                  "contribution": "Participação em «Consultar o guia de organização documental»; preparação e partilha das notas com a equipa."
+                }
+              ],
               "resource": "apoio/guia-arquivo.pdf",
               "preview": "apoio/guia-arquivo-preview.png",
               "dependsOn": [
@@ -858,6 +1030,16 @@
               "description": "Crie separadores para constituição, contratos, vendas, compras, recursos humanos e banca.",
               "required": true,
               "status": "not-started",
+              "simulatedParticipants": [
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Participação em «Gerar os separadores do arquivo»; preparação e partilha das notas com a equipa."
+                },
+                {
+                  "name": "António Sitoe",
+                  "contribution": "Conferência dos elementos da tarefa «Gerar os separadores do arquivo» com a equipa."
+                }
+              ],
               "dependsOn": [
                 "b01-a03-t02",
                 "b01-a03-t03",
@@ -871,6 +1053,16 @@
               "description": "Organize as pastas e confirme que a equipa consegue localizar os documentos.",
               "required": true,
               "status": "not-started",
+              "simulatedParticipants": [
+                {
+                  "name": "António Sitoe",
+                  "contribution": "Participação em «Criar as pastas da empresa»; preparação e partilha das notas com a equipa."
+                },
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Conferência dos elementos da tarefa «Criar as pastas da empresa» com a equipa."
+                }
+              ],
               "dependsOn": [
                 "b01-a03-t02",
                 "b01-a03-t03",
@@ -881,16 +1073,12 @@
           "materials": [],
           "simulatedParticipants": [
             {
-              "name": "Ana Machava",
-              "contribution": "Coordenação da actividade, revisão e submissão dos resultados."
-            },
-            {
-              "name": "João Tembe",
-              "contribution": "Pesquisa, preparação dos dados e conferência das fontes."
-            },
-            {
               "name": "António Sitoe",
-              "contribution": "Organização dos documentos e verificação com a equipa."
+              "contribution": "Classificação dos documentos e organização do arquivo da empresa."
+            },
+            {
+              "name": "Ana Machava",
+              "contribution": "Revisão dos nomes e da localização das evidências."
             }
           ]
         },
@@ -907,6 +1095,16 @@
               "description": "Registe na simulação os contratos de instalações, água, electricidade e internet. Compare condições e arquive os documentos.",
               "required": true,
               "status": "not-started",
+              "simulatedParticipants": [
+                {
+                  "name": "João Tembe",
+                  "contribution": "Participação em «Celebrar contratos de custos fixos»; preparação e partilha das notas com a equipa."
+                },
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Conferência dos elementos da tarefa «Celebrar contratos de custos fixos» com a equipa."
+                }
+              ],
               "dependsOn": [
                 "b01-a03-t02",
                 "b01-a03-t03",
@@ -920,6 +1118,16 @@
               "description": "Confirme os dados da empresa, simule a abertura de conta e arquive a documentação.",
               "required": true,
               "status": "not-started",
+              "simulatedParticipants": [
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Participação em «Abrir a conta bancária»; preparação e partilha das notas com a equipa."
+                },
+                {
+                  "name": "João Tembe",
+                  "contribution": "Conferência dos elementos da tarefa «Abrir a conta bancária» com a equipa."
+                }
+              ],
               "dependsOn": [
                 "b01-a03-t02",
                 "b01-a03-t03",
@@ -930,16 +1138,12 @@
           "materials": [],
           "simulatedParticipants": [
             {
-              "name": "Ana Machava",
-              "contribution": "Coordenação da actividade, revisão e submissão dos resultados."
-            },
-            {
               "name": "João Tembe",
-              "contribution": "Pesquisa, preparação dos dados e conferência das fontes."
+              "contribution": "Comparação das condições dos serviços essenciais."
             },
             {
-              "name": "António Sitoe",
-              "contribution": "Organização dos documentos e verificação com a equipa."
+              "name": "Ana Machava",
+              "contribution": "Revisão dos contratos e confirmação dos dados da empresa."
             }
           ]
         }
@@ -964,6 +1168,12 @@
               "description": "Consulte o guia de criação de imagens, prepare o pedido e reveja o resultado com a equipa.",
               "required": true,
               "status": "not-started",
+              "simulatedParticipants": [
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Participação em «Criar o logótipo da empresa»; preparação e partilha das notas com a equipa."
+                }
+              ],
               "resource": "apoio/identidade-visual.html",
               "dependsOn": [
                 "b01-a03-t02",
@@ -980,6 +1190,12 @@
               "accepts": [
                 "xlsx",
                 "pdf"
+              ],
+              "simulatedParticipants": [
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Revisão e submissão da evidência: Elaborar a lista de recursos."
+                }
               ],
               "resource": "apoio/modelo-recursos.xlsx",
               "dependsOn": [
@@ -998,6 +1214,12 @@
                 "xlsx",
                 "pdf"
               ],
+              "simulatedParticipants": [
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Revisão e submissão da evidência: Elaborar o plano de vendas."
+                }
+              ],
               "resource": "apoio/modelo-vendas.xlsx",
               "dependsOn": [
                 "b01-a03-t02",
@@ -1011,6 +1233,16 @@
               "description": "Prepare um cartão com nome da empresa, proposta de valor e contactos fictícios. Publique-o no Hub social e confirme a partilha.",
               "required": true,
               "status": "not-started",
+              "simulatedParticipants": [
+                {
+                  "name": "António Sitoe",
+                  "contribution": "Participação em «Criar e publicar o cartão de visita»; preparação e partilha das notas com a equipa."
+                },
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Conferência dos elementos da tarefa «Criar e publicar o cartão de visita» com a equipa."
+                }
+              ],
               "dependsOn": [
                 "b01-a03-t02",
                 "b01-a03-t03"
@@ -1040,15 +1272,11 @@
           "simulatedParticipants": [
             {
               "name": "Ana Machava",
-              "contribution": "Coordenação da actividade, revisão e submissão dos resultados."
-            },
-            {
-              "name": "João Tembe",
-              "contribution": "Pesquisa, preparação dos dados e conferência das fontes."
+              "contribution": "Definição da oferta e preparação da apresentação da empresa."
             },
             {
               "name": "António Sitoe",
-              "contribution": "Organização dos documentos e verificação com a equipa."
+              "contribution": "Organização dos materiais de divulgação e revisão da identidade visual."
             }
           ]
         },
@@ -1065,6 +1293,16 @@
               "description": "Complete os dados de identificação, contactos e área de actividade da empresa na simulação.",
               "required": true,
               "status": "not-started",
+              "simulatedParticipants": [
+                {
+                  "name": "João Tembe",
+                  "contribution": "Participação em «Actualizar o perfil comercial»; preparação e partilha das notas com a equipa."
+                },
+                {
+                  "name": "António Sitoe",
+                  "contribution": "Conferência dos elementos da tarefa «Actualizar o perfil comercial» com a equipa."
+                }
+              ],
               "dependsOn": [
                 "b01-a03-t02",
                 "b01-a03-t03"
@@ -1077,6 +1315,16 @@
               "description": "Defina o catálogo com descrição, unidade, preço e pressupostos utilizados.",
               "required": true,
               "status": "not-started",
+              "simulatedParticipants": [
+                {
+                  "name": "António Sitoe",
+                  "contribution": "Participação em «Registar produtos, serviços e preços»; preparação e partilha das notas com a equipa."
+                },
+                {
+                  "name": "João Tembe",
+                  "contribution": "Conferência dos elementos da tarefa «Registar produtos, serviços e preços» com a equipa."
+                }
+              ],
               "dependsOn": [
                 "b01-a03-t02",
                 "b01-a03-t03"
@@ -1089,6 +1337,16 @@
               "description": "Use o guia para pesquisar parceiros, preparar contactos e comparar propostas. Confirme a conclusão da prospecção simulada.",
               "required": true,
               "status": "not-started",
+              "simulatedParticipants": [
+                {
+                  "name": "João Tembe",
+                  "contribution": "Participação em «Prospectar clientes e fornecedores»; preparação e partilha das notas com a equipa."
+                },
+                {
+                  "name": "António Sitoe",
+                  "contribution": "Conferência dos elementos da tarefa «Prospectar clientes e fornecedores» com a equipa."
+                }
+              ],
               "resource": "apoio/guia-prospeccao.pdf",
               "preview": "apoio/guia-prospeccao-preview.png",
               "dependsOn": [
@@ -1103,6 +1361,16 @@
               "description": "Organize os parceiros seleccionados e verifique contactos e condições comerciais.",
               "required": true,
               "status": "not-started",
+              "simulatedParticipants": [
+                {
+                  "name": "António Sitoe",
+                  "contribution": "Participação em «Registar clientes e fornecedores»; preparação e partilha das notas com a equipa."
+                },
+                {
+                  "name": "João Tembe",
+                  "contribution": "Conferência dos elementos da tarefa «Registar clientes e fornecedores» com a equipa."
+                }
+              ],
               "dependsOn": [
                 "b01-a03-t02",
                 "b01-a03-t03",
@@ -1120,16 +1388,12 @@
           ],
           "simulatedParticipants": [
             {
-              "name": "Ana Machava",
-              "contribution": "Coordenação da actividade, revisão e submissão dos resultados."
-            },
-            {
               "name": "João Tembe",
-              "contribution": "Pesquisa, preparação dos dados e conferência das fontes."
+              "contribution": "Preparação do catálogo, dos preços e dos dados comerciais."
             },
             {
               "name": "António Sitoe",
-              "contribution": "Organização dos documentos e verificação com a equipa."
+              "contribution": "Conferência dos artigos e dos documentos de venda."
             }
           ]
         },
@@ -1146,6 +1410,16 @@
               "description": "Confirme identificação e contactos da empresa no módulo de recursos humanos.",
               "required": true,
               "status": "not-started",
+              "simulatedParticipants": [
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Participação em «Actualizar o perfil da empresa em RH»; preparação e partilha das notas com a equipa."
+                },
+                {
+                  "name": "João Tembe",
+                  "contribution": "Conferência dos elementos da tarefa «Actualizar o perfil da empresa em RH» com a equipa."
+                }
+              ],
               "dependsOn": [
                 "b01-a03-t02",
                 "b01-a03-t03"
@@ -1158,6 +1432,16 @@
               "description": "Prepare os dados fictícios dos trabalhadores, funções e condições do exercício.",
               "required": true,
               "status": "not-started",
+              "simulatedParticipants": [
+                {
+                  "name": "João Tembe",
+                  "contribution": "Participação em «Registar os trabalhadores»; preparação e partilha das notas com a equipa."
+                },
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Conferência dos elementos da tarefa «Registar os trabalhadores» com a equipa."
+                }
+              ],
               "dependsOn": [
                 "b01-a03-t02",
                 "b01-a03-t03"
@@ -1170,6 +1454,16 @@
               "description": "Confirme a preparação da inscrição simulada da empresa e dos trabalhadores. Os campos reais serão definidos na integração.",
               "required": true,
               "status": "not-started",
+              "simulatedParticipants": [
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Participação em «Preparar a inscrição no INSS»; preparação e partilha das notas com a equipa."
+                },
+                {
+                  "name": "João Tembe",
+                  "contribution": "Conferência dos elementos da tarefa «Preparar a inscrição no INSS» com a equipa."
+                }
+              ],
               "dependsOn": [
                 "b01-a03-t02",
                 "b01-a03-t03"
@@ -1182,6 +1476,16 @@
               "description": "Confira a relação de trabalhadores e arquive o documento na pasta de recursos humanos.",
               "required": true,
               "status": "not-started",
+              "simulatedParticipants": [
+                {
+                  "name": "João Tembe",
+                  "contribution": "Participação em «Gerar e arquivar a relação nominal»; preparação e partilha das notas com a equipa."
+                },
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Conferência dos elementos da tarefa «Gerar e arquivar a relação nominal» com a equipa."
+                }
+              ],
               "dependsOn": [
                 "b01-a03-t02",
                 "b01-a03-t03"
@@ -1199,15 +1503,11 @@
           "simulatedParticipants": [
             {
               "name": "Ana Machava",
-              "contribution": "Coordenação da actividade, revisão e submissão dos resultados."
+              "contribution": "Preparação dos dados da equipa e das funções."
             },
             {
               "name": "João Tembe",
-              "contribution": "Pesquisa, preparação dos dados e conferência das fontes."
-            },
-            {
-              "name": "António Sitoe",
-              "contribution": "Organização dos documentos e verificação com a equipa."
+              "contribution": "Conferência dos elementos necessários aos registos de recursos humanos."
             }
           ]
         },
@@ -1224,6 +1524,16 @@
               "description": "Extraia os comprovativos das operações simuladas e arquive-os com referências que permitam a conferência.",
               "required": true,
               "status": "not-started",
+              "simulatedParticipants": [
+                {
+                  "name": "João Tembe",
+                  "contribution": "Participação em «Arquivar os comprovativos dos encargos iniciais»; preparação e partilha das notas com a equipa."
+                },
+                {
+                  "name": "António Sitoe",
+                  "contribution": "Conferência dos elementos da tarefa «Arquivar os comprovativos dos encargos iniciais» com a equipa."
+                }
+              ],
               "dependsOn": [
                 "b01-a03-t02",
                 "b01-a03-t03"
@@ -1236,6 +1546,16 @@
               "description": "Indique finalidade, montante e capacidade de reembolso. Compare pressupostos antes de confirmar a simulação.",
               "required": true,
               "status": "not-started",
+              "simulatedParticipants": [
+                {
+                  "name": "António Sitoe",
+                  "contribution": "Participação em «Simular o pedido de financiamento»; preparação e partilha das notas com a equipa."
+                },
+                {
+                  "name": "João Tembe",
+                  "contribution": "Conferência dos elementos da tarefa «Simular o pedido de financiamento» com a equipa."
+                }
+              ],
               "dependsOn": [
                 "b01-a03-t02",
                 "b01-a03-t03"
@@ -1245,16 +1565,12 @@
           "materials": [],
           "simulatedParticipants": [
             {
-              "name": "Ana Machava",
-              "contribution": "Coordenação da actividade, revisão e submissão dos resultados."
-            },
-            {
               "name": "João Tembe",
-              "contribution": "Pesquisa, preparação dos dados e conferência das fontes."
+              "contribution": "Preparação dos dados para a conta bancária da empresa."
             },
             {
               "name": "António Sitoe",
-              "contribution": "Organização dos documentos e verificação com a equipa."
+              "contribution": "Organização dos documentos bancários e revisão dos movimentos de exemplo."
             }
           ]
         },
@@ -1328,6 +1644,12 @@
                 }
               ],
               "passPercent": 100,
+              "simulatedParticipants": [
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Resposta a «Verificar a preparação da empresa» e revisão do resultado."
+                }
+              ],
               "dependsOn": [
                 "b01-a03-t02",
                 "b01-a03-t03",
@@ -1355,6 +1677,12 @@
               "required": true,
               "status": "not-started",
               "cover": "apoio/capa-mercado.png",
+              "simulatedParticipants": [
+                {
+                  "name": "António Sitoe",
+                  "contribution": "Participação em «Boas-vindas ao mercado»; preparação e partilha das notas com a equipa."
+                }
+              ],
               "resource": "apoio/capa-mercado.png",
               "dependsOn": [
                 "b01-a03-t02",
@@ -1380,15 +1708,11 @@
           "simulatedParticipants": [
             {
               "name": "Ana Machava",
-              "contribution": "Coordenação da actividade, revisão e submissão dos resultados."
-            },
-            {
-              "name": "João Tembe",
-              "contribution": "Pesquisa, preparação dos dados e conferência das fontes."
+              "contribution": "Revisão das dúvidas da equipa para a orientação do docente."
             },
             {
               "name": "António Sitoe",
-              "contribution": "Organização dos documentos e verificação com a equipa."
+              "contribution": "Organização das evidências e dos pontos a confirmar antes de avançar."
             }
           ]
         }

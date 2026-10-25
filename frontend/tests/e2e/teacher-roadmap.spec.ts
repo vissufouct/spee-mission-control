@@ -3,15 +3,21 @@ import { expect, test } from '@playwright/test'
 const home = '/docente/mission-control'
 const company = (id: string, block: string) => `${home}/empresas/${id}?bloco=${block}`
 
-test('matriz mostra os cinco blocos e as duas empresas independentemente do exemplo seleccionado', async ({ page }) => {
+test('matriz mostra os cinco blocos e dez empresas independentemente do exemplo seleccionado', async ({ page }) => {
   await page.goto('/estudante/percurso?exemplo=2')
   await page.goto(home)
   const matrix = page.getByRole('table')
-  await expect(matrix.getByRole('row')).toHaveCount(3)
+  await expect(matrix.getByRole('row')).toHaveCount(11)
   await expect(matrix.getByRole('columnheader')).toHaveCount(6)
-  await expect(matrix.getByText('47% · Exemplo 1')).toBeVisible()
-  await expect(matrix.getByText('0% · Exemplo 2')).toBeVisible()
-  await expect(page.getByText('24%', { exact: true })).toBeVisible()
+  await expect(matrix.getByRole('row').filter({ has: page.getByRole('button', { name: 'Horizonte Verde, Lda.', exact: true }) }).getByText('47%', { exact: true })).toBeVisible()
+  await expect(matrix.getByText('0%', { exact: true })).toBeVisible()
+  await expect(matrix.getByText(/Exemplo [12]/)).toHaveCount(0)
+  await expect(page.getByText('45%', { exact: true })).toBeVisible()
+  for (const [turma, rows] of [['turma-a', 5], ['turma-b', 4], ['turma-c', 4]] as const) {
+    await page.getByLabel('Turma').selectOption(turma)
+    await expect(matrix.getByRole('row')).toHaveCount(rows)
+  }
+  await page.getByLabel('Limpar filtros', { exact: true }).click()
   await page.getByLabel('Filtrar Acolhimento e preparação').selectOption('completed')
   await expect(matrix.getByRole('button', { name: 'Horizonte Verde, Lda.', exact: true })).toBeVisible()
   await expect(matrix.getByRole('button', { name: 'Nascente Criativa, Lda.', exact: true })).toHaveCount(0)
@@ -23,6 +29,26 @@ test('matriz mostra os cinco blocos e as duas empresas independentemente do exem
   await expect(page.getByLabel('Filtrar Primeiro ano fiscal')).toBeDisabled()
   await page.getByRole('button', { name: 'Nascente Criativa, Lda. · Primeiro ano fiscal · Brevemente', exact: true }).click()
   await expect(page.getByText('Este bloco ainda não tem actividades definidas no roteiro.')).toBeVisible()
+})
+
+test('pesquisa participantes das novas empresas e consulta as suas tarefas', async ({ page }) => {
+  await page.goto(home)
+  await page.getByLabel('Pesquisar empresa ou estudante').fill('Nadia Muave')
+  const matrix = page.getByRole('table')
+  await expect(matrix.getByRole('row')).toHaveCount(2)
+  await matrix.getByRole('button', { name: 'Lúrio Digital, Lda.', exact: true }).click()
+  await expect(page.getByRole('heading', { name: 'Percurso da empresa', exact: true }).first()).toBeVisible()
+  await page.goto(company('maputo-solucoes', 'ideacao'))
+  await page.getByRole('button', { name: 'Detalhes de Encontrar uma ideia de negócio' }).click()
+  const dialog = page.getByRole('dialog')
+  await expect(dialog.getByText('(4 de 4 concluídas)')).toBeVisible()
+  await dialog.getByText('Pontuação: 4/5 (80%) · Ver respostas', { exact: true }).click()
+  await expect(dialog.getByText(/^Resposta:/)).toHaveCount(5)
+  await dialog.getByRole('button', { name: 'Fechar', exact: true }).click()
+  await page.getByRole('button', { name: 'Detalhes de Auditoria I — trabalho de campo' }).click()
+  await expect(dialog.getByText(/maputo-solucoes-b02-a04-t02.pdf/)).toBeVisible()
+  await expect(dialog.getByText('Ficheiro não disponível neste cenário.')).toBeVisible()
+  await expect(dialog.getByRole('link', { name: /Consultar ficheiro submetido/ })).toHaveCount(0)
 })
 
 test('detalhes conservam quiz, submissão e estados reais de cada empresa', async ({ page }, info) => {
@@ -65,7 +91,8 @@ test('uma tarefa realizada no segundo exemplo surge só na Nascente Criativa', a
   await page.goto(company('horizonte-verde', 'acolhimento'))
   await page.getByRole('button', { name: 'Detalhes de Boas-vindas' }).click()
   await expect(dialog.getByText('(2 de 2 concluídas)')).toBeVisible()
-  await expect(dialog.getByText('Ainda sem evidência individual.')).toBeVisible()
+  await expect(dialog.getByText('Ana Machava, João Tembe', { exact: true })).toBeVisible()
+  await expect(dialog.getByText(/Inclui participação simulada das tarefas/)).toBeVisible()
   await page.goto(home)
   await page.setViewportSize({ width: 390, height: 844 })
   await expect(page.getByRole('heading', { name: 'Painel do Docente' })).toBeVisible()
@@ -74,8 +101,66 @@ test('uma tarefa realizada no segundo exemplo surge só na Nascente Criativa', a
 })
 
 test('roteiro do docente funciona isolado do shell', async ({ page }) => {
-  await page.goto('http://127.0.0.1:6006/iframe.html?id=docente-roteiro-com-duas-empresas-sem-appshell--with-data&viewMode=story')
+  await page.goto('http://127.0.0.1:6006/iframe.html?id=docente-roteiro-com-dez-empresas-sem-appshell--with-data&viewMode=story')
   await expect(page.getByRole('heading', { name: 'Painel do Docente', exact: true })).toBeVisible()
-  await expect(page.getByRole('table').getByRole('row')).toHaveCount(3)
+  await expect(page.getByRole('table').getByRole('row')).toHaveCount(11)
   await expect(page.getByText('Simulador Empresarial', { exact: true })).toHaveCount(0)
+})
+
+
+test('actividades concluídas apresentam participação simulada coerente sem alterar progresso', async ({ page }, info) => {
+  await page.goto(company('horizonte-verde', 'acolhimento'))
+  const table = page.getByRole('region', { name: 'Actividades do bloco' }).getByRole('table')
+  for (const [activity, people] of [['Boas-vindas', 'Ana Machava + João Tembe'], ['Conhecer a simulação', 'João Tembe + António Sitoe'], ['Recapitular e confirmar', 'Ana Machava']]) {
+    const row = table.getByRole('row').filter({ has: page.getByRole('rowheader', { name: activity + ' Roteiro de Tarefas', exact: true }) })
+    await expect(row.getByRole('cell').first()).toHaveText(people)
+  }
+  await expect(page.getByText('47%', { exact: true })).toBeVisible()
+  await page.screenshot({ path: info.outputPath('docente-participantes-acolhimento.png'), fullPage: true })
+  await page.getByRole('button', { name: 'Detalhes de Boas-vindas' }).click()
+  const dialog = page.getByRole('dialog')
+  await expect(dialog.getByText('Ana Machava, João Tembe', { exact: true })).toBeVisible()
+  await expect(dialog.getByText(/Inclui participação simulada das tarefas/)).toBeVisible()
+  await page.screenshot({ path: info.outputPath('docente-participantes-detalhe.png'), fullPage: true })
+  await page.reload()
+  await expect(table.getByText('Sem evidência', { exact: true })).toHaveCount(0)
+  await expect(page.getByText('47%', { exact: true })).toBeVisible()
+  await page.goto(company('horizonte-verde', 'ideacao'))
+  await expect(table.getByRole('row')).toHaveCount(5)
+  await expect(table.getByText('Sem evidência', { exact: true })).toHaveCount(0)
+  await page.goto(company('nascente-criativa', 'acolhimento'))
+  await expect(table.getByText('Sem evidência', { exact: true })).toHaveCount(3)
+  await expect(page.getByText('0%', { exact: true })).toBeVisible()
+  await page.goto('http://127.0.0.1:6006/iframe.html?id=docente-roteiro-com-dez-empresas-sem-appshell--completed-participation&viewMode=story')
+  await expect(table.getByRole('row')).toHaveCount(4)
+  await expect(table.getByText('Sem evidência', { exact: true })).toHaveCount(0)
+  await expect(page.getByText('Simulador Empresarial', { exact: true })).toHaveCount(0)
+})
+
+ test('quiz apresenta a pontuação individual e os participantes que não concluíram', async ({ page }) => {
+  await page.goto(company('horizonte-verde', 'constituicao'))
+  await page.getByRole('button', { name: 'Detalhes de Constituição legal da empresa' }).click()
+  const results = page.getByRole('region', { name: 'Resultados por participante: Quiz sobre constituição e licenciamento', exact: true })
+  await expect(results).toContainText('Ana Machava')
+  await expect(results).toContainText('João Tembe')
+  await expect(results).toContainText('António Sitoe')
+  await expect(results.getByText('Não concluído', { exact: true })).toHaveCount(2)
+  await results.getByText('Pontuação: 4/4 (100%) · Ver respostas', { exact: true }).click()
+  await expect(results.getByText(/^Resposta:/)).toHaveCount(4)
+})
+
+ test('universidade junto ao título e comunicações simuladas disponíveis', async ({ page }) => {
+  await page.goto(home)
+  const title = await page.getByRole('heading', { name: 'Painel do Docente', exact: true }).boundingBox()
+  const university = await page.getByLabel('Universidade', { exact: true }).boundingBox()
+  expect(Math.abs(title!.y - university!.y)).toBeLessThan(20)
+  await page.getByRole('button', { name: '5 Pedidos de orientação', exact: true }).click()
+  await expect(page.getByRole('navigation', { name: 'Lista de pedidos de orientação' }).getByRole('button')).toHaveCount(5)
+  await expect(page.getByRole('dialog')).toContainText('Actualizar o perfil da empresa em RH')
+  await page.getByRole('button', { name: 'Fechar', exact: true }).click()
+  await expect(page.getByText('Verificar os dados antes de registar a empresa', { exact: true })).toBeVisible()
+  await expect(page.getByText('Fundamentar as previsões do plano de negócios', { exact: true })).toBeVisible()
+  await page.setViewportSize({ width: 390, height: 844 })
+  await expect(page.getByLabel('Universidade', { exact: true })).toBeVisible()
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true)
 })

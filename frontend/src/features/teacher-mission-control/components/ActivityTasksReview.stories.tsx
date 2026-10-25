@@ -12,3 +12,8 @@ export default meta
 type Story = StoryObj<typeof meta>
 export const WithData: Story = {}
 export const Empty: Story = { args: { tasks: [] } }
+
+export const IndividualQuizResults: Story = { args: {
+  participants: company.participants,
+  tasks: company.activities.find(item => item.id === 'definir-ideia')!.tasks!.filter(task => task.kind === 'quiz').map(task => ({ ...task, quizResults: [{ participantId: company.participants[0].id, answers: task.answers! }] })),
+} }

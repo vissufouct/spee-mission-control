@@ -7,7 +7,7 @@ Aplicar primeiro o AGENTS.md da raiz. Esta feature fornece conteúdo funcional; 
 - Requisitos: output/mission_control_unificado/PRD_01_Mission_Control_Docente.md, PRD_00_Mission_Control_Comum.md e PRD_03_Decisoes_Pendentes.md.
 - Referências visuais: série docente v3, três ecrãs em output/mockups/docente_v3/.
 - Dados fictícios, prazos relativos à data fixa context.asOf. Não apresentar estes alertas como monitorização em tempo real.
-- Progresso e participação exigem evidência; abrir páginas, preparar rascunhos ou registar orientações não conclui actividades.
+- Progresso e autoria confirmada exigem evidência; abrir páginas, preparar rascunhos ou registar orientações não conclui actividades.
 - Colaboração pode envolver vários actores no mesmo evento. Nunca somar participações como eventos únicos; separar sistemas de pessoas e não ordenar pessoas pelo desempenho.
 
 ## Persistência e composição
@@ -16,7 +16,11 @@ TeacherRepository é a fronteira assíncrona. O provider recebe o repository; s�
 
 Horizonte Verde e Nascente Criativa são projectadas simultaneamente a partir dos respectivos repositories do estudante por um adaptador de composição em app/providers. A ligação é injectada como função de leitura, não uma dependência entre features. Depois de mutações, invalidar a consulta: o retorno bruto persistido do docente não contém a projecção actual do estudante.
 
-Os estados iniciais podem apoiar-se em tarefas obrigatórias concluídas e datadas; não fabricar eventos, comprovativos ou autoria humana. Não herdar prazos ou resultados de outras empresas. Comunicações devem manter a empresa de origem, incluindo na migração do armazenamento docente para a vista conjunta. Os contratos completos de eventos/versionamento continuam pendentes.
+Por pedido do utilizador, apresentar participantes simulados nas actividades concluídas, em `simulatedParticipantIds`, separados de `participantIds` com evidência. A composição reúne os metadados das tarefas concluídas e limita-os aos membros da empresa. Não criar eventos, resultados ou progresso a partir destes metadados; a pista e as métricas com evidência permanecem inalteradas. Tabela, matriz e detalhe usam a mesma síntese e assinalam a proveniência discretamente.
+
+Nas duas empresas projectadas do estudante, os estados iniciais podem apoiar-se em tarefas obrigatórias concluídas e datadas; não fabricar eventos, comprovativos ou autoria humana. Não herdar prazos ou resultados de outras empresas. Comunicações devem manter a empresa de origem, incluindo na migração do armazenamento docente para a vista conjunta. Os contratos completos de eventos/versionamento continuam pendentes.
+
+A matriz inclui ainda oito empresas fictícias independentes, geradas com o roteiro actual e equipas próprias. Os seus registos simulados nunca substituem as duas origens do estudante. Acrescentar apenas IDs ausentes ao carregar snapshots anteriores; preservar revisão e comunicações. Não ligar submissões sem ficheiro ao documento de outra empresa.
 
 ## Orientações
 

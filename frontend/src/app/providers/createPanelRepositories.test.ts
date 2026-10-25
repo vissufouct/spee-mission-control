@@ -11,12 +11,75 @@ function setup() {
   return { data, storage, one: createPanelRepositories(storage, '1'), two: createPanelRepositories(storage, '2') }
 }
 
-describe('docente: duas empresas do mesmo roteiro', () => {
+describe('docente: dez empresas do mesmo roteiro', () => {
+  it('inclui cinco pedidos distintos e duas orientações, preservando respostas na migração', async () => {
+    const { one, storage, data } = setup()
+    const seed = await one.teacher.getSnapshot()
+    expect(seed.orientationRequests).toHaveLength(5)
+    expect(new Set(seed.orientationRequests.map(item => item.subject)).size).toBe(5)
+    expect(seed.orientationRequests.every(item => item.status === 'awaiting-teacher')).toBe(true)
+    expect(seed.generalOrientations).toHaveLength(2)
+    const old = structuredClone(seed)
+    delete old.demoCommunicationsVersion
+    old.orientationRequests = []
+    old.generalOrientations = []
+    const key = 'spee.roadmap-2026.teacher.shared.v1'
+    data.set(key, JSON.stringify(old))
+    const migrated = await createPanelRepositories(storage, '1').teacher.getSnapshot()
+    expect(migrated.orientationRequests).toHaveLength(5)
+    expect(migrated.generalOrientations).toHaveLength(2)
+    expect(migrated.companies).toEqual(seed.companies)
+    migrated.orientationRequests[0].status = 'awaiting-student'
+    migrated.generalOrientations.pop()
+    data.set(key, JSON.stringify(migrated))
+    const again = await createPanelRepositories(storage, '1').teacher.getSnapshot()
+    expect(again.orientationRequests[0].status).toBe('awaiting-student')
+    expect(again.generalOrientations).toHaveLength(1)
+  })
+
+  it('atribui a resposta do quiz ao estudante do cenário, sem copiar a pontuação para a equipa', async () => {
+    const { one } = setup()
+    const snapshot = await one.teacher.getSnapshot()
+    const company = snapshot.companies.find(item => item.id === 'horizonte-verde')!
+    const quiz = company.activities.find(item => item.id === 'registar-empresa')!.tasks!.find(task => task.kind === 'quiz')!
+    expect(quiz.quizResults).toHaveLength(1)
+    expect(company.participants.find(person => person.id === quiz.quizResults![0].participantId)?.name).toBe('Ana Machava')
+    expect(quiz.quizResults![0].answers).toEqual(quiz.answers)
+    expect(snapshot.companies.find(item => item.id === 'nascente-criativa')!.activities.flatMap(item => item.tasks ?? []).filter(task => task.kind === 'quiz').every(task => task.quizResults?.length === 0)).toBe(true)
+  })
+
+  it('preenche participação ilustrativa nas conclusões sem fabricar eventos ou alterar os exemplos', async () => {
+    const { one, two, data } = setup()
+    const before = [await one.student.getSnapshot(), await two.student.getSnapshot()]
+    const snapshot = await one.teacher.getSnapshot()
+    for (const company of snapshot.companies) {
+      for (const activity of company.activities) {
+        const ids = [...activity.participantIds, ...(activity.simulatedParticipantIds ?? [])]
+        if (activity.status === 'completed') expect(ids.length).toBeGreaterThan(0)
+        expect(new Set(ids).size).toBe(ids.length)
+        for (const id of ids) expect(company.participants.some(person => person.id === id)).toBe(true)
+        if (activity.status !== 'completed') expect(activity.simulatedParticipantIds ?? []).toEqual([])
+      }
+    }
+    const first = snapshot.companies[0]
+    expect(first.events).toEqual([])
+    expect(first.results).toEqual([])
+    const welcome = first.activities.find(activity => activity.id === 'boas-vindas')!
+    expect(welcome.participantIds).toEqual([])
+    expect(first.participants.filter(person => welcome.simulatedParticipantIds?.includes(person.id)).map(person => person.name)).toEqual(['Ana Machava', 'João Tembe'])
+    expect(snapshot.companies[1].activities.every(activity => !activity.participantIds.length && !activity.simulatedParticipantIds?.length)).toBe(true)
+    expect([await one.student.getSnapshot(), await two.student.getSnapshot()]).toEqual(before)
+    expect(data.size).toBe(0)
+    welcome.simulatedParticipantIds = ['pessoa-de-outra-empresa']
+    expect(teacherSnapshotSchema.safeParse(snapshot).success).toBe(false)
+  })
   it('projecta cada registo sem herdar os cenários, prazos ou resultados antigos', async () => {
     const { one, two } = setup()
     const snapshot = await one.teacher.getSnapshot()
     expect(snapshot).toEqual(await two.teacher.getSnapshot())
-    expect(snapshot.companies.map(c => c.id)).toEqual(['horizonte-verde', 'nascente-criativa'])
+    expect(snapshot.companies).toHaveLength(10)
+    expect(new Set(snapshot.companies.map(c => c.id)).size).toBe(10)
+    expect(snapshot.companies.filter(c => c.linkedToStudent).map(c => c.id)).toEqual(['horizonte-verde', 'nascente-criativa'])
     expect(snapshot.milestones.map(m => m.id)).toEqual(['acolhimento', 'ideacao', 'constituicao', 'inicio-actividades', 'primeiro-ano'])
     expect(snapshot.milestones[4].upcoming).toBe(true)
     for (const [index, panel] of [one, two].entries()) {
@@ -49,7 +112,66 @@ describe('docente: duas empresas do mesmo roteiro', () => {
     }
     expect(snapshot.companies[0].activities.find(a => a.id === 'registar-empresa')?.participantIds).toEqual([])
     expect(snapshot.companies[0].activities.find(a => a.id === 'auditoria-1')?.participantIds).toHaveLength(1)
-    expect(snapshot.generalOrientations).toEqual([])
+    expect(snapshot.generalOrientations).toHaveLength(2)
+  })
+
+  it('oferece oito cenários independentes com realizações coerentes e equipas próprias', async () => {
+    const { one } = setup()
+    const snapshot = await one.teacher.getSnapshot()
+    const simulated = snapshot.companies.filter(c => !c.linkedToStudent)
+    expect(simulated).toHaveLength(8)
+    expect(snapshot.classes.map(turma => snapshot.companies.filter(c => c.classId === turma.id).length)).toEqual([4, 3, 3])
+    expect(new Set(simulated.map(c => c.currentBlockId)).size).toBe(4)
+    for (const company of simulated) {
+      expect(company.example).toBeUndefined()
+      expect(company.activities.map(a => a.id)).toEqual(snapshot.companies[0].activities.map(a => a.id))
+      expect(company.activities.flatMap(a => a.tasks ?? [])).toHaveLength(48)
+      expect(company.results).toEqual([])
+      expect(company.blocks.at(-1)?.state).toBe('unavailable')
+      for (const activity of company.activities) {
+        const tasks = activity.tasks!
+        expect(activity.status === 'completed').toBe(tasks.filter(t => t.required).every(t => t.status === 'completed'))
+        for (const task of tasks.filter(t => t.status === 'completed')) {
+          expect(Date.parse(task.completedAt!)).toBeLessThan(Date.parse(snapshot.context.asOf))
+          if (task.kind === 'quiz') expect(Object.keys(task.answers ?? {})).toHaveLength(task.questions!.length)
+          if (task.submission) {
+            expect(company.participants.map(p => p.name)).toContain(task.submission.submittedBy)
+            expect(task.submission.fileName).toContain(company.id)
+            expect(task.resource).toBeUndefined()
+          }
+        }
+      }
+    }
+  })
+
+  it('acrescenta empresas ao armazenamento antigo sem substituir comunicações ou registos guardados', async () => {
+    const { one, storage, data } = setup()
+    const initial = await one.teacher.getSnapshot()
+    const old = structuredClone(initial)
+    old.orientationRequests = []
+    old.companies = old.companies.filter(c => c.linkedToStudent)
+    old.classes = old.classes.filter(c => c.id === 'turma-a')
+    old.revision = 7
+    old.generalOrientations = [{ id: 'nota-guardada', classIds: ['turma-a'], activity: 'Boas-vindas', subject: 'Preparação', message: 'Mensagem já guardada neste browser.', reason: 'Preparação das equipas.', author: 'Vali Issufo', createdAt: '2026-10-24T12:00:00Z' }]
+    const key = 'spee.roadmap-2026.teacher.shared.v1'
+    const original = JSON.stringify(old)
+    data.set(key, original)
+    const expanded = await createPanelRepositories(storage, '2').teacher.getSnapshot()
+    expect(expanded.companies).toEqual(initial.companies)
+    expect(expanded.classes).toEqual(initial.classes)
+    expect(expanded.revision).toBe(7)
+    expect(expanded.generalOrientations).toEqual(old.generalOrientations)
+    expect(data.get(key)).toBe(original)
+    const saved = await one.teacher.saveOrientation({ companyId: 'beira-logistica', activityId: 'boas-vindas', message: 'Confirmem os materiais de preparação.', reason: 'Acompanhamento da equipa.', subject: 'Preparação' }, 7)
+    const persisted = teacherSnapshotSchema.parse(JSON.parse(data.get(key)!))
+    persisted.companies.find(c => c.id === 'beira-logistica')!.name = 'Beira Logística — cenário guardado'
+    data.set(key, JSON.stringify(persisted))
+    const reloaded = await createPanelRepositories(storage, '1').teacher.getSnapshot()
+    expect(reloaded.companies).toHaveLength(10)
+    expect(reloaded.companies.find(c => c.id === 'beira-logistica')?.name).toBe('Beira Logística — cenário guardado')
+    expect(reloaded.orientations).toEqual(saved.orientations)
+    expect(reloaded.generalOrientations).toEqual(old.generalOrientations)
+    expect(reloaded.revision).toBe(8)
   })
 
   it('actualiza só a empresa alterada e conserva os ficheiros, autores e datas após recarregar', async () => {
@@ -71,6 +193,7 @@ describe('docente: duas empresas do mesmo roteiro', () => {
     expect(teacher.companies[0].results[0].reference).toBe(registration.registration?.receiptNumber)
     expect(teacher.companies[1].results).toEqual([])
     expect(teacher.companies[1].activities.filter(a => a.status === 'completed')).toHaveLength(0)
+    expect(teacher.companies.slice(2)).toEqual(initial.companies.slice(2))
   })
 
   it('separa as conversas de cada empresa e partilha apenas orientações gerais da turma', async () => {
@@ -101,7 +224,7 @@ describe('docente: duas empresas do mesmo roteiro', () => {
     data.set(key, original)
     const one = createPanelRepositories(storage, '1'), two = createPanelRepositories(storage, '2')
     const before = await one.teacher.getSnapshot()
-    expect(before.generalOrientations[0]).toMatchObject({ ...raw.generalOrientations[0], companyIds: ['nascente-criativa'] })
+    expect(before.generalOrientations.find(note => note.id === 'nota-antiga')).toMatchObject({ ...raw.generalOrientations[0], companyIds: ['nascente-criativa'] })
     const first = createStudentConversations(one.student, one.teacher, one.companyId)
     const second = createStudentConversations(two.student, two.teacher, two.companyId)
     expect((await first.read()).some(m => m.id === 'nota-antiga')).toBe(false)

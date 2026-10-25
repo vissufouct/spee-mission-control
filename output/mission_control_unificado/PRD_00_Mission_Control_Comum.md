@@ -4,7 +4,7 @@
 
 As designações oficiais são **Painel do Docente** e **Painel do Estudante**, sem acento em «Painel». Usar estes termos na entrada, introduções, títulos, navegação, mensagens e documentação corrente. Conservar identificadores técnicos, nomes de ficheiros e URLs existentes para manter a compatibilidade; esta decisão altera a terminologia apresentada ao utilizador.
 
-**Versão:** 0.20
+**Versão:** 0.24
 **Data:** 25 de Outubro de 2026
 **Estado:** rascunho consolidado para validação  
 **Produto:** Painéis SPEE
@@ -42,7 +42,8 @@ O Painel do Estudante inclui um hub social independente das orientações do doc
 - A selecção múltipla de convidados mantém-se ao mudar a pesquisa e permite retirar cada selecção. Escolher um destinatário privado abre ou reutiliza a conversa existente. Só a confirmação do grupo emite convites; pesquisar não envia mensagens nem aceita convites.
 - Uniformizar o painel e o popup como **Notificações de actividades**, preservando canais, contadores e resolução por destinatário. O hub social conserva a sua identidade separada.
 - Esclarecimento explícito do utilizador: «Esta actividade em contexto» apresenta três cartões de **blocos do roteiro** — anterior, seleccionado e seguinte — pela ordem publicada. O seleccionado é o bloco a que pertence a actividade aberta, mesmo quando é diferente do bloco em curso da empresa. Esta decisão substitui a interpretação anterior de três actividades adjacentes. Exemplo: «Ideação → Criação de empresas → Início de actividades».
-- Cada cartão mostra título, descrição, estado e contagem de actividades concluídas do bloco, com barra segmentada por actividade. O nome abre o resumo desse bloco em «Meu Percurso», sem modificar o bloco em curso ou o progresso. O cartão seleccionado conserva uma síntese da actividade aberta, com estado, X de Y tarefas e participantes. As acções de execução permanecem nas tarefas.
+- Cada cartão mostra título, descrição e estado do bloco. O estado fica na mesma linha de «Bloco anterior», «Bloco seleccionado» ou «Próximo bloco», permitindo quebra do rótulo em espaços estreitos. Retirar destes três cartões as barras e as contagens de actividades concluídas. Conforme esclarecimento explícito do utilizador, retirar toda a síntese da actividade no cartão central: rótulo, nome, estado e contagem de tarefas. O nome do bloco abre o respectivo resumo em «Meu Percurso», sem alterar progresso. As acções permanecem nas tarefas e as barras das restantes vistas não são alteradas.
+- Retirar os participantes dos três cartões de contexto. Na lista de tarefas, apresentar as colunas **Tarefa → Participantes → Estado → Acção**. Usar nomes abreviados e um único ícone por tarefa para consultar nomes completos e contribuições em tooltip. Os exemplos incluem contribuições próprias de cada tarefa concluída ou em curso; não repetir automaticamente a equipa da actividade. Nas tarefas por iniciar, bloqueadas ou sem dados, mostrar «—», com descrição acessível da ausência e sem ícone. A nota de proveniência acompanha a lista. A participação ilustrativa não confirma autoria nem altera progresso.
 - Manter três posições nas extremidades, indicando início/fim e sem ligação quando não existir bloco adjacente. Um bloco futuro vazio existe no roteiro e deve aparecer como «Brevemente», sem barra nem conclusão fictícia; não conta para o progresso. Os cartões representam posição no roteiro, não relações de dependência: não usar «Desbloqueia» nem alterar precedências pela posição.
 
 ### Exemplos e contagens de tarefas — 25 de Outubro
@@ -226,9 +227,9 @@ Padrão comum para as duas perspectivas, sem uniformizar os seus fluxos:
 - Preservar as cores institucionais: azul de acção `#087EFF` (variante de contraste `#076DD7`), ciano, branco e cinzentos claros. Sem modo escuro ou mudança de identidade.
 - Conteúdo em superfícies brancas, contornos azul-cinza claros (`#DCE7F3`), cantos de aproximadamente 8–10 px, sombras mínimas e hierarquia tipográfica sans-serif. Manter a fonte disponível no projecto, sem depender de fontes remotas.
 - Cartões de contexto com fundo muito claro; bloco seleccionado destacado com traço azul superior. Estados acompanhados por texto e ícone: verde para Concluído, âmbar para Em curso, ciano para Por iniciar e cinzento para Bloqueado.
-- Ícones lineares de apoio, acções secundárias de contorno e acção principal azul. Os participantes permanecem no cartão da actividade a que pertencem: apenas nomes e ícone de informação; contribuições em tooltip por hover, clique ou foco. Remover etiquetas «Dados simulados» dos cartões, mantendo uma nota discreta de proveniência do protótipo.
+- Ícones lineares de apoio e acções discretas de contorno. Os participantes aparecem na linha da tarefa, antes do estado, com nomes abreviados e um ícone de informação conjunto; contribuições em tooltip por hover, clique/toque ou foco. Os cartões de contexto mostram apenas informação dos blocos. Manter uma nota discreta de proveniência junto da lista de tarefas, sem etiquetas «Dados simulados» repetidas.
 - Checklist com divisórias suaves e badges de estado. Materiais de apoio mantêm-se expansíveis, com ícone e contagem por formato.
-- Os fixtures devem incluir participantes e contribuições fictícias contextualizadas nas actividades concluídas ou em curso onde fizer sentido. Evitar cartões vazios por falta de exemplos; não confundir esses exemplos com evidência real nem atribuir trabalho realizado a actividades ainda não iniciadas. Preservar a nota de proveniência.
+- Os fixtures devem incluir participantes e contribuições fictícias contextualizadas por tarefa, apresentados apenas após início ou conclusão. Não confundir estes metadados com evidência real nem com autoria confirmada. Completar metadados ausentes através do adaptador, preservando listas personalizadas, estados, respostas, submissões, eventos e revisão.
 - Preservar a sequência funcional e a organização dos conteúdos; adaptar as colunas ao espaço disponível em ecrãs pequenos, sem esconder acções ou provocar deslocação horizontal da página.
 
 A referência aplica-se às páginas do estudante e do docente. No docente abrange a visão geral, a matriz de empresas, o percurso da empresa, as contribuições e os diálogos de detalhe e orientação. A uniformização é visual: preserva fluxos, filtros, permissões, dados, cálculos e navegação próprios de cada perspectiva. Menu lateral, header e footer permanecem intactos.
@@ -256,10 +257,10 @@ O popup segue o mesmo padrão visual do conteúdo: contornos azul-cinza claros, 
 
 As seis anotações posteriores à aprovação visual prevalecem sobre os detalhes de apresentação da imagem original. Não alteram menu lateral, header, footer, cores principais, permissões nem persistência.
 
-- Participantes: uma linha compacta, por exemplo «Participantes: Ana M., João T. e António S.», seguida de um único ícone de informação. Abre um único tooltip com todos os nomes completos e respectivas contribuições, por hover, clique/toque ou foco de teclado; Escape fecha. Abreviar pelo primeiro nome e inicial do último apelido, sem alterar os dados. Permitir quebra natural em ecrãs estreitos. Sem participantes, indicar a ausência sem ícone. O popup não deve exceder o cartão nem ocultar permanentemente outros conteúdos. Esta regra substitui os ícones individuais da primeira compactação.
-- Acção junto da designação de cada actividade: Ver, Continuar actividade ou Iniciar actividade, segundo o estado. Permitir quebra de linha quando faltar espaço, sem truncar a acção.
+- Participantes: coluna da lista de tarefas imediatamente antes de Estado. Nomes compactos, por exemplo «Ana M., João T. e António S.», seguidos de um único ícone. Tooltip conjunto com os nomes completos e contribuições específicas dessa tarefa; abrir por hover, clique/toque ou foco, fechar com Escape ou ao sair da interacção. Em espaços estreitos, a linha reorganiza-se e explicita o rótulo «Participantes», mantendo Estado e Acção disponíveis. Sem dados de participação, mostrar «—» com descrição acessível e sem ícone. Esta regra substitui a colocação nos cartões de contexto.
+- No roteiro actual, a execução pertence às linhas das tarefas. Os cartões de contexto navegam pelos nomes dos blocos; não contêm botões de execução de actividades. Esta regra substitui a disposição de 24/10/2026.
 - Remover etiquetas «Dados simulados» repetidas; a nota de proveniência mantém clara a natureza ilustrativa dos dados, sem sugerir participação real confirmada.
-- Estado e critérios juntos em cada cartão: «Em curso (1 de 3)», «Concluído (2 de 2)». Os números resultam dos critérios existentes; não inventar contagens quando não há critérios definidos nem inferir conclusão pela navegação.
+- As listas de actividades e os botões «Ver tarefas» conservam contagens confirmadas. Os três cartões de blocos do detalhe mostram apenas o estado junto do rótulo, sem contagem nem síntese da actividade, conforme revisão de 25/10/2026. Nunca inferir conclusão pela navegação.
 - Retirar o estado e a frase de contagem redundantes acima dos cartões.
 - Cabeçalho da actividade: «Registar empresa | Próxima actividade: <designação> <acção>». Mostrar apenas quando existe um passo ainda não confirmado do checklist actual e a actividade não está concluída nem bloqueada. No cenário inicial: «Submeter o formulário de registo», com acção para continuar no formulário. Após conclusão, ocultar todo o bloco, sem o substituir por uma actividade sucessora. Os blocos adjacentes permanecem acessíveis nos cartões de contexto. Sem passo pendente definido, omitir igualmente o segmento. Substitui a descrição isolada acima do contexto, sem apagar a descrição nos dados. O cabeçalho e o checklist usam a mesma fonte de confirmação; clicar não altera progresso.
 
@@ -313,6 +314,28 @@ O Painel do Docente deve ler simultaneamente os dois exemplos do estudante, sem 
 
 A composição liga os dois repositories do estudante ao contrato do docente, sem dependências entre componentes. O armazenamento do docente é comum e as comunicações são contextualizadas por empresa/turma; estudante e hub mantêm armazenamento separado por exemplo. A transição preserva os snapshots anteriores e não repõe progresso.
 
-Tarefas obrigatórias concluídas com data podem sustentar a conclusão inicial da actividade. Não criar eventos ou resultados fictícios para completar a pista de actividade; distinguir equipa, participação ilustrativa e autoria documentada. Sem dados de prazo/autoria/resultado, mostrar a ausência. O primeiro ano fiscal continua «Brevemente», fora dos cálculos. O docente consulta, não executa tarefas.
+Tarefas obrigatórias concluídas com data podem sustentar a conclusão inicial da actividade. Nas duas empresas ligadas ao estudante, não criar eventos ou resultados fictícios para completar a pista de actividade; distinguir equipa, participação ilustrativa e autoria documentada. Sem dados de prazo/autoria/resultado, mostrar a ausência. O primeiro ano fiscal continua «Brevemente», fora dos cálculos. O docente consulta, não executa tarefas.
 
-Ver regras e critérios no PRD do Docente v0.11 e detalhes em `frontend/docs/roadmap-scenarios.md`. Esta revisão não altera menu lateral, header ou footer.
+Ver regras e critérios no PRD do Docente v0.13 e detalhes em `frontend/docs/roadmap-scenarios.md`. Esta revisão não altera menu lateral, header ou footer.
+
+### Cenários adicionais do docente — 25/10/2026
+
+A matriz do docente passa a conter dez empresas: as duas projecções dos estudantes e oito cenários fictícios independentes, com equipas próprias, três turmas e progressos variados sobre o mesmo roteiro. Não inferir nem acrescentar realizações às empresas ligadas. Os novos fixtures podem conter eventos e metadados de submissão simulados, sem documentos emprestados de outra empresa nem comprovativos oficiais.
+
+A listagem deixa de mostrar «Exemplo 1» e «Exemplo 2», mantendo nomes e percentagens. A entrada do estudante conserva os dois exemplos. Dados existentes são preservados e a migração acrescenta apenas os IDs em falta. Não alterar o AppShell.
+
+### Participação ilustrativa na vista do docente — 25 de Outubro de 2026
+
+Por pedido explícito, o docente vê participantes simulados em todas as actividades concluídas do protótipo. Nas empresas ligadas ao estudante, a síntese reúne os intervenientes definidos nas tarefas concluídas, sem duplicar nomes nem incluir membros de outra empresa. Matriz, tabela e detalhe devem ser coerentes. Uma nota discreta identifica a participação ilustrativa; não criar badges repetidos. Esta decisão complementa a coluna de participantes por tarefa no estudante.
+
+A apresentação de exemplos não constitui autoria confirmada: guardar identificadores ilustrativos em campo separado e conservar os eventos, resultados, progresso e contagens com evidência. Tarefas por iniciar não recebem participação realizada por antecipação. O exemplo 2 continua sem realizações até haver acções explícitas.
+
+
+### Resultados individuais dos quizzes — 25 de Outubro de 2026
+
+No detalhe docente, cada quiz lista todos os participantes da empresa. Cada resposta identificada apresenta a pontuação individual (acertos/total e percentagem), com expansão das respectivas respostas. Quem não tem realização individual registada apresenta «Não concluído». A conclusão colectiva da tarefa não atribui a mesma nota a todos. Nos dois cenários do estudante, as respostas guardadas pertencem ao estudante identificado no contexto do cenário; os restantes membros não recebem resultados fictícios. Dados antigos sem autoria permanecem explicitamente identificados como resultado sem respondente, nunca distribuídos pela equipa. Esta consulta não altera estados nem progresso.
+
+
+### Cabeçalho e comunicações de demonstração — 25 de Outubro de 2026
+
+O selector de universidade surge ao lado do título «Painel do Docente», sem legenda visível, mantendo o nome acessível «Universidade». Em espaços estreitos pode passar para a linha seguinte. O cenário inclui cinco pedidos a aguardar resposta do docente, relativos a tarefas distintas de cinco empresas, e duas orientações gerais já publicadas para as três turmas. Os pedidos identificam a tarefa no assunto e na mensagem, dentro da actividade correspondente. A migração acrescenta estes exemplos uma única vez e preserva respostas, conclusões e comunicações existentes, sem alterar progresso.

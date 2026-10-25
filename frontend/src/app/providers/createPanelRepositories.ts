@@ -36,7 +36,7 @@ export function createPanelRepositories(storage: Storage, selected: string) {
     routeId: seed.routes[0].id, definitionVersion: seed.routes[0].version, currentBlockId: example.seed.context.currentBlockId,
     linkedToStudent: true, participants: [], blocks: [], activities: [], events: [], results: [],
   }))
-  seed.companies = examples.map((example, index) => mapStudentJourney(journeySnapshotSchema.parse(example.seed), identities[index]))
+  seed.companies = [...examples.map((example, index) => mapStudentJourney(journeySnapshotSchema.parse(example.seed), identities[index])), ...seed.companies]
   const sharedStorage = new RoadmapTeacherStorage(storage, seed, examples.map(example => ({ key: `spee.roadmap-2026.${example.id}.spee.teacher-mission-control.v1`, companyId: example.companyId })))
   const teacher = new JsonTeacherRepository(seed, sharedStorage, async () => Promise.all(examples.map(async (example, index) => {
     const snapshot = await example.repository.getSnapshot()

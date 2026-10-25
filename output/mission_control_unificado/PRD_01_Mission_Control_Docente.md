@@ -6,11 +6,11 @@
 
 O popup «Detalhes» apresenta as tarefas da actividade, na ordem do estudante, com contagem concluídas/total, tipo, estado, data disponível, pontuação e consulta de respostas de quizzes, e metadados e ligação para evidências PDF, DOCX ou XLSX submetidas. É exclusivamente de leitura: o docente não executa nem conclui tarefas. Submissão não significa aprovação. Preservar os restantes detalhes e resultados.
 
-O docente consulta simultaneamente Horizonte Verde (exemplo 1) e Nascente Criativa (exemplo 2), projectadas dos respectivos repositories do estudante através da composição. Não importar componentes da outra feature nem expor conversas privadas. Os nove cenários antigos deixam de fazer parte desta vista; os seus fixtures e registos permanecem preservados para consulta histórica e testes de regressão.
+O docente consulta simultaneamente Horizonte Verde (exemplo 1) e Nascente Criativa (exemplo 2), projectadas dos respectivos repositories do estudante através da composição. Não importar componentes da outra feature nem expor conversas privadas. A vista inclui também oito empresas fictícias independentes, num total de dez, construídas com o roteiro actual. Não são importados os registos dos cenários antigos; os seus fixtures e dados permanecem preservados para consulta histórica e testes de regressão.
 
 Na vista geral, entre o título e o subtítulo da turma/ano, apresentar um dropdown «Universidade»: Universidade Eduardo Mondlane (inicial), Universidade Pedagógica de Maputo e Universidade Joaquim Chissano. A escolha fica na URL e é preservada ao limpar filtros de turma/estado/prazo. Nesta etapa valida-se a selecção visual; os dados de demonstração ainda são comuns às três opções, sem simular isolamento institucional ou permissões. O shell mantém-se inalterado.
 
-**Versão:** 0.11
+**Versão:** 0.13
 **Data:** 25 de Outubro de 2026
 **Estado:** actualizado após validação funcional com Leila Omar e alinhamento com o design aprovado
 **Depende de:** `PRD_00_Mission_Control_Comum.md`  
@@ -223,7 +223,7 @@ O teste no browser confirmou a passagem da constituição de 4/7 para 7/7 tarefa
 
 ## Alinhamento integral com os dois exemplos — 25/10/2026
 
-Esta revisão substitui a projecção de apenas uma empresa dependente do exemplo seleccionado. A visão geral apresenta sempre as duas empresas, com os mesmos IDs estáveis em todas as páginas e conversas:
+Esta revisão substitui a projecção de apenas uma empresa dependente do exemplo seleccionado. A visão geral inclui sempre as duas empresas ligadas aos estudantes, juntamente com os oito cenários independentes, com os mesmos IDs estáveis em todas as páginas e conversas:
 
 | Empresa | Registos iniciais | Progresso inicial |
 | --- | --- | --- |
@@ -235,10 +235,53 @@ São pontos de partida: se o utilizador já realizou tarefas, apresentar os seus
 - A matriz usa exactamente os cinco blocos do roteiro: Acolhimento e preparação, Ideação, Criação de empresas, Início de actividades e Primeiro ano fiscal. O último apresenta «Brevemente», não tem filtro de estado nem actividades inventadas e não entra no denominador.
 - Cada célula abre o mesmo bloco da empresa escolhida, inclusive blocos vazios. Filtros por coluna respeitam o estado projectado do estudante; parâmetros antigos de marcos inexistentes não devem ocultar empresas.
 - Os detalhes mostram as 15 actividades e as 48 tarefas de cada empresa, com a ordem, estado, respostas de quiz, pontuação calculada, conclusão datada e submissões da própria origem. O docente não executa tarefas nem vê conversas privadas de grupo/hub.
-- Abrir um resultado não cria evidência. Não herdar prazos, módulos, referências, participantes ou resultados dos cenários antigos. Sem prazo na origem, mostrar «Sem prazo». Sem autoria comprovada, mostrar «Sem evidência»; membros da equipa ou descrições ilustrativas não comprovam execução.
+- Abrir um resultado não cria evidência. Não herdar prazos, módulos, referências, participantes ou resultados dos cenários antigos. Sem prazo na origem, mostrar «Sem prazo». Nas actividades concluídas, apresentar também os participantes simulados definidos nas tarefas, com uma nota discreta de proveniência. Sem participantes confirmados ou simulados aplicáveis, mostrar «Sem evidência». Membros da equipa ou descrições ilustrativas não comprovam execução.
 - Conclusões iniciais sustentadas por tarefas obrigatórias concluídas e datadas são válidas. Não fabricar eventos, datas ou comprovativos para as justificar. Resultados de registo só aparecem quando existe um registo efectivamente confirmado; ficheiros submetidos mantêm nome, conteúdo, autor e data.
 - Comunicações do docente usam armazenamento comum às duas empresas, com revisão de concorrência. Orientações/pedidos específicos ficam associados à empresa correcta; novas orientações gerais da Turma A chegam a ambas. Orientações antigas de um exemplo mantêm o âmbito original, mesmo quando a turma coincide.
 - Migrar apenas comunicações compatíveis com as actividades actuais, preservando autor, conteúdo, data e identificadores salvo colisão entre exemplos. Conservar os snapshots anteriores intactos. Mensagens sobre actividades antigas não são reatribuídas por semelhança.
 - Falha de leitura de um exemplo ou de migração apresenta erro, sem mostrar dados iniciais como se fossem actuais. Preservar a separação UI/services/repository e todo o AppShell.
 
 Critérios de aceitação: comparar tarefas e metadados com ambos os repositories; efectuar uma conclusão no exemplo 2 e confirmar que só essa empresa muda; consultar respostas e evidência do exemplo 1; confirmar comunicação isolada por empresa, migração sem alteração dos originais, filtros e «Brevemente»; validar desktop, móvel e story sem AppShell.
+
+## Dez empresas na listagem — 25/10/2026
+
+A vista geral contém dez empresas distribuídas por três turmas. Horizonte Verde e Nascente Criativa continuam ligadas aos respectivos repositories do estudante; as oito restantes são cenários fictícios independentes do docente. Todas usam as mesmas 15 actividades, 48 tarefas e cinco blocos do roteiro actual. Não adicionar tarefas ao primeiro ano fiscal.
+
+| Empresa adicional | Turma | Tarefas concluídas / total | Progresso por actividades |
+| --- | --- | --- | --- |
+| Maputo Soluções, Lda. | A | 48/48 | 100% |
+| Beira Logística, Lda. | A | 40/48 | 80% |
+| Índico Serviços, Lda. | B | 32/48 | 67% |
+| Zambeze Comercial, Lda. | B | 27/48 | 53% |
+| Nova Geração, Lda. | B | 23/48 | 47% |
+| Lúrio Digital, Lda. | C | 17/48 | 33% |
+| Pemba Turismo, Lda. | C | 9/48 | 20% |
+| Inhambane Criativa, Lda. | C | 2/48 | 7% |
+
+- Na **listagem de empresas**, apresentar nome e percentagem, sem as etiquetas «Exemplo 1» e «Exemplo 2». A escolha dos exemplos na entrada do estudante e a sua identificação nos dados mantêm-se.
+- Os novos cenários têm equipas próprias, conclusões datadas, quizzes respondidos, metadados de submissão e prazos variados para testar pesquisa, filtros e detalhes. Estes registos são explicitamente fictícios; não alteram nem completam a autoria das duas empresas ligadas ao estudante.
+- Nos novos cenários, uma submissão sem ficheiro mostra «Ficheiro não disponível neste cenário». Não ligar o documento de outra empresa nem inventar um comprovativo oficial. Os ficheiros das duas empresas ligadas mantêm a origem e o conteúdo.
+- O carregamento de um browser com o cenário anterior acrescenta apenas as empresas e turmas em falta. Preserva revisões, orientações, progresso e registos existentes; não duplica empresas ao recarregar. A actualização do estudante substitui apenas a projecção da empresa correspondente.
+- Pesquisa por empresa/participante e filtros por turma/estado/prazo abrangem as dez empresas. Inicialmente a distribuição é 4/3/3 empresas nas turmas A/B/C e a conclusão média é 45%.
+
+Validar os filtros, os detalhes de uma nova empresa, a ausência das etiquetas na matriz, a migração não destrutiva e a fidelidade das duas origens do estudante. Manter menu lateral, header e footer intactos.
+
+## Participantes simulados nas actividades concluídas — 25 de Outubro de 2026
+
+Por anotação do utilizador, todas as actividades concluídas dos dez cenários devem apresentar participantes. Nas duas empresas ligadas ao estudante, reunir sem repetição os nomes dos metadados ilustrativos das tarefas concluídas, limitados aos membros dessa empresa. Usar a mesma origem do painel do estudante, sem atribuir toda a equipa indiscriminadamente. As oito empresas independentes mantêm os participantes dos seus registos simulados.
+
+A tabela de actividades, o resumo de participantes na matriz e o popup de detalhe usam a mesma síntese. No detalhe, usar «Participantes» quando incluir simulação, com uma nota de proveniência; não os classificar como «com evidência». Não repetir badges «Dados simulados». Nas actividades não concluídas, conservar a participação sustentada pelos registos; não antecipar participação fictícia no exemplo 2.
+
+Separar `simulatedParticipantIds` de `participantIds`. A primeira lista é apenas descritiva: não cria eventos, datas, resultados, submissões, pontuações ou progresso, nem entra na pista e nas contagens de participação com evidência. O contrato valida que todos os IDs pertencem à empresa. A leitura dos dados existentes passa a incluir estes metadados sem repor ou sobrescrever os registos dos estudantes.
+
+Aceitação: três actividades do acolhimento e quatro da ideação de Horizonte Verde com nomes plausíveis; todas as actividades concluídas das dez empresas com participantes; Nascente Criativa inicial sem participação realizada; consulta/reload sem alteração de estados, progresso, eventos ou ficheiros; tabela e popup coerentes, incluindo Storybook sem AppShell.
+
+
+### Resultados individuais dos quizzes — 25 de Outubro de 2026
+
+No detalhe docente, cada quiz lista todos os participantes da empresa. Cada resposta identificada apresenta a pontuação individual (acertos/total e percentagem), com expansão das respectivas respostas. Quem não tem realização individual registada apresenta «Não concluído». A conclusão colectiva da tarefa não atribui a mesma nota a todos. Nos dois cenários do estudante, as respostas guardadas pertencem ao estudante identificado no contexto do cenário; os restantes membros não recebem resultados fictícios. Dados antigos sem autoria permanecem explicitamente identificados como resultado sem respondente, nunca distribuídos pela equipa. Esta consulta não altera estados nem progresso.
+
+
+### Cabeçalho e comunicações de demonstração — 25 de Outubro de 2026
+
+O selector de universidade surge ao lado do título «Painel do Docente», sem legenda visível, mantendo o nome acessível «Universidade». Em espaços estreitos pode passar para a linha seguinte. O cenário inclui cinco pedidos a aguardar resposta do docente, relativos a tarefas distintas de cinco empresas, e duas orientações gerais já publicadas para as três turmas. Os pedidos identificam a tarefa no assunto e na mensagem, dentro da actividade correspondente. A migração acrescenta estes exemplos uma única vez e preserva respostas, conclusões e comunicações existentes, sem alterar progresso.

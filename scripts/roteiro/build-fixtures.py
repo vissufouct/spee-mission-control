@@ -42,17 +42,61 @@ def block(id, title, description):
     blocks.append(result)
     return result
 
+# Descriptive UX examples; these names are not evidence of task completion.
+PARTICIPATION = {
+    'boas-vindas': [('Ana Machava', 'Apresentação dos objectivos à equipa e exploração da navegação.'), ('João Tembe', 'Leitura da apresentação e organização das dúvidas iniciais.')],
+    'conhecer-simulacao': [('João Tembe', 'Revisão do regulamento e dos canais de comunicação.'), ('António Sitoe', 'Consulta do modelo de relatório e organização das regras da equipa.')],
+    'confirmar-preparacao': [('Ana Machava', 'Revisão do roteiro e resposta ao quiz de acolhimento.'), ('António Sitoe', 'Revisão do compromisso de responsabilidade e ética com a equipa.')],
+    'definir-ideia': [('Ana Machava', 'Resposta ao diagnóstico e definição da proposta de valor.'), ('João Tembe', 'Pesquisa do problema e do público-alvo; revisão das sugestões de IA.')],
+    'modelo-negocio': [('João Tembe', 'Definição dos segmentos de clientes e dos canais no Canvas.'), ('António Sitoe', 'Organização dos recursos, parceiros e estrutura de custos.')],
+    'plano-negocios': [('Ana Machava', 'Redacção da proposta e revisão do plano de negócios.'), ('João Tembe', 'Preparação das hipóteses de vendas e verificação da viabilidade.'), ('António Sitoe', 'Organização dos documentos de apoio e revisão dos riscos.')],
+    'auditoria-1': [('António Sitoe', 'Recolha das evidências e organização do relatório de auditoria I.'), ('Ana Machava', 'Revisão das conclusões e submissão do relatório.')],
+    'registar-empresa': [('Ana Machava', 'Consulta do portal do BAU, quiz e preparação do registo da empresa.'), ('João Tembe', 'Conferência do nome, dos dados dos sócios e dos elementos do pedido.'), ('António Sitoe', 'Organização dos documentos de constituição e dos convites aos sócios.')],
+    'gestor-documental': [('António Sitoe', 'Classificação dos documentos e organização do arquivo da empresa.'), ('Ana Machava', 'Revisão dos nomes e da localização das evidências.')],
+    'contratos-servicos': [('João Tembe', 'Comparação das condições dos serviços essenciais.'), ('Ana Machava', 'Revisão dos contratos e confirmação dos dados da empresa.')],
+    'preparar-empresa': [('Ana Machava', 'Definição da oferta e preparação da apresentação da empresa.'), ('António Sitoe', 'Organização dos materiais de divulgação e revisão da identidade visual.')],
+    'configurar-comercial': [('João Tembe', 'Preparação do catálogo, dos preços e dos dados comerciais.'), ('António Sitoe', 'Conferência dos artigos e dos documentos de venda.')],
+    'configurar-rh': [('Ana Machava', 'Preparação dos dados da equipa e das funções.'), ('João Tembe', 'Conferência dos elementos necessários aos registos de recursos humanos.')],
+    'preparar-banca': [('João Tembe', 'Preparação dos dados para a conta bancária da empresa.'), ('António Sitoe', 'Organização dos documentos bancários e revisão dos movimentos de exemplo.')],
+    'orientacao-final': [('Ana Machava', 'Revisão das dúvidas da equipa para a orientação do docente.'), ('António Sitoe', 'Organização das evidências e dos pontos a confirmar antes de avançar.')],
+}
+
 def activity(parent, id, title, description):
     result = {'id': id, 'title': title, 'description': description, 'status': 'not-started', 'tasks': [], 'materials': [], 'simulatedParticipants': [
-        {'name': 'Ana Machava', 'contribution': 'Coordenação da actividade, revisão e submissão dos resultados.'},
-        {'name': 'João Tembe', 'contribution': 'Pesquisa, preparação dos dados e conferência das fontes.'},
-        {'name': 'António Sitoe', 'contribution': 'Organização dos documentos e verificação com a equipa.'},
+        {'name': name, 'contribution': contribution} for name, contribution in PARTICIPATION[id]
     ]}
     parent['activities'].append(result)
     return result
 
+TASK_PARTICIPATION = {
+    'b03-a01-t01': [('Ana Machava', 'Consulta dos requisitos no portal do BAU.'), ('João Tembe', 'Organização das notas sobre os documentos exigidos.')],
+    'b03-a01-t02': [('Ana Machava', 'Resposta ao quiz sobre constituição e licenciamento.')],
+    'b03-a01-t03': [('João Tembe', 'Verificação e preparação do pedido de reserva do nome.'), ('António Sitoe', 'Conferência da denominação escolhida pela equipa.')],
+    'b03-a01-t04': [('Ana Machava', 'Preparação dos convites aos sócios.'), ('António Sitoe', 'Conferência dos contactos e dos dados dos convidados.')],
+    'b03-a01-t05': [('Ana Machava', 'Preenchimento do formulário de registo da empresa.'), ('João Tembe', 'Conferência do NUIT, da morada e do capital social.')],
+    'b03-a01-t06': [('Ana Machava', 'Preparação e conferência da declaração de início de actividades.')],
+    'b03-a01-t07': [('António Sitoe', 'Organização do documento de publicação.'), ('Ana Machava', 'Revisão e submissão da evidência.')],
+}
+
+def task_participants(parent, id, title, kind):
+    if id in TASK_PARTICIPATION:
+        people = TASK_PARTICIPATION[id]
+    elif kind == 'quiz':
+        people = [('Ana Machava', f'Resposta a «{title}» e revisão do resultado.')]
+    elif kind == 'evidence':
+        people = [('Ana Machava', f'Revisão e submissão da evidência: {title}.')]
+    else:
+        names = [person['name'] for person in parent['simulatedParticipants']]
+        author = names[len(parent['tasks']) % len(names)]
+        people = [(author, f'Participação em «{title}»; preparação e partilha das notas com a equipa.')]
+        if kind == 'operation' and len(names) > 1:
+            reviewer = next(name for name in names if name != author)
+            people.append((reviewer, f'Conferência dos elementos da tarefa «{title}» com a equipa.'))
+    return [{'name': name, 'contribution': contribution} for name, contribution in people]
+
 def task(parent, id, title, kind, description, resource=None, **extra):
     result = {'id': id, 'title': title, 'kind': kind, 'description': description, 'required': True, 'status': 'not-started', **extra}
+    result['simulatedParticipants'] = task_participants(parent, id, title, kind)
     if resource: result['resource'] = resource if resource.startswith('https://') else 'apoio/' + resource
     if resource and resource.endswith('.pdf') and not resource.startswith('https://'):
         result['preview'] = 'apoio/' + resource.removesuffix('.pdf') + '-preview.png'

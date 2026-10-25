@@ -15,11 +15,13 @@ const learningTaskSchema = z.object({
   completedAt: z.iso.datetime().optional(),
   questions: z.array(z.object({ id: z.string(), prompt: z.string(), options: z.array(z.string()), correct: z.number().int() })).optional(),
   answers: z.record(z.string(), z.number().int()).optional(),
+  quizResults: z.array(z.object({ participantId: z.string(), answers: z.record(z.string(), z.number().int()) })).optional(),
   submission: z.object({ fileName: z.string(), submittedBy: z.string(), submittedAt: z.iso.datetime(), file: z.object({ fileName: z.string(), dataUrl: z.string().max(2_800_000).regex(/^data:application\/(pdf|vnd\.openxmlformats-officedocument\.(wordprocessingml\.document|spreadsheetml\.sheet));base64,[A-Za-z0-9+/=]+$/) }).optional() }).optional(),
 })
 export const activitySchema = z.object({
   id: z.string().min(1), title: z.string().min(1), blockId: z.string(), milestone: z.string(),
   status: statusSchema, participantIds: z.array(z.string()), dueDate: z.iso.date().nullable(),
+  simulatedParticipantIds: z.array(z.string()).optional(),
   module: z.string(), nextStep: z.string(), resultIds: z.array(z.string()),
   description: z.string().optional(), definitionOfDone: z.string().optional(),
   dependencyIds: z.array(z.string()).default([]),
@@ -79,6 +81,7 @@ export const generalOrientationSchema = generalOrientationInputSchema.extend({
   id: z.string(), author: z.string(), createdAt: z.iso.datetime(),
 })
 export const teacherSnapshotSchema = z.object({
+  demoCommunicationsVersion: z.literal(1).optional(),
   schemaVersion: z.literal(1), revision: z.number().int().nonnegative(),
   context: z.object({ teacherName: z.string(), asOf: z.iso.datetime(), updatedAt: z.iso.datetime(), dueSoonDays: z.number().int().min(1).max(30) }),
   classes: z.array(z.object({ id: z.string(), name: z.string(), subject: z.string(), year: z.number() })).min(1),
@@ -107,6 +110,7 @@ export const teacherSnapshotSchema = z.object({
       ctx.addIssue({ code: 'custom', message: 'Referências ou identificadores inválidos na empresa.' })
     for (const activity of company.activities) {
       if (!company.blocks.some(b => b.id === activity.blockId) || !activity.participantIds.every(id => participantIds.has(id)) ||
+          !(activity.simulatedParticipantIds ?? []).every(id => participantIds.has(id)) ||
           !activity.resultIds.every(id => resultIds.has(id)) || !value.milestones.some(m => m.id === activity.milestone))
         ctx.addIssue({ code: 'custom', message: 'Actividade com referências inválidas.' })
       const confirmedTasks = !!activity.tasks?.filter(task => task.required).length && activity.tasks.filter(task => task.required).every(task => task.status === 'completed' && !!task.completedAt)

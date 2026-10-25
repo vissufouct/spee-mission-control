@@ -13,6 +13,13 @@ export const statusLabels: Record<TeacherStatus, string> = {
 export function companyProgress(company: Company) {
   return confirmedProgress(company.activities.filter(a => a.status === 'completed').length, company.activities.length)
 }
+export function activityParticipants(company: Company, activity: TeacherActivity) {
+  const ids = new Set([...activity.participantIds, ...(activity.status === 'completed' ? activity.simulatedParticipantIds ?? [] : [])])
+  return company.participants.filter(person => ids.has(person.id))
+}
+export function hasSimulatedParticipation(activity: TeacherActivity) {
+  return activity.status === 'completed' && !!activity.simulatedParticipantIds?.length
+}
 export function aggregateStatus(activities: TeacherActivity[]): TeacherStatus {
   if (!activities.length) return 'not-started'
   if (activities.every(a => a.status === 'completed')) return 'completed'

@@ -1,7 +1,7 @@
 import { Check, Flag, ChevronRight } from 'lucide-react'
 import { Button } from '@/shared/components/ui/button'
 import type { Company, TeacherSnapshot } from '../types'
-import { companyProgress, daysUntil, formatDay, aggregateStatus, pendingOrientationRequests } from '../services/teacher.selectors'
+import { activityParticipants, hasSimulatedParticipation, companyProgress, daysUntil, formatDay, aggregateStatus, pendingOrientationRequests } from '../services/teacher.selectors'
 import { MetricCards } from './MetricCards'
 import { TeacherStatusBadge } from './TeacherStatusBadge'
 import '../styles.css'
@@ -28,7 +28,8 @@ export function CompanyView({ company, snapshot, blockId, onBlock, onOpen, onReq
     </section>
     <section className="spee-panel teacher-section">
       <div className="teacher-section-heading"><h2>{company.blocks.find(b => b.id === blockId)?.title} <span className="teacher-muted">· Actividades</span></h2></div>
-      <div className="teacher-table-scroll" tabIndex={0} role="region" aria-label="Actividades do bloco"><table className="teacher-table"><thead><tr><th>Actividade</th><th>Participantes</th><th>Estado</th><th>Prazo</th><th><span className="sr-only">Detalhe</span></th></tr></thead><tbody>{activities.map(activity => <tr key={activity.id}><th scope="row">{activity.title}<small>{activity.module}</small></th><td>{company.participants.filter(p => activity.participantIds.includes(p.id)).map(p => p.name).join(' + ') || 'Sem evidência'}</td><td><TeacherStatusBadge status={activity.status} /></td><td>{formatDay(activity.dueDate)}</td><td><Button variant="outline" size="sm" aria-label={'Detalhes de ' + activity.title} onClick={() => onOpen(activity.id)}>Detalhes</Button></td></tr>)}</tbody></table></div>
+      <div className="teacher-table-scroll" tabIndex={0} role="region" aria-label="Actividades do bloco"><table className="teacher-table"><thead><tr><th>Actividade</th><th>Participantes</th><th>Estado</th><th>Prazo</th><th><span className="sr-only">Detalhe</span></th></tr></thead><tbody>{activities.map(activity => <tr key={activity.id}><th scope="row">{activity.title}<small>{activity.module}</small></th><td>{activityParticipants(company, activity).map(p => p.name).join(' + ') || 'Sem evidência'}</td><td><TeacherStatusBadge status={activity.status} /></td><td>{formatDay(activity.dueDate)}</td><td><Button variant="outline" size="sm" aria-label={'Detalhes de ' + activity.title} onClick={() => onOpen(activity.id)}>Detalhes</Button></td></tr>)}</tbody></table></div>
+      {activities.some(hasSimulatedParticipation) && <p className="teacher-footnote">Inclui participantes simulados nas actividades concluídas, de acordo com as tarefas da equipa.</p>}
       {!activities.length && <p className="teacher-empty">Este bloco ainda não tem actividades definidas no roteiro.</p>}
     </section>
   </div>

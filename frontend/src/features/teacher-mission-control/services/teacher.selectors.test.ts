@@ -1,10 +1,25 @@
 import { describe, expect, it } from 'vitest'
 import fixture from '@/data/teacher-mission-control.fixture.json'
 import { teacherSnapshotSchema } from '../schemas/teacher.schema'
-import { aggregateStatus, companyProgress, contributionEvents, filterCompanies, readFilters, activityAlerts, pendingOrientationRequests } from './teacher.selectors'
+import { activityParticipants, hasSimulatedParticipation, aggregateStatus, companyProgress, contributionEvents, filterCompanies, readFilters, activityAlerts, pendingOrientationRequests } from './teacher.selectors'
 const snapshot = teacherSnapshotSchema.parse(fixture)
 const filters = (query: string) => readFilters(new URLSearchParams(query))
 describe('consulta do docente', () => {
+  it('reúne nomes sem repetição e mantém participação ilustrativa fora dos eventos', () => {
+    const company = structuredClone(snapshot.companies[0])
+    const activity = company.activities[0]
+    const ids = company.participants.slice(0, 2).map(person => person.id)
+    activity.participantIds = [ids[0]]
+    activity.simulatedParticipantIds = ids
+    activity.status = 'completed'
+    const events = contributionEvents(company, 'all')
+    expect(activityParticipants(company, activity).map(person => person.id)).toEqual(ids)
+    expect(hasSimulatedParticipation(activity)).toBe(true)
+    expect(contributionEvents(company, 'all')).toEqual(events)
+    activity.status = 'not-started'
+    expect(activityParticipants(company, activity).map(person => person.id)).toEqual([ids[0]])
+    expect(hasSimulatedParticipation(activity)).toBe(false)
+  })
   it('mostra todas as turmas e combina filtros por coluna com AND', () => {
     expect(filterCompanies(snapshot,filters(''))).toHaveLength(10)
     expect(filterCompanies(snapshot,filters('turma=turma-b'))).toHaveLength(2)

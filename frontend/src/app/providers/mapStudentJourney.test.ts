@@ -50,8 +50,9 @@ describe('roteiro aplicado à empresa ligada', () => {
     const student = new JsonJourneyRepository(roadmapFixture, storage)
     const seed = teacherSnapshotSchema.parse(teacherRoadmap)
     seed.companies = [mapStudentJourney(parseRoadmapSeed(), { ...template, routeId: seed.routes[0].id })]
+    seed.generalOrientations = []
     seed.orientations = seed.orientations.filter(note => note.companyId !== template.id)
-    seed.orientationRequests = seed.orientationRequests.filter(note => note.companyId !== template.id)
+    seed.orientationRequests = seed.orientationRequests.filter(note => seed.companies.some(company => company.id === note.companyId))
     const teacher = new JsonTeacherRepository(seed, storage, async () => mapStudentJourney(await student.getSnapshot(), seed.companies[0]))
     return { student, teacher, conversations: createStudentConversations(student, teacher) }
   }

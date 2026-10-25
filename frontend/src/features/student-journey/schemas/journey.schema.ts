@@ -40,6 +40,7 @@ export const learningTaskSchema = z.object({
   quizMode: z.enum(['mastery', 'diagnostic']).optional(),
   submission: z.object({ fileName: z.string().min(1), submittedBy: z.string().min(1), submittedAt: z.iso.datetime(), file: evidenceFileSchema.optional() }).optional(),
   completedAt: z.iso.datetime().optional(),
+  simulatedParticipants: z.array(z.object({ name: z.string().min(1), contribution: z.string().min(1) })).optional(),
 })
 export const activitySchema = z.object({
   id: z.string().min(1), title: z.string().min(1), description: z.string(),

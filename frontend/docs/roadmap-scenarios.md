@@ -92,10 +92,26 @@ Executar `python3 scripts/roteiro/build-previews.py` com PyMuPDF instalado depoi
 
 ## Vista conjunta do docente
 
-`createPanelRepositories` compõe dois `JsonJourneyRepository`, um por exemplo, e injecta no `JsonTeacherRepository` uma função que lê ambos. `mapRoadmapCompany` projecta exactamente os blocos, actividades, tarefas, respostas e submissões da origem. Os componentes não importam JSON. A nova base `teacher-roadmap.fixture.json` define turma, ciclo e colunas do roteiro, sem transportar as nove empresas antigas.
+`createPanelRepositories` compõe dois `JsonJourneyRepository`, um por exemplo, e injecta no `JsonTeacherRepository` uma função que lê ambos. `mapRoadmapCompany` projecta exactamente os blocos, actividades, tarefas, respostas e submissões da origem. Os componentes não importam JSON. A base `teacher-roadmap.fixture.json` define três turmas, ciclo, colunas do roteiro e oito empresas fictícias independentes; a composição junta-lhes as duas projecções do estudante. São dez empresas no total, sem importar os registos dos cenários antigos.
 
 Comunicações comuns ficam em `spee.roadmap-2026.teacher.shared.v1`. O adaptador `RoadmapTeacherStorage` lê essa chave ou, na sua ausência, reúne as comunicações compatíveis dos antigos snapshots docentes por exemplo. Preserva conteúdo/autor/data; atribui a empresa de origem; evita colisões de IDs; limita orientações gerais migradas à empresa original. A primeira mutação persiste o conjunto; as chaves antigas nunca são sobrescritas. Registos de actividades fora do novo roteiro permanecem nos snapshots anteriores, sem reatribuição. Cenários antigos explicitamente importados conservam o caminho de compatibilidade para testes.
 
 A selecção do estudante não afecta a lista do docente. Novas orientações gerais abrangem as turmas escolhidas; mensagens específicas usam o ID explícito da empresa. Erros de validação, leitura ou quota surgem na experiência, sem reposição silenciosa. Os dados mantêm os limites de origem e browser: local e GitHub Pages não partilham progresso.
 
 A projecção não inventa eventos para tarefas iniciais concluídas. A conclusão com data das tarefas obrigatórias constitui evidência de estado; autoria só é apresentada quando existe evento ou submissão correspondente. Não são herdados prazos ou resultados antigos. Um comprovativo de registo exige confirmação efectiva; submissão não é avaliação. Os dois exemplos partilham a Turma A e os nomes definidos nos fixtures, sem presumir que todos executaram todas as tarefas.
+
+### Empresas adicionais no docente
+
+`python3 scripts/roteiro/build-teacher-companies.py` gera as oito empresas independentes a partir das definições do roteiro. Cada perfil declara equipa, número de tarefas concluídas e prazo; os estados das actividades e blocos derivam dessas tarefas. O script só altera o fixture do docente, sem tocar nos exemplos do estudante ou no armazenamento do browser. Se o roteiro mudar, rever os pontos de progressão dos perfis antes de regenerar.
+
+Os eventos, respostas e metadados de submissão das oito empresas são fictícios. Submissões sem documento associado mostram a indisponibilidade do ficheiro. Não há cópia de autores, ficheiros submetidos ou comprovativos dos exemplos do estudante. A restrição de não inventar realizações continua a aplicar-se integralmente às duas empresas projectadas.
+
+`RoadmapTeacherStorage` acrescenta apenas turmas/empresas ausentes em snapshots existentes. Não substitui registos ou comunicações e mantém a revisão; a próxima mutação persiste o conjunto. `JsonTeacherRepository` renova apenas as empresas devolvidas pelo leitor injectado, preservando as oito independentes. A listagem mostra nomes e percentagens sem «Exemplo 1/2»; a entrada do estudante mantém essa escolha.
+
+## Contexto compacto e participação por tarefa
+
+Os três cartões representam blocos. O estado acompanha o rótulo de posição, sem barras, contagens, síntese da actividade seleccionada ou participantes. A lista de tarefas apresenta **Tarefa → Participantes → Estado → Acção** e reorganiza cada linha em espaços estreitos, sem depender do shell.
+
+`LearningTask.simulatedParticipants` é metadado descritivo opcional com nomes e contribuições. O gerador prepara exemplos específicos para as 48 tarefas. `getTaskParticipants` apresenta-os apenas quando a tarefa está concluída ou em curso; nas restantes situações, mostra-se «—», sem ícone de informação. Um único tooltip por tarefa reúne nomes completos e contribuições; os nomes na coluna são abreviados. A nota de proveniência acompanha a lista. Estes dados não calculam progresso nem autoria confirmada do docente.
+
+O adaptador completa metadados de tarefa ausentes a partir do mesmo ID no fixture, preservando listas personalizadas ou explicitamente vazias. Mantém a compatibilidade com os antigos metadados de actividade, mas não os usa como substituto da participação por tarefa. A leitura não escreve no armazenamento. Respostas, submissões, eventos, estados e revisão permanecem inalterados. O exemplo 2 não apresenta participação realizada antes de iniciar tarefas. Não foi acrescentada dependência nem integração externa.

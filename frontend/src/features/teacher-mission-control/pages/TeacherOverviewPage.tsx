@@ -23,8 +23,8 @@ export function TeacherOverviewPage() {
   }, { replace: true, preventScrollReset: true, flushSync: true })
   return <div className="teacher-page">
     <TeacherHeading title="Painel do Docente" subtitle={subtitle} onRefresh={() => { void query.refetch() }} refreshing={query.isFetching}
-      contextControl={<label className="my-3 block text-xs font-medium text-slate-600">Universidade
-        <select className="mt-1 block min-h-10 w-full max-w-sm rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm font-normal text-slate-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600" value={params.get('universidade') ?? 'uem'} onChange={event => change('universidade', event.target.value)}>
+      contextControl={<label className="block max-w-full"><span className="sr-only">Universidade</span>
+        <select aria-label="Universidade" className="block min-h-10 w-full max-w-sm rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm font-normal text-slate-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600" value={params.get('universidade') ?? 'uem'} onChange={event => change('universidade', event.target.value)}>
           <option value="uem">Universidade Eduardo Mondlane</option>
           <option value="up-maputo">Universidade Pedagógica de Maputo</option>
           <option value="ujc">Universidade Joaquim Chissano</option>

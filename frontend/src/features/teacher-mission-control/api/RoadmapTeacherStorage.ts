@@ -10,7 +10,18 @@ export class RoadmapTeacherStorage {
   constructor(private readonly storage: Storage, private readonly seed: TeacherSnapshot, private readonly sources: LegacySource[]) {}
   getItem() {
     const current = this.storage.getItem(KEY)
-    if (current !== null) return current
+    if (current !== null) {
+      const snapshot = teacherSnapshotSchema.parse(JSON.parse(current))
+      // Extend older two-company scenarios without replacing records or communications.
+      snapshot.classes.push(...structuredClone(this.seed.classes.filter(item => !snapshot.classes.some(existing => existing.id === item.id))))
+      snapshot.companies.push(...structuredClone(this.seed.companies.filter(item => !snapshot.companies.some(existing => existing.id === item.id))))
+      if (snapshot.demoCommunicationsVersion !== 1) {
+        snapshot.orientationRequests.push(...structuredClone(this.seed.orientationRequests.filter(item => !snapshot.orientationRequests.some(existing => existing.id === item.id))))
+        snapshot.generalOrientations.push(...structuredClone(this.seed.generalOrientations.filter(item => !snapshot.generalOrientations.some(existing => existing.id === item.id))))
+        snapshot.demoCommunicationsVersion = 1
+      }
+      return JSON.stringify(teacherSnapshotSchema.parse(snapshot))
+    }
     const merged = structuredClone(this.seed)
     let found = false
     for (const source of this.sources) {

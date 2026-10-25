@@ -2,7 +2,7 @@ import { Dialog } from '@/shared/components/ui/dialog'
 import { Button } from '@/shared/components/ui/button'
 import { TeacherStatusBadge } from './TeacherStatusBadge'
 import type { Company } from '../types'
-import { formatInstant } from '../services/teacher.selectors'
+import { activityParticipants, hasSimulatedParticipation, formatInstant } from '../services/teacher.selectors'
 import { useState } from 'react'
 import { ActivityTasksReview } from './ActivityTasksReview'
 export type ActivitySelection = { activityId: string; resultId?: string }
@@ -24,11 +24,11 @@ export function ActivityDialog({ company, selection, onSelect }: { company: Comp
         {activity.resultIds.length ? <Button className="self-start" onClick={() => onSelect({ activityId: activity.id, resultId: activity.resultIds[0] })}>Consultar resultado disponível</Button> : <p className="teacher-hint">Ainda não existe um resultado confirmado. No simulador, o docente abriria o ecrã operacional desta actividade em modo de consulta.</p>}
       </> : <>
         <TeacherStatusBadge status={activity.status} />
-        <ActivityTasksReview tasks={activity.tasks} />
+        <ActivityTasksReview tasks={activity.tasks} participants={company.participants} />
         <div className="teacher-activity-detail-grid">
           <section><h3>Descrição</h3><p>{activity.description ?? `Actividade realizada no módulo ${activity.module}, no contexto do percurso desta empresa.`}</p></section>
           <section><h3>O que significa concluída</h3><p>{activity.definitionOfDone ?? 'Os critérios definidos para a actividade foram cumpridos e existe um resultado ou evidência confirmada.'}</p></section>
-          <section><h3>Participantes com evidência</h3><p>{company.participants.filter(p => activity.participantIds.includes(p.id)).map(p => p.name).join(', ') || 'Ainda sem evidência individual.'}</p></section>
+          <section><h3>{hasSimulatedParticipation(activity) ? 'Participantes' : 'Participantes com evidência'}</h3><p>{activityParticipants(company, activity).map(p => p.name).join(', ') || 'Ainda sem evidência individual.'}</p>{hasSimulatedParticipation(activity) && <p className="teacher-footnote">Inclui participação simulada das tarefas. A pista de actividade conserva apenas os eventos registados.</p>}</section>
           <section><h3>Dependências</h3><p>{activity.dependencyIds.map(id => company.activities.find(item => item.id === id)?.title).filter(Boolean).join(', ') || 'Sem dependências registadas.'}</p></section>
         </div>
         {activity.status !== 'completed' && activity.nextStep && <div><h3 className="font-semibold">Próxima tarefa</h3><p className="mt-2 text-sm text-slate-600">{activity.nextStep}</p></div>}

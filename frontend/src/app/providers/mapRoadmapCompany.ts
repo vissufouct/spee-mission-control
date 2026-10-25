@@ -26,7 +26,10 @@ export function mapRoadmapCompany(source: JourneySnapshot, identity: Company): C
       module: 'Roteiro de Tarefas', nextStep: next?.title ?? '', resultIds: [],
       description: activity.description, definitionOfDone: activity.definitionOfDone ?? 'Todas as tarefas obrigatórias desta actividade têm conclusão confirmada. Uma submissão não equivale a avaliação ou aprovação.',
       dependencyIds: all.filter(other => other.id !== activity.id && other.tasks?.some(task => prerequisiteIds.includes(task.id))).map(other => other.id),
-      tasks: tasks.map(task => ({ ...task, status: statusOf(task.status) })),
+      tasks: tasks.map(task => ({ ...task, status: statusOf(task.status),
+        ...(task.kind === 'quiz' ? { quizResults: task.status === 'completed' && task.answers
+          ? [{ participantId: actorId(source.context.studentName), answers: task.answers }] : [] } : {}),
+      })),
     }
   }))
   for (const event of source.events) {
@@ -41,6 +44,16 @@ export function mapRoadmapCompany(source: JourneySnapshot, identity: Company): C
       ...company.events.filter(event => event.activityId === activity.id).flatMap(event => event.actorIds),
       ...(activity.tasks ?? []).flatMap(task => task.submission ? [actorId(task.submission.submittedBy)] : []),
     ])]
+    // Illustrative participation is displayed separately from evidence-backed authorship.
+    if (activity.status === 'completed') {
+      const sourceActivity = all.find(item => item.id === activity.id)!
+      const names = new Set(getLearningTasks(sourceActivity, source)
+        .filter(task => task.status === 'completed')
+        .flatMap(task => task.simulatedParticipants ?? []).map(person => person.name))
+      activity.simulatedParticipantIds = company.participants
+        .filter(person => source.members.includes(person.name) && names.has(person.name) && !activity.participantIds.includes(person.id))
+        .map(person => person.id)
+    }
     const registration = activity.id === 'registar-empresa' && source.registration?.status === 'confirmed' ? source.registration : null
     if (!registration) continue
     const event = [...company.events].reverse().find(item => source.events.some(original => original.id === item.id && original.type === 'registration.confirmed'))

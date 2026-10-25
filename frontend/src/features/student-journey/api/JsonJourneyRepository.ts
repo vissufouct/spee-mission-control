@@ -9,6 +9,11 @@ export interface JsonStorage {
   setItem(key: string, value: string): void
 }
 const STORAGE_KEY = 'spee.student-journey.v1'
+const legacyParticipation = [
+  ['Ana Machava', 'Coordenação da actividade, revisão e submissão dos resultados.'],
+  ['João Tembe', 'Pesquisa, preparação dos dados e conferência das fontes.'],
+  ['António Sitoe', 'Organização dos documentos e verificação com a equipa.'],
+]
 
 /** Only this adapter knows the storage format and storage key. */
 export class JsonJourneyRepository implements JourneyRepository {
@@ -20,7 +25,7 @@ export class JsonJourneyRepository implements JourneyRepository {
     try {
       const stored = this.storage.getItem(this.storageKey)
       const snapshot = stored === null ? structuredClone(this.seed) : journeySnapshotSchema.parse(JSON.parse(stored))
-      // Add only absent descriptive metadata to old scenarios; never replace user state or messages.
+      // Backfill metadata; refresh only the exact old participation fixture, never custom data.
       for (const block of snapshot.blocks) for (const activity of block.activities) {
         const initial = this.seed.blocks.flatMap(b => b.activities).find(a => a.id === activity.id)
         if (initial) {
@@ -29,6 +34,7 @@ export class JsonJourneyRepository implements JourneyRepository {
           for (const task of activity.tasks ?? []) {
             const original = initial.tasks?.find(item => item.id === task.id)
             if (original?.resource === task.resource) task.preview ??= original?.preview
+            task.simulatedParticipants ??= structuredClone(original?.simulatedParticipants)
           }
           // Add the two approved Ideation examples without replacing existing answers or submissions.
           if (['definir-ideia', 'registar-empresa'].includes(activity.id) && activity.tasks) {
@@ -37,7 +43,9 @@ export class JsonJourneyRepository implements JourneyRepository {
             const rank = (id: string) => id === first ? -1 : id === 'registration-declaration' ? 1 : 0
             activity.tasks.sort((a, b) => rank(a.id) - rank(b.id))
           }
-          activity.simulatedParticipants ??= structuredClone(initial.simulatedParticipants)
+          const participants = activity.simulatedParticipants
+          const isLegacyParticipation = participants?.length === legacyParticipation.length && legacyParticipation.every(([name, contribution]) => participants.some(person => person.name === name && person.contribution === contribution))
+          if (!participants?.length || isLegacyParticipation) activity.simulatedParticipants = structuredClone(initial.simulatedParticipants)
           activity.materials ??= structuredClone(initial.materials)
           activity.previousIds ??= structuredClone(initial.previousIds)
           activity.nextIds ??= structuredClone(initial.nextIds)
