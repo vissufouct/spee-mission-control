@@ -4,7 +4,7 @@
 
 As designações oficiais são **Painel do Docente** e **Painel do Estudante**, sem acento em «Painel». Usar estes termos na entrada, introduções, títulos, navegação, mensagens e documentação corrente. Conservar identificadores técnicos, nomes de ficheiros e URLs existentes para manter a compatibilidade; esta decisão altera a terminologia apresentada ao utilizador.
 
-**Versão:** 0.17
+**Versão:** 0.18
 **Data:** 25 de Outubro de 2026
 **Estado:** rascunho consolidado para validação  
 **Produto:** Painéis SPEE
@@ -296,3 +296,14 @@ A barra do bloco usa segmentos iguais, um por actividade pela ordem do percurso,
 As ferramentas de demonstração são removidas de ambas as interfaces, incluindo importação/exportação/reposição de cenários e metadados visuais de armazenamento. A persistência temporária e os dados existentes permanecem; retirar controlos não autoriza limpar o armazenamento. Erros mantêm mensagem e tentativa de leitura, sem reposição destrutiva pela UI.
 
 Pré-visualizações mostram exclusivamente notificações pendentes do destinatário, no máximo três por cartão, mais recentes primeiro. O histórico completo continua no chat. Participação/contribuição permanece por definir durante a integração (DEC-012), sem novas inferências a partir de mensagens ou navegação.
+
+
+## Coerência entre os dois painéis e os exemplos — 25/10/2026
+
+O Painel do Docente deve ler simultaneamente os dois exemplos do estudante, sem depender da selecção activa na entrada. A estrutura de blocos, actividades, tarefas e precedências vem das mesmas fontes. As realizações de cada empresa são independentes: respostas, ficheiros submetidos, nomes, datas, estados e contagens nunca passam de um exemplo para outro.
+
+A composição liga os dois repositories do estudante ao contrato do docente, sem dependências entre componentes. O armazenamento do docente é comum e as comunicações são contextualizadas por empresa/turma; estudante e hub mantêm armazenamento separado por exemplo. A transição preserva os snapshots anteriores e não repõe progresso.
+
+Tarefas obrigatórias concluídas com data podem sustentar a conclusão inicial da actividade. Não criar eventos ou resultados fictícios para completar a pista de actividade; distinguir equipa, participação ilustrativa e autoria documentada. Sem dados de prazo/autoria/resultado, mostrar a ausência. O primeiro ano fiscal continua «Brevemente», fora dos cálculos. O docente consulta, não executa tarefas.
+
+Ver regras e critérios no PRD do Docente v0.11 e detalhes em `frontend/docs/roadmap-scenarios.md`. Esta revisão não altera menu lateral, header ou footer.

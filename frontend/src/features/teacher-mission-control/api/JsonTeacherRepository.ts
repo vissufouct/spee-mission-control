@@ -24,8 +24,8 @@ export class JsonTeacherRepository implements TeacherRepository {
     if (this.linkedCompany) {
       try {
         const linked = await this.linkedCompany()
-        snapshot.companies = snapshot.companies.map(company => company.id === linked.id ? linked : company)
-      } catch { throw new Error('Não foi possível actualizar a empresa ligada ao estudante. Verifique os dados do Meu Percurso e tente novamente.') }
+        snapshot.companies = Array.isArray(linked) ? linked : snapshot.companies.map(company => company.id === linked.id ? linked : company)
+      } catch { throw new Error('Não foi possível actualizar as empresas ligadas aos estudantes. Verifique os dados do Meu Percurso e tente novamente.') }
     }
     return teacherSnapshotSchema.parse(snapshot)
   }

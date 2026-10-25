@@ -31,7 +31,7 @@ export function ActivityDialog({ company, selection, onSelect }: { company: Comp
           <section><h3>Participantes com evidência</h3><p>{company.participants.filter(p => activity.participantIds.includes(p.id)).map(p => p.name).join(', ') || 'Ainda sem evidência individual.'}</p></section>
           <section><h3>Dependências</h3><p>{activity.dependencyIds.map(id => company.activities.find(item => item.id === id)?.title).filter(Boolean).join(', ') || 'Sem dependências registadas.'}</p></section>
         </div>
-        <div><h3 className="font-semibold">Próximo passo</h3><p className="mt-2 text-sm text-slate-600">{activity.nextStep}</p></div>
+        {activity.status !== 'completed' && activity.nextStep && <div><h3 className="font-semibold">Próxima tarefa</h3><p className="mt-2 text-sm text-slate-600">{activity.nextStep}</p></div>}
         <div className="teacher-actions teacher-actions--between"><div><h3 className="mb-2 font-semibold">Resultados associados</h3>{activity.resultIds.length ? <ul className="space-y-2">{activity.resultIds.map(id => <li key={id}><button className="teacher-text-link" onClick={() => onSelect({ activityId: activity.id, resultId: id })}>{company.results.find(r => r.id === id)?.title} →</button></li>)}</ul> : <p className="text-sm text-slate-500">Ainda não existe um resultado confirmado.</p>}</div><Button onClick={() => setModuleActivityId(activity.id)}>Ver no simulador</Button></div>
       </>}
       <p className="teacher-footnote">Consulta local para validação da experiência. Abrir detalhes ou o destino simulado não altera o progresso.</p>

@@ -23,7 +23,7 @@ test('as três vistas do docente funcionam sem AppShell ou persistência', async
   page.on('pageerror', error => errors.push(error.message))
   await page.setViewportSize({ width:1200,height:900 })
   await page.goto('http://127.0.0.1:6006/iframe.html?id=docente-visão-geral-sem-appshell--with-data&viewMode=story')
-  await expect(page.getByRole('heading', { name:'Progresso por empresa e marco',exact:true })).toBeVisible()
+  await expect(page.getByRole('heading', { name:'Progresso por empresa e bloco',exact:true })).toBeVisible()
   await page.getByLabel('Pesquisar empresa ou estudante', { exact:true }).fill('Nova Geração')
   await expect(page.locator('.teacher-matrix tbody tr')).toHaveCount(1)
   await page.goto('http://127.0.0.1:6006/iframe.html?id=docente-percurso-sem-appshell--with-data&viewMode=story')

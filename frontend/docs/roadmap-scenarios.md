@@ -11,7 +11,7 @@ Data: 25 de Outubro de 2026. Fonte de conteúdo: [Roteiro SPEE consolidado](../.
 
 O popup de entrada do estudante oferece as duas escolhas. `?exemplo=1` e `?exemplo=2` seleccionam o cenário; a selecção é conservada em `sessionStorage` durante a navegação. Cada entrada recarrega a aplicação para criar uma cache de consultas independente. A UI identifica empresa e exemplo no cabeçalho do percurso.
 
-Os fixtures estão em `src/data/student-roadmap-example-{1,2}.fixture.json`. Só a composição em `app/providers` conhece os ficheiros e escolhe o adaptador. Cada exemplo usa o prefixo `spee.roadmap-2026.<exemplo>.` no armazenamento do estudante, docente e hub social. O cenário antigo mantém os seus dados nas chaves anteriores; não há migração destrutiva. As visitas seguintes retomam as alterações desse exemplo, em vez de repor os dados iniciais.
+Os fixtures estão em `src/data/student-roadmap-example-{1,2}.fixture.json`. Só a composição em `app/providers` conhece os ficheiros e escolhe o adaptador. Cada exemplo usa o prefixo `spee.roadmap-2026.<exemplo>.` no armazenamento do estudante e do hub social. O cenário antigo mantém os seus dados nas chaves anteriores; não há migração destrutiva. As visitas seguintes retomam as alterações desse exemplo, em vez de repor os dados iniciais.
 
 As alterações não escrevem nos JSON do projecto nem são partilhadas entre computadores. Os ficheiros seleccionados são guardados no browser, juntamente com a submissão. Uma futura API substitui o repository; os componentes não conhecem estes caminhos. O Studio existente continua independente.
 
@@ -34,7 +34,7 @@ Não se exige a conclusão integral de um bloco para abrir o seguinte, além das
 
 Os quizzes de acolhimento e constituição têm quatro perguntas originais e aprovação a partir de 70% (3/4). O diagnóstico tem cinco perguntas, não exige nota mínima e surge com 4/5 (80%) no exemplo 1. A verificação final tem seis respostas Sim/Não; nesta experiência, todas devem ser Sim para a concluir. Esta regra, as perguntas e as tentativas ilimitadas são propostas de simulação, não um modelo de avaliação institucional aprovado. Tentativas sem aprovação apresentam erro; conservam-se as respostas da conclusão, não um histórico de tentativas falhadas.
 
-As operações genéricas exigem confirmação explícita do resultado simulado. O registo da empresa reutiliza o formulário existente e exige dados válidos e confirmação final. Nenhuma operação envia dados para BAU, INSS, bancos ou sistemas comerciais. O docente consulta a mesma realização de tarefas da empresa ligada, sem ver mensagens privadas do grupo ou do hub.
+As operações genéricas exigem confirmação explícita do resultado simulado. O registo da empresa reutiliza o formulário existente e exige dados válidos e confirmação final. Nenhuma operação envia dados para BAU, INSS, bancos ou sistemas comerciais. O docente consulta a mesma realização de tarefas das duas empresas, sem ver mensagens privadas do grupo ou do hub.
 
 ## Ficheiros e tarefas
 
@@ -88,3 +88,14 @@ Nenhuma dependência de execução foi acrescentada para o roteiro. Menu lateral
 Os cartões de entrada descrevem estados iniciais e esclarecem que a navegação retoma o progresso local. Os PDF preparados incluem um campo opcional `preview`, gerado do próprio documento, para browsers sem visualizador PDF funcional. O repository acrescenta apenas esse metadado ausente quando o recurso coincide com o fixture; preserva estados e revisões. Evidências enviadas não usam a preview do exemplo. O ficheiro original continua descarregável.
 
 Executar `python3 scripts/roteiro/build-previews.py` com PyMuPDF instalado depois de gerar documentos; o script valida que os exemplos têm uma página. Não foi acrescentada uma dependência à aplicação. O resultado de registo oferece regresso directo às tarefas, sem instruções de reposição inexistentes.
+
+
+## Vista conjunta do docente
+
+`createPanelRepositories` compõe dois `JsonJourneyRepository`, um por exemplo, e injecta no `JsonTeacherRepository` uma função que lê ambos. `mapRoadmapCompany` projecta exactamente os blocos, actividades, tarefas, respostas e submissões da origem. Os componentes não importam JSON. A nova base `teacher-roadmap.fixture.json` define turma, ciclo e colunas do roteiro, sem transportar as nove empresas antigas.
+
+Comunicações comuns ficam em `spee.roadmap-2026.teacher.shared.v1`. O adaptador `RoadmapTeacherStorage` lê essa chave ou, na sua ausência, reúne as comunicações compatíveis dos antigos snapshots docentes por exemplo. Preserva conteúdo/autor/data; atribui a empresa de origem; evita colisões de IDs; limita orientações gerais migradas à empresa original. A primeira mutação persiste o conjunto; as chaves antigas nunca são sobrescritas. Registos de actividades fora do novo roteiro permanecem nos snapshots anteriores, sem reatribuição. Cenários antigos explicitamente importados conservam o caminho de compatibilidade para testes.
+
+A selecção do estudante não afecta a lista do docente. Novas orientações gerais abrangem as turmas escolhidas; mensagens específicas usam o ID explícito da empresa. Erros de validação, leitura ou quota surgem na experiência, sem reposição silenciosa. Os dados mantêm os limites de origem e browser: local e GitHub Pages não partilham progresso.
+
+A projecção não inventa eventos para tarefas iniciais concluídas. A conclusão com data das tarefas obrigatórias constitui evidência de estado; autoria só é apresentada quando existe evento ou submissão correspondente. Não são herdados prazos ou resultados antigos. Um comprovativo de registo exige confirmação efectiva; submissão não é avaliação. Os dois exemplos partilham a Turma A e os nomes definidos nos fixtures, sem presumir que todos executaram todas as tarefas.

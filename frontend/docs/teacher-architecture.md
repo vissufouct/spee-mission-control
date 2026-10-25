@@ -14,11 +14,11 @@ Não foram adicionadas dependências. Mantêm-se React/Router, TanStack Query, R
 
 ## Mesma fonte, vistas separadas
 
-AppProviders injecta JsonTeacherRepository com o fixture do docente, armazenamento local e uma função de leitura da empresa ligada. Essa função usa o contrato público do estudante e mapStudentJourney.
+AppProviders compõe dois repositories do estudante e injecta no JsonTeacherRepository uma função de leitura conjunta. `mapRoadmapCompany` projecta Horizonte Verde e Nascente Criativa dos seus próprios registos. A feature do docente não depende de componentes do estudante; a composição usa as APIs públicas.
 
-A projecção utiliza os estados reais do cenário local, os eventos do estudante e o seu comprovativo. Os três estados inicialmente concluídos não são todos eventos de autoria: os estados sem evento original são identificados como cenário inicial e entram em automação/origem do cenário, sem atribuição humana.
+A matriz utiliza os cinco blocos do roteiro actual. As 15 actividades e 48 tarefas são consultadas em cada empresa; o primeiro ano fiscal vazio fica fora do progresso. Os valores iniciais são 47%/0%, mas os registos locais posteriores prevalecem. Os nove cenários antigos ficam fora da vista corrente, preservados nos fixtures e no armazenamento histórico.
 
-Só Horizonte Verde tem ligação operacional demonstrativa ao estudante. As outras nove empresas são fixtures independentes para testar diversidade de estados. Os 63% do mockup não substituem os 18% efectivos desse cenário. A fórmula uniforme é experimental e foi extraída para shared por reutilização efectiva.
+A projecção conserva respostas, ficheiros, datas e actores confirmados. Não fabrica eventos ou resultados para conclusões iniciais; estas podem ser sustentadas por tarefas obrigatórias concluídas e datadas. Membros da equipa não são automaticamente participantes com evidência. Não herdar prazos, versões ou dados operacionais do cenário anterior.
 
 ## Dados e orientações
 
@@ -34,7 +34,7 @@ Por decisão de 24 de Outubro de 2026, a UI não expõe ferramentas de demonstra
 
 ## Consulta e UX
 
-Filtros globais e por coluna combinam-se com AND e ficam na URL. Os indicadores descrevem as empresas filtradas; alertas contam actividades afectadas, não cada motivo separadamente. Os prazos são calculados relativamente a 22/10/2026, não ao relógio de execução.
+Filtros globais e por coluna combinam-se com AND e ficam na URL. Os indicadores descrevem as empresas filtradas; alertas contam actividades afectadas, não cada motivo separadamente. Os prazos são calculados relativamente a context.asOf, não ao relógio de execução; sem prazo na origem, nenhum alerta temporal é fabricado.
 
 Eventos humanos confirmados incluem colaboração. O separador colectivo isola esses eventos; o automático não atribui contribuições humanas. Um evento pode envolver várias pessoas. A distribuição é alfabética e descritiva, sem ranking ou avaliação.
 
@@ -43,3 +43,5 @@ Resultados são consultáveis num modal local com contexto, referência e aviso 
 ## Isolamento
 
 As três vistas funcionam no Storybook sem router, shell ou persistência real. Apenas as páginas coordenam query params e navegação. O AGENTS.md local acrescenta as invariantes de participação/orientações, sem enfraquecer as regras da raiz.
+
+O armazenamento comum do docente e a migração não destrutiva das comunicações estão documentados em [Roteiro: exemplos e materiais](roadmap-scenarios.md#vista-conjunta-do-docente).

@@ -20,6 +20,12 @@ export function aggregateStatus(activities: TeacherActivity[]): TeacherStatus {
   if (activities.some(a => a.status === 'blocked')) return 'blocked'
   return 'not-started'
 }
+export function milestoneState(company: Company, id: string): TeacherStatus | 'unavailable' {
+  const block = company.blocks.find(item => item.id === id)
+  if (block?.state) return block.state
+  const activities = company.activities.filter(activity => activity.milestone === id)
+  return activities.length ? aggregateStatus(activities) : 'unavailable'
+}
 export function daysUntil(date: string | null, asOf: string) {
   if (!date) return Infinity
   return Math.round((Date.parse(date + 'T00:00:00Z') - Date.parse(asOf.slice(0, 10) + 'T00:00:00Z')) / 86_400_000)
@@ -56,7 +62,7 @@ export function filterCompanies(snapshot: TeacherSnapshot, filters: MatrixFilter
       const days = daysUntil(a.dueDate, snapshot.context.asOf)
       return filters.deadline === 'overdue' ? days < 0 : days >= 0 && days <= snapshot.context.dueSoonDays
     })) return false
-    return Object.entries(filters.columns).every(([milestone, state]) => state === 'all' || aggregateStatus(company.activities.filter(a => a.milestone === milestone)) === state)
+    return Object.entries(filters.columns).every(([milestone, state]) => state === 'all' || !snapshot.milestones.some(item => item.id === milestone) || milestoneState(company, milestone) === state)
   })
 }
 export function pendingOrientationRequests(snapshot: TeacherSnapshot, companyId?: string) {

@@ -14,9 +14,9 @@ Aplicar primeiro o AGENTS.md da raiz. Esta feature fornece conteúdo funcional; 
 
 TeacherRepository é a fronteira assíncrona. O provider recebe o repository; só o adaptador conhece JSON/armazenamento. Páginas, hooks e componentes não importam fixtures nem o adaptador concreto.
 
-A Horizonte Verde é projectada a partir do repository do estudante por um adaptador de composição em app/providers. A ligação é injectada como função de leitura, não uma dependência entre features. Depois de mutações, invalidar a consulta: o retorno bruto persistido do docente não contém a projecção actual do estudante.
+Horizonte Verde e Nascente Criativa são projectadas simultaneamente a partir dos respectivos repositories do estudante por um adaptador de composição em app/providers. A ligação é injectada como função de leitura, não uma dependência entre features. Depois de mutações, invalidar a consulta: o retorno bruto persistido do docente não contém a projecção actual do estudante.
 
-Os estados iniciais sem evento de origem são identificados como dados de cenário, sem inventar autoria humana. Os contratos completos de eventos/versionamento continuam pendentes.
+Os estados iniciais podem apoiar-se em tarefas obrigatórias concluídas e datadas; não fabricar eventos, comprovativos ou autoria humana. Não herdar prazos ou resultados de outras empresas. Comunicações devem manter a empresa de origem, incluindo na migração do armazenamento docente para a vista conjunta. Os contratos completos de eventos/versionamento continuam pendentes.
 
 ## Orientações
 

@@ -11,4 +11,4 @@ export interface TeacherRepository {
   publishGeneralOrientation(input: GeneralOrientationInput, expectedRevision: number): Promise<TeacherSnapshot>
   reset(): Promise<TeacherSnapshot>
 }
-export type LinkedCompanyReader = () => Promise<Company>
+export type LinkedCompanyReader = () => Promise<Company | Company[]>

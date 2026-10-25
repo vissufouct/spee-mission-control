@@ -17,8 +17,9 @@ describe('repository do docente', () => {
     )
     expect(statuses).toContain('in-progress')
     expect(statuses.every(status => ['completed', 'in-progress', 'not-started', 'blocked'].includes(status))).toBe(true)
-    const invalid = structuredClone(fixture)
+    const invalid = teacherSnapshotSchema.parse(fixture)
     invalid.companies[0].events = []
+    for (const activity of invalid.companies[0].activities) activity.tasks = []
     expect(teacherSnapshotSchema.safeParse(invalid).success).toBe(false)
   })
   it('responde, encerra e preserva o histórico dos pedidos de orientação', async () => {
@@ -93,8 +94,8 @@ describe('repository do docente', () => {
   it('falha da origem partilhada impede leitura e escrita enganadoras', async () => {
     const { storage, data } = setup()
     const repo = new JsonTeacherRepository(fixture,storage,async () => { throw new Error('source') })
-    await expect(repo.getSnapshot()).rejects.toThrow('ligada ao estudante')
-    await expect(repo.saveOrientation(input,0)).rejects.toThrow('ligada ao estudante')
+    await expect(repo.getSnapshot()).rejects.toThrow('empresas ligadas aos estudantes')
+    await expect(repo.saveOrientation(input,0)).rejects.toThrow('empresas ligadas aos estudantes')
     expect(data.size).toBe(0)
   })
 })

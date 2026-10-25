@@ -11,3 +11,5 @@ export type { JourneySnapshot } from './types'
 export { getActivityStatus } from './services/journey.selectors'
 export { getLearningTasks } from './services/learning-tasks'
 import './styles.css'
+
+export { journeySnapshotSchema } from './schemas/journey.schema'

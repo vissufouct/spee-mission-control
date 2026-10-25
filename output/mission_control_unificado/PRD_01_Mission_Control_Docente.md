@@ -6,11 +6,11 @@
 
 O popup «Detalhes» apresenta as tarefas da actividade, na ordem do estudante, com contagem concluídas/total, tipo, estado, data disponível, pontuação e consulta de respostas de quizzes, e metadados e ligação para evidências PDF, DOCX ou XLSX submetidas. É exclusivamente de leitura: o docente não executa nem conclui tarefas. Submissão não significa aprovação. Preservar os restantes detalhes e resultados.
 
-A empresa do exemplo seleccionado (Horizonte Verde ou Nascente Criativa) projecta as tarefas efectivas do repository do estudante através da composição, sem importar componentes da outra feature e sem expor conversas privadas. A Maputo Soluções inclui tarefas fictícias para validar a consulta; nas empresas sem dados de tarefas, apresentar um estado vazio explícito, sem inferir realizações a partir do estado da actividade.
+O docente consulta simultaneamente Horizonte Verde (exemplo 1) e Nascente Criativa (exemplo 2), projectadas dos respectivos repositories do estudante através da composição. Não importar componentes da outra feature nem expor conversas privadas. Os nove cenários antigos deixam de fazer parte desta vista; os seus fixtures e registos permanecem preservados para consulta histórica e testes de regressão.
 
 Na vista geral, entre o título e o subtítulo da turma/ano, apresentar um dropdown «Universidade»: Universidade Eduardo Mondlane (inicial), Universidade Pedagógica de Maputo e Universidade Joaquim Chissano. A escolha fica na URL e é preservada ao limpar filtros de turma/estado/prazo. Nesta etapa valida-se a selecção visual; os dados de demonstração ainda são comuns às três opções, sem simular isolamento institucional ou permissões. O shell mantém-se inalterado.
 
-**Versão:** 0.10
+**Versão:** 0.11
 **Data:** 25 de Outubro de 2026
 **Estado:** actualizado após validação funcional com Leila Omar e alinhamento com o design aprovado
 **Depende de:** `PRD_00_Mission_Control_Comum.md`  
@@ -19,7 +19,7 @@ Na vista geral, entre o título e o subtítulo da turma/ano, apresentar um dropd
 
 Aplicar a secção 9.1 do PRD comum à visão geral, percurso da empresa, contribuições, orientações e respectivos diálogos. Preservar integralmente menu lateral, header e footer.
 
-No cabeçalho do percurso da empresa, apresentar apenas o nome da empresa e a turma. Não mostrar a versão técnica do percurso (por exemplo, `percurso-demo-v1`); esta mantém-se nos dados para identificação e consistência, sem ocupar o subtítulo da interface.
+No cabeçalho do percurso da empresa, apresentar o nome da empresa, a turma e a identificação do exemplo. Não mostrar a versão técnica do percurso (por exemplo, `percurso-demo-v1`); esta mantém-se nos dados para identificação e consistência, sem ocupar o subtítulo da interface.
 
 Na empresa ligada à experiência do estudante, o estado da actividade agrega as tarefas obrigatórias conforme a decisão de 25 de Outubro do PRD comum. A confirmação do registo pode disponibilizar o comprovativo sem concluir «Registar empresa», caso faltem o material obrigatório ou o quiz. Eventos de conclusão de tarefas actualizam a mesma origem, preservando a privacidade das conversas do grupo.
 
@@ -212,10 +212,33 @@ A conversa docente–empresa é visível e respondível por todos os membros des
 
 ## Compatibilidade com o roteiro de 48 tarefas — 25/10/2026
 
-A empresa ligada ao estudante reflecte as actividades, tarefas, respostas, ficheiros e progresso do exemplo activo. Os pedidos/orientações usam as novas actividades na leitura e na escrita; as mensagens de salário do cenário anterior não são associadas a actividades diferentes. As outras empresas de demonstração mantêm os seus percursos. O docente consulta resultados, não executa as tarefas do estudante. Preservar a separação das conversas privadas e o shell.
+As duas empresas reflectem simultaneamente as actividades, tarefas, respostas, ficheiros e progresso dos respectivos exemplos. Os pedidos/orientações usam as novas actividades na leitura e na escrita; as mensagens de salário do cenário anterior não são associadas a actividades diferentes. Os percursos anteriores permanecem arquivados, fora da vista corrente. O docente consulta resultados, não executa as tarefas do estudante. Preservar a separação das conversas privadas e o shell.
 
 ## Coerência dos blocos com o estudante — 25 de Outubro de 2026
 
-Para a empresa ligada ao exemplo seleccionado, o estado de cada bloco é projectado do mesmo roteiro do estudante. Um bloco com tarefas disponíveis não passa a bloqueado apenas porque outra tarefa está bloqueada. Um bloco futuro sem actividades definidas apresenta «Brevemente» e uma explicação do estado vazio, sem sugerir tarefas executáveis. A agregação das restantes empresas de demonstração mantém o comportamento existente.
+Para cada uma das duas empresas, o estado de cada bloco é projectado do mesmo roteiro do estudante. Um bloco com tarefas disponíveis não passa a bloqueado apenas porque outra tarefa está bloqueada. Um bloco futuro sem actividades definidas apresenta «Brevemente» e uma explicação do estado vazio, sem sugerir tarefas executáveis.
 
 O teste no browser confirmou a passagem da constituição de 4/7 para 7/7 tarefas e a consulta no docente do quiz, da pontuação e da evidência submetida, sem expor conversas privadas. Ver `output/roteiro-qa/usabilidade-2026-10-25/RELATORIO.md`.
+
+
+## Alinhamento integral com os dois exemplos — 25/10/2026
+
+Esta revisão substitui a projecção de apenas uma empresa dependente do exemplo seleccionado. A visão geral apresenta sempre as duas empresas, com os mesmos IDs estáveis em todas as páginas e conversas:
+
+| Empresa | Registos iniciais | Progresso inicial |
+| --- | --- | --- |
+| Horizonte Verde, Lda. · Exemplo 1 | 24/48 tarefas; acolhimento e ideação concluídos; constituição legal com 4/7 tarefas e registo em rascunho | 7/15 actividades, 47% |
+| Nascente Criativa, Lda. · Exemplo 2 | Nenhuma tarefa realizada; inicia no acolhimento; dependências posteriores por cumprir | 0/15 actividades, 0% |
+
+São pontos de partida: se o utilizador já realizou tarefas, apresentar os seus valores actuais. Nunca repor o progresso para voltar a estes números. Nos fixtures, ambas pertencem à Turma A e têm os membros Ana Machava, João Tembe e António Sitoe; conservar essa identidade, sem inventar equipas diferentes.
+
+- A matriz usa exactamente os cinco blocos do roteiro: Acolhimento e preparação, Ideação, Criação de empresas, Início de actividades e Primeiro ano fiscal. O último apresenta «Brevemente», não tem filtro de estado nem actividades inventadas e não entra no denominador.
+- Cada célula abre o mesmo bloco da empresa escolhida, inclusive blocos vazios. Filtros por coluna respeitam o estado projectado do estudante; parâmetros antigos de marcos inexistentes não devem ocultar empresas.
+- Os detalhes mostram as 15 actividades e as 48 tarefas de cada empresa, com a ordem, estado, respostas de quiz, pontuação calculada, conclusão datada e submissões da própria origem. O docente não executa tarefas nem vê conversas privadas de grupo/hub.
+- Abrir um resultado não cria evidência. Não herdar prazos, módulos, referências, participantes ou resultados dos cenários antigos. Sem prazo na origem, mostrar «Sem prazo». Sem autoria comprovada, mostrar «Sem evidência»; membros da equipa ou descrições ilustrativas não comprovam execução.
+- Conclusões iniciais sustentadas por tarefas obrigatórias concluídas e datadas são válidas. Não fabricar eventos, datas ou comprovativos para as justificar. Resultados de registo só aparecem quando existe um registo efectivamente confirmado; ficheiros submetidos mantêm nome, conteúdo, autor e data.
+- Comunicações do docente usam armazenamento comum às duas empresas, com revisão de concorrência. Orientações/pedidos específicos ficam associados à empresa correcta; novas orientações gerais da Turma A chegam a ambas. Orientações antigas de um exemplo mantêm o âmbito original, mesmo quando a turma coincide.
+- Migrar apenas comunicações compatíveis com as actividades actuais, preservando autor, conteúdo, data e identificadores salvo colisão entre exemplos. Conservar os snapshots anteriores intactos. Mensagens sobre actividades antigas não são reatribuídas por semelhança.
+- Falha de leitura de um exemplo ou de migração apresenta erro, sem mostrar dados iniciais como se fossem actuais. Preservar a separação UI/services/repository e todo o AppShell.
+
+Critérios de aceitação: comparar tarefas e metadados com ambos os repositories; efectuar uma conclusão no exemplo 2 e confirmar que só essa empresa muda; consultar respostas e evidência do exemplo 1; confirmar comunicação isolada por empresa, migração sem alteração dos originais, filtros e «Brevemente»; validar desktop, móvel e story sem AppShell.

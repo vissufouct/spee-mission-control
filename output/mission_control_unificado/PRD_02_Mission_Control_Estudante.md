@@ -1,6 +1,6 @@
 # PRD do Painel do Estudante
 
-**Versão:** 0.14
+**Versão:** 0.15
 **Data:** 25 de Outubro de 2026
 **Estado:** actualizado com o roteiro de 48 tarefas e dois exemplos de empresas
 **Depende de:** `PRD_00_Mission_Control_Comum.md`  
@@ -290,3 +290,10 @@ As mensagens aparecem por ordem cronológica, com as mais recentes em baixo, jun
 O compositor deve disponibilizar «Emojis» e «GIFs» lado a lado. Emojis agrupados em nove categorias, pesquisáveis em português; inserção no cursor sem perder o rascunho. GIFs através do GIPHY com pesquisa, sugestões iniciais, carregamento, erro com repetição e estado vazio. A selecção gera uma pré-visualização removível; só «Publicar mensagem» envia. Permitir GIF com ou sem legenda e respostas a GIFs. Preservar o anexo após recarregar a conversa. As mensagens continuam a identificar nome e turma.
 
 A integração é feita no browser por adaptador injectado, sem backend, com chave Web configurável. Sem chave, apresentar a indisponibilidade de configuração, sem simular pesquisa bem-sucedida. Exibir atribuição GIPHY, solicitar conteúdo com classificação G e enviar apenas os termos de pesquisa ao serviço. A validação com adaptador simulado não constitui validação de uma conta real. As cores e o shell permanecem inalterados.
+
+
+## Correspondência com o docente — 25/10/2026
+
+O docente consulta simultaneamente os registos dos exemplos 1 e 2. Alterar o exemplo seleccionado pelo estudante não altera a lista de empresas do docente nem transfere realizações entre empresas. O progresso guardado prevalece sobre o ponto inicial dos cartões de entrada.
+
+Mensagens ao docente identificam explicitamente a empresa do exemplo activo. Respostas e orientações específicas regressam apenas a essa empresa; novas orientações gerais da Turma A chegam às duas empresas. Comunicações antigas migradas conservam o âmbito original. Conversas do grupo e do hub continuam privadas e fora da projecção do docente. Os ficheiros, respostas e datas de conclusão apresentados ao docente são os mesmos registos do repository do estudante.

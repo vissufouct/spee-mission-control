@@ -21,6 +21,6 @@ export function OverviewView({ snapshot, filters, onChange, onClear, onOpen, onR
       { label: 'Pedidos de orientação', value: pendingRequests, icon: 'alerts', tone: 'amber', onClick: onRequests },
     ]} />
     <CompanyMatrix companies={companies} milestones={snapshot.milestones} filters={filters} onColumnFilter={(id, status) => onChange('marco.' + id, status)} onOpen={onOpen} onClear={onClear} />
-    <p className="teacher-footnote"><Info size={16} />O progresso resulta de eventos e resultados confirmados. Indicadores relativos às empresas filtradas; prazos referidos à data do cenário.</p>
+    <p className="teacher-footnote"><Info size={16} />O progresso resulta da conclusão confirmada das actividades e tarefas. Indicadores relativos às empresas filtradas; prazos referidos à data do cenário.</p>
   </div>
 }

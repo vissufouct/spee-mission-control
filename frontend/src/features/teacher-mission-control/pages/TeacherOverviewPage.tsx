@@ -32,7 +32,10 @@ export function TeacherOverviewPage() {
       </label>} />
     <OverviewView snapshot={query.data} filters={filters} onChange={change} onClear={() => setParams(params.get('universidade') ? { universidade: params.get('universidade')! } : {}, { replace: true, preventScrollReset: true, flushSync: true })} onRequests={() => setRequestsOpen(true)} onOpen={(id, milestone) => {
       const next = new URLSearchParams(params)
-      if (milestone) next.set('bloco', query.data.companies.find(c => c.id === id)?.activities.find(a => a.milestone === milestone)?.blockId ?? '')
+      if (milestone) {
+        const company = query.data.companies.find(c => c.id === id)
+        next.set('bloco', company?.blocks.some(block => block.id === milestone) ? milestone : company?.activities.find(activity => activity.milestone === milestone)?.blockId ?? '')
+      }
       navigate(teacherPaths.company(id) + (next.size ? '?' + next : ''))
     }} />
     <GeneralOrientationsPanel snapshot={query.data} />

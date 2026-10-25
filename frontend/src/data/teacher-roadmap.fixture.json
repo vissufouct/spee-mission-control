@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "revision": 0,
+  "context": {
+    "teacherName": "Vali Issufo",
+    "asOf": "2026-10-25T08:00:00.000Z",
+    "updatedAt": "2026-10-25T08:00:00.000Z",
+    "dueSoonDays": 3
+  },
+  "classes": [
+    {
+      "id": "turma-a",
+      "name": "Turma A",
+      "subject": "Contabilidade Aplicada",
+      "year": 2026
+    }
+  ],
+  "routes": [
+    {
+      "id": "roteiro-spee-2026",
+      "name": "Roteiro SPEE",
+      "version": "spee-2026-10-25"
+    }
+  ],
+  "milestones": [
+    {
+      "id": "acolhimento",
+      "title": "Acolhimento e preparação",
+      "upcoming": false
+    },
+    {
+      "id": "ideacao",
+      "title": "Ideação",
+      "upcoming": false
+    },
+    {
+      "id": "constituicao",
+      "title": "Criação de empresas",
+      "upcoming": false
+    },
+    {
+      "id": "inicio-actividades",
+      "title": "Início de actividades",
+      "upcoming": false
+    },
+    {
+      "id": "primeiro-ano",
+      "title": "Primeiro ano fiscal",
+      "upcoming": true
+    }
+  ],
+  "companies": [],
+  "orientations": [],
+  "orientationRequests": [],
+  "generalOrientations": [],
+  "audit": []
+}

@@ -14,6 +14,7 @@ export function ActivityTasksReview({ tasks }: { tasks: TeacherActivity['tasks']
       return <li key={task.id} className="space-y-2 p-4">
         <div className="flex flex-wrap items-center justify-between gap-2"><h4 className="text-sm font-semibold">{task.title}</h4>{task.submission ? <span className="rounded-full bg-emerald-50 px-3 py-1 text-xs text-emerald-800">Submetido</span> : <TeacherStatusBadge status={task.status} />}</div>
         <p className="text-xs text-slate-500">{formats[task.kind]}{task.completedAt && ` · ${formatInstant(task.completedAt)}`}</p>
+        {task.status === 'blocked' && <p className="text-xs text-slate-600">{task.description}</p>}
         {task.kind === 'quiz' && task.answers && total > 0 && <details className="rounded-lg bg-blue-50 p-3 text-sm">
           <summary className="cursor-pointer text-blue-700 focus-visible:outline-2">Pontuação: {correct}/{total} ({Math.round(correct / total * 100)}%) · Ver respostas</summary>
           <ol className="mt-3 space-y-3">{task.questions?.map(question => <li key={question.id}><p className="font-medium">{question.prompt}</p><p>Resposta: {question.options[task.answers![question.id]] ?? 'Sem resposta'}</p><p className="text-xs text-slate-600">{task.answers![question.id] === question.correct ? 'Correcta' : `Resposta correcta: ${question.options[question.correct]}`}</p></li>)}</ol>

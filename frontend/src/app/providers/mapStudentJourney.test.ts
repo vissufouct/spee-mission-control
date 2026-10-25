@@ -2,7 +2,8 @@ import { describe, expect, it } from 'vitest'
 import studentFixture from '@/data/student-journey.fixture.json'
 import teacherFixture from '@/data/teacher-mission-control.fixture.json'
 import roadmapFixture from '@/data/student-roadmap-example-1.fixture.json'
-import { JsonJourneyRepository } from '@/features/student-journey'
+import teacherRoadmap from '@/data/teacher-roadmap.fixture.json'
+import { JsonJourneyRepository, journeySnapshotSchema } from '@/features/student-journey'
 import { JsonTeacherRepository, teacherSnapshotSchema } from '@/features/teacher-mission-control'
 import { mapStudentJourney } from './mapStudentJourney'
 import { createStudentConversations } from './createStudentConversations'
@@ -42,14 +43,16 @@ describe('origem comum estudante/docente', () => {
 })
 
 describe('roteiro aplicado à empresa ligada', () => {
+  function parseRoadmapSeed() { return journeySnapshotSchema.parse(roadmapFixture) }
   function setupRoadmap() {
     const values = new Map<string, string>()
     const storage = { getItem: (key: string) => values.get(key) ?? null, setItem: (key: string, value: string) => { values.set(key, value) } }
     const student = new JsonJourneyRepository(roadmapFixture, storage)
-    const seed = teacherSnapshotSchema.parse(teacherFixture)
+    const seed = teacherSnapshotSchema.parse(teacherRoadmap)
+    seed.companies = [mapStudentJourney(parseRoadmapSeed(), { ...template, routeId: seed.routes[0].id })]
     seed.orientations = seed.orientations.filter(note => note.companyId !== template.id)
     seed.orientationRequests = seed.orientationRequests.filter(note => note.companyId !== template.id)
-    const teacher = new JsonTeacherRepository(seed, storage, async () => mapStudentJourney(await student.getSnapshot(), template))
+    const teacher = new JsonTeacherRepository(seed, storage, async () => mapStudentJourney(await student.getSnapshot(), seed.companies[0]))
     return { student, teacher, conversations: createStudentConversations(student, teacher) }
   }
   it('mostra as 48 tarefas e permite orientação numa actividade nova sem expor conversas do grupo', async () => {

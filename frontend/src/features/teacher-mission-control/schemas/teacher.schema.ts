@@ -11,6 +11,7 @@ const learningTaskSchema = z.object({
   id: z.string(), title: z.string(), description: z.string(),
   kind: z.enum(['operation', 'quiz', 'video', 'pdf', 'url', 'evidence']), status: statusSchema,
   resource: z.string().regex(/^(https:\/\/[^\s]+|apoio\/[a-zA-Z0-9_-]+\.(pdf|html|mp4|png|jpg|webp|xlsx|docx))$/).optional(),
+  required: z.boolean().default(true),
   completedAt: z.iso.datetime().optional(),
   questions: z.array(z.object({ id: z.string(), prompt: z.string(), options: z.array(z.string()), correct: z.number().int() })).optional(),
   answers: z.record(z.string(), z.number().int()).optional(),
@@ -33,6 +34,7 @@ export const eventSchema = z.object({
 export const companySchema = z.object({
   id: z.string().min(1), name: z.string().min(1), classId: z.string(), routeId: z.string(),
   definitionVersion: z.string(), currentBlockId: z.string(),
+  example: z.enum(['1', '2']).optional(),
   linkedToStudent: z.boolean(), participants: z.array(participantSchema),
   blocks: z.array(z.object({ id: z.string(), title: z.string(), state: z.enum(['completed', 'in-progress', 'not-started', 'blocked', 'unavailable']).optional() })).min(1),
   activities: z.array(activitySchema).min(1), events: z.array(eventSchema),
@@ -73,6 +75,7 @@ export const generalOrientationInputSchema = z.object({
   reason: z.string().trim().min(10, 'Explique o motivo com pelo menos 10 caracteres.').max(1000),
 })
 export const generalOrientationSchema = generalOrientationInputSchema.extend({
+  companyIds: z.array(z.string()).optional(),
   id: z.string(), author: z.string(), createdAt: z.iso.datetime(),
 })
 export const teacherSnapshotSchema = z.object({
@@ -80,7 +83,7 @@ export const teacherSnapshotSchema = z.object({
   context: z.object({ teacherName: z.string(), asOf: z.iso.datetime(), updatedAt: z.iso.datetime(), dueSoonDays: z.number().int().min(1).max(30) }),
   classes: z.array(z.object({ id: z.string(), name: z.string(), subject: z.string(), year: z.number() })).min(1),
   routes: z.array(z.object({ id: z.string(), name: z.string(), version: z.string() })).min(1),
-  milestones: z.array(z.object({ id: z.string(), title: z.string() })).min(1),
+  milestones: z.array(z.object({ id: z.string(), title: z.string(), upcoming: z.boolean().optional() })).min(1),
   companies: z.array(companySchema), orientations: z.array(orientationSchema),
   orientationRequests: z.array(orientationRequestSchema).default([]),
   generalOrientations: z.array(generalOrientationSchema).default([]),
@@ -106,7 +109,8 @@ export const teacherSnapshotSchema = z.object({
       if (!company.blocks.some(b => b.id === activity.blockId) || !activity.participantIds.every(id => participantIds.has(id)) ||
           !activity.resultIds.every(id => resultIds.has(id)) || !value.milestones.some(m => m.id === activity.milestone))
         ctx.addIssue({ code: 'custom', message: 'Actividade com referências inválidas.' })
-      if (activity.status === 'completed' && (!activity.resultIds.length || !company.events.some(e => e.activityId === activity.id && e.confirmed && e.newStatus === 'completed')))
+      const confirmedTasks = !!activity.tasks?.filter(task => task.required).length && activity.tasks.filter(task => task.required).every(task => task.status === 'completed' && !!task.completedAt)
+      if (activity.status === 'completed' && !confirmedTasks && (!activity.resultIds.length || !company.events.some(e => e.activityId === activity.id && e.confirmed && e.newStatus === 'completed')))
         ctx.addIssue({ code: 'custom', message: 'Conclusão sem evento ou resultado confirmado.' })
     }
     for (const event of company.events)
@@ -122,6 +126,6 @@ export const teacherSnapshotSchema = z.object({
     if (!value.companies.some(c => c.id === request.companyId && c.activities.some(a => a.id === request.activityId)))
       ctx.addIssue({ code: 'custom', message: 'Pedido de orientação fora do contexto da empresa.' })
   for (const orientation of value.generalOrientations)
-    if (!orientation.classIds.every(id => value.classes.some(c => c.id === id)))
+    if (!orientation.classIds.every(id => value.classes.some(c => c.id === id)) || orientation.companyIds?.some(id => !value.companies.some(company => company.id === id)))
       ctx.addIssue({ code: 'custom', message: 'Orientação geral dirigida a uma turma inexistente.' })
 })
