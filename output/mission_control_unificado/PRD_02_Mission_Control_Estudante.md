@@ -26,6 +26,10 @@ Em «Definir a ideia de negócio», a primeira tarefa é «Diagnóstico do empre
 
 Os botões «Ver tarefas» incluem um badge «X de Y», indicando tarefas concluídas e total. A contagem deriva do estado actual, incluindo evidências submetidas. A ordem dos quizzes e a nova evidência são aplicadas aos cenários já guardados sem substituir respostas ou submissões.
 
+No «Percurso completo», cada linha de actividade apresenta a contagem de tarefas concluídas junto ao estado: «Em curso (1 de 6)». O cabeçalho do bloco mantém a sua contagem de actividades, distinguindo os dois níveis.
+
+As acções nas linhas de tarefas usam botões discretos: fundo branco, contorno azul claro, texto azul de peso normal e dimensão compacta. Evitar vários botões de fundo azul saturado na mesma lista. Manter rótulos explícitos, foco visível e os estados das tarefas nos respectivos badges.
+
 Em «Convidar sócios», incluir um vídeo obrigatório com controlos de reprodução e uma página obrigatória sobre responsabilidades dos sócios. Em «Modelo de negócio», incluir uma página sobre proposta de valor já consultada no cenário inicial. Os ficheiros são locais, fictícios e utilizáveis também no GitHub Pages.
 
 Cada tarefa mostra ícone de formato, título, estado e botão: Ver, Iniciar tarefa, Continuar tarefa, Ver condição, Responder ao quiz, Ver respostas, Ver vídeo, Ler PDF ou Consultar página. A actividade mantém apenas o agregado e a navegação. Validar erros do quiz, persistência após reload, confirmação de materiais, bloqueios, revisão obsoleta e ausência de falsa confirmação em falhas de armazenamento.

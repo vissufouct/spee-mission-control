@@ -16,7 +16,7 @@ export function ActivityTasks({ tasks, onOpen }: { tasks: LearningTask[]; onOpen
         <Icon className="shrink-0 text-blue-600" size={21} aria-hidden />
         <div className="min-w-0 flex-1"><h4 className="text-sm font-semibold">{task.title}</h4><p className="mt-1 text-xs text-slate-500">{formats[task.kind]}{task.kind === 'quiz' && task.status === 'completed' && ` · Pontuação: ${quizScore(task).correct}/${quizScore(task).total} (${quizScore(task).percent}%)`}</p></div>
         {task.kind === 'evidence' && task.submission ? <span className="rounded-full bg-emerald-50 px-3 py-1 text-xs font-medium text-emerald-800">Submetido</span> : <StatusBadge status={task.status} />}
-        <Button size="sm" variant={task.status === 'completed' || task.status === 'blocked' ? 'outline' : 'default'} disabled={!onOpen} onClick={() => onOpen?.(task)} aria-label={`${taskAction(task)}: ${task.title}`}>{taskAction(task)}</Button>
+        <Button size="sm" variant="outline" className="student-task-action" disabled={!onOpen} onClick={() => onOpen?.(task)} aria-label={`${taskAction(task)}: ${task.title}`}>{taskAction(task)}</Button>
       </li>
     })}</ul>
   </section>

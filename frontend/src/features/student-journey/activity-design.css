@@ -67,7 +67,8 @@
   .student-completion-list > li > .student-criterion-badge { margin-left: auto; }
 }
 .student-task-row { display: flex; align-items: center; gap: 12px; padding: 14px 16px; }
-.student-task-row > button { min-width: 130px; }
+.student-task-row > .student-task-action { min-width: 112px; border-color: #dce7f3; background: #fff; color: #0767b9; font-size: 12px; font-weight: 400; box-shadow: none; }
+.student-task-row > .student-task-action:hover { border-color: #bfd3ed; background: #f3f8fe; }
 .student-task-resource { width: 100%; height: 45dvh; border: 1px solid #dce7f3; border-radius: 10px; }
 .student-learning-dialog { border-color: #dce7f3; padding: 24px; }
 .student-learning-dialog > h2 { font-size: 22px; color: #132039; }
