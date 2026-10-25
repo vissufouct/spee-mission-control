@@ -63,7 +63,7 @@ test('três cartões alinhados, actividade nas mensagens, participantes e acçõ
 
 test('introdução pode ser fechada sem entrar e funciona em mobile', async ({ page }, info) => {
   await page.goto('/')
-  const teacher = page.getByRole('button', { name: /Mission Control do Docente/ })
+  const teacher = page.getByRole('button', { name: /Painel do Docente/ })
   await teacher.click()
   await expect(page.getByRole('dialog')).toContainText('não são visíveis ao docente')
   await page.screenshot({ path: info.outputPath('introduction-desktop.png') })
@@ -71,7 +71,7 @@ test('introdução pode ser fechada sem entrar e funciona em mobile', async ({ p
   await expect(page.getByRole('dialog')).toHaveCount(0)
   await expect(teacher).toBeFocused()
   await page.setViewportSize({ width: 390, height: 844 })
-  await page.getByRole('button', { name: /Mission Control do Estudante/ }).click()
+  await page.getByRole('button', { name: /Painel do Estudante/ }).click()
   await expect(page.getByRole('dialog')).toContainText('o canal do grupo permanece privado')
   await page.getByRole('link', { name: 'Entrar', exact: true }).scrollIntoViewIfNeeded()
   await page.screenshot({ path: info.outputPath('introduction-mobile.png') })

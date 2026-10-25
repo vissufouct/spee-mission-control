@@ -24,7 +24,7 @@ export function DevelopmentLandingPage() {
 
       <main className="development-landing__main">
         <section className="development-landing__intro" aria-labelledby="development-landing-title">
-          <p className="development-landing__eyebrow">Mission Control</p>
+          <p className="development-landing__eyebrow">Painel</p>
           <h1 id="development-landing-title">Escolha a experiência que pretende explorar</h1>
           <p>
             Entre numa das perspectivas do protótipo. Pode voltar a este ponto de partida
@@ -42,7 +42,7 @@ export function DevelopmentLandingPage() {
             </span>
 
             <span className="development-choice__body">
-              <strong>Mission Control do Docente</strong>
+              <strong>Painel do Docente</strong>
               <span>
                 Acompanhe o progresso das empresas, consulte evidências e registe orientações.
               </span>
@@ -63,7 +63,7 @@ export function DevelopmentLandingPage() {
             </span>
 
             <span className="development-choice__body">
-              <strong>Mission Control do Estudante</strong>
+              <strong>Painel do Estudante</strong>
               <span>
                 Consulte o seu percurso, veja o que precisa de atenção e continue as actividades.
               </span>

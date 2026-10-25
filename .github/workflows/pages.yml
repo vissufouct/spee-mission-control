@@ -43,6 +43,7 @@ jobs:
         working-directory: frontend
         env:
           SPEE_PAGES_BUILD: 'true'
+          VITE_GIPHY_API_KEY: ${{ secrets.VITE_GIPHY_API_KEY }}
         run: npm run build
 
       - name: Preparar fallback das rotas

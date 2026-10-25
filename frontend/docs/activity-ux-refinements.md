@@ -2,7 +2,7 @@
 
 - No Meu Percurso, o resumo do bloco ocupa a zona superior direita do cartão do bloco, numa grelha 2 × 2 com concluídas, em curso, por iniciar e bloqueadas. Substitui a nota sobre paralelismo e o painel de resumo separado; actualiza-se com o bloco consultado.
 
-- A entrada no Mission Control do docente ou do estudante apresenta uma introdução específica do perfil antes de navegar. O acesso ao SPEE Studio permanece independente.
+- A entrada no Painel do Docente ou do estudante apresenta uma introdução específica do perfil antes de navegar. O acesso ao SPEE Studio permanece independente.
 - O painel de notificações abre um popup tabulado; cada pendência identifica a actividade a que pertence.
 - Os cartões de contexto oferecem Ver, Continuar actividade ou Iniciar actividade conforme o estado. Actividades bloqueadas permitem apenas consulta. Apenas o registo da empresa tem execução funcional nesta fase; as restantes acções abrem o respectivo detalhe, sem confirmar progresso.
 - A actividade de registo inclui participantes fictícios e contribuições descritivas, explicitamente assinalados como dados simulados. A definição de participação real continua pendente da integração; não se calculam métricas de participação. O adaptador acrescenta estes metadados quando ausentes em cenários antigos, sem substituir dados existentes.

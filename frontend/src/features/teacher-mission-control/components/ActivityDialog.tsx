@@ -4,6 +4,7 @@ import { TeacherStatusBadge } from './TeacherStatusBadge'
 import type { Company } from '../types'
 import { formatInstant } from '../services/teacher.selectors'
 import { useState } from 'react'
+import { ActivityTasksReview } from './ActivityTasksReview'
 export type ActivitySelection = { activityId: string; resultId?: string }
 export function ActivityDialog({ company, selection, onSelect }: { company: Company; selection: ActivitySelection | null; onSelect: (value: ActivitySelection | null) => void }) {
   const [moduleActivityId, setModuleActivityId] = useState<string | null>(null)
@@ -23,6 +24,7 @@ export function ActivityDialog({ company, selection, onSelect }: { company: Comp
         {activity.resultIds.length ? <Button className="self-start" onClick={() => onSelect({ activityId: activity.id, resultId: activity.resultIds[0] })}>Consultar resultado disponível</Button> : <p className="teacher-hint">Ainda não existe um resultado confirmado. No simulador, o docente abriria o ecrã operacional desta actividade em modo de consulta.</p>}
       </> : <>
         <TeacherStatusBadge status={activity.status} />
+        <ActivityTasksReview tasks={activity.tasks} />
         <div className="teacher-activity-detail-grid">
           <section><h3>Descrição</h3><p>{activity.description ?? `Actividade realizada no módulo ${activity.module}, no contexto do percurso desta empresa.`}</p></section>
           <section><h3>O que significa concluída</h3><p>{activity.definitionOfDone ?? 'Os critérios definidos para a actividade foram cumpridos e existe um resultado ou evidência confirmada.'}</p></section>

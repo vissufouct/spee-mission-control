@@ -22,8 +22,15 @@ export function TeacherOverviewPage() {
     return next
   }, { replace: true, preventScrollReset: true, flushSync: true })
   return <div className="teacher-page">
-    <TeacherHeading title="Mission Control do Docente" subtitle={subtitle} onRefresh={() => { void query.refetch() }} refreshing={query.isFetching} />
-    <OverviewView snapshot={query.data} filters={filters} onChange={change} onClear={() => setParams({}, { replace: true, preventScrollReset: true, flushSync: true })} onRequests={() => setRequestsOpen(true)} onOpen={(id, milestone) => {
+    <TeacherHeading title="Painel do Docente" subtitle={subtitle} onRefresh={() => { void query.refetch() }} refreshing={query.isFetching}
+      contextControl={<label className="my-3 block text-xs font-medium text-slate-600">Universidade
+        <select className="mt-1 block min-h-10 w-full max-w-sm rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm font-normal text-slate-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600" value={params.get('universidade') ?? 'uem'} onChange={event => change('universidade', event.target.value)}>
+          <option value="uem">Universidade Eduardo Mondlane</option>
+          <option value="up-maputo">Universidade Pedagógica de Maputo</option>
+          <option value="ujc">Universidade Joaquim Chissano</option>
+        </select>
+      </label>} />
+    <OverviewView snapshot={query.data} filters={filters} onChange={change} onClear={() => setParams(params.get('universidade') ? { universidade: params.get('universidade')! } : {}, { replace: true, preventScrollReset: true, flushSync: true })} onRequests={() => setRequestsOpen(true)} onOpen={(id, milestone) => {
       const next = new URLSearchParams(params)
       if (milestone) next.set('bloco', query.data.companies.find(c => c.id === id)?.activities.find(a => a.milestone === milestone)?.blockId ?? '')
       navigate(teacherPaths.company(id) + (next.size ? '?' + next : ''))

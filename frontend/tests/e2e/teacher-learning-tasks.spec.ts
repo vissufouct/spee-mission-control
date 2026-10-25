@@ -1,0 +1,21 @@
+import { expect, test } from '@playwright/test'
+
+test('docente consulta tarefas, respostas e PDF sem executar tarefas', async ({ page }) => {
+  await page.goto('/docente/mission-control/empresas/maputo-solucoes?bloco=ideacao')
+  await page.getByRole('button', { name: 'Detalhes de Definir a ideia de negócio', exact: true }).click()
+  const dialog = page.getByRole('dialog')
+  const tasks = dialog.getByRole('region', { name: 'Realização das tarefas' })
+  await expect(tasks).toContainText('3 de 3 concluídas')
+  await expect(tasks.locator('li').first()).toContainText('Diagnóstico do empreendedor')
+  await tasks.getByText('Pontuação: 4/5 (80%) · Ver respostas', { exact: true }).click()
+  await expect(tasks).toContainText('Ignorá-los até haver problemas')
+  const pdf = tasks.getByRole('link', { name: /Consultar PDF submetido/ })
+  await expect(pdf).toHaveAttribute('href', /relatorio-auditoria-1.pdf$/)
+  expect((await page.request.get((await pdf.getAttribute('href'))!)).status()).toBe(200)
+  await expect(tasks.getByRole('button')).toHaveCount(0)
+  await page.goto('/docente/mission-control/empresas/horizonte-verde?bloco=constituicao')
+  await page.getByRole('button', { name: 'Detalhes de Registar empresa', exact: true }).click()
+  await expect(tasks).toContainText('1 de 6 concluídas')
+  await expect(tasks.locator('li').first()).toContainText('Pré-quiz')
+  await expect(tasks.locator('li').last()).toContainText('Por iniciar')
+})

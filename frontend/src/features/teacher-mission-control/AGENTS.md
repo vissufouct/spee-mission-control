@@ -1,4 +1,4 @@
-# Mission Control do Docente
+# Painel do Docente
 
 Aplicar primeiro o AGENTS.md da raiz. Esta feature fornece conteúdo funcional; nunca importa app/shell, componentes do estudante ou dimensões do template.
 

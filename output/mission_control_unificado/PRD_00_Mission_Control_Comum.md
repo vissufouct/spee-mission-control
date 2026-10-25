@@ -1,9 +1,13 @@
-# PRD do Mission Control — núcleo comum
+# PRD do Painel — núcleo comum
+
+## Terminologia da interface — 25 de Outubro de 2026
+
+As designações oficiais são **Painel do Docente** e **Painel do Estudante**, sem acento em «Painel». Usar estes termos na entrada, introduções, títulos, navegação, mensagens e documentação corrente. Conservar identificadores técnicos, nomes de ficheiros e URLs existentes para manter a compatibilidade; esta decisão altera a terminologia apresentada ao utilizador.
 
 **Versão:** 0.15
 **Data:** 25 de Outubro de 2026
 **Estado:** rascunho consolidado para validação  
-**Produto:** SPEE Mission Control  
+**Produto:** Painéis SPEE
 
 ## Decisão de 25 de Outubro — actividades e tarefas
 
@@ -21,6 +25,10 @@ Esta decisão prevalece sobre referências anteriores a critérios/passos execut
 
 ## 1. Finalidade
 
+### Comunicação social dos participantes
+
+O Painel do Estudante inclui um hub social independente das orientações do docente e das conversas de actividade. Comunidade, grupos por convite aceite e mensagens privadas têm contadores próprios e não alteram progresso. O docente não recebe esta comunicação pela projecção de dados. Autoria mostra nome e turma. O protótipo valida os fluxos localmente; autenticação, autorização efectiva e sincronização multiutilizador pertencem à futura integração.
+
 ### Exemplos e contagens de tarefas — 25 de Outubro
 
 «Ver tarefas» apresenta um badge X de Y (concluídas/total). Em «Definir a ideia de negócio», o diagnóstico é a primeira tarefa, já respondida com 4/5 (80%); a evidência «Relatório de auditoria 1» é uma tarefa já submetida em PDF. Em «Registar empresa», o pré-quiz passa para primeiro e «Submeter Declaração de Início de actividade» é a sexta e última tarefa, inicialmente Por iniciar. A ordem de apresentação não cria precedências implícitas.
@@ -29,7 +37,7 @@ Evidências guardam ficheiro, autor e data; submetido não equivale a aprovado. 
 
 Este PRD descreve o núcleo partilhado de dados, comportamento e linguagem visual: modelo de dados, estados, progresso, eventos, auditoria, permissões, sincronização e padrões transversais. A linguagem visual comum não define uma interface única nem funde os protótipos.
 
-O Mission Control é a camada de orientação e acompanhamento do percurso de simulação do SPEE. O estudante usa a vista **Meu Percurso** para saber o que já concluiu, o que está disponível, o que está bloqueado e qual é a próxima acção. O docente usa o **Mission Control do Docente** para acompanhar turmas e empresas, aprofundar actividades, compreender contribuições e realizar intervenções autorizadas.
+O Painel é a camada de orientação e acompanhamento do percurso de simulação do SPEE. O estudante usa a vista **Meu Percurso** para saber o que já concluiu, o que está disponível, o que está bloqueado e qual é a próxima acção. O docente usa o **Painel do Docente** para acompanhar turmas e empresas, aprofundar actividades, compreender contribuições e realizar intervenções autorizadas.
 
 Os dois protótipos permanecem separados e válidos. Apresentam perspectivas diferentes sobre a mesma fonte de estado e mantêm ecrãs e fluxos próprios dentro do enquadramento visual do simulador. O cabeçalho e o menu lateral reproduzem a referência fornecida pelo utilizador em 22 de Outubro de 2026. Nenhum deles calcula conclusão a partir de acessos, cliques, tempo de sessão ou volume de operações sem resultado confirmado.
 
@@ -109,7 +117,7 @@ As imagens actuais representam o seguinte núcleo comum:
 
 Estados adicionais descritos no backlog — à espera de terceiro, submetido, aprovado, vencido e cancelado — carecem de correspondência visual e regras de apresentação aprovadas.
 
-### 5.1. Projecção de estados no Mission Control do docente
+### 5.1. Projecção de estados no Painel do Docente
 
 Actualização de 24 de Outubro: a mesma projecção aplica-se ao estudante, incluindo filtros e legendas. As duas perspectivas apresentam os quatro estados abaixo.
 
@@ -125,7 +133,7 @@ Na validação de 23 de Outubro de 2026, a vista do docente foi simplificada par
 | Por iniciar | Por iniciar |
 | Bloqueado | Bloqueado |
 
-Esta projecção simplifica a leitura pedagógica e não elimina o histórico da transição de origem. Uma devolução continua registada na pista de dados, mas surge como trabalho em curso no Mission Control do docente.
+Esta projecção simplifica a leitura pedagógica e não elimina o histórico da transição de origem. Uma devolução continua registada na pista de dados, mas surge como trabalho em curso no Painel do Docente.
 
 ## 6. Regras de progresso
 
@@ -152,7 +160,7 @@ Esta projecção simplifica a leitura pedagógica e não elimina o histórico da
 | MC-COM-008 | As vistas devem indicar estado de sincronização; dados pendentes não podem ser apresentados como confirmação final. |
 | MC-COM-009 | Acções humanas, colectivas, institucionais e automáticas devem ser distinguíveis. |
 | MC-COM-010 | As permissões devem considerar papel, turma, empresa, processo e operação solicitada. |
-| MC-COM-011 | O Mission Control deve abrir o módulo operacional apropriado para executar ou consultar o resultado, sem duplicar o formulário do simulador. |
+| MC-COM-011 | O Painel deve abrir o módulo operacional apropriado para executar ou consultar o resultado, sem duplicar o formulário do simulador. |
 | MC-COM-012 | A navegação de retorno deve preservar o contexto de origem, filtros e actividade seleccionada. |
 | MC-COM-013 | Cada instância deve referenciar versões explícitas do percurso, das regras e do pacote de jurisdição. |
 | MC-COM-014 | Os dados apresentados devem ser minimizados de acordo com o perfil; o estudante não recebe avaliações confidenciais nem dados restritos de colegas. |

@@ -21,7 +21,7 @@ export function AppShell({ role = 'student' }: { role?: 'student' | 'teacher' })
   const [notice, setNotice] = useState('')
   const location = useLocation()
   const teacher = role === 'teacher'
-  const page = teacher ? (location.pathname.endsWith('/contribuicoes') ? 'Contribuição' : location.pathname.includes('/empresas/') ? 'Percurso da empresa' : 'Mission Control') : location.pathname.endsWith('/completo') ? 'Percurso completo' : location.pathname.endsWith('/registar-empresa') ? 'Registar empresa' : 'Meu Percurso'
+  const page = teacher ? (location.pathname.endsWith('/contribuicoes') ? 'Contribuição' : location.pathname.includes('/empresas/') ? 'Percurso da empresa' : 'Painel') : location.pathname.endsWith('/completo') ? 'Percurso completo' : location.pathname.endsWith('/registar-empresa') ? 'Registar empresa' : 'Meu Percurso'
   return <div className="app-shell" data-menu-open={menuOpen}>
     <ScrollRestoration />
     <a href="#main-content" className="skip-link">Saltar para o conteúdo</a>

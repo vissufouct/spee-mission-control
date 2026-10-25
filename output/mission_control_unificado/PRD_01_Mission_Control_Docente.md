@@ -1,4 +1,14 @@
-# PRD do Mission Control do Docente
+# PRD do Painel do Docente
+
+## Selector de universidade — 25 de Outubro de 2026
+
+### Realização de tarefas no detalhe da actividade
+
+O popup «Detalhes» apresenta as tarefas da actividade, na ordem do estudante, com contagem concluídas/total, tipo, estado, data disponível, pontuação e consulta de respostas de quizzes, e metadados e ligação para PDFs submetidos. É exclusivamente de leitura: o docente não executa nem conclui tarefas. Submissão não significa aprovação. Preservar os restantes detalhes e resultados.
+
+A Horizonte Verde projecta as tarefas efectivas do repository do estudante através da composição, sem importar componentes da outra feature e sem expor conversas privadas. A Maputo Soluções inclui tarefas fictícias para validar a consulta; nas empresas sem dados de tarefas, apresentar um estado vazio explícito, sem inferir realizações a partir do estado da actividade.
+
+Na vista geral, entre o título e o subtítulo da turma/ano, apresentar um dropdown «Universidade»: Universidade Eduardo Mondlane (inicial), Universidade Pedagógica de Maputo e Universidade Joaquim Chissano. A escolha fica na URL e é preservada ao limpar filtros de turma/estado/prazo. Nesta etapa valida-se a selecção visual; os dados de demonstração ainda são comuns às três opções, sem simular isolamento institucional ou permissões. O shell mantém-se inalterado.
 
 **Versão:** 0.8
 **Data:** 25 de Outubro de 2026
@@ -24,7 +34,7 @@ Na empresa ligada à experiência do estudante, o estado da actividade agrega as
 
 ## 1. Resultado esperado
 
-O Mission Control do Docente permite acompanhar todas as turmas de um ciclo sem consultar sucessivamente os diferentes módulos do simulador. O docente começa na visão geral, identifica empresas ou marcos que requerem atenção, acompanha pedidos de orientação, abre o percurso de uma empresa e consulta o detalhe das actividades e respectivos resultados.
+O Painel do Docente permite acompanhar todas as turmas de um ciclo sem consultar sucessivamente os diferentes módulos do simulador. O docente começa na visão geral, identifica empresas ou marcos que requerem atenção, acompanha pedidos de orientação, abre o percurso de uma empresa e consulta o detalhe das actividades e respectivos resultados.
 
 Este PRD descreve exclusivamente requisitos, permissões, fluxos e ecrãs do docente. O protótipo docente mantém-se separado do protótipo do estudante.
 
@@ -180,7 +190,7 @@ Decisão transversal de 24 de Outubro: o docente recebe apenas o canal de orient
 - A matriz mantém-se utilizável com mais linhas e colunas através de deslocamento e controlos de navegação por coluna e por conjunto visível.
 - A percentagem da empresa coincide com a percentagem apresentada ao estudante da mesma empresa e versão.
 - Uma actividade apresenta descrição, definição de concluído, dependências e participantes confirmados, sem converter ocorrências em ranking.
-- O docente abre o módulo de origem a partir dos detalhes e regressa ao mesmo ponto do Mission Control.
+- O docente abre o módulo de origem a partir dos detalhes e regressa ao mesmo ponto do Painel.
 - O docente responde e conclui um pedido sem perder o histórico.
 - O docente publica uma orientação proactiva para uma empresa ou para várias turmas.
 - Qualquer intervenção autorizada apresenta o efeito previsto, exige motivo e fica auditada.
@@ -196,6 +206,6 @@ Decisão transversal de 24 de Outubro: o docente recebe apenas o canal de orient
 
 ## Continuação da validação de 24 de Outubro de 2026
 
-Retirar as ferramentas e metadados de demonstração do Mission Control do docente, incluindo a reposição de cenário no estado de erro. Preservar dados existentes, estados de erro e a acção funcional de actualizar dados. Os avisos de conteúdo ilustrativo não constituem ferramentas de demonstração.
+Retirar as ferramentas e metadados de demonstração do Painel do Docente, incluindo a reposição de cenário no estado de erro. Preservar dados existentes, estados de erro e a acção funcional de actualizar dados. Os avisos de conteúdo ilustrativo não constituem ferramentas de demonstração.
 
 A conversa docente–empresa é visível e respondível por todos os membros dessa empresa, com autoria individual preservada. Não dar acesso ao canal privado do grupo. A definição de participação permanece adiada até à integração com o simulador (DEC-012); não alterar a atribuição de participação com base nas conversas.

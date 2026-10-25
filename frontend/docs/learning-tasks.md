@@ -15,3 +15,5 @@ A futura API substitui o adaptador e deve validar identidade, avaliação e evid
 Os recursos em `public/apoio` são locais: PDF de constituição, vídeo silencioso com texto e transcrição na tarefa, páginas sobre proposta de valor e responsabilidades dos sócios. Os caminhos usam `BASE_URL` para suportar GitHub Pages. Não há serviços externos nem dependências novas.
 
 A alteração em `app/providers/mapStudentJourney` é estritamente de composição: projecta estados agregados e evidências de tarefas pelas APIs públicas existentes, sem importar componentes internos ou conversas privadas.
+
+O detalhe do docente consome um contrato de tarefas próprio, apenas de leitura. A composição projecta `getLearningTasks` pela API pública do estudante, incluindo respostas, datas e submissões; a Maputo Soluções usa exemplos explícitos no fixture docente. A leitura de cenários antigos acrescenta apenas tarefas ausentes do fixture da mesma empresa. Não deduzir execução individual a partir de estados agregados.

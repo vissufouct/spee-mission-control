@@ -1,10 +1,10 @@
-# Regras para assistentes — SPEE Mission Control
+# Regras para assistentes — SPEE Painel
 
 ## Objectivo e âmbito
 
 Construir um frontend local para descobrir, desenhar e validar UX, feature por feature. O código da aplicação vive em `frontend/`; os documentos, scripts e protótipos existentes na raiz e em `output/` são fontes do projecto e devem ser preservados. Responder em Português de Portugal, com grafia anterior ao Acordo Ortográfico de 1990, usando o skill `portugues-de-portugal` quando disponível.
 
-Nesta fase não criar servidor de aplicação, endpoints/API backend, base de dados, autenticação real ou integrações externas. Vite e Storybook servem apenas os recursos de desenvolvimento do frontend. Não introduzir uma API local para escrever JSON. As interfaces do docente e do estudante continuam separadas; consultar os PRDs em `output/mission_control_unificado/` e as séries docente v3 e estudante v4. Conflitos de requisitos ficam documentados, não resolvidos por inferência.
+Nesta fase não criar servidor de aplicação, endpoints/API backend, base de dados, autenticação real ou integrações externas. Excepção solicitada pelo utilizador: o hub social pode consultar o GIPHY directamente no browser através de um adaptador injectado, com chave Web configurável, sem criar backend. Vite e Storybook servem apenas os recursos de desenvolvimento do frontend. Não introduzir uma API local para escrever JSON. As interfaces do docente e do estudante continuam separadas; consultar os PRDs em `output/mission_control_unificado/` e as séries docente v3 e estudante v4. Conflitos de requisitos ficam documentados, não resolvidos por inferência.
 
 ## Organização do projecto
 

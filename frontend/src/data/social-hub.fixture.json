@@ -1,0 +1,191 @@
+{
+  "version": 1,
+  "revision": 0,
+  "members": [
+    {
+      "id": "ana",
+      "name": "Ana Machava",
+      "className": "Turma A"
+    },
+    {
+      "id": "joao",
+      "name": "João Tembe",
+      "className": "Turma A"
+    },
+    {
+      "id": "antonio",
+      "name": "António Sitoe",
+      "className": "Turma A"
+    },
+    {
+      "id": "leila",
+      "name": "Leila Faife",
+      "className": "Turma B"
+    },
+    {
+      "id": "carla",
+      "name": "Carla Nhampossa",
+      "className": "Turma B"
+    },
+    {
+      "id": "paulo",
+      "name": "Paulo Sitoe",
+      "className": "Turma C"
+    }
+  ],
+  "channels": [
+    {
+      "id": "community",
+      "kind": "public",
+      "name": "Comunidade",
+      "members": [],
+      "invited": []
+    },
+    {
+      "id": "ideas",
+      "kind": "group",
+      "name": "Ideias com impacto",
+      "members": [
+        "ana",
+        "joao",
+        "leila"
+      ],
+      "invited": []
+    },
+    {
+      "id": "invite",
+      "kind": "group",
+      "name": "Preparação da auditoria",
+      "members": [
+        "carla",
+        "paulo"
+      ],
+      "invited": [
+        "ana"
+      ]
+    },
+    {
+      "id": "dm-joao",
+      "kind": "direct",
+      "name": "Mensagem privada",
+      "members": [
+        "ana",
+        "joao"
+      ],
+      "invited": []
+    }
+  ],
+  "messages": [
+    {
+      "id": "m1",
+      "channelId": "community",
+      "authorId": "leila",
+      "text": "Bom dia! A nossa equipa está a validar uma ideia de entregas sustentáveis. Alguém já entrevistou potenciais clientes? 🌱",
+      "replyTo": null,
+      "createdAt": "2026-10-25T08:00:00.000Z",
+      "reactions": {
+        "👍": [
+          "ana",
+          "joao"
+        ]
+      }
+    },
+    {
+      "id": "m2",
+      "channelId": "community",
+      "authorId": "joao",
+      "text": "Fizemos cinco entrevistas. Perguntar como resolvem o problema hoje ajudou muito!",
+      "replyTo": "m1",
+      "createdAt": "2026-10-25T08:01:00.000Z",
+      "reactions": {}
+    },
+    {
+      "id": "m3",
+      "channelId": "community",
+      "authorId": "carla",
+      "text": "Partilho uma dica: separar custos fixos e variáveis antes de definir o preço. 💡",
+      "replyTo": null,
+      "createdAt": "2026-10-25T08:02:00.000Z",
+      "reactions": {}
+    },
+    {
+      "id": "m4",
+      "channelId": "community",
+      "authorId": "antonio",
+      "text": "Acabámos o diagnóstico do empreendedor. O feedback ajudou a rever os riscos da ideia. 🙌",
+      "replyTo": null,
+      "createdAt": "2026-10-25T08:03:00.000Z",
+      "reactions": {}
+    },
+    {
+      "id": "m5",
+      "channelId": "community",
+      "authorId": "ana",
+      "text": "Também achei útil. Vamos testar a proposta com uma pequena amostra antes de investir.",
+      "replyTo": "m4",
+      "createdAt": "2026-10-25T08:04:00.000Z",
+      "reactions": {}
+    },
+    {
+      "id": "m6",
+      "channelId": "community",
+      "authorId": "paulo",
+      "text": "Quem quer trocar experiências sobre o relatório de auditoria? Podemos organizar um grupo.",
+      "replyTo": null,
+      "createdAt": "2026-10-25T08:05:00.000Z",
+      "reactions": {}
+    },
+    {
+      "id": "m7",
+      "channelId": "community",
+      "authorId": "leila",
+      "text": "Contem comigo! Podemos começar pelos documentos necessários. 📋",
+      "replyTo": "m6",
+      "createdAt": "2026-10-25T08:06:00.000Z",
+      "reactions": {}
+    },
+    {
+      "id": "m8",
+      "channelId": "ideas",
+      "authorId": "joao",
+      "text": "Podemos comparar duas propostas de valor amanhã?",
+      "replyTo": null,
+      "createdAt": "2026-10-25T08:07:00.000Z",
+      "reactions": {}
+    },
+    {
+      "id": "m9",
+      "channelId": "ideas",
+      "authorId": "leila",
+      "text": "Sim! Trago o resumo das entrevistas. 😊",
+      "replyTo": "m8",
+      "createdAt": "2026-10-25T08:08:00.000Z",
+      "reactions": {}
+    },
+    {
+      "id": "m10",
+      "channelId": "dm-joao",
+      "authorId": "joao",
+      "text": "Olá, Ana. Podes confirmar comigo a morada da empresa antes de submetermos o registo?",
+      "replyTo": null,
+      "createdAt": "2026-10-25T08:09:00.000Z",
+      "reactions": {}
+    },
+    {
+      "id": "m11",
+      "channelId": "invite",
+      "authorId": "carla",
+      "text": "Vamos reunir as evidências neste grupo.",
+      "replyTo": null,
+      "createdAt": "2026-10-25T08:10:00.000Z",
+      "reactions": {}
+    }
+  ],
+  "read": {
+    "ana": [
+      "m1",
+      "m2",
+      "m3"
+    ]
+  }
+}

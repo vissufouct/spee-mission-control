@@ -3,7 +3,7 @@ import { journeyPaths } from '../services/journey.selectors'
 
 export function JourneyProgressHeading({ completed, total, percent, title = 'Meu Percurso', showFullPath = true }: { completed: number; total: number; percent: number; title?: string; showFullPath?: boolean }) {
   return <header>
-    <p className="spee-eyebrow">Mission Control do Estudante</p>
+    <p className="spee-eyebrow">Painel do Estudante</p>
     <div className="mt-1 flex flex-wrap items-center gap-x-6 gap-y-3">
       <h1 className="text-4xl font-semibold tracking-tight text-slate-950">{title}</h1>
       <div className="flex w-56 max-w-full items-center gap-3">

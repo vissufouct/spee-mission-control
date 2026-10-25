@@ -7,12 +7,22 @@ export const statusSchema = legacyStatusSchema.transform(status => {
   return status
 })
 export const participantSchema = z.object({ id: z.string().min(1), name: z.string().min(1), initials: z.string().min(1) })
+const learningTaskSchema = z.object({
+  id: z.string(), title: z.string(), description: z.string(),
+  kind: z.enum(['operation', 'quiz', 'video', 'pdf', 'url', 'evidence']), status: statusSchema,
+  resource: z.string().regex(/^apoio\/[a-zA-Z0-9._-]+\.(pdf|html|mp4)$/).optional(),
+  completedAt: z.iso.datetime().optional(),
+  questions: z.array(z.object({ id: z.string(), prompt: z.string(), options: z.array(z.string()), correct: z.number().int() })).optional(),
+  answers: z.record(z.string(), z.number().int()).optional(),
+  submission: z.object({ fileName: z.string(), submittedBy: z.string(), submittedAt: z.iso.datetime() }).optional(),
+})
 export const activitySchema = z.object({
   id: z.string().min(1), title: z.string().min(1), blockId: z.string(), milestone: z.string(),
   status: statusSchema, participantIds: z.array(z.string()), dueDate: z.iso.date().nullable(),
   module: z.string(), nextStep: z.string(), resultIds: z.array(z.string()),
   description: z.string().optional(), definitionOfDone: z.string().optional(),
   dependencyIds: z.array(z.string()).default([]),
+  tasks: z.array(learningTaskSchema).optional(),
 })
 export const eventSchema = z.object({
   id: z.string().min(1), activityId: z.string(), occurredAt: z.iso.datetime(), actorIds: z.array(z.string()),

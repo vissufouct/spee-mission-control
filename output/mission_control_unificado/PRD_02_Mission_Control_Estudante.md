@@ -1,4 +1,4 @@
-# PRD do Mission Control do Estudante
+# PRD do Painel do Estudante
 
 **Versão:** 0.12
 **Data:** 25 de Outubro de 2026
@@ -6,6 +6,16 @@
 **Depende de:** `PRD_00_Mission_Control_Comum.md`  
 
 ## 1. Resultado esperado
+
+### Hub social entre participantes — 25 de Outubro de 2026
+
+Disponível em todas as páginas do estudante através de uma pequena seta fixa à direita, com badge de mensagens por ler, sem ocupar espaço no conteúdo. Abre um painel sobreposto que desliza da direita para a esquerda, ocupando aproximadamente 48% do ecrã em desktop e quase toda a largura em mobile. Pode fechar-se com Escape, botão ou clique exterior.
+
+O hub inclui Comunidade, Grupos e Privadas, publicações com nome e turma, respostas contextuais, emojis e reacções. O topo permite criar grupos por nome e escolher participantes; os convidados só entram depois de aceitarem. Mostrar convites recebidos com Aceitar/Recusar e os convites pendentes do grupo. Mensagens privadas são dirigidas a um participante identificado por nome e turma. Conteúdo de grupos exige pertença aceite; conversas privadas só são visíveis aos intervenientes.
+
+Cada separador mostra o total de mensagens por ler da respectiva categoria. Cada grupo e conversa privada mostra também o seu badge individual. Excluir mensagens próprias e canais sem pertença aceite; convites são sinalizados separadamente. «Marcar como lida» actualiza simultaneamente a conversa, a categoria e o total do hub. Apresentar zero com estilo neutro.
+
+Popular com conversas fictícias entre turmas, uma conversa privada e um convite recebido para validar o percurso. Manter erros, estados vazios, rascunhos em falhas de envio, persistência local e contagem de mensagens por ler. Marcar a conversa como lida é uma acção explícita. Não inferir progresso a partir de publicações. Nesta etapa não há envio real nem sincronização entre browsers; a aceitação por outra pessoa é validada no contrato do repository, sem aceitação automática.
 
 ### Actualização de 25 de Outubro: execução por tarefa
 
@@ -45,7 +55,7 @@ A vista **Meu Percurso** orienta o estudante durante a simulação. Em qualquer 
 
 Este PRD descreve exclusivamente requisitos, fluxos e ecrãs do estudante. O protótipo do estudante mantém-se separado do protótipo docente.
 
-O Mission Control não substitui os módulos operacionais. A acção principal abre o formulário ou resultado correspondente no simulador e aguarda confirmação do módulo antes de actualizar o progresso.
+O Painel não substitui os módulos operacionais. A acção principal abre o formulário ou resultado correspondente no simulador e aguarda confirmação do módulo antes de actualizar o progresso.
 
 ## 2. Fluxo principal
 
@@ -243,7 +253,7 @@ Fonte: «Call with Leila Omar (4)», gravação de 15m52s, e esclarecimentos pos
 - MC-EST-050: retirar completamente as ferramentas de demonstração da interface do estudante e do docente: importação, exportação de cenário, reposição e indicadores «Dados locais guardados»/metadados do cenário. Não apagar dados existentes. Contratos internos de teste podem continuar a existir; conservar avisos necessários de dados ilustrativos.
 - MC-EST-051: redireccionamento de «Continuar actividade» para o simulador fica adiado, à espera das ligações reais. Preservar o fluxo local já existente, sem inventar integrações.
 
-Aceitação: testar scroll, contexto e materiais por actividade, três pendências mais recentes, resolução individual, autoria e cores por papel, ausência de ferramentas nos dois Mission Controls, dados antigos preservados, desktop/mobile e componentes sem AppShell.
+Aceitação: testar scroll, contexto e materiais por actividade, três pendências mais recentes, resolução individual, autoria e cores por papel, ausência de ferramentas nos dois Painéis, dados antigos preservados, desktop/mobile e componentes sem AppShell.
 
 ## 12. Anotações visuais posteriores — 24 de Outubro de 2026
 
@@ -270,3 +280,13 @@ Fonte: seis comentários do utilizador no browser e esclarecimentos posteriores 
 - MC-EST-057 (comentário 6, corrigido pelos esclarecimentos posteriores): apresentar no cabeçalho «<actividade actual> | Próxima actividade: <passo pendente> <acção>» apenas quando existir um passo não confirmado do checklist actual e a actividade não estiver concluída nem bloqueada. No cenário inicial de registo, mostrar «Submeter o formulário de registo», não «Convidar sócios»; o botão abre o formulário local. Sem dados preenchidos, mostrar «Preencher os dados da empresa». Após conclusão confirmada, ocultar todo o bloco, sem sugerir outra actividade neste local. Sem passo pendente definido, mostrar apenas o título. As sucessoras continuam acessíveis nos cartões de contexto. Nas actividades ainda sem execução implementada, o botão conduz aos critérios da própria actividade, não a outro módulo. A descrição permanece nos dados. Não alterar progresso por clique.
 
 Aceitação: verificar tooltip com rato, teclado e toque, ausência de etiquetas, contagens por actividade, acções próximas dos títulos, navegação da próxima actividade e ausência de overflow em mobile. Manter o popup de notificações fechado na entrada e o shell intacto. Sem novas métricas de participação ou regras de progresso.
+
+### Navegação nas mensagens
+
+As mensagens aparecem por ordem cronológica, com as mais recentes em baixo, junto ao compositor. Ao abrir uma conversa, posicionar na primeira mensagem recebida ainda não lida, identificada por «Mensagens por ler»; se não houver mensagens por ler, abrir no fim. Incluir a primeira mensagem por ler mesmo quando antecede a página inicial de histórico. Carregar mensagens anteriores ao subir, preservando a posição de leitura. Enviar uma mensagem desloca para o fim; reacções não devem provocar saltos. A marcação como lida continua explícita.
+
+### Emojis e GIFs no hub social
+
+O compositor deve disponibilizar «Emojis» e «GIFs» lado a lado. Emojis agrupados em nove categorias, pesquisáveis em português; inserção no cursor sem perder o rascunho. GIFs através do GIPHY com pesquisa, sugestões iniciais, carregamento, erro com repetição e estado vazio. A selecção gera uma pré-visualização removível; só «Publicar mensagem» envia. Permitir GIF com ou sem legenda e respostas a GIFs. Preservar o anexo após recarregar a conversa. As mensagens continuam a identificar nome e turma.
+
+A integração é feita no browser por adaptador injectado, sem backend, com chave Web configurável. Sem chave, apresentar a indisponibilidade de configuração, sem simular pesquisa bem-sucedida. Exibir atribuição GIPHY, solicitar conteúdo com classificação G e enviar apenas os termos de pesquisa ao serviço. A validação com adaptador simulado não constitui validação de uma conta real. As cores e o shell permanecem inalterados.

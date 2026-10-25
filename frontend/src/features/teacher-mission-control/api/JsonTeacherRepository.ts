@@ -13,7 +13,11 @@ export class JsonTeacherRepository implements TeacherRepository {
   private read() {
     try {
       const raw = this.storage.getItem(KEY)
-      return raw === null ? structuredClone(this.seed) : teacherSnapshotSchema.parse(JSON.parse(raw))
+      const snapshot = raw === null ? structuredClone(this.seed) : teacherSnapshotSchema.parse(JSON.parse(raw))
+      for (const company of snapshot.companies) for (const activity of company.activities) {
+        activity.tasks ??= structuredClone(this.seed.companies.find(c => c.id === company.id)?.activities.find(a => a.id === activity.id)?.tasks)
+      }
+      return snapshot
     } catch { throw new Error('Não foi possível ler o cenário do docente. Os dados locais não foram alterados.') }
   }
   private async hydrate(snapshot: TeacherSnapshot) {

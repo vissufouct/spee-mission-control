@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react-vite'
 import { MemoryRouter } from 'react-router-dom'
 import { MissionControlIntroduction } from './MissionControlIntroduction'
 const meta = {
-  title: 'Entrada/Apresentação do Mission Control',
+  title: 'Entrada/Apresentação do Painel',
   component: MissionControlIntroduction,
   args: { role: 'teacher', onClose: () => {} },
   decorators: [Story => <MemoryRouter><Story /></MemoryRouter>],

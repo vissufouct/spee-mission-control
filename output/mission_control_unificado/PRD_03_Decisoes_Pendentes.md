@@ -1,4 +1,4 @@
-# Registo de decisões do Mission Control
+# Registo de decisões do Painel
 
 **Versão:** 0.6
 **Data:** 24 de Outubro de 2026
@@ -100,7 +100,7 @@ Em cada decisão:
 > Escrever aqui.
 
 - **Decisão final:** ____________________
-- **Impacto:** entrada no Mission Control, navegação e retorno do simulador.
+- **Impacto:** entrada no Painel, navegação e retorno do simulador.
 - **Evidência ou acta:** o transcript discute Meu Percurso como página inicial e também como acesso de recurso; a imagem não resolve a precedência.
 
 ## DEC-007 — Rotas e permissões do menu real do simulador
@@ -242,7 +242,7 @@ Em cada decisão:
 
 > Simplificar a vista docente e definir a correspondência de “Devolvido”.
 
-- **Decisão final:** O Mission Control do docente apresenta apenas Concluído, Em curso, Por iniciar e Bloqueado. “Devolvido” passa para “Em curso”; “Disponível” e “Não disponível” aparecem como “Por iniciar”. O estado de origem permanece conservado na pista de dados.
+- **Decisão final:** O Painel do Docente apresenta apenas Concluído, Em curso, Por iniciar e Bloqueado. “Devolvido” passa para “Em curso”; “Disponível” e “Não disponível” aparecem como “Por iniciar”. O estado de origem permanece conservado na pista de dados.
 - **Impacto:** modelo de apresentação, filtros, legenda, matriz, percurso da empresa e compatibilidade com dados anteriores.
 - **Evidência ou acta:** reunião de validação de 23 de Outubro de 2026 e decisão explícita posterior de Vali Issufo.
 
@@ -279,7 +279,7 @@ Em cada decisão:
 - **Data-alvo:** ____________________
 - **Resposta:**
 
-> Confirmar se “Intervenções” continua como área própria do Mission Control docente, passa a acção contextual ou fica para uma fase posterior.
+> Confirmar se “Intervenções” continua como área própria do Painel do Docente, passa a acção contextual ou fica para uma fase posterior.
 
 - **Decisão final:** ____________________
 - **Impacto:** navegação e permissões do protótipo docente.
@@ -362,7 +362,7 @@ Em cada decisão:
 - **Estado:** [ ] Não resolvida  [x] Resolvida
 - **Responsável:** Vali Issufo
 - **Data da decisão:** 24 de Outubro de 2026
-- **Resposta e decisão final:** retirar completamente da UI dos dois Mission Controls as ferramentas de demonstração, sem as transferir para outro menu. Preservar os dados existentes e os mecanismos internos de teste; manter a identificação de conteúdo ilustrativo quando necessária.
+- **Resposta e decisão final:** retirar completamente da UI dos dois Painéis as ferramentas de demonstração, sem as transferir para outro menu. Preservar os dados existentes e os mecanismos internos de teste; manter a identificação de conteúdo ilustrativo quando necessária.
 - **Impacto:** cabeçalhos, importação/exportação/reposição de cenários e estados de erro.
 - **Evidência:** esclarecimento explícito após análise de «Call with Leila Omar (4)».
 

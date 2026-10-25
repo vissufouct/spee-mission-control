@@ -1,8 +1,8 @@
 # SPEE — experiências de frontend
 
-Frontend local para exploração da UX do **Mission Control do Docente** e do **Meu Percurso do Estudante**, em áreas separadas. Não existe backend, API, base de dados ou autenticação real. Os documentos e imagens anteriores do projecto foram preservados; a aplicação vive em `frontend/`.
+Frontend local para exploração da UX do **Painel do Docente** e do **Meu Percurso do Estudante**, em áreas separadas. Não existe backend, API, base de dados ou autenticação real. Os documentos e imagens anteriores do projecto foram preservados; a aplicação vive em `frontend/`.
 
-Versão publicada: [SPEE Mission Control no GitHub Pages](https://vissufouct.github.io/spee-mission-control/).
+Versão publicada: [SPEE Painel no GitHub Pages](https://vissufouct.github.io/spee-mission-control/).
 
 ## Executar
 
@@ -14,7 +14,7 @@ npm ci
 npm run dev
 ```
 
-Abrir o [ponto de partida](http://127.0.0.1:5173/) e escolher entre o [Mission Control do Docente](http://127.0.0.1:5173/docente/mission-control) e o [Mission Control do Estudante](http://127.0.0.1:5173/estudante/percurso). O servidor Vite serve apenas o frontend e escuta em 127.0.0.1, sem exposição na rede.
+Abrir o [ponto de partida](http://127.0.0.1:5173/) e escolher entre o [Painel do Docente](http://127.0.0.1:5173/docente/mission-control) e o [Painel do Estudante](http://127.0.0.1:5173/estudante/percurso). O servidor Vite serve apenas o frontend e escuta em 127.0.0.1, sem exposição na rede.
 
 ```sh
 npm run storybook
@@ -36,7 +36,7 @@ Os números são ilustrativos: três de dezassete actividades confirmadas, depoi
 
 O menu conserva os 13 módulos e a ordem da referência do simulador. Os módulos ainda não implementados apresentam uma explicação do âmbito, sem simular operações inexistentes.
 
-### Mission Control do Docente
+### Painel do Docente
 
 1. Filtrar turma, roteiro, estado, prazo, empresa ou estudante; combinar filtros por marco.
 2. Abrir a empresa na matriz, seleccionar um bloco e consultar actividades e resultados.

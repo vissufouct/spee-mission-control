@@ -1,4 +1,4 @@
-# Verificação do Mission Control do Docente — 22 de Outubro de 2026
+# Verificação do Painel do Docente — 22 de Outubro de 2026
 
 Verificação técnica e visual do protótipo. Não equivale a validação de UX com utilizadores ou aprovação de regras pedagógicas.
 

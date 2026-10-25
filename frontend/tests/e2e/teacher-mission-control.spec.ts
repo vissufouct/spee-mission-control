@@ -12,7 +12,7 @@ test.afterEach(async ({ page }) => expect(errors.get(page)).toEqual([]))
 test('matriz de todas as turmas, filtros AND, navegação e detalhe preservam o contexto', async ({ page }, info) => {
   await page.setViewportSize({ width:1607,height:979 })
   await page.goto(home)
-  await expect(page.getByRole('heading', { name:'Mission Control do Docente', exact:true })).toBeVisible()
+  await expect(page.getByRole('heading', { name:'Painel do Docente', exact:true })).toBeVisible()
   await expect(page.getByRole('navigation', { name:'Navegação principal' }).locator('a,button')).toHaveCount(13)
   await expect(page.locator('.teacher-matrix tbody tr')).toHaveCount(10)
   await expect(page.getByRole('combobox', { name:'Turma', exact:true })).toHaveValue('all')
@@ -170,7 +170,7 @@ test('erro de escrita não fecha formulário nem anuncia sucesso', async ({ page
 test('mobile conserva menu, tabelas deslocáveis e não excede o viewport', async ({ page },info) => {
   await page.setViewportSize({ width:390,height:844 })
   await page.goto(home)
-  await expect(page.getByRole('heading', { name:'Mission Control do Docente', exact:true })).toBeVisible()
+  await expect(page.getByRole('heading', { name:'Painel do Docente', exact:true })).toBeVisible()
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true)
   await page.screenshot({ path:info.outputPath('teacher-mobile.png'),fullPage:true })
   await page.getByRole('button', { name:'Alternar menu lateral', exact:true }).click()

@@ -7,8 +7,8 @@ import { teacherPaths } from '@/features/teacher-mission-control'
 export type MissionControlRole = 'teacher' | 'student'
 const introductions = {
   teacher: {
-    title: 'Mission Control do Docente',
-    description: 'O Mission Control é o espaço de acompanhamento da simulação empresarial. Na perspectiva do docente, reúne o progresso das empresas, as actividades que precisam de atenção e as orientações pedagógicas.',
+    title: 'Painel do Docente',
+    description: 'O Painel é o espaço de acompanhamento da simulação empresarial. Na perspectiva do docente, reúne o progresso das empresas, as actividades que precisam de atenção e as orientações pedagógicas.',
     features: [
       'Acompanhar o progresso por turma, empresa e marco do percurso.',
       'Filtrar empresas e identificar actividades bloqueadas ou em curso.',
@@ -19,8 +19,8 @@ const introductions = {
     path: teacherPaths.home,
   },
   student: {
-    title: 'Mission Control do Estudante',
-    description: 'O Mission Control é o seu ponto de orientação na simulação empresarial: mostra o que está feito, o que falta e qual é o próximo passo da sua empresa.',
+    title: 'Painel do Estudante',
+    description: 'O Painel é o seu ponto de orientação na simulação empresarial: mostra o que está feito, o que falta e qual é o próximo passo da sua empresa.',
     features: [
       'Consultar o progresso e navegar entre os blocos do percurso.',
       'Ver os passos de cada actividade, as dependências e os materiais de apoio.',
@@ -35,7 +35,7 @@ const introductions = {
 
 export function MissionControlIntroduction({ role, onClose }: { role: MissionControlRole | null; onClose: () => void }) {
   const content = role ? introductions[role] : null
-  return <Dialog open={content !== null} onOpenChange={open => { if (!open) onClose() }} title={content?.title ?? 'Mission Control'} description={content?.description}>
+  return <Dialog open={content !== null} onOpenChange={open => { if (!open) onClose() }} title={content?.title ?? 'Painel'} description={content?.description}>
     {content && <>
       <h3 className="mt-6 font-semibold">Principais funcionalidades</h3>
       <ul className="my-4 list-disc space-y-3 pl-5 text-sm leading-6 text-slate-700">{content.features.map(feature => <li key={feature}>{feature}</li>)}</ul>
