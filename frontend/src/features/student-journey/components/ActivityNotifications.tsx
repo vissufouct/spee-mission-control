@@ -26,10 +26,10 @@ export function ActivityNotifications({ snapshot, activityId }: { snapshot: Jour
   const count = (value: number) => query.isPending ? '…' : query.isError ? '!' : value
   return <>
     <button type="button" className="student-notification-launcher" aria-haspopup="dialog" onClick={() => setOpen(true)}>
-      <span className="flex items-center gap-2 font-semibold"><Bell size={18} aria-hidden />Notificações e conversas <span className="student-chat-badge" aria-label={query.isPending ? 'A carregar total de notificações' : query.isError ? 'Total de notificações indisponível' : total + ' notificações pendentes no total'}>{count(total)}</span></span>
+      <span className="flex items-center gap-2 font-semibold"><Bell size={18} aria-hidden />Notificações de actividades <span className="student-chat-badge" aria-label={query.isPending ? 'A carregar total de notificações' : query.isError ? 'Total de notificações indisponível' : total + ' notificações pendentes no total'}>{count(total)}</span></span>
       <span className="mt-2 flex flex-wrap gap-2">{tabs.map(({ label, items, icon: Icon }) => <span className="student-notification-summary-badge" key={label}><Icon size={15} aria-hidden />{label}<span className="student-chat-badge">{count(items.length)}</span></span>)}</span>
     </button>
-    <Dialog open={open} onOpenChange={setOpen} title="Notificações e conversas" className="student-notifications-dialog">
+    <Dialog open={open} onOpenChange={setOpen} title="Notificações de actividades" className="student-notifications-dialog">
       <div role="tablist" aria-label="Canais de notificações" className="student-notifications-tabs">{tabs.map((tab, index) => <button type="button" role="tab" id={id + index} aria-controls={id + '-panel'} aria-selected={selected === index} tabIndex={selected === index ? 0 : -1} className="student-chat-tab" key={tab.label} onClick={() => setSelected(index)} onKeyDown={event => {
         if (!['ArrowRight', 'ArrowLeft', 'Home', 'End'].includes(event.key)) return
         event.preventDefault()

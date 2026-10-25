@@ -4,7 +4,7 @@
 
 As designações oficiais são **Painel do Docente** e **Painel do Estudante**, sem acento em «Painel». Usar estes termos na entrada, introduções, títulos, navegação, mensagens e documentação corrente. Conservar identificadores técnicos, nomes de ficheiros e URLs existentes para manter a compatibilidade; esta decisão altera a terminologia apresentada ao utilizador.
 
-**Versão:** 0.18
+**Versão:** 0.19
 **Data:** 25 de Outubro de 2026
 **Estado:** rascunho consolidado para validação  
 **Produto:** Painéis SPEE
@@ -35,6 +35,14 @@ Esta decisão prevalece sobre referências anteriores a critérios/passos execut
 ### Comunicação social dos participantes
 
 O Painel do Estudante inclui um hub social independente das orientações do docente e das conversas de actividade. Comunidade, grupos por convite aceite e mensagens privadas têm contadores próprios e não alteram progresso. O docente não recebe esta comunicação pela projecção de dados. Autoria mostra nome e turma. O protótipo valida os fluxos localmente; autenticação, autorização efectiva e sincronização multiutilizador pertencem à futura integração.
+
+### Pesquisa de participantes e contexto — 25 de Outubro de 2026
+
+- No hub social, pesquisar participantes por nome e turma, sem distinguir maiúsculas ou acentos, tanto ao criar grupos como ao iniciar mensagens privadas. Lista com altura limitada e deslocamento interno; mostrar total de resultados e estado sem resultados. Excluir o próprio utilizador.
+- A selecção múltipla de convidados mantém-se ao mudar a pesquisa e permite retirar cada selecção. Escolher um destinatário privado abre ou reutiliza a conversa existente. Só a confirmação do grupo emite convites; pesquisar não envia mensagens nem aceita convites.
+- Uniformizar o painel e o popup como **Notificações de actividades**, preservando canais, contadores e resolução por destinatário. O hub social conserva a sua identidade separada.
+- «Esta actividade em contexto» apresenta sempre três cartões: actividade anterior, actividade actual seleccionada e próxima actividade, pela ordem publicada do roteiro. A actual é a que está aberta, mesmo que já esteja concluída ou pertença a outro bloco. Nas extremidades, manter o cartão com indicação de início/fim e sem ligação. Não inventar actividades para blocos futuros vazios.
+- Estes cartões são navegação sequencial, não relações de dependência: não usar «Desbloqueia» nem alterar precedências ou estados por posição. Manter nomes de bloco, estados, contagens de tarefas e participantes de cada actividade; acções de execução permanecem nas tarefas. Esta regra substitui a omissão de cartões sem relações definida anteriormente.
 
 ### Exemplos e contagens de tarefas — 25 de Outubro
 
@@ -240,8 +248,8 @@ O popup segue o mesmo padrão visual do conteúdo: contornos azul-cinza claros, 
 | MC-UI-004 | Abrir, fechar ou ler não resolve notificações, não conclui tarefas nem altera progresso. |
 | MC-UI-005 | Suportar Enter/Espaço no painel, setas/Home/End nos separadores, Escape para fechar e devolução de foco ao painel. Loading/erro têm indicação própria e opção de tentar novamente. |
 | MC-UI-006 | Ligações com canal continuam a abrir o chat da actividade. Permitir reabrir a mesma conversa; preservar o histórico persistido e os rascunhos durante mudanças de canal no chat. |
-| MC-UI-007 | Nos quatro formulários do estudante (Meu Percurso, Percurso completo, detalhe e registo da empresa), apresentar um único painel clicável à direita do título principal. Primeira linha: «Notificações e conversas» e total; segunda linha: badges Docente/Grupo e Actividade quando contextual. O painel abre directamente um popup tabulado, inicialmente fechado, em vez de expandir cartões na página. Em ecrãs estreitos, permitir quebra de linha sem overflow. Manter progresso global junto do título, marcos abaixo e ligação ao percurso completo apenas no Meu Percurso. Não alterar o shell. |
-| MC-UI-008 | Mostrar um badge de total junto de «Notificações e conversas», visível com o popup fechado. Por decisão explícita do utilizador, somar os três badges visíveis: Docente 2 + Grupo 1 + Actividade 1 = total 4 no cenário inicial. É uma soma das pendências apresentadas por categoria, não uma contagem de mensagens distintas; a mesma mensagem pode contribuir para duas categorias. Mostrar zero quando não há pendências; durante carregamento ou erro, apresentar indicação própria, não um total parcial como definitivo. Actualizar após resolução explícita. |
+| MC-UI-007 | Nos quatro formulários do estudante (Meu Percurso, Percurso completo, detalhe e registo da empresa), apresentar um único painel clicável à direita do título principal. Primeira linha: «Notificações de actividades» e total; segunda linha: badges Docente/Grupo e Actividade quando contextual. O painel abre directamente um popup tabulado, inicialmente fechado, em vez de expandir cartões na página. Em ecrãs estreitos, permitir quebra de linha sem overflow. Manter progresso global junto do título, marcos abaixo e ligação ao percurso completo apenas no Meu Percurso. Não alterar o shell. |
+| MC-UI-008 | Mostrar um badge de total junto de «Notificações de actividades», visível com o popup fechado. Por decisão explícita do utilizador, somar os três badges visíveis: Docente 2 + Grupo 1 + Actividade 1 = total 4 no cenário inicial. É uma soma das pendências apresentadas por categoria, não uma contagem de mensagens distintas; a mesma mensagem pode contribuir para duas categorias. Mostrar zero quando não há pendências; durante carregamento ou erro, apresentar indicação própria, não um total parcial como definitivo. Actualizar após resolução explícita. |
 
 ### 9.3. Compactação após anotações no browser — 24/10/2026
 

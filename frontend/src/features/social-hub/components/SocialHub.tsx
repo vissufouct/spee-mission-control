@@ -5,6 +5,7 @@ import { useSocial } from '../hooks/SocialProvider'
 import { SocialMessageCard } from './SocialMessageCard'
 import { SocialComposer } from './SocialComposer'
 import { SocialChannelForm } from './SocialChannelForm'
+import { PrivateMessagePicker } from './PrivateMessagePicker'
 import '../social-hub.css'
 import { unreadCounts } from '../services/unreadCounts'
 import { conversationMessages } from '../services/conversationMessages'
@@ -75,7 +76,10 @@ export function SocialHub() {
           {mutation.isError && <div className="social-error" role="alert">{mutation.error.message}<button onClick={() => { void query.refetch(); mutation.reset() }}>Actualizar dados</button></div>}
           {creating ? <SocialChannelForm snapshot={snapshot} pending={mutation.isPending} onCancel={() => setCreating(false)} onCreate={async (name, invitees) => { const result = await mutation.mutateAsync({ type: 'group', name, invitees }); setCreating(false); setTab('group'); switchChannel(result.channels.at(-1)!.id) }} /> : <>
             {tab === 'group' && invitations.map(invitation => <section className="social-invitation" key={invitation.id}><strong>Convite: {invitation.name}</strong><p>De {name(invitation.members[0])}</p><div><button disabled={mutation.isPending} onClick={() => mutation.mutate({ type: 'invitation', channelId: invitation.id, accept: true }, { onSuccess: () => switchChannel(invitation.id) })}>Aceitar convite</button><button disabled={mutation.isPending} onClick={() => mutation.mutate({ type: 'invitation', channelId: invitation.id, accept: false })}>Recusar</button></div></section>)}
-            {tab === 'direct' && <label className="social-recipient">Nova mensagem privada<select aria-label="Destinatário da mensagem privada" value="" disabled={mutation.isPending} onChange={event => { const memberId = event.target.value; if (memberId) mutation.mutate({ type: 'direct', memberId }, { onSuccess: result => switchChannel(result.channels.find(c => c.kind === 'direct' && c.members.includes(memberId))!.id) }) }}><option value="">Seleccionar participante…</option>{snapshot.members.filter(m => m.id !== snapshot.currentUserId).map(m => <option key={m.id} value={m.id}>{m.name} · {m.className}</option>)}</select></label>}
+            {tab === 'direct' && <PrivateMessagePicker snapshot={snapshot} pending={mutation.isPending} onChoose={async memberId => {
+              const result = await mutation.mutateAsync({ type: 'direct', memberId })
+              switchChannel(result.channels.find(c => c.kind === 'direct' && c.members.includes(memberId))!.id)
+            }} />}
             {tab !== 'public' && <div className="social-channel-list" aria-label="Conversas disponíveis">{snapshot.channels.filter(c => c.kind === tab && c.members.includes(snapshot.currentUserId)).map(c => <button key={c.id} aria-pressed={c.id === active} aria-description={`${counts.channels[c.id] ?? 0} mensagens por ler`} onClick={() => switchChannel(c.id)}>{c.kind === 'direct' ? name(c.members.find(id => id !== snapshot.currentUserId)!) : c.name} <span aria-hidden className={`social-count${counts.channels[c.id] ? '' : ' social-count--empty'}`}>{counts.channels[c.id] ?? 0}</span></button>)}</div>}
             {channel ? <><div className="social-conversation-title"><h3><MessageCircle size={17} />{channelName}</h3><button disabled={mutation.isPending} onClick={() => mutation.mutate({ type: 'read', channelId: channel.id })}>Marcar como lida</button></div>
               {channel.kind === 'group' && <p className="social-local-note">Membros: {channel.members.map(name).join(', ')}{channel.invited.length > 0 && ` · Convites pendentes: ${channel.invited.map(name).join(', ')}`}</p>}

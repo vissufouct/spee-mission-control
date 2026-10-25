@@ -11,7 +11,7 @@ for (const route of ['/estudante/percurso', '/estudante/percurso/completo', '/es
     const launcherBox = await launcher.boundingBox()
     expect(launcherBox!.x).toBeGreaterThan(headingBox!.x)
     await launcher.press('Enter')
-    await expect(page.getByRole('dialog', { name: 'Notificações e conversas', exact: true })).toBeVisible()
+    await expect(page.getByRole('dialog', { name: 'Notificações de actividades', exact: true })).toBeVisible()
     await expect(page.getByRole('dialog').locator('.student-notification-message')).toHaveCount(2)
     await page.screenshot({ path: info.outputPath('desktop-popup.png') })
     await page.getByRole('tab', { name: 'Docente 2', exact: true }).focus()

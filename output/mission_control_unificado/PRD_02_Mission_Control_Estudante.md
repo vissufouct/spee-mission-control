@@ -1,6 +1,6 @@
 # PRD do Painel do Estudante
 
-**Versão:** 0.15
+**Versão:** 0.16
 **Data:** 25 de Outubro de 2026
 **Estado:** actualizado com o roteiro de 48 tarefas e dois exemplos de empresas
 **Depende de:** `PRD_00_Mission_Control_Comum.md`  
@@ -18,7 +18,9 @@
 
 Disponível em todas as páginas do estudante através de uma pequena seta fixa à direita, com badge de mensagens por ler, sem ocupar espaço no conteúdo. Abre um painel sobreposto que desliza da direita para a esquerda, ocupando aproximadamente 48% do ecrã em desktop e quase toda a largura em mobile. Pode fechar-se com Escape, botão ou clique exterior.
 
-O hub inclui Comunidade, Grupos e Privadas, publicações com nome e turma, respostas contextuais, emojis e reacções. O topo permite criar grupos por nome e escolher participantes; os convidados só entram depois de aceitarem. Mostrar convites recebidos com Aceitar/Recusar e os convites pendentes do grupo. Mensagens privadas são dirigidas a um participante identificado por nome e turma. Conteúdo de grupos exige pertença aceite; conversas privadas só são visíveis aos intervenientes.
+O hub inclui Comunidade, Grupos e Privadas, publicações com nome e turma, respostas contextuais, emojis e reacções. O topo permite criar grupos por nome e pesquisar participantes por nome ou turma; os convidados só entram depois de aceitarem. Mostrar convites recebidos com Aceitar/Recusar e os convites pendentes do grupo. Mensagens privadas são dirigidas a um participante identificado por nome e turma. Conteúdo de grupos exige pertença aceite; conversas privadas só são visíveis aos intervenientes.
+
+A pesquisa não distingue maiúsculas/minúsculas nem acentos e combina termos de nome e turma. A lista de resultados tem deslocamento interno e indica quantos participantes encontrou; sem correspondências, apresenta orientação para alterar a pesquisa. Excluir o próprio estudante. Nos grupos, preservar as selecções entre pesquisas, mostrar os convidados seleccionados e permitir retirá-los; a criação exige pelo menos um convidado. Nas privadas, «Nova mensagem privada» abre a mesma pesquisa, com escolha única por nome e turma; seleccionar abre ou reutiliza a conversa e recolhe a pesquisa após sucesso. Em erro, manter a escolha disponível e mostrar a falha. Suportar teclado e ecrãs estreitos, sem nova dependência.
 
 Cada separador mostra o total de mensagens por ler da respectiva categoria. Cada grupo e conversa privada mostra também o seu badge individual. Excluir mensagens próprias e canais sem pertença aceite; convites são sinalizados separadamente. «Marcar como lida» actualiza simultaneamente a conversa, a categoria e o total do hub. Apresentar zero com estilo neutro.
 
@@ -40,7 +42,7 @@ Os quizzes de acolhimento e constituição exigem 70%; diagnóstico sem mínimo,
 
 Submissão de evidência: seleccionar PDF/DOCX/XLSX nos formatos permitidos, até 2 MB, e confirmar. Alternativa: seleccionar explicitamente o exemplo disponibilizado. Guardar conteúdo, nome, autor e data no repository local; permitir consulta/descarga após reload. Mostrar erros sem falsa confirmação. Submetido não equivale a aprovado.
 
-Botões de tarefas discretos, contornos claros, texto azul, rótulos explícitos e foco visível. Materiais complementares continuam recolhíveis com badges por formato. O contexto omite cartões «Vem de/Desbloqueia» sem relações definidas, em vez de inventar ligações entre actividades.
+Botões de tarefas discretos, contornos claros, texto azul, rótulos explícitos e foco visível. Materiais complementares continuam recolhíveis com badges por formato. O contexto mantém três cartões: actividade anterior, actividade actual seleccionada e próxima actividade, pela ordem do roteiro, sem inferir precedências. Nas extremidades, indicar a ausência de actividade anterior/seguinte; blocos futuros vazios não originam actividades fictícias. O cartão central acompanha a actividade aberta, não o bloco em curso da empresa.
 
 Cada tarefa mostra ícone de formato, título, estado e botão: Ver, Iniciar tarefa, Continuar tarefa, Ver condição, Responder ao quiz, Ver respostas, Ver vídeo, Ler PDF ou Consultar página. A actividade mantém apenas o agregado e a navegação. Validar erros do quiz, persistência após reload, confirmação de materiais, bloqueios, revisão obsoleta e ausência de falsa confirmação em falhas de armazenamento.
 
@@ -95,7 +97,7 @@ Fonte principal: `output/mockups/estudante_v4/mission_control_estudante_v4_02_ac
 Elementos representados:
 
 - título e próxima actividade elegível no cabeçalho; estado e número de critérios confirmados no respectivo cartão de contexto, sem duplicação acima dos cartões;
-- contexto **Vem de → Actividade actual → Desbloqueia**;
+- contexto **Actividade anterior → Actividade actual → Próxima actividade**, com três cartões e indicação do respectivo bloco;
 - lista do que falta para concluir;
 - indicação de que o progresso é actualizado após confirmação do simulador;
 - materiais de apoio recolhidos numa área expansível;
@@ -244,7 +246,7 @@ Fonte: «Call with Leila Omar (4)», gravação de 15m52s, e esclarecimentos pos
 - MC-EST-041: preservar a posição do ecrã ao navegar entre blocos, aplicar filtros ou seleccionar actividades no mesmo tipo de página. Não repor o scroll no topo; aceitar apenas o ajuste natural ao comprimento da página de destino.
 - MC-EST-042: materiais de apoio com designação, descrição e ícone/rótulo PDF, Excel, Word, Vídeo ou Página Web. Abrir ligações disponíveis noutro separador, com indicação acessível; recursos sem ligação ficam explicitamente indisponíveis. Os recursos locais são ilustrativos, não manuais oficiais.
 - MC-EST-043: remover a secção separada «Detalhe da actividade». Preservar contexto, critérios/passos, resultados e materiais.
-- MC-EST-044: cartões de contexto navegáveis, actualizando actividade, critérios, materiais e conversas. Relações de precedência provêm dos dados; não inferir dependências pela posição numa lista.
+- MC-EST-044: cartões de contexto navegáveis, actualizando actividade, critérios, materiais e conversas. A navegação usa as actividades adjacentes na ordem do roteiro, incluindo a passagem entre blocos. Relações de precedência continuam a provir dos dados; não inferir dependências pela posição numa lista. Manter três cartões, mesmo no início/fim, com indicação de ausência e sem ligação no cartão vazio.
 - MC-EST-045: participação permanece em aberto até à integração com o simulador (DEC-012). Não atribuir nomes por leitura, cliques, mensagens ou pertença à empresa. A localização futura é junto do cartão de cada actividade; não mostrar participantes em actividades não iniciadas.
 - MC-EST-046: chat docente partilhado por todos os membros da mesma empresa, com autoria identificada; mensagens do docente e dos estudantes distinguem-se por cores e rótulos de papel. A conversa privada do grupo continua inacessível ao docente.
 - MC-EST-047: título do pop-up «Conversas da actividade: <nome>». Manter separadores, badges e histórico progressivo.
@@ -265,9 +267,9 @@ O popup de notificações adopta a linguagem visual aprovada: cartões suaves, c
 
 O resumo do bloco e «Actividades deste bloco» passam a integrar um único painel: título, indicadores e progresso no topo; filtros e lista de actividades abaixo de um separador interno discreto. Não apresentar a lista num cartão independente. Aplicar ao bloco actual e aos blocos em consulta, preservando filtros, navegação e acções.
 
-Nos quatro formulários do estudante (Meu Percurso, Percurso completo, detalhe da actividade e registo), o painel de notificações fica à direita do título principal. A primeira linha apresenta «Notificações e conversas» com total; a segunda apresenta badges por canal. Toda a superfície funciona como botão e abre directamente um popup com separadores Docente, Grupo e, nas páginas com actividade, Actividade. O popup começa fechado, suporta teclado e Escape, apresenta pendências e permite resolver ou abrir a conversa. Não existe expansão de cartões na página. Em ecrãs estreitos, o painel pode passar à linha seguinte. A soma dos badges mantém-se como total; abrir não resolve notificações.
+Nos quatro formulários do estudante (Meu Percurso, Percurso completo, detalhe da actividade e registo), o painel de notificações fica à direita do título principal. A primeira linha apresenta «Notificações de actividades» com total; a segunda apresenta badges por canal. Toda a superfície funciona como botão e abre directamente um popup com separadores Docente, Grupo e, nas páginas com actividade, Actividade. O popup começa fechado, suporta teclado e Escape, apresenta pendências e permite resolver ou abrir a conversa. Não existe expansão de cartões na página. Em ecrãs estreitos, o painel pode passar à linha seguinte. A soma dos badges mantém-se como total; abrir não resolve notificações.
 
-O cabeçalho «Notificações e conversas» inclui um badge com a soma dos três badges visíveis, conforme MC-UI-008 do PRD comum: Docente + Grupo + Actividade (2 + 1 + 1 = 4 no cenário inicial). Esta soma por categoria não representa mensagens distintas. Manter os badges por canal.
+O cabeçalho «Notificações de actividades» inclui um badge com a soma dos três badges visíveis, conforme MC-UI-008 do PRD comum: Docente + Grupo + Actividade (2 + 1 + 1 = 4 no cenário inicial). Esta soma por categoria não representa mensagens distintas. Manter os badges por canal.
 
 Fonte: seis comentários do utilizador no browser e esclarecimentos posteriores sobre o próximo passo e a síntese dos participantes, no detalhe «Registar empresa». Complementa o PRD comum v0.11 e prevalece sobre a disposição anterior do detalhe.
 

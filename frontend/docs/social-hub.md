@@ -25,3 +25,12 @@ A integração GIPHY, solicitada para esta feature, é a excepção explícita a
 Criar uma chave Web em https://developers.giphy.com/dashboard/ e definir `VITE_GIPHY_API_KEY` em `frontend/.env.local`, depois reiniciar Vite. Ver `.env.example`. Trata-se de uma chave de cliente, visível no bundle: nunca utilizar credenciais de servidor. Para GitHub Pages, disponibilizar a variável no ambiente do passo de build (a publicação não a configura automaticamente). Sem chave, o selector informa que a pesquisa aguarda configuração e não envia pedidos. Não existe chave de demonstração partilhada nem resultados inventados apresentados como pesquisa real. As stories usam um adaptador simulado explicitamente para testar o fluxo sem conta real.
 
 Documentação: https://developers.giphy.com/docs/api/quick-start-guide/ e https://developers.giphy.com/docs/api/. Atribuição «Powered By GIPHY» no selector. Antes de publicação com chave, confirmar a elegibilidade/limites e os requisitos de marca da conta GIPHY.
+
+
+## Pesquisa de participantes — 25/10/2026
+
+`ParticipantPicker` é partilhado apenas dentro desta feature: selecção múltipla no formulário do grupo e escolha única em `PrivateMessagePicker`. Recebe membros e callbacks; não conhece fixtures nem persistência. `searchParticipants` normaliza acentos e capitalização, combina nome/turma e trata «turma B» como filtro da turma, sem confundir letras de apelidos.
+
+Resultados têm deslocamento interno (altura limitada), nome e turma. Os convidados seleccionados ficam fora da lista filtrada e podem ser retirados. «Nova mensagem privada» expande a pesquisa; a selecção chama o contrato existente e reutiliza a conversa, recolhendo a pesquisa só após sucesso. Erros mantêm a pesquisa aberta. Os convites e as permissões não mudam.
+
+A story `ManyParticipants` usa 86 participantes fictícios em memória, sem escrita no cenário pessoal. O teste de fluxo valida pesquisa sem acentos, por turma, selecções persistentes entre filtros, ausência de resultados, teclado, escolha privada e largura móvel.
