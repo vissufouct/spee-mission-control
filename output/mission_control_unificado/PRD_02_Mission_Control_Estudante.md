@@ -307,3 +307,10 @@ Mensagens ao docente identificam explicitamente a empresa do exemplo activo. Res
 - Participação ilustrativa específica em todas as actividades concluídas, acessível no tooltip do respectivo bloco. O exemplo sem tarefas realizadas não apresenta contribuições como realizadas.
 - Tooltip por hover, clique/toque e foco, com Escape; detalhes longos admitem deslocamento interno. Preservar três posições e navegação de blocos.
 - Validar desktop, mobile e story sem AppShell. Preservar progresso, comunicações e dados personalizados. Menu lateral, header e footer intactos.
+
+
+## Coach IA simulado no hub social — 27/10/2026
+
+O hub do estudante disponibiliza o separador «Coach IA», identificado como simulação local. Permite escolher uma actividade, escrever perguntas e usar sugestões sobre blocos, tarefas, materiais, próximo passo e bloqueios. As respostas determinísticas utilizam o roteiro e estados actuais do exemplo seleccionado, consultados de novo em cada pergunta. Não há serviço de IA externo, avaliação, submissão nem alteração do progresso. Perguntas não reconhecidas recebem uma explicação dos limites e encaminhamento para o docente.
+
+O contrato CoachRepository pertence ao hub; app/providers adapta a API pública do percurso para este contrato. A UI não conhece fixtures ou armazenamento. A conversa é efémera e reinicia ao sair do separador ou fechar o hub. Apresentar carregamento, indisponibilidade e falha recuperável, preservando o rascunho. O coach é separado das mensagens entre participantes e dos respectivos contadores de não lidas.

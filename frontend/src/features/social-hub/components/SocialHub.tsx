@@ -1,3 +1,4 @@
+import { CoachChat } from './CoachChat'
 import { useEffect, useRef, useState } from 'react'
 import * as Dialog from '@radix-ui/react-dialog'
 import { ChevronLeft, X, UsersRound, Plus, MessageCircle } from 'lucide-react'
@@ -13,7 +14,7 @@ import { conversationMessages } from '../services/conversationMessages'
 export function SocialHub() {
   const { query, mutation } = useSocial()
   const [open, setOpen] = useState(false)
-  const [tab, setTab] = useState<'public' | 'group' | 'direct'>('public')
+  const [tab, setTab] = useState<'public' | 'group' | 'direct' | 'coach'>('public')
   const [active, setActive] = useState('community')
   const [creating, setCreating] = useState(false)
   const [reply, setReply] = useState<string | null>(null)
@@ -69,9 +70,9 @@ export function SocialHub() {
     <Dialog.Portal><Dialog.Overlay className="social-hub-overlay" /><Dialog.Content className="social-hub-panel">
       <header className="social-hub-header"><div><span className="social-hub-eyebrow">ESPAÇO DOS PARTICIPANTES</span><Dialog.Title><UsersRound size={23} />Hub social <span className="social-count">{unread}</span></Dialog.Title><Dialog.Description>Ideias, perguntas e entreajuda entre turmas.</Dialog.Description></div><Dialog.Close aria-label="Fechar hub social"><X size={22} /></Dialog.Close></header>
       {query.isPending ? <p role="status" className="social-empty">A carregar as conversas…</p> : query.isError ? <div className="social-empty" role="alert"><p>{query.error.message}</p><button onClick={() => { void query.refetch() }}>Tentar novamente</button></div> : snapshot && <>
-        <div className="social-hub-tools"><button onClick={() => { setCreating(!creating); mutation.reset() }} aria-expanded={creating}><Plus size={16} />Criar grupo</button><span>{snapshot.members.length} participantes · 3 turmas</span></div>
-        <div className="social-hub-tabs" role="group" aria-label="Tipo de conversa">{(['public', 'group', 'direct'] as const).map(kind => <button key={kind} aria-pressed={tab === kind} aria-description={`${counts.kinds[kind]} mensagens por ler${kind === 'group' && invitations.length ? `; ${invitations.length} convites pendentes` : ''}`} onClick={() => { setTab(kind); setCreating(false); switchChannel(snapshot.channels.find(c => c.kind === kind && (kind === 'public' || c.members.includes(snapshot.currentUserId)))?.id ?? '') }}>{kind === 'public' ? 'Comunidade' : kind === 'group' ? 'Grupos' : 'Privadas'} <span aria-hidden className={`social-count${counts.kinds[kind] ? '' : ' social-count--empty'}`}>{counts.kinds[kind]}</span>{kind === 'group' && invitations.length > 0 && <span className="social-invite-dot" aria-hidden title={`${invitations.length} convites pendentes`}>•</span>}</button>)}</div>
-        <div className="social-hub-scroll" ref={scrollArea} onScroll={event => { if (event.currentTarget.scrollTop < 24 && start > 0 && !olderPosition.current) loadOlder() }}>
+        <div className="social-hub-tools"><button onClick={() => { setTab('group'); setCreating(!creating); mutation.reset() }} aria-expanded={creating}><Plus size={16} />Criar grupo</button><span>{snapshot.members.length} participantes · 3 turmas</span></div>
+        <div className="social-hub-tabs" role="group" aria-label="Tipo de conversa">{(['public', 'group', 'direct'] as const).map(kind => <button key={kind} aria-pressed={tab === kind} aria-description={`${counts.kinds[kind]} mensagens por ler${kind === 'group' && invitations.length ? `; ${invitations.length} convites pendentes` : ''}`} onClick={() => { setTab(kind); setCreating(false); switchChannel(snapshot.channels.find(c => c.kind === kind && (kind === 'public' || c.members.includes(snapshot.currentUserId)))?.id ?? '') }}>{kind === 'public' ? 'Comunidade' : kind === 'group' ? 'Grupos' : 'Privadas'} <span aria-hidden className={`social-count${counts.kinds[kind] ? '' : ' social-count--empty'}`}>{counts.kinds[kind]}</span>{kind === 'group' && invitations.length > 0 && <span className="social-invite-dot" aria-hidden title={`${invitations.length} convites pendentes`}>•</span>}</button>)}<button aria-pressed={tab === 'coach'} onClick={() => { setTab('coach'); setCreating(false) }}>Coach IA</button></div>
+        <div hidden={tab === 'coach'} className="social-hub-scroll" ref={scrollArea} onScroll={event => { if (event.currentTarget.scrollTop < 24 && start > 0 && !olderPosition.current) loadOlder() }}>
           <p className="social-local-note">Conversa simulada, guardada apenas neste browser.</p>
           {mutation.isError && <div className="social-error" role="alert">{mutation.error.message}<button onClick={() => { void query.refetch(); mutation.reset() }}>Actualizar dados</button></div>}
           {creating ? <SocialChannelForm snapshot={snapshot} pending={mutation.isPending} onCancel={() => setCreating(false)} onCreate={async (name, invitees) => { const result = await mutation.mutateAsync({ type: 'group', name, invitees }); setCreating(false); setTab('group'); switchChannel(result.channels.at(-1)!.id) }} /> : <>
@@ -89,7 +90,8 @@ export function SocialHub() {
             </> : <p className="social-empty">Escolha uma conversa ou crie um grupo para começar.</p>}
           </>}
         </div>
-        {!creating && channel && <SocialComposer key={channel.id} pending={mutation.isPending} replyName={reply ? name(snapshot.messages.find(m => m.id === reply)?.authorId ?? '') : undefined} onCancelReply={() => setReply(null)} onSend={async (text, gif) => { sending.current = true; try { await mutation.mutateAsync({ type: 'post', channelId: channel.id, text, gif, replyTo: reply }); setReply(null) } catch (error) { sending.current = false; throw error } }} />}
+        {tab === 'coach' && <CoachChat />}
+        {tab !== 'coach' && !creating && channel && <SocialComposer key={channel.id} pending={mutation.isPending} replyName={reply ? name(snapshot.messages.find(m => m.id === reply)?.authorId ?? '') : undefined} onCancelReply={() => setReply(null)} onSend={async (text, gif) => { sending.current = true; try { await mutation.mutateAsync({ type: 'post', channelId: channel.id, text, gif, replyTo: reply }); setReply(null) } catch (error) { sending.current = false; throw error } }} />}
       </>}
     </Dialog.Content></Dialog.Portal>
   </Dialog.Root>

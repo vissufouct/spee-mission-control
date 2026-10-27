@@ -1,6 +1,6 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import type { ReactNode } from 'react'
-import { JourneyProvider } from '@/features/student-journey'
+import { JourneyProvider, getLearningTasks } from '@/features/student-journey'
 import { selectStudentScenario } from './studentScenario'
 import scenarioFixture from '@/data/scenario-editor.fixture.json'
 import { TeacherProvider } from '@/features/teacher-mission-control'
@@ -25,5 +25,8 @@ const conversations = createStudentConversations(repository, teacherRepository, 
 const socialGifs = new GiphyRepository(import.meta.env.VITE_GIPHY_API_KEY ?? '')
 const socialRepository = new JsonSocialRepository(socialFixture, scenarioStorage)
 export function AppProviders({ children }: { children: ReactNode }) {
-  return <QueryClientProvider client={queryClient}><SocialProvider repository={socialRepository} gifs={socialGifs}><JourneyProvider repository={repository} conversations={conversations}><TeacherProvider repository={teacherRepository}><ScenarioProvider repository={scenarioRepository}>{children}</ScenarioProvider></TeacherProvider></JourneyProvider></SocialProvider></QueryClientProvider>
+  return <QueryClientProvider client={queryClient}><SocialProvider repository={socialRepository} gifs={socialGifs} coach={{ getContext: async () => {
+    const snapshot = await repository.getSnapshot()
+    return snapshot.blocks.map(block => ({ title: block.title, activities: block.activities.map(activity => ({ id: activity.id, title: activity.title, description: activity.description, tasks: getLearningTasks(activity, snapshot) })) }))
+  } }}><JourneyProvider repository={repository} conversations={conversations}><TeacherProvider repository={teacherRepository}><ScenarioProvider repository={scenarioRepository}>{children}</ScenarioProvider></TeacherProvider></JourneyProvider></SocialProvider></QueryClientProvider>
 }

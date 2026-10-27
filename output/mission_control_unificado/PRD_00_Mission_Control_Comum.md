@@ -339,3 +339,10 @@ No detalhe docente, cada quiz lista todos os participantes da empresa. Cada resp
 ### Cabeçalho e comunicações de demonstração — 25 de Outubro de 2026
 
 O selector de universidade surge ao lado do título «Painel do Docente», sem legenda visível, mantendo o nome acessível «Universidade». Em espaços estreitos pode passar para a linha seguinte. O cenário inclui cinco pedidos a aguardar resposta do docente, relativos a tarefas distintas de cinco empresas, e duas orientações gerais já publicadas para as três turmas. Os pedidos identificam a tarefa no assunto e na mensagem, dentro da actividade correspondente. A migração acrescenta estes exemplos uma única vez e preserva respostas, conclusões e comunicações existentes, sem alterar progresso.
+
+
+## Coach IA simulado no hub social — 27/10/2026
+
+O hub do estudante disponibiliza o separador «Coach IA», identificado como simulação local. Permite escolher uma actividade, escrever perguntas e usar sugestões sobre blocos, tarefas, materiais, próximo passo e bloqueios. As respostas determinísticas utilizam o roteiro e estados actuais do exemplo seleccionado, consultados de novo em cada pergunta. Não há serviço de IA externo, avaliação, submissão nem alteração do progresso. Perguntas não reconhecidas recebem uma explicação dos limites e encaminhamento para o docente.
+
+O contrato CoachRepository pertence ao hub; app/providers adapta a API pública do percurso para este contrato. A UI não conhece fixtures ou armazenamento. A conversa é efémera e reinicia ao sair do separador ou fechar o hub. Apresentar carregamento, indisponibilidade e falha recuperável, preservando o rascunho. O coach é separado das mensagens entre participantes e dos respectivos contadores de não lidas.

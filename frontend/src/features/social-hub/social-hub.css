@@ -99,3 +99,14 @@
 .social-message-gif { margin: 10px 0; }
 .social-message-gif img { max-width: 100%; max-height: 220px; border-radius: 8px; }
 .social-message-gif figcaption { color: #60738d; font-size: 10px; margin-top: 4px; }
+
+.social-hub-scroll[hidden] { display: none; }
+.social-coach { display: flex; flex-direction: column; flex: 1; min-height: 0; }
+.social-coach-context { padding: 12px 20px; background: white; border-bottom: 1px solid #dce7f3; }
+.social-coach-context h3 { display: flex; align-items: center; gap: 8px; font-weight: 600; }
+.social-coach-context h3 span { font-size: 10px; background: #e1f5fa; color: #00677c; border-radius: 12px; padding: 3px 8px; }
+.social-coach-context p { margin: 8px 0; font-size: 11px; color: #60738d; }
+.social-coach label { display: block; font-size: 12px; }
+.social-coach select { width: 100%; margin-top: 5px; padding: 8px; border: 1px solid #cfdfed; border-radius: 8px; background: white; }
+.social-coach-suggestions { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+.social-coach-suggestions button { font-size: 11px; color: #0767b9; border: 1px solid #c7dff4; border-radius: 12px; padding: 5px 8px; }

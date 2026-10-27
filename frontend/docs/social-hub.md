@@ -34,3 +34,10 @@ Documentação: https://developers.giphy.com/docs/api/quick-start-guide/ e https
 Resultados têm deslocamento interno (altura limitada), nome e turma. Os convidados seleccionados ficam fora da lista filtrada e podem ser retirados. «Nova mensagem privada» expande a pesquisa; a selecção chama o contrato existente e reutiliza a conversa, recolhendo a pesquisa só após sucesso. Erros mantêm a pesquisa aberta. Os convites e as permissões não mudam.
 
 A story `ManyParticipants` usa 86 participantes fictícios em memória, sem escrita no cenário pessoal. O teste de fluxo valida pesquisa sem acentos, por turma, selecções persistentes entre filtros, ausência de resultados, teclado, escolha privada e largura móvel.
+
+
+## Coach IA simulado no hub social — 27/10/2026
+
+O hub do estudante disponibiliza o separador «Coach IA», identificado como simulação local. Permite escolher uma actividade, escrever perguntas e usar sugestões sobre blocos, tarefas, materiais, próximo passo e bloqueios. As respostas determinísticas utilizam o roteiro e estados actuais do exemplo seleccionado, consultados de novo em cada pergunta. Não há serviço de IA externo, avaliação, submissão nem alteração do progresso. Perguntas não reconhecidas recebem uma explicação dos limites e encaminhamento para o docente.
+
+O contrato CoachRepository pertence ao hub; app/providers adapta a API pública do percurso para este contrato. A UI não conhece fixtures ou armazenamento. A conversa é efémera e reinicia ao sair do separador ou fechar o hub. Apresentar carregamento, indisponibilidade e falha recuperável, preservando o rascunho. O coach é separado das mensagens entre participantes e dos respectivos contadores de não lidas.
