@@ -16,7 +16,7 @@ export function ActivityPage() {
   const mutation = useJourneyMutation()
   const [taskId, setTaskId] = useState<string | null>(null)
   const { activityId } = useParams()
-  const [params] = useSearchParams()
+  const [params, setParams] = useSearchParams()
   const navigate = useNavigate()
   const location = useLocation()
   if (!query.data) return <JourneyLoadState error={query.error?.message} onRetry={() => void query.refetch()} />
@@ -25,7 +25,7 @@ export function ActivityPage() {
   const activity = block?.activities.find(a => a.id === activityId)
   if (!activity || !block) return <section><h1>Actividade não encontrada</h1><Link preventScrollReset to={journeyPaths.home}>Voltar ao Meu Percurso</Link></section>
   const next = getNextAction(activity, snapshot)
-  const selectedTask = getLearningTasks(activity, snapshot).find(task => task.id === taskId)
+  const selectedTask = getLearningTasks(activity, snapshot).find(task => task.id === (taskId ?? params.get('tarefa')))
   const openTask = (task: LearningTask) => {
     if (task.kind === 'operation' && activity.id === 'registar-empresa' && (!snapshot.context.roadmapVersion || task.id === 'b03-a01-t05') && task.status !== 'blocked') {
       navigate(journeyPaths.registration)
@@ -40,6 +40,6 @@ export function ActivityPage() {
         <ConversationPanel hideTrigger key={activity.id + location.key + params.get('canal')} snapshot={snapshot} activityId={activity.id} initialOpen={params.has('canal')} initialChannel={params.get('canal') === 'group' ? 'group' : 'teacher'} />
     </div>
     <ActivityDialog onTask={openTask} embedded activity={activity} snapshot={snapshot} onClose={() => navigate(journeyPaths.home)} onContinue={() => navigate(journeyPaths.registration)} onBlock={id => navigate(journeyPaths.home + '?bloco=' + encodeURIComponent(id))} />
-    {selectedTask && <LearningTaskDialog key={activity.id + selectedTask.id} task={selectedTask} reason={snapshot.context.roadmapVersion ? selectedTask.description : activity.reason} pending={mutation.isPending} error={mutation.error?.message} onClose={() => setTaskId(null)} onComplete={(answers, file) => mutation.mutate({ type: 'learning-task', activityId: activity.id, taskId: selectedTask.id, answers, file, revision: snapshot.revision })} />}
+    {selectedTask && <LearningTaskDialog key={activity.id + selectedTask.id} task={selectedTask} reason={snapshot.context.roadmapVersion ? selectedTask.description : activity.reason} pending={mutation.isPending} error={mutation.error?.message} onClose={() => { setTaskId(null); setParams(previous => { const next = new URLSearchParams(previous); next.delete('tarefa'); return next }, { replace: true }) }} onComplete={(answers, file) => mutation.mutate({ type: 'learning-task', activityId: activity.id, taskId: selectedTask.id, answers, file, revision: snapshot.revision })} />}
   </div>
 }

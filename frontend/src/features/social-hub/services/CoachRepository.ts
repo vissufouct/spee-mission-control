@@ -1,5 +1,5 @@
-export interface CoachTask { title: string; description: string; kind: string; status: string }
-export interface CoachActivity { id: string; title: string; description: string; tasks: CoachTask[] }
+export interface CoachTask { href?: string; title: string; description: string; kind: string; status: string }
+export interface CoachActivity { href?: string; id: string; title: string; description: string; tasks: CoachTask[] }
 export interface CoachBlock { title: string; activities: CoachActivity[] }
 export interface CoachRepository { getContext(): Promise<CoachBlock[]> }
 const normalize = (text: string) => text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
@@ -24,4 +24,18 @@ export function coachReply(question: string, blocks: CoachBlock[], activityId: s
   }
   if (/tarefa|material|quiz|evidencia/.test(text)) return prefix + activity.tasks.map(t => `• ${t.title} — ${states[t.status] ?? t.status}\n${t.description}`).join('\n\n')
   return prefix + 'Sou um coach simulado com respostas limitadas ao roteiro. Posso explicar os blocos, listar as tarefas e materiais, identificar a próxima tarefa ou ajudar a compreender bloqueios. Para uma dúvida específica que não esteja nas instruções, peça orientação ao docente.'
+}
+
+export interface CoachLink { label: string; href: string }
+/** Only composition-supplied destinations are used; no URLs are inferred from prose. */
+export function coachLinks(answer: string, blocks: CoachBlock[]): CoachLink[] {
+  const links: CoachLink[] = []
+  for (const activity of blocks.flatMap(block => block.activities)) {
+    if (!answer.startsWith(`Actividade: ${activity.title}\n`)) continue
+    for (const task of activity.tasks) {
+      if (task.href && answer.includes(task.title)) links.push({ label: `${task.status === 'blocked' ? 'Ver condição' : 'Abrir tarefa'}: ${task.title}`, href: task.href })
+    }
+    if (activity.href) links.push({ label: `Ver actividade: ${activity.title}`, href: activity.href })
+  }
+  return links
 }

@@ -1,6 +1,6 @@
 import { createContext, useContext } from 'react'
 import { useMutation, useQuery } from '@tanstack/react-query'
-import { coachReply, type CoachRepository } from '../services/CoachRepository'
+import { coachReply, coachLinks, type CoachRepository } from '../services/CoachRepository'
 export const CoachContext = createContext<CoachRepository | undefined>(undefined)
 export function useCoach() {
   const repository = useContext(CoachContext)
@@ -8,7 +8,8 @@ export function useCoach() {
   const reply = useMutation({ mutationFn: async ({ question, activityId }: { question: string; activityId: string }) => {
     if (!repository) throw new Error('O contexto do roteiro não está disponível.')
     const blocks = await repository.getContext()
-    return coachReply(question, blocks, activityId)
+    const text = coachReply(question, blocks, activityId)
+    return { text, links: coachLinks(text, blocks) }
   } })
   return { query, reply, available: !!repository }
 }

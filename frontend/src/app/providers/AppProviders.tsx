@@ -1,6 +1,6 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import type { ReactNode } from 'react'
-import { JourneyProvider, getLearningTasks } from '@/features/student-journey'
+import { JourneyProvider, getLearningTasks, journeyPaths } from '@/features/student-journey'
 import { selectStudentScenario } from './studentScenario'
 import scenarioFixture from '@/data/scenario-editor.fixture.json'
 import { TeacherProvider } from '@/features/teacher-mission-control'
@@ -27,6 +27,15 @@ const socialRepository = new JsonSocialRepository(socialFixture, scenarioStorage
 export function AppProviders({ children }: { children: ReactNode }) {
   return <QueryClientProvider client={queryClient}><SocialProvider repository={socialRepository} gifs={socialGifs} coach={{ getContext: async () => {
     const snapshot = await repository.getSnapshot()
-    return snapshot.blocks.map(block => ({ title: block.title, activities: block.activities.map(activity => ({ id: activity.id, title: activity.title, description: activity.description, tasks: getLearningTasks(activity, snapshot) })) }))
+    const localUrl = (path: string) => `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`
+    return snapshot.blocks.map(block => ({ title: block.title, activities: block.activities.map(activity => ({
+      id: activity.id, title: activity.title, description: activity.description,
+      href: localUrl(`/estudante/percurso/actividades/${encodeURIComponent(activity.id)}`),
+      tasks: getLearningTasks(activity, snapshot).map(task => ({ ...task, href: localUrl(
+        task.kind === 'operation' && activity.id === 'registar-empresa' && (!snapshot.context.roadmapVersion || task.id === 'b03-a01-t05') && task.status !== 'blocked'
+          ? journeyPaths.registration
+          : `/estudante/percurso/actividades/${encodeURIComponent(activity.id)}?tarefa=${encodeURIComponent(task.id)}`
+      ) })),
+    })) }))
   } }}><JourneyProvider repository={repository} conversations={conversations}><TeacherProvider repository={teacherRepository}><ScenarioProvider repository={scenarioRepository}>{children}</ScenarioProvider></TeacherProvider></JourneyProvider></SocialProvider></QueryClientProvider>
 }

@@ -41,3 +41,7 @@ A story `ManyParticipants` usa 86 participantes fictícios em memória, sem escr
 O hub do estudante disponibiliza o separador «Coach IA», identificado como simulação local. Permite escolher uma actividade, escrever perguntas e usar sugestões sobre blocos, tarefas, materiais, próximo passo e bloqueios. As respostas determinísticas utilizam o roteiro e estados actuais do exemplo seleccionado, consultados de novo em cada pergunta. Não há serviço de IA externo, avaliação, submissão nem alteração do progresso. Perguntas não reconhecidas recebem uma explicação dos limites e encaminhamento para o docente.
 
 O contrato CoachRepository pertence ao hub; app/providers adapta a API pública do percurso para este contrato. A UI não conhece fixtures ou armazenamento. A conversa é efémera e reinicia ao sair do separador ou fechar o hub. Apresentar carregamento, indisponibilidade e falha recuperável, preservando o rascunho. O coach é separado das mensagens entre participantes e dos respectivos contadores de não lidas.
+
+
+### Ligações nas respostas do coach
+As orientações incluem ligações discretas para as tarefas mencionadas e para a actividade. A composição fornece destinos baseados em IDs reais, compatíveis com o caminho do GitHub Pages. A ligação abre o diálogo da tarefa através de `?tarefa=<id>`; operações de registo abrem o formulário próprio. Tarefas bloqueadas mostram a condição, sem contornar pré-requisitos. Navegar não conclui nem submete tarefas. Fechar o diálogo remove o parâmetro da tarefa. A navegação sai do hub e a conversa efémera reinicia.

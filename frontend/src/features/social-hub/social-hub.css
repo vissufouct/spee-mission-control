@@ -110,3 +110,8 @@
 .social-coach select { width: 100%; margin-top: 5px; padding: 8px; border: 1px solid #cfdfed; border-radius: 8px; background: white; }
 .social-coach-suggestions { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
 .social-coach-suggestions button { font-size: 11px; color: #0767b9; border: 1px solid #c7dff4; border-radius: 12px; padding: 5px 8px; }
+
+.social-coach-links { display: flex; flex-wrap: wrap; gap: 8px; }
+.social-coach-links a { display: inline-block; padding: 7px 10px; border: 1px solid #c7dff4; border-radius: 8px; color: #0767b9; background: #f6faff; font-size: 12px; }
+.social-coach-links a:hover { background: #e8f4ff; }
+.social-coach-links a:focus-visible { outline: 2px solid #076dd7; outline-offset: 3px; }

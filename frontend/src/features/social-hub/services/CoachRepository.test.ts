@@ -20,3 +20,13 @@ describe('coach local', () => {
     expect(coachReply('Explique os blocos', blocks, '')).toContain('Criação de empresas')
   })
 })
+
+it('usa destinos injectados só para a actividade e tarefas referidas', async () => {
+  const { coachLinks } = await import('./CoachRepository')
+  const context = structuredClone(blocks)
+  context[0].activities[0].href = '/actividade'
+  context[0].activities[0].tasks[1].href = '/actividade?tarefa=relatorio'
+  const result = coachLinks(coachReply('Qual é a próxima tarefa?', context, 'gestor'), context)
+  expect(result.map(link => link.href)).toEqual(['/actividade?tarefa=relatorio', '/actividade'])
+  expect(coachLinks('Não conheço essa actividade.', context)).toEqual([])
+})
