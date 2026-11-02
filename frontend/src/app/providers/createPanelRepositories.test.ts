@@ -88,7 +88,7 @@ describe('docente: dez empresas do mesmo roteiro', () => {
       expect(company.example).toBe(String(index + 1))
       expect(company.name).toBe(source.context.companyName)
       expect(company.activities).toHaveLength(15)
-      expect(company.activities.flatMap(a => a.tasks ?? [])).toHaveLength(52)
+      expect(company.activities.flatMap(a => a.tasks ?? [])).toHaveLength(55)
       expect(company.activities.flatMap(a => a.tasks ?? []).filter(t => t.status === 'completed')).toHaveLength(index === 0 ? 24 : 0)
       expect(company.activities.filter(a => a.status === 'completed')).toHaveLength(index === 0 ? 6 : 0)
       expect(company.events).toEqual([])
@@ -125,7 +125,7 @@ describe('docente: dez empresas do mesmo roteiro', () => {
     for (const company of simulated) {
       expect(company.example).toBeUndefined()
       expect(company.activities.map(a => a.id)).toEqual(snapshot.companies[0].activities.map(a => a.id))
-      expect(company.activities.flatMap(a => a.tasks ?? [])).toHaveLength(52)
+      expect(company.activities.flatMap(a => a.tasks ?? [])).toHaveLength(55)
       expect(company.results).toEqual([])
       expect(company.blocks.at(-1)?.state).toBe('unavailable')
       for (const activity of company.activities) {

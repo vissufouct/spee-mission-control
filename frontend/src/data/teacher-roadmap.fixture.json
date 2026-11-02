@@ -823,8 +823,8 @@
           "tasks": [
             {
               "id": "b03-a03-t01",
-              "title": "Contratar fornecedores",
-              "description": "Seleccione os fornecedores e celebre os contratos de arrendamento, energia eléctrica, água e Internet e correio electrónico. Use os botões abaixo para consultar cada serviço.",
+              "title": "Arrendar espaço de trabalho",
+              "description": "Arrendar espaço de trabalho. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
               "kind": "operation",
               "required": true,
               "status": "completed",
@@ -833,29 +833,53 @@
                 {
                   "label": "Arrendar espaço de trabalho",
                   "url": "https://speedev.simulacao.co.mz/servicos/1/Imobiliaria41/fortyone/html/menu.html?hasEmpresa=1&email=caifazshirhass@gmail.com"
-                },
+                }
+              ]
+            },
+            {
+              "id": "b03-a03-t03",
+              "title": "Contratar energia eléctrica",
+              "description": "Contratar energia eléctrica. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
+              "kind": "operation",
+              "required": true,
+              "status": "completed",
+              "completedAt": "2026-10-21T14:00:00Z",
+              "links": [
                 {
                   "label": "Contrato de energia eléctrica",
-                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
-                },
-                {
-                  "label": "Contrato de fornecimento de água",
-                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
-                },
-                {
-                  "label": "Contrato de Internet e correio electrónico",
                   "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
                 }
               ]
             },
             {
-              "id": "b03-a03-t02",
-              "title": "Abrir a conta bancária",
-              "description": "Confirme os dados da empresa, simule a abertura de conta e arquive a documentação.",
+              "id": "b03-a03-t04",
+              "title": "Contratar fornecimento de água",
+              "description": "Contratar fornecimento de água. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
               "kind": "operation",
               "required": true,
               "status": "completed",
-              "completedAt": "2026-10-21T15:00:00Z"
+              "completedAt": "2026-10-21T14:00:00Z",
+              "links": [
+                {
+                  "label": "Contrato de fornecimento de água",
+                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
+                }
+              ]
+            },
+            {
+              "id": "b03-a03-t05",
+              "title": "Contratar Internet e correio electrónico",
+              "description": "Contratar Internet e correio electrónico. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
+              "kind": "operation",
+              "required": true,
+              "status": "completed",
+              "completedAt": "2026-10-21T14:00:00Z",
+              "links": [
+                {
+                  "label": "Contrato de Internet e correio electrónico",
+                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
+                }
+              ]
             }
           ],
           "dependencyIds": [
@@ -1113,6 +1137,15 @@
                 }
               ],
               "resource": "https://www.bci.co.mz/bci-universal/abrir-uma-conta/"
+            },
+            {
+              "id": "b03-a03-t02",
+              "title": "Abrir a conta bancária",
+              "description": "Confirme os dados da empresa, simule a abertura de conta e arquive a documentação.",
+              "kind": "operation",
+              "required": true,
+              "status": "completed",
+              "completedAt": "2026-10-21T15:00:00Z"
             },
             {
               "id": "b04-a04-t04",
@@ -2746,8 +2779,8 @@
           "tasks": [
             {
               "id": "b03-a03-t01",
-              "title": "Contratar fornecedores",
-              "description": "Seleccione os fornecedores e celebre os contratos de arrendamento, energia eléctrica, água e Internet e correio electrónico. Use os botões abaixo para consultar cada serviço.",
+              "title": "Arrendar espaço de trabalho",
+              "description": "Arrendar espaço de trabalho. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
               "kind": "operation",
               "required": true,
               "status": "completed",
@@ -2756,29 +2789,53 @@
                 {
                   "label": "Arrendar espaço de trabalho",
                   "url": "https://speedev.simulacao.co.mz/servicos/1/Imobiliaria41/fortyone/html/menu.html?hasEmpresa=1&email=caifazshirhass@gmail.com"
-                },
+                }
+              ]
+            },
+            {
+              "id": "b03-a03-t03",
+              "title": "Contratar energia eléctrica",
+              "description": "Contratar energia eléctrica. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
+              "kind": "operation",
+              "required": true,
+              "status": "completed",
+              "completedAt": "2026-10-21T14:00:00Z",
+              "links": [
                 {
                   "label": "Contrato de energia eléctrica",
-                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
-                },
-                {
-                  "label": "Contrato de fornecimento de água",
-                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
-                },
-                {
-                  "label": "Contrato de Internet e correio electrónico",
                   "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
                 }
               ]
             },
             {
-              "id": "b03-a03-t02",
-              "title": "Abrir a conta bancária",
-              "description": "Confirme os dados da empresa, simule a abertura de conta e arquive a documentação.",
+              "id": "b03-a03-t04",
+              "title": "Contratar fornecimento de água",
+              "description": "Contratar fornecimento de água. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
               "kind": "operation",
               "required": true,
               "status": "completed",
-              "completedAt": "2026-10-21T15:00:00Z"
+              "completedAt": "2026-10-21T14:00:00Z",
+              "links": [
+                {
+                  "label": "Contrato de fornecimento de água",
+                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
+                }
+              ]
+            },
+            {
+              "id": "b03-a03-t05",
+              "title": "Contratar Internet e correio electrónico",
+              "description": "Contratar Internet e correio electrónico. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
+              "kind": "operation",
+              "required": true,
+              "status": "completed",
+              "completedAt": "2026-10-21T14:00:00Z",
+              "links": [
+                {
+                  "label": "Contrato de Internet e correio electrónico",
+                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
+                }
+              ]
             }
           ],
           "dependencyIds": [
@@ -3002,7 +3059,7 @@
           "title": "Preparar as operações bancárias",
           "blockId": "inicio-actividades",
           "milestone": "inicio-actividades",
-          "status": "not-started",
+          "status": "in-progress",
           "participantIds": [],
           "dueDate": null,
           "module": "Roteiro de Tarefas",
@@ -3025,6 +3082,15 @@
                 }
               ],
               "resource": "https://www.bci.co.mz/bci-universal/abrir-uma-conta/"
+            },
+            {
+              "id": "b03-a03-t02",
+              "title": "Abrir a conta bancária",
+              "description": "Confirme os dados da empresa, simule a abertura de conta e arquive a documentação.",
+              "kind": "operation",
+              "required": true,
+              "status": "completed",
+              "completedAt": "2026-10-21T15:00:00Z"
             },
             {
               "id": "b04-a04-t04",
@@ -4523,8 +4589,8 @@
           "tasks": [
             {
               "id": "b03-a03-t01",
-              "title": "Contratar fornecedores",
-              "description": "Seleccione os fornecedores e celebre os contratos de arrendamento, energia eléctrica, água e Internet e correio electrónico. Use os botões abaixo para consultar cada serviço.",
+              "title": "Arrendar espaço de trabalho",
+              "description": "Arrendar espaço de trabalho. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
               "kind": "operation",
               "required": true,
               "status": "completed",
@@ -4533,29 +4599,53 @@
                 {
                   "label": "Arrendar espaço de trabalho",
                   "url": "https://speedev.simulacao.co.mz/servicos/1/Imobiliaria41/fortyone/html/menu.html?hasEmpresa=1&email=caifazshirhass@gmail.com"
-                },
+                }
+              ]
+            },
+            {
+              "id": "b03-a03-t03",
+              "title": "Contratar energia eléctrica",
+              "description": "Contratar energia eléctrica. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
+              "kind": "operation",
+              "required": true,
+              "status": "completed",
+              "completedAt": "2026-10-21T14:00:00Z",
+              "links": [
                 {
                   "label": "Contrato de energia eléctrica",
-                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
-                },
-                {
-                  "label": "Contrato de fornecimento de água",
-                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
-                },
-                {
-                  "label": "Contrato de Internet e correio electrónico",
                   "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
                 }
               ]
             },
             {
-              "id": "b03-a03-t02",
-              "title": "Abrir a conta bancária",
-              "description": "Confirme os dados da empresa, simule a abertura de conta e arquive a documentação.",
+              "id": "b03-a03-t04",
+              "title": "Contratar fornecimento de água",
+              "description": "Contratar fornecimento de água. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
               "kind": "operation",
               "required": true,
               "status": "completed",
-              "completedAt": "2026-10-21T15:00:00Z"
+              "completedAt": "2026-10-21T14:00:00Z",
+              "links": [
+                {
+                  "label": "Contrato de fornecimento de água",
+                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
+                }
+              ]
+            },
+            {
+              "id": "b03-a03-t05",
+              "title": "Contratar Internet e correio electrónico",
+              "description": "Contratar Internet e correio electrónico. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
+              "kind": "operation",
+              "required": true,
+              "status": "completed",
+              "completedAt": "2026-10-21T14:00:00Z",
+              "links": [
+                {
+                  "label": "Contrato de Internet e correio electrónico",
+                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
+                }
+              ]
             }
           ],
           "dependencyIds": [
@@ -4755,7 +4845,7 @@
           "title": "Preparar as operações bancárias",
           "blockId": "inicio-actividades",
           "milestone": "inicio-actividades",
-          "status": "not-started",
+          "status": "in-progress",
           "participantIds": [],
           "dueDate": null,
           "module": "Roteiro de Tarefas",
@@ -4778,6 +4868,15 @@
                 }
               ],
               "resource": "https://www.bci.co.mz/bci-universal/abrir-uma-conta/"
+            },
+            {
+              "id": "b03-a03-t02",
+              "title": "Abrir a conta bancária",
+              "description": "Confirme os dados da empresa, simule a abertura de conta e arquive a documentação.",
+              "kind": "operation",
+              "required": true,
+              "status": "completed",
+              "completedAt": "2026-10-21T15:00:00Z"
             },
             {
               "id": "b04-a04-t04",
@@ -6146,8 +6245,8 @@
           "tasks": [
             {
               "id": "b03-a03-t01",
-              "title": "Contratar fornecedores",
-              "description": "Seleccione os fornecedores e celebre os contratos de arrendamento, energia eléctrica, água e Internet e correio electrónico. Use os botões abaixo para consultar cada serviço.",
+              "title": "Arrendar espaço de trabalho",
+              "description": "Arrendar espaço de trabalho. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
               "kind": "operation",
               "required": true,
               "status": "blocked",
@@ -6155,28 +6254,50 @@
                 {
                   "label": "Arrendar espaço de trabalho",
                   "url": "https://speedev.simulacao.co.mz/servicos/1/Imobiliaria41/fortyone/html/menu.html?hasEmpresa=1&email=caifazshirhass@gmail.com"
-                },
+                }
+              ]
+            },
+            {
+              "id": "b03-a03-t03",
+              "title": "Contratar energia eléctrica",
+              "description": "Contratar energia eléctrica. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
+              "kind": "operation",
+              "required": true,
+              "status": "blocked",
+              "links": [
                 {
                   "label": "Contrato de energia eléctrica",
-                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
-                },
-                {
-                  "label": "Contrato de fornecimento de água",
-                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
-                },
-                {
-                  "label": "Contrato de Internet e correio electrónico",
                   "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
                 }
               ]
             },
             {
-              "id": "b03-a03-t02",
-              "title": "Abrir a conta bancária",
-              "description": "Antes de continuar, conclua: Consultar o guia de organização documental.",
+              "id": "b03-a03-t04",
+              "title": "Contratar fornecimento de água",
+              "description": "Contratar fornecimento de água. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
               "kind": "operation",
               "required": true,
-              "status": "blocked"
+              "status": "blocked",
+              "links": [
+                {
+                  "label": "Contrato de fornecimento de água",
+                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
+                }
+              ]
+            },
+            {
+              "id": "b03-a03-t05",
+              "title": "Contratar Internet e correio electrónico",
+              "description": "Contratar Internet e correio electrónico. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
+              "kind": "operation",
+              "required": true,
+              "status": "blocked",
+              "links": [
+                {
+                  "label": "Contrato de Internet e correio electrónico",
+                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
+                }
+              ]
             }
           ],
           "dependencyIds": [
@@ -6399,6 +6520,14 @@
                 }
               ],
               "resource": "https://www.bci.co.mz/bci-universal/abrir-uma-conta/"
+            },
+            {
+              "id": "b03-a03-t02",
+              "title": "Abrir a conta bancária",
+              "description": "Antes de continuar, conclua: Consultar o guia de organização documental.",
+              "kind": "operation",
+              "required": true,
+              "status": "blocked"
             },
             {
               "id": "b04-a04-t04",
@@ -7684,8 +7813,8 @@
           "tasks": [
             {
               "id": "b03-a03-t01",
-              "title": "Contratar fornecedores",
-              "description": "Seleccione os fornecedores e celebre os contratos de arrendamento, energia eléctrica, água e Internet e correio electrónico. Use os botões abaixo para consultar cada serviço.",
+              "title": "Arrendar espaço de trabalho",
+              "description": "Arrendar espaço de trabalho. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
               "kind": "operation",
               "required": true,
               "status": "blocked",
@@ -7693,28 +7822,50 @@
                 {
                   "label": "Arrendar espaço de trabalho",
                   "url": "https://speedev.simulacao.co.mz/servicos/1/Imobiliaria41/fortyone/html/menu.html?hasEmpresa=1&email=caifazshirhass@gmail.com"
-                },
+                }
+              ]
+            },
+            {
+              "id": "b03-a03-t03",
+              "title": "Contratar energia eléctrica",
+              "description": "Contratar energia eléctrica. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
+              "kind": "operation",
+              "required": true,
+              "status": "blocked",
+              "links": [
                 {
                   "label": "Contrato de energia eléctrica",
-                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
-                },
-                {
-                  "label": "Contrato de fornecimento de água",
-                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
-                },
-                {
-                  "label": "Contrato de Internet e correio electrónico",
                   "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
                 }
               ]
             },
             {
-              "id": "b03-a03-t02",
-              "title": "Abrir a conta bancária",
-              "description": "Antes de continuar, conclua: Consultar o guia de organização documental.",
+              "id": "b03-a03-t04",
+              "title": "Contratar fornecimento de água",
+              "description": "Contratar fornecimento de água. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
               "kind": "operation",
               "required": true,
-              "status": "blocked"
+              "status": "blocked",
+              "links": [
+                {
+                  "label": "Contrato de fornecimento de água",
+                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
+                }
+              ]
+            },
+            {
+              "id": "b03-a03-t05",
+              "title": "Contratar Internet e correio electrónico",
+              "description": "Contratar Internet e correio electrónico. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
+              "kind": "operation",
+              "required": true,
+              "status": "blocked",
+              "links": [
+                {
+                  "label": "Contrato de Internet e correio electrónico",
+                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
+                }
+              ]
             }
           ],
           "dependencyIds": [
@@ -7937,6 +8088,14 @@
                 }
               ],
               "resource": "https://www.bci.co.mz/bci-universal/abrir-uma-conta/"
+            },
+            {
+              "id": "b03-a03-t02",
+              "title": "Abrir a conta bancária",
+              "description": "Antes de continuar, conclua: Consultar o guia de organização documental.",
+              "kind": "operation",
+              "required": true,
+              "status": "blocked"
             },
             {
               "id": "b04-a04-t04",
@@ -9134,8 +9293,8 @@
           "tasks": [
             {
               "id": "b03-a03-t01",
-              "title": "Contratar fornecedores",
-              "description": "Seleccione os fornecedores e celebre os contratos de arrendamento, energia eléctrica, água e Internet e correio electrónico. Use os botões abaixo para consultar cada serviço.",
+              "title": "Arrendar espaço de trabalho",
+              "description": "Arrendar espaço de trabalho. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
               "kind": "operation",
               "required": true,
               "status": "blocked",
@@ -9143,28 +9302,50 @@
                 {
                   "label": "Arrendar espaço de trabalho",
                   "url": "https://speedev.simulacao.co.mz/servicos/1/Imobiliaria41/fortyone/html/menu.html?hasEmpresa=1&email=caifazshirhass@gmail.com"
-                },
+                }
+              ]
+            },
+            {
+              "id": "b03-a03-t03",
+              "title": "Contratar energia eléctrica",
+              "description": "Contratar energia eléctrica. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
+              "kind": "operation",
+              "required": true,
+              "status": "blocked",
+              "links": [
                 {
                   "label": "Contrato de energia eléctrica",
-                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
-                },
-                {
-                  "label": "Contrato de fornecimento de água",
-                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
-                },
-                {
-                  "label": "Contrato de Internet e correio electrónico",
                   "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
                 }
               ]
             },
             {
-              "id": "b03-a03-t02",
-              "title": "Abrir a conta bancária",
-              "description": "Antes de continuar, conclua: Consultar o guia de organização documental.",
+              "id": "b03-a03-t04",
+              "title": "Contratar fornecimento de água",
+              "description": "Contratar fornecimento de água. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
               "kind": "operation",
               "required": true,
-              "status": "blocked"
+              "status": "blocked",
+              "links": [
+                {
+                  "label": "Contrato de fornecimento de água",
+                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
+                }
+              ]
+            },
+            {
+              "id": "b03-a03-t05",
+              "title": "Contratar Internet e correio electrónico",
+              "description": "Contratar Internet e correio electrónico. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
+              "kind": "operation",
+              "required": true,
+              "status": "blocked",
+              "links": [
+                {
+                  "label": "Contrato de Internet e correio electrónico",
+                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
+                }
+              ]
             }
           ],
           "dependencyIds": [
@@ -9387,6 +9568,14 @@
                 }
               ],
               "resource": "https://www.bci.co.mz/bci-universal/abrir-uma-conta/"
+            },
+            {
+              "id": "b03-a03-t02",
+              "title": "Abrir a conta bancária",
+              "description": "Antes de continuar, conclua: Consultar o guia de organização documental.",
+              "kind": "operation",
+              "required": true,
+              "status": "blocked"
             },
             {
               "id": "b04-a04-t04",
@@ -10477,8 +10666,8 @@
           "tasks": [
             {
               "id": "b03-a03-t01",
-              "title": "Contratar fornecedores",
-              "description": "Seleccione os fornecedores e celebre os contratos de arrendamento, energia eléctrica, água e Internet e correio electrónico. Use os botões abaixo para consultar cada serviço.",
+              "title": "Arrendar espaço de trabalho",
+              "description": "Arrendar espaço de trabalho. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
               "kind": "operation",
               "required": true,
               "status": "blocked",
@@ -10486,28 +10675,50 @@
                 {
                   "label": "Arrendar espaço de trabalho",
                   "url": "https://speedev.simulacao.co.mz/servicos/1/Imobiliaria41/fortyone/html/menu.html?hasEmpresa=1&email=caifazshirhass@gmail.com"
-                },
+                }
+              ]
+            },
+            {
+              "id": "b03-a03-t03",
+              "title": "Contratar energia eléctrica",
+              "description": "Contratar energia eléctrica. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
+              "kind": "operation",
+              "required": true,
+              "status": "blocked",
+              "links": [
                 {
                   "label": "Contrato de energia eléctrica",
-                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
-                },
-                {
-                  "label": "Contrato de fornecimento de água",
-                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
-                },
-                {
-                  "label": "Contrato de Internet e correio electrónico",
                   "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
                 }
               ]
             },
             {
-              "id": "b03-a03-t02",
-              "title": "Abrir a conta bancária",
-              "description": "Antes de continuar, conclua: Consultar o guia de organização documental.",
+              "id": "b03-a03-t04",
+              "title": "Contratar fornecimento de água",
+              "description": "Contratar fornecimento de água. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
               "kind": "operation",
               "required": true,
-              "status": "blocked"
+              "status": "blocked",
+              "links": [
+                {
+                  "label": "Contrato de fornecimento de água",
+                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
+                }
+              ]
+            },
+            {
+              "id": "b03-a03-t05",
+              "title": "Contratar Internet e correio electrónico",
+              "description": "Contratar Internet e correio electrónico. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
+              "kind": "operation",
+              "required": true,
+              "status": "blocked",
+              "links": [
+                {
+                  "label": "Contrato de Internet e correio electrónico",
+                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
+                }
+              ]
             }
           ],
           "dependencyIds": [
@@ -10730,6 +10941,14 @@
                 }
               ],
               "resource": "https://www.bci.co.mz/bci-universal/abrir-uma-conta/"
+            },
+            {
+              "id": "b03-a03-t02",
+              "title": "Abrir a conta bancária",
+              "description": "Antes de continuar, conclua: Consultar o guia de organização documental.",
+              "kind": "operation",
+              "required": true,
+              "status": "blocked"
             },
             {
               "id": "b04-a04-t04",
@@ -11667,8 +11886,8 @@
           "tasks": [
             {
               "id": "b03-a03-t01",
-              "title": "Contratar fornecedores",
-              "description": "Seleccione os fornecedores e celebre os contratos de arrendamento, energia eléctrica, água e Internet e correio electrónico. Use os botões abaixo para consultar cada serviço.",
+              "title": "Arrendar espaço de trabalho",
+              "description": "Arrendar espaço de trabalho. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
               "kind": "operation",
               "required": true,
               "status": "blocked",
@@ -11676,28 +11895,50 @@
                 {
                   "label": "Arrendar espaço de trabalho",
                   "url": "https://speedev.simulacao.co.mz/servicos/1/Imobiliaria41/fortyone/html/menu.html?hasEmpresa=1&email=caifazshirhass@gmail.com"
-                },
+                }
+              ]
+            },
+            {
+              "id": "b03-a03-t03",
+              "title": "Contratar energia eléctrica",
+              "description": "Contratar energia eléctrica. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
+              "kind": "operation",
+              "required": true,
+              "status": "blocked",
+              "links": [
                 {
                   "label": "Contrato de energia eléctrica",
-                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
-                },
-                {
-                  "label": "Contrato de fornecimento de água",
-                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
-                },
-                {
-                  "label": "Contrato de Internet e correio electrónico",
                   "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
                 }
               ]
             },
             {
-              "id": "b03-a03-t02",
-              "title": "Abrir a conta bancária",
-              "description": "Antes de continuar, conclua: Quiz de acolhimento; Aceitar a declaração de responsabilidade e ética; Consultar o guia de organização documental.",
+              "id": "b03-a03-t04",
+              "title": "Contratar fornecimento de água",
+              "description": "Contratar fornecimento de água. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
               "kind": "operation",
               "required": true,
-              "status": "blocked"
+              "status": "blocked",
+              "links": [
+                {
+                  "label": "Contrato de fornecimento de água",
+                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
+                }
+              ]
+            },
+            {
+              "id": "b03-a03-t05",
+              "title": "Contratar Internet e correio electrónico",
+              "description": "Contratar Internet e correio electrónico. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
+              "kind": "operation",
+              "required": true,
+              "status": "blocked",
+              "links": [
+                {
+                  "label": "Contrato de Internet e correio electrónico",
+                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
+                }
+              ]
             }
           ],
           "dependencyIds": [
@@ -11897,7 +12138,7 @@
           "title": "Preparar as operações bancárias",
           "blockId": "inicio-actividades",
           "milestone": "inicio-actividades",
-          "status": "blocked",
+          "status": "not-started",
           "participantIds": [],
           "dueDate": null,
           "module": "Roteiro de Tarefas",
@@ -11920,6 +12161,14 @@
                 }
               ],
               "resource": "https://www.bci.co.mz/bci-universal/abrir-uma-conta/"
+            },
+            {
+              "id": "b03-a03-t02",
+              "title": "Abrir a conta bancária",
+              "description": "Antes de continuar, conclua: Quiz de acolhimento; Aceitar a declaração de responsabilidade e ética; Consultar o guia de organização documental.",
+              "kind": "operation",
+              "required": true,
+              "status": "blocked"
             },
             {
               "id": "b04-a04-t04",

@@ -16,11 +16,11 @@ function setup(seed: unknown = exampleTwo) {
   return { storage, values, repository: new JsonJourneyRepository(seed, storage, 'example-2') }
 }
 describe('roteiro SPEE completo', () => {
-  it('mantém 52 tarefas e dois pontos de partida isolados, sem contar o bloco futuro', async () => {
+  it('mantém 55 tarefas e dois pontos de partida isolados, sem contar o bloco futuro', async () => {
     const { repository, storage } = setup()
     const fresh = await repository.getSnapshot()
     const underway = await new JsonJourneyRepository(exampleOne, storage, 'example-1').getSnapshot()
-    expect(tasks(fresh)).toHaveLength(52)
+    expect(tasks(fresh)).toHaveLength(55)
     expect(tasks(fresh).filter(task => task.status === 'completed')).toHaveLength(0)
     expect(tasks(underway).filter(task => task.status === 'completed')).toHaveLength(24)
     expect(getProgress(fresh)).toEqual({ completed: 0, total: 15, percent: 0 })
@@ -68,7 +68,7 @@ describe('roteiro SPEE completo', () => {
     await expect(repository.completeLearningTask('confirmar-preparacao', quiz.id, answers, 6)).rejects.toThrow('70%')
     expect(values.get('example-2')).toBe(before)
   })
-  it('permite realizar as 52 tarefas, persistir evidência e avançar apenas após confirmação', async () => {
+  it('permite realizar as 55 tarefas, persistir evidência e avançar apenas após confirmação', async () => {
     const { repository, storage } = setup()
     let snapshot = await repository.getSnapshot()
     for (const block of snapshot.blocks) for (const activity of block.activities) for (const task of activity.tasks!) {
@@ -117,9 +117,36 @@ it('actualiza links e acrescenta tarefas sem perder respostas ou concluir novas 
   bau.resource = 'https://www.bau.gov.mz/'
   values.set('example-2', JSON.stringify(old))
   const updated = await repository.getSnapshot()
-  expect(tasks(updated)).toHaveLength(52)
+  expect(tasks(updated)).toHaveLength(55)
   expect(tasks(updated).find(task => task.id === bau.id)).toMatchObject({ status: 'completed', links: [{ label: 'Consultar licenciamento e registo', url: 'https://www.bau.gov.mz/licenciamento-eregisto-de-actividades-economicas-2/' }] })
   expect(tasks(updated).find(task => task.id === 'b02-a01-t05')?.status).toBe('not-started')
   expect(tasks(updated).find(task => task.id === 'b02-a01-t01')?.answers).toEqual(tasks(old).find(task => task.id === 'b02-a01-t01')?.answers)
+  expect(values.get('example-2')).toBe(JSON.stringify(old))
+})
+
+it('migra o contrato agregado e move a conta bancária preservando conclusões', async () => {
+  const { repository, values } = setup(exampleTwo)
+  const old = journeySnapshotSchema.parse(exampleTwo)
+  const activities = old.blocks.flatMap(block => block.activities)
+  const contracts = activities.find(activity => activity.id === 'contratos-servicos')!
+  const banking = activities.find(activity => activity.id === 'preparar-banca')!
+  const bank = banking.tasks!.find(task => task.id === 'b03-a03-t02')!
+  bank.status = 'completed'
+  bank.completedAt = '2026-11-02T07:00:00.000Z'
+  banking.tasks = banking.tasks!.filter(task => task.id !== bank.id)
+  const supplier = contracts.tasks![0]
+  supplier.title = 'Contratar fornecedores'
+  supplier.links = contracts.tasks!.flatMap(task => task.links ?? [])
+  supplier.status = 'completed'
+  supplier.completedAt = bank.completedAt
+  contracts.tasks = [supplier, bank]
+  values.set('example-2', JSON.stringify(old))
+  const updated = await repository.getSnapshot()
+  const migrated = updated.blocks.flatMap(block => block.activities)
+  const split = migrated.find(activity => activity.id === contracts.id)!.tasks!
+  expect(split).toHaveLength(4)
+  expect(split.every(task => task.status === 'completed' && task.completedAt === bank.completedAt && task.links?.length === 1)).toBe(true)
+  expect(new Set(tasks(updated).map(task => task.id)).size).toBe(55)
+  expect(migrated.find(activity => activity.id === banking.id)!.tasks!.find(task => task.id === bank.id)).toEqual(bank)
   expect(values.get('example-2')).toBe(JSON.stringify(old))
 })

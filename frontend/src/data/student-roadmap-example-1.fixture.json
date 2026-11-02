@@ -1111,9 +1111,9 @@
           "tasks": [
             {
               "id": "b03-a03-t01",
-              "title": "Contratar fornecedores",
+              "title": "Arrendar espaço de trabalho",
               "kind": "operation",
-              "description": "Seleccione os fornecedores e celebre os contratos de arrendamento, energia eléctrica, água e Internet e correio electrónico. Use os botões abaixo para consultar cada serviço.",
+              "description": "Arrendar espaço de trabalho. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
               "required": true,
               "status": "not-started",
               "simulatedParticipants": [
@@ -1135,42 +1135,94 @@
                 {
                   "label": "Arrendar espaço de trabalho",
                   "url": "https://speedev.simulacao.co.mz/servicos/1/Imobiliaria41/fortyone/html/menu.html?hasEmpresa=1&email=caifazshirhass@gmail.com"
-                },
-                {
-                  "label": "Contrato de energia eléctrica",
-                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
-                },
-                {
-                  "label": "Contrato de fornecimento de água",
-                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
-                },
-                {
-                  "label": "Contrato de Internet e correio electrónico",
-                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
                 }
               ]
             },
             {
-              "id": "b03-a03-t02",
-              "title": "Abrir a conta bancária",
+              "id": "b03-a03-t03",
+              "title": "Contratar energia eléctrica",
               "kind": "operation",
-              "description": "Confirme os dados da empresa, simule a abertura de conta e arquive a documentação.",
+              "description": "Contratar energia eléctrica. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
               "required": true,
               "status": "not-started",
               "simulatedParticipants": [
                 {
-                  "name": "Ana Machava",
-                  "contribution": "Participação em «Abrir a conta bancária»; preparação e partilha das notas com a equipa."
+                  "name": "João Tembe",
+                  "contribution": "Participação em «Celebrar contratos de custos fixos»; preparação e partilha das notas com a equipa."
                 },
                 {
-                  "name": "João Tembe",
-                  "contribution": "Conferência dos elementos da tarefa «Abrir a conta bancária» com a equipa."
+                  "name": "Ana Machava",
+                  "contribution": "Conferência dos elementos da tarefa «Celebrar contratos de custos fixos» com a equipa."
                 }
               ],
               "dependsOn": [
                 "b01-a03-t02",
                 "b01-a03-t03",
                 "b03-a02-t01"
+              ],
+              "links": [
+                {
+                  "label": "Contrato de energia eléctrica",
+                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
+                }
+              ]
+            },
+            {
+              "id": "b03-a03-t04",
+              "title": "Contratar fornecimento de água",
+              "kind": "operation",
+              "description": "Contratar fornecimento de água. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
+              "required": true,
+              "status": "not-started",
+              "simulatedParticipants": [
+                {
+                  "name": "João Tembe",
+                  "contribution": "Participação em «Celebrar contratos de custos fixos»; preparação e partilha das notas com a equipa."
+                },
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Conferência dos elementos da tarefa «Celebrar contratos de custos fixos» com a equipa."
+                }
+              ],
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03",
+                "b03-a02-t01"
+              ],
+              "links": [
+                {
+                  "label": "Contrato de fornecimento de água",
+                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
+                }
+              ]
+            },
+            {
+              "id": "b03-a03-t05",
+              "title": "Contratar Internet e correio electrónico",
+              "kind": "operation",
+              "description": "Contratar Internet e correio electrónico. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
+              "required": true,
+              "status": "not-started",
+              "simulatedParticipants": [
+                {
+                  "name": "João Tembe",
+                  "contribution": "Participação em «Celebrar contratos de custos fixos»; preparação e partilha das notas com a equipa."
+                },
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Conferência dos elementos da tarefa «Celebrar contratos de custos fixos» com a equipa."
+                }
+              ],
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03",
+                "b03-a02-t01"
+              ],
+              "links": [
+                {
+                  "label": "Contrato de Internet e correio electrónico",
+                  "url": "https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com"
+                }
               ]
             }
           ],
@@ -1600,6 +1652,29 @@
                 }
               ],
               "resource": "https://www.bci.co.mz/bci-universal/abrir-uma-conta/"
+            },
+            {
+              "id": "b03-a03-t02",
+              "title": "Abrir a conta bancária",
+              "kind": "operation",
+              "description": "Confirme os dados da empresa, simule a abertura de conta e arquive a documentação.",
+              "required": true,
+              "status": "not-started",
+              "simulatedParticipants": [
+                {
+                  "name": "Ana Machava",
+                  "contribution": "Participação em «Abrir a conta bancária»; preparação e partilha das notas com a equipa."
+                },
+                {
+                  "name": "João Tembe",
+                  "contribution": "Conferência dos elementos da tarefa «Abrir a conta bancária» com a equipa."
+                }
+              ],
+              "dependsOn": [
+                "b01-a03-t02",
+                "b01-a03-t03",
+                "b03-a02-t01"
+              ]
             },
             {
               "id": "b04-a04-t04",

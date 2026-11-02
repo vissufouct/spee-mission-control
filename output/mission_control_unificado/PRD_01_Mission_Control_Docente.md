@@ -301,3 +301,12 @@ O catálogo editável é [Links_Provisorios_Tarefas.md](Links_Provisorios_Tarefa
 Por pedido do utilizador, a composição do protótipo activa `demoPrerequisites` nos dois exemplos. As 18 tarefas referenciadas por `dependsOn` são apresentadas como concluídas, com respostas e evidências de exemplo quando necessárias. As restantes tarefas conservam os seus estados, permitindo demonstrar a sua execução sem realizar primeiro os pré-requisitos. Não são criados eventos de realização real. Conclusões e submissões já existentes são preservadas.
 
 A preparação é aplicada no repository antes de calcular os estados agregados, pelo que o docente e o estudante apresentam os mesmos resultados. As regras de dependência permanecem intactas. A leitura não escreve no armazenamento; uma mutação posterior guarda o cenário preparado. Os fixtures de partida permanecem preservados. Para regressar à experiência com bloqueios, desactivar o terceiro argumento de `createPanelRepositories` em AppProviders e usar um cenário inicial sem alterações guardadas. O exemplo 2 deixa, durante esta preparação de demo, de representar zero tarefas realizadas.
+
+
+## Contratos por fornecedor e abertura de conta — revisão de demonstração
+
+«Contratar fornecedores» passa a quatro tarefas independentes na actividade Celebrar contratos de serviços: Arrendar espaço de trabalho (`b03-a03-t01`), Contratar energia eléctrica (`b03-a03-t03`), Contratar fornecimento de água (`b03-a03-t04`) e Contratar Internet e correio electrónico (`b03-a03-t05`). Cada tarefa tem estado, acção e uma ligação própria. Os endereços existentes são preservados no catálogo editável.
+
+«Abrir a conta bancária» mantém o ID `b03-a03-t02` por compatibilidade com registos anteriores, mas pertence agora a Preparar as operações bancárias (`preparar-banca`), depois de Consultar documentos e regras bancárias e antes de Aceder à banca electrónica. O roteiro passa a 55 tarefas em 15 actividades.
+
+Migração: o estado da conta acompanha a tarefa para a nova actividade; uma conclusão anterior do contrato agregado é preservada nas quatro tarefas que o desdobram. Registos individuais já existentes têm precedência. Não se duplicam tarefas. O modo de demonstração continua a pré-concluir os pré-requisitos.

@@ -56,10 +56,10 @@ describe('roteiro aplicado à empresa ligada', () => {
     const teacher = new JsonTeacherRepository(seed, storage, async () => mapStudentJourney(await student.getSnapshot(), seed.companies[0]))
     return { student, teacher, conversations: createStudentConversations(student, teacher) }
   }
-  it('mostra as 52 tarefas e permite orientação numa actividade nova sem expor conversas do grupo', async () => {
+  it('mostra as 55 tarefas e permite orientação numa actividade nova sem expor conversas do grupo', async () => {
     const { student, teacher, conversations } = setupRoadmap()
     const linked = (await teacher.getSnapshot()).companies.find(company => company.linkedToStudent)!
-    expect(linked.activities.flatMap(activity => activity.tasks ?? [])).toHaveLength(52)
+    expect(linked.activities.flatMap(activity => activity.tasks ?? [])).toHaveLength(55)
     expect(linked.activities.flatMap(activity => activity.tasks ?? []).filter(task => task.status === 'completed')).toHaveLength(24)
     expect(linked.blocks.find(block => block.id === 'inicio-actividades')?.state).toBe('not-started')
     expect(linked.blocks.find(block => block.id === 'primeiro-ano')?.state).toBe('unavailable')

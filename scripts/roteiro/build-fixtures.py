@@ -290,6 +290,23 @@ for block in blocks:
         for task in activity['tasks']:
             task.update(TASK_METADATA.get(task['id'], {}))
 
+# Supplier contracts are independent tasks; the banking task keeps its stable ID.
+activities_by_id = {a['id']: a for b in blocks for a in b['activities']}
+contracts = activities_by_id['contratos-servicos']
+banking = activities_by_id['preparar-banca']
+supplier = next(t for t in contracts['tasks'] if t['id'] == 'b03-a03-t01')
+bank_account = next(t for t in contracts['tasks'] if t['id'] == 'b03-a03-t02')
+contracts['tasks'] = []
+for task_id, title, link in zip(
+    ['b03-a03-t01', 'b03-a03-t03', 'b03-a03-t04', 'b03-a03-t05'],
+    ['Arrendar espaço de trabalho', 'Contratar energia eléctrica', 'Contratar fornecimento de água', 'Contratar Internet e correio electrónico'],
+    supplier['links'],
+):
+    item = copy.deepcopy(supplier)
+    item.update(id=task_id, title=title, description=f'{title}. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.', links=[link])
+    contracts['tasks'].append(item)
+banking['tasks'].insert(next(i for i, t in enumerate(banking['tasks']) if t['id'] == 'b04-a04-t04'), bank_account)
+
 base = {'schemaVersion': 1, 'revision': 0, 'context': {'studentName': 'Ana Machava', 'studentEmail': 'ana.machava@example.test', 'className': 'Turma A', 'routeName': 'Roteiro SPEE', 'currentBlockId': 'acolhimento', 'roadmapVersion': 'spee-2026-10-25'}, 'members': ['Ana Machava', 'João Tembe', 'António Sitoe'], 'blocks': blocks, 'registration': None, 'events': [], 'groupMessages': [], 'resolvedNotifications': []}
 
 for example, company in [('1', 'Horizonte Verde, Lda.'), ('2', 'Nascente Criativa, Lda.')]:

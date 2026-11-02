@@ -351,20 +351,33 @@ As tarefas têm finalidade pedagógica. Este roteiro não estabelece requisitos 
 
 ### B03.A03 — Celebrar contratos de serviços
 
-#### B03.A03.T01 — Contratar fornecedores
+#### B03.A03.T01 — Arrendar espaço de trabalho
 
-- **Tipo proposto:** operação no simulador.
-- **Instrução:** analise e registe os serviços de instalação ou arrendamento, água, Internet e electricidade previstos para a empresa. Identifique os custos fixos e arquive os contratos ou comprovativos correspondentes.
-- **Resultado esperado:** serviços necessários formalizados no cenário e encargos identificados.
-- **Conclusão proposta:** confirmação das operações exigidas pelo exercício.
-- **Orientação:** uma única tarefa com quatro botões: arrendamento, energia eléctrica, água e Internet/correio electrónico. Links provisórios no catálogo editável.
+- **Tipo:** operação no simulador.
+- **Instrução:** consulte o fornecedor, confirme condições e arquive o contrato ou comprovativo.
+- **Conclusão:** confirmação independente desta tarefa.
+- **Ligação:** botão próprio no popup; endereço provisório no catálogo editável.
 
-#### B03.A03.T02 — Abrir a conta bancária da empresa
+#### B03.A03.T03 — Contratar energia eléctrica
 
-- **Tipo proposto:** operação no módulo bancário.
-- **Instrução:** preencha os dados solicitados para a abertura da conta da empresa simulada e conserve o comprovativo ou os dados de identificação disponibilizados.
-- **Resultado esperado:** conta associada à empresa e disponível para as operações do cenário.
-- **Conclusão proposta:** abertura confirmada pelo módulo bancário.
+- **Tipo:** operação no simulador.
+- **Instrução:** consulte o fornecedor, confirme condições e arquive o contrato ou comprovativo.
+- **Conclusão:** confirmação independente desta tarefa.
+- **Ligação:** botão próprio no popup; endereço provisório no catálogo editável.
+
+#### B03.A03.T04 — Contratar fornecimento de água
+
+- **Tipo:** operação no simulador.
+- **Instrução:** consulte o fornecedor, confirme condições e arquive o contrato ou comprovativo.
+- **Conclusão:** confirmação independente desta tarefa.
+- **Ligação:** botão próprio no popup; endereço provisório no catálogo editável.
+
+#### B03.A03.T05 — Contratar Internet e correio electrónico
+
+- **Tipo:** operação no simulador.
+- **Instrução:** consulte o fornecedor, confirme condições e arquive o contrato ou comprovativo.
+- **Conclusão:** confirmação independente desta tarefa.
+- **Ligação:** botão próprio no popup; endereço provisório no catálogo editável.
 
 ### Materiais de apoio do B03
 
@@ -487,6 +500,13 @@ Não foram indicados materiais complementares autónomos para este bloco. O port
 - **Conclusão:** confirmação explícita; abrir a ligação não conclui a tarefa.
 - **Ligação:** consultar o ID `b04-a04-t03` em [Links provisórios das tarefas](Links_Provisorios_Tarefas.md).
 
+#### B03.A03.T02 — Abrir a conta bancária
+
+- **Actividade:** Preparar as operações bancárias. ID histórico preservado.
+- **Tipo:** operação no simulador.
+- **Instrução:** confirme os dados da empresa, abra a conta e arquive a documentação.
+- **Conclusão:** confirmação explícita da abertura na demonstração.
+
 #### B04.A04.T04 — Aceder à banca electrónica
 
 - **Instrução:** Aceda aos serviços de banca electrónica do simulador.
@@ -595,3 +615,12 @@ Esta revisão não altera os PRDs existentes, os fixtures, a aplicação ou a ve
 ## Ligações de demonstração — revisão de 02/11/2026
 
 52 tarefas em 15 actividades. Os 12 botões das oito tarefas abrangidas por esta revisão são mantidos em [Links_Provisorios_Tarefas.md](Links_Provisorios_Tarefas.md). Este catálogo prevalece sobre endereços antigos nas notas do roteiro. Os links são provisórios; todos abrem novo separador. A preparação INSS tem dois recursos oficiais e a inscrição é uma tarefa separada. O perfil comercial abre a autenticação do ERP.
+
+
+## Contratos por fornecedor e abertura de conta — revisão de demonstração
+
+«Contratar fornecedores» passa a quatro tarefas independentes na actividade Celebrar contratos de serviços: Arrendar espaço de trabalho (`b03-a03-t01`), Contratar energia eléctrica (`b03-a03-t03`), Contratar fornecimento de água (`b03-a03-t04`) e Contratar Internet e correio electrónico (`b03-a03-t05`). Cada tarefa tem estado, acção e uma ligação própria. Os endereços existentes são preservados no catálogo editável.
+
+«Abrir a conta bancária» mantém o ID `b03-a03-t02` por compatibilidade com registos anteriores, mas pertence agora a Preparar as operações bancárias (`preparar-banca`), depois de Consultar documentos e regras bancárias e antes de Aceder à banca electrónica. O roteiro passa a 55 tarefas em 15 actividades.
+
+Migração: o estado da conta acompanha a tarefa para a nova actividade; uma conclusão anterior do contrato agregado é preservada nas quatro tarefas que o desdobram. Registos individuais já existentes têm precedência. Não se duplicam tarefas. O modo de demonstração continua a pré-concluir os pré-requisitos.

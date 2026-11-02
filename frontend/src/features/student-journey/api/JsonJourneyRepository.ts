@@ -26,6 +26,10 @@ export class JsonJourneyRepository implements JourneyRepository {
     try {
       const stored = this.storage.getItem(this.storageKey)
       const snapshot = stored === null ? structuredClone(this.seed) : journeySnapshotSchema.parse(JSON.parse(stored))
+      const savedTasks = new Map(snapshot.blocks.flatMap(block => block.activities.flatMap(activity => activity.tasks ?? [])).map(task => [task.id, task]))
+      const definedIds = new Set(this.seed.blocks.flatMap(block => block.activities.flatMap(activity => activity.tasks ?? [])).map(task => task.id))
+      const supplier = savedTasks.get('b03-a03-t01')
+      const aggregateSupplier = supplier && (supplier.links?.length === 4 || supplier.title === 'Contratar fornecedores') ? supplier : undefined
       // Backfill metadata; refresh only the exact old participation fixture, never custom data.
       for (const block of snapshot.blocks) for (const activity of block.activities) {
         const initial = this.seed.blocks.flatMap(b => b.activities).find(a => a.id === activity.id)
@@ -39,13 +43,13 @@ export class JsonJourneyRepository implements JourneyRepository {
           }
           // Merge approved roadmap definitions by stable ID, preserving learner records.
           if (snapshot.context.roadmapVersion && initial.tasks && activity.tasks) {
-            const saved = new Map(activity.tasks.map(task => [task.id, task]))
+            const saved = savedTasks
             activity.tasks = initial.tasks.map<LearningTask>(definition => {
-              const existing = saved.get(definition.id)
+              const existing = saved.get(definition.id) ?? (['b03-a03-t03', 'b03-a03-t04', 'b03-a03-t05'].includes(definition.id) ? aggregateSupplier : undefined)
               if (!existing) return { ...structuredClone(definition), status: 'not-started' as const, completedAt: undefined, answers: undefined, submission: undefined }
-              return definition.links ? { ...existing, title: definition.title, description: definition.description,
+              return definition.links ? { ...existing, id: definition.id, title: definition.title, description: definition.description,
                 links: structuredClone(definition.links), ...(definition.resource ? { resource: definition.resource } : {}) } : existing
-            }).concat(activity.tasks.filter(task => !initial.tasks!.some(definition => definition.id === task.id)))
+            }).concat(activity.tasks.filter(task => !definedIds.has(task.id)))
           }
           // Add the two approved Ideation examples without replacing existing answers or submissions.
           if (['definir-ideia', 'registar-empresa'].includes(activity.id) && activity.tasks) {

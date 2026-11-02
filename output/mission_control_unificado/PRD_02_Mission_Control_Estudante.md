@@ -343,3 +343,12 @@ A preparação é aplicada no repository antes de calcular os estados agregados,
 ### Ordem das tarefas de Ideação — revisão de demonstração
 
 Na actividade Encontrar uma ideia de negócio, «Conhecer as empresas do mercado» (`b02-a01-t05`) é a última tarefa, depois de «Publicar a ideia e convidar colegas». Mantêm-se os IDs, estados, links e dependências. A mesma ordem é apresentada na consulta do docente.
+
+
+## Contratos por fornecedor e abertura de conta — revisão de demonstração
+
+«Contratar fornecedores» passa a quatro tarefas independentes na actividade Celebrar contratos de serviços: Arrendar espaço de trabalho (`b03-a03-t01`), Contratar energia eléctrica (`b03-a03-t03`), Contratar fornecimento de água (`b03-a03-t04`) e Contratar Internet e correio electrónico (`b03-a03-t05`). Cada tarefa tem estado, acção e uma ligação própria. Os endereços existentes são preservados no catálogo editável.
+
+«Abrir a conta bancária» mantém o ID `b03-a03-t02` por compatibilidade com registos anteriores, mas pertence agora a Preparar as operações bancárias (`preparar-banca`), depois de Consultar documentos e regras bancárias e antes de Aceder à banca electrónica. O roteiro passa a 55 tarefas em 15 actividades.
+
+Migração: o estado da conta acompanha a tarefa para a nova actividade; uma conclusão anterior do contrato agregado é preservada nas quatro tarefas que o desdobram. Registos individuais já existentes têm precedência. Não se duplicam tarefas. O modo de demonstração continua a pré-concluir os pré-requisitos.

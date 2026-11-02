@@ -17,19 +17,29 @@ export class RoadmapTeacherStorage {
       snapshot.companies.push(...structuredClone(this.seed.companies.filter(item => !snapshot.companies.some(existing => existing.id === item.id))))
       for (const company of snapshot.companies.filter(item => !item.linkedToStudent)) {
         const source = this.seed.companies.find(item => item.id === company.id)
+        const savedTasks = new Map(company.activities.flatMap(activity => activity.tasks ?? []).map(task => [task.id, task]))
+        const supplier = savedTasks.get('b03-a03-t01')
+        const aggregateSupplier = supplier && (supplier.links?.length === 4 || supplier.title === 'Contratar fornecedores') ? supplier : undefined
         for (const activity of company.activities) {
           const definitions = source?.activities.find(item => item.id === activity.id)?.tasks
           if (!definitions) continue
-          const existing = new Map(activity.tasks?.map(task => [task.id, task]))
+          const existing = savedTasks
           activity.tasks = definitions.map(definition => {
-            const saved = existing.get(definition.id)
+            const saved = existing.get(definition.id) ?? (['b03-a03-t03', 'b03-a03-t04', 'b03-a03-t05'].includes(definition.id) ? aggregateSupplier : undefined)
             if (!saved) return structuredClone(definition)
-            return definition.links ? { ...saved, title: definition.title, description: definition.description, links: definition.links, ...(definition.resource ? { resource: definition.resource } : {}) } : saved
+            return definition.links ? { ...saved, id: definition.id, title: definition.title, description: definition.description, links: definition.links, ...(definition.resource ? { resource: definition.resource } : {}) } : saved
           })
+          if (['contratos-servicos', 'preparar-banca'].includes(activity.id)) {
+            const states = activity.tasks.filter(task => task.required).map(task => task.status)
+            activity.status = states.every(state => state === 'completed') ? 'completed'
+              : states.some(state => state === 'completed' || state === 'in-progress') ? 'in-progress'
+                : states.every(state => state === 'blocked') ? 'blocked' : 'not-started'
+          }
           if (activity.status === 'completed' && activity.tasks.some(task => task.required && task.status !== 'completed')) activity.status = 'in-progress'
         }
         for (const block of company.blocks) {
           const activities = company.activities.filter(activity => activity.blockId === block.id)
+          if (activities.length && activities.every(activity => activity.status === 'completed')) block.state = 'completed'
           if (block.state === 'completed' && activities.some(activity => activity.status !== 'completed')) block.state = 'in-progress'
         }
       }
