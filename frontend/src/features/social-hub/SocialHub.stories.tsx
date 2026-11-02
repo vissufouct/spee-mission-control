@@ -13,7 +13,7 @@ function IsolatedHub({ withGifs = false, manyParticipants = false }: { withGifs?
     if (manyParticipants) {
       const givenNames = ['Celina', 'Marta', 'Rui', 'Fátima', 'Hélder', 'Dina', 'Luís', 'Sílvia', 'Nelson', 'Adélia']
       const surnames = ['Bila', 'Mabunda', 'Chissano', 'Mucavele', 'Nhantumbo', 'Chongo', 'Macamo', 'Matusse']
-      seed.members.push(...givenNames.flatMap((name, i) => surnames.map((surname, j) => ({ id: `participant-${i}-${j}`, name: `${name} ${surname}`, className: `Turma ${['A', 'B', 'C'][(i + j) % 3]}` }))))
+      seed.members.push(...givenNames.flatMap((name, i) => surnames.map((surname, j) => ({ company: { id: 'maputo-solucoes', name: 'Maputo Soluções, Lda.' }, id: `participant-${i}-${j}`, name: `${name} ${surname}`, className: `Turma ${['A', 'B', 'C'][(i + j) % 3]}` }))))
     }
     return new JsonSocialRepository(seed, { getItem: key => data.get(key) ?? null, setItem: (key, value) => { data.set(key, value) } })
   })

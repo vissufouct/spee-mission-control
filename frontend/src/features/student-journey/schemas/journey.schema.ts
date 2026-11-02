@@ -29,6 +29,7 @@ export const learningTaskSchema = z.object({
   kind: z.enum(['operation', 'quiz', 'video', 'pdf', 'url', 'evidence']),
   status: z.enum(['completed', 'in-progress', 'not-started', 'blocked']),
   description: z.string(), required: z.boolean().default(true),
+  links: z.array(z.object({ label: z.string().min(1), url: z.string().regex(/^https:\/\/[^\s]+$/) })).optional(),
   resource: resourceSchema.optional(),
   cover: z.string().regex(/^apoio\/[a-z0-9-]+\.(png|jpg|webp)$/).optional(),
   preview: z.string().regex(/^apoio\/[a-z0-9-]+\.(png|jpg|webp)$/).optional(),

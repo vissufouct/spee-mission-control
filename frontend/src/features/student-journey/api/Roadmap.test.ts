@@ -16,16 +16,16 @@ function setup(seed: unknown = exampleTwo) {
   return { storage, values, repository: new JsonJourneyRepository(seed, storage, 'example-2') }
 }
 describe('roteiro SPEE completo', () => {
-  it('mantém 48 tarefas e dois pontos de partida isolados, sem contar o bloco futuro', async () => {
+  it('mantém 52 tarefas e dois pontos de partida isolados, sem contar o bloco futuro', async () => {
     const { repository, storage } = setup()
     const fresh = await repository.getSnapshot()
     const underway = await new JsonJourneyRepository(exampleOne, storage, 'example-1').getSnapshot()
-    expect(tasks(fresh)).toHaveLength(48)
+    expect(tasks(fresh)).toHaveLength(52)
     expect(tasks(fresh).filter(task => task.status === 'completed')).toHaveLength(0)
     expect(tasks(underway).filter(task => task.status === 'completed')).toHaveLength(24)
     expect(getProgress(fresh)).toEqual({ completed: 0, total: 15, percent: 0 })
-    expect(getProgress(underway)).toEqual({ completed: 7, total: 15, percent: 47 })
-    expect(underway.context.currentBlockId).toBe('constituicao')
+    expect(getProgress(underway)).toEqual({ completed: 6, total: 15, percent: 40 })
+    expect(underway.context.currentBlockId).toBe('ideacao')
     await repository.completeLearningTask('boas-vindas', 'b01-a01-t01', undefined, 0)
     expect((await new JsonJourneyRepository(exampleOne, storage, 'example-1').getSnapshot()).revision).toBe(0)
     expect((await new JsonJourneyRepository(exampleTwo, storage, 'example-2').getSnapshot()).revision).toBe(1)
@@ -68,7 +68,7 @@ describe('roteiro SPEE completo', () => {
     await expect(repository.completeLearningTask('confirmar-preparacao', quiz.id, answers, 6)).rejects.toThrow('70%')
     expect(values.get('example-2')).toBe(before)
   })
-  it('permite realizar as 48 tarefas, persistir evidência e avançar apenas após confirmação', async () => {
+  it('permite realizar as 52 tarefas, persistir evidência e avançar apenas após confirmação', async () => {
     const { repository, storage } = setup()
     let snapshot = await repository.getSnapshot()
     for (const block of snapshot.blocks) for (const activity of block.activities) for (const task of activity.tasks!) {
@@ -104,4 +104,22 @@ describe('roteiro SPEE completo', () => {
     all[0].dependsOn = [all[1].id]; all[1].dependsOn = [all[0].id]
     expect(journeySnapshotSchema.safeParse(snapshot).success).toBe(false)
   })
+})
+
+it('actualiza links e acrescenta tarefas sem perder respostas ou concluir novas tarefas', async () => {
+  const { repository, values } = setup(exampleOne)
+  const old = journeySnapshotSchema.parse(exampleOne)
+  for (const block of old.blocks) for (const activity of block.activities) {
+    activity.tasks = activity.tasks?.filter(task => !['b02-a01-t05', 'b04-a03-t05', 'b04-a04-t03', 'b04-a04-t04'].includes(task.id))
+    for (const task of activity.tasks ?? []) delete task.links
+  }
+  const bau = tasks(old).find(task => task.id === 'b03-a01-t01')!
+  bau.resource = 'https://www.bau.gov.mz/'
+  values.set('example-2', JSON.stringify(old))
+  const updated = await repository.getSnapshot()
+  expect(tasks(updated)).toHaveLength(52)
+  expect(tasks(updated).find(task => task.id === bau.id)).toMatchObject({ status: 'completed', links: [{ label: 'Consultar licenciamento e registo', url: 'https://www.bau.gov.mz/licenciamento-eregisto-de-actividades-economicas-2/' }] })
+  expect(tasks(updated).find(task => task.id === 'b02-a01-t05')?.status).toBe('not-started')
+  expect(tasks(updated).find(task => task.id === 'b02-a01-t01')?.answers).toEqual(tasks(old).find(task => task.id === 'b02-a01-t01')?.answers)
+  expect(values.get('example-2')).toBe(JSON.stringify(old))
 })

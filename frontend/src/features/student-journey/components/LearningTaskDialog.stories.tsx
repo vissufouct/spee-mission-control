@@ -23,3 +23,6 @@ const roadmapTasks = journeySnapshotSchema.parse(roadmapFixture).blocks.flatMap(
 export const VideoCover: Story = { args: { task: roadmapTasks.find(task => task.cover)! } }
 export const SpreadsheetEvidence: Story = { args: { task: roadmapTasks.find(task => task.accepts?.includes('xlsx'))! } }
 export const OnboardingQuiz: Story = { args: { task: roadmapTasks.find(task => task.passPercent === 70)! } }
+
+export const SupplierLinks: Story = { args: { task: roadmapTasks.find(task => task.id === 'b03-a03-t01')! } }
+export const InssResources: Story = { args: { task: roadmapTasks.find(task => task.id === 'b04-a03-t03')! } }

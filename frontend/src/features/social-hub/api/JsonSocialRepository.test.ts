@@ -62,3 +62,17 @@ it('persiste um GIF sem texto, mantém compatibilidade e recusa URLs não autori
   await expect(ana.execute({ type: 'post', channelId: 'community', text: '', gif: { ...gif, url: 'https://untrusted.example/image.gif' }, replyTo: null }, 1)).rejects.toThrow()
   expect((await ana.getSnapshot()).revision).toBe(1)
 })
+
+it('enriquece conversas antigas com a empresa do cenário sem perder mensagens', async () => {
+  const { ana, storage } = setup()
+  await ana.execute({ type: 'post', channelId: 'community', text: 'Mensagem preservada', replyTo: null }, 0)
+  const old = JSON.parse(storage.getItem('spee.social-hub.v1')!)
+  old.members.forEach((member: { company?: unknown }) => { delete member.company })
+  storage.setItem('spee.social-hub.v1', JSON.stringify(old))
+  const seed = structuredClone(fixture)
+  seed.members[0].company = { id: 'nascente-criativa', name: 'Nascente Criativa, Lda.' }
+  const snapshot = await new JsonSocialRepository(seed, storage).getSnapshot()
+  expect(snapshot.members[0].company?.name).toBe('Nascente Criativa, Lda.')
+  expect(snapshot.messages.at(-1)?.text).toBe('Mensagem preservada')
+  expect(snapshot.revision).toBe(1)
+})

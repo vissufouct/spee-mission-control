@@ -1,6 +1,7 @@
+import { prepareDemoPrerequisites } from '../services/prepare-demo-prerequisites'
 import { draftSchema, evidenceFileSchema, journeySnapshotSchema, registrationSchema } from '../schemas/journey.schema'
 import type { EvidenceFile, JourneyRepository } from '../services/JourneyRepository'
-import type { JourneySnapshot, RegistrationValues } from '../types'
+import type { JourneySnapshot, LearningTask, RegistrationValues } from '../types'
 import { getLearningTasks, quizPassed } from '../services/learning-tasks'
 import { getActivityStatus } from '../services/journey.selectors'
 
@@ -18,7 +19,7 @@ const legacyParticipation = [
 /** Only this adapter knows the storage format and storage key. */
 export class JsonJourneyRepository implements JourneyRepository {
   private readonly seed: JourneySnapshot
-  constructor(seed: unknown, private readonly storage: JsonStorage, private readonly storageKey = STORAGE_KEY) {
+  constructor(seed: unknown, private readonly storage: JsonStorage, private readonly storageKey = STORAGE_KEY, private readonly demoPrerequisites = false) {
     this.seed = journeySnapshotSchema.parse(seed)
   }
   private read() {
@@ -36,6 +37,16 @@ export class JsonJourneyRepository implements JourneyRepository {
             if (original?.resource === task.resource) task.preview ??= original?.preview
             task.simulatedParticipants ??= structuredClone(original?.simulatedParticipants)
           }
+          // Merge approved roadmap definitions by stable ID, preserving learner records.
+          if (snapshot.context.roadmapVersion && initial.tasks && activity.tasks) {
+            const saved = new Map(activity.tasks.map(task => [task.id, task]))
+            activity.tasks = initial.tasks.map<LearningTask>(definition => {
+              const existing = saved.get(definition.id)
+              if (!existing) return { ...structuredClone(definition), status: 'not-started' as const, completedAt: undefined, answers: undefined, submission: undefined }
+              return definition.links ? { ...existing, title: definition.title, description: definition.description,
+                links: structuredClone(definition.links), ...(definition.resource ? { resource: definition.resource } : {}) } : existing
+            }).concat(activity.tasks.filter(task => !initial.tasks!.some(definition => definition.id === task.id)))
+          }
           // Add the two approved Ideation examples without replacing existing answers or submissions.
           if (['definir-ideia', 'registar-empresa'].includes(activity.id) && activity.tasks) {
             for (const task of initial.tasks ?? []) if (['entrepreneur-diagnostic', 'audit-report-1', 'registration-declaration'].includes(task.id) && !activity.tasks.some(existing => existing.id === task.id)) activity.tasks.push(structuredClone(task))
@@ -51,6 +62,7 @@ export class JsonJourneyRepository implements JourneyRepository {
           activity.nextIds ??= structuredClone(initial.nextIds)
         }
       }
+      if (this.demoPrerequisites) prepareDemoPrerequisites(snapshot)
       return this.refreshRoadmap(snapshot)
     } catch {
       throw new Error('Não foi possível ler os dados locais. Os dados actuais não foram alterados. Verifique o armazenamento do browser antes de tentar novamente.')

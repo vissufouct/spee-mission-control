@@ -182,6 +182,13 @@ Os códigos servem para referência neste documento e não impõem alterações 
 - **Conclusão proposta:** «Marcar como feita», após a publicação. A fonte indica «marcar como lida», mas trata-se de uma acção de produção; esta correcção requer validação.
 - **Nota:** o convite à colaboração nesta tarefa não substitui a formalização dos sócios no bloco de criação da empresa.
 
+#### B02.A01.T05 — Conhecer as empresas do mercado
+
+- **Instrução:** Consulte o catálogo do simulador para identificar clientes, concorrentes e parceiros.
+- **Estado inicial:** por iniciar; tarefa obrigatória, sem nova dependência bloqueante.
+- **Conclusão:** confirmação explícita; abrir a ligação não conclui a tarefa.
+- **Ligação:** consultar o ID `b02-a01-t05` em [Links provisórios das tarefas](Links_Provisorios_Tarefas.md).
+
 ### B02.A02 — Construir o modelo de negócio
 
 #### B02.A02.T01 — Conhecer o Business Model Canvas
@@ -344,13 +351,13 @@ As tarefas têm finalidade pedagógica. Este roteiro não estabelece requisitos 
 
 ### B03.A03 — Celebrar contratos de serviços
 
-#### B03.A03.T01 — Contratar os serviços associados aos custos fixos
+#### B03.A03.T01 — Contratar fornecedores
 
 - **Tipo proposto:** operação no simulador.
 - **Instrução:** analise e registe os serviços de instalação ou arrendamento, água, Internet e electricidade previstos para a empresa. Identifique os custos fixos e arquive os contratos ou comprovativos correspondentes.
 - **Resultado esperado:** serviços necessários formalizados no cenário e encargos identificados.
 - **Conclusão proposta:** confirmação das operações exigidas pelo exercício.
-- **Por definir:** se esta tarefa será desdobrada por serviço e que contratos são obrigatórios para cada tipo de empresa.
+- **Orientação:** uma única tarefa com quatro botões: arrendamento, energia eléctrica, água e Internet/correio electrónico. Links provisórios no catálogo editável.
 
 #### B03.A03.T02 — Abrir a conta bancária da empresa
 
@@ -450,12 +457,19 @@ Não foram indicados materiais complementares autónomos para este bloco. O port
 - **Resultado esperado:** fichas de trabalhadores disponíveis para as operações de recursos humanos.
 - **Conclusão proposta:** registos guardados; número mínimo e campos obrigatórios a definir no cenário.
 
-#### B04.A03.T03 — Efectuar a inscrição na Segurança Social — INSS
+#### B04.A03.T03 — Preparar a inscrição no INSS
 
 - **Tipo proposto:** operação simulada.
 - **Instrução:** siga o procedimento disponibilizado no cenário para registar a informação relacionada com a inscrição na Segurança Social. Conserve os comprovativos que o exercício disponibilizar.
 - **Resultado esperado:** informação de inscrição organizada no cenário.
 - **Por definir:** entidade abrangida pela tarefa — empresa, trabalhadores ou ambas —, módulo responsável e evento de conclusão. Não se descreve aqui um procedimento oficial real.
+
+#### B04.A03.T05 — Inscrever no INSS
+
+- **Instrução:** Aceda ao serviço INSS no simulador e efectue a inscrição com os dados preparados.
+- **Estado inicial:** por iniciar; tarefa obrigatória, sem nova dependência bloqueante.
+- **Conclusão:** confirmação explícita; abrir a ligação não conclui a tarefa.
+- **Ligação:** consultar o ID `b04-a03-t05` em [Links provisórios das tarefas](Links_Provisorios_Tarefas.md).
 
 #### B04.A03.T04 — Arquivar a relação nominal dos trabalhadores
 
@@ -465,6 +479,20 @@ Não foram indicados materiais complementares autónomos para este bloco. O port
 - **Conclusão:** confirmar «Marcar como feita» após o arquivo.
 
 ### B04.A04 — Utilizar os serviços bancários
+
+#### B04.A04.T03 — Consultar documentos e regras bancárias
+
+- **Instrução:** Consulte a página do BCI para preparar a documentação bancária.
+- **Estado inicial:** por iniciar; tarefa obrigatória, sem nova dependência bloqueante.
+- **Conclusão:** confirmação explícita; abrir a ligação não conclui a tarefa.
+- **Ligação:** consultar o ID `b04-a04-t03` em [Links provisórios das tarefas](Links_Provisorios_Tarefas.md).
+
+#### B04.A04.T04 — Aceder à banca electrónica
+
+- **Instrução:** Aceda aos serviços de banca electrónica do simulador.
+- **Estado inicial:** por iniciar; tarefa obrigatória, sem nova dependência bloqueante.
+- **Conclusão:** confirmação explícita; abrir a ligação não conclui a tarefa.
+- **Ligação:** consultar o ID `b04-a04-t04` em [Links provisórios das tarefas](Links_Provisorios_Tarefas.md).
 
 #### B04.A04.T01 — Extrair e arquivar os comprovativos de pagamento das taxas de constituição
 
@@ -563,3 +591,7 @@ A numeração representa organização editorial. Não estabelece, por si só, d
 Foram uniformizadas a linguagem e a hierarquia e acrescentadas descrições, resultados esperados e propostas de critérios onde faltavam. Mantêm-se identificadas as decisões pedagógicas e técnicas por tomar.
 
 Esta revisão não altera os PRDs existentes, os fixtures, a aplicação ou a versão publicada. A adopção do novo roteiro e a substituição dos exemplos actuais constituem uma etapa posterior.
+
+## Ligações de demonstração — revisão de 02/11/2026
+
+52 tarefas em 15 actividades. Os 12 botões das oito tarefas abrangidas por esta revisão são mantidos em [Links_Provisorios_Tarefas.md](Links_Provisorios_Tarefas.md). Este catálogo prevalece sobre endereços antigos nas notas do roteiro. Os links são provisórios; todos abrem novo separador. A preparação INSS tem dois recursos oficiais e a inscrição é uma tarefa separada. O perfil comercial abre a autenticação do ERP.

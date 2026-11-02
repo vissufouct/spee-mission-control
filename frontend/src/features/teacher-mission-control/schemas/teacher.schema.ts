@@ -10,6 +10,7 @@ export const participantSchema = z.object({ id: z.string().min(1), name: z.strin
 const learningTaskSchema = z.object({
   id: z.string(), title: z.string(), description: z.string(),
   kind: z.enum(['operation', 'quiz', 'video', 'pdf', 'url', 'evidence']), status: statusSchema,
+  links: z.array(z.object({ label: z.string().min(1), url: z.string().regex(/^https:\/\/[^\s]+$/) })).optional(),
   resource: z.string().regex(/^(https:\/\/[^\s]+|apoio\/[a-zA-Z0-9_-]+\.(pdf|html|mp4|png|jpg|webp|xlsx|docx))$/).optional(),
   required: z.boolean().default(true),
   completedAt: z.iso.datetime().optional(),

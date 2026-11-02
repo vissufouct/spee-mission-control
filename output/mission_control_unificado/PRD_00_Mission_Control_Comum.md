@@ -346,3 +346,19 @@ O selector de universidade surge ao lado do título «Painel do Docente», sem l
 O hub do estudante disponibiliza o separador «Coach IA», identificado como simulação local. Permite escolher uma actividade, escrever perguntas e usar sugestões sobre blocos, tarefas, materiais, próximo passo e bloqueios. As respostas determinísticas utilizam o roteiro e estados actuais do exemplo seleccionado, consultados de novo em cada pergunta. Não há serviço de IA externo, avaliação, submissão nem alteração do progresso. Perguntas não reconhecidas recebem uma explicação dos limites e encaminhamento para o docente.
 
 O contrato CoachRepository pertence ao hub; app/providers adapta a API pública do percurso para este contrato. A UI não conhece fixtures ou armazenamento. A conversa é efémera e reinicia ao sair do separador ou fechar o hub. Apresentar carregamento, indisponibilidade e falha recuperável, preservando o rascunho. O coach é separado das mensagens entre participantes e dos respectivos contadores de não lidas.
+
+
+## Actualização do roteiro e links provisórios — 02/11/2026
+
+O roteiro mantém 15 actividades e passa de 48 para 52 tarefas. Acrescentam-se Conhecer as empresas do mercado (Ideação), Inscrever no INSS, Consultar documentos e regras bancárias e Aceder à banca electrónica (Início de actividades). As tarefas novas são obrigatórias, por iniciar, sem novas dependências bloqueantes. Preservam-se as conclusões anteriores; uma actividade antes concluída pode passar a Em curso até concluir a nova tarefa.
+
+A tarefa Celebrar contratos de custos fixos passa a Contratar fornecedores, mantendo o ID e a actividade Celebrar contratos de serviços. O popup disponibiliza quatro botões: arrendamento, energia, água e Internet/correio electrónico. Preparar a inscrição no INSS apresenta dois botões de referência. Actualizam-se também as ligações ao BAU e ao ERP (página de autenticação).
+
+O catálogo editável é [Links_Provisorios_Tarefas.md](Links_Provisorios_Tarefas.md): 12 botões em oito tarefas, todos provisórios. As ligações abrem novo separador e nunca confirmam conclusão. O estado continua dependente da confirmação/evidência. A consulta do docente apresenta as mesmas ligações e preserva os registos de cada empresa. Os URLs não constituem integração automática com sistemas externos.
+
+
+## Preparação para a demonstração — pré-requisitos concluídos (02/11/2026)
+
+Por pedido do utilizador, a composição do protótipo activa `demoPrerequisites` nos dois exemplos. As 18 tarefas referenciadas por `dependsOn` são apresentadas como concluídas, com respostas e evidências de exemplo quando necessárias. As restantes tarefas conservam os seus estados, permitindo demonstrar a sua execução sem realizar primeiro os pré-requisitos. Não são criados eventos de realização real. Conclusões e submissões já existentes são preservadas.
+
+A preparação é aplicada no repository antes de calcular os estados agregados, pelo que o docente e o estudante apresentam os mesmos resultados. As regras de dependência permanecem intactas. A leitura não escreve no armazenamento; uma mutação posterior guarda o cenário preparado. Os fixtures de partida permanecem preservados. Para regressar à experiência com bloqueios, desactivar o terceiro argumento de `createPanelRepositories` em AppProviders e usar um cenário inicial sem alterações guardadas. O exemplo 2 deixa, durante esta preparação de demo, de representar zero tarefas realizadas.

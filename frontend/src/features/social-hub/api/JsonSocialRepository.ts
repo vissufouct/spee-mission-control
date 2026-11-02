@@ -5,7 +5,14 @@ const key = 'spee.social-hub.v1'
 export class JsonSocialRepository implements SocialRepository {
   constructor(private seed: unknown, private storage: Storage, private userId = 'ana') {}
   private read() {
-    try { const raw = this.storage.getItem(key); return socialSchema.parse(raw ? JSON.parse(raw) : structuredClone(this.seed)) }
+    try {
+      const raw = this.storage.getItem(key)
+      const seed = socialSchema.parse(this.seed)
+      const state = socialSchema.parse(raw ? JSON.parse(raw) : structuredClone(seed))
+      // Membership is supplied by the selected scenario, including older saved conversations.
+      state.members = state.members.map(member => ({ ...member, company: seed.members.find(item => item.id === member.id)?.company ?? member.company }))
+      return state
+    }
     catch { throw new Error('Não foi possível ler o hub social. Os dados locais foram preservados.') }
   }
   private visible(state: ReturnType<typeof socialSchema.parse>): SocialSnapshot {

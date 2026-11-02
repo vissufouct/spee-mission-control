@@ -207,6 +207,89 @@ for b in blocks:
             if a['id'] == 'orientacao-final': deps += preflight
             t['dependsOn'] = list(dict.fromkeys(deps))
 
+
+# Approved November additions. Link URLs are reapplied from the editable catalogue.
+NEW_TASKS = [('definir-ideia',
+  4,
+  {'id': 'b02-a01-t05',
+   'title': 'Conhecer as empresas do mercado',
+   'kind': 'url',
+   'description': 'Consulte o catálogo de empresas e identifique potenciais clientes, concorrentes e '
+                  'parceiros para a sua ideia.',
+   'status': 'not-started',
+   'required': True,
+   'links': [{'label': 'Consultar empresas do mercado',
+              'url': 'https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325'}],
+   'resource': 'https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325'}),
+ ('configurar-rh',
+  3,
+  {'id': 'b04-a03-t05',
+   'title': 'Inscrever no INSS',
+   'kind': 'operation',
+   'description': 'Aceda ao serviço de INSS do simulador e efectue a inscrição com os dados preparados pela '
+                  'equipa.',
+   'status': 'not-started',
+   'required': True,
+   'links': [{'label': 'Aceder ao INSS no simulador',
+              'url': 'https://speedev.simulacao.co.mz/servicos/1/INSS/inss.aspx?hasEmpresa=1'}]}),
+ ('preparar-banca',
+  0,
+  {'id': 'b04-a04-t03',
+   'title': 'Consultar documentos e regras bancárias',
+   'kind': 'url',
+   'description': 'Consulte os documentos e as regras de abertura de conta como referência para organizar o '
+                  'processo bancário da empresa.',
+   'status': 'not-started',
+   'required': True,
+   'links': [{'label': 'Consultar documentos e regras — BCI',
+              'url': 'https://www.bci.co.mz/bci-universal/abrir-uma-conta/'}],
+   'resource': 'https://www.bci.co.mz/bci-universal/abrir-uma-conta/'}),
+ ('preparar-banca',
+  1,
+  {'id': 'b04-a04-t04',
+   'title': 'Aceder à banca electrónica',
+   'kind': 'operation',
+   'description': 'Aceda à banca electrónica do simulador e explore os serviços disponíveis para a empresa.',
+   'status': 'not-started',
+   'required': True,
+   'links': [{'label': 'Aceder à banca electrónica',
+              'url': 'https://speedev.simulacao.co.mz/servicos/1/Banca/index.html?hasEmpresa=1'}]})]
+TASK_METADATA = {'b03-a01-t01': {'title': 'Consultar o portal do BAU',
+                 'description': 'Explore a informação pública do Balcão de Atendimento Único e identifique '
+                                'onde confirmar os requisitos. Não submeta pedidos reais.',
+                 'links': [{'label': 'Consultar licenciamento e registo',
+                            'url': 'https://www.bau.gov.mz/licenciamento-eregisto-de-actividades-economicas-2/'}]},
+ 'b03-a03-t01': {'title': 'Contratar fornecedores',
+                 'description': 'Seleccione os fornecedores e celebre os contratos de arrendamento, energia '
+                                'eléctrica, água e Internet e correio electrónico. Use os botões abaixo para '
+                                'consultar cada serviço.',
+                 'links': [{'label': 'Arrendar espaço de trabalho',
+                            'url': 'https://speedev.simulacao.co.mz/servicos/1/Imobiliaria41/fortyone/html/menu.html?hasEmpresa=1'},
+                           {'label': 'Contrato de energia eléctrica',
+                            'url': 'https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325'},
+                           {'label': 'Contrato de fornecimento de água',
+                            'url': 'https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325'},
+                           {'label': 'Contrato de Internet e correio electrónico',
+                            'url': 'https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325'}]},
+ 'b04-a02-t01': {'title': 'Actualizar o perfil comercial',
+                 'description': 'Aceda ao ERP, autentique-se e actualize o perfil comercial da empresa. A '
+                                'ligação abre a página de entrada, não directamente o formulário de edição.',
+                 'links': [{'label': 'Aceder ao ERP', 'url': 'https://erp.ncsoftware.co.mz/login'}]},
+ 'b04-a03-t03': {'title': 'Preparar a inscrição no INSS',
+                 'description': 'Confirme a preparação da inscrição simulada da empresa e dos trabalhadores. '
+                                'Os campos reais serão definidos na integração.',
+                 'links': [{'label': 'Direitos e obrigações do contribuinte',
+                            'url': 'https://www.inss.gov.mz/direitos-e-obrigacoes-do-contribuinte/'},
+                           {'label': 'Documentos e modelos',
+                            'url': 'https://www.inss.gov.mz/documentos-modelo/'}]}}
+for block in blocks:
+    for activity in block['activities']:
+        for activity_id, position, task in NEW_TASKS:
+            if activity['id'] == activity_id:
+                activity['tasks'].insert(position, copy.deepcopy(task))
+        for task in activity['tasks']:
+            task.update(TASK_METADATA.get(task['id'], {}))
+
 base = {'schemaVersion': 1, 'revision': 0, 'context': {'studentName': 'Ana Machava', 'studentEmail': 'ana.machava@example.test', 'className': 'Turma A', 'routeName': 'Roteiro SPEE', 'currentBlockId': 'acolhimento', 'roadmapVersion': 'spee-2026-10-25'}, 'members': ['Ana Machava', 'João Tembe', 'António Sitoe'], 'blocks': blocks, 'registration': None, 'events': [], 'groupMessages': [], 'resolvedNotifications': []}
 
 for example, company in [('1', 'Horizonte Verde, Lda.'), ('2', 'Nascente Criativa, Lda.')]:
@@ -217,7 +300,7 @@ for example, company in [('1', 'Horizonte Verde, Lda.'), ('2', 'Nascente Criativ
         for b in seed['blocks']:
             for a in b['activities']:
                 for t in a['tasks']:
-                    if b['id'] in ['acolhimento', 'ideacao'] or t['id'] in [f'b03-a01-t0{i}' for i in range(1, 5)]:
+                    if (b['id'] in ['acolhimento', 'ideacao'] and t['id'] not in ['b02-a01-t05', 'b04-a03-t05', 'b04-a04-t03', 'b04-a04-t04']) or t['id'] in [f'b03-a01-t0{i}' for i in range(1, 5)]:
                         t.update(status='completed', completedAt=DATE)
                         if t['kind'] == 'quiz':
                             t['answers'] = {q['id']: q['correct'] for q in t['questions']}
@@ -232,3 +315,7 @@ rows = ''.join(f'<section><h2>{escape(b["title"])}</h2><p>{escape(b["description
 PUBLIC.mkdir(parents=True, exist_ok=True)
 (PUBLIC / 'roteiro-completo.html').write_text('<!doctype html><html lang="pt"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Roteiro SPEE</title><style>body{font:16px/1.7 system-ui;color:#17243d;max-width:900px;margin:auto;padding:32px}h1,h2{color:#066dd9}section{border-bottom:1px solid #dbe7f2;padding:16px 0}</style><h1>Roteiro SPEE</h1><p>Mapa de consulta. A execução e o progresso são registados no Painel do Estudante.</p>' + rows + '</html>')
 print('Created 2 scenarios:', sum(len(b['activities']) for b in blocks), 'activities,', sum(len(a['tasks']) for b in blocks for a in b['activities']), 'tasks')
+
+# Reapply the editable link catalogue after fixture generation.
+import runpy
+runpy.run_path(str(ROOT / "scripts/roteiro/sync-task-links.py"), run_name="__main__")

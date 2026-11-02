@@ -5,32 +5,56 @@
     {
       "id": "ana",
       "name": "Ana Machava",
-      "className": "Turma A"
+      "className": "Turma A",
+      "company": {
+        "id": "horizonte-verde",
+        "name": "Horizonte Verde, Lda."
+      }
     },
     {
       "id": "joao",
       "name": "João Tembe",
-      "className": "Turma A"
+      "className": "Turma A",
+      "company": {
+        "id": "horizonte-verde",
+        "name": "Horizonte Verde, Lda."
+      }
     },
     {
       "id": "antonio",
       "name": "António Sitoe",
-      "className": "Turma A"
+      "className": "Turma A",
+      "company": {
+        "id": "horizonte-verde",
+        "name": "Horizonte Verde, Lda."
+      }
     },
     {
       "id": "leila",
       "name": "Leila Faife",
-      "className": "Turma B"
+      "className": "Turma B",
+      "company": {
+        "id": "maputo-solucoes",
+        "name": "Maputo Soluções, Lda."
+      }
     },
     {
       "id": "carla",
       "name": "Carla Nhampossa",
-      "className": "Turma B"
+      "className": "Turma B",
+      "company": {
+        "id": "maputo-solucoes",
+        "name": "Maputo Soluções, Lda."
+      }
     },
     {
       "id": "paulo",
       "name": "Paulo Sitoe",
-      "className": "Turma C"
+      "className": "Turma C",
+      "company": {
+        "id": "maputo-solucoes",
+        "name": "Maputo Soluções, Lda."
+      }
     }
   ],
   "channels": [

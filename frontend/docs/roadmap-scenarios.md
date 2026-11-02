@@ -115,3 +115,21 @@ Os três cartões representam blocos. O estado acompanha o rótulo de posição,
 `LearningTask.simulatedParticipants` é metadado descritivo opcional com nomes e contribuições. O gerador prepara exemplos específicos para as 48 tarefas. `getTaskParticipants` apresenta-os apenas quando a tarefa está concluída ou em curso; nas restantes situações, mostra-se «—», sem ícone de informação. Um único tooltip por tarefa reúne nomes completos e contribuições; os nomes na coluna são abreviados. A nota de proveniência acompanha a lista. Estes dados não calculam progresso nem autoria confirmada do docente.
 
 O adaptador completa metadados de tarefa ausentes a partir do mesmo ID no fixture, preservando listas personalizadas ou explicitamente vazias. Mantém a compatibilidade com os antigos metadados de actividade, mas não os usa como substituto da participação por tarefa. A leitura não escreve no armazenamento. Respostas, submissões, eventos, estados e revisão permanecem inalterados. O exemplo 2 não apresenta participação realizada antes de iniciar tarefas. Não foi acrescentada dependência nem integração externa.
+
+
+## Actualização do roteiro e links provisórios — 02/11/2026
+
+O roteiro mantém 15 actividades e passa de 48 para 52 tarefas. Acrescentam-se Conhecer as empresas do mercado (Ideação), Inscrever no INSS, Consultar documentos e regras bancárias e Aceder à banca electrónica (Início de actividades). As tarefas novas são obrigatórias, por iniciar, sem novas dependências bloqueantes. Preservam-se as conclusões anteriores; uma actividade antes concluída pode passar a Em curso até concluir a nova tarefa.
+
+A tarefa Celebrar contratos de custos fixos passa a Contratar fornecedores, mantendo o ID e a actividade Celebrar contratos de serviços. O popup disponibiliza quatro botões: arrendamento, energia, água e Internet/correio electrónico. Preparar a inscrição no INSS apresenta dois botões de referência. Actualizam-se também as ligações ao BAU e ao ERP (página de autenticação).
+
+O catálogo editável é [Links_Provisorios_Tarefas.md](../../output/mission_control_unificado/Links_Provisorios_Tarefas.md): 12 botões em oito tarefas, todos provisórios. As ligações abrem novo separador e nunca confirmam conclusão. O estado continua dependente da confirmação/evidência. A consulta do docente apresenta as mesmas ligações e preserva os registos de cada empresa. Os URLs não constituem integração automática com sistemas externos.
+
+Aplicar alterações manuais do catálogo: `python3 scripts/roteiro/sync-task-links.py` a partir da raiz. O script valida todas as linhas antes de escrever. A leitura do repository actualiza metadados por ID sem apagar respostas, submissões ou estados. A leitura não escreve automaticamente no armazenamento.
+
+
+## Preparação para a demonstração — pré-requisitos concluídos (02/11/2026)
+
+Por pedido do utilizador, a composição do protótipo activa `demoPrerequisites` nos dois exemplos. As 18 tarefas referenciadas por `dependsOn` são apresentadas como concluídas, com respostas e evidências de exemplo quando necessárias. As restantes tarefas conservam os seus estados, permitindo demonstrar a sua execução sem realizar primeiro os pré-requisitos. Não são criados eventos de realização real. Conclusões e submissões já existentes são preservadas.
+
+A preparação é aplicada no repository antes de calcular os estados agregados, pelo que o docente e o estudante apresentam os mesmos resultados. As regras de dependência permanecem intactas. A leitura não escreve no armazenamento; uma mutação posterior guarda o cenário preparado. Os fixtures de partida permanecem preservados. Para regressar à experiência com bloqueios, desactivar o terceiro argumento de `createPanelRepositories` em AppProviders e usar um cenário inicial sem alterações guardadas. O exemplo 2 deixa, durante esta preparação de demo, de representar zero tarefas realizadas.

@@ -15,6 +15,24 @@ export class RoadmapTeacherStorage {
       // Extend older two-company scenarios without replacing records or communications.
       snapshot.classes.push(...structuredClone(this.seed.classes.filter(item => !snapshot.classes.some(existing => existing.id === item.id))))
       snapshot.companies.push(...structuredClone(this.seed.companies.filter(item => !snapshot.companies.some(existing => existing.id === item.id))))
+      for (const company of snapshot.companies.filter(item => !item.linkedToStudent)) {
+        const source = this.seed.companies.find(item => item.id === company.id)
+        for (const activity of company.activities) {
+          const definitions = source?.activities.find(item => item.id === activity.id)?.tasks
+          if (!definitions) continue
+          const existing = new Map(activity.tasks?.map(task => [task.id, task]))
+          activity.tasks = definitions.map(definition => {
+            const saved = existing.get(definition.id)
+            if (!saved) return structuredClone(definition)
+            return definition.links ? { ...saved, title: definition.title, description: definition.description, links: definition.links, ...(definition.resource ? { resource: definition.resource } : {}) } : saved
+          })
+          if (activity.status === 'completed' && activity.tasks.some(task => task.required && task.status !== 'completed')) activity.status = 'in-progress'
+        }
+        for (const block of company.blocks) {
+          const activities = company.activities.filter(activity => activity.blockId === block.id)
+          if (block.state === 'completed' && activities.some(activity => activity.status !== 'completed')) block.state = 'in-progress'
+        }
+      }
       if (snapshot.demoCommunicationsVersion !== 1) {
         snapshot.orientationRequests.push(...structuredClone(this.seed.orientationRequests.filter(item => !snapshot.orientationRequests.some(existing => existing.id === item.id))))
         snapshot.generalOrientations.push(...structuredClone(this.seed.generalOrientations.filter(item => !snapshot.generalOrientations.some(existing => existing.id === item.id))))

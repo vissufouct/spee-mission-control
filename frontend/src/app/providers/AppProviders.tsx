@@ -16,14 +16,18 @@ const storage = {
   setItem: (key: string, value: string) => window.localStorage.setItem(key, value),
 }
 const scenarioStorage = exampleStorage(storage, studentScenario.id)
-const { student: repository, teacher: teacherRepository, companyId } = createPanelRepositories(storage, studentScenario.id)
+const { student: repository, teacher: teacherRepository, companyId } = createPanelRepositories(storage, studentScenario.id, true)
 const scenarioRepository = new JsonScenarioRepository(scenarioFixture, {
   getItem: key => window.localStorage.getItem(key),
   setItem: (key, value) => window.localStorage.setItem(key, value),
 })
 const conversations = createStudentConversations(repository, teacherRepository, companyId)
 const socialGifs = new GiphyRepository(import.meta.env.VITE_GIPHY_API_KEY ?? '')
-const socialRepository = new JsonSocialRepository(socialFixture, scenarioStorage)
+const socialSeed = structuredClone(socialFixture)
+for (const member of socialSeed.members) {
+  if (['ana', 'joao', 'antonio'].includes(member.id)) member.company = { id: companyId, name: studentScenario.seed.context.companyName }
+}
+const socialRepository = new JsonSocialRepository(socialSeed, scenarioStorage)
 export function AppProviders({ children }: { children: ReactNode }) {
   return <QueryClientProvider client={queryClient}><SocialProvider repository={socialRepository} gifs={socialGifs} coach={{ getContext: async () => {
     const snapshot = await repository.getSnapshot()

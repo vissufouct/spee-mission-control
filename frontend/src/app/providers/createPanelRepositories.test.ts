@@ -88,9 +88,9 @@ describe('docente: dez empresas do mesmo roteiro', () => {
       expect(company.example).toBe(String(index + 1))
       expect(company.name).toBe(source.context.companyName)
       expect(company.activities).toHaveLength(15)
-      expect(company.activities.flatMap(a => a.tasks ?? [])).toHaveLength(48)
+      expect(company.activities.flatMap(a => a.tasks ?? [])).toHaveLength(52)
       expect(company.activities.flatMap(a => a.tasks ?? []).filter(t => t.status === 'completed')).toHaveLength(index === 0 ? 24 : 0)
-      expect(company.activities.filter(a => a.status === 'completed')).toHaveLength(index === 0 ? 7 : 0)
+      expect(company.activities.filter(a => a.status === 'completed')).toHaveLength(index === 0 ? 6 : 0)
       expect(company.events).toEqual([])
       expect(company.results).toEqual([])
       expect(company.activities.every(a => a.dueDate === null)).toBe(true)
@@ -125,7 +125,7 @@ describe('docente: dez empresas do mesmo roteiro', () => {
     for (const company of simulated) {
       expect(company.example).toBeUndefined()
       expect(company.activities.map(a => a.id)).toEqual(snapshot.companies[0].activities.map(a => a.id))
-      expect(company.activities.flatMap(a => a.tasks ?? [])).toHaveLength(48)
+      expect(company.activities.flatMap(a => a.tasks ?? [])).toHaveLength(52)
       expect(company.results).toEqual([])
       expect(company.blocks.at(-1)?.state).toBe('unavailable')
       for (const activity of company.activities) {
@@ -249,4 +249,25 @@ describe('docente: dez empresas do mesmo roteiro', () => {
     delete snapshot.companies[0].activities[0].tasks![0].completedAt
     expect(teacherSnapshotSchema.safeParse(snapshot).success).toBe(false)
   })
+})
+
+it('prepara os pré-requisitos do demo nos dois exemplos e reflecte-os no docente', async () => {
+  const values = new Map<string, string>()
+  const storage = { getItem: (key: string) => values.get(key) ?? null, setItem: (key: string, value: string) => { values.set(key, value) } }
+  for (const id of ['1', '2']) {
+    const panels = createPanelRepositories(storage, id, true)
+    const snapshot = await panels.student.getSnapshot()
+    const activities = snapshot.blocks.flatMap(block => block.activities)
+    const tasks = activities.flatMap(activity => activity.tasks ?? [])
+    const prerequisites = new Set(tasks.flatMap(task => task.dependsOn ?? []))
+    expect(prerequisites.size).toBe(18)
+    expect(tasks.filter(task => prerequisites.has(task.id)).every(task => task.status === 'completed')).toBe(true)
+    expect(tasks.some(task => task.status === 'not-started')).toBe(true)
+    const teacher = await panels.teacher.getSnapshot()
+    const company = teacher.companies.find(company => company.id === panels.companyId)!
+    expect(company.activities.flatMap(activity => activity.tasks ?? []).some(task => task.status === 'blocked')).toBe(false)
+    for (const activity of activities) expect(company.activities.find(item => item.id === activity.id)?.status).toBe(getActivityStatus(activity, snapshot))
+    expect(await panels.student.getSnapshot()).toEqual(snapshot)
+  }
+  expect(values.size).toBe(0)
 })

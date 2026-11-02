@@ -45,3 +45,7 @@ O contrato CoachRepository pertence ao hub; app/providers adapta a API pública 
 
 ### Ligações nas respostas do coach
 As orientações incluem ligações discretas para as tarefas mencionadas e para a actividade. A composição fornece destinos baseados em IDs reais, compatíveis com o caminho do GitHub Pages. A ligação abre o diálogo da tarefa através de `?tarefa=<id>`; operações de registo abrem o formulário próprio. Tarefas bloqueadas mostram a condição, sem contornar pré-requisitos. Navegar não conclui nem submete tarefas. Fechar o diálogo remove o parâmetro da tarefa. A navegação sai do hub e a conversa efémera reinicia.
+
+
+### Empresa do autor no hub — 02/11/2026
+Cada publicação apresenta o nome da empresa como ligação junto ao autor, mantendo a turma. A ligação abre uma ficha informativa local com a empresa e os participantes identificados por turma, sem acesso ao painel do docente ou às conversas privadas. A empresa vem dos dados do participante; membros sem associação não recebem uma empresa inventada. As associações do cenário são também aplicadas às conversas anteriormente guardadas, sem apagar mensagens. Os participantes do exemplo activo pertencem à respectiva empresa.

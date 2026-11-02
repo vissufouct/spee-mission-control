@@ -11,10 +11,10 @@ export function exampleStorage(storage: Storage, id: string): Storage {
   return { getItem: key => storage.getItem(`spee.roadmap-2026.${id}.${key}`), setItem: (key, value) => storage.setItem(`spee.roadmap-2026.${id}.${key}`, value) }
 }
 
-export function createPanelRepositories(storage: Storage, selected: string) {
+export function createPanelRepositories(storage: Storage, selected: string, demoPrerequisites = false) {
   const examples = [exampleOne, exampleTwo].map((seed, index) => ({
     id: String(index + 1), companyId: index === 0 ? 'horizonte-verde' : 'nascente-criativa', seed,
-    repository: new JsonJourneyRepository(seed, exampleStorage(storage, String(index + 1))),
+    repository: new JsonJourneyRepository(seed, exampleStorage(storage, String(index + 1)), undefined, demoPrerequisites),
   }))
   const current = examples.find(example => example.id === selected) ?? examples[0]
   // Explicitly imported pre-roadmap scenarios retain their original regression path.
