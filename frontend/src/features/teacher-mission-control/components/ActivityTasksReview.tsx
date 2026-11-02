@@ -1,3 +1,4 @@
+import { resourceTitle } from '@/shared/lib/resource-title'
 import type { Company, TeacherActivity } from '../types'
 import { QuizParticipantResults } from './QuizParticipantResults'
 import { TeacherStatusBadge } from './TeacherStatusBadge'
@@ -13,7 +14,7 @@ export function ActivityTasksReview({ tasks, participants = [] }: { tasks: Teach
       const correct = task.questions?.filter(question => task.answers?.[question.id] === question.correct).length ?? 0
       const total = task.questions?.length ?? 0
       return <li key={task.id} className="space-y-2 p-4">
-        <div className="flex flex-wrap items-center justify-between gap-2"><h4 className="text-sm font-semibold">{task.title}</h4>{task.submission ? <span className="rounded-full bg-emerald-50 px-3 py-1 text-xs text-emerald-800">Submetido</span> : <TeacherStatusBadge status={task.status} />}</div>
+        <div className="flex flex-wrap items-center justify-between gap-2"><h4 className="text-sm font-semibold">{resourceTitle(task)}</h4>{task.submission ? <span className="rounded-full bg-emerald-50 px-3 py-1 text-xs text-emerald-800">Submetido</span> : <TeacherStatusBadge status={task.status} />}</div>
         <p className="text-xs text-slate-500">{formats[task.kind]}{task.completedAt && ` · ${formatInstant(task.completedAt)}`}</p>
         {task.status === 'blocked' && <p className="text-xs text-slate-600">{task.description}</p>}
         {task.kind === 'quiz' && participants.length > 0 && <QuizParticipantResults task={task} participants={participants} />}
@@ -24,8 +25,8 @@ export function ActivityTasksReview({ tasks, participants = [] }: { tasks: Teach
         </details>}
         {task.submission && <p className="text-xs text-slate-600">{task.submission.fileName} · {task.submission.submittedBy} · {formatInstant(task.submission.submittedAt)}</p>}
         {task.submission && !task.resource && !task.submission.file && <p className="text-xs text-slate-500">Ficheiro não disponível neste cenário.</p>}
-        {!!task.links?.length && <nav aria-label={`Ligações: ${task.title}`} className="flex flex-wrap gap-3">{task.links.map(link => <a key={link.label} href={link.url} target="_blank" rel="noopener noreferrer" className="rounded-lg border border-blue-200 px-3 py-2 text-sm text-blue-700 hover:bg-blue-50">{link.label}<span className="sr-only"> (novo separador)</span></a>)}</nav>}
-        {(!task.links?.length && (task.resource || task.submission?.file)) && (task.kind !== 'evidence' || task.submission) && <a className="inline-block text-sm text-blue-700 underline underline-offset-2" href={task.submission?.file?.dataUrl ?? (task.resource?.startsWith('https://') ? task.resource : import.meta.env.BASE_URL + task.resource)} download={task.submission?.file ? task.submission.fileName : undefined} target={task.submission?.file ? undefined : '_blank'} rel="noreferrer">{task.submission?.file ? 'Descarregar ficheiro submetido' : task.kind === 'evidence' ? 'Consultar ficheiro submetido' : 'Consultar material'}<span className="sr-only">: {task.title}{!task.submission?.file && ' (novo separador)'}</span></a>}
+        {!!task.links?.length && <nav aria-label={`Ligações: ${resourceTitle(task)}`} className="flex flex-wrap gap-3">{task.links.map(link => <a key={link.label} href={link.url} target="_blank" rel="noopener noreferrer" className="rounded-lg border border-blue-200 px-3 py-2 text-sm text-blue-700 hover:bg-blue-50">{link.label}<span className="sr-only"> (novo separador)</span></a>)}</nav>}
+        {(!task.links?.length && (task.resource || task.submission?.file)) && (task.kind !== 'evidence' || task.submission) && <a className="inline-block text-sm text-blue-700 underline underline-offset-2" href={task.submission?.file?.dataUrl ?? (task.resource?.startsWith('https://') ? task.resource : import.meta.env.BASE_URL + task.resource)} download={task.submission?.file ? task.submission.fileName : undefined} target={task.submission?.file ? undefined : '_blank'} rel="noreferrer">{task.submission?.file ? 'Descarregar ficheiro submetido' : task.kind === 'evidence' ? 'Consultar ficheiro submetido' : 'Consultar material'}<span className="sr-only">: {resourceTitle(task)}{!task.submission?.file && ' (novo separador)'}</span></a>}
       </li>
     })}</ul>
     <p className="text-xs text-slate-500">Consulta da realização dos estudantes. Submissão não equivale a avaliação ou aprovação.</p>

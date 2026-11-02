@@ -17,14 +17,19 @@ Todos os botões abrem um novo separador. Abrir um link não confirma a conclus�
 | b02-a01-t05 | Conhecer as empresas do mercado | Consultar empresas do mercado | https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com |
 | b03-a01-t01 | Consultar o portal do BAU | Consultar licenciamento e registo | https://www.bau.gov.mz/licenciamento-eregisto-de-actividades-economicas-2/ |
 | b03-a03-t01 | Arrendar espaço de trabalho | Arrendar espaço de trabalho | https://speedev.simulacao.co.mz/servicos/1/Imobiliaria41/fortyone/html/menu.html?hasEmpresa=1&email=caifazshirhass@gmail.com |
-| b03-a03-t03 | Contratar energia eléctrica | Contrato de energia eléctrica | https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com |
+| b03-a03-t03 | Contratar fornecimento de energia eléctrica | Contrato de energia eléctrica | https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com |
 | b03-a03-t04 | Contratar fornecimento de água | Contrato de fornecimento de água | https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com |
-| b03-a03-t05 | Contratar Internet e correio electrónico | Contrato de Internet e correio electrónico | https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com |
+| b03-a03-t05 | Contratar fornecimento de Internet e correio electrónico | Contrato de Internet e correio electrónico | https://speedev.simulacao.co.mz/paginasverdes/FormCatalogEmpresas.aspx?lng=1&hasEmpresa=1&idc=325&email=caifazshirhass@gmail.com |
 | b04-a03-t03 | Preparar a inscrição no INSS | Direitos e obrigações do contribuinte | https://www.inss.gov.mz/direitos-e-obrigacoes-do-contribuinte/ |
 | b04-a03-t03 | Preparar a inscrição no INSS | Documentos e modelos | https://www.inss.gov.mz/documentos-modelo/ |
 | b04-a03-t05 | Inscrever no INSS | Aceder ao INSS no simulador | https://speedev.simulacao.co.mz/servicos/1/INSS/inss.aspx?hasEmpresa=1&email=caifazshirhass@gmail.com |
 | b04-a04-t03 | Consultar documentos e regras bancárias | Consultar documentos e regras — BCI | https://www.bci.co.mz/bci-universal/abrir-uma-conta/ |
 | b04-a04-t04 | Aceder à banca electrónica | Aceder à banca electrónica | https://speedev.simulacao.co.mz/servicos/1/Banca/index.html?hasEmpresa=1&email=caifazshirhass@gmail.com |
-| b04-a02-t01 | Actualizar o perfil comercial | Aceder ao ERP | https://erp.ncsoftware.co.mz/login |
+| b04-a02-t01 | Actualizar o perfil comercial | Aceder ao ERP | https://speedev.simulacao.co.mz/Welcome.aspx?lng=1 |
 
 As quatro linhas de fornecedores correspondem agora a quatro tarefas independentes. A abertura de conta (`b03-a03-t02`) foi movida para Preparar as operações bancárias e não tem uma ligação adicional definida.
+
+
+### Identificação de tarefas do Mercado Real
+
+As tarefas com ligações HTTP(S) fora de `spee.ac.mz`, dos seus subdomínios e de `speedev.simulacao.co.mz` apresentam o sufixo **(Mercado Real)** no título, incluindo listas, próxima tarefa e popup de consulta. Basta uma ligação externa entre os destinos efectivos da tarefa. Recursos locais não recebem o sufixo. A indicação é calculada a partir dos URLs actuais, sem alterar IDs, estados ou títulos persistidos. O mesmo critério aplica-se ao estudante e ao docente.

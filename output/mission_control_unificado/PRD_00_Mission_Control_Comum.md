@@ -366,8 +366,13 @@ A preparação é aplicada no repository antes de calcular os estados agregados,
 
 ## Contratos por fornecedor e abertura de conta — revisão de demonstração
 
-«Contratar fornecedores» passa a quatro tarefas independentes na actividade Celebrar contratos de serviços: Arrendar espaço de trabalho (`b03-a03-t01`), Contratar energia eléctrica (`b03-a03-t03`), Contratar fornecimento de água (`b03-a03-t04`) e Contratar Internet e correio electrónico (`b03-a03-t05`). Cada tarefa tem estado, acção e uma ligação própria. Os endereços existentes são preservados no catálogo editável.
+«Contratar fornecedores» passa a quatro tarefas independentes na actividade Celebrar contratos de serviços: Arrendar espaço de trabalho (`b03-a03-t01`), Contratar fornecimento de energia eléctrica (`b03-a03-t03`), Contratar fornecimento de água (`b03-a03-t04`) e Contratar fornecimento de Internet e correio electrónico (`b03-a03-t05`). Cada tarefa tem estado, acção e uma ligação própria. Os endereços existentes são preservados no catálogo editável.
 
 «Abrir a conta bancária» mantém o ID `b03-a03-t02` por compatibilidade com registos anteriores, mas pertence agora a Preparar as operações bancárias (`preparar-banca`), depois de Consultar documentos e regras bancárias e antes de Aceder à banca electrónica. O roteiro passa a 55 tarefas em 15 actividades.
 
 Migração: o estado da conta acompanha a tarefa para a nova actividade; uma conclusão anterior do contrato agregado é preservada nas quatro tarefas que o desdobram. Registos individuais já existentes têm precedência. Não se duplicam tarefas. O modo de demonstração continua a pré-concluir os pré-requisitos.
+
+
+### Identificação de tarefas do Mercado Real
+
+As tarefas com ligações HTTP(S) fora de `spee.ac.mz`, dos seus subdomínios e de `speedev.simulacao.co.mz` apresentam o sufixo **(Mercado Real)** no título, incluindo listas, próxima tarefa e popup de consulta. Basta uma ligação externa entre os destinos efectivos da tarefa. Recursos locais não recebem o sufixo. A indicação é calculada a partir dos URLs actuais, sem alterar IDs, estados ou títulos persistidos. O mesmo critério aplica-se ao estudante e ao docente.

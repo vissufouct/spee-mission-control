@@ -299,7 +299,7 @@ bank_account = next(t for t in contracts['tasks'] if t['id'] == 'b03-a03-t02')
 contracts['tasks'] = []
 for task_id, title, link in zip(
     ['b03-a03-t01', 'b03-a03-t03', 'b03-a03-t04', 'b03-a03-t05'],
-    ['Arrendar espaço de trabalho', 'Contratar energia eléctrica', 'Contratar fornecimento de água', 'Contratar Internet e correio electrónico'],
+    ['Arrendar espaço de trabalho', 'Contratar fornecimento de energia eléctrica', 'Contratar fornecimento de água', 'Contratar fornecimento de Internet e correio electrónico'],
     supplier['links'],
 ):
     item = copy.deepcopy(supplier)

@@ -1,3 +1,4 @@
+import { resourceTitle } from '@/shared/lib/resource-title'
 import type { Activity, JourneySnapshot } from '../types'
 import { getLearningTasks } from './learning-tasks'
 import { getActivityStatus } from './journey.selectors'
@@ -17,5 +18,5 @@ export function getNextAction(activity: Activity, snapshot: JourneySnapshot) {
   if (status === 'blocked' || status === 'completed') return undefined
   const task = getLearningTasks(activity, snapshot).find(item => item.status !== 'completed' && item.status !== 'blocked')
   if (!task) return undefined
-  return { title: task.title, id: task.id, target: 'criteria' as const, label: 'Ver tarefa' }
+  return { title: resourceTitle(task), id: task.id, target: 'criteria' as const, label: 'Ver tarefa' }
 }

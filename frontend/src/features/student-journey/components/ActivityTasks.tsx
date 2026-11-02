@@ -1,3 +1,4 @@
+import { resourceTitle } from '@/shared/lib/resource-title'
 import { FileText, ListChecks, PlayCircle, Link as LinkIcon, CircleHelp } from 'lucide-react'
 import { Button } from '@/shared/components/ui/button'
 import { StatusBadge } from './StatusBadge'
@@ -18,13 +19,13 @@ export function ActivityTasks({ tasks, onOpen }: { tasks: LearningTask[]; onOpen
       const Icon = icons[task.kind]
       return <li key={task.id} className="student-task-row">
         <div className="student-task-description"><Icon className="shrink-0 text-blue-600" size={21} aria-hidden />
-        <div className="min-w-0"><h4 className="text-sm font-semibold">{task.title}</h4><p className="mt-1 text-xs text-slate-500">{formats[task.kind]}{task.kind === 'evidence' && ` · ${(task.accepts ?? ['pdf']).join(' / ').toUpperCase()}`}{task.kind === 'quiz' && task.status === 'completed' && ` · Pontuação: ${quizScore(task).correct}/${quizScore(task).total} (${quizScore(task).percent}%)`}</p></div></div>
-        <section className="student-task-participants" aria-label={`Participantes: ${task.title}`}>
+        <div className="min-w-0"><h4 className="text-sm font-semibold">{resourceTitle(task)}</h4><p className="mt-1 text-xs text-slate-500">{formats[task.kind]}{task.kind === 'evidence' && ` · ${(task.accepts ?? ['pdf']).join(' / ').toUpperCase()}`}{task.kind === 'quiz' && task.status === 'completed' && ` · Pontuação: ${quizScore(task).correct}/${quizScore(task).total} (${quizScore(task).percent}%)`}</p></div></div>
+        <section className="student-task-participants" aria-label={`Participantes: ${resourceTitle(task)}`}>
           <span className="student-task-cell-label">Participantes</span>
           <ParticipantInfo participants={getTaskParticipants(task)} showLabel={false} />
         </section>
         {task.kind === 'evidence' && task.submission ? <span className="rounded-full bg-emerald-50 px-3 py-1 text-xs font-medium text-emerald-800">Submetido</span> : <StatusBadge status={task.status} />}
-        <Button size="sm" variant="outline" className="student-task-action" disabled={!onOpen} onClick={() => onOpen?.(task)} aria-label={`${taskAction(task)}: ${task.title}`}>{taskAction(task)}</Button>
+        <Button size="sm" variant="outline" className="student-task-action" disabled={!onOpen} onClick={() => onOpen?.(task)} aria-label={`${taskAction(task)}: ${resourceTitle(task)}`}>{taskAction(task)}</Button>
       </li>
     })}</ul>
     </div>

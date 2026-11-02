@@ -1084,9 +1084,9 @@
             },
             {
               "id": "b03-a03-t03",
-              "title": "Contratar energia eléctrica",
+              "title": "Contratar fornecimento de energia eléctrica",
               "kind": "operation",
-              "description": "Contratar energia eléctrica. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
+              "description": "Contratar fornecimento de energia eléctrica. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
               "required": true,
               "status": "not-started",
               "simulatedParticipants": [
@@ -1142,9 +1142,9 @@
             },
             {
               "id": "b03-a03-t05",
-              "title": "Contratar Internet e correio electrónico",
+              "title": "Contratar fornecimento de Internet e correio electrónico",
               "kind": "operation",
-              "description": "Contratar Internet e correio electrónico. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
+              "description": "Contratar fornecimento de Internet e correio electrónico. Consulte o fornecedor no botão abaixo, confirme as condições e arquive o contrato ou comprovativo na simulação.",
               "required": true,
               "status": "not-started",
               "simulatedParticipants": [
@@ -1345,7 +1345,7 @@
               "links": [
                 {
                   "label": "Aceder ao ERP",
-                  "url": "https://erp.ncsoftware.co.mz/login"
+                  "url": "https://speedev.simulacao.co.mz/Welcome.aspx?lng=1"
                 }
               ]
             },

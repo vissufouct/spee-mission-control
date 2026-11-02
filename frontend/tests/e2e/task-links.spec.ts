@@ -39,7 +39,7 @@ test('fornecedores separados e abertura de conta na preparação bancária', asy
   await page.goto('/estudante/percurso/actividades/contratos-servicos?exemplo=1')
   const rows = page.locator('.student-task-row')
   await expect(rows).toHaveCount(4)
-  for (const title of ['Arrendar espaço de trabalho', 'Contratar energia eléctrica', 'Contratar fornecimento de água', 'Contratar Internet e correio electrónico']) await expect(rows.filter({ hasText: title })).toHaveCount(1)
+  for (const title of ['Arrendar espaço de trabalho', 'Contratar fornecimento de energia eléctrica', 'Contratar fornecimento de água', 'Contratar fornecimento de Internet e correio electrónico']) await expect(rows.filter({ hasText: title })).toHaveCount(1)
   await expect(rows.filter({ hasText: 'Abrir a conta bancária' })).toHaveCount(0)
   await page.goto('/estudante/percurso/actividades/preparar-banca')
   await expect(page.locator('.student-task-row').filter({ hasText: 'Abrir a conta bancária' })).toHaveCount(1)
